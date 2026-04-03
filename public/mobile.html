@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#0d1117" />
+  <title>美股监控 · 移动版</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --card2: #1c2230;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent2: #f78166;
+      --accent3: #3fb950;
+      --accent4: #d2a8ff;
+      --accent5: #ffa657;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --nav-h: 64px;
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    html, body { height: 100%; overflow: hidden; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.5;
+      overscroll-behavior: none;
+    }
+
+    /* ── App Shell ── */
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      height: 100dvh;
+    }
+
+    /* ── Top Header ── */
+    .top-bar {
+      background: linear-gradient(135deg, #0d1117 0%, #1a2332 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+      padding-top: calc(12px + env(safe-area-inset-top, 0px));
+    }
+    .top-bar-left h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #58a6ff, #a5d6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .top-bar-left p {
+      font-size: .7rem;
+      color: var(--muted);
+      margin-top: 1px;
+    }
+    .top-bar-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(63,185,80,.12);
+      border: 1px solid rgba(63,185,80,.3);
+      border-radius: 20px;
+      padding: 4px 10px;
+      font-size: .7rem;
+      color: var(--accent3);
+      font-weight: 600;
+    }
+    .live-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent3);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+    /* ── Scroll Content ── */
+    #content {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior-y: contain;
+    }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; padding: 0 0 calc(var(--nav-h) + var(--safe-bottom) + 16px); }
+
+    /* ── Bottom Navigation ── */
+    .bottom-nav {
+      display: flex;
+      background: rgba(13,17,23,0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-top: 1px solid var(--border);
+      padding-bottom: var(--safe-bottom);
+      flex-shrink: 0;
+      position: relative;
+      z-index: 100;
+    }
+    .nav-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 4px;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      transition: color .2s;
+      min-height: var(--nav-h);
+      position: relative;
+    }
+    .nav-item.active { color: var(--accent); }
+    .nav-item.active::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 20%; right: 20%;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 0 0 3px 3px;
+    }
+    .nav-icon { font-size: 1.3rem; line-height: 1; margin-bottom: 3px; }
+    .nav-label { font-size: .62rem; font-weight: 600; letter-spacing: .01em; }
+
+    /* ── Section Header ── */
+    .sec-header {
+      padding: 16px 16px 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .sec-icon {
+      width: 34px; height: 34px;
+      border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; flex-shrink: 0;
+    }
+    .sec-header h2 { font-size: 1rem; font-weight: 700; }
+    .sec-header p { font-size: .75rem; color: var(--muted); margin-top: 1px; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin: 0 12px 10px;
+    }
+    .card-hdr { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .card-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: .95rem; flex-shrink: 0; }
+    .card h3 { font-size: .9rem; font-weight: 700; }
+    .card p { color: var(--muted); font-size: .82rem; line-height: 1.5; }
+    .impact-bar { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+    .impact-label { font-size: .7rem; color: var(--muted); width: 44px; flex-shrink: 0; }
+    .bar-track { flex: 1; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 3px; }
+    .impact-value { font-size: .7rem; font-weight: 700; width: 28px; text-align: right; }
+    .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .tag { border-radius: 4px; padding: 2px 7px; font-size: .68rem; font-weight: 600; }
+    .tag.blue { background: rgba(88,166,255,.1); border: 1px solid rgba(88,166,255,.2); color: var(--accent); }
+    .tag.red { background: rgba(247,129,102,.1); border: 1px solid rgba(247,129,102,.2); color: var(--accent2); }
+    .tag.green { background: rgba(63,185,80,.1); border: 1px solid rgba(63,185,80,.2); color: var(--accent3); }
+    .tag.purple { background: rgba(210,168,255,.1); border: 1px solid rgba(210,168,255,.2); color: var(--accent4); }
+    .tag.orange { background: rgba(255,166,87,.1); border: 1px solid rgba(255,166,87,.2); color: var(--accent5); }
+
+    /* ── Info Box ── */
+    .info-box {
+      background: rgba(88,166,255,.07);
+      border: 1px solid rgba(88,166,255,.2);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 0 12px 10px;
+      font-size: .82rem;
+      color: var(--muted);
+    }
+    .info-box strong { color: var(--accent); }
+
+    /* ── Divider ── */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 14px 12px; }
+
+    /* ══════════════════════════════════════
+       CALENDAR TAB
+    ══════════════════════════════════════ */
+
+    /* Month nav */
+    .cal-nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px 8px;
+    }
+    .cal-nav-btn {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 38px; height: 38px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: border-color .2s;
+    }
+    .cal-nav-btn:active { border-color: var(--accent); background: rgba(88,166,255,.1); }
+    .cal-month-label { font-size: 1rem; font-weight: 700; }
+
+    /* Calendar grid */
+    .cal-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 3px;
+      padding: 0 10px 10px;
+    }
+    .cal-day-header {
+      text-align: center;
+      font-size: .65rem;
+      color: var(--muted);
+      font-weight: 600;
+      padding: 4px 0;
+      text-transform: uppercase;
+    }
+    .cal-cell {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      min-height: 58px;
+      padding: 4px;
+      cursor: pointer;
+      transition: border-color .15s;
+      position: relative;
+    }
+    .cal-cell:active { border-color: var(--accent); background: rgba(88,166,255,.08); }
+    .cal-cell.empty { background: transparent; border-color: transparent; cursor: default; }
+    .cal-cell.today { border-color: var(--accent); background: rgba(88,166,255,.06); }
+    .cal-cell.has-events { border-color: rgba(88,166,255,.25); }
+    .cal-date { font-size: .75rem; font-weight: 700; color: var(--muted); margin-bottom: 3px; }
+    .cal-cell.today .cal-date { color: var(--accent); }
+    .cal-dots { display: flex; flex-wrap: wrap; gap: 2px; }
+    .cal-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Event detail sheet */
+    .event-sheet {
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin: 0 10px 10px;
+      padding: 14px;
+      display: none;
+    }
+    .event-sheet.visible { display: block; }
+    .event-sheet h3 { font-size: .9rem; font-weight: 700; margin-bottom: 10px; }
+    .event-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .event-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+    .event-info h4 { font-size: .85rem; font-weight: 700; margin-bottom: 2px; }
+    .event-info p { font-size: .78rem; color: var(--muted); }
+    .event-time { font-size: .72rem; color: var(--accent); font-weight: 600; margin-top: 3px; }
+
+    /* Upcoming filter tabs */
+    .filter-tabs {
+      display: flex;
+      gap: 8px;
+      padding: 0 12px 10px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .filter-tabs::-webkit-scrollbar { display: none; }
+    .ftab {
+      white-space: nowrap;
+      padding: 7px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: .8rem;
+      font-weight: 600;
+      transition: all .2s;
+      flex-shrink: 0;
+    }
+    .ftab.active { background: rgba(88,166,255,.15); border-color: var(--accent); color: var(--accent); }
+    .ftab[data-f="earnings"].active { background: rgba(255,166,87,.15); border-color: var(--accent5); color: var(--accent5); }
+    .ftab[data-f="fomc"].active { background: rgba(247,129,102,.15); border-color: var(--accent2); color: var(--accent2); }
+    .ftab[data-f="economic"].active { background: rgba(63,185,80,.15); border-color: var(--accent3); color: var(--accent3); }
+
+    /* Upcoming list */
+    .upcoming-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 0 12px 8px;
+    }
+    .upcoming-date { text-align: center; min-width: 44px; }
+    .upcoming-date .day { font-size: 1.3rem; font-weight: 800; line-height: 1; }
+    .upcoming-date .month { font-size: .65rem; color: var(--muted); text-transform: uppercase; }
+    .upcoming-divider { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
+    .upcoming-info { flex: 1; min-width: 0; }
+    .upcoming-info h4 { font-size: .85rem; font-weight: 700; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .upcoming-info p { font-size: .75rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .countdown { font-size: .7rem; color: var(--muted); margin-top: 2px; }
+    .countdown span { color: var(--accent); font-weight: 700; }
+    .upcoming-badge { font-size: .65rem; font-weight: 700; padding: 3px 8px; border-radius: 20px; flex-shrink: 0; }
+    .upcoming-badge.fomc { background: rgba(247,129,102,.2); color: #f78166; }
+    .upcoming-badge.cpi { background: rgba(88,166,255,.2); color: #58a6ff; }
+    .upcoming-badge.nfp { background: rgba(63,185,80,.2); color: #3fb950; }
+    .upcoming-badge.pce { background: rgba(210,168,255,.2); color: #d2a8ff; }
+    .upcoming-badge.gdp { background: rgba(255,166,87,.2); color: #ffa657; }
+    .upcoming-badge.earnings { background: rgba(255,166,87,.2); color: #ffa657; }
+    .upcoming-badge.ppi, .upcoming-badge.retail, .upcoming-badge.pmi { background: rgba(63,185,80,.15); color: #56d364; }
+    .upcoming-badge.other { background: rgba(139,148,158,.15); color: #8b949e; }
+
+    /* ══════════════════════════════════════
+       NEWS TAB
+    ══════════════════════════════════════ */
+    .news-toolbar {
+      padding: 10px 12px 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .news-status-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .news-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .78rem;
+      color: var(--muted);
+    }
+    .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent3); animation: pulse 2s infinite; }
+    .status-dot.loading { background: var(--accent5); }
+    .status-dot.error { background: var(--accent2); animation: none; }
+    .news-actions { display: flex; gap: 8px; align-items: center; }
+    .lang-btn {
+      background: rgba(88,166,255,.1);
+      border: 1px solid rgba(88,166,255,.25);
+      color: var(--accent);
+      padding: 5px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+    .lang-btn.en { background: rgba(255,166,87,.1); border-color: rgba(255,166,87,.25); color: var(--accent5); }
+    .refresh-btn {
+      background: rgba(88,166,255,.1);
+      border: 1px solid rgba(88,166,255,.3);
+      color: var(--accent);
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: .78rem;
+      font-weight: 600;
+      display: flex; align-items: center; gap: 5px;
+    }
+    .refresh-btn:active { background: rgba(88,166,255,.2); }
+    .refresh-icon { display: inline-block; }
+    .refresh-btn.spinning .refresh-icon { animation: spin .8s linear infinite; }
+    @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+
+    .cat-filters {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .cat-filters::-webkit-scrollbar { display: none; }
+    .cat-btn {
+      white-space: nowrap;
+      background: var(--card2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 5px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: .75rem;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+    .cat-btn.active { background: rgba(88,166,255,.15); border-color: var(--accent); color: var(--accent); }
+
+    /* News items */
+    .news-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 0 12px 8px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .15s;
+    }
+    .news-item:active { border-color: var(--accent); background: rgba(88,166,255,.04); }
+    .news-source-dot { width: 3px; border-radius: 2px; flex-shrink: 0; align-self: stretch; min-height: 36px; }
+    .news-body { flex: 1; min-width: 0; }
+    .news-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap; }
+    .news-source { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+    .news-cat { font-size: .65rem; padding: 1px 6px; border-radius: 3px; font-weight: 600; }
+    .news-time { font-size: .68rem; color: var(--muted); margin-left: auto; }
+    .news-title { font-size: .88rem; font-weight: 600; line-height: 1.4; margin-bottom: 3px; }
+    .news-title-en { font-size: .73rem; color: var(--muted); line-height: 1.35; margin-bottom: 3px; font-style: italic; }
+    .news-desc { font-size: .78rem; color: var(--muted); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .news-arrow { color: var(--muted); font-size: 1rem; flex-shrink: 0; align-self: center; }
+
+    .news-empty { text-align: center; padding: 50px 20px; color: var(--muted); }
+    .news-empty .icon { font-size: 2.2rem; margin-bottom: 10px; }
+    .next-refresh { text-align: center; padding: 12px; font-size: .75rem; color: var(--muted); }
+    .next-refresh span { color: var(--accent); font-weight: 700; }
+    .last-updated { font-size: .7rem; color: var(--muted); padding: 0 12px 4px; }
+
+    /* ══════════════════════════════════════
+       FACTORS TAB
+    ══════════════════════════════════════ */
+    .factor-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 0 12px 8px;
+    }
+    .factor-icon { font-size: 1.4rem; flex-shrink: 0; width: 36px; text-align: center; }
+    .factor-body { flex: 1; min-width: 0; }
+    .factor-name { font-size: .88rem; font-weight: 700; margin-bottom: 2px; }
+    .factor-desc { font-size: .75rem; color: var(--muted); line-height: 1.4; }
+    .factor-meta { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+    .factor-freq { font-size: .68rem; color: var(--muted); }
+    .factor-impact {
+      font-size: .68rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-left: auto;
+    }
+    .impact-extreme { background: rgba(247,129,102,.2); color: #f78166; }
+    .impact-high { background: rgba(255,166,87,.2); color: #ffa657; }
+    .impact-med { background: rgba(63,185,80,.2); color: #3fb950; }
+
+    /* ══════════════════════════════════════
+       EARNINGS TAB
+    ══════════════════════════════════════ */
+    .company-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin: 0 12px 10px;
+    }
+    .company-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .company-logo {
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 800; flex-shrink: 0;
+    }
+    .company-name { font-size: .95rem; font-weight: 700; }
+    .company-ticker { font-size: .72rem; color: var(--muted); }
+    .company-desc { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+
+    /* ══════════════════════════════════════
+       OVERVIEW TAB
+    ══════════════════════════════════════ */
+    .chart-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin: 0 12px 12px;
+    }
+    .chart-title { font-size: .9rem; font-weight: 700; margin-bottom: 2px; }
+    .chart-sub { font-size: .75rem; color: var(--muted); margin-bottom: 14px; }
+    .chart-wrap { position: relative; height: 240px; }
+    .chart-wrap.tall { height: 380px; }
+
+    /* Rank list (mobile-friendly alternative to horizontal bar chart) */
+    .rank-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .rank-item:last-child { border-bottom: none; }
+    .rank-num { font-size: .75rem; font-weight: 700; color: var(--muted); width: 20px; text-align: center; flex-shrink: 0; }
+    .rank-name { flex: 1; font-size: .82rem; font-weight: 600; }
+    .rank-bar-wrap { width: 80px; }
+    .rank-bar { height: 6px; border-radius: 3px; }
+    .rank-score { font-size: .75rem; font-weight: 700; width: 28px; text-align: right; flex-shrink: 0; }
+
+    /* ── Pull to refresh indicator ── */
+    .ptr-indicator {
+      text-align: center;
+      padding: 10px;
+      font-size: .75rem;
+      color: var(--muted);
+      display: none;
+    }
+
+    /* ── Scroll to top button ── */
+    .scroll-top-btn {
+      position: fixed;
+      bottom: calc(var(--nav-h) + var(--safe-bottom) + 16px);
+      right: 16px;
+      width: 40px; height: 40px;
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      color: var(--muted);
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,.4);
+      z-index: 50;
+      transition: opacity .2s;
+    }
+    .scroll-top-btn.visible { display: flex; }
+  </style>
+</head>
+<body>
+
+<div id="app">
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <h1>🇺🇸 美股监控中心</h1>
+      <p>财经日历 · 实时新闻 · 影响因素分析</p>
+    </div>
+    <div class="top-bar-right">
+      <div class="live-badge">
+        <div class="live-dot"></div>
+        实时
+      </div>
+    </div>
+  </div>
+
+  <!-- Scrollable Content -->
+  <div id="content">
+
+    <!-- ══════════════════════════════════
+         TAB: 财经日历
+    ══════════════════════════════════ -->
+    <div id="tab-calendar" class="tab-panel active">
+
+      <!-- Month navigation -->
+      <div class="cal-nav-bar">
+        <button class="cal-nav-btn" onclick="changeMonth(-1)">‹</button>
+        <div class="cal-month-label" id="calMonthLabel">2026年4月</div>
+        <button class="cal-nav-btn" onclick="changeMonth(1)">›</button>
+      </div>
+
+      <!-- Calendar grid -->
+      <div class="cal-grid" id="calGrid">
+        <div class="cal-day-header">日</div>
+        <div class="cal-day-header">一</div>
+        <div class="cal-day-header">二</div>
+        <div class="cal-day-header">三</div>
+        <div class="cal-day-header">四</div>
+        <div class="cal-day-header">五</div>
+        <div class="cal-day-header">六</div>
+      </div>
+
+      <!-- Color legend -->
+      <div style="display:flex;flex-wrap:wrap;gap:10px;padding:0 12px 12px;font-size:.7rem;color:var(--muted)">
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f78166;margin-right:4px"></span>FOMC</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#58a6ff;margin-right:4px"></span>CPI</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3fb950;margin-right:4px"></span>NFP</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d2a8ff;margin-right:4px"></span>PCE/GDP</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffa657;margin-right:4px"></span>财报</span>
+      </div>
+
+      <!-- Event detail -->
+      <div class="event-sheet" id="eventSheet">
+        <h3 id="eventSheetTitle">📅 选择日期</h3>
+        <div id="eventSheetList"></div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Upcoming events -->
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(88,166,255,.15)">⏰</div>
+        <div>
+          <h2>近期重要事件</h2>
+          <p>未来30天内的关键财经事件</p>
+        </div>
+      </div>
+
+      <div class="filter-tabs" id="upcomingTabs">
+        <button class="ftab active" data-f="all" onclick="switchUpcomingTab('all',this)">全部</button>
+        <button class="ftab" data-f="earnings" onclick="switchUpcomingTab('earnings',this)">💼 财报</button>
+        <button class="ftab" data-f="fomc" onclick="switchUpcomingTab('fomc',this)">🏛️ 货币政策</button>
+        <button class="ftab" data-f="economic" onclick="switchUpcomingTab('economic',this)">📈 关键经济</button>
+      </div>
+
+      <div id="upcomingList"></div>
+
+    </div>
+
+    <!-- ══════════════════════════════════
+         TAB: 实时新闻
+    ══════════════════════════════════ -->
+    <div id="tab-news" class="tab-panel">
+
+      <div class="news-toolbar">
+        <div class="news-status-row">
+          <div class="news-status">
+            <div class="status-dot" id="statusDot"></div>
+            <span id="statusText">正在加载...</span>
+          </div>
+          <div class="news-actions">
+            <button class="lang-btn" id="langBtn" onclick="toggleLang()">🌐 中文</button>
+            <button class="refresh-btn" id="refreshBtn" onclick="manualRefresh()">
+              <span class="refresh-icon">↻</span> 刷新
+            </button>
+          </div>
+        </div>
+        <div class="cat-filters">
+          <button class="cat-btn active" onclick="filterNews('all',this)">全部</button>
+          <button class="cat-btn" onclick="filterNews('综合',this)">综合</button>
+          <button class="cat-btn" onclick="filterNews('经济',this)">经济</button>
+          <button class="cat-btn" onclick="filterNews('金融',this)">金融</button>
+          <button class="cat-btn" onclick="filterNews('科技',this)">科技</button>
+        </div>
+      </div>
+      <div class="last-updated" id="lastUpdatedText"></div>
+
+      <div id="newsGrid">
+        <div class="news-empty"><div class="icon">📡</div><p>正在获取最新财经新闻...</p></div>
+      </div>
+
+      <div class="next-refresh" id="nextRefreshText"></div>
+    </div>
+
+    <!-- ══════════════════════════════════
+         TAB: 影响因素
+    ══════════════════════════════════ -->
+    <div id="tab-factors" class="tab-panel">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(88,166,255,.15)">🏛️</div>
+        <div><h2>货币政策</h2><p>影响力：极高</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🎯</div>
+        <div class="factor-body">
+          <div class="factor-name">FOMC 利率决议</div>
+          <div class="factor-desc">每年8次，决定联邦基金利率。加息/降息直接影响资金成本和股票估值。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每年8次</span>
+            <span class="factor-impact impact-extreme">极高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🎤</div>
+        <div class="factor-body">
+          <div class="factor-name">鲍威尔新闻发布会</div>
+          <div class="factor-desc">每次FOMC后召开，鹰派/鸽派措辞可在30分钟内引发指数1-3%波动。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每年8次</span>
+            <span class="factor-impact impact-extreme">极高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">📋</div>
+        <div class="factor-body">
+          <div class="factor-name">FOMC 会议纪要</div>
+          <div class="factor-desc">会议结束约3周后公布，揭示委员分歧，常引发二次波动。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">会后3周</span>
+            <span class="factor-impact impact-high">较高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🏦</div>
+        <div class="factor-body">
+          <div class="factor-name">QE / QT 资产负债表</div>
+          <div class="factor-desc">量化宽松注入流动性利好股市；量化紧缩抽走流动性压制股市。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">持续影响</span>
+            <span class="factor-impact impact-extreme">高</span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(63,185,80,.15)">📈</div>
+        <div><h2>关键经济数据</h2><p>影响力：极高～高</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🌡️</div>
+        <div class="factor-body">
+          <div class="factor-name">CPI — 消费者价格指数</div>
+          <div class="factor-desc">高于预期→推迟降息→股市下跌；低于预期→降息预期升温→股市上涨。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每月第2周</span>
+            <span class="factor-impact impact-extreme">极高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">👷</div>
+        <div class="factor-body">
+          <div class="factor-name">NFP — 非农就业数据</div>
+          <div class="factor-desc">每月第一个周五发布，就业强弱双向影响利率预期，是最受关注的月度数据。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每月第一周五</span>
+            <span class="factor-impact impact-extreme">极高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🛒</div>
+        <div class="factor-body">
+          <div class="factor-name">PCE — 个人消费支出价格</div>
+          <div class="factor-desc">美联储最偏好的通胀指标（优先于CPI），每月底发布。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每月底</span>
+            <span class="factor-impact impact-extreme">高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">📊</div>
+        <div class="factor-body">
+          <div class="factor-name">GDP — 国内生产总值</div>
+          <div class="factor-desc">每季度发布。连续两季度负增长即为技术性衰退，引发大盘大幅下跌。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每季度</span>
+            <span class="factor-impact impact-extreme">高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🏭</div>
+        <div class="factor-body">
+          <div class="factor-name">PPI — 生产者价格指数</div>
+          <div class="factor-desc">CPI的先行指标，每月第2周（CPI前一天）发布，上涨预示CPI也将上涨。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每月第2周</span>
+            <span class="factor-impact impact-high">较高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🛍️</div>
+        <div class="factor-body">
+          <div class="factor-name">零售销售 / PMI / 消费信心</div>
+          <div class="factor-desc">零售销售衡量消费支出（占GDP约70%）；PMI反映景气度（50为荣枯线）。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">每月</span>
+            <span class="factor-impact impact-high">中高</span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(247,129,102,.15)">🌍</div>
+        <div><h2>地缘政治与其他</h2><p>影响力：高～极端</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">📉</div>
+        <div class="factor-body">
+          <div class="factor-name">10年期美债收益率</div>
+          <div class="factor-desc">无风险利率基准，上升→估值压缩，尤其打压高估值成长股（科技股）。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">实时</span>
+            <span class="factor-impact impact-extreme">极高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">⚔️</div>
+        <div class="factor-body">
+          <div class="factor-name">地缘政治 / 中美关系</div>
+          <div class="factor-desc">重大冲突引发避险情绪；中美贸易战对科技和半导体板块冲击尤为显著。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">不定期</span>
+            <span class="factor-impact impact-extreme">高</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">😱</div>
+        <div class="factor-body">
+          <div class="factor-name">VIX 恐慌指数 / 黑天鹅</div>
+          <div class="factor-desc">VIX > 30为极度恐慌信号。疫情、金融危机等黑天鹅短期冲击极端，历史均最终恢复。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">不可预测</span>
+            <span class="factor-impact impact-extreme">极端</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ══════════════════════════════════
+         TAB: 财报季
+    ══════════════════════════════════ -->
+    <div id="tab-earnings" class="tab-panel">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(255,166,87,.15)">🏆</div>
+        <div><h2>七巨头财报</h2><p>合计占S&P 500市值约30%+</p></div>
+      </div>
+
+      <div class="info-box">
+        <strong>财报季节奏：</strong>Q1：4-5月 ｜ Q2：7-8月 ｜ Q3：10-11月 ｜ Q4：1-2月
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">七巨头 S&P 500 市值权重</div>
+        <div class="chart-sub">合计约占30%+，财报直接牵动大盘</div>
+        <div class="chart-wrap"><canvas id="weightChart"></canvas></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(88,166,255,.15);color:#58a6ff">A</div>
+          <div><div class="company-name">Apple</div><div class="company-ticker">AAPL · Q1财报约5月</div></div>
+        </div>
+        <div class="company-desc">iPhone销量、服务收入（App Store、Apple Music）是核心关注点。S&P 500权重最大公司之一。</div>
+        <div class="tags"><span class="tag green">市值~3.5T</span><span class="tag orange">iPhone周期</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(63,185,80,.15);color:#3fb950">M</div>
+          <div><div class="company-name">Microsoft</div><div class="company-ticker">MSFT · Q1财报约4月</div></div>
+        </div>
+        <div class="company-desc">Azure云业务增速是核心指标。与OpenAI深度合作，是AI概念股代表。</div>
+        <div class="tags"><span class="tag green">市值~3.0T</span><span class="tag purple">AI核心</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(247,129,102,.15);color:#f78166">G</div>
+          <div><div class="company-name">Alphabet (Google)</div><div class="company-ticker">GOOGL · Q1财报约4月</div></div>
+        </div>
+        <div class="company-desc">广告收入（Search + YouTube）和Google Cloud增速是关键。AI搜索对传统广告的冲击是最大不确定性。</div>
+        <div class="tags"><span class="tag green">市值~2.0T</span><span class="tag red">广告周期</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(88,166,255,.15);color:#58a6ff">A</div>
+          <div><div class="company-name">Amazon</div><div class="company-ticker">AMZN · Q1财报约5月</div></div>
+        </div>
+        <div class="company-desc">AWS云业务是利润核心，AWS增速和运营利润率是市场最关注的两个指标。</div>
+        <div class="tags"><span class="tag green">市值~2.2T</span><span class="tag orange">AWS增速</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(210,168,255,.15);color:#d2a8ff">M</div>
+          <div><div class="company-name">Meta Platforms</div><div class="company-ticker">META · Q1财报约4月</div></div>
+        </div>
+        <div class="company-desc">Facebook/Instagram广告收入和日活用户（DAU）是核心指标。AI广告工具是近年增长驱动力。</div>
+        <div class="tags"><span class="tag green">市值~1.4T</span><span class="tag purple">广告AI</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(63,185,80,.15);color:#3fb950">N</div>
+          <div><div class="company-name">NVIDIA</div><div class="company-ticker">NVDA · Q1财报约5月</div></div>
+        </div>
+        <div class="company-desc">AI基础设施核心受益者。数据中心GPU收入是全市场最受关注的财报指标，被视为AI投资热度"晴雨表"。</div>
+        <div class="tags"><span class="tag green">市值~2.7T</span><span class="tag red">AI风向标</span></div>
+      </div>
+
+      <div class="company-card">
+        <div class="company-top">
+          <div class="company-logo" style="background:rgba(255,166,87,.15);color:#ffa657">T</div>
+          <div><div class="company-name">Tesla</div><div class="company-ticker">TSLA · Q1财报约4月</div></div>
+        </div>
+        <div class="company-desc">汽车交付量、毛利率和FSD自动驾驶进展是核心指标。七巨头中波动性最大。</div>
+        <div class="tags"><span class="tag green">市值~0.8T</span><span class="tag orange">高波动</span></div>
+      </div>
+
+      <hr class="divider">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(63,185,80,.15)">🏦</div>
+        <div><h2>金融板块财报</h2><p>财报季"第一枪"</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">🏦</div>
+        <div class="factor-body">
+          <div class="factor-name">摩根大通（JPMorgan Chase）</div>
+          <div class="factor-desc">通常是财报季第一家发布的大型金融机构。净息差、贷款增长和信贷损失拨备反映整体经济信用状况。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">财报季开幕</span>
+            <span class="factor-impact impact-high">重要</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon">💼</div>
+        <div class="factor-body">
+          <div class="factor-name">高盛 / 摩根士丹利</div>
+          <div class="factor-desc">投资银行业务（IPO、并购、债券承销）反映资本市场活跃度。</div>
+          <div class="factor-meta">
+            <span class="factor-freq">资本市场</span>
+            <span class="factor-impact impact-high">重要</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ══════════════════════════════════
+         TAB: 综合概览
+    ══════════════════════════════════ -->
+    <div id="tab-overview" class="tab-panel">
+
+      <div class="sec-header">
+        <div class="sec-icon" style="background:rgba(88,166,255,.15)">🔭</div>
+        <div><h2>综合影响力评估</h2><p>各因素横向对比</p></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">各类因素影响力雷达图</div>
+        <div class="chart-sub">六维度综合评估</div>
+        <div class="chart-wrap"><canvas id="radarChart"></canvas></div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">关键因素影响力排行</div>
+        <div class="chart-sub">综合评分（满分100）</div>
+        <div id="rankList"></div>
+      </div>
+
+    </div>
+
+  </div><!-- end #content -->
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" onclick="switchTab('calendar', this)">
+      <div class="nav-icon">📅</div>
+      <div class="nav-label">日历</div>
+    </button>
+    <button class="nav-item" onclick="switchTab('news', this)">
+      <div class="nav-icon">📡</div>
+      <div class="nav-label">新闻</div>
+    </button>
+    <button class="nav-item" onclick="switchTab('factors', this)">
+      <div class="nav-icon">📊</div>
+      <div class="nav-label">因素</div>
+    </button>
+    <button class="nav-item" onclick="switchTab('earnings', this)">
+      <div class="nav-icon">💼</div>
+      <div class="nav-label">财报</div>
+    </button>
+    <button class="nav-item" onclick="switchTab('overview', this)">
+      <div class="nav-icon">🔭</div>
+      <div class="nav-label">概览</div>
+    </button>
+  </nav>
+
+</div><!-- end #app -->
+
+<!-- Scroll to top button -->
+<button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+<script>
+// ══════════════════════════════════════════
+// TAB SWITCHING
+// ══════════════════════════════════════════
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  if (btn) btn.classList.add('active');
+  document.getElementById('content').scrollTo(0, 0);
+
+  if (name === 'overview') setTimeout(renderOverviewCharts, 50);
+  if (name === 'earnings') setTimeout(renderWeightChart, 50);
+  if (name === 'calendar') { renderCalendar(); renderUpcoming(); }
+  if (name === 'news') { if (!newsLoaded) fetchNews(); }
+}
+
+// ══════════════════════════════════════════
+// SCROLL TO TOP
+// ══════════════════════════════════════════
+const content = document.getElementById('content');
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+content.addEventListener('scroll', () => {
+  if (content.scrollTop > 300) scrollTopBtn.classList.add('visible');
+  else scrollTopBtn.classList.remove('visible');
+});
+function scrollToTop() {
+  content.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ══════════════════════════════════════════
+// CHART DEFAULTS
+// ══════════════════════════════════════════
+Chart.defaults.color = '#8b949e';
+Chart.defaults.borderColor = '#30363d';
+Chart.defaults.font.family = "-apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif";
+
+let weightChartInst = null;
+function renderWeightChart() {
+  const ctx = document.getElementById('weightChart');
+  if (!ctx) return;
+  if (weightChartInst) weightChartInst.destroy();
+  weightChartInst = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META', 'TSLA'],
+      datasets: [{ label: 'S&P 500权重(%)', data: [7.2, 6.5, 5.8, 4.5, 4.1, 2.9, 1.7],
+        backgroundColor: ['rgba(88,166,255,0.8)','rgba(63,185,80,0.8)','rgba(247,129,102,0.8)','rgba(88,166,255,0.7)','rgba(247,129,102,0.7)','rgba(210,168,255,0.8)','rgba(255,166,87,0.8)'],
+        borderRadius: 6, borderSkipped: false }]
+    },
+    options: { responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.y}%` } } },
+      scales: { y: { grid: { color: 'rgba(48,54,61,0.5)' }, ticks: { callback: v => v + '%', font: { size: 10 } } }, x: { grid: { display: false }, ticks: { font: { size: 11 } } } }
+    }
+  });
+}
+
+let radarInst = null;
+function renderOverviewCharts() {
+  // Radar chart
+  const rCtx = document.getElementById('radarChart');
+  if (rCtx && !radarInst) {
+    radarInst = new Chart(rCtx, {
+      type: 'radar',
+      data: {
+        labels: ['货币政策', '经济数据', '企业财报', '地缘政治', '金融市场', '财政政策'],
+        datasets: [
+          { label: '影响频率', data: [90, 95, 80, 50, 85, 40], borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,0.15)', pointBackgroundColor: '#58a6ff', borderWidth: 2 },
+          { label: '单次冲击', data: [98, 85, 75, 82, 88, 65], borderColor: '#f78166', backgroundColor: 'rgba(247,129,102,0.15)', pointBackgroundColor: '#f78166', borderWidth: 2 }
+        ]
+      },
+      options: { responsive: true, maintainAspectRatio: false,
+        scales: { r: { min: 0, max: 100, grid: { color: 'rgba(48,54,61,0.6)' }, angleLines: { color: 'rgba(48,54,61,0.6)' }, pointLabels: { color: '#e6edf3', font: { size: 11 } }, ticks: { display: false } } },
+        plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 10, font: { size: 11 } } } }
+      }
+    });
+  }
+
+  // Rank list (mobile-friendly)
+  const rankList = document.getElementById('rankList');
+  if (rankList && rankList.children.length === 0) {
+    const items = [
+      { name: 'FOMC 利率决议', score: 98 },
+      { name: 'CPI 通胀数据', score: 96 },
+      { name: '鲍威尔新闻发布会', score: 95 },
+      { name: '非农就业（NFP）', score: 93 },
+      { name: '10年期美债收益率', score: 90 },
+      { name: '七巨头财报', score: 90 },
+      { name: 'PCE 价格指数', score: 88 },
+      { name: '中美贸易摩擦', score: 88 },
+      { name: '金融市场指标', score: 88 },
+      { name: 'GDP 数据', score: 85 },
+      { name: 'QE/QT 政策', score: 80 },
+      { name: '地缘政治冲突', score: 82 },
+      { name: 'VIX 恐慌指数', score: 75 },
+      { name: 'PPI 生产者价格', score: 70 },
+      { name: 'PMI 采购经理人', score: 72 },
+      { name: '零售销售数据', score: 65 },
+    ];
+    items.forEach((item, i) => {
+      const color = item.score >= 90 ? '#f78166' : item.score >= 75 ? '#ffa657' : '#3fb950';
+      const div = document.createElement('div');
+      div.className = 'rank-item';
+      div.innerHTML = `
+        <div class="rank-num">${i+1}</div>
+        <div class="rank-name">${item.name}</div>
+        <div class="rank-bar-wrap">
+          <div class="rank-bar" style="width:${item.score}%;background:${color}22;border:1px solid ${color}44">
+            <div style="height:100%;width:${item.score}%;background:${color};border-radius:3px"></div>
+          </div>
+        </div>
+        <div class="rank-score" style="color:${color}">${item.score}</div>`;
+      rankList.appendChild(div);
+    });
+  }
+}
+
+// ══════════════════════════════════════════
+// CALENDAR
+// ══════════════════════════════════════════
+const EVENTS_DB = [
+  { date: '2026-01-27', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-01-28', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布（美东时间14:00），鲍威尔新闻发布会（14:30）', time: '14:00 ET' },
+  { date: '2026-03-17', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-03-18', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布，附季度经济预测（SEP）和点阵图', time: '14:00 ET' },
+  { date: '2026-04-28', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-04-29', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布（美东时间14:00），鲍威尔新闻发布会（14:30）', time: '14:00 ET' },
+  { date: '2026-06-16', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-06-17', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布，附季度经济预测（SEP）和点阵图', time: '14:00 ET' },
+  { date: '2026-07-28', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-07-29', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布（美东时间14:00），鲍威尔新闻发布会（14:30）', time: '14:00 ET' },
+  { date: '2026-09-15', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-09-16', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布，附季度经济预测（SEP）和点阵图', time: '14:00 ET' },
+  { date: '2026-10-27', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-10-28', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布（美东时间14:00），鲍威尔新闻发布会（14:30）', time: '14:00 ET' },
+  { date: '2026-12-08', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+  { date: '2026-12-09', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布，附季度经济预测（SEP）和点阵图', time: '14:00 ET' },
+  { date: '2026-01-14', type: 'cpi', title: 'CPI 通胀数据（12月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-02-11', type: 'cpi', title: 'CPI 通胀数据（1月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-03-11', type: 'cpi', title: 'CPI 通胀数据（2月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-04-10', type: 'cpi', title: 'CPI 通胀数据（3月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-05-13', type: 'cpi', title: 'CPI 通胀数据（4月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-06-10', type: 'cpi', title: 'CPI 通胀数据（5月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-07-15', type: 'cpi', title: 'CPI 通胀数据（6月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-08-12', type: 'cpi', title: 'CPI 通胀数据（7月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-09-09', type: 'cpi', title: 'CPI 通胀数据（8月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-10-14', type: 'cpi', title: 'CPI 通胀数据（9月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-11-12', type: 'cpi', title: 'CPI 通胀数据（10月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-12-10', type: 'cpi', title: 'CPI 通胀数据（11月）', desc: '消费者价格指数，核心CPI是关键。高于预期利空股市。', time: '08:30 ET' },
+  { date: '2026-01-09', type: 'nfp', title: '非农就业报告（NFP）', desc: '12月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-02-06', type: 'nfp', title: '非农就业报告（NFP）', desc: '1月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-03-06', type: 'nfp', title: '非农就业报告（NFP）', desc: '2月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-04-03', type: 'nfp', title: '非农就业报告（NFP）', desc: '3月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-05-01', type: 'nfp', title: '非农就业报告（NFP）', desc: '4月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-06-05', type: 'nfp', title: '非农就业报告（NFP）', desc: '5月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-07-10', type: 'nfp', title: '非农就业报告（NFP）', desc: '6月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-08-07', type: 'nfp', title: '非农就业报告（NFP）', desc: '7月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-09-04', type: 'nfp', title: '非农就业报告（NFP）', desc: '8月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-10-02', type: 'nfp', title: '非农就业报告（NFP）', desc: '9月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-11-06', type: 'nfp', title: '非农就业报告（NFP）', desc: '10月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-12-04', type: 'nfp', title: '非农就业报告（NFP）', desc: '11月就业数据。新增就业人数、失业率、平均时薪是三大关注点。', time: '08:30 ET' },
+  { date: '2026-01-30', type: 'pce', title: 'PCE 价格指数（12月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-02-27', type: 'pce', title: 'PCE 价格指数（1月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-03-27', type: 'pce', title: 'PCE 价格指数（2月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-04-30', type: 'pce', title: 'PCE 价格指数（3月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-05-29', type: 'pce', title: 'PCE 价格指数（4月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-06-26', type: 'pce', title: 'PCE 价格指数（5月）', desc: '美联储最偏好的通胀指标。核心PCE是政策制定关键参考。', time: '08:30 ET' },
+  { date: '2026-01-29', type: 'gdp', title: 'GDP 初值（Q4 2025）', desc: '第四季度GDP初值，连续两季度负增长即为技术性衰退。', time: '08:30 ET' },
+  { date: '2026-04-29', type: 'gdp', title: 'GDP 初值（Q1 2026）', desc: '第一季度GDP初值，连续两季度负增长即为技术性衰退。', time: '08:30 ET' },
+  { date: '2026-07-30', type: 'gdp', title: 'GDP 初值（Q2 2026）', desc: '第二季度GDP初值，连续两季度负增长即为技术性衰退。', time: '08:30 ET' },
+  { date: '2026-10-29', type: 'gdp', title: 'GDP 初值（Q3 2026）', desc: '第三季度GDP初值，连续两季度负增长即为技术性衰退。', time: '08:30 ET' },
+  { date: '2026-04-11', type: 'earnings', title: '摩根大通（JPM）财报', desc: 'Q1 2026财报，财报季"第一枪"，净息差和信贷损失是关键。', time: '盘前' },
+  { date: '2026-04-14', type: 'earnings', title: '高盛（GS）/ 美国银行（BAC）财报', desc: 'Q1 2026财报，反映资本市场活跃度和消费信贷健康度。', time: '盘前' },
+  { date: '2026-04-22', type: 'earnings', title: 'Tesla（TSLA）财报', desc: 'Q1 2026财报，关注交付量、毛利率和FSD进展。', time: '盘后' },
+  { date: '2026-04-23', type: 'earnings', title: 'Alphabet（GOOGL）财报', desc: 'Q1 2026财报，关注搜索广告收入和Google Cloud增速。', time: '盘后' },
+  { date: '2026-04-24', type: 'earnings', title: 'Microsoft（MSFT）财报', desc: 'Q1 2026财报，关注Azure云增速和AI营收贡献。', time: '盘后' },
+  { date: '2026-04-29', type: 'earnings', title: 'Meta（META）财报', desc: 'Q1 2026财报，关注广告收入增速和日活用户数。', time: '盘后' },
+  { date: '2026-05-01', type: 'earnings', title: 'Amazon（AMZN）财报', desc: 'Q1 2026财报，关注AWS增速和运营利润率。', time: '盘后' },
+  { date: '2026-05-07', type: 'earnings', title: 'Apple（AAPL）财报', desc: 'Q1 2026财报，关注iPhone销量和服务收入增速。', time: '盘后' },
+  { date: '2026-05-21', type: 'earnings', title: 'NVIDIA（NVDA）财报', desc: 'Q1 2026财报，关注数据中心GPU收入和下季度指引。', time: '盘后' },
+  { date: '2026-04-09', type: 'ppi', title: 'PPI 生产者价格（3月）', desc: 'CPI的先行指标，衡量生产端通胀压力。', time: '08:30 ET' },
+  { date: '2026-05-12', type: 'ppi', title: 'PPI 生产者价格（4月）', desc: 'CPI的先行指标，衡量生产端通胀压力。', time: '08:30 ET' },
+  { date: '2026-04-16', type: 'retail', title: '零售销售数据（3月）', desc: '衡量消费者支出，消费占GDP约70%，直接反映经济健康度。', time: '08:30 ET' },
+  { date: '2026-05-15', type: 'retail', title: '零售销售数据（4月）', desc: '衡量消费者支出，消费占GDP约70%，直接反映经济健康度。', time: '08:30 ET' },
+  { date: '2026-04-01', type: 'pmi', title: 'ISM 制造业 PMI（3月）', desc: '50以上代表扩张，50以下代表收缩。新订单分项是先行指标。', time: '10:00 ET' },
+  { date: '2026-04-03', type: 'pmi', title: 'ISM 服务业 PMI（3月）', desc: '服务业占美国GDP约80%，服务业PMI是经济健康度的重要指标。', time: '10:00 ET' },
+  { date: '2026-05-01', type: 'pmi', title: 'ISM 制造业 PMI（4月）', desc: '50以上代表扩张，50以下代表收缩。新订单分项是先行指标。', time: '10:00 ET' },
+  { date: '2026-05-05', type: 'pmi', title: 'ISM 服务业 PMI（4月）', desc: '服务业占美国GDP约80%，服务业PMI是经济健康度的重要指标。', time: '10:00 ET' },
+];
+
+const eventMap = {};
+EVENTS_DB.forEach(e => {
+  if (!eventMap[e.date]) eventMap[e.date] = [];
+  eventMap[e.date].push(e);
+});
+
+let calYear = 2026, calMonth = 3;
+const MONTH_NAMES = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+const COLOR_MAP = { fomc:'#f78166', cpi:'#58a6ff', nfp:'#3fb950', pce:'#d2a8ff', gdp:'#ffa657', ppi:'#79c0ff', retail:'#56d364', pmi:'#bc8cff', earnings:'#ffa657', other:'#8b949e' };
+const LABEL_MAP = { fomc:'FOMC', cpi:'CPI', nfp:'NFP', pce:'PCE', gdp:'GDP', ppi:'PPI', retail:'零售', pmi:'PMI', earnings:'财报', other:'其他' };
+
+function changeMonth(delta) {
+  calMonth += delta;
+  if (calMonth > 11) { calMonth = 0; calYear++; }
+  if (calMonth < 0) { calMonth = 11; calYear--; }
+  renderCalendar();
+  document.getElementById('eventSheet').classList.remove('visible');
+}
+
+function renderCalendar() {
+  document.getElementById('calMonthLabel').textContent = `${calYear}年${MONTH_NAMES[calMonth]}`;
+  const grid = document.getElementById('calGrid');
+  const headers = Array.from(grid.querySelectorAll('.cal-day-header'));
+  grid.innerHTML = '';
+  headers.forEach(h => grid.appendChild(h));
+
+  const today = new Date();
+  const firstDay = new Date(calYear, calMonth, 1).getDay();
+  const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+
+  for (let i = 0; i < firstDay; i++) {
+    const e = document.createElement('div');
+    e.className = 'cal-cell empty';
+    grid.appendChild(e);
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell';
+    const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const isToday = (today.getFullYear()===calYear && today.getMonth()===calMonth && today.getDate()===d);
+    if (isToday) cell.classList.add('today');
+
+    const events = eventMap[dateStr] || [];
+    if (events.length > 0) cell.classList.add('has-events');
+
+    const dateDiv = document.createElement('div');
+    dateDiv.className = 'cal-date';
+    dateDiv.textContent = d;
+    cell.appendChild(dateDiv);
+
+    // Show colored dots instead of text labels (mobile-friendly)
+    const dotsDiv = document.createElement('div');
+    dotsDiv.className = 'cal-dots';
+    events.slice(0, 4).forEach(ev => {
+      const dot = document.createElement('div');
+      dot.className = 'cal-dot';
+      dot.style.background = COLOR_MAP[ev.type] || '#8b949e';
+      dotsDiv.appendChild(dot);
+    });
+    cell.appendChild(dotsDiv);
+
+    if (events.length > 0) {
+      cell.onclick = () => showEventSheet(dateStr, events);
+    }
+    grid.appendChild(cell);
+  }
+}
+
+function showEventSheet(dateStr, events) {
+  const sheet = document.getElementById('eventSheet');
+  const title = document.getElementById('eventSheetTitle');
+  const list = document.getElementById('eventSheetList');
+  const [y, m, d] = dateStr.split('-');
+  title.textContent = `📅 ${y}年${parseInt(m)}月${parseInt(d)}日`;
+  list.innerHTML = '';
+  events.forEach(ev => {
+    const item = document.createElement('div');
+    item.className = 'event-item';
+    item.innerHTML = `
+      <div class="event-dot" style="background:${COLOR_MAP[ev.type]||'#8b949e'}"></div>
+      <div class="event-info">
+        <h4>${ev.title}</h4>
+        <p>${ev.desc}</p>
+        <div class="event-time">🕐 ${ev.time}</div>
+      </div>`;
+    list.appendChild(item);
+  });
+  sheet.classList.add('visible');
+  sheet.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+let upcomingFilter = 'all';
+const ECONOMIC_TYPES = ['cpi','nfp','pce','gdp','ppi','retail','pmi','other'];
+
+function switchUpcomingTab(filter, btn) {
+  upcomingFilter = filter;
+  document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderUpcoming();
+}
+
+function renderUpcoming() {
+  const list = document.getElementById('upcomingList');
+  list.innerHTML = '';
+  const today = new Date(); today.setHours(0,0,0,0);
+  const in30 = new Date(today); in30.setDate(in30.getDate() + 30);
+
+  const upcoming = EVENTS_DB.filter(e => {
+    const d = new Date(e.date);
+    if (!(d >= today && d <= in30)) return false;
+    if (upcomingFilter === 'all') return true;
+    if (upcomingFilter === 'earnings') return e.type === 'earnings';
+    if (upcomingFilter === 'fomc') return e.type === 'fomc';
+    if (upcomingFilter === 'economic') return ECONOMIC_TYPES.includes(e.type);
+    return true;
+  }).sort((a,b) => a.date.localeCompare(b.date));
+
+  if (upcoming.length === 0) {
+    list.innerHTML = `<div style="text-align:center;padding:24px;color:var(--muted);font-size:.82rem">未来30天内暂无此类事件</div>`;
+    return;
+  }
+
+  upcoming.forEach(ev => {
+    const evDate = new Date(ev.date);
+    const diffDays = Math.round((evDate - today) / 86400000);
+    const [y, m, d] = ev.date.split('-');
+    const item = document.createElement('div');
+    item.className = 'upcoming-item';
+    item.innerHTML = `
+      <div class="upcoming-date">
+        <div class="day" style="color:${COLOR_MAP[ev.type]||'#8b949e'}">${parseInt(d)}</div>
+        <div class="month">${MONTH_NAMES[parseInt(m)-1]}</div>
+      </div>
+      <div class="upcoming-divider"></div>
+      <div class="upcoming-info">
+        <h4>${ev.title}</h4>
+        <p>${ev.desc.substring(0,60)}${ev.desc.length>60?'...':''}</p>
+        <div class="countdown">🕐 ${ev.time} · <span>${diffDays===0?'今天':diffDays===1?'明天':`${diffDays}天后`}</span></div>
+      </div>
+      <div class="upcoming-badge ${ev.type}">${LABEL_MAP[ev.type]||'其他'}</div>`;
+    list.appendChild(item);
+  });
+}
+
+// ══════════════════════════════════════════
+// NEWS FEED
+// ══════════════════════════════════════════
+const NEWS_API = '/news.json';
+let allNews = [], currentFilter = 'all', newsLoaded = false;
+let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
+const CAT_COLORS = { '综合':'#58a6ff', '经济':'#3fb950', '金融':'#ffa657', '科技':'#d2a8ff' };
+
+function setStatus(state, text) {
+  const dot = document.getElementById('statusDot');
+  const txt = document.getElementById('statusText');
+  dot.className = 'status-dot' + (state==='loading'?' loading':state==='error'?' error':'');
+  txt.textContent = text;
+}
+
+function timeAgo(pubDate) {
+  if (!pubDate) return '';
+  try {
+    const diff = Math.floor((Date.now() - new Date(pubDate).getTime()) / 1000);
+    if (diff < 60) return `${diff}秒前`;
+    if (diff < 3600) return `${Math.floor(diff/60)}分钟前`;
+    if (diff < 86400) return `${Math.floor(diff/3600)}小时前`;
+    return `${Math.floor(diff/86400)}天前`;
+  } catch { return ''; }
+}
+
+function renderNews() {
+  const grid = document.getElementById('newsGrid');
+  const filtered = currentFilter === 'all' ? allNews : allNews.filter(n => n.category === currentFilter);
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无该分类的新闻</p></div>';
+    return;
+  }
+  grid.innerHTML = '';
+  filtered.forEach(item => {
+    const color = CAT_COLORS[item.category] || '#58a6ff';
+    const a = document.createElement('a');
+    a.className = 'news-item';
+    a.href = item.link;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.innerHTML = `
+      <div class="news-source-dot" style="background:${color}"></div>
+      <div class="news-body">
+        <div class="news-meta">
+          <span class="news-source" style="color:${color}">${item.source||''}</span>
+          <span class="news-cat" style="background:${color}22;color:${color};border:1px solid ${color}44">${item.category||''}</span>
+          <span class="news-time">${timeAgo(item.pubDate)}</span>
+        </div>
+        <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
+        ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
+        ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
+      </div>
+      <div class="news-arrow">›</div>`;
+    grid.appendChild(a);
+  });
+}
+
+async function fetchNews() {
+  setStatus('loading', '正在加载...');
+  document.getElementById('refreshBtn').classList.add('spinning');
+  try {
+    const resp = await fetch(NEWS_API);
+    const data = await resp.json();
+    allNews = data.items || [];
+    newsLoaded = true;
+    setStatus('live', `已加载 ${allNews.length} 条`);
+    const upd = document.getElementById('lastUpdatedText');
+    if (data.updated_at) upd.textContent = `更新于：${new Date(data.updated_at).toLocaleString('zh-CN')}`;
+    renderNews();
+    startCountdown();
+  } catch(e) {
+    setStatus('error', '加载失败，请重试');
+    document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon">⚠️</div><p>无法获取新闻，请检查网络</p></div>';
+  }
+  document.getElementById('refreshBtn').classList.remove('spinning');
+}
+
+function startCountdown() {
+  if (refreshTimer) clearInterval(refreshTimer);
+  nextRefreshIn = 3600;
+  refreshTimer = setInterval(() => {
+    nextRefreshIn--;
+    const el = document.getElementById('nextRefreshText');
+    const m = Math.floor(nextRefreshIn/60), s = nextRefreshIn%60;
+    el.innerHTML = `下次刷新：<span>${m}分${String(s).padStart(2,'0')}秒</span>后`;
+    if (nextRefreshIn <= 0) fetchNews();
+  }, 1000);
+}
+
+function toggleLang() {
+  showZh = !showZh;
+  const btn = document.getElementById('langBtn');
+  btn.textContent = showZh ? '🌐 中文' : '🇺🇸 英文';
+  btn.className = 'lang-btn' + (showZh ? '' : ' en');
+  renderNews();
+}
+
+function filterNews(cat, btn) {
+  currentFilter = cat;
+  document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderNews();
+}
+
+async function manualRefresh() {
+  if (refreshTimer) clearInterval(refreshTimer);
+  await fetchNews();
+}
+
+// ══════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+  renderCalendar();
+  renderUpcoming();
+});
+</script>
+</body>
+</html>
