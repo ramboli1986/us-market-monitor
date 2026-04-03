@@ -259,7 +259,7 @@
     .cal-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 
     /* Event detail sheet */
-    .event-sheet {
+    .event-sheet-hidden {
       background: var(--card2);
       border: 1px solid var(--border);
       border-radius: 14px;
@@ -322,6 +322,7 @@
       padding: 12px 14px;
       margin: 0 12px 8px;
     }
+    .upcoming-item.highlighted { border-color: var(--accent); background: rgba(88,166,255,.08); box-shadow: 0 0 0 2px rgba(88,166,255,.3); }
     .upcoming-date { text-align: center; min-width: 44px; }
     .upcoming-date .day { font-size: 1.3rem; font-weight: 800; line-height: 1; }
     .upcoming-date .month { font-size: .65rem; color: var(--muted); text-transform: uppercase; }
@@ -610,14 +611,6 @@
         <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d2a8ff;margin-right:4px"></span>PCE/GDP</span>
         <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffa657;margin-right:4px"></span>财报</span>
       </div>
-
-      <!-- Event detail -->
-      <div class="event-sheet" id="eventSheet">
-        <h3 id="eventSheetTitle">📅 选择日期</h3>
-        <div id="eventSheetList"></div>
-      </div>
-
-      <hr class="divider">
 
       <!-- Upcoming events -->
       <div class="sec-header">
@@ -1280,33 +1273,36 @@ function renderCalendar() {
     cell.appendChild(dotsDiv);
 
     if (events.length > 0) {
-      cell.onclick = () => showEventSheet(dateStr, events);
+      cell.onclick = () => highlightDateInUpcoming(dateStr);
     }
     grid.appendChild(cell);
   }
 }
 
-function showEventSheet(dateStr, events) {
-  const sheet = document.getElementById('eventSheet');
-  const title = document.getElementById('eventSheetTitle');
-  const list = document.getElementById('eventSheetList');
-  const [y, m, d] = dateStr.split('-');
-  title.textContent = `📅 ${y}年${parseInt(m)}月${parseInt(d)}日`;
-  list.innerHTML = '';
-  events.forEach(ev => {
-    const item = document.createElement('div');
-    item.className = 'event-item';
-    item.innerHTML = `
-      <div class="event-dot" style="background:${COLOR_MAP[ev.type]||'#8b949e'}"></div>
-      <div class="event-info">
-        <h4>${ev.title}</h4>
-        <p>${ev.desc}</p>
-        <div class="event-time">🕐 ${ev.time}</div>
-      </div>`;
-    list.appendChild(item);
+function highlightDateInUpcoming(dateStr) {
+  document.querySelectorAll('.upcoming-item.highlighted').forEach(el => el.classList.remove('highlighted'));
+  const items = document.querySelectorAll('.upcoming-item');
+  let firstMatch = null;
+  items.forEach(item => {
+    if (item.dataset.date === dateStr) {
+      item.classList.add('highlighted');
+      if (!firstMatch) firstMatch = item;
+    }
   });
-  sheet.classList.add('visible');
-  sheet.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (firstMatch) {
+    firstMatch.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  } else {
+    switchUpcomingTab('all', document.querySelector('.ftab[data-f="all"]'));
+    setTimeout(() => {
+      const items2 = document.querySelectorAll('.upcoming-item');
+      items2.forEach(item => {
+        if (item.dataset.date === dateStr) {
+          item.classList.add('highlighted');
+          if (!firstMatch) { firstMatch = item; item.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+        }
+      });
+    }, 100);
+  }
 }
 
 let upcomingFilter = 'all';
@@ -1346,6 +1342,7 @@ function renderUpcoming() {
     const [y, m, d] = ev.date.split('-');
     const item = document.createElement('div');
     item.className = 'upcoming-item';
+    item.dataset.date = ev.date;
     item.innerHTML = `
       <div class="upcoming-date">
         <div class="day" style="color:${COLOR_MAP[ev.type]||'#8b949e'}">${parseInt(d)}</div>

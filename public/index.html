@@ -180,12 +180,7 @@
     .cal-more { font-size: .62rem; color: var(--accent); margin-top: 2px; }
 
     /* Event detail panel */
-    .event-detail {
-      background: var(--card2); border: 1px solid var(--border);
-      border-radius: 12px; padding: 20px; margin-bottom: 20px;
-      display: none;
-    }
-    .event-detail.visible { display: block; }
+    .event-detail { display: none; }
     .event-detail h3 { font-size: 1rem; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
     .event-list { display: flex; flex-direction: column; gap: 8px; }
     .event-item {
@@ -218,6 +213,7 @@
       transition: border-color .2s;
     }
     .upcoming-item:hover { border-color: var(--accent); }
+    .upcoming-item.highlighted { border-color: var(--accent); background: rgba(88,166,255,.08); box-shadow: 0 0 0 2px rgba(88,166,255,.3); }
     .upcoming-date { text-align: center; min-width: 52px; }
     .upcoming-date .day { font-size: 1.4rem; font-weight: 800; line-height: 1; }
     .upcoming-date .month { font-size: .7rem; color: var(--muted); text-transform: uppercase; }
@@ -484,14 +480,6 @@
     <div class="cal-day-header">周五</div>
     <div class="cal-day-header">周六</div>
   </div>
-
-  <!-- Event detail panel -->
-  <div class="event-detail" id="eventDetail">
-    <h3 id="eventDetailTitle">📅 选择日期查看事件</h3>
-    <div class="event-list" id="eventDetailList"></div>
-  </div>
-
-  <hr class="divider">
 
   <!-- Upcoming events -->
   <div class="sec-title">
@@ -938,34 +926,39 @@ function renderCalendar() {
     }
 
     if (events.length > 0) {
-      cell.onclick = () => showEventDetail(dateStr, events);
+      cell.onclick = () => highlightDateInUpcoming(dateStr);
     }
     grid.appendChild(cell);
   }
 }
 
-function showEventDetail(dateStr, events) {
-  const panel = document.getElementById('eventDetail');
-  const title = document.getElementById('eventDetailTitle');
-  const list = document.getElementById('eventDetailList');
-  const [y, m, d] = dateStr.split('-');
-  title.textContent = `📅 ${y}年${parseInt(m)}月${parseInt(d)}日 — ${events.length}个事件`;
-  list.innerHTML = '';
-  const colorMap = { fomc: '#f78166', cpi: '#58a6ff', nfp: '#3fb950', pce: '#d2a8ff', gdp: '#ffa657', ppi: '#79c0ff', retail: '#56d364', pmi: '#bc8cff', earnings: '#ffa657', other: '#8b949e' };
-  events.forEach(ev => {
-    const item = document.createElement('div');
-    item.className = 'event-item';
-    item.innerHTML = `
-      <div class="event-dot" style="background:${colorMap[ev.type]||'#8b949e'}"></div>
-      <div class="event-info">
-        <h4>${ev.title}</h4>
-        <p>${ev.desc}</p>
-        <div class="event-time">🕐 ${ev.time}</div>
-      </div>`;
-    list.appendChild(item);
+function highlightDateInUpcoming(dateStr) {
+  // Remove previous highlights
+  document.querySelectorAll('.upcoming-item.highlighted').forEach(el => el.classList.remove('highlighted'));
+  // Find matching items in the upcoming list and highlight + scroll to them
+  const items = document.querySelectorAll('.upcoming-item');
+  let firstMatch = null;
+  items.forEach(item => {
+    if (item.dataset.date === dateStr) {
+      item.classList.add('highlighted');
+      if (!firstMatch) firstMatch = item;
+    }
   });
-  panel.classList.add('visible');
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (firstMatch) {
+    firstMatch.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  } else {
+    // Date not in upcoming (out of 30-day window or filtered) — switch to 'all' and re-render
+    switchUpcomingTab('all', document.querySelector('.utab[data-filter="all"]'));
+    setTimeout(() => {
+      const items2 = document.querySelectorAll('.upcoming-item');
+      items2.forEach(item => {
+        if (item.dataset.date === dateStr) {
+          item.classList.add('highlighted');
+          if (!firstMatch) { firstMatch = item; item.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+        }
+      });
+    }, 100);
+  }
 }
 
 // Upcoming events filter
@@ -1007,6 +1000,7 @@ function renderUpcoming() {
     const [y, m, d] = ev.date.split('-');
     const item = document.createElement('div');
     item.className = 'upcoming-item';
+    item.dataset.date = ev.date;
     item.innerHTML = `
       <div class="upcoming-date">
         <div class="day" style="color:${colorMap[ev.type]||'#8b949e'}">${parseInt(d)}</div>
