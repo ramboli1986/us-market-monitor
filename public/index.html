@@ -575,8 +575,7 @@
           </div>
         </div>
         <div class="cat-filters">
-          <button class="cat-btn active" onclick="filterNews('all',this)">全部</button>
-          <button class="cat-btn" onclick="filterNews('综合',this)">综合</button>
+          <button class="cat-btn active" onclick="filterNews('综合',this)">综合</button>
           <button class="cat-btn" onclick="filterNews('经济',this)">经济</button>
           <button class="cat-btn" onclick="filterNews('金融',this)">金融</button>
           <button class="cat-btn" onclick="filterNews('科技',this)">科技</button>
@@ -1269,7 +1268,7 @@ function renderUpcoming() {
 // NEWS FEED
 // ══════════════════════════════════════════
 const NEWS_API = '/news.json';
-let allNews = [], currentFilter = 'all', newsLoaded = false;
+let allNews = [], currentFilter = '综合', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
 const CAT_COLORS = { '综合':'#58a6ff', '经济':'#3fb950', '金融':'#ffa657', '科技':'#d2a8ff' };
 
@@ -1293,7 +1292,7 @@ function timeAgo(pubDate) {
 
 function renderNews() {
   const grid = document.getElementById('newsGrid');
-  const filtered = currentFilter === 'all' ? allNews : allNews.filter(n => n.category === currentFilter);
+  const filtered = allNews.filter(n => n.category === currentFilter);
   if (filtered.length === 0) {
     grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无该分类的新闻</p></div>';
     return;
