@@ -648,7 +648,7 @@
       <div class="brand-icon">🇺🇸</div>
       <div class="brand-text">
         <div class="brand-title">美股监控中心</div>
-        <div class="brand-sub" id="today-date-sub">财经日历 · 实时新闻</div>
+        <div class="brand-sub">财经日历 · 实时新闻</div>
       </div>
     </div>
     <div class="live-pill">
@@ -659,7 +659,7 @@
   <!-- ══ DESKTOP: Header ══ -->
   <div class="desktop-header">
     <h1>美股市场监控中心</h1>
-    <p>实时财经新闻 &middot; 财经日历 &middot; 影响大盘的关键因素分析 &nbsp;<span id="today-date-desktop" style="color:var(--blue);font-size:.85rem"></span></p>
+    <p>实时财经新闻 &middot; 财经日历 &middot; 影响大盘的关键因素分析</p>
     <div class="header-badges">
       <span class="hbadge">📅 财经日历</span>
       <span class="hbadge green">📡 实时新闻</span>
@@ -672,7 +672,7 @@
     <button class="active" onclick="switchTab('calendar', this)">财经日历</button>
     <button onclick="switchTab('news', this)">实时新闻</button>
     <button onclick="switchTab('earnings', this)">财报季</button>
-    <button onclick="switchTab('overview', this)">市场概览</button>
+    <button onclick="switchTab('overview', this)">概览</button>
   </nav>
 
   <!-- ══ Scrollable Content ══ -->
@@ -1287,7 +1287,7 @@
           <polyline points="12 6 12 12 16 14"/>
         </svg>
       </div>
-      <div class="nav-label">市场概览</div>
+      <div class="nav-label">概览</div>
     </button>
   </nav>
 
@@ -1855,12 +1855,8 @@ function updateTodayDate() {
   const weekDays = ['周日','周一','周二','周三','周四','周五','周六'];
   const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
   const dateStr = `${now.getFullYear()}年${months[now.getMonth()]}${now.getDate()}日 ${weekDays[now.getDay()]}`;
-  const desktopDate = document.getElementById('today-date-desktop');
-  if (desktopDate) desktopDate.textContent = dateStr;
   const calDate = document.getElementById('today-date-cal');
   if (calDate) calDate.textContent = `今日 ${dateStr}`;
-  const sub = document.getElementById('today-date-sub');
-  if (sub) sub.textContent = `${now.getMonth()+1}月${now.getDate()}日 ${weekDays[now.getDay()]}`;
 }
 </script>
 </body>
