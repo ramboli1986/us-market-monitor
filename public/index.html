@@ -1384,7 +1384,7 @@ function switchTab(name, btn) {
   } else { window.scrollTo(0, 0); }
   if (name === 'overview') setTimeout(renderOverviewCharts, 50);
   if (name === 'earnings') { setTimeout(renderWeightChart, 50); loadUpcomingEarnings(); }
-  if (name === 'calendar') { renderCalendar(); renderUpcoming(); }
+  if (name === 'calendar') { loadEventsData().then(() => { renderCalendar(); renderUpcoming(); }); }
   if (name === 'news') { if (!newsLoaded) fetchNews(); }
 }
 
@@ -1514,8 +1514,30 @@ function renderOverviewCharts() {
 // ══════════════════════════════════════════
 // CALENDAR DATA
 // ══════════════════════════════════════════
-const EVENTS_DB = [
-  { date: '2026-01-27', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
+let EVENTS_DB = []; // Will be loaded from events.json
+let eventsLoaded = false;
+
+async function loadEventsData() {
+  if (eventsLoaded) return;
+  try {
+    const resp = await fetch('/events.json?t=' + Math.floor(Date.now() / 3600000));
+    const data = await resp.json();
+    EVENTS_DB = data.events || [];
+    // Rebuild eventMap
+    Object.keys(eventMap).forEach(k => delete eventMap[k]);
+    EVENTS_DB.forEach(e => {
+      if (!eventMap[e.date]) eventMap[e.date] = [];
+      eventMap[e.date].push(e);
+    });
+    eventsLoaded = true;
+    console.log(`[Events] Loaded ${EVENTS_DB.length} events, updated: ${data.updated_at}`);
+  } catch(e) {
+    console.error('[Events] Failed to load events.json:', e);
+  }
+}
+
+// Legacy static fallback (will be overwritten by events.json)
+const EVENTS_DB_FALLBACK = [
   { date: '2026-01-28', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布（美东时间14:00），鲍威尔新闻发布会（14:30）', time: '14:00 ET' },
   { date: '2026-03-17', type: 'fomc', title: 'FOMC会议（第1天）', desc: '美联储联邦公开市场委员会会议', time: '全天' },
   { date: '2026-03-18', type: 'fomc', title: 'FOMC利率决议 + 鲍威尔发布会', desc: '利率决议公布，附季度经济预测（SEP）和点阵图', time: '14:00 ET' },
@@ -1585,6 +1607,8 @@ const EVENTS_DB = [
 ];
 
 const eventMap = {};
+// Initialize with fallback data
+EVENTS_DB = EVENTS_DB_FALLBACK.slice();
 EVENTS_DB.forEach(e => {
   if (!eventMap[e.date]) eventMap[e.date] = [];
   eventMap[e.date].push(e);

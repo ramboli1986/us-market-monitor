@@ -1,0 +1,44 @@
+name: Update Economic Calendar Events
+
+on:
+  schedule:
+    # Run every 5 days at 06:00 UTC (1:00 AM ET)
+    - cron: '0 6 */5 * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  fetch-events:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow pushing to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Fetch economic events and earnings dates
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+        run: python3 scripts/fetch_events.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/events.json
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update economic calendar events $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
