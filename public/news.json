@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-04T14:10:11.720951+00:00",
+  "updated_at": "2026-04-04T15:07:05.688154+00:00",
   "count": 56,
   "items": [
+    {
+      "title_en": "European ministers call for a tax on energy company windfall profits as Iran war drives price surge",
+      "title_zh": "随着伊朗战争推动价格飙升，欧洲部长们呼吁对能源公司的意外利润征税",
+      "desc_en": "Driven largely by higher oil prices, the annual inflation rate in the 21 countries that use the euro rose to 2.5% in March, from 1.9% in February.",
+      "desc_zh": "在油价上涨的主要推动下，使用欧元的21个国家的年通胀率从2月份的1.9%上升到3月份的2.5%。",
+      "link": "https://www.cnbc.com/2026/04/04/europe-energy-windfall-profit-tax.html",
+      "pubDate": "2026-04-04T14:06:47",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "The PWHL is growing, and the success of women's hockey in the Olympics may be just what it needed",
       "title_zh": "PWHL正在成长，女子曲棍球在奥运会上的成功可能正是它所需要的",
@@ -9,7 +20,7 @@
       "desc_zh": "女子曲棍球正在发展， PWHL的目标是成为第一个取得长期成功的职业女子曲棍球联盟。",
       "link": "https://www.cnbc.com/2026/04/04/pwhl-womens-hockey-growth.html",
       "pubDate": "2026-04-04T13:48:22",
-      "relativeTime": "21分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "该公司公布了未来三个月表现优异的股票。",
       "link": "https://www.cnbc.com/2026/04/04/bank-of-americas-top-stock-picks-for-the-second-quarter.html",
       "pubDate": "2026-04-04T13:28:29",
-      "relativeTime": "41分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "耐克周二发布了疲弱的销售预测，引发了其股票的抛售。",
       "link": "https://www.cnbc.com/2026/04/04/nike-is-the-most-oversold-stock-on-wall-street-after-a-wild-week-of-trading.html",
       "pubDate": "2026-04-04T13:23:40",
-      "relativeTime": "46分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "50分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
       "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
       "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "53分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "在占据主导地位的消费者设备中，苹果向用户出售隐私承诺。要想在人工智能领域竞争，它可能需要转向。",
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
       "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "Lucid在截至3月31日的季度生产了5,500辆汽车，交付了3,093辆。分析师曾预计该公司将生产5,967辆汽车，交付5,237辆汽车。",
       "link": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
       "pubDate": "2026-04-04T10:19:13",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
       "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
       "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "2小时前",
+      "relativeTime": "7分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,18 +141,7 @@
       "desc_zh": "在为Jony Ive的新兴设备初创公司支付了惊人的64亿美元10个月后， OpenAI宣布将收购媒体公司TBPN。",
       "link": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
       "pubDate": "2026-04-03T22:13:34",
-      "relativeTime": "15小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "U.S. fighter jet shot down in Iran, one crew member rescued, MS NOW reports",
-      "title_zh": "美国战斗机在伊朗被击落，一名机组人员获救， MS现在报道",
-      "desc_en": "It is unclear if the plane was shot down or went down for another reason.",
-      "desc_zh": "目前尚不清楚飞机是否因其他原因被击落或坠毁。",
-      "link": "https://www.cnbc.com/2026/04/03/us-fighter-jet-downed-in-iran.html",
-      "pubDate": "2026-04-03T21:05:30",
-      "relativeTime": "3小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "1天前",
+      "relativeTime": "10分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -460,7 +460,7 @@
       "desc_zh": "这位95岁的投资者表示，他仍然每天都来办公室，并与市场保持联系。",
       "link": "https://www.cnbc.com/2026/03/31/warren-buffett-says-hes-still-making-calls-on-investments-at-berkshire-flags-tiny-new-buy.html",
       "pubDate": "2026-03-31T15:02:49",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
