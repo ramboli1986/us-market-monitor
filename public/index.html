@@ -112,7 +112,7 @@
       content: ''; position: absolute; top: 0; left: 20%; right: 20%;
       height: 2px; background: var(--accent); border-radius: 0 0 3px 3px;
     }
-    .nav-icon { font-size: 1.3rem; line-height: 1; margin-bottom: 3px; }
+    .nav-icon { width: 22px; height: 22px; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; }
     .nav-label { font-size: .62rem; font-weight: 600; letter-spacing: .01em; }
 
     /* ══════════════════════════════════════
@@ -895,19 +895,58 @@
   <!-- ══ MOBILE: Bottom Navigation ══ -->
   <nav class="bottom-nav">
     <button class="nav-item active" onclick="switchTab('calendar', this)">
-      <div class="nav-icon">📅</div><div class="nav-label">日历</div>
+      <div class="nav-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="3"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+          <circle cx="8" cy="15" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="12" cy="15" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="16" cy="15" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+      <div class="nav-label">日历</div>
     </button>
     <button class="nav-item" onclick="switchTab('news', this)">
-      <div class="nav-icon">📡</div><div class="nav-label">新闻</div>
+      <div class="nav-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/>
+          <line x1="10" y1="7" x2="18" y2="7"/>
+          <line x1="10" y1="11" x2="18" y2="11"/>
+          <line x1="10" y1="15" x2="14" y2="15"/>
+        </svg>
+      </div>
+      <div class="nav-label">新闻</div>
     </button>
     <button class="nav-item" onclick="switchTab('factors', this)">
-      <div class="nav-icon">📊</div><div class="nav-label">因素</div>
+      <div class="nav-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="20" x2="18" y2="10"/>
+          <line x1="12" y1="20" x2="12" y2="4"/>
+          <line x1="6" y1="20" x2="6" y2="14"/>
+          <line x1="2" y1="20" x2="22" y2="20"/>
+        </svg>
+      </div>
+      <div class="nav-label">因素</div>
     </button>
     <button class="nav-item" onclick="switchTab('earnings', this)">
-      <div class="nav-icon">💼</div><div class="nav-label">财报</div>
+      <div class="nav-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="1" x2="12" y2="23"/>
+          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+        </svg>
+      </div>
+      <div class="nav-label">财报</div>
     </button>
     <button class="nav-item" onclick="switchTab('overview', this)">
-      <div class="nav-icon">🔭</div><div class="nav-label">概览</div>
+      <div class="nav-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </div>
+      <div class="nav-label">概览</div>
     </button>
   </nav>
 
