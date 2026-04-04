@@ -5,457 +5,612 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="theme-color" content="#1c1c1e" />
+  <meta name="theme-color" content="#060b18" />
   <title>美股市场监控中心</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ══════════════════════════════════════
-       CSS VARIABLES & RESET
+       DESIGN TOKENS
     ══════════════════════════════════════ */
     :root {
-      --bg: #0d1117;
-      --card: #161b22;
-      --card2: #1c2230;
-      --border: #30363d;
-      --accent: #58a6ff;
-      --accent2: #f78166;
-      --accent3: #3fb950;
-      --accent4: #d2a8ff;
-      --accent5: #ffa657;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --nav-h: 64px;
+      --bg:        #060b18;
+      --bg2:       #0c1220;
+      --surface:   rgba(255,255,255,0.04);
+      --surface2:  rgba(255,255,255,0.07);
+      --border:    rgba(255,255,255,0.08);
+      --border2:   rgba(255,255,255,0.14);
+
+      --blue:      #4f9cf9;
+      --blue-glow: rgba(79,156,249,0.25);
+      --green:     #34d399;
+      --green-glow:rgba(52,211,153,0.2);
+      --red:       #f87171;
+      --red-glow:  rgba(248,113,113,0.2);
+      --purple:    #a78bfa;
+      --purple-glow:rgba(167,139,250,0.2);
+      --amber:     #fbbf24;
+      --amber-glow:rgba(251,191,36,0.2);
+      --cyan:      #22d3ee;
+
+      --text:      #f0f4ff;
+      --text2:     #94a3b8;
+      --text3:     #64748b;
+
+      --nav-h:     68px;
       --safe-bottom: env(safe-area-inset-bottom, 0px);
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
-      line-height: 1.5;
+      --radius:    16px;
+      --radius-sm: 10px;
     }
 
     /* ══════════════════════════════════════
-       MOBILE LAYOUT (default, < 768px)
+       RESET & BASE
+    ══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, 'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Subtle animated background */
+    body::before {
+      content: '';
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 60% 40% at 20% 10%, rgba(79,156,249,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 35% at 80% 80%, rgba(167,139,250,0.06) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 30% at 60% 30%, rgba(52,211,153,0.04) 0%, transparent 60%);
+    }
+
+    /* ══════════════════════════════════════
+       MOBILE LAYOUT
     ══════════════════════════════════════ */
     html, body { height: 100%; }
     body { overflow: hidden; overscroll-behavior: none; }
 
-    #app {
-      display: flex; flex-direction: column;
-      height: 100vh; height: 100dvh;
-    }
+    #app { display: flex; flex-direction: column; height: 100vh; height: 100dvh; position: relative; z-index: 1; }
 
-    /* Top bar — hidden on mobile */
-    .top-bar { display: none; }
-    .top-bar-inner { display: flex; align-items: center; justify-content: space-between; }
-    .top-bar-left h1 {
-      font-size: 1.2rem; font-weight: 700;
-      background: linear-gradient(90deg, #58a6ff, #a5d6ff);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-    }
-    .top-bar-left p { font-size: .7rem; color: var(--muted); margin-top: 2px; }
-    .live-badge {
-      display: flex; align-items: center; gap: 5px;
-      background: rgba(63,185,80,.12); border: 1px solid rgba(63,185,80,.3);
-      border-radius: 20px; padding: 4px 10px; font-size: .7rem; color: var(--accent3); font-weight: 600;
-    }
-    .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent3); animation: pulse 2s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
-
-    /* Mobile top tab bar — hidden (using bottom nav instead) */
-    .mobile-tab-bar { display: none; }
-
-    /* Mobile inline page header */
-    .mobile-page-header {
+    /* ── Mobile Header ── */
+    .mobile-header {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 14px 16px 10px;
+      padding: 14px 18px 10px;
       padding-top: calc(14px + env(safe-area-inset-top, 0px));
+      background: linear-gradient(to bottom, rgba(6,11,24,0.95), transparent);
+      flex-shrink: 0;
     }
-    .mobile-page-header-left { display: flex; flex-direction: column; gap: 2px; }
-    .mobile-page-title {
-      font-size: 1.15rem; font-weight: 700;
-      background: linear-gradient(90deg, #58a6ff, #a5d6ff);
+    .mobile-header-brand { display: flex; align-items: center; gap: 10px; }
+    .brand-icon {
+      width: 34px; height: 34px; border-radius: 10px;
+      background: linear-gradient(135deg, #1a3a6b, #2d5fad);
+      border: 1px solid rgba(79,156,249,0.3);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      box-shadow: 0 0 12px rgba(79,156,249,0.2);
+    }
+    .brand-text { display: flex; flex-direction: column; gap: 1px; }
+    .brand-title {
+      font-size: 1rem; font-weight: 700; letter-spacing: -0.01em;
+      background: linear-gradient(90deg, #f0f4ff, #94a3b8);
       -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }
-    .mobile-page-date { font-size: .7rem; color: var(--muted); }
+    .brand-sub { font-size: .62rem; color: var(--text3); font-weight: 500; }
+    .live-pill {
+      display: flex; align-items: center; gap: 5px;
+      background: rgba(52,211,153,0.1);
+      border: 1px solid rgba(52,211,153,0.25);
+      border-radius: 20px; padding: 5px 10px;
+      font-size: .68rem; color: var(--green); font-weight: 600; letter-spacing: .02em;
+    }
+    .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: livePulse 2s ease-in-out infinite; }
+    @keyframes livePulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.8)} }
 
-    /* Desktop header (hidden on mobile) */
+    /* ── Desktop header (hidden on mobile) ── */
     .desktop-header { display: none; }
     .desktop-nav { display: none; }
 
-    /* Scrollable content */
+    /* ── Scrollable content ── */
     #content {
       flex: 1; overflow-y: auto; overflow-x: hidden;
       -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain;
+      position: relative;
     }
 
-    /* Tab panels */
-    .tab-panel { display: none; }
-    .tab-panel.active { display: block; padding: 0 0 calc(var(--nav-h) + var(--safe-bottom) + 16px); }
+    /* ── Tab panels ── */
+    .tab-panel { display: none; animation: fadeUp .25s ease; }
+    .tab-panel.active { display: block; padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 20px); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-    /* Bottom navigation (mobile) */
+    /* ══════════════════════════════════════
+       BOTTOM NAVIGATION
+    ══════════════════════════════════════ */
     .bottom-nav {
       display: flex;
-      background: #1c1c1e;
-      border-top: 1px solid rgba(255,255,255,0.08);
+      background: rgba(10,15,28,0.92);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border-top: 1px solid var(--border);
       padding-bottom: var(--safe-bottom);
       flex-shrink: 0; position: relative; z-index: 100;
     }
     .nav-item {
       flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
       padding: 8px 4px; cursor: pointer; border: none; background: transparent;
-      color: var(--muted); transition: color .2s; min-height: var(--nav-h); position: relative;
+      color: var(--text3); transition: color .2s; min-height: var(--nav-h); position: relative;
     }
-    .nav-item.active { color: var(--accent); }
+    .nav-item.active { color: var(--blue); }
     .nav-item.active::before {
-      content: ''; position: absolute; top: 0; left: 20%; right: 20%;
-      height: 2px; background: var(--accent); border-radius: 0 0 3px 3px;
+      content: ''; position: absolute; top: 0; left: 25%; right: 25%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--blue), transparent);
+      border-radius: 0 0 4px 4px;
     }
-    .nav-icon { width: 22px; height: 22px; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; }
-    .nav-label { font-size: .62rem; font-weight: 600; letter-spacing: .01em; }
+    .nav-icon {
+      width: 24px; height: 24px; margin-bottom: 4px;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform .2s;
+    }
+    .nav-item.active .nav-icon { transform: scale(1.1); }
+    .nav-label { font-size: .6rem; font-weight: 600; letter-spacing: .02em; }
 
     /* ══════════════════════════════════════
        SHARED COMPONENTS
     ══════════════════════════════════════ */
-    .sec-header {
-      padding: 16px 16px 10px; display: flex; align-items: center; gap: 10px;
+
+    /* Section header */
+    .sec-hdr {
+      display: flex; align-items: center; gap: 12px;
+      padding: 18px 16px 12px;
     }
-    .sec-icon { width: 34px; height: 34px; border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
-    .sec-header h2 { font-size: 1rem; font-weight: 700; }
-    .sec-header p { font-size: .75rem; color: var(--muted); margin-top: 1px; }
+    .sec-icon-wrap {
+      width: 36px; height: 36px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .sec-hdr-text h2 { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
+    .sec-hdr-text p { font-size: .72rem; color: var(--text2); margin-top: 1px; }
 
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin: 0 12px 10px; }
-    .card-hdr { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-    .card-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: .95rem; flex-shrink: 0; }
-    .card h3 { font-size: .9rem; font-weight: 700; }
-    .card p { color: var(--muted); font-size: .82rem; line-height: 1.5; }
+    /* Glass card */
+    .g-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin: 0 12px 10px;
+      backdrop-filter: blur(12px);
+      transition: border-color .2s, transform .2s;
+    }
+    .g-card:hover { border-color: var(--border2); }
 
-    .impact-bar { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
-    .impact-label { font-size: .7rem; color: var(--muted); width: 44px; flex-shrink: 0; }
-    .bar-track { flex: 1; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
-    .bar-fill { height: 100%; border-radius: 3px; }
-    .impact-value { font-size: .7rem; font-weight: 700; width: 28px; text-align: right; }
+    /* Divider */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 6px 12px 16px; }
 
+    /* Tags */
     .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
-    .tag { border-radius: 4px; padding: 2px 7px; font-size: .68rem; font-weight: 600; }
-    .tag.blue { background: rgba(88,166,255,.1); border: 1px solid rgba(88,166,255,.2); color: var(--accent); }
-    .tag.red { background: rgba(247,129,102,.1); border: 1px solid rgba(247,129,102,.2); color: var(--accent2); }
-    .tag.green { background: rgba(63,185,80,.1); border: 1px solid rgba(63,185,80,.2); color: var(--accent3); }
-    .tag.purple { background: rgba(210,168,255,.1); border: 1px solid rgba(210,168,255,.2); color: var(--accent4); }
-    .tag.orange { background: rgba(255,166,87,.1); border: 1px solid rgba(255,166,87,.2); color: var(--accent5); }
+    .tag {
+      border-radius: 6px; padding: 2px 8px; font-size: .68rem; font-weight: 600;
+      border: 1px solid transparent;
+    }
+    .tag.blue   { background: rgba(79,156,249,.12); border-color: rgba(79,156,249,.2); color: var(--blue); }
+    .tag.green  { background: rgba(52,211,153,.12); border-color: rgba(52,211,153,.2); color: var(--green); }
+    .tag.red    { background: rgba(248,113,113,.12); border-color: rgba(248,113,113,.2); color: var(--red); }
+    .tag.purple { background: rgba(167,139,250,.12); border-color: rgba(167,139,250,.2); color: var(--purple); }
+    .tag.amber  { background: rgba(251,191,36,.12); border-color: rgba(251,191,36,.2); color: var(--amber); }
 
-    .info-box { background: rgba(88,166,255,.07); border: 1px solid rgba(88,166,255,.2); border-radius: 10px; padding: 12px 14px; margin: 0 12px 10px; font-size: .82rem; color: var(--muted); }
-    .info-box strong { color: var(--accent); }
-    .divider { border: none; border-top: 1px solid var(--border); margin: 14px 12px; }
+    /* Info box */
+    .info-box {
+      background: rgba(79,156,249,.06);
+      border: 1px solid rgba(79,156,249,.18);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px; margin: 0 12px 10px;
+      font-size: .8rem; color: var(--text2); line-height: 1.6;
+    }
+    .info-box strong { color: var(--blue); }
 
-    /* ── Calendar ── */
-    .cal-nav-bar { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px 8px; }
-    .cal-nav-btn { background: var(--card2); border: 1px solid var(--border); color: var(--text); width: 38px; height: 38px; border-radius: 10px; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: border-color .2s; }
-    .cal-nav-btn:active { border-color: var(--accent); background: rgba(88,166,255,.1); }
+    /* Scroll to top */
+    .scroll-top-btn {
+      position: fixed; bottom: calc(var(--nav-h) + var(--safe-bottom) + 16px); right: 16px;
+      width: 38px; height: 38px;
+      background: rgba(79,156,249,.15);
+      border: 1px solid rgba(79,156,249,.3);
+      border-radius: 50%; color: var(--blue); font-size: 1rem;
+      cursor: pointer; display: none; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(79,156,249,.15); z-index: 50;
+      backdrop-filter: blur(10px);
+    }
+    .scroll-top-btn.visible { display: flex; }
+
+    /* ══════════════════════════════════════
+       CALENDAR
+    ══════════════════════════════════════ */
+    .cal-nav-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 14px 10px;
+    }
+    .cal-nav-btn {
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--text); width: 36px; height: 36px; border-radius: 10px;
+      font-size: 1rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: all .2s;
+    }
+    .cal-nav-btn:active { border-color: var(--blue); background: var(--blue-glow); }
     .cal-month-label { font-size: 1rem; font-weight: 700; }
-    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; padding: 0 10px 10px; }
-    .cal-day-header { text-align: center; font-size: .65rem; color: var(--muted); font-weight: 600; padding: 4px 0; text-transform: uppercase; }
-    .cal-cell { background: var(--card); border: 1px solid var(--border); border-radius: 8px; min-height: 72px; padding: 6px 4px 4px; cursor: pointer; transition: border-color .15s; position: relative; }
-    .cal-cell:active { border-color: var(--accent); background: rgba(88,166,255,.08); }
+    .cal-today-sub { font-size: .62rem; color: var(--blue); font-weight: 600; margin-top: 2px; }
+
+    .cal-grid {
+      display: grid; grid-template-columns: repeat(7, 1fr);
+      gap: 3px; padding: 0 10px 12px;
+    }
+    .cal-day-header {
+      text-align: center; font-size: .62rem; color: var(--text3);
+      font-weight: 600; padding: 4px 0; text-transform: uppercase; letter-spacing: .04em;
+    }
+    .cal-cell {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px; min-height: 68px;
+      padding: 6px 4px 4px; cursor: pointer;
+      transition: border-color .15s, background .15s;
+      position: relative;
+    }
+    .cal-cell:active { border-color: var(--blue); background: var(--blue-glow); }
     .cal-cell.empty { background: transparent; border-color: transparent; cursor: default; }
     .cal-cell.today {
-      border-color: var(--accent);
-      border-width: 2px;
-      background: rgba(88,166,255,.1);
-      box-shadow: 0 0 0 1px rgba(88,166,255,.2) inset;
+      border-color: var(--blue);
+      border-width: 1.5px;
+      background: rgba(79,156,249,0.08);
+      box-shadow: 0 0 0 1px rgba(79,156,249,0.1) inset, 0 2px 12px rgba(79,156,249,0.08);
     }
-    .cal-cell.has-events { border-color: rgba(88,166,255,.25); }
-    .cal-date { font-size: .75rem; font-weight: 700; color: var(--muted); margin-bottom: 3px; }
+    .cal-cell.has-events { border-color: rgba(255,255,255,0.12); }
+    .cal-date { font-size: .72rem; font-weight: 700; color: var(--text3); margin-bottom: 3px; }
     .cal-cell.today .cal-date {
-      color: #ffffff;
-      background: var(--accent);
-      width: 22px; height: 22px;
-      border-radius: 50%;
+      color: #fff;
+      background: var(--blue);
+      width: 20px; height: 20px; border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font-size: .72rem;
-      margin: 0 auto 3px;
+      font-size: .68rem; margin: 0 auto 4px;
+      box-shadow: 0 2px 8px rgba(79,156,249,0.4);
     }
-    .cal-dots { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
-    .cal-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .cal-event-label { display: none; } /* hidden on mobile, shown on desktop */
+    .cal-dots { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 3px; }
+    .cal-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .cal-event-label { display: none; }
+
+    /* Mobile legend */
+    .cal-legend-mobile {
+      display: flex; flex-wrap: wrap; gap: 8px 14px;
+      padding: 0 14px 14px; font-size: .68rem; color: var(--text3);
+    }
+    .cal-legend-mobile span { display: flex; align-items: center; gap: 4px; }
+    .cal-legend-mobile i { display: inline-block; width: 7px; height: 7px; border-radius: 50%; }
 
     /* ── Upcoming filter tabs ── */
-    .filter-tabs { display: flex; gap: 8px; padding: 0 12px 10px; overflow-x: auto; scrollbar-width: none; }
+    .filter-tabs {
+      display: flex; gap: 6px; padding: 0 12px 12px;
+      overflow-x: auto; scrollbar-width: none;
+    }
     .filter-tabs::-webkit-scrollbar { display: none; }
-    .ftab { white-space: nowrap; padding: 7px 16px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; font-size: .8rem; font-weight: 600; transition: all .2s; flex-shrink: 0; }
-    .ftab.active { background: rgba(88,166,255,.15); border-color: var(--accent); color: var(--accent); }
-    .ftab[data-f="earnings"].active { background: rgba(255,166,87,.15); border-color: var(--accent5); color: var(--accent5); }
-    .ftab[data-f="fomc"].active { background: rgba(247,129,102,.15); border-color: var(--accent2); color: var(--accent2); }
-    .ftab[data-f="economic"].active { background: rgba(63,185,80,.15); border-color: var(--accent3); color: var(--accent3); }
+    .ftab {
+      white-space: nowrap; padding: 6px 14px; border-radius: 20px;
+      border: 1px solid var(--border); background: transparent;
+      color: var(--text2); cursor: pointer; font-size: .75rem; font-weight: 600;
+      transition: all .2s; flex-shrink: 0;
+    }
+    .ftab.active { background: rgba(79,156,249,.12); border-color: rgba(79,156,249,.35); color: var(--blue); }
+    .ftab[data-f="earnings"].active { background: rgba(251,191,36,.12); border-color: rgba(251,191,36,.35); color: var(--amber); }
+    .ftab[data-f="fomc"].active { background: rgba(248,113,113,.12); border-color: rgba(248,113,113,.35); color: var(--red); }
+    .ftab[data-f="economic"].active { background: rgba(52,211,153,.12); border-color: rgba(52,211,153,.35); color: var(--green); }
 
-    /* ── Upcoming list ── */
+    /* ── Upcoming list items ── */
     .upcoming-item {
       display: flex; align-items: center; gap: 12px;
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 12px; padding: 12px 14px; margin: 0 12px 8px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 12px 14px; margin: 0 12px 8px;
       transition: border-color .15s;
     }
-    .upcoming-item.highlighted { border-color: var(--accent); background: rgba(88,166,255,.06); }
-    .upcoming-date { text-align: center; flex-shrink: 0; width: 36px; }
+    .upcoming-item.highlighted { border-color: var(--blue); background: rgba(79,156,249,.06); }
+    .upcoming-date { text-align: center; flex-shrink: 0; width: 34px; }
     .upcoming-date .day { font-size: 1.3rem; font-weight: 800; line-height: 1; }
-    .upcoming-date .month { font-size: .65rem; color: var(--muted); margin-top: 2px; }
-    .upcoming-divider { width: 1px; height: 40px; background: var(--border); flex-shrink: 0; }
+    .upcoming-date .month { font-size: .62rem; color: var(--text3); margin-top: 2px; }
+    .upcoming-divider { width: 1px; height: 38px; background: var(--border); flex-shrink: 0; }
     .upcoming-info { flex: 1; min-width: 0; }
-    .upcoming-info h4 { font-size: .88rem; font-weight: 700; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .upcoming-info p { font-size: .75rem; color: var(--muted); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .countdown { font-size: .72rem; color: var(--accent); font-weight: 600; margin-top: 4px; }
-    .countdown span { color: var(--accent5); }
-    .upcoming-badge { font-size: .65rem; font-weight: 700; padding: 3px 8px; border-radius: 8px; flex-shrink: 0; text-transform: uppercase; letter-spacing: .03em; }
-    .upcoming-badge.fomc { background: rgba(247,129,102,.2); color: #f78166; }
-    .upcoming-badge.cpi, .upcoming-badge.ppi { background: rgba(88,166,255,.2); color: #58a6ff; }
-    .upcoming-badge.nfp { background: rgba(63,185,80,.2); color: #3fb950; }
-    .upcoming-badge.pce, .upcoming-badge.gdp { background: rgba(210,168,255,.2); color: #d2a8ff; }
-    .upcoming-badge.earnings { background: rgba(255,166,87,.2); color: #ffa657; }
-    .upcoming-badge.retail, .upcoming-badge.pmi { background: rgba(63,185,80,.15); color: #56d364; }
+    .upcoming-info h4 { font-size: .86rem; font-weight: 700; margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .upcoming-info p { font-size: .73rem; color: var(--text2); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .countdown { font-size: .7rem; color: var(--text3); font-weight: 500; margin-top: 4px; }
+    .countdown span { color: var(--blue); font-weight: 700; }
+    .upcoming-badge {
+      font-size: .62rem; font-weight: 700; padding: 3px 8px; border-radius: 8px;
+      flex-shrink: 0; text-transform: uppercase; letter-spacing: .04em; border: 1px solid transparent;
+    }
+    .upcoming-badge.fomc    { background: rgba(248,113,113,.15); border-color: rgba(248,113,113,.25); color: var(--red); }
+    .upcoming-badge.cpi,
+    .upcoming-badge.ppi     { background: rgba(79,156,249,.15); border-color: rgba(79,156,249,.25); color: var(--blue); }
+    .upcoming-badge.nfp     { background: rgba(52,211,153,.15); border-color: rgba(52,211,153,.25); color: var(--green); }
+    .upcoming-badge.pce,
+    .upcoming-badge.gdp     { background: rgba(167,139,250,.15); border-color: rgba(167,139,250,.25); color: var(--purple); }
+    .upcoming-badge.earnings{ background: rgba(251,191,36,.15); border-color: rgba(251,191,36,.25); color: var(--amber); }
+    .upcoming-badge.retail,
+    .upcoming-badge.pmi     { background: rgba(52,211,153,.1); border-color: rgba(52,211,153,.2); color: var(--green); }
 
-    /* ── News ── */
-    .news-toolbar { padding: 12px 12px 8px; }
-    .news-status-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
-    .news-status { display: flex; align-items: center; gap: 6px; font-size: .8rem; font-weight: 600; }
-    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent3); }
-    .status-dot.loading { background: var(--accent5); animation: pulse 1s infinite; }
-    .status-dot.error { background: var(--accent2); }
+    /* ══════════════════════════════════════
+       NEWS
+    ══════════════════════════════════════ */
+    .news-toolbar { padding: 10px 12px 8px; }
+    .news-status-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .news-status { display: flex; align-items: center; gap: 6px; font-size: .78rem; font-weight: 600; }
+    .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+    .status-dot.loading { background: var(--amber); animation: livePulse 1s infinite; }
+    .status-dot.error { background: var(--red); }
     .news-actions { display: flex; gap: 6px; }
     .lang-btn, .refresh-btn {
-      background: var(--card2); border: 1px solid var(--border); color: var(--text);
-      padding: 5px 10px; border-radius: 8px; cursor: pointer; font-size: .75rem; font-weight: 600; transition: all .2s;
+      background: var(--surface2); border: 1px solid var(--border);
+      color: var(--text2); padding: 5px 10px; border-radius: 8px;
+      cursor: pointer; font-size: .72rem; font-weight: 600; transition: all .2s;
     }
-    .lang-btn:hover, .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
-    .lang-btn.en { background: rgba(88,166,255,.1); border-color: var(--accent); color: var(--accent); }
+    .lang-btn:hover, .refresh-btn:hover { border-color: var(--blue); color: var(--blue); }
+    .lang-btn.en { background: rgba(79,156,249,.1); border-color: rgba(79,156,249,.3); color: var(--blue); }
     .refresh-icon { display: inline-block; transition: transform .3s; }
     .refresh-btn.spinning .refresh-icon { animation: spin 1s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
+
     .cat-filters { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
     .cat-filters::-webkit-scrollbar { display: none; }
-    .cat-btn { white-space: nowrap; background: var(--card2); border: 1px solid var(--border); color: var(--muted); padding: 5px 14px; border-radius: 20px; cursor: pointer; font-size: .75rem; font-weight: 500; flex-shrink: 0; }
-    .cat-btn.active { background: rgba(88,166,255,.15); border-color: var(--accent); color: var(--accent); }
-    .news-item { display: flex; gap: 12px; align-items: flex-start; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin: 0 12px 8px; text-decoration: none; color: inherit; transition: border-color .15s; }
-    .news-item:active { border-color: var(--accent); background: rgba(88,166,255,.04); }
-    .news-source-dot { width: 3px; border-radius: 2px; flex-shrink: 0; align-self: stretch; min-height: 36px; }
-    .news-body { flex: 1; min-width: 0; }
-    .news-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap; }
-    .news-source { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
-    .news-cat { font-size: .65rem; padding: 1px 6px; border-radius: 3px; font-weight: 600; }
-    .news-time { font-size: .68rem; color: var(--muted); margin-left: auto; }
-    .news-title { font-size: .88rem; font-weight: 600; line-height: 1.4; margin-bottom: 3px; }
-    .news-title-en { font-size: .73rem; color: var(--muted); line-height: 1.35; margin-bottom: 3px; font-style: italic; }
-    .news-desc { font-size: .78rem; color: var(--muted); line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .news-arrow { color: var(--muted); font-size: 1rem; flex-shrink: 0; align-self: center; }
-    .news-empty { text-align: center; padding: 50px 20px; color: var(--muted); }
-    .news-empty .icon { font-size: 2.2rem; margin-bottom: 10px; }
-    .next-refresh { text-align: center; padding: 12px; font-size: .75rem; color: var(--muted); }
-    .next-refresh span { color: var(--accent); font-weight: 700; }
-    .last-updated { font-size: .7rem; color: var(--muted); padding: 0 12px 4px; }
+    .cat-btn {
+      white-space: nowrap; background: var(--surface); border: 1px solid var(--border);
+      color: var(--text3); padding: 5px 14px; border-radius: 20px;
+      cursor: pointer; font-size: .73rem; font-weight: 500; flex-shrink: 0; transition: all .2s;
+    }
+    .cat-btn.active { background: rgba(79,156,249,.12); border-color: rgba(79,156,249,.3); color: var(--blue); }
 
-    /* ── Factors ── */
-    .factor-row { display: flex; align-items: center; gap: 12px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin: 0 12px 8px; }
-    .factor-icon { font-size: 1.4rem; flex-shrink: 0; width: 36px; text-align: center; }
+    .last-updated { font-size: .68rem; color: var(--text3); padding: 0 12px 6px; }
+
+    /* News card — modern design */
+    .news-item {
+      display: block; text-decoration: none; color: inherit;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px 14px 12px; margin: 0 12px 8px;
+      transition: border-color .2s, background .2s;
+      position: relative; overflow: hidden;
+    }
+    .news-item::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 3px; border-radius: 0 2px 2px 0;
+    }
+    .news-item:active { border-color: var(--border2); background: var(--surface2); }
+    .news-item-inner { padding-left: 10px; }
+    .news-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; flex-wrap: wrap; }
+    .news-source { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+    .news-cat-badge {
+      font-size: .62rem; padding: 1px 7px; border-radius: 4px; font-weight: 600;
+      border: 1px solid transparent;
+    }
+    .news-time { font-size: .65rem; color: var(--text3); margin-left: auto; }
+    .news-title { font-size: .88rem; font-weight: 600; line-height: 1.45; margin-bottom: 4px; color: var(--text); }
+    .news-title-en { font-size: .72rem; color: var(--text3); line-height: 1.35; margin-bottom: 5px; font-style: italic; }
+    .news-desc { font-size: .76rem; color: var(--text2); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .news-footer { display: flex; align-items: center; justify-content: flex-end; margin-top: 8px; }
+    .news-read-more { font-size: .68rem; color: var(--text3); display: flex; align-items: center; gap: 3px; }
+
+    .news-empty { text-align: center; padding: 60px 20px; color: var(--text3); }
+    .news-empty .icon { font-size: 2.4rem; margin-bottom: 10px; opacity: .6; }
+    .news-empty p { font-size: .84rem; }
+    .next-refresh { text-align: center; padding: 10px; font-size: .72rem; color: var(--text3); }
+    .next-refresh span { color: var(--blue); font-weight: 700; }
+
+    /* ══════════════════════════════════════
+       FACTORS
+    ══════════════════════════════════════ */
+    .factor-row {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px; margin: 0 12px 8px;
+      transition: border-color .2s;
+    }
+    .factor-icon-wrap {
+      width: 38px; height: 38px; border-radius: 10px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
+    }
     .factor-body { flex: 1; min-width: 0; }
-    .factor-name { font-size: .88rem; font-weight: 700; margin-bottom: 2px; }
-    .factor-desc { font-size: .75rem; color: var(--muted); line-height: 1.4; }
-    .factor-meta { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
-    .factor-freq { font-size: .68rem; color: var(--muted); }
-    .factor-impact { font-size: .68rem; font-weight: 700; padding: 2px 8px; border-radius: 10px; margin-left: auto; }
-    .impact-extreme { background: rgba(247,129,102,.2); color: #f78166; }
-    .impact-high { background: rgba(255,166,87,.2); color: #ffa657; }
-    .impact-med { background: rgba(63,185,80,.2); color: #3fb950; }
+    .factor-name { font-size: .88rem; font-weight: 700; margin-bottom: 3px; }
+    .factor-desc { font-size: .75rem; color: var(--text2); line-height: 1.5; }
+    .factor-meta { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+    .factor-freq { font-size: .66rem; color: var(--text3); background: var(--surface2); padding: 2px 8px; border-radius: 6px; border: 1px solid var(--border); }
+    .factor-impact { font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; margin-left: auto; border: 1px solid transparent; }
+    .impact-extreme { background: rgba(248,113,113,.12); border-color: rgba(248,113,113,.25); color: var(--red); }
+    .impact-high    { background: rgba(251,191,36,.12); border-color: rgba(251,191,36,.25); color: var(--amber); }
+    .impact-med     { background: rgba(52,211,153,.12); border-color: rgba(52,211,153,.25); color: var(--green); }
 
-    /* ── Company cards ── */
-    .company-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin: 0 12px 10px; }
-    .company-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-    .company-logo { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 800; flex-shrink: 0; }
+    /* ══════════════════════════════════════
+       EARNINGS / COMPANY CARDS
+    ══════════════════════════════════════ */
+    .company-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px; margin: 0 12px 10px;
+      transition: border-color .2s;
+    }
+    .company-top { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+    .company-logo {
+      width: 42px; height: 42px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 800; flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
     .company-name { font-size: .95rem; font-weight: 700; }
-    .company-ticker { font-size: .72rem; color: var(--muted); }
-    .company-desc { font-size: .8rem; color: var(--muted); line-height: 1.5; }
+    .company-ticker { font-size: .7rem; color: var(--text3); margin-top: 1px; }
+    .company-desc { font-size: .78rem; color: var(--text2); line-height: 1.55; }
 
-    /* ── Charts ── */
-    .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin: 0 12px 12px; }
-    .chart-title { font-size: .9rem; font-weight: 700; margin-bottom: 2px; }
-    .chart-sub { font-size: .75rem; color: var(--muted); margin-bottom: 14px; }
+    /* ══════════════════════════════════════
+       CHARTS
+    ══════════════════════════════════════ */
+    .chart-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 16px; margin: 0 12px 12px;
+    }
+    .chart-title { font-size: .92rem; font-weight: 700; margin-bottom: 2px; }
+    .chart-sub { font-size: .73rem; color: var(--text2); margin-bottom: 14px; }
     .chart-wrap { position: relative; height: 240px; }
     .chart-wrap.tall { height: 380px; }
 
-    /* ── Rank list ── */
-    .rank-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    /* ══════════════════════════════════════
+       RANK LIST
+    ══════════════════════════════════════ */
+    .rank-item { display: flex; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--border); }
     .rank-item:last-child { border-bottom: none; }
-    .rank-num { font-size: .75rem; font-weight: 700; color: var(--muted); width: 20px; text-align: center; flex-shrink: 0; }
+    .rank-num { font-size: .72rem; font-weight: 700; color: var(--text3); width: 20px; text-align: center; flex-shrink: 0; }
     .rank-name { flex: 1; font-size: .82rem; font-weight: 600; }
     .rank-bar-wrap { width: 80px; }
-    .rank-bar { height: 6px; border-radius: 3px; }
+    .rank-bar { height: 6px; border-radius: 3px; overflow: hidden; background: var(--surface2); }
+    .rank-bar-fill { height: 100%; border-radius: 3px; }
     .rank-score { font-size: .75rem; font-weight: 700; width: 28px; text-align: right; flex-shrink: 0; }
 
-    /* ── Scroll to top ── */
-    .scroll-top-btn { position: fixed; bottom: calc(var(--nav-h) + var(--safe-bottom) + 16px); right: 16px; width: 40px; height: 40px; background: var(--card2); border: 1px solid var(--border); border-radius: 50%; color: var(--muted); font-size: 1.1rem; cursor: pointer; display: none; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,.4); z-index: 50; }
-    .scroll-top-btn.visible { display: flex; }
+    /* ══════════════════════════════════════
+       DATA TABLE
+    ══════════════════════════════════════ */
+    .data-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    .data-table th {
+      background: var(--surface2); color: var(--text3); font-weight: 600;
+      padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border);
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .04em;
+    }
+    .data-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .data-table tr:hover td { background: var(--surface2); }
+    .lv-high { color: var(--red); font-weight: 700; }
+    .lv-med  { color: var(--amber); font-weight: 700; }
+    .lv-low  { color: var(--green); font-weight: 700; }
 
     /* ══════════════════════════════════════
        DESKTOP OVERRIDES (>= 768px)
     ══════════════════════════════════════ */
     @media (min-width: 768px) {
-      /* Reset mobile overflow lock */
       html, body { height: auto; overflow: auto; }
       body { overscroll-behavior: auto; }
-
       #app { height: auto; display: block; }
 
-      /* Hide mobile top bar & bottom nav */
-      .top-bar { display: none; }
+      .mobile-header { display: none; }
       .bottom-nav { display: none; }
       .scroll-top-btn { bottom: 24px; }
 
-        /* Desktop header */
-    .desktop-header { display: block; }
-    .mobile-page-header { display: none; }
-    .desktop-header {
-        background: linear-gradient(135deg, #0d1117 0%, #1a2332 50%, #0d1117 100%);
+      /* Desktop header */
+      .desktop-header {
+        display: block;
+        background: linear-gradient(135deg, #060b18 0%, #0c1525 50%, #060b18 100%);
         border-bottom: 1px solid var(--border);
-        padding: 20px 24px 16px;
+        padding: 28px 24px 20px;
         text-align: center;
         position: relative; overflow: hidden;
       }
       .desktop-header::before {
         content: ''; position: absolute; inset: 0;
-        background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(88,166,255,.1) 0%, transparent 70%);
+        background: radial-gradient(ellipse 80% 70% at 50% 0%, rgba(79,156,249,0.08) 0%, transparent 70%);
         pointer-events: none;
       }
       .desktop-header h1 {
-        font-size: clamp(1.6rem, 3.5vw, 2.4rem); font-weight: 700;
-        background: linear-gradient(90deg, #58a6ff, #a5d6ff);
+        font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; letter-spacing: -0.02em;
+        background: linear-gradient(90deg, #f0f4ff 0%, #94a3b8 100%);
         -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
         margin-bottom: 8px;
       }
-      .desktop-header p { color: var(--muted); font-size: .9rem; }
-      .header-badges { display: flex; justify-content: center; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
-      .hbadge { background: rgba(88,166,255,.1); border: 1px solid rgba(88,166,255,.25); color: var(--accent); border-radius: 20px; padding: 3px 12px; font-size: .75rem; font-weight: 600; }
-      .hbadge.green { background: rgba(63,185,80,.1); border-color: rgba(63,185,80,.25); color: var(--accent3); }
-      .hbadge.orange { background: rgba(255,166,87,.1); border-color: rgba(255,166,87,.25); color: var(--accent5); }
+      .desktop-header p { color: var(--text2); font-size: .88rem; }
+      .header-badges { display: flex; justify-content: center; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+      .hbadge {
+        background: rgba(79,156,249,.08); border: 1px solid rgba(79,156,249,.2);
+        color: var(--blue); border-radius: 20px; padding: 4px 14px; font-size: .72rem; font-weight: 600;
+      }
+      .hbadge.green { background: rgba(52,211,153,.08); border-color: rgba(52,211,153,.2); color: var(--green); }
+      .hbadge.amber { background: rgba(251,191,36,.08); border-color: rgba(251,191,36,.2); color: var(--amber); }
 
-      /* Desktop top nav */
+      /* Desktop nav */
       .desktop-nav {
-        display: flex; justify-content: center; gap: 4px;
-        padding: 16px 24px 0; flex-wrap: wrap;
+        display: flex; justify-content: center; gap: 2px;
+        padding: 0 24px;
         border-bottom: 1px solid var(--border);
-        background: var(--bg);
+        background: rgba(6,11,24,0.95);
+        backdrop-filter: blur(20px);
         position: sticky; top: 0; z-index: 100;
       }
       .desktop-nav button {
-        background: transparent; border: 1px solid transparent;
-        color: var(--muted); padding: 8px 16px;
-        border-radius: 8px 8px 0 0; cursor: pointer;
-        font-size: .88rem; font-weight: 500; transition: all .2s;
-        margin-bottom: -1px; border-bottom: 2px solid transparent;
+        background: transparent; border: none; border-bottom: 2px solid transparent;
+        color: var(--text3); padding: 14px 18px;
+        cursor: pointer; font-size: .86rem; font-weight: 500; transition: all .2s;
       }
-      .desktop-nav button:hover { color: var(--text); background: var(--card2); }
-      .desktop-nav button.active { color: var(--accent); border-bottom: 2px solid var(--accent); background: var(--card2); }
+      .desktop-nav button:hover { color: var(--text); }
+      .desktop-nav button.active { color: var(--blue); border-bottom-color: var(--blue); }
 
-      /* Content area */
+      /* Content */
       #content { overflow: visible; }
       .tab-panel.active { padding: 0; }
-
-      /* Main wrapper */
       #main-wrap { max-width: 1280px; margin: 0 auto; padding: 28px 20px 60px; }
 
       /* Sec header desktop */
-      .sec-header { padding: 0 0 20px; }
-      .sec-header h2 { font-size: 1.3rem; }
+      .sec-hdr { padding: 0 0 20px; }
+      .sec-hdr-text h2 { font-size: 1.25rem; }
 
       /* Cards grid */
       .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-bottom: 28px; }
-      .card { margin: 0; border-radius: 12px; }
-      .card:hover { border-color: var(--accent); transform: translateY(-2px); transition: border-color .2s, transform .2s; }
+      .g-card { margin: 0; }
+      .g-card:hover { border-color: var(--border2); transform: translateY(-2px); }
 
-      /* Info box */
       .info-box { margin: 0 0 18px; }
-
-      /* Divider */
       .divider { margin: 20px 0; }
 
       /* Company grid */
       .company-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-bottom: 28px; }
       .company-card { margin: 0; }
+      .company-card:hover { border-color: var(--border2); }
 
-      /* Calendar desktop */
+      /* Calendar */
       .cal-nav-bar { padding: 0 0 16px; }
-      .cal-nav-btn { width: auto; height: 34px; padding: 0 14px; font-size: .85rem; }
+      .cal-nav-btn { width: auto; height: 34px; padding: 0 14px; font-size: .84rem; }
       .cal-month-label { font-size: 1.1rem; min-width: 140px; text-align: center; }
       .cal-grid { padding: 0 0 20px; gap: 4px; }
-      .cal-day-header { font-size: .72rem; padding: 6px 0; letter-spacing: .04em; }
-      .cal-cell { min-height: 90px; padding: 6px; border-radius: 8px; }
-      .cal-cell:hover { border-color: var(--accent); }
-      .cal-cell:active { border-color: var(--accent); }
-      .cal-date { font-size: .8rem; margin-bottom: 4px; }
-      .cal-dots { display: none; } /* hide dots on desktop, show text labels */
+      .cal-day-header { font-size: .7rem; padding: 6px 0; }
+      .cal-cell { min-height: 88px; padding: 7px; border-radius: 10px; }
+      .cal-cell:hover { border-color: var(--blue); }
+      .cal-date { font-size: .78rem; margin-bottom: 4px; }
+      .cal-dots { display: none; }
       .cal-event-label {
-        display: block;
-        font-size: .62rem; border-radius: 3px; padding: 2px 4px;
+        display: block; font-size: .6rem; border-radius: 4px; padding: 2px 5px;
         margin-bottom: 2px; line-height: 1.3; cursor: pointer;
         white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600;
       }
-      .cal-event-label.fomc { background: rgba(247,129,102,.25); color: #f78166; }
-      .cal-event-label.cpi { background: rgba(88,166,255,.25); color: #58a6ff; }
-      .cal-event-label.nfp { background: rgba(63,185,80,.25); color: #3fb950; }
-      .cal-event-label.pce { background: rgba(210,168,255,.25); color: #d2a8ff; }
-      .cal-event-label.gdp { background: rgba(255,166,87,.25); color: #ffa657; }
-      .cal-event-label.ppi { background: rgba(88,166,255,.15); color: #79c0ff; }
-      .cal-event-label.retail { background: rgba(63,185,80,.15); color: #56d364; }
-      .cal-event-label.pmi { background: rgba(210,168,255,.15); color: #bc8cff; }
-      .cal-event-label.earnings { background: rgba(255,166,87,.2); color: #ffa657; }
-      .cal-more { font-size: .62rem; color: var(--accent); margin-top: 2px; }
-
-      /* Calendar legend */
-      .cal-legend { display: flex; gap: 12px; flex-wrap: wrap; }
-      .cal-leg-item { display: flex; align-items: center; gap: 5px; font-size: .75rem; color: var(--muted); }
-      .cal-leg-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+      .cal-event-label.fomc    { background: rgba(248,113,113,.2); color: var(--red); }
+      .cal-event-label.cpi     { background: rgba(79,156,249,.2); color: var(--blue); }
+      .cal-event-label.nfp     { background: rgba(52,211,153,.2); color: var(--green); }
+      .cal-event-label.pce     { background: rgba(167,139,250,.2); color: var(--purple); }
+      .cal-event-label.gdp     { background: rgba(251,191,36,.2); color: var(--amber); }
+      .cal-event-label.ppi     { background: rgba(79,156,249,.15); color: #93c5fd; }
+      .cal-event-label.retail  { background: rgba(52,211,153,.15); color: #6ee7b7; }
+      .cal-event-label.pmi     { background: rgba(167,139,250,.15); color: #c4b5fd; }
+      .cal-event-label.earnings{ background: rgba(251,191,36,.18); color: var(--amber); }
+      .cal-more { font-size: .6rem; color: var(--blue); margin-top: 2px; }
+      .cal-legend-mobile { display: none; }
+      .cal-legend { display: flex; gap: 14px; flex-wrap: wrap; }
+      .cal-leg-item { display: flex; align-items: center; gap: 5px; font-size: .72rem; color: var(--text2); }
+      .cal-leg-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
       .cal-header-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
 
-      /* Upcoming filter tabs desktop */
+      /* Filter tabs desktop */
       .filter-tabs { padding: 0 0 16px; }
-
-      /* Upcoming items desktop */
       .upcoming-item { margin: 0 0 8px; }
-      .upcoming-item:hover { border-color: var(--accent); }
+      .upcoming-item:hover { border-color: var(--border2); }
 
       /* News desktop */
       .news-toolbar { padding: 0 0 16px; }
-      .news-item { margin: 0 0 10px; border-radius: 10px; }
-      .news-item:hover { border-color: var(--accent); }
+      .news-item { margin: 0 0 10px; }
+      .news-item:hover { border-color: var(--border2); }
       .news-grid-desktop { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 10px; }
 
-      /* Factor rows desktop */
+      /* Factor rows */
       .factor-row { margin: 0 0 8px; }
-      .factor-row:hover { border-color: var(--accent); }
+      .factor-row:hover { border-color: var(--border2); }
 
-      /* Chart cards desktop */
-      .chart-card { margin: 0 0 22px; border-radius: 12px; }
+      /* Chart cards */
+      .chart-card { margin: 0 0 22px; }
       .chart-wrap { height: 300px; }
       .chart-wrap.tall { height: 460px; }
 
-      /* Tables */
-      .data-table { width: 100%; border-collapse: collapse; font-size: .84rem; margin-bottom: 22px; }
-      .data-table th { background: var(--card2); color: var(--muted); font-weight: 600; padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; }
-      .data-table td { padding: 11px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
-      .data-table tr:hover td { background: var(--card2); }
-      .lv-high { color: var(--accent2); font-weight: 700; }
-      .lv-med { color: var(--accent5); font-weight: 700; }
-      .lv-low { color: var(--accent3); font-weight: 700; }
-
-      /* Timeline */
-      .timeline { position: relative; padding-left: 22px; }
-      .timeline::before { content: ''; position: absolute; left: 7px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--accent), var(--accent4), transparent); }
-      .tl-item { position: relative; margin-bottom: 16px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; transition: border-color .2s; }
-      .tl-item:hover { border-color: var(--accent); }
-      .tl-item::before { content: ''; position: absolute; left: -19px; top: 18px; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
-      .tl-item h4 { font-size: .9rem; font-weight: 700; margin-bottom: 3px; }
-      .tl-item .meta { font-size: .75rem; color: var(--accent); margin-bottom: 5px; font-weight: 600; }
-      .tl-item p { font-size: .82rem; color: var(--muted); }
-
-      /* Rank list desktop - use bar chart instead */
+      /* Rank bar */
       .rank-bar-wrap { width: 120px; }
     }
   </style>
@@ -464,64 +619,43 @@
 
 <div id="app">
 
-  <!-- ══ MOBILE: Inline Page Header + Tab Bar ══ -->
-  <div class="top-bar">
-    <div class="top-bar-inner">
-      <div class="top-bar-left">
-        <h1>🇺🇸 美股监控中心</h1>
-        <p id="today-date-mobile">财经日历 &middot; 实时新闻 &middot; 影响因素分析</p>
+  <!-- ══ MOBILE: Header ══ -->
+  <div class="mobile-header">
+    <div class="mobile-header-brand">
+      <div class="brand-icon">🇺🇸</div>
+      <div class="brand-text">
+        <div class="brand-title">美股监控中心</div>
+        <div class="brand-sub" id="today-date-sub">财经日历 · 实时新闻</div>
       </div>
-      <div class="live-badge"><div class="live-dot"></div>实时</div>
+    </div>
+    <div class="live-pill">
+      <div class="live-dot"></div>实时
     </div>
   </div>
 
-  <!-- ══ MOBILE: Sticky Tab Bar ══ -->
-  <nav class="mobile-tab-bar">
-    <button class="mobile-tab-btn active" onclick="switchMobileTab('calendar', this)">
-      <span class="tab-icon">📅</span>日历
-    </button>
-    <button class="mobile-tab-btn" onclick="switchMobileTab('news', this)">
-      <span class="tab-icon">📡</span>新闻
-    </button>
-    <button class="mobile-tab-btn" onclick="switchMobileTab('factors', this)">
-      <span class="tab-icon">📊</span>因素
-    </button>
-    <button class="mobile-tab-btn" onclick="switchMobileTab('earnings', this)">
-      <span class="tab-icon">💼</span>财报
-    </button>
-    <button class="mobile-tab-btn" onclick="switchMobileTab('overview', this)">
-      <span class="tab-icon">🔭</span>概览
-    </button>
-  </nav>
-
   <!-- ══ DESKTOP: Header ══ -->
   <div class="desktop-header">
-    <h1>🇺🇸 美股市场监控中心</h1>
-    <p>实时财经新闻 &middot; 财经日历 &middot; 影响大盘的关键因素分析 &nbsp;<span id="today-date-desktop" style="color:var(--accent);font-size:.85rem"></span></p>
+    <h1>美股市场监控中心</h1>
+    <p>实时财经新闻 &middot; 财经日历 &middot; 影响大盘的关键因素分析 &nbsp;<span id="today-date-desktop" style="color:var(--blue);font-size:.85rem"></span></p>
+    <div class="header-badges">
+      <span class="hbadge">📅 财经日历</span>
+      <span class="hbadge green">📡 实时新闻</span>
+      <span class="hbadge amber">📊 影响因素</span>
+    </div>
   </div>
 
   <!-- ══ DESKTOP: Top Nav ══ -->
   <nav class="desktop-nav">
-    <button class="active" onclick="switchTab('calendar', this)">📅 财经日历</button>
-    <button onclick="switchTab('news', this)">📡 实时新闻</button>
-    <button onclick="switchTab('factors', this)">📊 影响因素</button>
-    <button onclick="switchTab('earnings', this)">💼 财报季</button>
-    <button onclick="switchTab('overview', this)">🔭 综合概览</button>
+    <button class="active" onclick="switchTab('calendar', this)">财经日历</button>
+    <button onclick="switchTab('news', this)">实时新闻</button>
+    <button onclick="switchTab('factors', this)">影响因素</button>
+    <button onclick="switchTab('earnings', this)">财报季</button>
+    <button onclick="switchTab('overview', this)">综合概览</button>
   </nav>
 
   <!-- ══ Scrollable Content ══ -->
   <div id="content">
     <div id="main-wrap">
-
-    <!-- ══ MOBILE INLINE HEADER ══ -->
-    <div class="mobile-page-header">
-      <div class="mobile-page-header-left">
-        <span class="mobile-page-title">🇺🇸 美股监控中心</span>
-      </div>
-      <div class="live-badge">
-        <span class="live-dot"></span>实时
-      </div>
-    </div>
 
     <!-- ══════════════════════════════════
          TAB: 财经日历
@@ -531,18 +665,18 @@
       <!-- Desktop: header row with legend -->
       <div class="cal-header-row" style="display:none" id="calHeaderRow">
         <div class="cal-nav-bar" style="padding:0">
-          <div class="cal-nav" style="display:flex;align-items:center;gap:10px">
+          <div style="display:flex;align-items:center;gap:10px">
             <button class="cal-nav-btn" onclick="changeMonth(-1)">← 上月</button>
             <div class="cal-month-label" id="calMonthLabelDesktop">2026年4月</div>
             <button class="cal-nav-btn" onclick="changeMonth(1)">下月 →</button>
           </div>
         </div>
         <div class="cal-legend">
-          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#f78166"></div>FOMC会议</div>
-          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#58a6ff"></div>CPI通胀</div>
-          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#3fb950"></div>非农就业</div>
-          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#d2a8ff"></div>PCE/GDP</div>
-          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#ffa657"></div>财报/其他</div>
+          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--red)"></div>FOMC</div>
+          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--blue)"></div>CPI</div>
+          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--green)"></div>NFP</div>
+          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--purple)"></div>PCE/GDP</div>
+          <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--amber)"></div>财报/其他</div>
         </div>
       </div>
 
@@ -551,7 +685,7 @@
         <button class="cal-nav-btn" onclick="changeMonth(-1)">‹</button>
         <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
           <div class="cal-month-label" id="calMonthLabel">2026年4月</div>
-          <div id="today-date-cal" style="font-size:.65rem;color:var(--accent);font-weight:600;letter-spacing:.02em"></div>
+          <div class="cal-today-sub" id="today-date-cal"></div>
         </div>
         <button class="cal-nav-btn" onclick="changeMonth(1)">›</button>
       </div>
@@ -568,25 +702,27 @@
       </div>
 
       <!-- Mobile: color legend -->
-      <div id="mobileLegend" style="display:flex;flex-wrap:wrap;gap:10px;padding:0 12px 12px;font-size:.7rem;color:var(--muted)">
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#f78166;margin-right:4px"></span>FOMC</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#58a6ff;margin-right:4px"></span>CPI</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#3fb950;margin-right:4px"></span>NFP</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#d2a8ff;margin-right:4px"></span>PCE/GDP</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#ffa657;margin-right:4px"></span>财报</span>
+      <div class="cal-legend-mobile" id="mobileLegend">
+        <span><i style="background:var(--red)"></i>FOMC</span>
+        <span><i style="background:var(--blue)"></i>CPI</span>
+        <span><i style="background:var(--green)"></i>NFP</span>
+        <span><i style="background:var(--purple)"></i>PCE/GDP</span>
+        <span><i style="background:var(--amber)"></i>财报</span>
       </div>
 
       <!-- Upcoming events -->
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(88,166,255,.15)">⏰</div>
-        <div><h2>近期重要事件</h2><p>未来30天内的关键财经事件</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(79,156,249,.12);border:1px solid rgba(79,156,249,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>近期重要事件</h2><p>未来30天内的关键财经事件</p></div>
       </div>
 
       <div class="filter-tabs" id="upcomingTabs">
         <button class="ftab active" data-f="all" onclick="switchUpcomingTab('all',this)">全部</button>
-        <button class="ftab" data-f="earnings" onclick="switchUpcomingTab('earnings',this)">💼 财报</button>
-        <button class="ftab" data-f="fomc" onclick="switchUpcomingTab('fomc',this)">🏛️ 货币政策</button>
-        <button class="ftab" data-f="economic" onclick="switchUpcomingTab('economic',this)">📈 关键经济</button>
+        <button class="ftab" data-f="earnings" onclick="switchUpcomingTab('earnings',this)">财报</button>
+        <button class="ftab" data-f="fomc" onclick="switchUpcomingTab('fomc',this)">货币政策</button>
+        <button class="ftab" data-f="economic" onclick="switchUpcomingTab('economic',this)">关键经济</button>
       </div>
 
       <div id="upcomingList"></div>
@@ -631,12 +767,15 @@
     ══════════════════════════════════ -->
     <div id="tab-factors" class="tab-panel">
 
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(247,129,102,.15)">🏛️</div>
-        <div><h2>货币政策</h2><p>美联储是影响美股最强的单一驱动力</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18M6 18V10M10 18V4M14 18v-6M18 18v-3"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>货币政策</h2><p>美联储是影响美股最强的单一驱动力</p></div>
       </div>
+
       <div class="factor-row">
-        <div class="factor-icon">🏛️</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🏛️</div>
         <div class="factor-body">
           <div class="factor-name">FOMC 利率决议</div>
           <div class="factor-desc">每年8次，加息/降息直接决定资金成本，是最强单一驱动力</div>
@@ -644,7 +783,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">🎙️</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🎙️</div>
         <div class="factor-body">
           <div class="factor-name">鲍威尔新闻发布会</div>
           <div class="factor-desc">每次FOMC后召开，"鹰派/鸽派"措辞可在30分钟内引发大盘1-3%波动</div>
@@ -652,7 +791,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">📋</div>
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">📋</div>
         <div class="factor-body">
           <div class="factor-name">FOMC 会议纪要</div>
           <div class="factor-desc">会后约3周发布，揭示政策路径细节，引发二次波动</div>
@@ -660,7 +799,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">💰</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">💰</div>
         <div class="factor-body">
           <div class="factor-name">QE / QT（扩表/缩表）</div>
           <div class="factor-desc">量化宽松注入流动性利好股市；量化紧缩抽走流动性压制股市</div>
@@ -669,12 +808,15 @@
       </div>
 
       <div class="divider"></div>
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(88,166,255,.15)">📈</div>
-        <div><h2>关键经济数据</h2><p>影响利率预期，进而影响股市估值</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(79,156,249,.12);border:1px solid rgba(79,156,249,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>关键经济数据</h2><p>影响利率预期，进而影响股市估值</p></div>
       </div>
+
       <div class="factor-row">
-        <div class="factor-icon">🌡️</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🌡️</div>
         <div class="factor-body">
           <div class="factor-name">CPI 通胀数据</div>
           <div class="factor-desc">每月第2周发布。高于预期 → 推迟降息 → 股市下跌</div>
@@ -682,7 +824,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">👷</div>
+        <div class="factor-icon-wrap" style="background:rgba(52,211,153,.1)">👷</div>
         <div class="factor-body">
           <div class="factor-name">非农就业报告（NFP）</div>
           <div class="factor-desc">每月第一个周五。就业强弱双向影响利率预期</div>
@@ -690,7 +832,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">📊</div>
+        <div class="factor-icon-wrap" style="background:rgba(167,139,250,.1)">📊</div>
         <div class="factor-body">
           <div class="factor-name">PCE 价格指数</div>
           <div class="factor-desc">美联储最偏好的通胀指标，每月底发布</div>
@@ -698,7 +840,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">🏭</div>
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">🏭</div>
         <div class="factor-body">
           <div class="factor-name">GDP 数据</div>
           <div class="factor-desc">每季度发布。连续两季度负增长 = 衰退信号</div>
@@ -706,7 +848,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">🛒</div>
+        <div class="factor-icon-wrap" style="background:rgba(52,211,153,.1)">🛒</div>
         <div class="factor-body">
           <div class="factor-name">零售销售数据</div>
           <div class="factor-desc">消费占GDP约70%，直接反映经济健康度</div>
@@ -714,7 +856,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">🏗️</div>
+        <div class="factor-icon-wrap" style="background:rgba(79,156,249,.1)">🏗️</div>
         <div class="factor-body">
           <div class="factor-name">PMI 采购经理人指数</div>
           <div class="factor-desc">50以下代表经济收缩，是经济先行指标</div>
@@ -723,12 +865,15 @@
       </div>
 
       <div class="divider"></div>
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(63,185,80,.15)">🌍</div>
-        <div><h2>地缘政治与其他</h2><p>外部冲击与市场情绪指标</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>地缘政治与其他</h2><p>外部冲击与市场情绪指标</p></div>
       </div>
+
       <div class="factor-row">
-        <div class="factor-icon">📉</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">📉</div>
         <div class="factor-body">
           <div class="factor-name">10年期美债收益率</div>
           <div class="factor-desc">上升 → 股票估值压缩，尤其打压成长股（科技股）</div>
@@ -736,7 +881,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">🇨🇳</div>
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🌏</div>
         <div class="factor-body">
           <div class="factor-name">中美贸易摩擦 / 关税</div>
           <div class="factor-desc">科技、半导体板块首当其冲，影响供应链预期</div>
@@ -744,7 +889,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">😱</div>
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">😱</div>
         <div class="factor-body">
           <div class="factor-name">VIX 恐慌指数</div>
           <div class="factor-desc">大于30为极度恐慌信号，与股市走势高度负相关</div>
@@ -752,7 +897,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">💵</div>
+        <div class="factor-icon-wrap" style="background:rgba(79,156,249,.1)">💵</div>
         <div class="factor-body">
           <div class="factor-name">美元指数（DXY）</div>
           <div class="factor-desc">强势美元压制跨国公司海外收入，利空大型科技股</div>
@@ -760,13 +905,14 @@
         </div>
       </div>
 
-      <!-- Desktop only: data table -->
       <div class="divider"></div>
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(63,185,80,.15)">📋</div>
-        <div><h2>典型月度数据发布节奏</h2><p>了解数据发布的时间规律，提前布局</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>典型月度数据发布节奏</h2><p>了解数据发布的时间规律，提前布局</p></div>
       </div>
-      <div style="overflow-x:auto">
+      <div style="overflow-x:auto;margin:0 12px 16px">
         <table class="data-table">
           <thead><tr><th>月内时间</th><th>数据名称</th><th>发布机构</th><th>影响级别</th><th>核心关注点</th></tr></thead>
           <tbody>
@@ -791,10 +937,13 @@
     ══════════════════════════════════ -->
     <div id="tab-earnings" class="tab-panel">
 
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(255,166,87,.15)">🏆</div>
-        <div><h2>七巨头（Magnificent 7）财报</h2><p>合计占S&P 500市值约30%+，财报是每季度最大市场事件</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(251,191,36,.12);border:1px solid rgba(251,191,36,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>七巨头（Magnificent 7）财报</h2><p>合计占S&P 500市值约30%+，财报是每季度最大市场事件</p></div>
       </div>
+
       <div class="info-box"><strong>财报季节奏：</strong>Q1财报：4-5月 ｜ Q2财报：7-8月 ｜ Q3财报：10-11月 ｜ Q4财报：1-2月<br>财报季通常在季度结束后2-6周内集中发布，大型银行（JPMorgan等）通常是"第一枪"。</div>
 
       <div class="chart-card">
@@ -805,49 +954,52 @@
 
       <div class="company-grid">
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(88,166,255,.15);color:#58a6ff">A</div><div><div class="company-name">Apple</div><div class="company-ticker">AAPL · Q1财报约5月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(79,156,249,.12);color:var(--blue)">A</div><div><div class="company-name">Apple</div><div class="company-ticker">AAPL · Q1财报约5月</div></div></div>
           <div class="company-desc">iPhone销量、服务收入（App Store、Apple Music）是核心关注点。S&P 500权重最大公司之一。</div>
-          <div class="tags"><span class="tag green">市值~3.5T</span><span class="tag orange">iPhone周期</span></div>
+          <div class="tags"><span class="tag green">市值~3.5T</span><span class="tag amber">iPhone周期</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(63,185,80,.15);color:#3fb950">M</div><div><div class="company-name">Microsoft</div><div class="company-ticker">MSFT · Q1财报约4月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(52,211,153,.12);color:var(--green)">M</div><div><div class="company-name">Microsoft</div><div class="company-ticker">MSFT · Q1财报约4月</div></div></div>
           <div class="company-desc">Azure云业务增速是核心指标。与OpenAI深度合作，是AI概念股代表。</div>
           <div class="tags"><span class="tag green">市值~3.0T</span><span class="tag purple">AI核心</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(247,129,102,.15);color:#f78166">G</div><div><div class="company-name">Alphabet (Google)</div><div class="company-ticker">GOOGL · Q1财报约4月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(248,113,113,.12);color:var(--red)">G</div><div><div class="company-name">Alphabet (Google)</div><div class="company-ticker">GOOGL · Q1财报约4月</div></div></div>
           <div class="company-desc">广告收入（Search + YouTube）和Google Cloud增速是关键。AI搜索对传统搜索广告的冲击是最大不确定性。</div>
           <div class="tags"><span class="tag green">市值~2.0T</span><span class="tag red">广告周期</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(88,166,255,.15);color:#58a6ff">A</div><div><div class="company-name">Amazon</div><div class="company-ticker">AMZN · Q1财报约5月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(79,156,249,.12);color:var(--blue)">A</div><div><div class="company-name">Amazon</div><div class="company-ticker">AMZN · Q1财报约5月</div></div></div>
           <div class="company-desc">AWS云业务是利润核心，AWS增速和运营利润率是市场最关注的两个指标。</div>
-          <div class="tags"><span class="tag green">市值~2.2T</span><span class="tag orange">AWS增速</span></div>
+          <div class="tags"><span class="tag green">市值~2.2T</span><span class="tag amber">AWS增速</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(210,168,255,.15);color:#d2a8ff">M</div><div><div class="company-name">Meta Platforms</div><div class="company-ticker">META · Q1财报约4月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(167,139,250,.12);color:var(--purple)">M</div><div><div class="company-name">Meta Platforms</div><div class="company-ticker">META · Q1财报约4月</div></div></div>
           <div class="company-desc">Facebook/Instagram广告收入和日活用户（DAU）是核心指标。AI广告工具是近年增长驱动力。</div>
           <div class="tags"><span class="tag green">市值~1.4T</span><span class="tag purple">广告AI</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(63,185,80,.15);color:#3fb950">N</div><div><div class="company-name">NVIDIA</div><div class="company-ticker">NVDA · Q1财报约5月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(52,211,153,.12);color:var(--green)">N</div><div><div class="company-name">NVIDIA</div><div class="company-ticker">NVDA · Q1财报约5月</div></div></div>
           <div class="company-desc">AI基础设施核心受益者。数据中心GPU收入是全市场最受关注的财报指标，被视为AI投资热度"晴雨表"。</div>
           <div class="tags"><span class="tag green">市值~2.7T</span><span class="tag red">AI风向标</span></div>
         </div>
         <div class="company-card">
-          <div class="company-top"><div class="company-logo" style="background:rgba(255,166,87,.15);color:#ffa657">T</div><div><div class="company-name">Tesla</div><div class="company-ticker">TSLA · Q1财报约4月</div></div></div>
+          <div class="company-top"><div class="company-logo" style="background:rgba(251,191,36,.12);color:var(--amber)">T</div><div><div class="company-name">Tesla</div><div class="company-ticker">TSLA · Q1财报约4月</div></div></div>
           <div class="company-desc">汽车交付量、毛利率和FSD自动驾驶进展是核心指标。七巨头中波动性最大。</div>
-          <div class="tags"><span class="tag green">市值~0.8T</span><span class="tag orange">高波动</span></div>
+          <div class="tags"><span class="tag green">市值~0.8T</span><span class="tag amber">高波动</span></div>
         </div>
       </div>
 
       <div class="divider"></div>
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(63,185,80,.15)">🏦</div>
-        <div><h2>金融板块财报（财报季开幕信号）</h2><p>大型银行财报通常是每个财报季的"第一枪"</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>金融板块财报（财报季开幕信号）</h2><p>大型银行财报通常是每个财报季的"第一枪"</p></div>
       </div>
+
       <div class="factor-row">
-        <div class="factor-icon">🏦</div>
+        <div class="factor-icon-wrap" style="background:rgba(52,211,153,.1)">🏦</div>
         <div class="factor-body">
           <div class="factor-name">摩根大通（JPMorgan Chase）</div>
           <div class="factor-desc">通常是财报季第一家发布的大型金融机构。净息差、贷款增长和信贷损失拨备反映整体经济信用状况。</div>
@@ -855,7 +1007,7 @@
         </div>
       </div>
       <div class="factor-row">
-        <div class="factor-icon">💼</div>
+        <div class="factor-icon-wrap" style="background:rgba(79,156,249,.1)">💼</div>
         <div class="factor-body">
           <div class="factor-name">高盛 / 摩根士丹利</div>
           <div class="factor-desc">投资银行业务（IPO、并购、债券承销）反映资本市场活跃度。</div>
@@ -870,9 +1022,11 @@
     ══════════════════════════════════ -->
     <div id="tab-overview" class="tab-panel">
 
-      <div class="sec-header">
-        <div class="sec-icon" style="background:rgba(88,166,255,.15)">🔭</div>
-        <div><h2>综合影响力评估</h2><p>各因素横向对比</p></div>
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(79,156,249,.12);border:1px solid rgba(79,156,249,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>综合影响力评估</h2><p>各因素横向对比</p></div>
       </div>
 
       <div class="chart-card">
@@ -962,21 +1116,18 @@ function isMobile() { return window.innerWidth < 768; }
 
 function applyResponsiveLayout() {
   const mobile = isMobile();
-  // Show/hide desktop-only calendar header row
   const calHeaderRow = document.getElementById('calHeaderRow');
   const calNavBarMobile = document.getElementById('calNavBarMobile');
   const mobileLegend = document.getElementById('mobileLegend');
   if (calHeaderRow) calHeaderRow.style.display = mobile ? 'none' : 'flex';
   if (calNavBarMobile) calNavBarMobile.style.display = mobile ? 'flex' : 'none';
   if (mobileLegend) mobileLegend.style.display = mobile ? 'flex' : 'none';
-  // Add/remove news grid class
   const newsGrid = document.getElementById('newsGrid');
   if (newsGrid) {
     if (!mobile) newsGrid.classList.add('news-grid-desktop');
     else newsGrid.classList.remove('news-grid-desktop');
   }
 }
-
 window.addEventListener('resize', applyResponsiveLayout);
 
 // ══════════════════════════════════════════
@@ -994,27 +1145,11 @@ function switchTab(name, btn) {
   if (name === 'news') { if (!newsLoaded) fetchNews(); }
 }
 
-function switchMobileTab(name, btn) {
-  // Switch tab panel
-  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('tab-' + name).classList.add('active');
-  // Update mobile tab bar active state
-  document.querySelectorAll('.mobile-tab-btn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  // Scroll to top of page (below sticky tab bar)
-  window.scrollTo(0, 0);
-  if (name === 'overview') setTimeout(renderOverviewCharts, 50);
-  if (name === 'earnings') setTimeout(renderWeightChart, 50);
-  if (name === 'calendar') { renderCalendar(); renderUpcoming(); }
-  if (name === 'news') { if (!newsLoaded) fetchNews(); }
-}
-
 // ══════════════════════════════════════════
 // SCROLL TO TOP
 // ══════════════════════════════════════════
 const content = document.getElementById('content');
 const scrollTopBtn = document.getElementById('scrollTopBtn');
-
 function handleScroll() {
   const scrollY = isMobile() ? content.scrollTop : window.scrollY;
   if (scrollY > 300) scrollTopBtn.classList.add('visible');
@@ -1022,7 +1157,6 @@ function handleScroll() {
 }
 content.addEventListener('scroll', handleScroll);
 window.addEventListener('scroll', handleScroll);
-
 function scrollToTop() {
   if (isMobile()) content.scrollTo({ top: 0, behavior: 'smooth' });
   else window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1031,9 +1165,9 @@ function scrollToTop() {
 // ══════════════════════════════════════════
 // CHART DEFAULTS
 // ══════════════════════════════════════════
-Chart.defaults.color = '#8b949e';
-Chart.defaults.borderColor = '#30363d';
-Chart.defaults.font.family = "-apple-system, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif";
+Chart.defaults.color = '#64748b';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
+Chart.defaults.font.family = "-apple-system, 'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif";
 
 let weightChartInst = null;
 function renderWeightChart() {
@@ -1045,12 +1179,19 @@ function renderWeightChart() {
     data: {
       labels: ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META', 'TSLA'],
       datasets: [{ label: 'S&P 500权重(%)', data: [7.2, 6.5, 5.8, 4.5, 4.1, 2.9, 1.7],
-        backgroundColor: ['rgba(88,166,255,0.8)','rgba(63,185,80,0.8)','rgba(247,129,102,0.8)','rgba(88,166,255,0.7)','rgba(247,129,102,0.7)','rgba(210,168,255,0.8)','rgba(255,166,87,0.8)'],
-        borderRadius: 6, borderSkipped: false }]
+        backgroundColor: [
+          'rgba(79,156,249,0.7)','rgba(52,211,153,0.7)','rgba(248,113,113,0.7)',
+          'rgba(79,156,249,0.6)','rgba(248,113,113,0.6)','rgba(167,139,250,0.7)','rgba(251,191,36,0.7)'
+        ],
+        borderRadius: 8, borderSkipped: false }]
     },
-    options: { responsive: true, maintainAspectRatio: false,
+    options: {
+      responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${c.parsed.y}%` } } },
-      scales: { y: { grid: { color: 'rgba(48,54,61,0.5)' }, ticks: { callback: v => v + '%', font: { size: 10 } } }, x: { grid: { display: false }, ticks: { font: { size: 11 } } } }
+      scales: {
+        y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { callback: v => v + '%', font: { size: 10 } } },
+        x: { grid: { display: false }, ticks: { font: { size: 11 } } }
+      }
     }
   });
 }
@@ -1064,13 +1205,14 @@ function renderOverviewCharts() {
       data: {
         labels: ['货币政策', '经济数据', '企业财报', '地缘政治', '金融市场', '财政政策'],
         datasets: [
-          { label: '影响频率', data: [90, 95, 80, 50, 85, 40], borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,0.15)', pointBackgroundColor: '#58a6ff', borderWidth: 2 },
-          { label: '单次冲击', data: [98, 85, 75, 82, 88, 65], borderColor: '#f78166', backgroundColor: 'rgba(247,129,102,0.15)', pointBackgroundColor: '#f78166', borderWidth: 2 }
+          { label: '影响频率', data: [90, 95, 80, 50, 85, 40], borderColor: '#4f9cf9', backgroundColor: 'rgba(79,156,249,0.1)', pointBackgroundColor: '#4f9cf9', borderWidth: 2 },
+          { label: '单次冲击', data: [98, 85, 75, 82, 88, 65], borderColor: '#f87171', backgroundColor: 'rgba(248,113,113,0.1)', pointBackgroundColor: '#f87171', borderWidth: 2 }
         ]
       },
-      options: { responsive: true, maintainAspectRatio: false,
-        scales: { r: { min: 0, max: 100, grid: { color: 'rgba(48,54,61,0.6)' }, angleLines: { color: 'rgba(48,54,61,0.6)' }, pointLabels: { color: '#e6edf3', font: { size: 11 } }, ticks: { display: false } } },
-        plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 10, font: { size: 11 } } } }
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        scales: { r: { min: 0, max: 100, grid: { color: 'rgba(255,255,255,0.06)' }, angleLines: { color: 'rgba(255,255,255,0.06)' }, pointLabels: { color: '#94a3b8', font: { size: 11 } }, ticks: { display: false } } },
+        plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 10, font: { size: 11 }, color: '#94a3b8' } } }
       }
     });
   }
@@ -1087,15 +1229,15 @@ function renderOverviewCharts() {
       { name: 'PMI 采购经理人', score: 72 }, { name: '零售销售数据', score: 65 },
     ];
     items.forEach((item, i) => {
-      const color = item.score >= 90 ? '#f78166' : item.score >= 75 ? '#ffa657' : '#3fb950';
+      const color = item.score >= 90 ? '#f87171' : item.score >= 75 ? '#fbbf24' : '#34d399';
       const div = document.createElement('div');
       div.className = 'rank-item';
       div.innerHTML = `
         <div class="rank-num">${i+1}</div>
         <div class="rank-name">${item.name}</div>
         <div class="rank-bar-wrap">
-          <div class="rank-bar" style="width:${item.score}%;background:${color}22;border:1px solid ${color}44">
-            <div style="height:100%;width:${item.score}%;background:${color};border-radius:3px"></div>
+          <div class="rank-bar">
+            <div class="rank-bar-fill" style="width:${item.score}%;background:${color}"></div>
           </div>
         </div>
         <div class="rank-score" style="color:${color}">${item.score}</div>`;
@@ -1160,7 +1302,7 @@ const EVENTS_DB = [
   { date: '2026-10-29', type: 'gdp', title: 'GDP 初值（Q3 2026）', desc: '第三季度GDP初值，连续两季度负增长即为技术性衰退。', time: '08:30 ET' },
   { date: '2026-04-11', type: 'earnings', title: '摩根大通（JPM）财报', desc: 'Q1 2026财报，财报季"第一枪"，净息差和信贷损失是关键。', time: '盘前' },
   { date: '2026-04-14', type: 'earnings', title: '高盛（GS）/ 美国银行（BAC）财报', desc: 'Q1 2026财报，反映资本市场活跃度和消费信贷健康度。', time: '盘前' },
-  { date: '2026-04-22', type: 'earnings', title: 'Tesla（TSLA）财报', desc: 'Q1 2026财报，关注交付量、毛利率和FSD进展。', time: '盘后' },
+  { date: '2026-04-22', type: 'earnings', title: 'Tesla（TSLA）财报', desc: 'Q1 2026财报，关注汽车交付量和毛利率。', time: '盘后' },
   { date: '2026-04-23', type: 'earnings', title: 'Alphabet（GOOGL）财报', desc: 'Q1 2026财报，关注搜索广告收入和Google Cloud增速。', time: '盘后' },
   { date: '2026-04-24', type: 'earnings', title: 'Microsoft（MSFT）财报', desc: 'Q1 2026财报，关注Azure云增速和AI营收贡献。', time: '盘后' },
   { date: '2026-04-29', type: 'earnings', title: 'Meta（META）财报', desc: 'Q1 2026财报，关注广告收入增速和日活用户数。', time: '盘后' },
@@ -1185,7 +1327,11 @@ EVENTS_DB.forEach(e => {
 
 let calYear = 2026, calMonth = 3;
 const MONTH_NAMES = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
-const COLOR_MAP = { fomc:'#f78166', cpi:'#58a6ff', nfp:'#3fb950', pce:'#d2a8ff', gdp:'#ffa657', ppi:'#79c0ff', retail:'#56d364', pmi:'#bc8cff', earnings:'#ffa657', other:'#8b949e' };
+const COLOR_MAP = {
+  fomc:'#f87171', cpi:'#4f9cf9', nfp:'#34d399', pce:'#a78bfa',
+  gdp:'#fbbf24', ppi:'#93c5fd', retail:'#6ee7b7', pmi:'#c4b5fd',
+  earnings:'#fbbf24', other:'#64748b'
+};
 const LABEL_MAP = { fomc:'FOMC', cpi:'CPI', nfp:'NFP', pce:'PCE', gdp:'GDP', ppi:'PPI', retail:'零售', pmi:'PMI', earnings:'财报', other:'其他' };
 
 function changeMonth(delta) {
@@ -1233,18 +1379,16 @@ function renderCalendar() {
     cell.appendChild(dateDiv);
 
     if (mobile) {
-      // Mobile: colored dots
       const dotsDiv = document.createElement('div');
       dotsDiv.className = 'cal-dots';
       events.slice(0, 4).forEach(ev => {
         const dot = document.createElement('div');
         dot.className = 'cal-dot';
-        dot.style.background = COLOR_MAP[ev.type] || '#8b949e';
+        dot.style.background = COLOR_MAP[ev.type] || '#64748b';
         dotsDiv.appendChild(dot);
       });
       cell.appendChild(dotsDiv);
     } else {
-      // Desktop: text event labels
       events.slice(0, 2).forEach(ev => {
         const lbl = document.createElement('div');
         lbl.className = `cal-event-label ${ev.type}`;
@@ -1309,9 +1453,8 @@ function renderUpcoming() {
   const in30 = new Date(today); in30.setDate(in30.getDate() + 30);
 
   const upcoming = EVENTS_DB.filter(e => {
-    // Parse date as local time (avoid UTC offset issue: '2026-04-03' parses as UTC midnight)
     const [ey, em, ed] = e.date.split('-').map(Number);
-    const d = new Date(ey, em - 1, ed); // local midnight
+    const d = new Date(ey, em - 1, ed);
     if (!(d >= today && d <= in30)) return false;
     if (upcomingFilter === 'all') return true;
     if (upcomingFilter === 'earnings') return e.type === 'earnings';
@@ -1321,13 +1464,13 @@ function renderUpcoming() {
   }).sort((a,b) => a.date.localeCompare(b.date));
 
   if (upcoming.length === 0) {
-    list.innerHTML = `<div style="text-align:center;padding:24px;color:var(--muted);font-size:.82rem;margin:0 12px">未来30天内暂无此类事件</div>`;
+    list.innerHTML = `<div style="text-align:center;padding:24px;color:var(--text3);font-size:.82rem;margin:0 12px">未来30天内暂无此类事件</div>`;
     return;
   }
 
   upcoming.forEach(ev => {
     const [ey2, em2, ed2] = ev.date.split('-').map(Number);
-    const evDate = new Date(ey2, em2 - 1, ed2); // local midnight
+    const evDate = new Date(ey2, em2 - 1, ed2);
     const diffDays = Math.round((evDate - today) / 86400000);
     const [y, m, d] = ev.date.split('-');
     const item = document.createElement('div');
@@ -1335,14 +1478,14 @@ function renderUpcoming() {
     item.dataset.date = ev.date;
     item.innerHTML = `
       <div class="upcoming-date">
-        <div class="day" style="color:${COLOR_MAP[ev.type]||'#8b949e'}">${parseInt(d)}</div>
+        <div class="day" style="color:${COLOR_MAP[ev.type]||'#64748b'}">${parseInt(d)}</div>
         <div class="month">${MONTH_NAMES[parseInt(m)-1]}</div>
       </div>
       <div class="upcoming-divider"></div>
       <div class="upcoming-info">
         <h4>${ev.title}</h4>
         <p>${ev.desc.substring(0,80)}${ev.desc.length>80?'...':''}</p>
-        <div class="countdown">🕐 ${ev.time} · <span>${diffDays===0?'今天':diffDays===1?'明天':`${diffDays}天后`}</span></div>
+        <div class="countdown">⏱ ${ev.time} · <span>${diffDays===0?'今天':diffDays===1?'明天':`${diffDays}天后`}</span></div>
       </div>
       <div class="upcoming-badge ${ev.type}">${LABEL_MAP[ev.type]||'其他'}</div>`;
     list.appendChild(item);
@@ -1355,7 +1498,9 @@ function renderUpcoming() {
 const NEWS_API = '/news.json';
 let allNews = [], currentFilter = '综合', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
-const CAT_COLORS = { '综合':'#58a6ff', '经济':'#3fb950', '金融':'#ffa657', '科技':'#d2a8ff' };
+const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
+const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)' };
+const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)' };
 
 function setStatus(state, text) {
   const dot = document.getElementById('statusDot');
@@ -1368,7 +1513,7 @@ function timeAgo(pubDate) {
   if (!pubDate) return '';
   try {
     const diff = Math.floor((Date.now() - new Date(pubDate).getTime()) / 1000);
-    if (diff < 0) return '刚刚'; // guard against future timestamps (clock skew)
+    if (diff < 0) return '刚刚';
     if (diff < 60) return '刚刚';
     if (diff < 3600) return `${Math.floor(diff/60)}分钟前`;
     if (diff < 86400) return `${Math.floor(diff/3600)}小时前`;
@@ -1385,24 +1530,30 @@ function renderNews() {
   }
   grid.innerHTML = '';
   filtered.forEach(item => {
-    const color = CAT_COLORS[item.category] || '#58a6ff';
+    const color = CAT_COLORS[item.category] || '#4f9cf9';
+    const bg = CAT_BG[item.category] || 'rgba(79,156,249,.12)';
+    const border = CAT_BORDER[item.category] || 'rgba(79,156,249,.25)';
     const a = document.createElement('a');
     a.className = 'news-item';
     a.href = item.link;
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
+    a.style.cssText = `--item-color:${color}`;
     a.innerHTML = `
-      <div class="news-source-dot" style="background:${color}"></div>
-      <div class="news-body">
+      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
+      <div class="news-item-inner">
         <div class="news-meta">
-          <span class="news-source" style="color:${color}">${item.source||''}</span>
+          <span class="news-source" style="color:${color}">${item.source||'CNBC'}</span>
+          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${item.category||''}</span>
           <span class="news-time">${timeAgo(item.pubDate)}</span>
         </div>
         <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
         ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
         ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
-      </div>
-      <div class="news-arrow">›</div>`;
+        <div class="news-footer">
+          <span class="news-read-more">阅读原文 →</span>
+        </div>
+      </div>`;
     grid.appendChild(a);
   });
 }
@@ -1434,7 +1585,8 @@ function startCountdown() {
     nextRefreshIn--;
     const el = document.getElementById('nextRefreshText');
     const m = Math.floor(nextRefreshIn/60), s = nextRefreshIn%60;
-    el.innerHTML = `下次刷新：<span>${m}分${String(s).padStart(2,'0')}秒</span>后`;
+    el.innerHTML = `下次刷新
+：<span>${m}分${String(s).padStart(2,'0')}秒</span>后`;
     if (nextRefreshIn <= 0) fetchNews();
   }, 1000);
 }
@@ -1474,18 +1626,12 @@ function updateTodayDate() {
   const weekDays = ['周日','周一','周二','周三','周四','周五','周六'];
   const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
   const dateStr = `${now.getFullYear()}年${months[now.getMonth()]}${now.getDate()}日 ${weekDays[now.getDay()]}`;
-  // Mobile top bar
-  const mobileDate = document.getElementById('today-date-mobile');
-  if (mobileDate) mobileDate.textContent = `今日 ${dateStr}`;
-  // Desktop calendar title area
   const desktopDate = document.getElementById('today-date-desktop');
   if (desktopDate) desktopDate.textContent = dateStr;
-  // Mobile calendar nav bar
   const calDate = document.getElementById('today-date-cal');
   if (calDate) calDate.textContent = `今日 ${dateStr}`;
-  // Mobile inline page header date
-  const mobileHeaderDate = document.getElementById('mobile-header-date');
-  if (mobileHeaderDate) mobileHeaderDate.textContent = `今日 ${dateStr}`;
+  const sub = document.getElementById('today-date-sub');
+  if (sub) sub.textContent = `${now.getMonth()+1}月${now.getDate()}日 ${weekDays[now.getDay()]}`;
 }
 </script>
 </body>
