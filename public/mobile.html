@@ -243,8 +243,8 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 8px;
-      min-height: 58px;
-      padding: 4px;
+      min-height: 72px;
+      padding: 6px 4px 4px;
       cursor: pointer;
       transition: border-color .15s;
       position: relative;
@@ -255,10 +255,10 @@
     .cal-cell.has-events { border-color: rgba(88,166,255,.25); }
     .cal-date { font-size: .75rem; font-weight: 700; color: var(--muted); margin-bottom: 3px; }
     .cal-cell.today .cal-date { color: var(--accent); }
-    .cal-dots { display: flex; flex-wrap: wrap; gap: 2px; }
-    .cal-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+    .cal-dots { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
+    .cal-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-    /* Event detail sheet */
+    /* Event detail sheet (unused, kept for safety) */
     .event-sheet-hidden {
       background: var(--card2);
       border: 1px solid var(--border);
@@ -267,7 +267,7 @@
       padding: 14px;
       display: none;
     }
-    .event-sheet.visible { display: block; }
+    /* .event-sheet.visible { display: block; } */
     .event-sheet h3 { font-size: .9rem; font-weight: 700; margin-bottom: 10px; }
     .event-item {
       display: flex;
