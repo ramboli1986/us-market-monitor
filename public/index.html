@@ -75,11 +75,18 @@
 
     /* ── Mobile Header ── */
     .mobile-header {
+      transition: transform .3s cubic-bezier(.4,0,.2,1), opacity .3s ease;
+      will-change: transform;
       display: flex; align-items: center; justify-content: space-between;
       padding: 14px 18px 10px;
       padding-top: calc(14px + env(safe-area-inset-top, 0px));
       background: linear-gradient(to bottom, rgba(6,11,24,0.95), transparent);
       flex-shrink: 0;
+    }
+    .mobile-header.hidden {
+      transform: translateY(-110%);
+      opacity: 0;
+      pointer-events: none;
     }
     .mobile-header-brand { display: flex; align-items: center; gap: 10px; }
     .brand-icon {
@@ -1138,7 +1145,12 @@ function switchTab(name, btn) {
   document.querySelectorAll('.nav-item, .desktop-nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   if (btn) btn.classList.add('active');
-  if (isMobile()) { document.getElementById('content').scrollTo(0, 0); } else { window.scrollTo(0, 0); }
+  if (isMobile()) {
+    document.getElementById('content').scrollTo(0, 0);
+    // Reset header visibility on tab switch
+    if (mobileHeader) { mobileHeader.classList.remove('hidden'); headerHidden = false; }
+    lastScrollY = 0;
+  } else { window.scrollTo(0, 0); }
   if (name === 'overview') setTimeout(renderOverviewCharts, 50);
   if (name === 'earnings') setTimeout(renderWeightChart, 50);
   if (name === 'calendar') { renderCalendar(); renderUpcoming(); }
@@ -1150,10 +1162,32 @@ function switchTab(name, btn) {
 // ══════════════════════════════════════════
 const content = document.getElementById('content');
 const scrollTopBtn = document.getElementById('scrollTopBtn');
+const mobileHeader = document.querySelector('.mobile-header');
+let lastScrollY = 0;
+let headerHidden = false;
+
 function handleScroll() {
   const scrollY = isMobile() ? content.scrollTop : window.scrollY;
+  // Scroll-to-top button
   if (scrollY > 300) scrollTopBtn.classList.add('visible');
   else scrollTopBtn.classList.remove('visible');
+  // Mobile header hide/show on scroll direction
+  if (isMobile() && mobileHeader) {
+    const delta = scrollY - lastScrollY;
+    if (delta > 8 && scrollY > 60 && !headerHidden) {
+      mobileHeader.classList.add('hidden');
+      headerHidden = true;
+    } else if (delta < -6 && headerHidden) {
+      mobileHeader.classList.remove('hidden');
+      headerHidden = false;
+    }
+    // Always show at top
+    if (scrollY < 20 && headerHidden) {
+      mobileHeader.classList.remove('hidden');
+      headerHidden = false;
+    }
+  }
+  lastScrollY = scrollY;
 }
 content.addEventListener('scroll', handleScroll);
 window.addEventListener('scroll', handleScroll);
