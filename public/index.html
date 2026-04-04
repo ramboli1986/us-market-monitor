@@ -1709,7 +1709,8 @@ function renderUpcoming() {
 // ══════════════════════════════════════════
 // NEWS FEED
 // ══════════════════════════════════════════
-const NEWS_API = '/api/news';
+const NEWS_API_STATIC = '/news.json';   // 首次加载：静态缓存，秒开
+const NEWS_API_LIVE   = '/api/news';     // 手动刷新：实时抓取
 let allNews = [], currentFilter = '全部', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
 const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
@@ -1779,35 +1780,52 @@ function renderNews() {
 }
 
 async function fetchNews(forceRefresh = false) {
-  const statusMsg = forceRefresh ? '实时抓取最新数据...' : '正在加载...';
-  setStatus('loading', statusMsg);
   const btn = document.getElementById('refreshBtn');
+
+  if (!forceRefresh) {
+    // 首次加载：从静态文件秒开
+    setStatus('loading', '正在加载...');
+    try {
+      const resp = await fetch(NEWS_API_STATIC + '?t=' + Date.now(), { cache: 'default' });
+      const data = await resp.json();
+      allNews = data.items || [];
+      newsLoaded = true;
+      const upd = document.getElementById('lastUpdatedText');
+      if (data.updated_at) {
+        const updTime = new Date(data.updated_at);
+        const diffMin = Math.round((Date.now() - updTime.getTime()) / 60000);
+        const freshLabel = diffMin < 5 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
+        upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--text3)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条 &nbsp;·&nbsp; <span style="color:var(--blue);cursor:pointer" onclick="manualRefresh()">↻ 刷新获取最新</span>`;
+      }
+      setStatus('live', '点击刷新获取最新');
+      renderNews();
+    } catch(e) {
+      setStatus('error', '加载失败');
+      document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon">⚠️</div><p>无法加载新闻</p></div>';
+    }
+    return;
+  }
+
+  // 手动刷新：实时抓取
+  setStatus('loading', '实时抓取中...');
   btn.classList.add('spinning');
   btn.disabled = true;
-  // Show loading skeleton
-  if (forceRefresh) {
-    document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon" style="font-size:2rem;animation:spin 1s linear infinite">⟳</div><p style="color:var(--blue)">正在从 CNBC 实时抓取最新新闻...</p></div>';
-  }
+  document.getElementById('newsGrid').innerHTML =
+    '<div class="news-empty"><div class="icon" style="font-size:2rem;animation:spin 1s linear infinite">⟳</div>' +
+    '<p style="color:var(--blue)">正在从 CNBC 实时抓取最新新闻，请稍候...</p>' +
+    '<p style="color:var(--text3);font-size:.8rem;margin-top:8px">预计需要 30-60 秒</p></div>';
   try {
-    // Always fetch fresh data from serverless function (no cache)
-    const url = NEWS_API + '?t=' + Date.now();
-    const resp = await fetch(url, { cache: 'no-store' });
+    const resp = await fetch(NEWS_API_LIVE + '?t=' + Date.now(), { cache: 'no-store' });
     const data = await resp.json();
     allNews = data.items || [];
     newsLoaded = true;
-    // 显示数据时间
     const upd = document.getElementById('lastUpdatedText');
-    if (data.updated_at) {
-      const updTime = new Date(data.updated_at);
-      const diffMin = Math.round((Date.now() - updTime.getTime()) / 60000);
-      const freshLabel = diffMin < 1 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
-      upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--green)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
-    }
-    setStatus('live', '实时数据');
+    upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--green)">刚刚更新</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
+    setStatus('live', '实时最新');
     renderNews();
     startCountdown();
   } catch(e) {
-    setStatus('error', '加载失败，请重试');
+    setStatus('error', '刷新失败，请重试');
     document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon">⚠️</div><p>无法获取新闻，请检查网络</p></div>';
   }
   btn.classList.remove('spinning');
