@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-04T10:07:47.407531+00:00",
+  "updated_at": "2026-04-04T11:07:12.780199+00:00",
   "count": 55,
   "items": [
+    {
+      "title_en": "Justice Alito fell ill at a March event and was treated for dehydration, Supreme Court says",
+      "title_zh": "最高法院表示，阿利托法官在3月份的一次活动中生病并接受了脱水治疗",
+      "desc_en": "Alito's illness did not require an overnight hospital stay and he was back on the bench the following Monday, spokeswoman Patricia McCabe said in a statement.",
+      "desc_zh": "发言人Patricia McCabe在一份声明中说， Alito的病不需要过夜住院，他于下周一回到替补席上。",
+      "link": "https://www.cnbc.com/2026/04/04/supreme-court-judge-alito-treated-for-dehydration-in-march.html",
+      "pubDate": "2026-04-04T10:37:47",
+      "relativeTime": "29分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Lucid misses first-quarter vehicle delivery estimates on supplier disruptions",
+      "title_zh": "Lucid因供应商中断而未达到第一季度车辆交付预估",
+      "desc_en": "Lucid produced 5,500 vehicles and delivered 3,093 in the quarter ended March 31. Analysts had expected it produce 5,967 vehicles and deliver 5,237 vehicles.",
+      "desc_zh": "Lucid在截至3月31日的季度生产了5,500辆汽车，交付了3,093辆。分析师曾预计该公司将生产5,967辆汽车，交付5,237辆汽车。",
+      "link": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
+      "pubDate": "2026-04-04T10:19:13",
+      "relativeTime": "47分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Debris from aerial interception strikes Oracle building in Dubai, UAE says",
       "title_zh": "阿联酋称，空中拦截的碎片袭击了迪拜的甲骨文大楼",
@@ -9,7 +31,7 @@
       "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
       "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
       "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "56分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "在为Jony Ive的新兴设备初创公司支付了惊人的64亿美元10个月后， OpenAI宣布将收购媒体公司TBPN。",
       "link": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
       "pubDate": "2026-04-03T22:13:34",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "目前尚不清楚飞机是否因其他原因被击落或坠毁。",
       "link": "https://www.cnbc.com/2026/04/03/us-fighter-jet-downed-in-iran.html",
       "pubDate": "2026-04-03T21:05:30",
-      "relativeTime": "13小时前",
+      "relativeTime": "37分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "一名美国法官维持了对美联储鲍威尔传票的阻挠，提出了可能的上诉。",
       "link": "https://www.cnbc.com/2026/04/03/judge-upholds-block-on-subpoenas-to-feds-jerome-powell.html",
       "pubDate": "2026-04-03T17:11:47",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,29 +86,7 @@
       "desc_zh": "互联网平台长期以来一直能够依靠特殊保护来避免对其网站上发生的事情承担责任。但这种情况可能正在发生变化。",
       "link": "https://www.cnbc.com/2026/04/03/meta-google-under-attack-court-cases-bypass-30-year-old-legal-shield.html",
       "pubDate": "2026-04-03T17:07:55",
-      "relativeTime": "16小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Trump threatens to destroy Iranian infrastructure, saying its government 'knows what has to be done'",
-      "title_zh": "特朗普威胁要摧毁伊朗的基础设施，称其政府“知道必须做什么”",
-      "desc_en": "The threat comes a day after he said in a nationwide address that the U.S. military will be hitting Tehran \"extremely hard\" for the next two or three weeks.",
-      "desc_zh": "此前一天，他在全国范围内发表讲话说，美国军方将在未来两三周“极其严厉”地打击德黑兰。",
-      "link": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html",
-      "pubDate": "2026-04-03T15:17:46",
-      "relativeTime": "18小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "I study happiness for a living: The most emotionally secure people share these 7 'quietly powerful' traits",
-      "title_zh": "我以幸福为生：情绪最安全的人分享这7个“静静地强大”的特质",
-      "desc_en": "Happiness researcher Jessica Weiss reveals the quiet but powerful traits that emotionally secure people have in common.",
-      "desc_zh": "幸福感研究员杰西卡·韦斯（ Jessica Weiss ）揭示了情绪安全的人们具有的安静但强大的特质。",
-      "link": "https://www.cnbc.com/2026/04/03/happiness-expert-emotionally-secure-people-share-these-7-traits.html",
-      "pubDate": "2026-04-03T15:00:02",
-      "relativeTime": "19小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +97,7 @@
       "desc_zh": "股市终于出现了美伊战争爆发以来的首个获胜周。",
       "link": "https://www.cnbc.com/2026/04/03/sp-500-snaps-its-5-week-losing-streak-here-are-3-themes-that-caught-our-eye.html",
       "pubDate": "2026-04-03T13:51:06",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +108,7 @@
       "desc_zh": "预计3月份非农就业人数将增加59,000人，失业率保持在4.4%。",
       "link": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
       "pubDate": "2026-04-03T13:35:34",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +119,7 @@
       "desc_zh": "随着机票价格上涨，财力雄厚的旅行者不太可能被定价，但他们必须应对与伊朗战争和燃料成本上涨相关的意外费用。",
       "link": "https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html",
       "pubDate": "2026-04-03T13:00:01",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +130,7 @@
       "desc_zh": "仍有一个相当大的阵营警告不要在这一时刻进行交易，称在本章结束之前，股票必须进一步巩固。",
       "link": "https://www.cnbc.com/2026/04/03/stock-market-next-week-outlook-for-april-6-10-2026.html",
       "pubDate": "2026-04-03T12:38:24",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "在他的“解放日”一年后，特朗普的贸易战重塑了零售和汽车等行业的公司如何模拟经济和政策风险。",
       "link": "https://www.cnbc.com/2026/04/03/trump-tariffs-trade-war-impact.html",
       "pubDate": "2026-04-03T11:30:01",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +163,7 @@
       "desc_zh": "近年来，随着军方争先恐后地进行现代化改造，国防初创企业的资金激增。",
       "link": "https://www.cnbc.com/2026/04/03/the-tech-download-defense-startups-eye-iran-war-windfall.html",
       "pubDate": "2026-04-03T11:00:01",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -174,7 +174,7 @@
       "desc_zh": "自“解放日”以来，押注“特朗普总是胆小鬼出局”理论一直是赢得市场的一种方式。",
       "link": "https://www.cnbc.com/2026/04/03/one-year-of-taco-how-the-trade-has-fared-since-liberation-day.html",
       "pubDate": "2026-04-03T10:46:18",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
