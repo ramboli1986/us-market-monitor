@@ -3,16 +3,10 @@
   "buildCommand": null,
   "outputDirectory": "public",
   "framework": null,
-  "functions": {
-    "api/news.py": {
-      "runtime": "vercel-python@3.0.7",
-      "maxDuration": 60
-    }
-  },
   "routes": [
     {
       "src": "/api/news",
-      "dest": "/api/news.py"
+      "dest": "/api/news.js"
     },
     {
       "src": "/(.*)",
