@@ -671,9 +671,8 @@
   <nav class="desktop-nav">
     <button class="active" onclick="switchTab('calendar', this)">财经日历</button>
     <button onclick="switchTab('news', this)">实时新闻</button>
-    <button onclick="switchTab('factors', this)">影响因素</button>
     <button onclick="switchTab('earnings', this)">财报季</button>
-    <button onclick="switchTab('overview', this)">综合概览</button>
+    <button onclick="switchTab('overview', this)">市场概览</button>
   </nav>
 
   <!-- ══ Scrollable Content ══ -->
@@ -787,9 +786,10 @@
     </div>
 
     <!-- ══════════════════════════════════
-         TAB: 影响因素
+         TAB: 综合概览（已整合影响因素）
     ══════════════════════════════════ -->
-    <div id="tab-factors" class="tab-panel">
+    <!-- FACTORS CONTENT MOVED TO OVERVIEW TAB BELOW -->
+    <div id="tab-factors" class="tab-panel" style="display:none!important">
 
       <div class="sec-hdr">
         <div class="sec-icon-wrap" style="background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.2)">
@@ -1042,15 +1042,16 @@
     </div>
 
     <!-- ══════════════════════════════════
-         TAB: 综合概览
+         TAB: 综合概览（含影响因素）
     ══════════════════════════════════ -->
     <div id="tab-overview" class="tab-panel">
 
+      <!-- 影响力雷达图 -->
       <div class="sec-hdr">
         <div class="sec-icon-wrap" style="background:rgba(79,156,249,.12);border:1px solid rgba(79,156,249,.2)">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
         </div>
-        <div class="sec-hdr-text"><h2>综合影响力评估</h2><p>各因素横向对比</p></div>
+        <div class="sec-hdr-text"><h2>综合影响力评估</h2><p>各因素横向对比，了解驱动大盘的核心力量</p></div>
       </div>
 
       <div class="chart-card">
@@ -1063,6 +1064,178 @@
         <div class="chart-title">关键因素影响力排行</div>
         <div class="chart-sub">综合评分（满分100）</div>
         <div id="rankList"></div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 货币政策 -->
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22h18M6 18V10M10 18V4M14 18v-6M18 18v-3"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>货币政策</h2><p>美联储是影响美股最强的单一驱动力</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🏛️</div>
+        <div class="factor-body">
+          <div class="factor-name">FOMC 利率决议</div>
+          <div class="factor-desc">每年8次，加息/降息直接决定资金成本，是最强单一驱动力</div>
+          <div class="factor-meta"><span class="factor-freq">每年8次</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🎙️</div>
+        <div class="factor-body">
+          <div class="factor-name">鲍威尔新闻发布会</div>
+          <div class="factor-desc">每次FOMC后召开，"鹰派/鸽派"措辞可在30分钟内引发大盘1-3%波动</div>
+          <div class="factor-meta"><span class="factor-freq">每年8次</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">📋</div>
+        <div class="factor-body">
+          <div class="factor-name">FOMC 会议纪要</div>
+          <div class="factor-desc">会后约3周发布，揭示政策路径细节，引发二次波动</div>
+          <div class="factor-meta"><span class="factor-freq">每年8次</span><span class="factor-impact impact-high">高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">💰</div>
+        <div class="factor-body">
+          <div class="factor-name">QE / QT（扩表/缩表）</div>
+          <div class="factor-desc">量化宽松注入流动性利好股市；量化紧缩抽走流动性压制股市</div>
+          <div class="factor-meta"><span class="factor-freq">不定期</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 关键经济数据 -->
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(79,156,249,.12);border:1px solid rgba(79,156,249,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>关键经济数据</h2><p>影响利率预期，进而影响股市估值</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🌡️</div>
+        <div class="factor-body">
+          <div class="factor-name">CPI 通胀数据</div>
+          <div class="factor-desc">每月第2周发布。高于预期 → 推迟降息 → 股市下跌</div>
+          <div class="factor-meta"><span class="factor-freq">每月</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(52,211,153,.1)">👷</div>
+        <div class="factor-body">
+          <div class="factor-name">非农就业报告（NFP）</div>
+          <div class="factor-desc">每月第一个周五。就业强弱双向影响利率预期</div>
+          <div class="factor-meta"><span class="factor-freq">每月第一周五</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(167,139,250,.1)">📊</div>
+        <div class="factor-body">
+          <div class="factor-name">PCE 价格指数</div>
+          <div class="factor-desc">美联储最偏好的通胀指标，每月底发布</div>
+          <div class="factor-meta"><span class="factor-freq">每月底</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">🏭</div>
+        <div class="factor-body">
+          <div class="factor-name">GDP 数据</div>
+          <div class="factor-desc">每季度发布。连续两季度负增长 = 衰退信号</div>
+          <div class="factor-meta"><span class="factor-freq">每季度</span><span class="factor-impact impact-high">高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(52,211,153,.1)">🛒</div>
+        <div class="factor-body">
+          <div class="factor-name">零售销售数据</div>
+          <div class="factor-desc">消费占GDP约70%，直接反映经济健康度</div>
+          <div class="factor-meta"><span class="factor-freq">每月第2周</span><span class="factor-impact impact-high">中高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(79,156,249,.1)">🏗️</div>
+        <div class="factor-body">
+          <div class="factor-name">PMI 采购经理人指数</div>
+          <div class="factor-desc">50以下代表经济收缩，是经济先行指标</div>
+          <div class="factor-meta"><span class="factor-freq">每月初</span><span class="factor-impact impact-high">较高</span></div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 地缘政治与其他 -->
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>地缘政治与市场情绪</h2><p>外部冲击与情绪指标</p></div>
+      </div>
+
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">📉</div>
+        <div class="factor-body">
+          <div class="factor-name">10年期美债收益率</div>
+          <div class="factor-desc">上升 → 股票估值压缩，尤其打压成长股（科技股）</div>
+          <div class="factor-meta"><span class="factor-freq">实时</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(248,113,113,.1)">🌏</div>
+        <div class="factor-body">
+          <div class="factor-name">中美贸易摩擦 / 关税</div>
+          <div class="factor-desc">科技、半导体板块首当其冲，影响供应链预期</div>
+          <div class="factor-meta"><span class="factor-freq">不定期</span><span class="factor-impact impact-extreme">极高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(251,191,36,.1)">😱</div>
+        <div class="factor-body">
+          <div class="factor-name">VIX 恐慌指数</div>
+          <div class="factor-desc">大于30为极度恐慌信号，与股市走势高度负相关</div>
+          <div class="factor-meta"><span class="factor-freq">实时</span><span class="factor-impact impact-high">高</span></div>
+        </div>
+      </div>
+      <div class="factor-row">
+        <div class="factor-icon-wrap" style="background:rgba(79,156,249,.1)">💵</div>
+        <div class="factor-body">
+          <div class="factor-name">美元指数（DXY）</div>
+          <div class="factor-desc">强势美元压制跨国公司海外收入，利空大型科技股</div>
+          <div class="factor-meta"><span class="factor-freq">实时</span><span class="factor-impact impact-high">高</span></div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 月度数据节奏 -->
+      <div class="sec-hdr">
+        <div class="sec-icon-wrap" style="background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.2)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="sec-hdr-text"><h2>月度数据发布节奏</h2><p>了解数据发布的时间规律，提前布局</p></div>
+      </div>
+      <div style="overflow-x:auto;margin:0 12px 16px">
+        <table class="data-table">
+          <thead><tr><th>月内时间</th><th>数据名称</th><th>发布机构</th><th>影响级别</th><th>核心关注点</th></tr></thead>
+          <tbody>
+            <tr><td>第1周周一</td><td>ISM 制造业 PMI</td><td>ISM</td><td class="lv-med">较高</td><td>50荣枯线，新订单分项</td></tr>
+            <tr><td>第1周周三</td><td>ISM 服务业 PMI</td><td>ISM</td><td class="lv-med">较高</td><td>服务业就业分项</td></tr>
+            <tr><td>第1周周五</td><td>非农就业（NFP）</td><td>BLS</td><td class="lv-high">极高</td><td>新增就业人数、失业率、时薪</td></tr>
+            <tr><td>第2周周二/三</td><td>CPI 通胀数据</td><td>BLS</td><td class="lv-high">极高</td><td>核心CPI（剔除食品能源）</td></tr>
+            <tr><td>第2周周二/三</td><td>PPI 生产者价格</td><td>BLS</td><td class="lv-med">较高</td><td>核心PPI</td></tr>
+            <tr><td>第2周周四/五</td><td>零售销售</td><td>商务部</td><td class="lv-med">中高</td><td>核心零售（剔除汽车）</td></tr>
+            <tr><td>第3周</td><td>FOMC 会议（部分月份）</td><td>美联储</td><td class="lv-high">极高</td><td>利率决议、点阵图、新闻发布会</td></tr>
+            <tr><td>第4周</td><td>PCE 价格指数</td><td>BEA</td><td class="lv-high">高</td><td>核心PCE（美联储首选通胀指标）</td></tr>
+            <tr><td>第4周</td><td>GDP 初值（季度）</td><td>BEA</td><td class="lv-high">高</td><td>实际GDP增速、消费分项</td></tr>
+            <tr><td>每周四</td><td>初请失业金人数</td><td>劳工部</td><td class="lv-med">中高</td><td>4周移动平均值趋势</td></tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
@@ -1097,17 +1270,7 @@
       </div>
       <div class="nav-label">新闻</div>
     </button>
-    <button class="nav-item" onclick="switchTab('factors', this)">
-      <div class="nav-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="20" x2="18" y2="10"/>
-          <line x1="12" y1="20" x2="12" y2="4"/>
-          <line x1="6" y1="20" x2="6" y2="14"/>
-          <line x1="2" y1="20" x2="22" y2="20"/>
-        </svg>
-      </div>
-      <div class="nav-label">因素</div>
-    </button>
+
     <button class="nav-item" onclick="switchTab('earnings', this)">
       <div class="nav-icon">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -1124,7 +1287,7 @@
           <polyline points="12 6 12 12 16 14"/>
         </svg>
       </div>
-      <div class="nav-label">概览</div>
+      <div class="nav-label">市场概览</div>
     </button>
   </nav>
 
