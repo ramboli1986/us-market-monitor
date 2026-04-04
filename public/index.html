@@ -39,15 +39,16 @@
        MOBILE LAYOUT (default, < 768px)
     ══════════════════════════════════════ */
     html, body { height: 100%; }
-    body { overflow-y: auto; overscroll-behavior: none; }
+    body { overflow: hidden; overscroll-behavior: none; }
 
-    #app { display: block; }
-
-    /* Mobile inline page header — hidden, title removed */
-    .top-bar { display: none; }
-    .top-bar-inner {
-      display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;
+    #app {
+      display: flex; flex-direction: column;
+      height: 100vh; height: 100dvh;
     }
+
+    /* Top bar — hidden on mobile */
+    .top-bar { display: none; }
+    .top-bar-inner { display: flex; align-items: center; justify-content: space-between; }
     .top-bar-left h1 {
       font-size: 1.2rem; font-weight: 700;
       background: linear-gradient(90deg, #58a6ff, #a5d6ff);
@@ -62,45 +63,43 @@
     .live-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent3); animation: pulse 2s infinite; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
-    /* Mobile inline tab bar (sticky) */
-    .mobile-tab-bar {
-      display: flex;
-      background: linear-gradient(160deg, #0d1117 0%, #1a2332 100%);
-      border-bottom: 1px solid rgba(88,166,255,0.15);
-      overflow-x: auto; -webkit-overflow-scrolling: touch;
-      scrollbar-width: none; position: sticky; top: 0; z-index: 100;
-      padding: env(safe-area-inset-top, 0px) 4px 0;
-    }
-    .mobile-tab-bar::-webkit-scrollbar { display: none; }
-    .mobile-tab-btn {
-      flex-shrink: 0; display: flex; align-items: center; gap: 5px;
-      padding: 10px 14px; border: none; background: transparent;
-      color: var(--muted); font-size: .82rem; font-weight: 600;
-      cursor: pointer; white-space: nowrap; position: relative;
-      transition: color .2s;
-    }
-    .mobile-tab-btn.active { color: var(--accent); }
-    .mobile-tab-btn.active::after {
-      content: ''; position: absolute; bottom: 0; left: 10%; right: 10%;
-      height: 2px; background: var(--accent); border-radius: 2px 2px 0 0;
-    }
-    .mobile-tab-btn .tab-icon { font-size: 1rem; }
+    /* Mobile top tab bar — hidden (using bottom nav instead) */
+    .mobile-tab-bar { display: none; }
 
     /* Desktop header (hidden on mobile) */
     .desktop-header { display: none; }
     .desktop-nav { display: none; }
-    /* Bottom nav hidden — replaced by inline tab bar */
-    .bottom-nav { display: none; }
 
     /* Scrollable content */
-    #content { overflow: visible; }
+    #content {
+      flex: 1; overflow-y: auto; overflow-x: hidden;
+      -webkit-overflow-scrolling: touch; overscroll-behavior-y: contain;
+    }
 
     /* Tab panels */
     .tab-panel { display: none; }
-    .tab-panel.active { display: block; padding: 0 0 40px; }
+    .tab-panel.active { display: block; padding: 0 0 calc(var(--nav-h) + var(--safe-bottom) + 16px); }
 
-    /* Legacy nav-item (kept for switchTab compatibility) */
-    .nav-item { display: none; }
+    /* Bottom navigation (mobile) */
+    .bottom-nav {
+      display: flex;
+      background: #1c1c1e;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: var(--safe-bottom);
+      flex-shrink: 0; position: relative; z-index: 100;
+    }
+    .nav-item {
+      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 8px 4px; cursor: pointer; border: none; background: transparent;
+      color: var(--muted); transition: color .2s; min-height: var(--nav-h); position: relative;
+    }
+    .nav-item.active { color: var(--accent); }
+    .nav-item.active::before {
+      content: ''; position: absolute; top: 0; left: 20%; right: 20%;
+      height: 2px; background: var(--accent); border-radius: 0 0 3px 3px;
+    }
+    .nav-icon { font-size: 1.3rem; line-height: 1; margin-bottom: 3px; }
+    .nav-label { font-size: .62rem; font-weight: 600; letter-spacing: .01em; }
 
     /* ══════════════════════════════════════
        SHARED COMPONENTS
@@ -924,7 +923,7 @@ function switchTab(name, btn) {
   document.querySelectorAll('.nav-item, .desktop-nav button').forEach(b => b.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   if (btn) btn.classList.add('active');
-  window.scrollTo(0, 0);
+  if (isMobile()) { document.getElementById('content').scrollTo(0, 0); } else { window.scrollTo(0, 0); }
   if (name === 'overview') setTimeout(renderOverviewCharts, 50);
   if (name === 'earnings') setTimeout(renderWeightChart, 50);
   if (name === 'calendar') { renderCalendar(); renderUpcoming(); }
@@ -953,7 +952,7 @@ const content = document.getElementById('content');
 const scrollTopBtn = document.getElementById('scrollTopBtn');
 
 function handleScroll() {
-  const scrollY = window.scrollY;
+  const scrollY = isMobile() ? content.scrollTop : window.scrollY;
   if (scrollY > 300) scrollTopBtn.classList.add('visible');
   else scrollTopBtn.classList.remove('visible');
 }
@@ -961,7 +960,8 @@ content.addEventListener('scroll', handleScroll);
 window.addEventListener('scroll', handleScroll);
 
 function scrollToTop() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  if (isMobile()) content.scrollTo({ top: 0, behavior: 'smooth' });
+  else window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // ══════════════════════════════════════════
