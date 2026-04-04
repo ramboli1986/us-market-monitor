@@ -1283,7 +1283,8 @@ function timeAgo(pubDate) {
   if (!pubDate) return '';
   try {
     const diff = Math.floor((Date.now() - new Date(pubDate).getTime()) / 1000);
-    if (diff < 60) return `${diff}秒前`;
+    if (diff < 0) return '刚刚'; // guard against future timestamps (clock skew)
+    if (diff < 60) return '刚刚';
     if (diff < 3600) return `${Math.floor(diff/60)}分钟前`;
     if (diff < 86400) return `${Math.floor(diff/3600)}小时前`;
     return `${Math.floor(diff/86400)}天前`;
@@ -1310,7 +1311,6 @@ function renderNews() {
       <div class="news-body">
         <div class="news-meta">
           <span class="news-source" style="color:${color}">${item.source||''}</span>
-          <span class="news-cat" style="background:${color}22;color:${color};border:1px solid ${color}44">${item.category||''}</span>
           <span class="news-time">${timeAgo(item.pubDate)}</span>
         </div>
         <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
