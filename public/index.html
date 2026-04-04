@@ -1709,7 +1709,7 @@ function renderUpcoming() {
 // ══════════════════════════════════════════
 // NEWS FEED
 // ══════════════════════════════════════════
-const NEWS_API = '/news.json';
+const NEWS_API = '/api/news';
 let allNews = [], currentFilter = '全部', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
 const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
@@ -1779,13 +1779,19 @@ function renderNews() {
 }
 
 async function fetchNews(forceRefresh = false) {
-  setStatus('loading', '正在加载...');
+  const statusMsg = forceRefresh ? '实时抓取最新数据...' : '正在加载...';
+  setStatus('loading', statusMsg);
   const btn = document.getElementById('refreshBtn');
   btn.classList.add('spinning');
   btn.disabled = true;
+  // Show loading skeleton
+  if (forceRefresh) {
+    document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon" style="font-size:2rem;animation:spin 1s linear infinite">⟳</div><p style="color:var(--blue)">正在从 CNBC 实时抓取最新新闻...</p></div>';
+  }
   try {
-    const url = forceRefresh ? NEWS_API + '?t=' + Date.now() : NEWS_API;
-    const resp = await fetch(url, { cache: forceRefresh ? 'no-cache' : 'default' });
+    // Always fetch fresh data from serverless function (no cache)
+    const url = NEWS_API + '?t=' + Date.now();
+    const resp = await fetch(url, { cache: 'no-store' });
     const data = await resp.json();
     allNews = data.items || [];
     newsLoaded = true;
@@ -1794,10 +1800,10 @@ async function fetchNews(forceRefresh = false) {
     if (data.updated_at) {
       const updTime = new Date(data.updated_at);
       const diffMin = Math.round((Date.now() - updTime.getTime()) / 60000);
-      const freshLabel = diffMin < 5 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
+      const freshLabel = diffMin < 1 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
       upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--green)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
     }
-    setStatus('live', `已是最新`);
+    setStatus('live', '实时数据');
     renderNews();
     startCountdown();
   } catch(e) {

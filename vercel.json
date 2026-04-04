@@ -3,7 +3,17 @@
   "buildCommand": null,
   "outputDirectory": "public",
   "framework": null,
+  "functions": {
+    "api/news.py": {
+      "runtime": "vercel-python@3.0.7",
+      "maxDuration": 60
+    }
+  },
   "routes": [
+    {
+      "src": "/api/news",
+      "dest": "/api/news.py"
+    },
     {
       "src": "/(.*)",
       "dest": "/$1"
@@ -11,9 +21,10 @@
   ],
   "headers": [
     {
-      "source": "/news.json",
+      "source": "/api/news",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=1800, stale-while-revalidate=3600" }
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }
   ]
