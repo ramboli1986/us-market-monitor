@@ -66,6 +66,20 @@
     /* Mobile top tab bar — hidden (using bottom nav instead) */
     .mobile-tab-bar { display: none; }
 
+    /* Mobile inline page header */
+    .mobile-page-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 16px 10px;
+      padding-top: calc(14px + env(safe-area-inset-top, 0px));
+    }
+    .mobile-page-header-left { display: flex; flex-direction: column; gap: 2px; }
+    .mobile-page-title {
+      font-size: 1.15rem; font-weight: 700;
+      background: linear-gradient(90deg, #58a6ff, #a5d6ff);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .mobile-page-date { font-size: .7rem; color: var(--muted); }
+
     /* Desktop header (hidden on mobile) */
     .desktop-header { display: none; }
     .desktop-nav { display: none; }
@@ -295,9 +309,10 @@
       .bottom-nav { display: none; }
       .scroll-top-btn { bottom: 24px; }
 
-      /* Desktop header */
-      .desktop-header {
-        display: block;
+        /* Desktop header */
+    .desktop-header { display: block; }
+    .mobile-page-header { display: none; }
+    .desktop-header {
         background: linear-gradient(135deg, #0d1117 0%, #1a2332 50%, #0d1117 100%);
         border-bottom: 1px solid var(--border);
         padding: 20px 24px 16px;
@@ -497,6 +512,17 @@
   <!-- ══ Scrollable Content ══ -->
   <div id="content">
     <div id="main-wrap">
+
+    <!-- ══ MOBILE INLINE HEADER ══ -->
+    <div class="mobile-page-header">
+      <div class="mobile-page-header-left">
+        <span class="mobile-page-title">🇺🇸 美股监控中心</span>
+        <span id="mobile-header-date" class="mobile-page-date"></span>
+      </div>
+      <div class="live-badge">
+        <span class="live-dot"></span>实时
+      </div>
+    </div>
 
     <!-- ══════════════════════════════════
          TAB: 财经日历
@@ -1419,6 +1445,9 @@ function updateTodayDate() {
   // Mobile calendar nav bar
   const calDate = document.getElementById('today-date-cal');
   if (calDate) calDate.textContent = `今日 ${dateStr}`;
+  // Mobile inline page header date
+  const mobileHeaderDate = document.getElementById('mobile-header-date');
+  if (mobileHeaderDate) mobileHeaderDate.textContent = `今日 ${dateStr}`;
 }
 </script>
 </body>
