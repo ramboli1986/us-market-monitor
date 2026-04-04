@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#1c1c1e" />
   <title>美股市场监控中心</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
@@ -50,8 +50,8 @@
 
     /* Top bar (mobile) */
     .top-bar {
-      background: #000000;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
+      background: #1c1c1e;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
       padding: 12px 16px 10px;
       display: flex;
       align-items: center;
@@ -90,8 +90,8 @@
     /* Bottom navigation (mobile) */
     .bottom-nav {
       display: flex;
-      background: #000000;
-      border-top: 1px solid rgba(255,255,255,0.06);
+      background: #1c1c1e;
+      border-top: 1px solid rgba(255,255,255,0.08);
       padding-bottom: var(--safe-bottom);
       flex-shrink: 0; position: relative; z-index: 100;
     }
@@ -1225,7 +1225,9 @@ function renderUpcoming() {
   const in30 = new Date(today); in30.setDate(in30.getDate() + 30);
 
   const upcoming = EVENTS_DB.filter(e => {
-    const d = new Date(e.date);
+    // Parse date as local time (avoid UTC offset issue: '2026-04-03' parses as UTC midnight)
+    const [ey, em, ed] = e.date.split('-').map(Number);
+    const d = new Date(ey, em - 1, ed); // local midnight
     if (!(d >= today && d <= in30)) return false;
     if (upcomingFilter === 'all') return true;
     if (upcomingFilter === 'earnings') return e.type === 'earnings';
@@ -1240,7 +1242,8 @@ function renderUpcoming() {
   }
 
   upcoming.forEach(ev => {
-    const evDate = new Date(ev.date);
+    const [ey2, em2, ed2] = ev.date.split('-').map(Number);
+    const evDate = new Date(ey2, em2 - 1, ed2); // local midnight
     const diffDays = Math.round((evDate - today) / 86400000);
     const [y, m, d] = ev.date.split('-');
     const item = document.createElement('div');
