@@ -307,7 +307,7 @@
         display: block;
         background: linear-gradient(135deg, #0d1117 0%, #1a2332 50%, #0d1117 100%);
         border-bottom: 1px solid var(--border);
-        padding: 36px 24px 28px;
+        padding: 20px 24px 16px;
         text-align: center;
         position: relative; overflow: hidden;
       }
@@ -374,7 +374,7 @@
 
       /* Calendar desktop */
       .cal-nav-bar { padding: 0 0 16px; }
-      .cal-nav-btn { width: 34px; height: 34px; }
+      .cal-nav-btn { width: auto; height: 34px; padding: 0 14px; font-size: .85rem; }
       .cal-month-label { font-size: 1.1rem; min-width: 140px; text-align: center; }
       .cal-grid { padding: 0 0 20px; gap: 4px; }
       .cal-day-header { font-size: .72rem; padding: 6px 0; letter-spacing: .04em; }
@@ -470,12 +470,7 @@
   <!-- ══ DESKTOP: Header ══ -->
   <div class="desktop-header">
     <h1>🇺🇸 美股市场监控中心</h1>
-    <p>实时财经新闻 · 财经日历 · 影响大盘的关键因素分析</p>
-    <div class="header-badges">
-      <span class="hbadge">📅 财经日历</span>
-      <span class="hbadge green">📡 实时新闻</span>
-      <span class="hbadge orange">💼 财报季</span>
-    </div>
+    <p>实时财经新闻 &middot; 财经日历 &middot; 影响大盘的关键因素分析 &nbsp;<span id="today-date-desktop" style="color:var(--accent);font-size:.85rem"></span></p>
   </div>
 
   <!-- ══ DESKTOP: Top Nav ══ -->
