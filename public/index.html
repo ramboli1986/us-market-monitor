@@ -366,6 +366,7 @@
     .lang-btn.en { background: rgba(79,156,249,.1); border-color: rgba(79,156,249,.3); color: var(--blue); }
     .refresh-icon { display: inline-block; transition: transform .3s; }
     .refresh-btn.spinning .refresh-icon { animation: spin 1s linear infinite; }
+    .refresh-btn:disabled { opacity: .45; cursor: not-allowed; pointer-events: none; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .cat-filters { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
@@ -762,7 +763,9 @@
           </div>
         </div>
         <div class="cat-filters">
-          <button class="cat-btn active" onclick="filterNews('综合',this)">综合</button>
+          <button class="cat-btn active" onclick="filterNews('头条',this)">🔥 头条</button>
+          <button class="cat-btn" onclick="filterNews('全部',this)">全部</button>
+          <button class="cat-btn" onclick="filterNews('综合',this)">综合</button>
           <button class="cat-btn" onclick="filterNews('经济',this)">经济</button>
           <button class="cat-btn" onclick="filterNews('金融',this)">金融</button>
           <button class="cat-btn" onclick="filterNews('科技',this)">科技</button>
@@ -1537,11 +1540,11 @@ function renderUpcoming() {
 // NEWS FEED
 // ══════════════════════════════════════════
 const NEWS_API = '/news.json';
-let allNews = [], currentFilter = '综合', newsLoaded = false;
+let allNews = [], currentFilter = '头条', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
-const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
-const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)' };
-const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)' };
+const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa', '头条':'#f97316', '全部':'#94a3b8' };
+const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)', '头条':'rgba(249,115,22,.12)', '全部':'rgba(148,163,184,.1)' };
+const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)', '头条':'rgba(249,115,22,.25)', '全部':'rgba(148,163,184,.2)' };
 
 function setStatus(state, text) {
   const dot = document.getElementById('statusDot');
@@ -1564,16 +1567,31 @@ function timeAgo(pubDate) {
 
 function renderNews() {
   const grid = document.getElementById('newsGrid');
-  const filtered = allNews.filter(n => n.category === currentFilter);
+  let filtered;
+  if (currentFilter === '头条') {
+    // 头条：每个分类取最新 4 条，按时间排序
+    const cats = ['综合', '经济', '金融', '科技'];
+    filtered = [];
+    cats.forEach(cat => {
+      const items = allNews.filter(n => n.category === cat).slice(0, 4);
+      filtered.push(...items);
+    });
+    filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  } else if (currentFilter === '全部') {
+    filtered = [...allNews].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  } else {
+    filtered = allNews.filter(n => n.category === currentFilter);
+  }
   if (filtered.length === 0) {
     grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无该分类的新闻</p></div>';
     return;
   }
   grid.innerHTML = '';
   filtered.forEach(item => {
-    const color = CAT_COLORS[item.category] || '#4f9cf9';
-    const bg = CAT_BG[item.category] || 'rgba(79,156,249,.12)';
-    const border = CAT_BORDER[item.category] || 'rgba(79,156,249,.25)';
+    const cat = item.category || '综合';
+    const color = CAT_COLORS[cat] || '#4f9cf9';
+    const bg = CAT_BG[cat] || 'rgba(79,156,249,.12)';
+    const border = CAT_BORDER[cat] || 'rgba(79,156,249,.25)';
     const a = document.createElement('a');
     a.className = 'news-item';
     a.href = item.link;
@@ -1585,7 +1603,7 @@ function renderNews() {
       <div class="news-item-inner">
         <div class="news-meta">
           <span class="news-source" style="color:${color}">${item.source||'CNBC'}</span>
-          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${item.category||''}</span>
+          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${cat}</span>
           <span class="news-time">${timeAgo(item.pubDate)}</span>
         </div>
         <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
@@ -1599,24 +1617,34 @@ function renderNews() {
   });
 }
 
-async function fetchNews() {
+async function fetchNews(forceRefresh = false) {
   setStatus('loading', '正在加载...');
-  document.getElementById('refreshBtn').classList.add('spinning');
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+  btn.disabled = true;
   try {
-    const resp = await fetch(NEWS_API);
+    const url = forceRefresh ? NEWS_API + '?t=' + Date.now() : NEWS_API;
+    const resp = await fetch(url, { cache: forceRefresh ? 'no-cache' : 'default' });
     const data = await resp.json();
     allNews = data.items || [];
     newsLoaded = true;
-    setStatus('live', `已加载 ${allNews.length} 条`);
+    // 显示数据时间
     const upd = document.getElementById('lastUpdatedText');
-    if (data.updated_at) upd.textContent = `更新于：${new Date(data.updated_at).toLocaleString('zh-CN')}`;
+    if (data.updated_at) {
+      const updTime = new Date(data.updated_at);
+      const diffMin = Math.round((Date.now() - updTime.getTime()) / 60000);
+      const freshLabel = diffMin < 5 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
+      upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--green)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
+    }
+    setStatus('live', `已是最新`);
     renderNews();
     startCountdown();
   } catch(e) {
     setStatus('error', '加载失败，请重试');
     document.getElementById('newsGrid').innerHTML = '<div class="news-empty"><div class="icon">⚠️</div><p>无法获取新闻，请检查网络</p></div>';
   }
-  document.getElementById('refreshBtn').classList.remove('spinning');
+  btn.classList.remove('spinning');
+  btn.disabled = false;
 }
 
 function startCountdown() {
@@ -1626,8 +1654,7 @@ function startCountdown() {
     nextRefreshIn--;
     const el = document.getElementById('nextRefreshText');
     const m = Math.floor(nextRefreshIn/60), s = nextRefreshIn%60;
-    el.innerHTML = `下次刷新
-：<span>${m}分${String(s).padStart(2,'0')}秒</span>后`;
+    el.innerHTML = `下次刷新：<span>${m}分${String(s).padStart(2,'0')}秒</span>后`;
     if (nextRefreshIn <= 0) fetchNews();
   }, 1000);
 }
@@ -1649,7 +1676,7 @@ function filterNews(cat, btn) {
 
 async function manualRefresh() {
   if (refreshTimer) clearInterval(refreshTimer);
-  await fetchNews();
+  await fetchNews(true); // force no-cache
 }
 
 // ══════════════════════════════════════════
