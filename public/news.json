@@ -1,15 +1,26 @@
 {
-  "updated_at": "2026-04-04T18:06:48.862895+00:00",
-  "count": 56,
+  "updated_at": "2026-04-04T19:10:59.292709+00:00",
+  "count": 55,
   "items": [
     {
-      "title_en": "European ministers call for a tax on energy company windfall profits as Iran war drives price surge",
-      "title_zh": "随着伊朗战争推动价格飙升，欧洲部长们呼吁对能源公司的意外利润征税",
-      "desc_en": "Driven largely by higher oil prices, the annual inflation rate in the 21 countries that use the euro rose to 2.5% in March, from 1.9% in February.",
-      "desc_zh": "在油价上涨的主要推动下，使用欧元的21个国家的年通胀率从2月份的1.9%上升到3月份的2.5%。",
-      "link": "https://www.cnbc.com/2026/04/04/europe-energy-windfall-profit-tax.html",
-      "pubDate": "2026-04-04T14:06:47",
-      "relativeTime": "4小时前",
+      "title_en": "Polymarket removes wagers on U.S. service member rescue mission in Iran",
+      "title_zh": "Polymarket取消了对美国服务成员在伊朗的救援任务的押注",
+      "desc_en": "Rep. Seth Moulton, D-Mass., called the market \"DISGUSTING\" and said bettors were wagering on whether American troops would be saved.",
+      "desc_zh": "马萨诸塞州众议员塞思·莫尔顿（ Seth Moulton ）称市场“令人作呕” ，并表示投注者正在押注美国军队是否会获救。",
+      "link": "https://www.cnbc.com/2026/04/04/polymarket-war-bet-iran-rescue-prediction-market-moulton.html",
+      "pubDate": "2026-04-04T18:56:36",
+      "relativeTime": "14分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump administration asks appeals court to pause order halting White House ballroom construction",
+      "title_zh": "特朗普政府要求上诉法院暂停暂停白宫宴会厅建设的命令",
+      "desc_en": "Lawyers said the judge's order is \"threatening grave national-security harms to the White House, the President and his family, and the President's staff.\"",
+      "desc_zh": "律师表示，法官的命令“威胁到白宫，总统及其家人以及总统工作人员的严重国家安全伤害”。",
+      "link": "https://www.cnbc.com/2026/04/04/trump-white-house-ballroom-appeal.html",
+      "pubDate": "2026-04-04T18:06:54",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "女子曲棍球正在发展， PWHL的目标是成为第一个取得长期成功的职业女子曲棍球联盟。",
       "link": "https://www.cnbc.com/2026/04/04/pwhl-womens-hockey-growth.html",
       "pubDate": "2026-04-04T13:48:22",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "该公司公布了未来三个月表现优异的股票。",
       "link": "https://www.cnbc.com/2026/04/04/bank-of-americas-top-stock-picks-for-the-second-quarter.html",
       "pubDate": "2026-04-04T13:28:29",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "耐克周二发布了疲弱的销售预测，引发了其股票的抛售。",
       "link": "https://www.cnbc.com/2026/04/04/nike-is-the-most-oversold-stock-on-wall-street-after-a-wild-week-of-trading.html",
       "pubDate": "2026-04-04T13:23:40",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +75,7 @@
       "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
       "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
       "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "关于杰弗里·爱泼斯坦(Jeffrey Epstein)与比尔·盖茨(Bill Gates)的关系的揭露，使他与沃伦·巴菲特(Warren Buffett)和这位奥马哈亿万富翁每年向盖茨基金会(Gates Foundation)捐赠数十亿美元的友",
       "link": "https://www.cnbc.com/2026/04/04/buffett-may-end-donations-to-gates-charity-over-bills-ties-to-epstein.html",
       "pubDate": "2026-04-04T13:08:53",
-      "relativeTime": "4小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "在占据主导地位的消费者设备中，苹果向用户出售隐私承诺。要想在人工智能领域竞争，它可能需要转向。",
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,17 +108,6 @@
       "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
       "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "6小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "India makes first Iranian oil purchase in seven years with no payment problems",
-      "title_zh": "印度七年来首次在伊朗购买石油，没有付款问题",
-      "desc_en": "The world's third-biggest oil importer and consumer, India has not ​received a cargo from Tehran since May ​2019.",
-      "desc_zh": "印度是世界第三大石油进口国和消费国，自2019年5月以来一直没有从德黑兰收到货物。",
-      "link": "https://www.cnbc.com/2026/04/04/india-makes-first-iranian-oil-purchase-in-seven-years.html",
-      "pubDate": "2026-04-04T10:58:35",
       "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -119,7 +119,7 @@
       "desc_zh": "Lucid在截至3月31日的季度生产了5,500辆汽车，交付了3,093辆。分析师曾预计该公司将生产5,967辆汽车，交付5,237辆汽车。",
       "link": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
       "pubDate": "2026-04-04T10:19:13",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +130,7 @@
       "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
       "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
       "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "6分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "19小时前",
+      "relativeTime": "5分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "在为Jony Ive的新兴设备初创公司支付了惊人的64亿美元10个月后， OpenAI宣布将收购媒体公司TBPN。",
       "link": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
       "pubDate": "2026-04-03T22:13:34",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -284,7 +284,7 @@
       "desc_zh": "OpenAI没有披露交易条款，但表示TBPN将被纳入其战略组织。",
       "link": "https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html",
       "pubDate": "2026-04-02T19:06:30",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -295,7 +295,7 @@
       "desc_zh": "随着伊朗战争现已进入第五周，亚马逊表示将为美国和加拿大的第三方卖家增加3.5%的燃油和物流附加费。",
       "link": "https://www.cnbc.com/2026/04/02/amazon-add-3point5percent-fuel-and-logistics-surcharge-for-sellers-amid-iran-war.html",
       "pubDate": "2026-04-02T18:59:44",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -306,17 +306,6 @@
       "desc_zh": "尽管全球的不确定性拖累了交易数量，但家族办公室和企业投资者仍在涌入巨额交易。",
       "link": "https://www.cnbc.com/2026/04/02/family-offices-stall-deal-making-during-iran-conflict.html",
       "pubDate": "2026-04-02T15:11:51",
-      "relativeTime": "2天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Trump's address, SpaceX IPO, Sam's Club membership prices and more in Morning Squawk",
-      "title_zh": "《Morning Squawk》中的特朗普地址、SpaceX IPO、Sam's Club会员价格等",
-      "desc_en": "Here are five key things investors need to know to start the trading day.",
-      "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
-      "link": "https://www.cnbc.com/2026/04/02/5-things-to-know-before-the-market-opens.html",
-      "pubDate": "2026-04-02T12:30:23",
       "relativeTime": "2天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
@@ -416,7 +405,7 @@
       "desc_zh": "虽然利率走向仍存在很大的不确定性，但华尔街的评论又回到了降息的预期。",
       "link": "https://www.cnbc.com/2026/03/31/why-4-a-gallon-gas-prices-wont-trigger-fed-interest-rate-hikes-and-could-lead-to-cuts.html",
       "pubDate": "2026-03-31T18:35:23",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
