@@ -410,6 +410,14 @@
     .news-empty { text-align: center; padding: 60px 20px; color: var(--text3); }
     .news-empty .icon { font-size: 2.4rem; margin-bottom: 10px; opacity: .6; }
     .news-empty p { font-size: .84rem; }
+    .news-group-hdr {
+      margin: 16px 12px 8px;
+      padding: 6px 10px;
+      border-radius: 0 8px 8px 0;
+      background: rgba(255,255,255,.04);
+      font-size: .78rem; font-weight: 700; letter-spacing: .04em;
+    }
+    .news-group-hdr:first-child { margin-top: 4px; }
     .next-refresh { text-align: center; padding: 10px; font-size: .72rem; color: var(--text3); }
     .next-refresh span { color: var(--blue); font-weight: 700; }
 
@@ -1565,19 +1573,65 @@ function timeAgo(pubDate) {
   } catch { return ''; }
 }
 
+function makeNewsCard(item) {
+  const cat = item.category || '综合';
+  const color = CAT_COLORS[cat] || '#4f9cf9';
+  const bg = CAT_BG[cat] || 'rgba(79,156,249,.12)';
+  const border = CAT_BORDER[cat] || 'rgba(79,156,249,.25)';
+  const a = document.createElement('a');
+  a.className = 'news-item';
+  a.href = item.link;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.style.cssText = `--item-color:${color}`;
+  a.innerHTML = `
+    <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
+    <div class="news-item-inner">
+      <div class="news-meta">
+        <span class="news-source" style="color:${color}">${item.source||'CNBC'}</span>
+        <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${cat}</span>
+        <span class="news-time">${timeAgo(item.pubDate)}</span>
+      </div>
+      <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
+      ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
+      ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
+      <div class="news-footer"><span class="news-read-more">阅读原文 →</span></div>
+    </div>`;
+  return a;
+}
+
 function renderNews() {
   const grid = document.getElementById('newsGrid');
-  let filtered;
+  grid.innerHTML = '';
+
   if (currentFilter === '头条') {
-    // 头条：每个分类取最新 4 条，按时间排序
-    const cats = ['综合', '经济', '金融', '科技'];
-    filtered = [];
-    cats.forEach(cat => {
-      const items = allNews.filter(n => n.category === cat).slice(0, 4);
-      filtered.push(...items);
+    // 头条：每个分类分组展示，每组取3条
+    const groups = [
+      { cat: '综合', icon: '📰', label: '综合要闻' },
+      { cat: '经济', icon: '📈', label: '经济动态' },
+      { cat: '金融', icon: '🏦', label: '金融市场' },
+      { cat: '科技', icon: '💻', label: '科技资讯' },
+    ];
+    let hasAny = false;
+    groups.forEach(g => {
+      const items = allNews.filter(n => n.category === g.cat).slice(0, 3);
+      if (items.length === 0) return;
+      hasAny = true;
+      const color = CAT_COLORS[g.cat];
+      // 分组标题
+      const hdr = document.createElement('div');
+      hdr.className = 'news-group-hdr';
+      hdr.style.cssText = `border-left:3px solid ${color};`;
+      hdr.innerHTML = `<span style="color:${color}">${g.icon} ${g.label}</span>`;
+      grid.appendChild(hdr);
+      items.forEach(item => grid.appendChild(makeNewsCard(item)));
     });
-    filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  } else if (currentFilter === '全部') {
+    if (!hasAny) grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无新闻</p></div>';
+    return;
+  }
+
+  let filtered;
+  if (currentFilter === '全部') {
     filtered = [...allNews].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
   } else {
     filtered = allNews.filter(n => n.category === currentFilter);
@@ -1586,35 +1640,7 @@ function renderNews() {
     grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无该分类的新闻</p></div>';
     return;
   }
-  grid.innerHTML = '';
-  filtered.forEach(item => {
-    const cat = item.category || '综合';
-    const color = CAT_COLORS[cat] || '#4f9cf9';
-    const bg = CAT_BG[cat] || 'rgba(79,156,249,.12)';
-    const border = CAT_BORDER[cat] || 'rgba(79,156,249,.25)';
-    const a = document.createElement('a');
-    a.className = 'news-item';
-    a.href = item.link;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    a.style.cssText = `--item-color:${color}`;
-    a.innerHTML = `
-      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
-      <div class="news-item-inner">
-        <div class="news-meta">
-          <span class="news-source" style="color:${color}">${item.source||'CNBC'}</span>
-          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${cat}</span>
-          <span class="news-time">${timeAgo(item.pubDate)}</span>
-        </div>
-        <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
-        ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
-        ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
-        <div class="news-footer">
-          <span class="news-read-more">阅读原文 →</span>
-        </div>
-      </div>`;
-    grid.appendChild(a);
-  });
+  filtered.forEach(item => grid.appendChild(makeNewsCard(item)));
 }
 
 async function fetchNews(forceRefresh = false) {
