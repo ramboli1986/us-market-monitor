@@ -1,10 +1,10 @@
 /**
  * Vercel Serverless Function: /api/news
- * Real-time fetch of CNBC RSS feeds with Chinese translation via MyMemory API.
+ * Real-time fetch of CNBC RSS feeds with parallel Chinese translation via Google Translate.
+ * maxDuration: 60s (set in vercel.json)
  */
 
 const https = require('https');
-const http = require('http');
 
 const RSS_FEEDS = [
   { url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114', category: '综合', source: 'CNBC TOP NEWS' },
@@ -15,19 +15,50 @@ const RSS_FEEDS = [
 
 const MAX_PER_FEED = 15;
 
-function fetchUrl(url, timeout = 10000) {
+// ── HTTP helper ──────────────────────────────────────────────
+function fetchUrl(url, timeout = 12000) {
   return new Promise((resolve, reject) => {
-    const lib = url.startsWith('https') ? https : http;
-    const req = lib.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, timeout }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+      // follow redirects
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchUrl(res.headers.location, timeout).then(resolve).catch(reject);
+      }
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
     });
+    req.setTimeout(timeout, () => { req.destroy(); reject(new Error('timeout')); });
     req.on('error', reject);
-    req.on('timeout', () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
+// ── Google Translate (unofficial, no key needed) ─────────────
+async function translateGoogle(text) {
+  if (!text || !text.trim()) return text;
+  // Decode HTML entities first
+  const decoded = text
+    .replace(/&apos;/g, "'").replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ');
+  const truncated = decoded.slice(0, 500);
+  const encoded = encodeURIComponent(truncated);
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=${encoded}`;
+  try {
+    const body = await fetchUrl(url, 8000);
+    const parsed = JSON.parse(body);
+    // Result is nested array: [[["translated","original",...],...]...]
+    if (Array.isArray(parsed) && Array.isArray(parsed[0])) {
+      const parts = parsed[0].map(seg => (Array.isArray(seg) && seg[0]) ? seg[0] : '');
+      const result = parts.join('').trim();
+      if (result && result !== truncated) return result;
+    }
+  } catch (e) {
+    // fallback to original
+  }
+  return decoded;
+}
+
+// ── RSS Parser ───────────────────────────────────────────────
 function parseXML(xml) {
   const items = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -40,31 +71,13 @@ function parseXML(xml) {
                    block.match(/<description[^>]*>([\s\S]*?)<\/description>/) || [])[1] || '';
     const link  = (block.match(/<link[^>]*>([\s\S]*?)<\/link>/) || [])[1] || '';
     const pub   = (block.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/) || [])[1] || '';
-    const cleanDesc = desc.replace(/<[^>]+>/g, '').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').trim();
+    const cleanDesc = desc.replace(/<[^>]+>/g, '').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').replace(/&apos;/g,"'").replace(/&quot;/g,'"').trim();
     const cleanTitle = title.replace(/<[^>]+>/g, '').trim();
     if (cleanTitle) {
       items.push({ title: cleanTitle, desc: cleanDesc.slice(0, 200), link: link.trim(), pubDate: pub.trim() });
     }
   }
   return items;
-}
-
-async function translate(text) {
-  if (!text || !text.trim()) return text;
-  const truncated = text.slice(0, 480);
-  const encoded = encodeURIComponent(truncated);
-  const url = `https://api.mymemory.translated.net/get?q=${encoded}&langpair=en|zh`;
-  try {
-    const body = await fetchUrl(url, 8000);
-    const data = JSON.parse(body);
-    if (data.responseStatus === 200) {
-      const t = data.responseData.translatedText;
-      if (t && t !== text) return t;
-    }
-  } catch (e) {
-    // fallback to original
-  }
-  return text;
 }
 
 function parsePubDate(pubDate) {
@@ -79,17 +92,15 @@ function parsePubDate(pubDate) {
 function relativeTime(isoStr) {
   try {
     const diff = Math.floor((Date.now() - new Date(isoStr).getTime()) / 1000);
-    if (diff < 60) return '刚刚';
-    if (diff < 3600) return `${Math.floor(diff / 60)}分钟前`;
+    if (diff < 60)    return '刚刚';
+    if (diff < 3600)  return `${Math.floor(diff / 60)}分钟前`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}小时前`;
     return `${Math.floor(diff / 86400)}天前`;
   } catch (e) { return ''; }
 }
 
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-
+// ── Main handler ─────────────────────────────────────────────
 module.exports = async function handler(req, res) {
-  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
@@ -97,37 +108,47 @@ module.exports = async function handler(req, res) {
   if (req.method === 'OPTIONS') { res.status(200).end(); return; }
 
   try {
-    const allItems = [];
+    // Step 1: Fetch all RSS feeds in parallel
+    const feedResults = await Promise.all(
+      RSS_FEEDS.map(async (feed) => {
+        try {
+          const xml = await fetchUrl(feed.url, 10000);
+          return { feed, items: parseXML(xml) };
+        } catch (e) {
+          return { feed, items: [] };
+        }
+      })
+    );
+
+    // Step 2: Collect unique items
+    const rawItems = [];
     const seenLinks = new Set();
-
-    for (const feed of RSS_FEEDS) {
-      let xml = '';
-      try { xml = await fetchUrl(feed.url, 10000); } catch (e) { continue; }
-      const rawItems = parseXML(xml);
-
-      for (const raw of rawItems.slice(0, MAX_PER_FEED)) {
+    for (const { feed, items } of feedResults) {
+      for (const raw of items.slice(0, MAX_PER_FEED)) {
         if (!raw.link || seenLinks.has(raw.link)) continue;
         seenLinks.add(raw.link);
-
-        const pubIso = parsePubDate(raw.pubDate);
-        const titleZh = await translate(raw.title);
-        await sleep(150);
-        const descZh = raw.desc ? await translate(raw.desc) : '';
-        await sleep(150);
-
-        allItems.push({
-          title_en: raw.title,
-          title_zh: titleZh,
-          desc_en: raw.desc,
-          desc_zh: descZh,
-          link: raw.link,
-          pubDate: pubIso,
-          relativeTime: relativeTime(pubIso),
-          category: feed.category,
-          source: feed.source,
-        });
+        rawItems.push({ ...raw, category: feed.category, source: feed.source });
       }
     }
+
+    // Step 3: Translate all titles and descs in parallel (batch)
+    const [titleZhList, descZhList] = await Promise.all([
+      Promise.all(rawItems.map(item => translateGoogle(item.title))),
+      Promise.all(rawItems.map(item => translateGoogle(item.desc))),
+    ]);
+
+    // Step 4: Build final items
+    const allItems = rawItems.map((raw, i) => ({
+      title_en: raw.title,
+      title_zh: titleZhList[i] || raw.title,
+      desc_en:  raw.desc,
+      desc_zh:  descZhList[i] || raw.desc,
+      link:     raw.link,
+      pubDate:  parsePubDate(raw.pubDate),
+      relativeTime: relativeTime(parsePubDate(raw.pubDate)),
+      category: raw.category,
+      source:   raw.source,
+    }));
 
     allItems.sort((a, b) => (b.pubDate > a.pubDate ? 1 : -1));
 

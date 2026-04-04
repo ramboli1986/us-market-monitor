@@ -3,6 +3,11 @@
   "buildCommand": null,
   "outputDirectory": "public",
   "framework": null,
+  "functions": {
+    "api/news.js": {
+      "maxDuration": 60
+    }
+  },
   "routes": [
     {
       "src": "/api/news",
