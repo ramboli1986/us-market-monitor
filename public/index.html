@@ -90,11 +90,12 @@
     /* Bottom navigation (mobile) */
     .bottom-nav {
       display: flex;
-      background: rgba(13,17,23,0.95);
+      background: linear-gradient(180deg, #131920 0%, #0d1117 100%);
       backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-      border-top: 1px solid var(--border);
+      border-top: 1px solid rgba(88,166,255,0.15);
       padding-bottom: var(--safe-bottom);
       flex-shrink: 0; position: relative; z-index: 100;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
     }
     .nav-item {
       flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -448,7 +449,7 @@
   <div class="top-bar">
     <div class="top-bar-left">
       <h1>🇺🇸 美股监控中心</h1>
-      <p>财经日历 · 实时新闻 · 影响因素分析</p>
+      <p id="today-date-mobile">财经日历 · 实时新闻 · 影响因素分析</p>
     </div>
     <div class="top-bar-right">
       <div class="live-badge"><div class="live-dot"></div>实时</div>
@@ -505,7 +506,10 @@
       <!-- Mobile: nav bar -->
       <div class="cal-nav-bar" id="calNavBarMobile">
         <button class="cal-nav-btn" onclick="changeMonth(-1)">‹</button>
-        <div class="cal-month-label" id="calMonthLabel">2026年4月</div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
+          <div class="cal-month-label" id="calMonthLabel">2026年4月</div>
+          <div id="today-date-cal" style="font-size:.65rem;color:var(--accent);font-weight:600;letter-spacing:.02em"></div>
+        </div>
         <button class="cal-nav-btn" onclick="changeMonth(1)">›</button>
       </div>
 
@@ -1369,7 +1373,24 @@ document.addEventListener('DOMContentLoaded', () => {
   applyResponsiveLayout();
   renderCalendar();
   renderUpcoming();
+  updateTodayDate();
 });
+
+function updateTodayDate() {
+  const now = new Date();
+  const weekDays = ['周日','周一','周二','周三','周四','周五','周六'];
+  const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  const dateStr = `${now.getFullYear()}年${months[now.getMonth()]}${now.getDate()}日 ${weekDays[now.getDay()]}`;
+  // Mobile top bar
+  const mobileDate = document.getElementById('today-date-mobile');
+  if (mobileDate) mobileDate.textContent = `今日 ${dateStr}`;
+  // Desktop calendar title area
+  const desktopDate = document.getElementById('today-date-desktop');
+  if (desktopDate) desktopDate.textContent = dateStr;
+  // Mobile calendar nav bar
+  const calDate = document.getElementById('today-date-cal');
+  if (calDate) calDate.textContent = `今日 ${dateStr}`;
+}
 </script>
 </body>
 </html>
