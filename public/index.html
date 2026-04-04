@@ -771,8 +771,7 @@
           </div>
         </div>
         <div class="cat-filters">
-          <button class="cat-btn active" onclick="filterNews('头条',this)">🔥 头条</button>
-          <button class="cat-btn" onclick="filterNews('全部',this)">全部</button>
+          <button class="cat-btn active" onclick="filterNews('全部',this)">全部</button>
           <button class="cat-btn" onclick="filterNews('综合',this)">综合</button>
           <button class="cat-btn" onclick="filterNews('经济',this)">经济</button>
           <button class="cat-btn" onclick="filterNews('金融',this)">金融</button>
@@ -1548,11 +1547,11 @@ function renderUpcoming() {
 // NEWS FEED
 // ══════════════════════════════════════════
 const NEWS_API = '/news.json';
-let allNews = [], currentFilter = '头条', newsLoaded = false;
+let allNews = [], currentFilter = '全部', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
-const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa', '头条':'#f97316', '全部':'#94a3b8' };
-const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)', '头条':'rgba(249,115,22,.12)', '全部':'rgba(148,163,184,.1)' };
-const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)', '头条':'rgba(249,115,22,.25)', '全部':'rgba(148,163,184,.2)' };
+const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
+const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)' };
+const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)' };
 
 function setStatus(state, text) {
   const dot = document.getElementById('statusDot');
@@ -1603,33 +1602,6 @@ function makeNewsCard(item) {
 function renderNews() {
   const grid = document.getElementById('newsGrid');
   grid.innerHTML = '';
-
-  if (currentFilter === '头条') {
-    // 头条：每个分类分组展示，每组取3条
-    const groups = [
-      { cat: '综合', icon: '📰', label: '综合要闻' },
-      { cat: '经济', icon: '📈', label: '经济动态' },
-      { cat: '金融', icon: '🏦', label: '金融市场' },
-      { cat: '科技', icon: '💻', label: '科技资讯' },
-    ];
-    let hasAny = false;
-    groups.forEach(g => {
-      const items = allNews.filter(n => n.category === g.cat).slice(0, 3);
-      if (items.length === 0) return;
-      hasAny = true;
-      const color = CAT_COLORS[g.cat];
-      // 分组标题
-      const hdr = document.createElement('div');
-      hdr.className = 'news-group-hdr';
-      hdr.style.cssText = `border-left:3px solid ${color};`;
-      hdr.innerHTML = `<span style="color:${color}">${g.icon} ${g.label}</span>`;
-      grid.appendChild(hdr);
-      items.forEach(item => grid.appendChild(makeNewsCard(item)));
-    });
-    if (!hasAny) grid.innerHTML = '<div class="news-empty"><div class="icon">📭</div><p>暂无新闻</p></div>';
-    return;
-  }
-
   let filtered;
   if (currentFilter === '全部') {
     filtered = [...allNews].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
