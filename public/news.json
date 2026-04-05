@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-05T09:13:01.524911+00:00",
+  "updated_at": "2026-04-05T10:08:35.373600+00:00",
   "count": 55,
   "items": [
+    {
+      "title_en": "OPEC+ debates making oil output hike amid Iran war paralysis, sources say",
+      "title_zh": "消息人士称，欧佩克+在伊朗战争瘫痪期间辩论石油产量增加",
+      "desc_en": "OPEC+ may approve an oil output increase, despite the fact that its key members are unable to actually raise production due to the U.S.-Israeli war with Iran.",
+      "desc_zh": "欧佩克+可能会批准增加石油产量，尽管其主要成员国由于美以战争而无法实际提高产量。",
+      "link": "https://www.cnbc.com/2026/04/05/opec-debates-making-oil-output-hike-amid-iran-war-paralysis-reuters.html",
+      "pubDate": "2026-04-05T10:05:39",
+      "relativeTime": "2分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "U.S. President Trump confirms missing U.S. pilot has been rescued",
       "title_zh": "美国总统特朗普确认失踪的美国飞行员已获救",
@@ -9,7 +20,18 @@
       "desc_zh": "特朗普说，这些军官是在山区的“敌人领地深处”获救的。",
       "link": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
       "pubDate": "2026-04-05T05:19:21",
-      "relativeTime": "28分钟前",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "'Anything but autos': Can defense save Europe’s ailing car industry?",
+      "title_zh": "“汽车以外的任何东西” ：国防能否挽救欧洲陷入困境的汽车行业？",
+      "desc_en": "The transition from wheels to weapons is achievable in part because many of the underlying skills are highly transferable, according to experts.",
+      "desc_zh": "根据专家的说法，从车轮到武器的过渡是可以实现的，部分原因是许多潜在的技能是高度可转移的。",
+      "link": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
+      "pubDate": "2026-04-05T05:00:01",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "马萨诸塞州众议员塞思·莫尔顿（ Seth Moulton ）称市场“令人作呕” ，并表示投注者正在押注美国军队是否会获救。",
       "link": "https://www.cnbc.com/2026/04/04/polymarket-war-bet-iran-rescue-prediction-market-moulton.html",
       "pubDate": "2026-04-04T18:56:36",
-      "relativeTime": "12小时前",
+      "relativeTime": "6分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "该公司公布了未来三个月表现优异的股票。",
       "link": "https://www.cnbc.com/2026/04/04/bank-of-americas-top-stock-picks-for-the-second-quarter.html",
       "pubDate": "2026-04-04T13:28:29",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "耐克周二发布了疲弱的销售预测，引发了其股票的抛售。",
       "link": "https://www.cnbc.com/2026/04/04/nike-is-the-most-oversold-stock-on-wall-street-after-a-wild-week-of-trading.html",
       "pubDate": "2026-04-04T13:23:40",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +86,7 @@
       "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
       "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
       "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,18 +108,7 @@
       "desc_zh": "在占据主导地位的消费者设备中，苹果向用户出售隐私承诺。要想在人工智能领域竞争，它可能需要转向。",
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "21小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "The Chinese box office isn't the Hollywood kingmaker it used to be. Here's why",
-      "title_zh": "中国票房不是过去的好莱坞王者，原因如下",
-      "desc_en": "Shifting government content controls and postpandemic Hollywood trends have made China less of a player in the global box office landscape.",
-      "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
-      "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
-      "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "Lucid在截至3月31日的季度生产了5,500辆汽车，交付了3,093辆。分析师曾预计该公司将生产5,967辆汽车，交付5,237辆汽车。",
       "link": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
       "pubDate": "2026-04-04T10:19:13",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
       "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
       "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +141,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "14小时前",
+      "relativeTime": "5分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +185,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -331,17 +342,6 @@
       "relativeTime": "3天前",
       "category": "金融",
       "source": "CNBC FINANCE"
-    },
-    {
-      "title_en": "Five key questions Apple faces entering its second half-century",
-      "title_zh": "苹果进入下半个世纪面临的五个关键问题",
-      "desc_en": "As Apple turns 50, the iPhone maker faces questions about succession, its role in AI and whether it can maintain a premium brand.",
-      "desc_zh": "随着苹果年满50岁，这家iPhone制造商面临着关于继任、它在人工智能中的作用以及它是否能保持高端品牌的问题。",
-      "link": "https://www.cnbc.com/2026/04/01/five-key-questions-apple-faces-entering-its-second-half-century.html",
-      "pubDate": "2026-04-01T16:40:19",
-      "relativeTime": "3天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "Private sector hiring totaled 62,000 in March, better than expected, ADP says",
