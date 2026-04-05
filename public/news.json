@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-05T12:06:35.747880+00:00",
-  "count": 56,
+  "updated_at": "2026-04-05T13:23:19.477065+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
+      "title_zh": "“无声杀手” ：人工智能初创企业如何试图解决零售业最大的问题之一",
+      "desc_en": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines.",
+      "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
+      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+      "pubDate": "2026-04-05T12:37:57",
+      "relativeTime": "45分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Pope Leo XIV urges peace in first Easter Mass, skips naming conflicts in Urbi et Orbi",
       "title_zh": "教皇利奥十四世在第一次复活节弥撒中敦促和平，在Urbi et Orbi中跳过命名冲突",
@@ -9,7 +20,7 @@
       "desc_zh": "利奥在祝福和讲道中都强调了复活节的希望信息，以庆祝耶稣在被钉十字架后复活。",
       "link": "https://www.cnbc.com/2026/04/05/pope-leo-xiv-urges-peace-in-first-easter-mass-skips-naming-conflicts-in-urbi-et-orbi.html",
       "pubDate": "2026-04-05T11:57:42",
-      "relativeTime": "8分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "欧佩克+可能会批准增加石油产量，尽管其主要成员国由于美以战争而无法实际提高产量。",
       "link": "https://www.cnbc.com/2026/04/05/opec-debates-making-oil-output-hike-amid-iran-war-paralysis-reuters.html",
       "pubDate": "2026-04-05T10:05:39",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "特朗普说，这些军官是在山区的“敌人领地深处”获救的。",
       "link": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
       "pubDate": "2026-04-05T05:19:21",
-      "relativeTime": "29分钟前",
+      "relativeTime": "11分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "根据专家的说法，从车轮到武器的过渡是可以实现的，部分原因是许多潜在的技能是高度可转移的。",
       "link": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
       "pubDate": "2026-04-05T05:00:01",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "马萨诸塞州众议员塞思·莫尔顿（ Seth Moulton ）称市场“令人作呕” ，并表示投注者正在押注美国军队是否会获救。",
       "link": "https://www.cnbc.com/2026/04/04/polymarket-war-bet-iran-rescue-prediction-market-moulton.html",
       "pubDate": "2026-04-04T18:56:36",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +75,7 @@
       "desc_zh": "该公司公布了未来三个月表现优异的股票。",
       "link": "https://www.cnbc.com/2026/04/04/bank-of-americas-top-stock-picks-for-the-second-quarter.html",
       "pubDate": "2026-04-04T13:28:29",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "耐克周二发布了疲弱的销售预测，引发了其股票的抛售。",
       "link": "https://www.cnbc.com/2026/04/04/nike-is-the-most-oversold-stock-on-wall-street-after-a-wild-week-of-trading.html",
       "pubDate": "2026-04-04T13:23:40",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "22小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
       "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
       "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "22小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +152,7 @@
       "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
       "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
       "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -328,7 +339,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/02/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-02T12:14:33",
-      "relativeTime": "2天前",
+      "relativeTime": "3天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -471,7 +482,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/03/31/stocks-making-the-biggest-moves-premarket-mkc-deo-nvda.html",
       "pubDate": "2026-03-31T12:29:08",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -559,7 +570,7 @@
       "desc_zh": "由于地缘政治风险的不确定性加剧和劳动力市场暴跌，经济学家提高了对经济萎缩的风险评估。",
       "link": "https://www.cnbc.com/2026/03/25/recession-odds-climb-on-wall-street-as-economy-shows-cracks-beneath-the-surface.html",
       "pubDate": "2026-03-25T13:22:06",
-      "relativeTime": "10天前",
+      "relativeTime": "11天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
