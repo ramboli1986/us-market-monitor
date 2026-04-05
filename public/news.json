@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-05T04:48:26.534006+00:00",
+  "updated_at": "2026-04-05T05:32:54.031845+00:00",
   "count": 55,
   "items": [
+    {
+      "title_en": "U.S. President Trump confirms missing U.S. pilot has been rescued",
+      "title_zh": "美国总统特朗普确认失踪的美国飞行员已获救",
+      "desc_en": "Trump says the officers were rescued \"deep in Enemy Territory\" in mountainous terrain.",
+      "desc_zh": "特朗普说，这些军官是在山区的“敌人领地深处”获救的。",
+      "link": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
+      "pubDate": "2026-04-05T05:19:21",
+      "relativeTime": "13分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Polymarket removes wagers on U.S. service member rescue mission in Iran",
       "title_zh": "Polymarket取消了对美国服务成员在伊朗的救援任务的押注",
@@ -9,29 +20,7 @@
       "desc_zh": "马萨诸塞州众议员塞思·莫尔顿（ Seth Moulton ）称市场“令人作呕” ，并表示投注者正在押注美国军队是否会获救。",
       "link": "https://www.cnbc.com/2026/04/04/polymarket-war-bet-iran-rescue-prediction-market-moulton.html",
       "pubDate": "2026-04-04T18:56:36",
-      "relativeTime": "7小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Trump administration asks appeals court to pause order halting White House ballroom construction",
-      "title_zh": "特朗普政府要求上诉法院暂停暂停白宫宴会厅建设的命令",
-      "desc_en": "Lawyers said the judge's order is \"threatening grave national-security harms to the White House, the President and his family, and the President's staff.\"",
-      "desc_zh": "律师表示，法官的命令“威胁到白宫，总统及其家人以及总统工作人员的严重国家安全伤害”。",
-      "link": "https://www.cnbc.com/2026/04/04/trump-white-house-ballroom-appeal.html",
-      "pubDate": "2026-04-04T18:06:54",
-      "relativeTime": "10小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "The PWHL is growing, and the success of women's hockey in the Olympics may be just what it needed",
-      "title_zh": "PWHL正在成长，女子曲棍球在奥运会上的成功可能正是它所需要的",
-      "desc_en": "Women's hockey is growing, and the PWHL is aiming to become the first professional women's hockey league to have long-term success.",
-      "desc_zh": "女子曲棍球正在发展， PWHL的目标是成为第一个取得长期成功的职业女子曲棍球联盟。",
-      "link": "https://www.cnbc.com/2026/04/04/pwhl-womens-hockey-growth.html",
-      "pubDate": "2026-04-04T13:48:22",
-      "relativeTime": "12小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +31,7 @@
       "desc_zh": "该公司公布了未来三个月表现优异的股票。",
       "link": "https://www.cnbc.com/2026/04/04/bank-of-americas-top-stock-picks-for-the-second-quarter.html",
       "pubDate": "2026-04-04T13:28:29",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +42,7 @@
       "desc_zh": "耐克周二发布了疲弱的销售预测，引发了其股票的抛售。",
       "link": "https://www.cnbc.com/2026/04/04/nike-is-the-most-oversold-stock-on-wall-street-after-a-wild-week-of-trading.html",
       "pubDate": "2026-04-04T13:23:40",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +53,7 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +64,7 @@
       "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
       "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
       "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +75,7 @@
       "desc_zh": "关于杰弗里·爱泼斯坦(Jeffrey Epstein)与比尔·盖茨(Bill Gates)的关系的揭露，使他与沃伦·巴菲特(Warren Buffett)和这位奥马哈亿万富翁每年向盖茨基金会(Gates Foundation)捐赠数十亿美元的友",
       "link": "https://www.cnbc.com/2026/04/04/buffett-may-end-donations-to-gates-charity-over-bills-ties-to-epstein.html",
       "pubDate": "2026-04-04T13:08:53",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +86,7 @@
       "desc_zh": "在占据主导地位的消费者设备中，苹果向用户出售隐私承诺。要想在人工智能领域竞争，它可能需要转向。",
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +97,7 @@
       "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
       "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +108,7 @@
       "desc_zh": "Lucid在截至3月31日的季度生产了5,500辆汽车，交付了3,093辆。分析师曾预计该公司将生产5,967辆汽车，交付5,237辆汽车。",
       "link": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
       "pubDate": "2026-04-04T10:19:13",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +130,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +174,7 @@
       "desc_zh": "美联航正在调整其票价舱位，提供更便宜的商务舱和更严格的豪华经济舱票价。",
       "link": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
       "pubDate": "2026-04-03T12:05:47",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +196,7 @@
       "desc_zh": "微软表示，计划在2026年至2029年期间在日本投资100亿美元，用于建设人工智能基础设施。",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
       "pubDate": "2026-04-03T05:19:48",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -218,7 +207,7 @@
       "desc_zh": "中国芯片公司受益于国内对人工智能的强劲需求，因为美国的技术限制提振了当地公司。",
       "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
       "pubDate": "2026-04-03T05:00:01",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -342,6 +331,17 @@
       "relativeTime": "3天前",
       "category": "金融",
       "source": "CNBC FINANCE"
+    },
+    {
+      "title_en": "Five key questions Apple faces entering its second half-century",
+      "title_zh": "苹果进入下半个世纪面临的五个关键问题",
+      "desc_en": "As Apple turns 50, the iPhone maker faces questions about succession, its role in AI and whether it can maintain a premium brand.",
+      "desc_zh": "随着苹果年满50岁，这家iPhone制造商面临着关于继任、它在人工智能中的作用以及它是否能保持高端品牌的问题。",
+      "link": "https://www.cnbc.com/2026/04/01/five-key-questions-apple-faces-entering-its-second-half-century.html",
+      "pubDate": "2026-04-01T16:40:19",
+      "relativeTime": "3天前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "Private sector hiring totaled 62,000 in March, better than expected, ADP says",
@@ -471,7 +471,7 @@
       "desc_zh": "在伊朗战争之后，用于国防的关键元素的价格飙升，为人工智能提供动力的半导体也在进步。",
       "link": "https://www.cnbc.com/2026/03/31/commodities-price-of-tungsten-sulfur-and-helium.html",
       "pubDate": "2026-03-31T05:29:11",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
