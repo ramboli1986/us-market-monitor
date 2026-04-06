@@ -1,26 +1,92 @@
 {
-  "updated_at": "2026-04-06T12:13:51.964413+00:00",
-  "count": 58,
+  "updated_at": "2026-04-06T13:29:44.740031+00:00",
+  "count": 59,
   "items": [
     {
-      "title_en": "Neurocrine expands into metabolic diseases with $2.9 billion Soleno buyout",
-      "title_zh": "Neurocrine以29亿美元收购Soleno ，进军代谢疾病领域",
-      "desc_en": "Neurocrine has ⁠offered $53 per Soleno share held, which represents a premium of about 34% to the stock's last close.",
-      "desc_zh": "Neurocrine报价每股Soleno股票53 $ ，比该股上次收盘溢价约34%。",
-      "link": "https://www.cnbc.com/2026/04/06/neurocrine-to-buy-soleno-therapeutics.html",
-      "pubDate": "2026-04-06T12:01:57",
-      "relativeTime": "11分钟前",
+      "title_en": "U.S., Iran study ceasefire plan as Trump's 'hell' warning nears deadline",
+      "title_zh": "美国，伊朗研究停火计划，因为特朗普的“地狱”警告接近最后期限",
+      "desc_en": "The United States and Iran on Monday were weighing the framework of a plan to end their five-week conflict, even as Tehran pushed back against pressure.",
+      "desc_zh": "美国和伊朗周一正在权衡结束为期五周冲突的计划框架，尽管德黑兰正在抵制压力。",
+      "link": "https://www.cnbc.com/2026/04/06/us-and-iran-receive-peace-proposal-as-trump-vows-hell-if-strait-stays-shut.html",
+      "pubDate": "2026-04-06T13:22:14",
+      "relativeTime": "7分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "Tesla is down sharply in 2026. JPMorgan sees even more declines ahead",
-      "title_zh": "特斯拉在2026年大幅下跌。摩根大通预计未来还会出现更多下跌",
-      "desc_en": "\"We ... advise investors approach TSLA shares with a high degree of caution,\" analyst Ryan Brinkman said in a note.",
-      "desc_zh": "分析师Ryan Brinkman在一份报告中表示： “我们……建议投资者高度谨慎地对待TSLA股票。”",
-      "link": "https://www.cnbc.com/2026/04/06/tesla-is-down-sharply-in-2026-jpmorgan-sees-even-more-declines-ahead.html",
-      "pubDate": "2026-04-06T11:58:05",
+      "title_en": "Bank of America downgrades Carvana. Why the stock's recent dip isn't a buying opportunity",
+      "title_zh": "美国银行下调Carvana评级。为什么该股最近的跌幅不是买入机会",
+      "desc_en": "Carvana is likely to notch less growth this year due to worsening macroeconomic conditions tied to the Iran war, per Bank of America.",
+      "desc_zh": "根据美国银行的数据，由于与伊朗战争有关的宏观经济状况恶化，卡瓦纳今年的增长可能会下降。",
+      "link": "https://www.cnbc.com/2026/04/06/bank-of-america-downgrades-carvana-why-the-stocks-recent-dip-isnt-a-buying-opportunity.html",
+      "pubDate": "2026-04-06T13:17:24",
+      "relativeTime": "12分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "U.S. ends probe into Tesla remote driving feature after software updates",
+      "title_zh": "美国在软件更新后结束对特斯拉远程驾驶功能的调查",
+      "desc_en": "The agency opened the probe into the \"Actually Smart Summon\" feature in early 2025 after reports of several crashes.",
+      "desc_zh": "在几起事故报告后，该机构于2025年初开始对“实际智能召唤”功能进行调查。",
+      "link": "https://www.cnbc.com/2026/04/06/us-ends-probe-into-tesla-remote-driving-feature-after-software-updates.html",
+      "pubDate": "2026-04-06T13:14:17",
       "relativeTime": "15分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "New college graduates face a tough job market. Here’s why unemployment hits them harder",
+      "title_zh": "应届大学毕业生面临着艰难的就业市场。这就是失业对他们打击更大的原因",
+      "desc_en": "Financial experts shared tips for college graduates who can't land a job and need to navigate health insurance options, student loan payments and more.",
+      "desc_zh": "金融专家为无法找到工作且需要了解健康保险选项、学生贷款支付等情况的大学毕业生分享了建议。",
+      "link": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
+      "pubDate": "2026-04-06T12:43:46",
+      "relativeTime": "45分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Oracle names Schneider Electric's Maxson as CFO amid soaring AI spending",
+      "title_zh": "在人工智能支出飙升之际，甲骨文任命施耐德电气的Maxson为首席财务官",
+      "desc_en": "Oracle on Monday appointed Hilary Maxson as chief financial officer, ⁠tapping an executive with experience in infrastructure and energy.",
+      "desc_zh": "甲骨文周一任命希拉里·麦克森（ Hilary Maxson ）为首席财务官，挖掘一位在基础设施和能源领域具有丰富经验的高管",
+      "link": "https://www.cnbc.com/2026/04/06/oracle-names-schneider-electrics-maxson-as-cfo-amid-soaring-ai-spending.html",
+      "pubDate": "2026-04-06T12:41:52",
+      "relativeTime": "47分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Here are Monday's biggest analyst calls: Nvidia, Apple, Tesla, Netflix, Carvana, Tyson Foods, Twilio & more",
+      "title_zh": "以下是周一最大的分析师电话会议：英伟达、苹果、特斯拉、Netflix、Carvana、泰森食品、Twilio等",
+      "desc_en": "Here are Monday's biggest calls on Wall Street.",
+      "desc_zh": "以下是周一华尔街最大的电话会议。",
+      "link": "https://www.cnbc.com/2026/04/06/mondays-biggest-analyst-calls-nvda-aapl-tsla-nflx-cvna-tsn-twlo.html",
+      "pubDate": "2026-04-06T12:21:39",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "It’s-a-hit: ‘The Super Mario Galaxy Movie’ box office blasts off with $372.5 million globally",
+      "title_zh": "热门影片：《超级马里奥银河电影》全球票房突破3.725亿美元$",
+      "desc_en": "Universal Pictures released the sequel globally on Wednesday, capitalizing on kids' spring break vacations in the week leading up to the Easter holiday.",
+      "desc_zh": "环球影业周三在全球范围内发布续集，利用复活节假期前一周的孩子们的春假假期。",
+      "link": "https://www.cnbc.com/2026/04/06/its-a-hit-the-super-mario-galaxy-movie-box-office-blasts-off-with-372point5-million-globally.html",
+      "pubDate": "2026-04-06T12:16:45",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "AI may replace your financial advisor, MIT professor says — but there's one big hurdle",
+      "title_zh": "麻省理工学院教授说，人工智能可能会取代你的财务顾问—但有一个很大的障碍",
+      "desc_en": "Artificial intelligence has gotten sophisticated with respect to financial advice. But it doesn't have a legal obligation to put clients first.",
+      "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
+      "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
+      "pubDate": "2026-04-06T12:15:01",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +97,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "29分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,20 +108,9 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "30分钟前",
+      "relativeTime": "1小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Netflix is a buy as subscription price hikes drive gains, says Goldman Sachs",
-      "title_zh": "高盛(Goldman Sachs)表示，随着订阅价格上涨推动收益， Netflix是一笔买入交易",
-      "desc_en": "Netflix are poised to go higher after the company recently raised its subscription prices, according to Goldman Sachs.",
-      "desc_zh": "高盛(Goldman Sachs)表示，在该公司最近提高订阅价格后， Netflix有望走高。",
-      "link": "https://www.cnbc.com/2026/04/06/netflix-is-a-buy-as-subscription-price-hikes-drive-gains-says-goldman-sachs.html",
-      "pubDate": "2026-04-06T11:10:25",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
@@ -64,7 +119,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "18分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +130,7 @@
       "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
       "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
       "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "3小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +141,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +152,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +163,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "6小时前",
+      "relativeTime": "8分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +174,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "刚刚",
+      "relativeTime": "12分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +185,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-05T15:53:59",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -146,56 +201,12 @@
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "As 401(k) balances swell, financial advisors warn of retirement planning pitfalls",
-      "title_zh": "随着401 (k)余额膨胀，财务顾问警告退休计划陷阱",
-      "desc_en": "While a big retirement account balance is a good problem to have, it can come with challenges, financial advisors say.",
-      "desc_zh": "财务顾问说，虽然退休账户余额很大是一个很好的问题，但它可能会带来挑战。",
-      "link": "https://www.cnbc.com/2026/04/04/401k-balances-retirement-planning-pitfalls.html",
-      "pubDate": "2026-04-04T13:30:01",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
       "title_en": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
       "title_zh": "Warsh提名向前推进，使特朗普的竞争性美联储计划走上碰撞轨道",
       "desc_en": "A Senate committee will consider Kevin Warsh's nomination even as one of its members still plans to block it.",
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-      "title_zh": "美伊战争“税收”开始打击美国企业和消费者",
-      "desc_en": "A U.S.-Iran war 'tax' is beginning to hit consumers as diesel and jet fuel prices rise and stress business profitability, and there is no relief in sight.",
-      "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
-      "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
-      "pubDate": "2026-04-04T13:16:08",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Buffett may end donations to Gates charity over Bill's ties to Epstein",
-      "title_zh": "巴菲特可能会因比尔与爱泼斯坦的关系而终止对盖茨慈善机构的捐款",
-      "desc_en": "Revelations about Jeffrey Epstein's ties to Bill Gates have strained his friendship with Warren Buffett and the Omaha billionaire's annual multi-billion-dollar donations to the Gates Foundation.",
-      "desc_zh": "关于杰弗里·爱泼斯坦(Jeffrey Epstein)与比尔·盖茨(Bill Gates)的关系的揭露，使他与沃伦·巴菲特(Warren Buffett)和这位奥马哈亿万富翁每年向盖茨基金会(Gates Foundation)捐赠数十亿美元的友",
-      "link": "https://www.cnbc.com/2026/04/04/buffett-may-end-donations-to-gates-charity-over-bills-ties-to-epstein.html",
-      "pubDate": "2026-04-04T13:08:53",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "The Chinese box office isn't the Hollywood kingmaker it used to be. Here's why",
-      "title_zh": "中国票房不是过去的好莱坞王者，原因如下",
-      "desc_en": "Shifting government content controls and postpandemic Hollywood trends have made China less of a player in the global box office landscape.",
-      "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
-      "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
-      "pubDate": "2026-04-04T12:00:01",
       "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -372,7 +383,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/02/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-02T12:14:33",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -515,7 +526,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/03/31/stocks-making-the-biggest-moves-premarket-mkc-deo-nvda.html",
       "pubDate": "2026-03-31T12:29:08",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -581,7 +592,7 @@
       "desc_zh": "由于地缘政治风险的不确定性加剧和劳动力市场暴跌，经济学家提高了对经济萎缩的风险评估。",
       "link": "https://www.cnbc.com/2026/03/25/recession-odds-climb-on-wall-street-as-economy-shows-cracks-beneath-the-surface.html",
       "pubDate": "2026-03-25T13:22:06",
-      "relativeTime": "11天前",
+      "relativeTime": "12天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
