@@ -1,15 +1,48 @@
 {
-  "updated_at": "2026-04-06T21:10:25.269630+00:00",
-  "count": 57,
+  "updated_at": "2026-04-06T22:08:36.121719+00:00",
+  "count": 56,
   "items": [
     {
-      "title_en": "S&P 500 posts fourth winning day, rising on hopes for last-minute Iran ceasefire: Live updates",
-      "title_zh": "标准普尔500指数连续第四天上涨，因对最后一刻伊朗停火的希望而上升：实时更新",
-      "desc_en": "The S&P 500 rose on Monday following a winning week as oil prices seesawed, with traders hoping that the U.S.-Iran war could end soon.",
-      "desc_zh": "随着油价上涨，标准普尔500指数周一上涨，交易员希望美伊战争可能很快结束。",
-      "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
-      "pubDate": "2026-04-06T20:14:27",
-      "relativeTime": "55分钟前",
+      "title_en": "S&P 500 futures are little changed as Trump’s deadline to reopen Strait of Hormuz nears: Live updates",
+      "title_zh": "标准普尔500指数期货几乎没有变化，因为特朗普重新开放霍尔木兹海峡的最后期限临近：实时更新",
+      "desc_en": "Stocks moved higher on Monday as investors bet that the end to the Middle East conflict was near.",
+      "desc_zh": "周一，由于投资者押注中东冲突即将结束，股市走高。",
+      "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
+      "pubDate": "2026-04-06T22:04:53",
+      "relativeTime": "3分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Broadcom agrees to expanded chip deals with Google, Anthropic",
+      "title_zh": "博通同意扩大与谷歌、Anthropic的芯片交易",
+      "desc_en": "Broadcom said it agreed to produce future versions of Google artificial intelligence chips, and announced an expanded deal with Anthropic.",
+      "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
+      "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
+      "pubDate": "2026-04-06T21:58:23",
+      "relativeTime": "10分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Epstein files: Commerce Secretary Howard Lutnick set for May 6 interview by House Oversight",
+      "title_zh": "爱泼斯坦档案：商务部长霍华德·拉特尼克（ Howard Lutnick ）定于5月6日接受众",
+      "desc_en": "Commerce Secretary Lutnick originally claimed to have cut off contact with Jeffrey Epstein in 2005. But he and his family had lunch with the predator in 2012.",
+      "desc_zh": "商务部长Lutnick最初声称在2005年切断了与Jeffrey Epstein的联系。但他和他的家人在2012年与捕食者共进午餐。",
+      "link": "https://www.cnbc.com/2026/04/06/jeffrey-epstein-howard-lutnick-house-oversight-interview.html",
+      "pubDate": "2026-04-06T21:22:58",
+      "relativeTime": "45分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+      "title_zh": "特朗普政府最终确定了优于预期的Medicare Advantage支付率，以提高健康保险公司的收益",
+      "desc_en": "The Trump administration will increase average Medicare Advantage payments by 2.48%, or more than $13 billion, in 2027.",
+      "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
+      "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
+      "pubDate": "2026-04-06T21:16:40",
+      "relativeTime": "51分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +53,7 @@
       "desc_zh": "随着财报季的开始，除了标题数字之外，还有其他变量需要记住。",
       "link": "https://www.cnbc.com/2026/04/06/a-great-earnings-season-is-likely-around-the-corner-will-it-matter-to-the-market-.html",
       "pubDate": "2026-04-06T20:06:48",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +64,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "2分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +75,7 @@
       "desc_zh": "杰富瑞表示，如果伊朗战争拖延的时间超过预期，投资者可能希望考虑支付股息的防御性股票。",
       "link": "https://www.cnbc.com/2026/04/06/play-defense-with-these-dividend-stocks-says-jefferies.html",
       "pubDate": "2026-04-06T19:50:03",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +86,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "23分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,18 +97,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
       "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "2小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "FDA declines to issue specific guidance on health programs' foreign drug imports",
-      "title_zh": "FDA拒绝就健康计划的外国药品进口发布具体指导",
-      "desc_en": "A CNBC investigation revealed the proliferation of AFPs, which import prescription drugs from overseas in what U.S. regulators say is a violation of import laws.",
-      "desc_zh": "CNBC的一项调查显示，从海外进口处方药的法新社激增，美国监管机构称这违反了进口法。",
-      "link": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
-      "pubDate": "2026-04-06T16:56:50",
-      "relativeTime": "4小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-06T15:31:45",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "34分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +130,7 @@
       "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
       "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
       "pubDate": "2026-04-06T14:49:06",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,17 +141,6 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "5小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "AI may replace your financial advisor, MIT professor says — but there's one big hurdle",
-      "title_zh": "麻省理工学院教授说，人工智能可能会取代你的财务顾问—但有一个很大的障碍",
-      "desc_en": "Artificial intelligence has gotten sophisticated with respect to financial advice. But it doesn't have a legal obligation to put clients first.",
-      "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
-      "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
-      "pubDate": "2026-04-06T12:15:01",
       "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -141,7 +152,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -163,18 +174,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "9小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
-      "title_zh": "“无声杀手” ：人工智能初创企业如何试图解决零售业最大的问题之一",
-      "desc_en": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines.",
-      "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
-      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
-      "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "12小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +196,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +207,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -333,17 +333,6 @@
       "source": "CNBC TECHNOLOGY"
     },
     {
-      "title_en": "Coinbase clears key regulatory hurdle in bid to bolster its stablecoin business",
-      "title_zh": "Coinbase清除了关键的监管障碍，以支持其稳定币业务",
-      "desc_en": "Coinbase has received conditional approval from the U.S. Office of the Comptroller of the Currency to operate as a trust bank, the company said Thursday.",
-      "desc_zh": "Coinbase周四表示，该公司已获得美国货币监理署的有条件批准，可以作为信托银行运营。",
-      "link": "https://www.cnbc.com/2026/04/02/coinbase-clears-key-regulatory-hurdle-in-bid-to-bolster-its-stablecoin-business.html",
-      "pubDate": "2026-04-02T21:17:37",
-      "relativeTime": "3天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
       "title_en": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
       "title_zh": "Blue Owl在陡峭的请求水平后将私人信贷资金赎回上限定为5%",
       "desc_en": "Blue Owl attributed the higher-than-usual requests to \"heightened market concerns around AI-related disruption to software companies.\"",
@@ -438,7 +427,7 @@
       "desc_zh": "查看哪些股票在铃声过后出现大幅波动。",
       "link": "https://www.cnbc.com/2026/03/31/stocks-making-the-biggest-moves-after-hours-nke-play-rh.html",
       "pubDate": "2026-03-31T21:11:17",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
