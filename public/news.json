@@ -1,26 +1,48 @@
 {
-  "updated_at": "2026-04-06T14:19:07.802290+00:00",
-  "count": 59,
+  "updated_at": "2026-04-06T15:14:40.899420+00:00",
+  "count": 58,
   "items": [
     {
-      "title_en": "U.S., Iran study ceasefire plan as Trump's 'hell' warning nears deadline",
-      "title_zh": "美国，伊朗研究停火计划，因为特朗普的“地狱”警告接近最后期限",
-      "desc_en": "The United States and Iran on Monday were weighing the framework of a plan to end their five-week conflict, even as Tehran pushed back against pressure.",
-      "desc_zh": "美国和伊朗周一正在权衡结束为期五周冲突的计划框架，尽管德黑兰正在抵制压力。",
-      "link": "https://www.cnbc.com/2026/04/06/us-and-iran-receive-peace-proposal-as-trump-vows-hell-if-strait-stays-shut.html",
-      "pubDate": "2026-04-06T13:22:14",
-      "relativeTime": "56分钟前",
+      "title_en": "U.S. and Iran haven't backed ceasefire idea as Trump's Hormuz Strait deadline nears",
+      "title_zh": "由于特朗普的霍尔木兹海峡最后期限临近，美国和伊朗没有支持停火的想法",
+      "desc_en": "The 45-day ceasefire proposal, which could lead to an end to the war, is reportedly being discussed by the U.S., Iran and a group of regional mediators.",
+      "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
+      "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
+      "pubDate": "2026-04-06T14:50:21",
+      "relativeTime": "24分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "Bank of America downgrades Carvana. Why the stock's recent dip isn't a buying opportunity",
-      "title_zh": "美国银行下调Carvana评级。为什么该股最近的跌幅不是买入机会",
-      "desc_en": "Carvana is likely to notch less growth this year due to worsening macroeconomic conditions tied to the Iran war, per Bank of America.",
-      "desc_zh": "根据美国银行的数据，由于与伊朗战争有关的宏观经济状况恶化，卡瓦纳今年的增长可能会下降。",
-      "link": "https://www.cnbc.com/2026/04/06/bank-of-america-downgrades-carvana-why-the-stocks-recent-dip-isnt-a-buying-opportunity.html",
-      "pubDate": "2026-04-06T13:17:24",
-      "relativeTime": "1小时前",
+      "title_en": "Robinhood, BNY to build Trump Accounts app",
+      "title_zh": "纽约州罗宾汉市开发特朗普账户应用程序",
+      "desc_en": "The Treasury Department designated BNY as the financial agent to manage Trump accounts. BNY will also partner with Robinhood on a Trump accounts app.",
+      "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
+      "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
+      "pubDate": "2026-04-06T14:49:06",
+      "relativeTime": "25分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Alphabet has fallen sharply since mid-February. Trading a potential comeback with options",
+      "title_zh": "Alphabet自2月中旬以来大幅下跌。用期权交易潜在的卷土重来",
+      "desc_en": "Michael Khouw breaks down this call spread risk reversal trade on GOOGL.",
+      "desc_zh": "Michael Khouw在GOOGL上打破了这种呼叫分散风险逆转交易。",
+      "link": "https://www.cnbc.com/2026/04/06/alphabet-has-fallen-sharply-since-mid-february-trading-a-potential-comeback-with-options.html",
+      "pubDate": "2026-04-06T14:30:01",
+      "relativeTime": "44分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Microsoft is the worst performing Mag 7 stock this year. Goldman believes that's about to change",
+      "title_zh": "微软是今年表现最差的Mag 7股票。高盛认为这种情况即将改变",
+      "desc_en": "Microsoft is likely to see some upside from its push to integrate AI into its 365 offering, according to Goldman Sachs.",
+      "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
+      "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
+      "pubDate": "2026-04-06T14:17:54",
+      "relativeTime": "56分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "在几起事故报告后，该机构于2025年初开始对“实际智能召唤”功能进行调查。",
       "link": "https://www.cnbc.com/2026/04/06/us-ends-probe-into-tesla-remote-driving-feature-after-software-updates.html",
       "pubDate": "2026-04-06T13:14:17",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "金融专家为无法找到工作且需要了解健康保险选项、学生贷款支付等情况的大学毕业生分享了建议。",
       "link": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
       "pubDate": "2026-04-06T12:43:46",
-      "relativeTime": "22分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "甲骨文周一任命希拉里·麦克森（ Hilary Maxson ）为首席财务官，挖掘一位在基础设施和能源领域具有丰富经验的高管",
       "link": "https://www.cnbc.com/2026/04/06/oracle-names-schneider-electrics-maxson-as-cfo-amid-soaring-ai-spending.html",
       "pubDate": "2026-04-06T12:41:52",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,18 +97,7 @@
       "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
       "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
       "pubDate": "2026-04-06T12:15:01",
-      "relativeTime": "刚刚",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Neurocrine expands into metabolic diseases with $2.9 billion Soleno buyout",
-      "title_zh": "Neurocrine以29亿美元收购Soleno ，进军代谢疾病领域",
-      "desc_en": "Neurocrine has ⁠offered $53 per Soleno share held, which represents a premium of about 34% to the stock's last close.",
-      "desc_zh": "Neurocrine报价每股Soleno股票53 $ ，比该股上次收盘溢价约34%。",
-      "link": "https://www.cnbc.com/2026/04/06/neurocrine-to-buy-soleno-therapeutics.html",
-      "pubDate": "2026-04-06T12:01:57",
-      "relativeTime": "2小时前",
+      "relativeTime": "56分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "34分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +152,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,18 +174,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "58分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Monday, April 6, 2026: Jim Cramer discusses his next moves for the Investing Club",
-      "title_zh": "2026年4月6日星期一： Jim Cramer讨论他在投资俱乐部的下一步行动",
-      "desc_en": "",
-      "desc_zh": "",
-      "link": "https://www.cnbc.com/search/?query=Monday,%20April%206,%202026:%20Jim%20Cramer%20discusses%20his%20next%20moves%20for%20the%20Investing%20Club",
-      "pubDate": "2026-04-06T04:40:20",
-      "relativeTime": "9小时前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "2分钟前",
+      "relativeTime": "16分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -366,17 +366,6 @@
       "source": "CNBC TECHNOLOGY"
     },
     {
-      "title_en": "Amazon to add 3.5% fuel and logistics surcharge for sellers as Iran war drives up energy prices",
-      "title_zh": "随着伊朗战争推高能源价格，亚马逊将为卖家增加3.5%的燃料和物流附加费",
-      "desc_en": "With the Iran war now in its fifth week, Amazon said it's adding a 3.5% fuel and logistics surcharge for third-party sellers in the U.S. and Canada.",
-      "desc_zh": "随着伊朗战争现已进入第五周，亚马逊表示将为美国和加拿大的第三方卖家增加3.5%的燃油和物流附加费。",
-      "link": "https://www.cnbc.com/2026/04/02/amazon-add-3point5percent-fuel-and-logistics-surcharge-for-sellers-amid-iran-war.html",
-      "pubDate": "2026-04-02T18:59:44",
-      "relativeTime": "3天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
       "title_en": "Stocks making the biggest moves premarket: Exxon Mobil, Carnival, Delta, General Motors and more",
       "title_zh": "上市前规模最大的股票：埃克森美孚（ Exxon Mobil ）、嘉年华（ Carnival ）、达美（ Delta ）、通用汽车（ General",
       "desc_en": "These are the stocks posting the largest moves in the premarket.",
@@ -515,7 +504,7 @@
       "desc_zh": "这位95岁的投资者表示，他仍然每天都来办公室，并与市场保持联系。",
       "link": "https://www.cnbc.com/2026/03/31/warren-buffett-says-hes-still-making-calls-on-investments-at-berkshire-flags-tiny-new-buy.html",
       "pubDate": "2026-03-31T15:02:49",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
