@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-06T20:10:50.420375+00:00",
-  "count": 58,
+  "updated_at": "2026-04-06T21:10:25.269630+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "S&P 500 posts fourth winning day, rising on hopes for last-minute Iran ceasefire: Live updates",
+      "title_zh": "标准普尔500指数连续第四天上涨，因对最后一刻伊朗停火的希望而上升：实时更新",
+      "desc_en": "The S&P 500 rose on Monday following a winning week as oil prices seesawed, with traders hoping that the U.S.-Iran war could end soon.",
+      "desc_zh": "随着油价上涨，标准普尔500指数周一上涨，交易员希望美伊战争可能很快结束。",
+      "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
+      "pubDate": "2026-04-06T20:14:27",
+      "relativeTime": "55分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "A great earnings season is likely around the corner. Will it matter to the market?",
       "title_zh": "赚取丰厚收入的季节可能即将到来。这对市场重要吗？",
@@ -9,7 +20,7 @@
       "desc_zh": "随着财报季的开始，除了标题数字之外，还有其他变量需要记住。",
       "link": "https://www.cnbc.com/2026/04/06/a-great-earnings-season-is-likely-around-the-corner-will-it-matter-to-the-market-.html",
       "pubDate": "2026-04-06T20:06:48",
-      "relativeTime": "3分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "10分钟前",
+      "relativeTime": "2分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "杰富瑞表示，如果伊朗战争拖延的时间超过预期，投资者可能希望考虑支付股息的防御性股票。",
       "link": "https://www.cnbc.com/2026/04/06/play-defense-with-these-dividend-stocks-says-jefferies.html",
       "pubDate": "2026-04-06T19:50:03",
-      "relativeTime": "20分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "22分钟前",
+      "relativeTime": "23分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
       "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +75,7 @@
       "desc_zh": "CNBC的一项调查显示，从海外进口处方药的法新社激增，美国监管机构称这违反了进口法。",
       "link": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
       "pubDate": "2026-04-06T16:56:50",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-06T15:31:45",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "40分钟前",
+      "relativeTime": "34分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
       "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
       "pubDate": "2026-04-06T14:49:06",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,18 +119,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "4小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "New college graduates face a tough job market. Here’s why unemployment hits them harder",
-      "title_zh": "应届大学毕业生面临着艰难的就业市场。这就是失业对他们打击更大的原因",
-      "desc_en": "Financial experts shared tips for college graduates who can't land a job and need to navigate health insurance options, student loan payments and more.",
-      "desc_zh": "金融专家为无法找到工作且需要了解健康保险选项、学生贷款支付等情况的大学毕业生分享了建议。",
-      "link": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
-      "pubDate": "2026-04-06T12:43:46",
-      "relativeTime": "6小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +130,7 @@
       "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
       "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
       "pubDate": "2026-04-06T12:15:01",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -163,7 +163,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +174,7 @@
       "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
       "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
       "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +196,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +207,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -366,17 +366,6 @@
       "source": "CNBC ECONOMY"
     },
     {
-      "title_en": "OpenAI acquires popular tech podcast TBPN",
-      "title_zh": "OpenAI收购热门科技播客TBPN",
-      "desc_en": "OpenAI did not disclose the terms of the deal but said TBPN will be housed within its strategy organization.",
-      "desc_zh": "OpenAI没有披露交易条款，但表示TBPN将被纳入其战略组织。",
-      "link": "https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html",
-      "pubDate": "2026-04-02T19:06:30",
-      "relativeTime": "4天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
       "title_en": "Stocks making the biggest moves premarket: Exxon Mobil, Carnival, Delta, General Motors and more",
       "title_zh": "上市前规模最大的股票：埃克森美孚（ Exxon Mobil ）、嘉年华（ Carnival ）、达美（ Delta ）、通用汽车（ General",
       "desc_en": "These are the stocks posting the largest moves in the premarket.",
@@ -526,7 +515,7 @@
       "desc_zh": "伊朗战争阻碍了通过霍尔木兹海峡的石油及其产品的运输，引发了中国制造商对供应链中断的担忧。",
       "link": "https://www.cnbc.com/2026/03/30/china-suppliers-warn-higher-us-prices-hormuz-closure.html",
       "pubDate": "2026-03-30T20:19:38",
-      "relativeTime": "6天前",
+      "relativeTime": "7天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
