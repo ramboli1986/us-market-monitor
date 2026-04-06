@@ -1,15 +1,26 @@
 {
-  "updated_at": "2026-04-06T09:26:14.116302+00:00",
-  "count": 58,
+  "updated_at": "2026-04-06T10:23:07.289172+00:00",
+  "count": 57,
   "items": [
     {
-      "title_en": "Oil prices slide as Trump warns Iran to open Strait of Hormuz by Tuesday or face 'hell'",
-      "title_zh": "油价下跌，特朗普警告伊朗周二开放霍尔木兹海峡，否则将面临“地狱”",
-      "desc_en": "President Donald Trump warned Sunday in an expletive-filled social media post that Iran would be \"living in Hell\" if they do not open the Strait by Tuesday.",
-      "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周日在一篇充满咒骂的社交媒体帖子中警告说，如果他们在周二之前不开放海峡，伊朗将“生活在地狱中”。",
-      "link": "https://www.cnbc.com/2026/04/05/crude-oil-prices-iran-war-strait-hormuz.html",
-      "pubDate": "2026-04-06T08:17:18",
-      "relativeTime": "33分钟前",
+      "title_en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+      "title_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在年度信函中列举了地缘政治、人工智能和私人市场的风险",
+      "desc_en": "JPMorgan CEO Jamie Dimon in his annual letter to shareholders noted the country's 250th anniversary and called for a broad recommitment to American ideals.",
+      "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
+      "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
+      "pubDate": "2026-04-06T10:00:01",
+      "relativeTime": "22分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
+      "title_zh": "“无声杀手” ：人工智能初创企业如何试图解决零售业最大的问题之一",
+      "desc_en": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines.",
+      "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
+      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+      "pubDate": "2026-04-06T08:18:20",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,18 +53,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Screenwriters union and Hollywood studios reach four-year tentative agreement",
-      "title_zh": "编剧工会和好莱坞工作室达成四年暂定协议",
-      "desc_en": "The screenwriters union and Hollywood studios reached a surprise four-year tentative agreement after roughly three weeks of negotiation.",
-      "desc_zh": "在大约三周的谈判之后，编剧工会和好莱坞电影公司达成了一项为期四年的临时协议。",
-      "link": "https://www.cnbc.com/2026/04/05/screenwriters-union-and-hollywood-studios-reach-four-year-tentative-agreement.html",
-      "pubDate": "2026-04-05T22:57:20",
-      "relativeTime": "10小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,29 +64,18 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "28分钟前",
+      "relativeTime": "6分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "How a perilous U.S. rescue mission in Iran nearly went off course",
-      "title_zh": "美国在伊朗的危险救援任务如何几乎偏离了轨道",
-      "desc_en": "The rescued U.S. weapons specialist was the second of two crew members on an F-15E Strike Eagle fighter jet that Iran said had been hit by its air defenses.",
-      "desc_zh": "这位获救的美国武器专家是F-15E “鹰”战斗机的两名机组人员中的第二名，伊朗称这架战斗机被其防空系统击中。",
-      "link": "https://www.cnbc.com/2026/04/05/how-a-perilous-us-rescue-mission-in-iran-nearly-went-off-course.html",
-      "pubDate": "2026-04-05T21:56:48",
-      "relativeTime": "11小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Warren Buffett strikes measured tone on markets in his first remarks since stepping back",
-      "title_zh": "沃伦·巴菲特（ Warren Buffett ）在退后一步以来的首次讲话中对市场的语气进行了审慎",
-      "desc_en": "The \"Oracle of Omaha\" warned of lingering fragility in the banking system while downplaying the significance of recent market swings.",
-      "desc_zh": "“奥马哈先知”警告说，银行系统挥之不去的脆弱性，同时淡化了近期市场波动的重要性。",
-      "link": "https://www.cnbc.com/2026/04/05/warren-buffett-strikes-measured-tone-on-markets-in-first-remarks-since-stepping-back.html",
-      "pubDate": "2026-04-05T20:49:04",
-      "relativeTime": "12小时前",
+      "title_en": "Avoid these stocks in the second quarter, says Piper Sandler",
+      "title_zh": "Piper Sandler表示，在第二季度避免这些股票",
+      "desc_en": "These stocks are underperformers in their respective sectors",
+      "desc_zh": "这些股票在各自行业的表现不佳",
+      "link": "https://www.cnbc.com/2026/04/05/avoid-these-stocks-in-the-second-quarter-says-piper-sandler.html",
+      "pubDate": "2026-04-05T20:50:48",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,29 +86,18 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-05T15:53:59",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "Pope Leo XIV urges peace in first Easter Mass, skips naming conflicts in Urbi et Orbi",
-      "title_zh": "教皇利奥十四世在第一次复活节弥撒中敦促和平，在Urbi et Orbi中跳过命名冲突",
-      "desc_en": "Leo emphasized Easter's message of hope as a celebration of Jesus' resurrection after being crucified, in both the blessing and his homily.",
-      "desc_zh": "利奥在祝福和讲道中都强调了复活节的希望信息，以庆祝耶稣在被钉十字架后复活。",
-      "link": "https://www.cnbc.com/2026/04/05/pope-leo-xiv-urges-peace-in-first-easter-mass-skips-naming-conflicts-in-urbi-et-orbi.html",
-      "pubDate": "2026-04-05T11:57:42",
-      "relativeTime": "21小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "'Anything but autos': Can defense save Europe’s ailing car industry?",
-      "title_zh": "“汽车以外的任何东西” ：国防能否挽救欧洲陷入困境的汽车行业？",
-      "desc_en": "The transition from wheels to weapons is achievable in part because many of the underlying skills are highly transferable, according to experts.",
-      "desc_zh": "根据专家的说法，从车轮到武器的过渡是可以实现的，部分原因是许多潜在的技能是高度可转移的。",
-      "link": "https://www.cnbc.com/2026/04/05/autos-defense-europe-car-industry.html",
-      "pubDate": "2026-04-05T05:00:01",
-      "relativeTime": "1天前",
+      "title_en": "Older Americans face big tax changes. Here's where they can find free filing help",
+      "title_zh": "美国老年人面临着巨大的税收变化。他们可以在这里找到免费的申请帮助",
+      "desc_en": "Older Americans may get bigger tax refunds this year. Here's where to find free services to navigate the complexities of new tax breaks.",
+      "desc_zh": "美国老年人今年可能会获得更大的退税。您可以在这里找到免费服务，以应对新税收减免的复杂性。",
+      "link": "https://www.cnbc.com/2026/04/05/free-tax-filing-help-retirees.html",
+      "pubDate": "2026-04-05T13:30:01",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +108,18 @@
       "desc_zh": "马萨诸塞州众议员塞思·莫尔顿（ Seth Moulton ）称市场“令人作呕” ，并表示投注者正在押注美国军队是否会获救。",
       "link": "https://www.cnbc.com/2026/04/04/polymarket-war-bet-iran-rescue-prediction-market-moulton.html",
       "pubDate": "2026-04-04T18:56:36",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "As 401(k) balances swell, financial advisors warn of retirement planning pitfalls",
+      "title_zh": "随着401 (k)余额膨胀，财务顾问警告退休计划陷阱",
+      "desc_en": "While a big retirement account balance is a good problem to have, it can come with challenges, financial advisors say.",
+      "desc_zh": "财务顾问说，虽然退休账户余额很大是一个很好的问题，但它可能会带来挑战。",
+      "link": "https://www.cnbc.com/2026/04/04/401k-balances-retirement-planning-pitfalls.html",
+      "pubDate": "2026-04-04T13:30:01",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,6 +130,28 @@
       "desc_zh": "参议院委员会将考虑凯文·沃什（ Kevin Warsh ）的提名，尽管其中一名成员仍计划阻止提名。",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
       "pubDate": "2026-04-04T13:19:30",
+      "relativeTime": "1天前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+      "title_zh": "美伊战争“税收”开始打击美国企业和消费者",
+      "desc_en": "A U.S.-Iran war 'tax' is beginning to hit consumers as diesel and jet fuel prices rise and stress business profitability, and there is no relief in sight.",
+      "desc_zh": "随着柴油和喷气燃料价格上涨并给企业盈利带来压力，美伊战争的“税收”开始打击消费者，目前看不到任何缓解。",
+      "link": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
+      "pubDate": "2026-04-04T13:16:08",
+      "relativeTime": "1天前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Buffett may end donations to Gates charity over Bill's ties to Epstein",
+      "title_zh": "巴菲特可能会因比尔与爱泼斯坦的关系而终止对盖茨慈善机构的捐款",
+      "desc_en": "Revelations about Jeffrey Epstein's ties to Bill Gates have strained his friendship with Warren Buffett and the Omaha billionaire's annual multi-billion-dollar donations to the Gates Foundation.",
+      "desc_zh": "关于杰弗里·爱泼斯坦(Jeffrey Epstein)与比尔·盖茨(Bill Gates)的关系的揭露，使他与沃伦·巴菲特(Warren Buffett)和这位奥马哈亿万富翁每年向盖茨基金会(Gates Foundation)捐赠数十亿美元的友",
+      "link": "https://www.cnbc.com/2026/04/04/buffett-may-end-donations-to-gates-charity-over-bills-ties-to-epstein.html",
+      "pubDate": "2026-04-04T13:08:53",
       "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -185,7 +196,7 @@
       "desc_zh": "OpenAI总裁Greg Brockman将在Simo不在时监督产品。",
       "link": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
       "pubDate": "2026-04-03T22:40:38",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -265,17 +276,6 @@
       "relativeTime": "3天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Police body cam footage of Tiger Woods DUI arrest released",
-      "title_zh": "警方发布老虎伍兹DUI逮捕的身体摄像头镜头",
-      "desc_en": "Martin County Sheriff's Office releases body cam footage of Tiger Woods DUI arrest.",
-      "desc_zh": "马丁县警长办公室发布了老虎伍兹酒驾逮捕的身体凸轮镜头。",
-      "link": "https://www.cnbc.com/video/2026/04/02/police-body-cam-footage-of-tiger-woods-dui-arrest-released.html",
-      "pubDate": "2026-04-03T00:21:27",
-      "relativeTime": "3天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "Coinbase clears key regulatory hurdle in bid to bolster its stablecoin business",
@@ -504,17 +504,6 @@
       "desc_zh": "在伊朗战争之后，用于国防的关键元素的价格飙升，为人工智能提供动力的半导体也在进步。",
       "link": "https://www.cnbc.com/2026/03/31/commodities-price-of-tungsten-sulfur-and-helium.html",
       "pubDate": "2026-03-31T05:29:11",
-      "relativeTime": "6天前",
-      "category": "金融",
-      "source": "CNBC FINANCE"
-    },
-    {
-      "title_en": "Evercore ISI predicts 'inflection point' is days away, plans to commit capital if S&P 500 drops to this level",
-      "title_zh": "Evercore ISI预测距离“拐点”还有几天，如果标准普尔500指数跌至这一水平，计划投入资金",
-      "desc_en": "A week of \"maximum uncertainty\" should deliver a key opportunity for investors, according to Evercore ISI's Julian Emanuel.",
-      "desc_zh": "Evercore ISI的朱利安·伊曼纽尔（ Julian Emanuel ）表示，一周的“最大不确定性”应为投资者提供关键机会。",
-      "link": "https://www.cnbc.com/2026/03/30/buy-stocks-if-sp-500-falls-to-this-level-evercore-isis-emanuel.html",
-      "pubDate": "2026-03-30T23:22:19",
       "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
