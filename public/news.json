@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-06T15:14:40.899420+00:00",
+  "updated_at": "2026-04-06T16:13:47.169998+00:00",
   "count": 58,
   "items": [
+    {
+      "title_en": "Zohran Mamdani and the business exodus? New York's office real estate market is up under new mayor",
+      "title_zh": "Zohran Mamdani和商业外流？纽约办公室房地产市场在新市长的领导下上涨",
+      "desc_en": "Reports Apollo Global Management is planning a second HQ in the US South renewed debate over a business exodus under NYC Mayor Mamdani. Data doesn't support it.",
+      "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
+      "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
+      "pubDate": "2026-04-06T15:31:45",
+      "relativeTime": "42分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Travel demand shows no signs of slowing. 3 stocks on Josh Brown's list to ride the wave",
+      "title_zh": "旅游需求没有放缓的迹象。Josh Brown的榜单上有3只股票可以乘风破浪",
+      "desc_en": "Josh Brown and Sean Russo walk readers through these travel names on their Best Stocks list.",
+      "desc_zh": "乔什·布朗（ Josh Brown ）和肖恩·鲁索（ Sean Russo ）向读者介绍他们最佳股票榜上的这些",
+      "link": "https://www.cnbc.com/2026/04/06/travel-demand-shows-no-signs-of-slowing-3-stocks-on-josh-browns-list-to-ride-the-wave.html",
+      "pubDate": "2026-04-06T15:13:25",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "U.S. and Iran haven't backed ceasefire idea as Trump's Hormuz Strait deadline nears",
       "title_zh": "由于特朗普的霍尔木兹海峡最后期限临近，美国和伊朗没有支持停火的想法",
@@ -9,7 +31,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "24分钟前",
+      "relativeTime": "33分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,18 +42,7 @@
       "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
       "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
       "pubDate": "2026-04-06T14:49:06",
-      "relativeTime": "25分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Alphabet has fallen sharply since mid-February. Trading a potential comeback with options",
-      "title_zh": "Alphabet自2月中旬以来大幅下跌。用期权交易潜在的卷土重来",
-      "desc_en": "Michael Khouw breaks down this call spread risk reversal trade on GOOGL.",
-      "desc_zh": "Michael Khouw在GOOGL上打破了这种呼叫分散风险逆转交易。",
-      "link": "https://www.cnbc.com/2026/04/06/alphabet-has-fallen-sharply-since-mid-february-trading-a-potential-comeback-with-options.html",
-      "pubDate": "2026-04-06T14:30:01",
-      "relativeTime": "44分钟前",
+      "relativeTime": "10分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,18 +53,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "56分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "U.S. ends probe into Tesla remote driving feature after software updates",
-      "title_zh": "美国在软件更新后结束对特斯拉远程驾驶功能的调查",
-      "desc_en": "The agency opened the probe into the \"Actually Smart Summon\" feature in early 2025 after reports of several crashes.",
-      "desc_zh": "在几起事故报告后，该机构于2025年初开始对“实际智能召唤”功能进行调查。",
-      "link": "https://www.cnbc.com/2026/04/06/us-ends-probe-into-tesla-remote-driving-feature-after-software-updates.html",
-      "pubDate": "2026-04-06T13:14:17",
-      "relativeTime": "2小时前",
+      "relativeTime": "46分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +64,7 @@
       "desc_zh": "金融专家为无法找到工作且需要了解健康保险选项、学生贷款支付等情况的大学毕业生分享了建议。",
       "link": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
       "pubDate": "2026-04-06T12:43:46",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +75,7 @@
       "desc_zh": "甲骨文周一任命希拉里·麦克森（ Hilary Maxson ）为首席财务官，挖掘一位在基础设施和能源领域具有丰富经验的高管",
       "link": "https://www.cnbc.com/2026/04/06/oracle-names-schneider-electrics-maxson-as-cfo-amid-soaring-ai-spending.html",
       "pubDate": "2026-04-06T12:41:52",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +86,7 @@
       "desc_zh": "环球影业周三在全球范围内发布续集，利用复活节假期前一周的孩子们的春假假期。",
       "link": "https://www.cnbc.com/2026/04/06/its-a-hit-the-super-mario-galaxy-movie-box-office-blasts-off-with-372point5-million-globally.html",
       "pubDate": "2026-04-06T12:16:45",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +97,7 @@
       "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
       "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
       "pubDate": "2026-04-06T12:15:01",
-      "relativeTime": "56分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +108,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +119,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -130,7 +130,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
       "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
       "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +163,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +174,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "16分钟前",
+      "relativeTime": "17分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -405,7 +405,7 @@
       "desc_zh": "私营部门就业增长保持同步，但医疗保健和建筑业继续提供几乎所有的动力。",
       "link": "https://www.cnbc.com/2026/04/01/private-sector-hiring-totaled-62000-in-march-better-than-expected-adp-says.html",
       "pubDate": "2026-04-01T15:42:46",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -416,7 +416,7 @@
       "desc_zh": "Visa的新工具是主要银行和金融机构将人工智能融入其业务的更大推动力的一部分。",
       "link": "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html",
       "pubDate": "2026-04-01T15:26:51",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -493,7 +493,7 @@
       "desc_zh": "苹果公司仍然是伯克希尔哈撒韦公司最大的控股公司，即使该集团在去年年底削减了股份。",
       "link": "https://www.cnbc.com/2026/03/31/warren-buffett-says-he-sold-apple-too-soon-and-would-buy-more-of-it-though-not-in-this-market-.html",
       "pubDate": "2026-03-31T15:31:12",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
