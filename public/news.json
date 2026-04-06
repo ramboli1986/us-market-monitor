@@ -1,7 +1,40 @@
 {
-  "updated_at": "2026-04-06T17:15:51.837335+00:00",
-  "count": 58,
+  "updated_at": "2026-04-06T18:15:53.171733+00:00",
+  "count": 59,
   "items": [
+    {
+      "title_en": "U.S. oil is breaking out as Iran war continues. A look at how past peaks have affected stocks",
+      "title_zh": "随着伊朗战争的继续，美国石油正在爆发。看看过去的峰值如何影响股票",
+      "desc_en": "Katie Stockton of Fairlead Strategies looks at past peaks in oil, and how they've affected equities.",
+      "desc_zh": "Fairlead Strategies的Katie Stockton着眼于过去的石油峰值，以及它们如何影响股票。",
+      "link": "https://www.cnbc.com/2026/04/06/us-oil-is-breaking-out-as-iran-war-continues-a-look-at-how-past-peaks-have-affected-stocks.html",
+      "pubDate": "2026-04-06T18:00:01",
+      "relativeTime": "15分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Average tax refund is up $350 compared to last year as IRS deadline approaches",
+      "title_zh": "随着美国国税局截止日期的临近，平均退税金额比去年增加了350 $",
+      "desc_en": "The average IRS tax refund is up $350 compared to last year, based on the latest filing data. Here's what to expect for your return.",
+      "desc_zh": "根据最新的申报数据，美国国税局的平均退税额比去年增加了350 $。以下是您对退货的期望。",
+      "link": "https://www.cnbc.com/2026/04/06/average-tax-refund.html",
+      "pubDate": "2026-04-06T17:18:19",
+      "relativeTime": "57分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "How to trade the key earnings of the week from NYSE insider Jay Woods",
+      "title_zh": "如何交易纽约证券交易所内部人士Jay Woods本周的主要收入",
+      "desc_en": "In a weekly video to CNBC PRO subscribers, Woods highlighted upcoming earnings from both Delta Air Lines and Constellation Brands.",
+      "desc_zh": "在每周向CNBC PRO订阅者播放的视频中， Woods强调了达美航空公司和Constellation Brands即将获得的收入。",
+      "link": "https://www.cnbc.com/2026/04/06/how-to-trade-the-key-earnings-of-the-week-from-nyse-insider-jay-woods.html",
+      "pubDate": "2026-04-06T17:02:52",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "FDA declines to issue specific guidance on health programs' foreign drug imports",
       "title_zh": "FDA拒绝就健康计划的外国药品进口发布具体指导",
@@ -9,7 +42,7 @@
       "desc_zh": "CNBC的一项调查显示，从海外进口处方药的法新社激增，美国监管机构称这违反了进口法。",
       "link": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
       "pubDate": "2026-04-06T16:56:50",
-      "relativeTime": "18分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +53,7 @@
       "desc_zh": "以下是中午交易中出现最大波动的一些公司。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-midday-lcid-app-wdc-ivz.html",
       "pubDate": "2026-04-06T16:21:55",
-      "relativeTime": "53分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,17 +64,6 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-06T15:31:45",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Travel demand shows no signs of slowing. 3 stocks on Josh Brown's list to ride the wave",
-      "title_zh": "旅游需求没有放缓的迹象。Josh Brown的榜单上有3只股票可以乘风破浪",
-      "desc_en": "Josh Brown and Sean Russo walk readers through these travel names on their Best Stocks list.",
-      "desc_zh": "乔什·布朗（ Josh Brown ）和肖恩·鲁索（ Sean Russo ）向读者介绍他们最佳股票榜上的这些",
-      "link": "https://www.cnbc.com/2026/04/06/travel-demand-shows-no-signs-of-slowing-3-stocks-on-josh-browns-list-to-ride-the-wave.html",
-      "pubDate": "2026-04-06T15:13:25",
       "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -53,7 +75,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "2分钟前",
+      "relativeTime": "35分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +86,7 @@
       "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
       "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
       "pubDate": "2026-04-06T14:49:06",
-      "relativeTime": "27分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +97,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "金融专家为无法找到工作且需要了解健康保险选项、学生贷款支付等情况的大学毕业生分享了建议。",
       "link": "https://www.cnbc.com/2026/04/06/college-graduates-job-market-unemployment.html",
       "pubDate": "2026-04-06T12:43:46",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "人工智能在财务建议方面已经变得更加复杂。但它没有将客户放在首位的法律义务。",
       "link": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
       "pubDate": "2026-04-06T12:15:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +130,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +141,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -130,18 +152,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "5小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
-      "title_zh": "“无声杀手” ：人工智能初创企业如何试图解决零售业最大的问题之一",
-      "desc_en": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines.",
-      "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
-      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
-      "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "8小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +174,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +185,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +196,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "刚刚",
+      "relativeTime": "2分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -471,7 +482,7 @@
       "desc_zh": "伯克希尔哈撒韦公司董事长表示，越来越多的核武国家从根本上改变了全球风险格局。",
       "link": "https://www.cnbc.com/2026/03/31/warren-buffett-says-iran-bomb-would-make-nuclear-disaster-harder-to-avoid.html",
       "pubDate": "2026-03-31T17:16:22",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -548,7 +559,7 @@
       "desc_zh": "周五上午，期货市场的交易员将2026年底加息的可能性提高到52%。",
       "link": "https://www.cnbc.com/2026/03/27/markets-see-the-feds-next-move-as-a-potential-hike-as-oil-prices-inflation-fears-rise.html",
       "pubDate": "2026-03-27T18:02:40",
-      "relativeTime": "9天前",
+      "relativeTime": "10天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -625,7 +636,7 @@
       "desc_zh": "自由民主党的煽动者撕裂了唐纳德·特朗普总统，她说唐纳德·特朗普“将美国拖入了一场非法和鲁莽的战争”。",
       "link": "https://www.cnbc.com/2026/03/20/elizabeth-warren-demands-answers-on-costs-economic-impact-of-illegal-and-reckless-war.html",
       "pubDate": "2026-03-21T17:28:42",
-      "relativeTime": "15天前",
+      "relativeTime": "16天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
