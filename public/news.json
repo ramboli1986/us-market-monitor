@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-06T10:23:07.289172+00:00",
-  "count": 57,
+  "updated_at": "2026-04-06T11:17:43.399039+00:00",
+  "count": 58,
   "items": [
+    {
+      "title_en": "Netflix is a buy as subscription price hikes drive gains, says Goldman Sachs",
+      "title_zh": "高盛(Goldman Sachs)表示，随着订阅价格上涨推动收益， Netflix是一笔买入交易",
+      "desc_en": "Netflix are poised to go higher after the company recently raised its subscription prices, according to Goldman Sachs.",
+      "desc_zh": "高盛(Goldman Sachs)表示，在该公司最近提高订阅价格后， Netflix有望走高。",
+      "link": "https://www.cnbc.com/2026/04/06/netflix-is-a-buy-as-subscription-price-hikes-drive-gains-says-goldman-sachs.html",
+      "pubDate": "2026-04-06T11:10:25",
+      "relativeTime": "7分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
       "title_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在年度信函中列举了地缘政治、人工智能和私人市场的风险",
@@ -9,7 +20,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "22分钟前",
+      "relativeTime": "28分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,18 +75,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "6分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Avoid these stocks in the second quarter, says Piper Sandler",
-      "title_zh": "Piper Sandler表示，在第二季度避免这些股票",
-      "desc_en": "These stocks are underperformers in their respective sectors",
-      "desc_zh": "这些股票在各自行业的表现不佳",
-      "link": "https://www.cnbc.com/2026/04/05/avoid-these-stocks-in-the-second-quarter-says-piper-sandler.html",
-      "pubDate": "2026-04-05T20:50:48",
-      "relativeTime": "13小时前",
+      "relativeTime": "2分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +86,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-05T15:53:59",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +97,18 @@
       "desc_zh": "美国老年人今年可能会获得更大的退税。您可以在这里找到免费服务，以应对新税收减免的复杂性。",
       "link": "https://www.cnbc.com/2026/04/05/free-tax-filing-help-retirees.html",
       "pubDate": "2026-04-05T13:30:01",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Satellite firm Planet Labs to indefinitely withhold Iran war images",
+      "title_zh": "卫星公司Planet Labs无限期隐瞒伊朗战争图像",
+      "desc_en": "Planet Labs said it will withhold imagery dating back to March 9 and that it expects the policy to remain in effect until the conflict ends.",
+      "desc_zh": "Planet Labs表示，它将保留可追溯到3月9日的图像，并预计该政策将一直有效，直到冲突结束。",
+      "link": "https://www.cnbc.com/2026/04/05/satellite-firm-planet-labs-to-indefinitely-withhold-iran-war-images.html",
+      "pubDate": "2026-04-05T10:14:17",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "近年来，随着军方争先恐后地进行现代化改造，国防初创企业的资金激增。",
       "link": "https://www.cnbc.com/2026/04/03/the-tech-download-defense-startups-eye-iran-war-windfall.html",
       "pubDate": "2026-04-03T11:00:01",
-      "relativeTime": "2天前",
+      "relativeTime": "3天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
