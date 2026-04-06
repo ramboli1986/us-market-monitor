@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-04-06T11:17:43.399039+00:00",
+  "updated_at": "2026-04-06T12:13:51.964413+00:00",
   "count": 58,
   "items": [
+    {
+      "title_en": "Neurocrine expands into metabolic diseases with $2.9 billion Soleno buyout",
+      "title_zh": "Neurocrine以29亿美元收购Soleno ，进军代谢疾病领域",
+      "desc_en": "Neurocrine has ⁠offered $53 per Soleno share held, which represents a premium of about 34% to the stock's last close.",
+      "desc_zh": "Neurocrine报价每股Soleno股票53 $ ，比该股上次收盘溢价约34%。",
+      "link": "https://www.cnbc.com/2026/04/06/neurocrine-to-buy-soleno-therapeutics.html",
+      "pubDate": "2026-04-06T12:01:57",
+      "relativeTime": "11分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Tesla is down sharply in 2026. JPMorgan sees even more declines ahead",
+      "title_zh": "特斯拉在2026年大幅下跌。摩根大通预计未来还会出现更多下跌",
+      "desc_en": "\"We ... advise investors approach TSLA shares with a high degree of caution,\" analyst Ryan Brinkman said in a note.",
+      "desc_zh": "分析师Ryan Brinkman在一份报告中表示： “我们……建议投资者高度谨慎地对待TSLA股票。”",
+      "link": "https://www.cnbc.com/2026/04/06/tesla-is-down-sharply-in-2026-jpmorgan-sees-even-more-declines-ahead.html",
+      "pubDate": "2026-04-06T11:58:05",
+      "relativeTime": "15分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Stocks making the biggest moves premarket: Netflix, Soleno Therapeutics, Strategy & more",
+      "title_zh": "上市前规模最大的股票： Netflix、Soleno Therapeutics、Strategy等",
+      "desc_en": "These are the stocks posting the largest moves premarket.",
+      "desc_zh": "这些是盘前涨幅最大的股票。",
+      "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
+      "pubDate": "2026-04-06T11:44:02",
+      "relativeTime": "29分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Hope for a U.S.-Iran deal, Apple's anniversary, OpenAI's podcast deal and more in Morning Squawk",
+      "title_zh": "希望在Morning Squawk达成美伊协议、苹果周年纪念日、OpenAI的播客协议等",
+      "desc_en": "Here are five key things investors need to know to start the trading day.",
+      "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
+      "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
+      "pubDate": "2026-04-06T11:43:34",
+      "relativeTime": "30分钟前",
+      "category": "科技",
+      "source": "CNBC TECHNOLOGY"
+    },
     {
       "title_en": "Netflix is a buy as subscription price hikes drive gains, says Goldman Sachs",
       "title_zh": "高盛(Goldman Sachs)表示，随着订阅价格上涨推动收益， Netflix是一笔买入交易",
@@ -9,7 +53,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，在该公司最近提高订阅价格后， Netflix有望走高。",
       "link": "https://www.cnbc.com/2026/04/06/netflix-is-a-buy-as-subscription-price-hikes-drive-gains-says-goldman-sachs.html",
       "pubDate": "2026-04-06T11:10:25",
-      "relativeTime": "7分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +64,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "28分钟前",
+      "relativeTime": "18分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +75,7 @@
       "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
       "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
       "pubDate": "2026-04-06T08:18:20",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +86,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +97,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +108,7 @@
       "desc_zh": "投资者可能会进入伊朗冲突最严重的一周，争先恐后地寻求二元结果：即将达成的交易或进一步升级。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-deadline-investors-markets-trade-deal-war-.html",
       "pubDate": "2026-04-06T05:31:39",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +119,7 @@
       "desc_zh": "华尔街上周表现强劲，标普500指数飙升近6%。",
       "link": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
       "pubDate": "2026-04-05T22:12:13",
-      "relativeTime": "2分钟前",
+      "relativeTime": "刚刚",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,29 +130,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-05T15:53:59",
-      "relativeTime": "19小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Older Americans face big tax changes. Here's where they can find free filing help",
-      "title_zh": "美国老年人面临着巨大的税收变化。他们可以在这里找到免费的申请帮助",
-      "desc_en": "Older Americans may get bigger tax refunds this year. Here's where to find free services to navigate the complexities of new tax breaks.",
-      "desc_zh": "美国老年人今年可能会获得更大的退税。您可以在这里找到免费服务，以应对新税收减免的复杂性。",
-      "link": "https://www.cnbc.com/2026/04/05/free-tax-filing-help-retirees.html",
-      "pubDate": "2026-04-05T13:30:01",
-      "relativeTime": "21小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Satellite firm Planet Labs to indefinitely withhold Iran war images",
-      "title_zh": "卫星公司Planet Labs无限期隐瞒伊朗战争图像",
-      "desc_en": "Planet Labs said it will withhold imagery dating back to March 9 and that it expects the policy to remain in effect until the conflict ends.",
-      "desc_zh": "Planet Labs表示，它将保留可追溯到3月9日的图像，并预计该政策将一直有效，直到冲突结束。",
-      "link": "https://www.cnbc.com/2026/04/05/satellite-firm-planet-labs-to-indefinitely-withhold-iran-war-images.html",
-      "pubDate": "2026-04-05T10:14:17",
-      "relativeTime": "1天前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +196,7 @@
       "desc_zh": "政府内容控制的转变和好莱坞疫情后的趋势使中国在全球票房格局中不那么重要。",
       "link": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "在占据主导地位的消费者设备中，苹果向用户出售隐私承诺。要想在人工智能领域竞争，它可能需要转向。",
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -344,17 +366,6 @@
       "source": "CNBC TECHNOLOGY"
     },
     {
-      "title_en": "Family offices stall deal-making during Iran conflict",
-      "title_zh": "家族办公室在伊朗冲突期间搁置交易",
-      "desc_en": "While global uncertainty has weighed on deal count, family offices and corporate investors are still piling into megadeals.",
-      "desc_zh": "尽管全球的不确定性拖累了交易数量，但家族办公室和企业投资者仍在涌入巨额交易。",
-      "link": "https://www.cnbc.com/2026/04/02/family-offices-stall-deal-making-during-iran-conflict.html",
-      "pubDate": "2026-04-02T15:11:51",
-      "relativeTime": "3天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
       "title_en": "Stocks making the biggest moves premarket: Exxon Mobil, Carnival, Delta, General Motors and more",
       "title_zh": "上市前规模最大的股票：埃克森美孚（ Exxon Mobil ）、嘉年华（ Carnival ）、达美（ Delta ）、通用汽车（ General",
       "desc_en": "These are the stocks posting the largest moves in the premarket.",
@@ -416,7 +427,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/01/stocks-making-the-biggest-moves-premarket-nike-rh-sandisk-more.html",
       "pubDate": "2026-04-01T11:47:06",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -509,17 +520,6 @@
       "source": "CNBC FINANCE"
     },
     {
-      "title_en": "Three niche commodity prices are surging. What they show about China's grip on supply chains",
-      "title_zh": "三个利基商品价格正在飙升。他们展示了中国对供应链的控制",
-      "desc_en": "In the wake of the Iran war, prices are surging for critical elements used in defense and the semiconductors that power artificial intelligence advances.",
-      "desc_zh": "在伊朗战争之后，用于国防的关键元素的价格飙升，为人工智能提供动力的半导体也在进步。",
-      "link": "https://www.cnbc.com/2026/03/31/commodities-price-of-tungsten-sulfur-and-helium.html",
-      "pubDate": "2026-03-31T05:29:11",
-      "relativeTime": "6天前",
-      "category": "金融",
-      "source": "CNBC FINANCE"
-    },
-    {
       "title_en": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
       "title_zh": "中国供应商警告说，由于霍尔木兹海峡关闭，美国人的价格会上涨",
       "desc_en": "The Iran war has stalled shipments of oil and its products through the Strait of Hormuz, raising concerns among Chinese manufacturers about supply chain disruptions.",
@@ -537,7 +537,7 @@
       "desc_zh": "随着企业政策的变化，美国人将在加油站以外的钱包中感受到更高的油价。",
       "link": "https://www.cnbc.com/2026/03/28/oil-doordash-lyft-usps-united.html",
       "pubDate": "2026-03-30T12:00:47",
-      "relativeTime": "6天前",
+      "relativeTime": "7天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -592,7 +592,7 @@
       "desc_zh": "伊朗战争扰乱了欧洲的经济平衡，威胁到能源供应、增长和消费者价格前景，扰乱了经济预测。",
       "link": "https://www.cnbc.com/2026/03/19/ecb-boe-swiss-national-bank-riksbank-interest-rate-decisions.html",
       "pubDate": "2026-03-25T11:21:28",
-      "relativeTime": "11天前",
+      "relativeTime": "12天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
