@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-07T20:10:47.407617+00:00",
+  "updated_at": "2026-04-07T21:14:59.229454+00:00",
   "count": 56,
   "items": [
+    {
+      "title_en": "USDA Secretary Brooke Rollins sent Easter email to staff touting 'Jesus' and 'God'",
+      "title_zh": "美国农业部部长布鲁克·罗林斯（ Brooke Rollins ）向工作人员发送了复活节电子邮件，宣传“耶稣”和“上帝",
+      "desc_en": "Defense Secretary Pete Hegseth on Monday compared the rescue of a downed U.S. airman in Iran to the story of Jesus's resurrection.",
+      "desc_zh": "国防部长皮特·赫格塞特（ Pete Hegseth ）周一将伊朗一名被击落的美国飞行员的救援与耶稣复活的故事进行了比较。",
+      "link": "https://www.cnbc.com/2026/04/07/usda-brooke-rollins-easter-jesus-god.html",
+      "pubDate": "2026-04-07T21:10:11",
+      "relativeTime": "4分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Levi Strauss beats expectations on the top and bottom lines, raises guidance",
+      "title_zh": "Levi Strauss在顶线和底线上超越预期，提出指导意见",
+      "desc_en": "Levi Strauss beat expectations on the top and bottom lines but its guidance doesn't take into account recent tariff rollbacks from the Supreme Court.",
+      "desc_zh": "利维·施特劳斯（ Levi Strauss ）在顶线和底线上都超出了预期，但其指导意见并未考虑到最近最高法院的关税回调。",
+      "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
+      "pubDate": "2026-04-07T20:10:54",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Is it time to buy tech, again? A flurry of good news from Broadcom may hold the answer",
       "title_zh": "又到了收购科技的时候了吗？来自Broadcom的一连串好消息可能就是答案",
@@ -9,7 +31,7 @@
       "desc_zh": "这是自3月最后一个交易日的救济反弹以来投资者一直在问的问题。",
       "link": "https://www.cnbc.com/2026/04/07/is-it-time-to-buy-tech-again-a-flurry-of-good-news-from-broadcom-may-hold-the-answer.html",
       "pubDate": "2026-04-07T19:35:41",
-      "relativeTime": "35分钟前",
+      "relativeTime": "1小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "该公司发现，有回购自己股票历史的公司可以帮助投资者度过市场动荡时期。",
       "link": "https://www.cnbc.com/2026/04/07/boost-your-portfolio-with-buyback-stocks-wolfe-research-says.html",
       "pubDate": "2026-04-07T19:33:37",
-      "relativeTime": "37分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "自1月份以来，国土安全部一直面临着强烈的批评，当时在明尼阿波利斯参与移民执法行动的联邦特工致命地射杀了两名美国公民。",
       "link": "https://www.cnbc.com/2026/04/07/ice-shooting-california.html",
       "pubDate": "2026-04-07T19:21:57",
-      "relativeTime": "37分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "托德·戈登（ Todd Gordon ）打破了能源技术和这个不为人知的能源名称。",
       "link": "https://www.cnbc.com/2026/04/07/the-chart-on-this-little-known-natural-gas-stock-points-to-even-more-gains-ahead.html",
       "pubDate": "2026-04-07T18:27:42",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "万斯说，他不是在那里告诉匈牙利人如何投票，但后来告诉他们“去投票站”和“支持维克多·奥尔班，因为他代表你”。",
       "link": "https://www.cnbc.com/2026/04/07/trump-vance-orban-hungary-iran-war.html",
       "pubDate": "2026-04-07T18:10:55",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,20 +86,9 @@
       "desc_zh": "微软、亚马逊、苹果、CrowdStrike、Palo Alto Networks等公司将使用该模型作为名为Project Glasswing的新网络安全计划的一部分。",
       "link": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
       "pubDate": "2026-04-07T18:00:01",
-      "relativeTime": "18分钟前",
+      "relativeTime": "1小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Stocks making the biggest moves midday: Apple, Arm Holdings, Broadcom, UnitedHealth & more",
-      "title_zh": "股市午间波动最大：苹果、Arm Holdings、Broadcom、UnitedHealth等",
-      "desc_en": "Here are the stocks posting the biggest moves in midday trading.",
-      "desc_zh": "以下是中午交易中涨幅最大的股票。",
-      "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-midday-aapl-arm-avgo-unh.html",
-      "pubDate": "2026-04-07T17:10:30",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "AWS teams working around the clock to keep Middle East services up after drone strikes, CEO says",
@@ -86,7 +97,7 @@
       "desc_zh": "云计算主管马特·加曼（ Matt Garman ）表示，伊朗战争已经袭击了该地区的亚马逊数据中心，该公司正在全天候处理可用性问题。",
       "link": "https://www.cnbc.com/2026/04/07/aws-iran-threats-us-tech-data-centers.html",
       "pubDate": "2026-04-07T16:56:49",
-      "relativeTime": "1小时前",
+      "relativeTime": "58分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "据报道，该公司在可折叠手机的开发方面面临工程挑战，预计将于今年晚些时候推出。",
       "link": "https://www.cnbc.com/2026/04/07/apple-stock-foldable-iphone-report.html",
       "pubDate": "2026-04-07T16:20:25",
-      "relativeTime": "8分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "克莱斯勒和道奇首席执行官马特·麦卡利尔（ Matt McAlear ）表示，克莱斯勒Pacifica是该品牌的最后一款车型，预计销售额将增长。",
       "link": "https://www.cnbc.com/2026/04/07/chrysler-minivan-stellantis.html",
       "pubDate": "2026-04-07T16:05:39",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,18 +130,7 @@
       "desc_zh": "根据Vlad Tenev的说法， Robinhood的美国财政部合作伙伴关系将有助于推动新兴投资者对该公司的敞口，从而有利于其未来的增长。",
       "link": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
       "pubDate": "2026-04-07T15:47:15",
-      "relativeTime": "4小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Bill Gates interview about Jeffrey Epstein by House Oversight set for June 10",
-      "title_zh": "众议院监督机构对比尔·盖茨关于杰弗里·爱泼斯坦的采访定于6月",
-      "desc_en": "The House Oversight Committee also will interview billionaire Ted Waitt about his dealings with Epstein on April 30.",
-      "desc_zh": "众议院监督委员会还将于4月30日采访亿万富翁泰德·韦特（ Ted Waitt ） ，了解他与爱泼斯坦的",
-      "link": "https://www.cnbc.com/2026/04/07/jeffrey-epstein-bill-gates-house-oversight.html",
-      "pubDate": "2026-04-07T15:26:58",
-      "relativeTime": "2小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "自美国和以色列袭击伊朗以来，美国的燃料价格几乎翻了一番。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
       "pubDate": "2026-04-07T14:54:23",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
       "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
       "pubDate": "2026-04-07T14:16:25",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +163,7 @@
       "desc_zh": "二手车价格升至2023年夏季以来的最高点",
       "link": "https://www.cnbc.com/2026/04/07/used-car-prices.html",
       "pubDate": "2026-04-07T13:01:18",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +174,7 @@
       "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
       "pubDate": "2026-04-07T12:53:36",
-      "relativeTime": "17分钟前",
+      "relativeTime": "43分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "7小时前",
+      "relativeTime": "9小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -196,7 +196,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +207,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "4分钟前",
+      "relativeTime": "1小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -218,7 +218,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +229,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +240,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +251,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -262,7 +262,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -438,7 +438,7 @@
       "desc_zh": "查看哪些股票在铃声过后出现大幅波动。",
       "link": "https://www.cnbc.com/2026/03/31/stocks-making-the-biggest-moves-after-hours-nke-play-rh.html",
       "pubDate": "2026-03-31T21:11:17",
-      "relativeTime": "6天前",
+      "relativeTime": "7天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -504,7 +504,7 @@
       "desc_zh": "伊朗战争阻碍了通过霍尔木兹海峡的石油及其产品的运输，引发了中国制造商对供应链中断的担忧。",
       "link": "https://www.cnbc.com/2026/03/30/china-suppliers-warn-higher-us-prices-hormuz-closure.html",
       "pubDate": "2026-03-30T20:19:38",
-      "relativeTime": "7天前",
+      "relativeTime": "8天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
