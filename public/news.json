@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-04-07T17:20:37.239330+00:00",
+  "updated_at": "2026-04-07T18:16:58.768968+00:00",
   "count": 57,
   "items": [
+    {
+      "title_en": "Trump praises Hungary PM Viktor Orban after Vance calls him at Budapest rally",
+      "title_zh": "在万斯在布达佩斯集会上打电话给匈牙利总理维克多·奥尔班后，特朗普称赞他",
+      "desc_en": "Vance said he was not there to tell Hungarians how to vote, but later told them to \"go to the polls\" and \"stand with Viktor Orbán, because he stands for you.\"",
+      "desc_zh": "万斯说，他不是在那里告诉匈牙利人如何投票，但后来告诉他们“去投票站”和“支持维克多·奥尔班，因为他代表你”。",
+      "link": "https://www.cnbc.com/2026/04/07/trump-vance-orban-hungary-iran-war.html",
+      "pubDate": "2026-04-07T18:10:55",
+      "relativeTime": "5分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Energy has soared since the Iran war began. These traders are now cautious",
+      "title_zh": "自伊朗战争开始以来，能源价格飙升。这些交易者现在持谨慎态度",
+      "desc_en": "The energy sector has surged around 34% in 2026, but investors on CNBC’s “Halftime Report” expressed skepticism that the rally can last.",
+      "desc_zh": "能源行业在2026年飙升了约34% ，但CNBC的《中场报告》的投资者对反弹能否持续表示怀疑。",
+      "link": "https://www.cnbc.com/2026/04/07/energy-has-soared-amid-the-iran-war-these-traders-are-now-cautious.html",
+      "pubDate": "2026-04-07T18:06:48",
+      "relativeTime": "10分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Anthropic limits Mythos AI rollout over fears hackers could use model for cyberattacks",
+      "title_zh": "人为限制Mythos AI的推出，克服了黑客可能使用模型进行网络攻击的担忧",
+      "desc_en": "Microsoft, Amazon, Apple, CrowdStrike, Palo Alto Networks and others will use the model as part of a new cybersecurity initiative called Project Glasswing.",
+      "desc_zh": "微软、亚马逊、苹果、CrowdStrike、Palo Alto Networks等公司将使用该模型作为名为Project Glasswing的新网络安全计划的一部分。",
+      "link": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
+      "pubDate": "2026-04-07T18:00:01",
+      "relativeTime": "16分钟前",
+      "category": "科技",
+      "source": "CNBC TECHNOLOGY"
+    },
+    {
+      "title_en": "Strait of Hormuz blockage upends global helium supply. This U.S. company could benefit",
+      "title_zh": "霍尔木兹海峡的封锁颠覆了全球氦气供应。这家美国公司可以从中受益",
+      "desc_en": "UBS thinks Exxon Mobil shares have at least another 5% left in them.",
+      "desc_zh": "瑞银认为，埃克森美孚的股票至少还剩5%。",
+      "link": "https://www.cnbc.com/2026/04/07/strait-of-hormuz-blockage-upends-global-helium-supply-this-us-company-could-benefit.html",
+      "pubDate": "2026-04-07T17:23:03",
+      "relativeTime": "53分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Stocks making the biggest moves midday: Apple, Arm Holdings, Broadcom, UnitedHealth & more",
       "title_zh": "股市午间波动最大：苹果、Arm Holdings、Broadcom、UnitedHealth等",
@@ -9,7 +53,7 @@
       "desc_zh": "以下是中午交易中涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-midday-aapl-arm-avgo-unh.html",
       "pubDate": "2026-04-07T17:10:30",
-      "relativeTime": "10分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,18 +64,7 @@
       "desc_zh": "云计算主管马特·加曼（ Matt Garman ）表示，伊朗战争已经袭击了该地区的亚马逊数据中心，该公司正在全天候处理可用性问题。",
       "link": "https://www.cnbc.com/2026/04/07/aws-iran-threats-us-tech-data-centers.html",
       "pubDate": "2026-04-07T16:56:49",
-      "relativeTime": "23分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "What to buy and sell depending on outcome of U.S.-Iran deadline, according to JPMorgan",
-      "title_zh": "根据摩根大通的数据，根据美伊截止日期的结果，买卖什么",
-      "desc_en": "In the event of a ceasefire, the JPMorgan trading desk sees technology, consumer and financial stocks rallying.",
-      "desc_zh": "在停火的情况下，摩根大通交易部门会看到科技股、消费者股和金融股上涨。",
-      "link": "https://www.cnbc.com/2026/04/07/what-to-buy-and-sell-depending-on-outcome-of-us-iran-deadline-jpmorgan.html",
-      "pubDate": "2026-04-07T16:41:58",
-      "relativeTime": "38分钟前",
+      "relativeTime": "5分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +75,7 @@
       "desc_zh": "据报道，该公司在可折叠手机的开发方面面临工程挑战，预计将于今年晚些时候推出。",
       "link": "https://www.cnbc.com/2026/04/07/apple-stock-foldable-iphone-report.html",
       "pubDate": "2026-04-07T16:20:25",
-      "relativeTime": "21分钟前",
+      "relativeTime": "45分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +86,7 @@
       "desc_zh": "克莱斯勒和道奇首席执行官马特·麦卡利尔（ Matt McAlear ）表示，克莱斯勒Pacifica是该品牌的最后一款车型，预计销售额将增长。",
       "link": "https://www.cnbc.com/2026/04/07/chrysler-minivan-stellantis.html",
       "pubDate": "2026-04-07T16:05:39",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,18 +97,7 @@
       "desc_zh": "根据Vlad Tenev的说法， Robinhood的美国财政部合作伙伴关系将有助于推动新兴投资者对该公司的敞口，从而有利于其未来的增长。",
       "link": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
       "pubDate": "2026-04-07T15:47:15",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Broadcom lands big deal for its specialty chips. Wall Street sees the stock rising as much as 80%",
-      "title_zh": "Broadcom因其特种芯片而大获成功。华尔街认为该股涨幅高达80 ％",
-      "desc_en": "Broadcom is likely to gain a lot of ground on its recent deals with Google and Anthropic, according to several shops on the Street.",
-      "desc_zh": "根据街上几家商店的说法，博通最近与谷歌和Anthropic的交易可能会取得很大进展。",
-      "link": "https://www.cnbc.com/2026/04/07/broadcom-lands-big-deal-specialty-chips-deal-wall-street-sees-stock-surging.html",
-      "pubDate": "2026-04-07T15:39:55",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "众议院监督委员会还将于4月30日采访亿万富翁泰德·韦特（ Ted Waitt ） ，了解他与爱泼斯坦的",
       "link": "https://www.cnbc.com/2026/04/07/jeffrey-epstein-bill-gates-house-oversight.html",
       "pubDate": "2026-04-07T15:26:58",
-      "relativeTime": "49分钟前",
+      "relativeTime": "44分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "自美国和以色列袭击伊朗以来，美国的燃料价格几乎翻了一番。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
       "pubDate": "2026-04-07T14:54:23",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +130,7 @@
       "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
       "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
       "pubDate": "2026-04-07T14:16:25",
-      "relativeTime": "1小时前",
+      "relativeTime": "26分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +141,7 @@
       "desc_zh": "二手车价格升至2023年夏季以来的最高点",
       "link": "https://www.cnbc.com/2026/04/07/used-car-prices.html",
       "pubDate": "2026-04-07T13:01:18",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +152,18 @@
       "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
       "pubDate": "2026-04-07T12:53:36",
-      "relativeTime": "39分钟前",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+      "title_zh": "特朗普政府最终确定了优于预期的Medicare Advantage支付率，以提高健康保险公司的收益",
+      "desc_en": "The Trump administration will increase average Medicare Advantage payments by 2.48%, or more than $13 billion, in 2027.",
+      "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
+      "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
+      "pubDate": "2026-04-07T12:44:36",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +174,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -152,7 +185,7 @@
       "desc_zh": "Kalshi和Polymarket等预测市场最近大受欢迎，引发了如何妥善监管平台的问题。",
       "link": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html",
       "pubDate": "2026-04-07T12:00:01",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,18 +196,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "5小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Novo Nordisk's explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
-      "title_zh": "诺和诺德推出爆炸性Wegovy药丸，吸引新一波患者接受GLP-1减肥治疗",
-      "desc_en": "CNBC spoke with five U.S. patients who recently started the pill following its launch and have varying initial experiences with the drug.",
-      "desc_zh": "CNBC采访了五名美国患者，他们最近在推出该药后开始服用，并且对这种药物的初步体验各不相同。",
-      "link": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
-      "pubDate": "2026-04-07T11:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -196,18 +218,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "6小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Universal Music set for takeover by Bill Ackman's Pershing Square",
-      "title_zh": "由比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）接",
-      "desc_en": "Bill Ackman's Pershing Square said Universal Music's stock price has \"languished\" due to a range of issues that can be addressed with the merger.",
-      "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
-      "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
-      "pubDate": "2026-04-07T06:21:04",
-      "relativeTime": "2小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +229,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -329,17 +340,6 @@
       "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
       "pubDate": "2026-04-04T12:00:01",
       "relativeTime": "3天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Debris from aerial interception strikes Oracle building in Dubai, UAE says",
-      "title_zh": "阿联酋称，空中拦截的碎片袭击了迪拜的甲骨文大楼",
-      "desc_en": "The damage to Oracle's building comes after Iran warned it would target U.S. tech companies operating in the Middle East.",
-      "desc_zh": "甲骨文大楼的损坏发生在伊朗警告它将针对在中东运营的美国科技公司之后。",
-      "link": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
-      "pubDate": "2026-04-04T09:11:42",
-      "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -537,7 +537,7 @@
       "desc_zh": "周五上午，期货市场的交易员将2026年底加息的可能性提高到52%。",
       "link": "https://www.cnbc.com/2026/03/27/markets-see-the-feds-next-move-as-a-potential-hike-as-oil-prices-inflation-fears-rise.html",
       "pubDate": "2026-03-27T18:02:40",
-      "relativeTime": "10天前",
+      "relativeTime": "11天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -614,7 +614,7 @@
       "desc_zh": "自由民主党的煽动者撕裂了唐纳德·特朗普总统，她说唐纳德·特朗普“将美国拖入了一场非法和鲁莽的战争”。",
       "link": "https://www.cnbc.com/2026/03/20/elizabeth-warren-demands-answers-on-costs-economic-impact-of-illegal-and-reckless-war.html",
       "pubDate": "2026-03-21T17:28:42",
-      "relativeTime": "16天前",
+      "relativeTime": "17天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
