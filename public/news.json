@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-04-07T12:15:22.091701+00:00",
-  "count": 56,
+  "updated_at": "2026-04-07T13:31:01.710999+00:00",
+  "count": 58,
   "items": [
+    {
+      "title_en": "Mailing your tax return near the deadline comes with a risk that 'matters more now than ever'",
+      "title_zh": "在截止日期前邮寄纳税申报表的风险“现在比以往任何时候都更重要”",
+      "desc_en": "While the IRS considers your return being filed on time as long as it's postmarked by the deadline, not all mail gets a postmark the day it's sent.",
+      "desc_zh": "虽然美国国税局认为，只要在截止日期前加盖邮戳，您的退货就会按时提交，但并非所有邮件在发送当天都会收到邮戳。",
+      "link": "https://www.cnbc.com/2026/04/07/mailing-tax-return-near-april-15-deadline-comes-with-risk.html",
+      "pubDate": "2026-04-07T13:09:24",
+      "relativeTime": "21分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Delta raises checked bag fees $10 amid jet fuel price surge, joining other carriers",
+      "title_zh": "达美航空与其他航空公司一同提高托运行李费$ 10 ，因飞机燃油价格飙升",
+      "desc_en": "Delta is joining United and JetBlue in raising checked bag fees.",
+      "desc_zh": "达美航空将与美联航和捷蓝航空一道提高托运行李费。",
+      "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
+      "pubDate": "2026-04-07T13:06:23",
+      "relativeTime": "24分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Used car prices rise to highest point since summer 2023",
+      "title_zh": "二手车价格升至2023年夏季以来的最高点",
+      "desc_en": "Used car prices rise to highest point since summer 2023",
+      "desc_zh": "二手车价格升至2023年夏季以来的最高点",
+      "link": "https://www.cnbc.com/2026/04/07/used-car-prices.html",
+      "pubDate": "2026-04-07T13:01:18",
+      "relativeTime": "29分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck",
+      "title_zh": "特朗普警告说，除非达成协议，否则伊朗的“整个文明将在今晚消亡”",
+      "desc_en": "The near closure of the Strait of Hormuz since the war began has led to a historic oil supply shock, which quickly sent global energy prices soaring.",
+      "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
+      "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
+      "pubDate": "2026-04-07T12:53:36",
+      "relativeTime": "37分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Here are Tuesday's biggest analyst calls: Apple, Broadcom, Intel, Morgan Stanley, Oracle, Wingstop & more",
+      "title_zh": "以下是周二最大的分析师电话会议：苹果、博通、英特尔、摩根士丹利、甲骨文、Wingstop等",
+      "desc_en": "Here are the biggest calls on Wall Street on Tuesday.",
+      "desc_zh": "以下是周二华尔街最大的电话会议。",
+      "link": "https://www.cnbc.com/2026/04/07/tuesday-stocks-from-analyst-calls-like-apple.html",
+      "pubDate": "2026-04-07T12:42:58",
+      "relativeTime": "47分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Trump's Iran deadline, the Altman-Musk feud, Novo's Wegovy pill and more in Morning Squawk",
       "title_zh": "特朗普的伊朗截止日期，奥特曼-马斯克之争，诺沃的Wegovy药丸等等",
@@ -9,7 +64,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "1分钟前",
+      "relativeTime": "1小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -20,7 +75,7 @@
       "desc_zh": "Kalshi和Polymarket等预测市场最近大受欢迎，引发了如何妥善监管平台的问题。",
       "link": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html",
       "pubDate": "2026-04-07T12:00:01",
-      "relativeTime": "15分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,17 +86,6 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "34分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Time to buy shares of Morgan Stanley, says UBS",
-      "title_zh": "瑞银表示，是时候购买摩根士丹利股票了",
-      "desc_en": "UBS upgraded Morgan Stanley to buy from neutral.",
-      "desc_zh": "瑞银将摩根士丹利评级升级为从中性买入。",
-      "link": "https://www.cnbc.com/2026/04/07/time-to-buy-shares-of-morgan-stanley-says-ubs.html",
-      "pubDate": "2026-04-07T11:05:22",
       "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -53,7 +97,7 @@
       "desc_zh": "CNBC采访了五名美国患者，他们最近在推出该药后开始服用，并且对这种药物的初步体验各不相同。",
       "link": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
       "pubDate": "2026-04-07T11:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,18 +119,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "'The thaw is real': Indian delegation visits China to talk EVs and more",
-      "title_zh": "“解冻是真实的” ：印度代表团访问中国谈论电动汽车等",
-      "desc_en": "As the Iran war disrupts energy flows, Indian firms make their first China trip in five years, seeking EV, battery and renewable tie-ups.",
-      "desc_zh": "由于伊朗战争扰乱了能源流动，印度公司五年来首次访问中国，寻求电动汽车、电池和可再生能源的合作。",
-      "link": "https://www.cnbc.com/2026/04/07/india-china-relations-ease-iran-war-ev.html",
-      "pubDate": "2026-04-07T10:07:32",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,29 +130,18 @@
       "desc_zh": "CNBC的住房市场调查发现，第一季度购房者更关心的是经济和抵押贷款利率，而不是房价。",
       "link": "https://www.cnbc.com/2026/04/07/cnbc-housing-market-survey-iran-war-spring-housing.html",
       "pubDate": "2026-04-07T09:53:35",
-      "relativeTime": "2小时前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy",
-      "title_zh": "“所有道路都会导致价格上涨和增长放缓，”国际货币基金组织总裁在伊朗战争打击全球经济时警告说",
-      "desc_en": "",
-      "desc_zh": "",
-      "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
-      "pubDate": "2026-04-07T09:06:55",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "JD Vance heads to Hungary to support Viktor Orbán ahead of high-stakes election",
-      "title_zh": "JD Vance在高风险选举之前前往匈牙利支持Viktor Orbán",
-      "desc_en": "Viktor Orbán has said the EU is a greater threat to Hungary than Russia. As an election defeat looms, U.S. Vice President JD Vance is visiting to support him.",
-      "desc_zh": "欧尔班（ Viktor Orbán ）曾表示，欧盟对匈牙利的威胁大于俄罗斯。随着选举失败的临近，美国副总统JD万斯正在访问支持他。",
-      "link": "https://www.cnbc.com/2026/04/07/jd-vance-visits-hungary-viktor-orban-trump-russia-eu.html",
-      "pubDate": "2026-04-07T08:59:33",
-      "relativeTime": "20分钟前",
+      "title_en": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+      "title_zh": "SpaceX公布IPO细节，目标是6月初的路演：路透社",
+      "desc_en": "The Elon Musk-led company plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO to investors, sources said.",
+      "desc_zh": "消息人士称，这家由埃隆·马斯克（ Elon Musk ）领导的公司计划在6月8日当周推出路演，届时高管和银行家将向投资者推介IPO。",
+      "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+      "pubDate": "2026-04-07T09:11:32",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +152,7 @@
       "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
       "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
       "pubDate": "2026-04-07T06:21:04",
-      "relativeTime": "刚刚",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +163,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +174,7 @@
       "desc_zh": "周一，由于投资者押注中东冲突即将结束，股市走高。",
       "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
       "pubDate": "2026-04-06T22:04:53",
-      "relativeTime": "14分钟前",
+      "relativeTime": "刚刚",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +185,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "11小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,18 +196,7 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "14小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Trump says Iran ceasefire proposal 'significant' but 'not good enough' as Hormuz Strait deadline nears",
-      "title_zh": "特朗普表示，随着霍尔木兹海峡最后期限的临近，伊朗停火提案“意义重大”但“还不够好”",
-      "desc_en": "The 45-day ceasefire proposal, which could lead to an end to the war, is reportedly being discussed by the U.S., Iran and a group of regional mediators.",
-      "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
-      "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
-      "pubDate": "2026-04-06T20:36:24",
-      "relativeTime": "15小时前",
+      "relativeTime": "46分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +218,18 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Artemis II breaks Apollo 13’s distance record as humans travel farther from Earth than ever before",
+      "title_zh": "阿耳忒弥斯二号打破阿波罗13号的距离记录，人类离地球的距离比以往任何时候都要远",
+      "desc_en": "",
+      "desc_zh": "",
+      "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
+      "pubDate": "2026-04-06T18:41:21",
+      "relativeTime": "18小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +240,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "20小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +251,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -559,7 +581,7 @@
       "desc_zh": "由于地缘政治风险的不确定性加剧和劳动力市场暴跌，经济学家提高了对经济萎缩的风险评估。",
       "link": "https://www.cnbc.com/2026/03/25/recession-odds-climb-on-wall-street-as-economy-shows-cracks-beneath-the-surface.html",
       "pubDate": "2026-03-25T13:22:06",
-      "relativeTime": "12天前",
+      "relativeTime": "13天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
