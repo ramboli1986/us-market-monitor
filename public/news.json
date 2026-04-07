@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-07T13:31:01.710999+00:00",
-  "count": 58,
+  "updated_at": "2026-04-07T14:32:05.401749+00:00",
+  "count": 59,
   "items": [
+    {
+      "title_en": "'Absolutely stunning' — Artemis II photo captures moon eclipse of sun",
+      "title_zh": "“绝对令人惊叹” --阿尔忒弥斯二号拍摄太阳月食",
+      "desc_en": "Artemis II is returning home after breaking the record for the farthest distance traveled by humans from Earth and setting the stage for a manned lunar landing.",
+      "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
+      "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
+      "pubDate": "2026-04-07T14:16:25",
+      "relativeTime": "15分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Goldman and Wells Fargo say buy tech stocks, it's rare for them to get this cheap",
+      "title_zh": "高盛(Goldman)和富国银行(Wells Fargo)表示，购买科技股，他们很少能买到这么便宜的股票",
+      "desc_en": "Both Wall Street firms said the recent weakness has pushed valuations to unusually attractive levels.",
+      "desc_zh": "两家华尔街公司都表示，最近的疲软已将估值推至异常有吸引力的水平。",
+      "link": "https://www.cnbc.com/2026/04/07/goldman-and-wells-fargo-say-buy-tech-stocks-its-rare-for-them-to-get-this-cheap.html",
+      "pubDate": "2026-04-07T14:01:45",
+      "relativeTime": "30分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Mailing your tax return near the deadline comes with a risk that 'matters more now than ever'",
       "title_zh": "在截止日期前邮寄纳税申报表的风险“现在比以往任何时候都更重要”",
@@ -9,7 +31,7 @@
       "desc_zh": "虽然美国国税局认为，只要在截止日期前加盖邮戳，您的退货就会按时提交，但并非所有邮件在发送当天都会收到邮戳。",
       "link": "https://www.cnbc.com/2026/04/07/mailing-tax-return-near-april-15-deadline-comes-with-risk.html",
       "pubDate": "2026-04-07T13:09:24",
-      "relativeTime": "21分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "达美航空将与美联航和捷蓝航空一道提高托运行李费。",
       "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
       "pubDate": "2026-04-07T13:06:23",
-      "relativeTime": "24分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "二手车价格升至2023年夏季以来的最高点",
       "link": "https://www.cnbc.com/2026/04/07/used-car-prices.html",
       "pubDate": "2026-04-07T13:01:18",
-      "relativeTime": "29分钟前",
+      "relativeTime": "9分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,18 +64,7 @@
       "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
       "pubDate": "2026-04-07T12:53:36",
-      "relativeTime": "37分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Here are Tuesday's biggest analyst calls: Apple, Broadcom, Intel, Morgan Stanley, Oracle, Wingstop & more",
-      "title_zh": "以下是周二最大的分析师电话会议：苹果、博通、英特尔、摩根士丹利、甲骨文、Wingstop等",
-      "desc_en": "Here are the biggest calls on Wall Street on Tuesday.",
-      "desc_zh": "以下是周二华尔街最大的电话会议。",
-      "link": "https://www.cnbc.com/2026/04/07/tuesday-stocks-from-analyst-calls-like-apple.html",
-      "pubDate": "2026-04-07T12:42:58",
-      "relativeTime": "47分钟前",
+      "relativeTime": "32分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +75,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "Kalshi和Polymarket等预测市场最近大受欢迎，引发了如何妥善监管平台的问题。",
       "link": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html",
       "pubDate": "2026-04-07T12:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "44分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "CNBC采访了五名美国患者，他们最近在推出该药后开始服用，并且对这种药物的初步体验各不相同。",
       "link": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
       "pubDate": "2026-04-07T11:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "1小时前",
+      "relativeTime": "15分钟前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +141,7 @@
       "desc_zh": "CNBC的住房市场调查发现，第一季度购房者更关心的是经济和抵押贷款利率，而不是房价。",
       "link": "https://www.cnbc.com/2026/04/07/cnbc-housing-market-survey-iran-war-spring-housing.html",
       "pubDate": "2026-04-07T09:53:35",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +152,7 @@
       "desc_zh": "消息人士称，这家由埃隆·马斯克（ Elon Musk ）领导的公司计划在6月8日当周推出路演，届时高管和银行家将向投资者推介IPO。",
       "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
       "pubDate": "2026-04-07T09:11:32",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,18 @@
       "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
       "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
       "pubDate": "2026-04-07T06:21:04",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Tuesday, April 7, 2026: Jim Cramer discusses his next moves for the Investing Club",
+      "title_zh": "2026年4月7日星期二： Jim Cramer讨论他在投资俱乐部的下一步行动",
+      "desc_en": "",
+      "desc_zh": "",
+      "link": "https://www.cnbc.com/search/?query=Tuesday,%20April%207,%202026:%20Jim%20Cramer%20discusses%20his%20next%20moves%20for%20the%20Investing%20Club",
+      "pubDate": "2026-04-07T04:00:41",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +185,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +196,7 @@
       "desc_zh": "周一，由于投资者押注中东冲突即将结束，股市走高。",
       "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
       "pubDate": "2026-04-06T22:04:53",
-      "relativeTime": "刚刚",
+      "relativeTime": "23分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +218,7 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "46分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +229,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,18 +240,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "16小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Artemis II breaks Apollo 13’s distance record as humans travel farther from Earth than ever before",
-      "title_zh": "阿耳忒弥斯二号打破阿波罗13号的距离记录，人类离地球的距离比以往任何时候都要远",
-      "desc_en": "",
-      "desc_zh": "",
-      "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
-      "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "18小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -361,7 +372,7 @@
       "desc_zh": "预计3月份非农就业人数将增加59,000人，失业率保持在4.4%。",
       "link": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
       "pubDate": "2026-04-03T13:35:34",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -570,7 +581,7 @@
       "desc_zh": "该预测比之前预测的2.8%大幅上升。此外，它远高于美联储官员估计的2.7%。",
       "link": "https://www.cnbc.com/2026/03/26/global-forecasting-group-sees-us-inflation-at-4point2percent-this-year-much-higher-than-fed-estimate.html",
       "pubDate": "2026-03-26T14:02:43",
-      "relativeTime": "11天前",
+      "relativeTime": "12天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
