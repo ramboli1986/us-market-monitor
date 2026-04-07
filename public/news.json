@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-04-07T15:27:52.549295+00:00",
-  "count": 59,
+  "updated_at": "2026-04-07T16:21:55.915473+00:00",
+  "count": 58,
   "items": [
+    {
+      "title_en": "Apple shares sink 4% on report of foldable iPhone delays",
+      "title_zh": "报告可折叠iPhone延迟，苹果股价下跌4%",
+      "desc_en": "The company is reportedly facing engineering challenges in the development of the foldable phones, which are anticipated to launch later this year.",
+      "desc_zh": "据报道，该公司在可折叠手机的开发方面面临工程挑战，预计将于今年晚些时候推出。",
+      "link": "https://www.cnbc.com/2026/04/07/apple-stock-foldable-iphone-report.html",
+      "pubDate": "2026-04-07T16:20:25",
+      "relativeTime": "1分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Chrysler CEO says there is a minivan 'resurgence' but stays quiet on product plans",
+      "title_zh": "克莱斯勒首席执行官表示，小型货车正在“复苏” ，但对产品计划保持沉默",
+      "desc_en": "The Chrysler Pacifica — the brand's last standing model — is expected to grow in sales, according to Chrysler and Dodge CEO Matt McAlear.",
+      "desc_zh": "克莱斯勒和道奇首席执行官马特·麦卡利尔（ Matt McAlear ）表示，克莱斯勒Pacifica是该品牌的最后一款车型，预计销售额将增长。",
+      "link": "https://www.cnbc.com/2026/04/07/chrysler-minivan-stellantis.html",
+      "pubDate": "2026-04-07T16:05:39",
+      "relativeTime": "16分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump Accounts put Robinhood in front of the next generation of investors, says CEO Vlad Tenev",
+      "title_zh": "首席执行官Vlad Tenev表示，特朗普账户将Robinhood置于下一代投资者面前",
+      "desc_en": "Robinhood's U.S. Treasury partnership will help drive emerging investors' exposure to the company, benefiting its future growth, according to Vlad Tenev.",
+      "desc_zh": "根据Vlad Tenev的说法， Robinhood的美国财政部合作伙伴关系将有助于推动新兴投资者对该公司的敞口，从而有利于其未来的增长。",
+      "link": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
+      "pubDate": "2026-04-07T15:47:15",
+      "relativeTime": "34分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Broadcom lands big deal for its specialty chips. Wall Street sees the stock rising as much as 80%",
+      "title_zh": "Broadcom因其特种芯片而大获成功。华尔街认为该股涨幅高达80 ％",
+      "desc_en": "Broadcom is likely to gain a lot of ground on its recent deals with Google and Anthropic, according to several shops on the Street.",
+      "desc_zh": "根据街上几家商店的说法，博通最近与谷歌和Anthropic的交易可能会取得很大进展。",
+      "link": "https://www.cnbc.com/2026/04/07/broadcom-lands-big-deal-specialty-chips-deal-wall-street-sees-stock-surging.html",
+      "pubDate": "2026-04-07T15:39:55",
+      "relativeTime": "41分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Bill Gates interview about Jeffrey Epstein by House Oversight set for June 10",
       "title_zh": "众议院监督机构对比尔·盖茨关于杰弗里·爱泼斯坦的采访定于6月",
@@ -9,7 +53,7 @@
       "desc_zh": "众议院监督委员会还将于4月30日采访亿万富翁泰德·韦特（ Ted Waitt ） ，了解他与爱泼斯坦的",
       "link": "https://www.cnbc.com/2026/04/07/jeffrey-epstein-bill-gates-house-oversight.html",
       "pubDate": "2026-04-07T15:26:58",
-      "relativeTime": "刚刚",
+      "relativeTime": "47分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,18 +64,7 @@
       "desc_zh": "自美国和以色列袭击伊朗以来，美国的燃料价格几乎翻了一番。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
       "pubDate": "2026-04-07T14:54:23",
-      "relativeTime": "33分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "This languishing software giant is forming a base. Using options to trade a bounce",
-      "title_zh": "这个萎靡不振的软件巨头正在形成一个基地。使用选项进行反弹交易",
-      "desc_en": "Nishant Pant breaks down this bull call spread.",
-      "desc_zh": "尼桑·潘特（ Nishant Pant ）打破了这场牛市。",
-      "link": "https://www.cnbc.com/2026/04/07/this-languishing-software-giant-is-forming-a-base-using-options-to-trade-a-bounce.html",
-      "pubDate": "2026-04-07T14:30:01",
-      "relativeTime": "57分钟前",
+      "relativeTime": "14分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,18 +75,7 @@
       "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
       "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
       "pubDate": "2026-04-07T14:16:25",
-      "relativeTime": "36分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Mailing your tax return near the deadline comes with a risk that 'matters more now than ever'",
-      "title_zh": "在截止日期前邮寄纳税申报表的风险“现在比以往任何时候都更重要”",
-      "desc_en": "While the IRS considers your return being filed on time as long as it's postmarked by the deadline, not all mail gets a postmark the day it's sent.",
-      "desc_zh": "虽然美国国税局认为，只要在截止日期前加盖邮戳，您的退货就会按时提交，但并非所有邮件在发送当天都会收到邮戳。",
-      "link": "https://www.cnbc.com/2026/04/07/mailing-tax-return-near-april-15-deadline-comes-with-risk.html",
-      "pubDate": "2026-04-07T13:09:24",
-      "relativeTime": "2小时前",
+      "relativeTime": "23分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +86,7 @@
       "desc_zh": "达美航空将与美联航和捷蓝航空一道提高托运行李费。",
       "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
       "pubDate": "2026-04-07T13:06:23",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
       "pubDate": "2026-04-07T12:53:36",
-      "relativeTime": "1小时前",
+      "relativeTime": "25分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -108,7 +130,7 @@
       "desc_zh": "Kalshi和Polymarket等预测市场最近大受欢迎，引发了如何妥善监管平台的问题。",
       "link": "https://www.cnbc.com/2026/04/07/kalshi-polymarket-prediction-markets-cftc-war-bets.html",
       "pubDate": "2026-04-07T12:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +141,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +152,7 @@
       "desc_zh": "CNBC采访了五名美国患者，他们最近在推出该药后开始服用，并且对这种药物的初步体验各不相同。",
       "link": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
       "pubDate": "2026-04-07T11:00:01",
-      "relativeTime": "4小时前",
+      "relativeTime": "44分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +163,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -168,24 +190,13 @@
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
-      "title_zh": "SpaceX公布IPO细节，目标是6月初的路演：路透社",
-      "desc_en": "The Elon Musk-led company plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO to investors, sources said.",
-      "desc_zh": "消息人士称，这家由埃隆·马斯克（ Elon Musk ）领导的公司计划在6月8日当周推出路演，届时高管和银行家将向投资者推介IPO。",
-      "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
-      "pubDate": "2026-04-07T09:11:32",
-      "relativeTime": "6小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
       "title_en": "Universal Music set for takeover by Bill Ackman's Pershing Square",
       "title_zh": "由比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）接",
       "desc_en": "Bill Ackman's Pershing Square said Universal Music's stock price has \"languished\" due to a range of issues that can be addressed with the merger.",
       "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
       "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
       "pubDate": "2026-04-07T06:21:04",
-      "relativeTime": "43分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +229,7 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -344,28 +355,6 @@
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "'Chasing vibes' — OpenAI's M&A strategy gets more confusing with TBPN purchase",
-      "title_zh": "“追逐氛围” --OpenAI的并购策略与TBPN收购变得更加混乱",
-      "desc_en": "Over 10 months after shelling out an eye-popping $6.4 billion for Jony Ive's nascent devices startup, OpenAI announced it's buying media company TBPN.",
-      "desc_zh": "在为Jony Ive的新兴设备初创公司支付了惊人的64亿美元10个月后， OpenAI宣布将收购媒体公司TBPN。",
-      "link": "https://www.cnbc.com/2026/04/03/chasing-vibes-openai-ma-strategy-gets-more-confusing-with-tbpn-.html",
-      "pubDate": "2026-04-03T22:13:34",
-      "relativeTime": "3天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Meta, Google under attack as court cases bypass 30-year-old legal shield",
-      "title_zh": "Meta ，谷歌受到攻击，因为法庭案件绕过了30年的法律保护",
-      "desc_en": "Internet platforms have long been able to rely on special protections to avoid liability for what takes place on their sites. But that may be changing.",
-      "desc_zh": "互联网平台长期以来一直能够依靠特殊保护来避免对其网站上发生的事情承担责任。但这种情况可能正在发生变化。",
-      "link": "https://www.cnbc.com/2026/04/03/meta-google-under-attack-court-cases-bypass-30-year-old-legal-shield.html",
-      "pubDate": "2026-04-03T17:07:55",
-      "relativeTime": "3天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
       "title_en": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
       "title_zh": "美国3月就业人数增加17.8万人，高于预期；失业率为4.3%",
       "desc_en": "Nonfarm payrolls were expected to increase by 59,000 in March, with the unemployment rate holding at 4.4%.",
@@ -438,7 +427,7 @@
       "desc_zh": "私营部门就业增长保持同步，但医疗保健和建筑业继续提供几乎所有的动力。",
       "link": "https://www.cnbc.com/2026/04/01/private-sector-hiring-totaled-62000-in-march-better-than-expected-adp-says.html",
       "pubDate": "2026-04-01T15:42:46",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -515,7 +504,7 @@
       "desc_zh": "苹果公司仍然是伯克希尔哈撒韦公司最大的控股公司，即使该集团在去年年底削减了股份。",
       "link": "https://www.cnbc.com/2026/03/31/warren-buffett-says-he-sold-apple-too-soon-and-would-buy-more-of-it-though-not-in-this-market-.html",
       "pubDate": "2026-03-31T15:31:12",
-      "relativeTime": "6天前",
+      "relativeTime": "7天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
