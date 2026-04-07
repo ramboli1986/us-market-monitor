@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-04-07T22:11:17.496234+00:00",
-  "count": 56,
+  "updated_at": "2026-04-07T23:11:59.972348+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "U.S. oil prices plunge 16% to below $100 after Trump agrees to two-week ceasefire in Iran war",
+      "title_zh": "特朗普同意伊朗战争停火两周后，美国油价下跌16%至100 $以下",
+      "desc_en": "President Donald Trump had threatened to destroy Iran's entire civilization if his 8 p.m. ET deadline to reopen the Strait of Hormuz is not met.",
+      "desc_zh": "唐纳德·特朗普总统曾威胁说，如果不遵守美国东部时间晚上8点重新开放霍尔木兹海峡的最后期限，他将摧毁伊朗的整个文明。",
+      "link": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
+      "pubDate": "2026-04-07T23:10:40",
+      "relativeTime": "1分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump suspends Iran attack for two weeks, subject to Hormuz Strait opening",
+      "title_zh": "特朗普暂停伊朗袭击两周，前提是霍尔木兹海峡开放",
+      "desc_en": "Pakistan Prime Minister Shehbaz Sharif had asked Trump for a two-week delay of his Iran deadline, and for the Strait of Hormuz to open for the same period.",
+      "desc_zh": "巴基斯坦总理谢赫巴兹·谢里夫（ Shehbaz Sharif ）曾要求特朗普将伊朗的最后期限延迟两周，并要求霍尔木兹海峡在同一时期开放。",
+      "link": "https://www.cnbc.com/2026/04/07/trump-iran-ceasefire-hormuz-strait.html",
+      "pubDate": "2026-04-07T22:57:55",
+      "relativeTime": "13分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Google CEO Sundar Pichai says 'AI shift' opens opportunities to invest in startups",
+      "title_zh": "谷歌首席执行官桑达尔·皮查伊（ Sundar Pichai ）表示， “人工智能转变”为投资初创公司提供了机会",
+      "desc_en": "Alphabet is in investor in some of the highest-valued private companies, including SpaceX, Anthropic and Stripe.",
+      "desc_zh": "Alphabet是一些价值最高的私营公司的投资者，包括SpaceX、Anthropic和Stripe。",
+      "link": "https://www.cnbc.com/2026/04/07/google-ceo-pichai-says-ai-shift-opens-opportunities-invest-startups.html",
+      "pubDate": "2026-04-07T22:24:13",
+      "relativeTime": "47分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists",
+      "title_zh": "克莱默表示，周二的股市行动让投资者看到了如果伊朗战争持续下去，美国经济的命运",
+      "desc_en": "CNBC's Jim Cramer said that the session showed \"a heck of a lot of bad news,\" citing a \"weak consumer, coupled with inflation.\"",
+      "desc_zh": "CNBC的吉姆·克莱默（ Jim Cramer ）表示，会议显示了“很多坏消息” ，理由是“消费者疲软，加上通货膨胀”。",
+      "link": "https://www.cnbc.com/2026/04/07/cramer-tuesday-market-us-economy-iran-war.html",
+      "pubDate": "2026-04-07T22:23:38",
+      "relativeTime": "48分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Trump faces calls for removal over threats to wipe out 'whole civilization' in Iran",
+      "title_zh": "特朗普因威胁要消灭伊朗的“整个文明”而面临撤职的呼吁",
+      "desc_en": "President Donald Trump's threats to ramp up the U.S.'s offensive in Iran prompted calls for his impeachment or removal.",
+      "desc_zh": "唐纳德·特朗普总统威胁要加大美国在伊朗的进攻力度，这促使人们呼吁弹劾或驱逐他。",
+      "link": "https://www.cnbc.com/2026/04/07/25th-amendment-trump-removal-iran-war.html",
+      "pubDate": "2026-04-07T22:06:26",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers",
       "title_zh": "达美航空(Delta)和西南航空(Southwest)在飞机燃油价格飙升的情况下提高了托运行李费$ 10 ，并加入了其他航空公司的行列",
@@ -9,7 +64,7 @@
       "desc_zh": "达美航空和西南航空正与美联航和捷蓝航空一道提高托运行李费。",
       "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
       "pubDate": "2026-04-07T21:35:09",
-      "relativeTime": "36分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +75,7 @@
       "desc_zh": "作为诉讼的一部分，埃隆·马斯克（ Elon Musk ）正在寻求将OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）和总裁格雷格·布罗克曼（ Greg Brockman ）从公司",
       "link": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
       "pubDate": "2026-04-07T21:21:23",
-      "relativeTime": "49分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +86,7 @@
       "desc_zh": "国防部长皮特·赫格塞特（ Pete Hegseth ）周一将伊朗一名被击落的美国飞行员的救援与耶稣复活的故事进行了比较。",
       "link": "https://www.cnbc.com/2026/04/07/usda-brooke-rollins-easter-jesus-god.html",
       "pubDate": "2026-04-07T21:10:11",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +97,7 @@
       "desc_zh": "利维·施特劳斯（ Levi Strauss ）在顶线和底线上都超出了预期，但其指导意见并未考虑到最近最高法院的关税回调。",
       "link": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
       "pubDate": "2026-04-07T20:10:54",
-      "relativeTime": "46分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +108,7 @@
       "desc_zh": "这是自3月最后一个交易日的救济反弹以来投资者一直在问的问题。",
       "link": "https://www.cnbc.com/2026/04/07/is-it-time-to-buy-tech-again-a-flurry-of-good-news-from-broadcom-may-hold-the-answer.html",
       "pubDate": "2026-04-07T19:35:41",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -64,18 +119,7 @@
       "desc_zh": "该公司发现，有回购自己股票历史的公司可以帮助投资者度过市场动荡时期。",
       "link": "https://www.cnbc.com/2026/04/07/boost-your-portfolio-with-buyback-stocks-wolfe-research-says.html",
       "pubDate": "2026-04-07T19:33:37",
-      "relativeTime": "2小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "ICE agents shoot man in California after he 'weaponized' vehicle, DHS says",
-      "title_zh": "美国国土安全部表示， ICE特工在加利福尼亚州开枪射击“武器化”车辆后的男子",
-      "desc_en": "DHS has faced strong criticism since January, when federal agents engaged in immigration enforcement actions in Minneapolis fatally shot two U.S. citizens.",
-      "desc_zh": "自1月份以来，国土安全部一直面临着强烈的批评，当时在明尼阿波利斯参与移民执法行动的联邦特工致命地射杀了两名美国公民。",
-      "link": "https://www.cnbc.com/2026/04/07/ice-shooting-california.html",
-      "pubDate": "2026-04-07T19:21:57",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,18 +130,7 @@
       "desc_zh": "托德·戈登（ Todd Gordon ）打破了能源技术和这个不为人知的能源名称。",
       "link": "https://www.cnbc.com/2026/04/07/the-chart-on-this-little-known-natural-gas-stock-points-to-even-more-gains-ahead.html",
       "pubDate": "2026-04-07T18:27:42",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Trump praises Hungary PM Viktor Orban after Vance calls him at Budapest rally",
-      "title_zh": "在万斯在布达佩斯集会上打电话给匈牙利总理维克多·奥尔班后，特朗普称赞他",
-      "desc_en": "Vance said he was not there to tell Hungarians how to vote, but later told them to \"go to the polls\" and \"stand with Viktor Orbán, because he stands for you.\"",
-      "desc_zh": "万斯说，他不是在那里告诉匈牙利人如何投票，但后来告诉他们“去投票站”和“支持维克多·奥尔班，因为他代表你”。",
-      "link": "https://www.cnbc.com/2026/04/07/trump-vance-orban-hungary-iran-war.html",
-      "pubDate": "2026-04-07T18:10:55",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +141,7 @@
       "desc_zh": "微软、亚马逊、苹果、CrowdStrike、Palo Alto Networks等公司将使用该模型作为名为Project Glasswing的新网络安全计划的一部分。",
       "link": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
       "pubDate": "2026-04-07T18:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -119,7 +152,7 @@
       "desc_zh": "云计算主管马特·加曼（ Matt Garman ）表示，伊朗战争已经袭击了该地区的亚马逊数据中心，该公司正在全天候处理可用性问题。",
       "link": "https://www.cnbc.com/2026/04/07/aws-iran-threats-us-tech-data-centers.html",
       "pubDate": "2026-04-07T16:56:49",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +163,7 @@
       "desc_zh": "据报道，该公司在可折叠手机的开发方面面临工程挑战，预计将于今年晚些时候推出。",
       "link": "https://www.cnbc.com/2026/04/07/apple-stock-foldable-iphone-report.html",
       "pubDate": "2026-04-07T16:20:25",
-      "relativeTime": "42分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +174,7 @@
       "desc_zh": "克莱斯勒和道奇首席执行官马特·麦卡利尔（ Matt McAlear ）表示，克莱斯勒Pacifica是该品牌的最后一款车型，预计销售额将增长。",
       "link": "https://www.cnbc.com/2026/04/07/chrysler-minivan-stellantis.html",
       "pubDate": "2026-04-07T16:05:39",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +185,7 @@
       "desc_zh": "根据Vlad Tenev的说法， Robinhood的美国财政部合作伙伴关系将有助于推动新兴投资者对该公司的敞口，从而有利于其未来的增长。",
       "link": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
       "pubDate": "2026-04-07T15:47:15",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +196,7 @@
       "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
       "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
       "pubDate": "2026-04-07T14:16:25",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,18 +207,7 @@
       "desc_zh": "二手车价格升至2023年夏季以来的最高点",
       "link": "https://www.cnbc.com/2026/04/07/used-car-prices.html",
       "pubDate": "2026-04-07T13:01:18",
-      "relativeTime": "7小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Trump warns Iran’s ‘whole civilization will die tonight’ unless deal struck",
-      "title_zh": "特朗普警告说，除非达成协议，否则伊朗的“整个文明将在今晚消亡”",
-      "desc_en": "The near closure of the Strait of Hormuz since the war began has led to a historic oil supply shock, which quickly sent global energy prices soaring.",
-      "desc_zh": "自战争开始以来，霍尔木兹海峡几乎关闭，导致历史性的石油供应冲击，迅速导致全球能源价格飙升。",
-      "link": "https://www.cnbc.com/2026/04/07/iran-war-trump-deadline.html",
-      "pubDate": "2026-04-07T12:53:36",
-      "relativeTime": "1小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +218,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -207,7 +229,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +240,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -229,7 +251,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +262,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +273,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -317,17 +339,6 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "AI data center boom ‘stress tests’ insurers as private capital floods in",
-      "title_zh": "随着私人资本大量涌入，人工智能数据中心热潮“压力测试”保险公司",
-      "desc_en": "Rapid technological advancements and the huge sums of money flowing into the data center are posing both risks and rewards for insurers.",
-      "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
-      "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
-      "pubDate": "2026-04-06T05:38:40",
       "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
