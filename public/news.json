@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-07T05:32:57.383792+00:00",
-  "count": 58,
+  "updated_at": "2026-04-07T06:28:20.740506+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "Universal Music set for takeover by Bill Ackman's Pershing Square",
+      "title_zh": "由比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）接",
+      "desc_en": "Bill Ackman's Pershing Square said Universal Music's stock price has \"languished\" due to a range of issues that can be addressed with the merger.",
+      "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
+      "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
+      "pubDate": "2026-04-07T06:21:04",
+      "relativeTime": "7分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "European stocks set to open higher as Iran war deadline unsettles markets",
+      "title_zh": "由于伊朗战争的最后期限扰乱了市场，欧洲股市将开盘走高",
+      "desc_en": "European stocks are set to rise on Tuesday as investors brace themselves ahead of President Trump's deadline for Iran to open the Strait of Hormuz.",
+      "desc_zh": "欧洲股市将于周二上涨，因为投资者在特朗普总统要求伊朗开放霍尔木兹海峡的最后期限之前做好准备。",
+      "link": "https://www.cnbc.com/2026/04/07/european-stocks-set-to-rise-as-iran-war-deadline-unsettles-markets.html",
+      "pubDate": "2026-04-07T06:20:08",
+      "relativeTime": "8分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
       "title_zh": "SpaceX公布IPO细节，目标是6月初的路演：路透社",
@@ -9,7 +31,7 @@
       "desc_zh": "消息人士称，这家由埃隆·马斯克（ Elon Musk ）领导的公司计划在6月8日当周推出路演，届时高管和银行家将向投资者推介IPO。",
       "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
       "pubDate": "2026-04-07T05:13:01",
-      "relativeTime": "19分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "在2024年的丑闻中，中国工人据称是人口贩运和虐待合同的受害者，此后，巴西将中国的比亚迪列入黑名单。",
       "link": "https://www.cnbc.com/2026/04/07/brazil-puts-chinas-byd-on-list-of-shame-for-workers-past-slavery-like-conditions.html",
       "pubDate": "2026-04-07T04:08:51",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,29 +64,7 @@
       "desc_zh": "在特朗普重申周二对伊朗发电厂和桥梁的袭击升级的最后期限之后，原油价格上涨。",
       "link": "https://www.cnbc.com/2026/04/07/crude-oil-prices-today-iran-war-strait-hormuz-tuesday-deadline.html",
       "pubDate": "2026-04-07T00:59:24",
-      "relativeTime": "2小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Asia-Pacific markets open higher as investors assess Trump's mixed messaging on Iran war",
-      "title_zh": "随着投资者评估特朗普关于伊朗战争的混合信息，亚太市场开盘走高",
-      "desc_en": "Trump renewed threats on targeting Iran's civilian infrastructure if a peace deal is not reached in less than 24 hours, while signaling Iranian leadership is negotiating in earnest.",
-      "desc_zh": "如果未能在24小时内达成和平协议，特朗普再次威胁要瞄准伊朗的民用基础设施，同时暗示伊朗领导人正在进行认真的谈判。",
-      "link": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
-      "pubDate": "2026-04-07T00:14:18",
-      "relativeTime": "57分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "CNBC's The China Connection newsletter: Why AI isn't replacing jobs in China (yet)",
-      "title_zh": "CNBC的《The China Connection》时事通讯：为什么人工智能还没有取代中国的工作岗位（尚未）",
-      "desc_en": "Rapid adoption of artificial intelligence has many in Silicon Valley reeling from news of layoffs. Engineers in China appear to be more insulated.",
-      "desc_zh": "人工智能的迅速普及让硅谷的许多人对裁员的消息感到震惊。中国的工程师似乎更具隔离性。",
-      "link": "https://www.cnbc.com/2026/04/07/ai-jobs-layoffs-us-china-engineers-hiring.html",
-      "pubDate": "2026-04-06T23:02:23",
-      "relativeTime": "6小时前",
+      "relativeTime": "43分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,18 +86,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "5小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Epstein files: Commerce Secretary Howard Lutnick set for May 6 interview by House Oversight",
-      "title_zh": "爱泼斯坦档案：商务部长霍华德·拉特尼克（ Howard Lutnick ）定于5月6日接受众",
-      "desc_en": "Commerce Secretary Lutnick originally claimed to have cut off contact with Jeffrey Epstein in 2005. But he and his family had lunch with the predator in 2012.",
-      "desc_zh": "商务部长Lutnick最初声称在2005年切断了与Jeffrey Epstein的联系。但他和他的家人在2012年与捕食者共进午餐。",
-      "link": "https://www.cnbc.com/2026/04/06/jeffrey-epstein-howard-lutnick-house-oversight-interview.html",
-      "pubDate": "2026-04-06T21:22:58",
-      "relativeTime": "8小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +97,7 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +108,7 @@
       "desc_zh": "随着财报季的开始，除了标题数字之外，还有其他变量需要记住。",
       "link": "https://www.cnbc.com/2026/04/06/a-great-earnings-season-is-likely-around-the-corner-will-it-matter-to-the-market-.html",
       "pubDate": "2026-04-06T20:06:48",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +119,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +130,7 @@
       "desc_zh": "杰富瑞表示，如果伊朗战争拖延的时间超过预期，投资者可能希望考虑支付股息的防御性股票。",
       "link": "https://www.cnbc.com/2026/04/06/play-defense-with-these-dividend-stocks-says-jefferies.html",
       "pubDate": "2026-04-06T19:50:03",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +141,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,18 +152,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
       "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "10小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Zohran Mamdani and the business exodus? New York's office real estate market is up under new mayor",
-      "title_zh": "Zohran Mamdani和商业外流？纽约办公室房地产市场在新市长的领导下上涨",
-      "desc_en": "Reports Apollo Global Management is planning a second HQ in the US South renewed debate over a business exodus under NYC Mayor Mamdani. Data doesn't support it.",
-      "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
-      "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
-      "pubDate": "2026-04-06T15:31:45",
-      "relativeTime": "14小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +163,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "8小时前",
+      "relativeTime": "9小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +174,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +185,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +196,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -229,7 +207,18 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "'Silent killers': How AI start-ups are trying to solve one of the retail industry's biggest problems",
+      "title_zh": "“无声杀手” ：人工智能初创企业如何试图解决零售业最大的问题之一",
+      "desc_en": "The rapid evolution of generative AI has finally made these applications good enough to meaningfully impact retailers' bottom lines.",
+      "desc_zh": "生成式人工智能的快速发展终于使这些应用程序足以对零售商的底线产生有意义的影响。",
+      "link": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+      "pubDate": "2026-04-06T08:18:20",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +229,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
