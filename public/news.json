@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-06T23:10:21.330701+00:00",
-  "count": 57,
+  "updated_at": "2026-04-07T00:15:56.164890+00:00",
+  "count": 58,
   "items": [
+    {
+      "title_en": "Asia-Pacific markets open higher as investors assess Trump's mixed messaging on Iran war",
+      "title_zh": "随着投资者评估特朗普关于伊朗战争的混合信息，亚太市场开盘走高",
+      "desc_en": "Trump renewed threats on targeting Iran's civilian infrastructure if a peace deal is not reached in less than 24 hours, while signaling Iranian leadership is negotiating in earnest.",
+      "desc_zh": "如果未能在24小时内达成和平协议，特朗普再次威胁要瞄准伊朗的民用基础设施，同时暗示伊朗领导人正在进行认真的谈判。",
+      "link": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
+      "pubDate": "2026-04-07T00:14:18",
+      "relativeTime": "1分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "New Jersey cannot regulate Kalshi's prediction market, U.S. appeals court rules",
+      "title_zh": "新泽西州无法监管Kalshi的预测市场，美国上诉法院规则",
+      "desc_en": "The ruling marked the first time a federal appeals court has ruled on what has become the central issue in an escalating battle over the ability of state gaming regulators to police the activity of pr",
+      "desc_zh": "这项裁决标志着联邦上诉法院首次就州博彩监管机构监管公关活动能力的不断升级的斗争中的核心问题作出裁决。",
+      "link": "https://www.cnbc.com/2026/04/07/new-jersey-cannot-regulate-kalshis-prediction-market-us-appeals-court-rules.html",
+      "pubDate": "2026-04-06T23:41:47",
+      "relativeTime": "34分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "CNBC's The China Connection newsletter: Why AI isn't replacing jobs in China (yet)",
       "title_zh": "CNBC的《The China Connection》时事通讯：为什么人工智能还没有取代中国的工作岗位（尚未）",
@@ -9,7 +31,7 @@
       "desc_zh": "人工智能的迅速普及让硅谷的许多人对裁员的消息感到震惊。中国的工程师似乎更具隔离性。",
       "link": "https://www.cnbc.com/2026/04/07/ai-jobs-layoffs-us-china-engineers-hiring.html",
       "pubDate": "2026-04-06T23:02:23",
-      "relativeTime": "7分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +42,7 @@
       "desc_zh": "CNBC的吉姆·克莱默（ Jim Cramer ）表示，投资者不应该习惯于称市场触底，因为这个市场的真正驱动力不是地缘政治。",
       "link": "https://www.cnbc.com/2026/04/06/jim-cramer-stock-market-bottom-interest-rates-war.html",
       "pubDate": "2026-04-06T22:25:46",
-      "relativeTime": "44分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +53,7 @@
       "desc_zh": "周一，由于投资者押注中东冲突即将结束，股市走高。",
       "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
       "pubDate": "2026-04-06T22:04:53",
-      "relativeTime": "17分钟前",
+      "relativeTime": "51分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "53分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "商务部长Lutnick最初声称在2005年切断了与Jeffrey Epstein的联系。但他和他的家人在2012年与捕食者共进午餐。",
       "link": "https://www.cnbc.com/2026/04/06/jeffrey-epstein-howard-lutnick-house-oversight-interview.html",
       "pubDate": "2026-04-06T21:22:58",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +86,7 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +97,7 @@
       "desc_zh": "随着财报季的开始，除了标题数字之外，还有其他变量需要记住。",
       "link": "https://www.cnbc.com/2026/04/06/a-great-earnings-season-is-likely-around-the-corner-will-it-matter-to-the-market-.html",
       "pubDate": "2026-04-06T20:06:48",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "杰富瑞表示，如果伊朗战争拖延的时间超过预期，投资者可能希望考虑支付股息的防御性股票。",
       "link": "https://www.cnbc.com/2026/04/06/play-defense-with-these-dividend-stocks-says-jefferies.html",
       "pubDate": "2026-04-06T19:50:03",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +130,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +141,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
       "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +152,7 @@
       "desc_zh": "据报道，阿波罗全球管理公司正在计划在美国南部的第二个总部重新就纽约市市长Mamdani领导下的业务外流展开辩论。数据不支持它。",
       "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html",
       "pubDate": "2026-04-06T15:31:45",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,18 +163,7 @@
       "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
       "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-06T14:50:21",
-      "relativeTime": "2小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Robinhood, BNY to build Trump Accounts app",
-      "title_zh": "纽约州罗宾汉市开发特朗普账户应用程序",
-      "desc_en": "The Treasury Department designated BNY as the financial agent to manage Trump accounts. BNY will also partner with Robinhood on a Trump accounts app.",
-      "desc_zh": "财政部指定BNY为管理特朗普账户的金融代理人。BNY还将在特朗普账户应用程序上与Robinhood合作。",
-      "link": "https://www.cnbc.com/2026/04/06/treasury-trump-accounts-bny-robinhood.html",
-      "pubDate": "2026-04-06T14:49:06",
-      "relativeTime": "6小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +174,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +185,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +196,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +218,7 @@
       "desc_zh": "印度在七年后恢复从伊朗进口石油和天然气，以重新平衡与德黑兰的关系，并确保通过霍尔木兹海峡的供应。",
       "link": "https://www.cnbc.com/2026/04/06/india-iran-oil-imports-strait-hormuz-us-tensions.html",
       "pubDate": "2026-04-06T07:43:06",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +229,7 @@
       "desc_zh": "快速的技术进步和流入数据中心的大量资金给保险公司带来了风险和回报。",
       "link": "https://www.cnbc.com/2026/04/06/ai-data-centers-financing-insurance-deals-gpu-debt.html",
       "pubDate": "2026-04-06T05:38:40",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
