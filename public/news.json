@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-04-07T10:20:43.703034+00:00",
-  "count": 56,
+  "updated_at": "2026-04-07T11:19:25.390455+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "Time to buy shares of Morgan Stanley, says UBS",
+      "title_zh": "瑞银表示，是时候购买摩根士丹利股票了",
+      "desc_en": "UBS upgraded Morgan Stanley to buy from neutral.",
+      "desc_zh": "瑞银将摩根士丹利评级升级为从中性买入。",
+      "link": "https://www.cnbc.com/2026/04/07/time-to-buy-shares-of-morgan-stanley-says-ubs.html",
+      "pubDate": "2026-04-07T11:05:22",
+      "relativeTime": "13分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Novo Nordisk's explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
+      "title_zh": "诺和诺德推出爆炸性Wegovy药丸，吸引新一波患者接受GLP-1减肥治疗",
+      "desc_en": "CNBC spoke with five U.S. patients who recently started the pill following its launch and have varying initial experiences with the drug.",
+      "desc_zh": "CNBC采访了五名美国患者，他们最近在推出该药后开始服用，并且对这种药物的初步体验各不相同。",
+      "link": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
+      "pubDate": "2026-04-07T11:00:01",
+      "relativeTime": "19分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Broadcom shares jump before the bell as chipmaker agrees Google and Anthropic deals",
+      "title_zh": "随着芯片制造商同意谷歌和Anthropic的交易， Broadcom股价在铃声之前上涨",
+      "desc_en": "Broadcom shares rose in premarket trading as the chip designer announced an extension to its deal with Google on Monday.",
+      "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
+      "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
+      "pubDate": "2026-04-07T10:30:23",
+      "relativeTime": "49分钟前",
+      "category": "科技",
+      "source": "CNBC TECHNOLOGY"
+    },
+    {
+      "title_en": "ASML shares fall after proposed U.S. export curbs target an already fragile China market",
+      "title_zh": "在拟议的美国出口限制针对已经脆弱的中国市场后， ASML股价下跌",
+      "desc_en": "Proposed U.S. restrictions would target ASML's deep ultraviolet (DUV) lithography machine, which Chinese companies have so far been able to access.",
+      "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
+      "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
+      "pubDate": "2026-04-07T10:26:22",
+      "relativeTime": "52分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "'The thaw is real': Indian delegation visits China to talk EVs and more",
       "title_zh": "“解冻是真实的” ：印度代表团访问中国谈论电动汽车等",
@@ -9,7 +53,7 @@
       "desc_zh": "由于伊朗战争扰乱了能源流动，印度公司五年来首次访问中国，寻求电动汽车、电池和可再生能源的合作。",
       "link": "https://www.cnbc.com/2026/04/07/india-china-relations-ease-iran-war-ev.html",
       "pubDate": "2026-04-07T10:07:32",
-      "relativeTime": "13分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +64,18 @@
       "desc_zh": "CNBC的住房市场调查发现，第一季度购房者更关心的是经济和抵押贷款利率，而不是房价。",
       "link": "https://www.cnbc.com/2026/04/07/cnbc-housing-market-survey-iran-war-spring-housing.html",
       "pubDate": "2026-04-07T09:53:35",
-      "relativeTime": "27分钟前",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+      "title_zh": "SpaceX公布IPO细节，目标是6月初的路演：路透社",
+      "desc_en": "The Elon Musk-led company plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO to investors, sources said.",
+      "desc_zh": "消息人士称，这家由埃隆·马斯克（ Elon Musk ）领导的公司计划在6月8日当周推出路演，届时高管和银行家将向投资者推介IPO。",
+      "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+      "pubDate": "2026-04-07T09:11:32",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +86,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
       "pubDate": "2026-04-07T09:06:55",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +97,7 @@
       "desc_zh": "欧尔班（ Viktor Orbán ）曾表示，欧盟对匈牙利的威胁大于俄罗斯。随着选举失败的临近，美国副总统JD万斯正在访问支持他。",
       "link": "https://www.cnbc.com/2026/04/07/jd-vance-visits-hungary-viktor-orban-trump-russia-eu.html",
       "pubDate": "2026-04-07T08:59:33",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +108,7 @@
       "desc_zh": "比尔·阿克曼（ Bill Ackman ）的潘兴广场（ Pershing Square ）表示，由于合并可以解决的一系列问题，环球音乐的股价已经“萎靡不振”。",
       "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
       "pubDate": "2026-04-07T06:21:04",
-      "relativeTime": "3分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +119,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +130,7 @@
       "desc_zh": "CNBC的吉姆·克莱默（ Jim Cramer ）表示，投资者不应该习惯于称市场触底，因为这个市场的真正驱动力不是地缘政治。",
       "link": "https://www.cnbc.com/2026/04/06/jim-cramer-stock-market-bottom-interest-rates-war.html",
       "pubDate": "2026-04-06T22:25:46",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +141,7 @@
       "desc_zh": "周一，由于投资者押注中东冲突即将结束，股市走高。",
       "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
       "pubDate": "2026-04-06T22:04:53",
-      "relativeTime": "20分钟前",
+      "relativeTime": "18分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +152,7 @@
       "desc_zh": "博通表示，它同意生产未来版本的谷歌人工智能芯片，并宣布与Anthropic扩大交易。",
       "link": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
       "pubDate": "2026-04-06T21:58:23",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,17 +163,17 @@
       "desc_zh": "特朗普政府将在2027年将Medicare Advantage的平均支付额增加2.48% ，即超过130亿美元（ $ ）。",
       "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
       "pubDate": "2026-04-06T21:16:40",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
     {
-      "title_en": "A great earnings season is likely around the corner. Will it matter to the market?",
-      "title_zh": "赚取丰厚收入的季节可能即将到来。这对市场重要吗？",
-      "desc_en": "There are other variables to keep in mind beyond the headline numbers as earnings season kicks off.",
-      "desc_zh": "随着财报季的开始，除了标题数字之外，还有其他变量需要记住。",
-      "link": "https://www.cnbc.com/2026/04/06/a-great-earnings-season-is-likely-around-the-corner-will-it-matter-to-the-market-.html",
-      "pubDate": "2026-04-06T20:06:48",
+      "title_en": "Trump says Iran ceasefire proposal 'significant' but 'not good enough' as Hormuz Strait deadline nears",
+      "title_zh": "特朗普表示，随着霍尔木兹海峡最后期限的临近，伊朗停火提案“意义重大”但“还不够好”",
+      "desc_en": "The 45-day ceasefire proposal, which could lead to an end to the war, is reportedly being discussed by the U.S., Iran and a group of regional mediators.",
+      "desc_zh": "据报道，美国、伊朗和一组地区调解人正在讨论为期45天的停火提案，该提案可能会导致战争的结束。",
+      "link": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
+      "pubDate": "2026-04-06T20:36:24",
       "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -130,7 +185,7 @@
       "desc_zh": "OpenAI致函加利福尼亚州和特拉华州总检察长，敦促他们调查埃隆·马斯克及其同事的“反竞争行为”。",
       "link": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
       "pubDate": "2026-04-06T20:00:20",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,29 +196,7 @@
       "desc_zh": "Citrini Research表示，它派遣一名分析师前往阿曼的穆桑丹半岛，在那里他乘船前往观察航运活动。",
       "link": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "pubDate": "2026-04-06T18:51:33",
-      "relativeTime": "13小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Artemis II breaks Apollo 13’s distance record as humans travel farther from Earth than ever before",
-      "title_zh": "阿耳忒弥斯二号打破阿波罗13号的距离记录，人类离地球的距离比以往任何时候都要远",
-      "desc_en": "",
-      "desc_zh": "",
-      "link": "https://www.cnbc.com/2026/04/06/artemis-ii-breaks-apollo-13s-distance-record.html",
-      "pubDate": "2026-04-06T18:41:21",
-      "relativeTime": "15小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Average tax refund is up $350 compared to last year as IRS deadline approaches",
-      "title_zh": "随着美国国税局截止日期的临近，平均退税金额比去年增加了350 $",
-      "desc_en": "The average IRS tax refund is up $350 compared to last year, based on the latest filing data. Here's what to expect for your return.",
-      "desc_zh": "根据最新的申报数据，美国国税局的平均退税额比去年增加了350 $。以下是您对退货的期望。",
-      "link": "https://www.cnbc.com/2026/04/06/average-tax-refund.html",
-      "pubDate": "2026-04-06T17:18:19",
-      "relativeTime": "17小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +207,7 @@
       "desc_zh": "高盛(Goldman Sachs)表示，微软可能会看到将人工智能整合到其365产品中的一些好处。",
       "link": "https://www.cnbc.com/2026/04/06/goldman-expects-a-rebound-for-mag-7-underperformer-microsoft.html",
       "pubDate": "2026-04-06T14:17:54",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +218,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +229,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
       "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -207,7 +240,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -306,28 +339,6 @@
       "desc_zh": "近年来，随着军方争先恐后地进行现代化改造，国防初创企业的资金激增。",
       "link": "https://www.cnbc.com/2026/04/03/the-tech-download-defense-startups-eye-iran-war-windfall.html",
       "pubDate": "2026-04-03T11:00:01",
-      "relativeTime": "3天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank",
-      "title_zh": "日本樱花互联网上涨20% ，微软计划与软银合作推出$ 100亿人工智能",
-      "desc_en": "Microsoft said it plans to invest $10 billion in Japan between 2026 and 2029 to build AI infrastructure.",
-      "desc_zh": "微软表示，计划在2026年至2029年期间在日本投资100亿美元，用于建设人工智能基础设施。",
-      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
-      "pubDate": "2026-04-03T05:19:48",
-      "relativeTime": "4天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
-      "title_zh": "中国芯片公司在人工智能繁荣和美国限制的推动下实现创纪录的高收入",
-      "desc_en": "Chinese chip companies have benefited from strong domestic demand for AI as U.S. tech curbs have bolstered local firms.",
-      "desc_zh": "中国芯片公司受益于国内对人工智能的强劲需求，因为美国的技术限制提振了当地公司。",
-      "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
-      "pubDate": "2026-04-03T05:00:01",
       "relativeTime": "4天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
