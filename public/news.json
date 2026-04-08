@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-08T06:29:08.561196+00:00",
-  "count": 59,
+  "updated_at": "2026-04-08T07:30:48.831867+00:00",
+  "count": 58,
   "items": [
+    {
+      "title_en": "Asian tech stocks surge as U.S.-Iran cease fire ease Hormuz disruption worries",
+      "title_zh": "亚洲科技股飙升，美伊停火缓解霍尔木兹中断担忧",
+      "desc_en": "Shares of Asian tech and semiconductor comoanies surged on the news that the U.S. and Iran agreed to a conditional two-week ceasefire.",
+      "desc_zh": "美国和伊朗同意有条件停火两周的消息传出，亚洲科技和半导体公司股价飙升。",
+      "link": "https://www.cnbc.com/2026/04/08/asian-chip-stocks-surge-us-iran-ceasefire-helium-supply-relief.html",
+      "pubDate": "2026-04-08T06:47:47",
+      "relativeTime": "43分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "CNBC Daily Open: Trump's truce sparks global relief rally",
       "title_zh": "CNBC每日公开赛：特朗普休战引发全球救济反弹",
@@ -9,18 +20,7 @@
       "desc_zh": "随着特朗普政府和德黑兰同意为期两周的停火，股票期货飙升，油价暴跌。",
       "link": "https://www.cnbc.com/2026/04/08/cnbc-daily-open-trumps-truce-sparks-global-relief-rally.html",
       "pubDate": "2026-04-08T06:14:50",
-      "relativeTime": "14分钟前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "European stocks set to soar after U.S.-Iran ceasefire deal",
-      "title_zh": "美国-伊朗停火协议达成后，欧洲股市将飙升",
-      "desc_en": "European stocks are expected to open sharply higher on Wednesday following news of the U.S. and Iran's ceasefire deal.",
-      "desc_zh": "在美国和伊朗达成停火协议的消息传出后，欧洲股市预计周三将大幅上涨。",
-      "link": "https://www.cnbc.com/2026/04/08/european-markets-ftse-dax-cac-ftsemib-ibex-react-to-iran-us-ceasefire-deal.html",
-      "pubDate": "2026-04-08T05:10:53",
-      "relativeTime": "39分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +31,7 @@
       "desc_zh": "随着能源成本上升和供应中断加剧，印度央行需要权衡伊朗战争带来的增长风险和通胀压力。",
       "link": "https://www.cnbc.com/2026/04/08/rbi-rate-iran-war-inflation.html",
       "pubDate": "2026-04-08T04:46:27",
-      "relativeTime": "1小时前",
+      "relativeTime": "56分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +42,7 @@
       "desc_zh": "美国和伊朗之间为期两周的停火引发了风险资产的广泛救济反弹，甚至提振了传统的避风港。",
       "link": "https://www.cnbc.com/2026/04/08/us-iran-ceasefire-gold-oil-stocks-treasuries.html",
       "pubDate": "2026-04-08T03:17:12",
-      "relativeTime": "10分钟前",
+      "relativeTime": "3分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +53,7 @@
       "desc_zh": "周三，在美国和伊朗宣布为期两周的停火后数小时内，许多中东国家继续报告来自伊朗的弹道导弹和无人机。",
       "link": "https://www.cnbc.com/2026/04/08/iran-missile-attacks-after-us-ceasefire-gulf-air-defenses.html",
       "pubDate": "2026-04-08T02:38:22",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +64,7 @@
       "desc_zh": "在唐纳德·特朗普总统宣布与伊朗达成为期两周的停火协议以及德黑兰发出霍尔木兹海峡重新开放的信号后，市场欣喜若狂。",
       "link": "https://www.cnbc.com/2026/04/08/daily-open-trump-iran-pause-strait-hormuz-oil-markets.html",
       "pubDate": "2026-04-08T01:44:17",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +75,7 @@
       "desc_zh": "在唐纳德·特朗普总统表示同意将计划对伊朗基础设施的袭击暂停两周后，亚太市场开盘走高。",
       "link": "https://www.cnbc.com/2026/04/08/asia-markets-today-trump-iran-war-kospi-nikkei-225-oil-hang-seng-index.html",
       "pubDate": "2026-04-08T00:11:53",
-      "relativeTime": "2小时前",
+      "relativeTime": "14分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +86,7 @@
       "desc_zh": "标准普尔500指数周二大幅下跌，收于正值区域，因投资者对中东冲突的近期解决方案越来越乐观。",
       "link": "https://www.cnbc.com/2026/04/07/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html",
       "pubDate": "2026-04-07T23:22:19",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +97,7 @@
       "desc_zh": "唐纳德·特朗普总统曾威胁说，如果不遵守美国东部时间晚上8点重新开放霍尔木兹海峡的最后期限，他将摧毁伊朗的整个文明。",
       "link": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
       "pubDate": "2026-04-07T23:10:40",
-      "relativeTime": "14分钟前",
+      "relativeTime": "18分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +108,7 @@
       "desc_zh": "巴基斯坦总理谢赫巴兹·谢里夫（ Shehbaz Sharif ）曾要求特朗普将伊朗的最后期限延迟两周，并要求霍尔木兹海峡在同一时期开放。",
       "link": "https://www.cnbc.com/2026/04/07/trump-iran-ceasefire-hormuz-strait.html",
       "pubDate": "2026-04-07T22:57:55",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +119,7 @@
       "desc_zh": "Alphabet是一些价值最高的私营公司的投资者，包括SpaceX、Anthropic和Stripe。",
       "link": "https://www.cnbc.com/2026/04/07/google-ceo-pichai-says-ai-shift-opens-opportunities-invest-startups.html",
       "pubDate": "2026-04-07T22:24:13",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +130,7 @@
       "desc_zh": "作为诉讼的一部分，埃隆·马斯克（ Elon Musk ）正在寻求将OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）和总裁格雷格·布罗克曼（ Greg Brockman ）从公司",
       "link": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
       "pubDate": "2026-04-07T21:21:23",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +141,7 @@
       "desc_zh": "这是自3月最后一个交易日的救济反弹以来投资者一直在问的问题。",
       "link": "https://www.cnbc.com/2026/04/07/is-it-time-to-buy-tech-again-a-flurry-of-good-news-from-broadcom-may-hold-the-answer.html",
       "pubDate": "2026-04-07T19:35:41",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -152,7 +152,7 @@
       "desc_zh": "该公司发现，有回购自己股票历史的公司可以帮助投资者度过市场动荡时期。",
       "link": "https://www.cnbc.com/2026/04/07/boost-your-portfolio-with-buyback-stocks-wolfe-research-says.html",
       "pubDate": "2026-04-07T19:33:37",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +163,7 @@
       "desc_zh": "托德·戈登（ Todd Gordon ）打破了能源技术和这个不为人知的能源名称。",
       "link": "https://www.cnbc.com/2026/04/07/the-chart-on-this-little-known-natural-gas-stock-points-to-even-more-gains-ahead.html",
       "pubDate": "2026-04-07T18:27:42",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +174,7 @@
       "desc_zh": "微软、亚马逊、苹果、CrowdStrike、Palo Alto Networks等公司将使用该模型作为名为Project Glasswing的新网络安全计划的一部分。",
       "link": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
       "pubDate": "2026-04-07T18:00:01",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -185,7 +185,7 @@
       "desc_zh": "云计算主管马特·加曼（ Matt Garman ）表示，伊朗战争已经袭击了该地区的亚马逊数据中心，该公司正在全天候处理可用性问题。",
       "link": "https://www.cnbc.com/2026/04/07/aws-iran-threats-us-tech-data-centers.html",
       "pubDate": "2026-04-07T16:56:49",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +196,7 @@
       "desc_zh": "据报道，该公司在可折叠手机的开发方面面临工程挑战，预计将于今年晚些时候推出。",
       "link": "https://www.cnbc.com/2026/04/07/apple-stock-foldable-iphone-report.html",
       "pubDate": "2026-04-07T16:20:25",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +207,7 @@
       "desc_zh": "克莱斯勒和道奇首席执行官马特·麦卡利尔（ Matt McAlear ）表示，克莱斯勒Pacifica是该品牌的最后一款车型，预计销售额将增长。",
       "link": "https://www.cnbc.com/2026/04/07/chrysler-minivan-stellantis.html",
       "pubDate": "2026-04-07T16:05:39",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +218,7 @@
       "desc_zh": "根据Vlad Tenev的说法， Robinhood的美国财政部合作伙伴关系将有助于推动新兴投资者对该公司的敞口，从而有利于其未来的增长。",
       "link": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
       "pubDate": "2026-04-07T15:47:15",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +229,7 @@
       "desc_zh": "阿耳忒弥斯2号打破了人类从地球旅行的最远距离记录，并为载人登月奠定了基础。",
       "link": "https://www.cnbc.com/2026/04/07/artemis-ii-moon-eclipse-sun-nasa.html",
       "pubDate": "2026-04-07T14:16:25",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +240,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/07/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-07T12:14:21",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -251,7 +251,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -262,7 +262,7 @@
       "desc_zh": "博通股价在盘前交易中上涨，因为这家芯片设计公司周一宣布延长与谷歌的交易。",
       "link": "https://www.cnbc.com/2026/04/07/broadcom-shares-jump-before-bell-google-deal.html",
       "pubDate": "2026-04-07T10:30:23",
-      "relativeTime": "10小时前",
+      "relativeTime": "47分钟前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -273,7 +273,7 @@
       "desc_zh": "美国提出的限制措施将针对ASML的深紫外线（ DUV ）光刻机，中国公司迄今为止已经能够获得该光刻机。",
       "link": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
       "pubDate": "2026-04-07T10:26:22",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -284,7 +284,7 @@
       "desc_zh": "三星电子预测第一季度营业利润创纪录，远高于分析师对人工智能内存芯片需求蓬勃发展的预期。",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
       "pubDate": "2026-04-07T02:35:32",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -342,17 +342,6 @@
       "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Hope for a U.S.-Iran deal, Apple's anniversary, OpenAI's podcast deal and more in Morning Squawk",
-      "title_zh": "希望在Morning Squawk达成美伊协议、苹果周年纪念日、OpenAI的播客协议等",
-      "desc_en": "Here are five key things investors need to know to start the trading day.",
-      "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
-      "link": "https://www.cnbc.com/2026/04/06/5-things-to-know-before-the-bell-monday.html",
-      "pubDate": "2026-04-06T11:43:34",
-      "relativeTime": "1天前",
-      "category": "科技",
-      "source": "CNBC TECHNOLOGY"
     },
     {
       "title_en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
@@ -625,7 +614,7 @@
       "desc_zh": "这一消息发布之际，伊朗战争扰乱了全球石油和天然气供应，使美国开发液化天然气资源变得更加紧迫。",
       "link": "https://www.cnbc.com/2026/03/24/us-to-pay-totalenergies-1-billion-to-kill-east-coast-wind-projects.html",
       "pubDate": "2026-03-24T07:26:02",
-      "relativeTime": "14天前",
+      "relativeTime": "15天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
