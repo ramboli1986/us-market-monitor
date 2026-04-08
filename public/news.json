@@ -1,7 +1,40 @@
 {
-  "updated_at": "2026-04-08T19:29:49.085715+00:00",
-  "count": 56,
+  "updated_at": "2026-04-08T20:11:24.755688+00:00",
+  "count": 57,
   "items": [
+    {
+      "title_en": "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement",
+      "title_zh": "根据美伊停火协议，美国原油价格创下2020年以来最大单日跌幅",
+      "desc_en": "President Donald Trump agreed to the ceasefire with Iran after talks with Pakistan Prime Minister Shehbaz Sharif.",
+      "desc_zh": "唐纳德·特朗普总统在与巴基斯坦总理谢赫巴兹·谢里夫会谈后同意与伊朗停火。",
+      "link": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
+      "pubDate": "2026-04-08T20:03:32",
+      "relativeTime": "7分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Pirro's Powell probe faces a difficult road to appeal, former prosecutors say",
+      "title_zh": "前检察官说，皮罗的鲍威尔调查面临着艰难的上诉之路",
+      "desc_en": "Federal Reserve chair nominee Kevin Warsh may be in limbo while the legal process plays out.",
+      "desc_zh": "美联储主席提名人凯文·沃什（ Kevin Warsh ）可能在法律程序结束时陷入困境。",
+      "link": "https://www.cnbc.com/2026/04/08/fed-jeanine-pirro-fed-jerome-powell-appeal-kevin-warsh.html",
+      "pubDate": "2026-04-08T19:50:27",
+      "relativeTime": "20分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Rep. Ritchie Torres calls for probe into futures trades placed ahead March pause on Iran hostilities",
+      "title_zh": "众议员里奇·托雷斯（ Ritchie Torres ）呼吁对3月前暂停伊朗敌对行动的期货交易进行调查",
+      "desc_en": "Oil and energy futures trading before President Donald Trump announced a pause in Iran attacks in March raises insider trading concerns, Torres told regulators.",
+      "desc_zh": "托雷斯告诉监管机构，在唐纳德·特朗普总统3月宣布暂停伊朗袭击之前，石油和能源期货交易引发了内幕交易担忧。",
+      "link": "https://www.cnbc.com/2026/04/08/iran-ceasefire-futures-markets-ritchie-torrres.html",
+      "pubDate": "2026-04-08T19:43:18",
+      "relativeTime": "28分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "U.S. has violated ceasefire agreement, Iran parliamentary speaker says",
       "title_zh": "伊朗议会议长说，美国违反了停火协议",
@@ -9,7 +42,7 @@
       "desc_zh": "美国和伊朗之间为期两周的停火协议似乎在宣布后不到一天就面临解体的风险。",
       "link": "https://www.cnbc.com/2026/04/08/ceasefire-iran-war-lebanon.html",
       "pubDate": "2026-04-08T19:27:29",
-      "relativeTime": "2分钟前",
+      "relativeTime": "9分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +53,18 @@
       "desc_zh": "特朗普表示， “双面”停火取决于伊朗同意开放霍尔木兹海峡。",
       "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
       "pubDate": "2026-04-08T19:24:35",
-      "relativeTime": "5分钟前",
+      "relativeTime": "刚刚",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Gas prices should soon start slowly easing if ceasefire holds, analysts say",
+      "title_zh": "分析师表示，如果停火得以维持，天然气价格应该很快就会开始缓慢放缓",
+      "desc_en": "With oil prices plunging after the U.S. and Iran agreed to a two-week ceasefire, gas prices at the pump might soon follow, at least for now.",
+      "desc_zh": "随着美国和伊朗同意停火两周后油价暴跌，该泵的天然气价格可能很快就会随之而来，至少目前是这样。",
+      "link": "https://www.cnbc.com/2026/04/08/gas-prices-should-soon-start-easing-if-ceasefire-holds-analysts-say.html",
+      "pubDate": "2026-04-08T19:22:39",
+      "relativeTime": "48分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +75,7 @@
       "desc_zh": "根据Trivariate Research的数据，由于股息收益率与过去不同，投资者应该明智地选择投资，以实现回报最大化。",
       "link": "https://www.cnbc.com/2026/04/08/buy-these-dividend-stocks-poised-to-raise-payouts-again-says-trivariates-adam-parker-.html",
       "pubDate": "2026-04-08T19:00:01",
-      "relativeTime": "29分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +86,7 @@
       "desc_zh": "《纽约时报》的一篇报道称，它已经发现了比特币的化名创造者中本聪的身份。",
       "link": "https://www.cnbc.com/2026/04/08/latest-investigation-of-bitcoin-founder-ties-identity-to-blockstream-ceo-adam-back.html",
       "pubDate": "2026-04-08T18:26:24",
-      "relativeTime": "1小时前",
+      "relativeTime": "8分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +130,7 @@
       "desc_zh": "派拉蒙总裁杰夫·谢尔（ Jeff Shell ）在诉讼指控他违反美国证券交易委员会（ SEC ）规则后离职。",
       "link": "https://www.cnbc.com/2026/04/08/jeff-shell-paramount.html",
       "pubDate": "2026-04-08T17:58:13",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,29 +141,7 @@
       "desc_zh": "越来越多的投资者开始相信特朗普的升级策略遵循熟悉的脚本。",
       "link": "https://www.cnbc.com/2026/04/08/trump-taco-many-on-wall-street-saw-this-stock-rally-coming.html",
       "pubDate": "2026-04-08T17:52:47",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "There's a key number to know before making a last-minute IRA contribution by April 15",
-      "title_zh": "在4月15日前临时缴纳IRA之前，您需要了解一个关键数字",
-      "desc_en": "There's still time for a last-minute IRA contribution for 2025. But there are key things to know before making a deposit, experts say.",
-      "desc_zh": "现在还有时间为2025年提供临时IRA捐款。但专家表示，存款前需要了解一些关键信息。",
-      "link": "https://www.cnbc.com/2026/04/08/ira-contribution-deadline-april-15.html",
-      "pubDate": "2026-04-08T17:51:09",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Democrats romp in Wisconsin Supreme Court race, narrow margins in Georgia",
-      "title_zh": "民主党人在威斯康星州最高法院竞选中嬉戏，佐治亚州利润狭窄",
-      "desc_en": "Republicans held on to a  safe Georgia House seat vacated by former Rep. Marjorie Taylor Greene.",
-      "desc_zh": "共和党人保留了前众议员马乔里·泰勒·格林（ Marjorie Taylor Greene ）空出的安全的佐治亚州众议院",
-      "link": "https://www.cnbc.com/2026/04/08/elections-2026-democrats-wisconsin-supreme-court-georgia.html",
-      "pubDate": "2026-04-08T17:33:54",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +163,7 @@
       "desc_zh": "Meta推出了第一个主要的大型语言模型Muse Spark ，由Meta Superintelligence Labs的首席人工智能官Alexandr Wang领导。",
       "link": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
       "pubDate": "2026-04-08T16:22:08",
-      "relativeTime": "41分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +174,7 @@
       "desc_zh": "与过去导致网络和技术销售的人类公告不同，这次是呼吸新鲜空气。",
       "link": "https://www.cnbc.com/2026/04/08/anthropic-gives-our-cyber-stocks-and-other-big-tech-names-an-ai-stamp-of-approval.html",
       "pubDate": "2026-04-08T16:02:15",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -163,7 +185,7 @@
       "desc_zh": "唐纳德·特朗普总统的伊朗停火公告为华尔街和科技股提供了一些解脱。",
       "link": "https://www.cnbc.com/2026/04/08/alphabet-nvidia-microsoft-tech-stocks-iran-ceasefire.html",
       "pubDate": "2026-04-08T14:31:05",
-      "relativeTime": "3小时前",
+      "relativeTime": "8分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +196,7 @@
       "desc_zh": "马萨诸塞州楠塔基特市几乎所有活跃房源的价格都至少为100万美元（ $ 100万）。",
       "link": "https://www.cnbc.com/2026/04/08/us-housing-markets-million-dollar-listing.html",
       "pubDate": "2026-04-08T14:10:01",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "芝加哥商品交易所集团(CME Group)的数据显示，周三上午降价的几率大幅上升，达到约43%。",
       "link": "https://www.cnbc.com/2026/04/08/markets-shift-back-towards-potential-fed-rate-cut-this-year-with-iran-ceasefire-in-place.html",
       "pubDate": "2026-04-08T13:21:40",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -201,24 +223,13 @@
       "source": "CNBC TECHNOLOGY"
     },
     {
-      "title_en": "Trump threatens tariffs of 50% on countries 'supplying military weapons to Iran'",
-      "title_zh": "特朗普威胁对“向伊朗供应军事武器”的国家征收50%的关税",
-      "desc_en": "President Donald Trump says the U.S. will impose tariffs of 50% on goods imported to the country from any nation \"supplying military weapons to Iran\".",
-      "desc_zh": "唐纳德特朗普总统表示，美国将对从“向伊朗供应军事武器”的任何国家进口到该国的商品征收50 ％的关税。",
-      "link": "https://www.cnbc.com/2026/04/08/trump-threatens-tariffs-countries-supplying-weapons-iran-ceasefire.html",
-      "pubDate": "2026-04-08T12:11:34",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
       "title_en": "AI's next bottleneck: Why even the best chips made in the U.S. take a round trip to Taiwan",
       "title_zh": "人工智能的下一个瓶颈：为什么即使是美国制造的最好的芯片也要往返台湾",
       "desc_en": "Nvidia has reserved the majority of TSMC’s most advanced packaging capacity. The lesser-known chipmaking step may become the next bottleneck for AI.",
       "desc_zh": "英伟达保留了台积电大部分最先进的封装能力。鲜为人知的芯片制造步骤可能成为人工智能的下一个瓶颈。",
       "link": "https://www.cnbc.com/2026/04/08/tsmc-nvidia-advanced-packaging-intel.html",
       "pubDate": "2026-04-08T12:06:33",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/08/stocks-making-the-biggest-moves-premarket-dal-levi-xom-more.html",
       "pubDate": "2026-04-08T11:42:37",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "阿里巴巴和中国电信在中国推出了一个专为人工智能培训和推理而设计的数据中心。",
       "link": "https://www.cnbc.com/2026/04/08/china-alibaba-data-center-ai-chips-zhenwu.html",
       "pubDate": "2026-04-08T09:15:46",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -262,7 +273,7 @@
       "desc_zh": "分析师告诉CNBC ，脆弱的停火协议可能面临重大挑战，理由是双方都存在严重的信任赤字。",
       "link": "https://www.cnbc.com/2026/04/08/us-iran-war-ceasefire-middle-east-strait-of-hormuz-oil-markets.html",
       "pubDate": "2026-04-08T08:55:12",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -273,7 +284,7 @@
       "desc_zh": "Bridgewater创始人Ray Dalio告诉CNBC ，他对下个月美国和中国总统会晤的结果持乐观态度。",
       "link": "https://www.cnbc.com/2026/04/08/ray-dalio-trump-xi-meeting-to-focus-on-trade-capital-flows.html",
       "pubDate": "2026-04-08T08:48:48",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -284,7 +295,7 @@
       "desc_zh": "美国和伊朗同意有条件停火两周的消息传出，亚洲科技和半导体公司股价飙升。",
       "link": "https://www.cnbc.com/2026/04/08/asian-chip-stocks-surge-us-iran-ceasefire-helium-supply-relief.html",
       "pubDate": "2026-04-08T06:47:47",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -295,7 +306,7 @@
       "desc_zh": "Alphabet是一些价值最高的私营公司的投资者，包括SpaceX、Anthropic和Stripe。",
       "link": "https://www.cnbc.com/2026/04/07/google-ceo-pichai-says-ai-shift-opens-opportunities-invest-startups.html",
       "pubDate": "2026-04-07T22:24:13",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -306,7 +317,7 @@
       "desc_zh": "作为诉讼的一部分，埃隆·马斯克（ Elon Musk ）正在寻求将OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）和总裁格雷格·布罗克曼（ Greg Brockman ）从公司",
       "link": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
       "pubDate": "2026-04-07T21:21:23",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -317,7 +328,7 @@
       "desc_zh": "这是自3月最后一个交易日的救济反弹以来投资者一直在问的问题。",
       "link": "https://www.cnbc.com/2026/04/07/is-it-time-to-buy-tech-again-a-flurry-of-good-news-from-broadcom-may-hold-the-answer.html",
       "pubDate": "2026-04-07T19:35:41",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -328,7 +339,7 @@
       "desc_zh": "微软、亚马逊、苹果、CrowdStrike、Palo Alto Networks等公司将使用该模型作为名为Project Glasswing的新网络安全计划的一部分。",
       "link": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
       "pubDate": "2026-04-07T18:00:01",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -405,7 +416,7 @@
       "desc_zh": "Blue Owl将高于平常的要求归因于“市场对软件公司人工智能相关中断的担忧加剧”。",
       "link": "https://www.cnbc.com/2026/04/02/blue-owl-private-credit-funds-redemptions-requests.html",
       "pubDate": "2026-04-02T20:08:15",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -416,7 +427,7 @@
       "desc_zh": "预计3月份美国经济将增加59,000个就业岗位，失业率保持在4.4%。",
       "link": "https://www.cnbc.com/2026/04/02/the-march-jobs-report-will-be-released-on-friday-heres-what-to-expect.html",
       "pubDate": "2026-04-02T20:04:41",
-      "relativeTime": "5天前",
+      "relativeTime": "6天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
@@ -493,7 +504,7 @@
       "desc_zh": "美国银行的数据显示，低收入消费者已经开始减少支出。消费者情绪表明，收入较高的人感觉不太自信。",
       "link": "https://www.cnbc.com/2026/03/31/gas-prices-hit-low-income-consumers-falling-markets-hurt-high-earners.html",
       "pubDate": "2026-03-31T20:05:29",
-      "relativeTime": "7天前",
+      "relativeTime": "8天前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
