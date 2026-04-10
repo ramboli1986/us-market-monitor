@@ -1,15 +1,59 @@
 {
-  "updated_at": "2026-04-10T11:17:14.593565+00:00",
-  "count": 55,
+  "updated_at": "2026-04-10T12:13:57.284129+00:00",
+  "count": 56,
   "items": [
     {
-      "title_en": "Nike shares are still not cheap after 30% drawdown this year, says Piper Sandler",
-      "title_zh": "Piper Sandler表示，耐克股票在今年下跌30 ％后仍然不便宜",
-      "desc_en": "Nike could struggle with sales as the athleisure market becomes more crowded and demand for sports-focused loungewear moves past its peak, per Piper Sandler.",
-      "desc_zh": "根据Piper Sandler的说法，随着运动休闲市场变得更加拥挤，耐克可能会在销售方面苦苦挣扎，对以运动为重点的家居服的需求已经超过峰值。",
-      "link": "https://www.cnbc.com/2026/04/10/nike-shares-are-still-not-cheap-after-30percent-drawdown-this-year-says-piper-sandler.html",
-      "pubDate": "2026-04-10T11:05:40",
-      "relativeTime": "11分钟前",
+      "title_en": "Bessent, Powell warned bank CEOs about Anthropic model risks: Reuters",
+      "title_zh": "Bessent ，鲍威尔警告银行首席执行官关于人类模型风险：路透社",
+      "desc_en": "Treasury Secretary Scott Bessent and Federal Reserve ⁠Chair Jerome Powell convened an meeting with bank CEOs to warn ​of cyber risks posed ​by Anthropic's ​AI.",
+      "desc_zh": "财政部长斯科特·贝森特（ Scott Bessent ）和美联储主席杰罗姆·鲍威尔（ Jerome Powell ）召集了与银行首席执行官的会议，警告Anthropic的人工智能带来的网络风险。",
+      "link": "https://www.cnbc.com/2026/04/10/bessent-powell-warned-bank-ceos-about-anthropic-model-risks-report.html",
+      "pubDate": "2026-04-10T12:00:43",
+      "relativeTime": "13分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Stock futures are flat as traders monitor fragile ceasefire between U.S. and Iran: Live updates",
+      "title_zh": "由于交易员监控美国和伊朗之间脆弱的停火，股票期货持平：实时更新",
+      "desc_en": "Stocks were lower on Friday after President Donald Trump agreed to a two-week ceasefire with Iran.",
+      "desc_zh": "在美国总统唐纳德•特朗普(Donald Trump)同意与伊朗达成为期两周的停火协议后，周五股市下跌",
+      "link": "https://www.cnbc.com/2026/04/09/stock-market-today-live-updates.html",
+      "pubDate": "2026-04-10T11:53:15",
+      "relativeTime": "20分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "UBS downgrades ServiceNow, saying AI is a bigger threat than first believed",
+      "title_zh": "瑞银下调ServiceNow评级，称人工智能威胁比最初认为的更大",
+      "desc_en": "ServiceNow may be more vulnerable to disruption risks posed by AI than some analysts on the Street think, according to UBS.",
+      "desc_zh": "瑞银表示， ServiceNow可能比街头一些分析师认为的更容易受到人工智能带来的颠覆性风险的影响。",
+      "link": "https://www.cnbc.com/2026/04/10/ubs-downgrades-servicenow-saying-ai-is-a-bigger-threat-than-first-believed.html",
+      "pubDate": "2026-04-10T11:48:25",
+      "relativeTime": "25分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Stocks making the biggest moves premarket: Lumentum, ServiceNow, Sandisk & more",
+      "title_zh": "股票在盘前走势最大： Lumentum、ServiceNow、Sandisk等",
+      "desc_en": "These are the stocks posting the largest moves premarket.",
+      "desc_zh": "这些是盘前涨幅最大的股票。",
+      "link": "https://www.cnbc.com/2026/04/10/stocks-making-the-biggest-moves-premarket-lite-now-sndk-more.html",
+      "pubDate": "2026-04-10T11:46:44",
+      "relativeTime": "27分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Stefano Gabbana has stepped down as Dolce & Gabbana chairman but will keep a creative role",
+      "title_zh": "Stefano Gabbana已辞去杜嘉班纳董事长一职，但仍将发挥创意作用",
+      "desc_en": "Stefano Gabbana has stepped down as chairman of the Italian fashion house that he co-founded with Domenico Dolce, but will continue in his creative role.",
+      "desc_zh": "Stefano Gabbana已经辞去了他与Domenico Dolce共同创立的意大利时装公司董事长的职务，但将继续担任他的创意角色。",
+      "link": "https://www.cnbc.com/2026/04/10/stefano-gabbana-has-stepped-down-as-dolce-gabbana-chairman-but-will-keep-a-creative-role.html",
+      "pubDate": "2026-04-10T11:37:43",
+      "relativeTime": "36分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +64,7 @@
       "desc_zh": "贝莱德的Jeffrey Rosenberg在该公司的流动性另类ETF中发挥着主导作用，该ETF在ETF包装中使用长空策略。",
       "link": "https://www.cnbc.com/2026/04/10/blackrock-rips-page-from-hedge-fund-playbook-applies-it-to-etfs.html",
       "pubDate": "2026-04-10T11:00:01",
-      "relativeTime": "17分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +75,7 @@
       "desc_zh": "周三，美国和伊朗达成了为期两周的停火协议，引发了冲突开始结束的希望。",
       "link": "https://www.cnbc.com/2026/04/10/tech-download-iran-war-whats-next-helium-chips.html",
       "pubDate": "2026-04-10T11:00:01",
-      "relativeTime": "17分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +86,7 @@
       "desc_zh": "一个神秘的人工智能视频模型已经登上全球排行榜，已被确认为阿里巴巴旗下的一个项目。",
       "link": "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html",
       "pubDate": "2026-04-10T08:56:23",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +97,7 @@
       "desc_zh": "在5月与特朗普举行高风险会议和2028年台湾总统大选之前，习近平十年来首次在北京接待了台湾主要反对派领导人。",
       "link": "https://www.cnbc.com/2026/04/10/china-taiwan-reunification-cross-strait-relations-trump-visit-may-.html",
       "pubDate": "2026-04-10T08:37:17",
-      "relativeTime": "2小时前",
+      "relativeTime": "45分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +108,7 @@
       "desc_zh": "台积电受益于苹果和英伟达等主要客户对先进半导体的持续需求。",
       "link": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
       "pubDate": "2026-04-10T08:13:07",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +119,7 @@
       "desc_zh": "北京面临的最大风险是，伊朗战争拖累了全球对推动中国经济增长的出口需求。",
       "link": "https://www.cnbc.com/2026/04/10/china-iran-ceasefire-role-energy-economy-strategy.html",
       "pubDate": "2026-04-10T08:11:33",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "金融",
       "source": "CNBC FINANCE"
     },
@@ -86,7 +130,7 @@
       "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周四警告伊朗，如果它正在为通过霍尔木兹海峡的油轮充电，就要“立即停止”。",
       "link": "https://www.cnbc.com/2026/04/10/oil-price-wti-brent-saudi-pipeline-attack-middle-east-war.html",
       "pubDate": "2026-04-10T06:57:38",
-      "relativeTime": "4分钟前",
+      "relativeTime": "34分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +141,7 @@
       "desc_zh": "欧盟委员会和特朗普政府在欧盟对美国科技公司的行动上越来越多地发生冲突。",
       "link": "https://www.cnbc.com/2026/04/10/google-meta-big-tech-6-billion-euros-eu-fine.html",
       "pubDate": "2026-04-10T05:00:01",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +152,7 @@
       "desc_zh": "特朗普总统提名凯文·沃什(Kevin Warsh)担任美联储主席一事，已经面临参议员汤姆·蒂利斯(Thom Tillis)对现任主席杰罗姆·鲍威尔(Jerome Powell)的调查",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
       "pubDate": "2026-04-10T02:55:07",
-      "relativeTime": "8小时前",
+      "relativeTime": "13分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,18 +163,7 @@
       "desc_zh": "创业公司Shengshu计划将这笔资金用于“通用世界模型” ，为更实用的机器人应用铺平道路。",
       "link": "https://www.cnbc.com/2026/04/10/alibaba-cloud-invests-world-model-ai-shengshu-vidu.html",
       "pubDate": "2026-04-10T02:00:43",
-      "relativeTime": "9小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Cramer explains the divergence in tech stocks – and why software may continue to lag",
-      "title_zh": "Cramer解释了科技股的分歧–以及为什么软件可能会继续落后",
-      "desc_en": "Jim Cramer marveled at the divergent fates of technology stocks — from hardware winners like Intel to software losers like Salesforce and Adobe.",
-      "desc_zh": "Jim Cramer惊叹于科技股的不同命运--从英特尔这样的硬件赢家到Salesforce和Adobe这样的软件输家。",
-      "link": "https://www.cnbc.com/2026/04/09/jim-cramer-tech-stocks-diverge.html",
-      "pubDate": "2026-04-09T22:13:47",
-      "relativeTime": "13小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,18 +174,7 @@
       "desc_zh": "OpenAI向投资者发送了一份备忘录，抨击主要竞争对手Anthropic “在一条有意义的较小曲线上运营”。",
       "link": "https://www.cnbc.com/2026/04/09/openai-slams-anthropic-in-memo-to-shareholders-as-rival-gains-momentum.html",
       "pubDate": "2026-04-09T21:39:39",
-      "relativeTime": "11小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Melania Trump blasts claims about Jeffrey Epstein and her",
-      "title_zh": "梅拉尼娅·特朗普抨击有关杰弗里·爱泼斯坦和她的",
-      "desc_en": "The first lady acknowledged writing an email to Jeffrey Epstein's accomplice, Ghislaine Maxwell, in 2002, referencing a New York magazine profile about him.",
-      "desc_zh": "第一夫人承认在2002年给杰弗里·爱泼斯坦（ Jeffrey Epstein ）的同伙吉斯琳·麦克斯韦（ Ghislaine Maxwell ）写了一封电子邮件，引用了纽约杂志关于他的个人资料。",
-      "link": "https://www.cnbc.com/2026/04/09/jeffrey-epstein-melania-trump.html",
-      "pubDate": "2026-04-09T21:09:28",
-      "relativeTime": "14小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +185,7 @@
       "desc_zh": "USPS正面临严重的金融危机，可能会在2027年初耗尽资金。该机构已提议提高邮票价格以及其他措施。",
       "link": "https://www.cnbc.com/2026/04/09/us-postal-service-mail-stamps-price.html",
       "pubDate": "2026-04-09T20:45:16",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +196,7 @@
       "desc_zh": "沙特基础设施的破坏只会加剧伊朗袭击霍尔木兹海峡油轮引发的全球石油供应中断。",
       "link": "https://www.cnbc.com/2026/04/09/iran-war-oil-saudi-arabia-east-west-pipeline.html",
       "pubDate": "2026-04-09T20:44:10",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "已婚人士分开备案可能会影响唐纳德·特朗普总统本季税收减免的资格。以下是申报人需要了解的信息。",
       "link": "https://www.cnbc.com/2026/04/09/married-filing-separately-trumps-tax-breaks.html",
       "pubDate": "2026-04-09T20:30:55",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +218,7 @@
       "desc_zh": "拟议的自动军事征兵登记时间表是在美国和以色列对伊朗发动战争几周后提出的。",
       "link": "https://www.cnbc.com/2026/04/09/military-draft-registration-automatic-iran-war.html",
       "pubDate": "2026-04-09T20:03:59",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +229,7 @@
       "desc_zh": "在与美国和以色列的战争期间，伊朗有效地关闭了霍尔木兹海峡，造成了石油供应紧张，并导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/09/keir-starmer-fed-up-trump-putin-uk-energy-costs.html",
       "pubDate": "2026-04-09T19:29:09",
-      "relativeTime": "6小时前",
+      "relativeTime": "7小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +240,7 @@
       "desc_zh": "尽管存在风险，但主要银行的许多分析师仍然看好Salesforce。",
       "link": "https://www.cnbc.com/2026/04/09/salesforce-wont-be-discarded-in-the-ai-boom-but-what-companies-want-is-changing.html",
       "pubDate": "2026-04-09T19:12:43",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -229,7 +251,7 @@
       "desc_zh": "Anthropic的最新收入预测和更新重新引发了投资者对人工智能软件清算日的担忧。",
       "link": "https://www.cnbc.com/2026/04/09/anthropic-new-ai-agent-software-stocks-selloff.html",
       "pubDate": "2026-04-09T19:12:06",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +262,7 @@
       "desc_zh": "新的ChatGPT计划扩展了对OpenAI的人工智能编码助手Codex的访问。",
       "link": "https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html",
       "pubDate": "2026-04-09T19:06:41",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +273,7 @@
       "desc_zh": "吉姆·克莱默(Jim Cramer)周四表示，亚马逊的股票表现不佳最终将发生变化。",
       "link": "https://www.cnbc.com/2026/04/09/andy-jassy-makes-it-clear-giving-up-on-amazons-stock-would-be-an-expensive-mistake.html",
       "pubDate": "2026-04-09T17:22:01",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -262,7 +284,7 @@
       "desc_zh": "据摩根大通(JPMorgan)称， Meta在周三发布其人工智能模型后突然爆发，这表明随着投资者对其人工智能推动力的信心增强，该股有更多的运行空间。",
       "link": "https://www.cnbc.com/2026/04/09/meta-released-a-new-ai-model-this-week-jpmorgan-sees-it-as-a-turning-point-for-the-stock.html",
       "pubDate": "2026-04-09T17:00:01",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -273,7 +295,7 @@
       "desc_zh": "周四发布的指标为美联储提供了导致伊朗战争的条件的快照。",
       "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
       "pubDate": "2026-04-09T13:30:57",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -284,7 +306,7 @@
       "desc_zh": "今年到目前为止，由于投资者质疑该公司激进的人工智能支出计划，亚马逊股价一直举步维艰。",
       "link": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
       "pubDate": "2026-04-09T13:27:31",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -295,7 +317,7 @@
       "desc_zh": "谷歌致力于使用多代英特尔芯片为其人工智能数据中心提供动力，以扩大现有的合作伙伴关系。",
       "link": "https://www.cnbc.com/2026/04/09/google-expands-partnership-with-intel-for-ai-chips-.html",
       "pubDate": "2026-04-09T13:00:01",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -306,7 +328,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/09/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-09T12:33:00",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -317,7 +339,7 @@
       "desc_zh": "Meta在一年内发布了第一个主要的人工智能模型后，现在必须弄清楚如何将其转变为业务。",
       "link": "https://www.cnbc.com/2026/04/09/metas-long-awaited-ai-model-is-finally-here-but-can-it-make-money.html",
       "pubDate": "2026-04-09T12:00:01",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -328,7 +350,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/09/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-09T11:58:17",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -339,7 +361,7 @@
       "desc_zh": "9月，与英伟达和Nscale合作宣布了主要的人工智能基础设施。",
       "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
       "pubDate": "2026-04-09T11:06:28",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -383,7 +405,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/08/stocks-making-the-biggest-moves-premarket-dal-levi-xom-more.html",
       "pubDate": "2026-04-08T11:42:37",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -416,7 +438,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "2天前",
+      "relativeTime": "3天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -449,7 +471,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -498,17 +520,6 @@
       "source": "CNBC FINANCE"
     },
     {
-      "title_en": "Stocks making the biggest moves midday: Eli Lilly, Hasbro, Philip Morris, Intel, Micron & more",
-      "title_zh": "股市午间波动最大：礼来、孩之宝、菲利普莫里斯、英特尔、美光等",
-      "desc_en": "These are the stocks posting the largest moves in midday trading.",
-      "desc_zh": "这些是中午交易中涨幅最大的股票。",
-      "link": "https://www.cnbc.com/2026/04/01/stocks-making-the-biggest-moves-midday-lly-has-pm-intc-mu.html",
-      "pubDate": "2026-04-01T17:04:05",
-      "relativeTime": "8天前",
-      "category": "金融",
-      "source": "CNBC FINANCE"
-    },
-    {
       "title_en": "Private sector hiring totaled 62,000 in March, better than expected, ADP says",
       "title_zh": "ADP表示， 3月私营部门招聘总人数为62,000人，好于预期",
       "desc_en": "Private sector employment growth kept pace, but health care and construction continued to provide nearly all the momentum.",
@@ -548,7 +559,7 @@
       "desc_zh": "随着企业政策的变化，美国人将在加油站以外的钱包中感受到更高的油价。",
       "link": "https://www.cnbc.com/2026/03/28/oil-doordash-lyft-usps-united.html",
       "pubDate": "2026-03-30T12:00:47",
-      "relativeTime": "10天前",
+      "relativeTime": "11天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
