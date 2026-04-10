@@ -1,7 +1,40 @@
 {
-  "updated_at": "2026-04-10T07:30:48.170305+00:00",
+  "updated_at": "2026-04-10T08:28:42.316190+00:00",
   "count": 56,
   "items": [
+    {
+      "title_en": "TSMC posts 35% jump in revenue to new record high as AI chip demand stays strong",
+      "title_zh": "由于人工智能芯片需求保持强劲，台积电收入增长35% ，创历史新高",
+      "desc_en": "TSMC is benefiting from sustained demand for advanced semiconductors from its key customers like Apple and Nvidia.",
+      "desc_zh": "台积电受益于苹果和英伟达等主要客户对先进半导体的持续需求。",
+      "link": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
+      "pubDate": "2026-04-10T08:13:07",
+      "relativeTime": "15分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Behind China's 'active efforts' for an Iran ceasefire: Business trumps politics",
+      "title_zh": "中国“积极努力”实现伊朗停火的背后：商业胜过政治",
+      "desc_en": "The big risk for Beijing is that the Iran war drags down global demand for the exports that are driving China's economic growth.",
+      "desc_zh": "北京面临的最大风险是，伊朗战争拖累了全球对推动中国经济增长的出口需求。",
+      "link": "https://www.cnbc.com/2026/04/10/china-iran-ceasefire-role-energy-economy-strategy.html",
+      "pubDate": "2026-04-10T08:11:33",
+      "relativeTime": "17分钟前",
+      "category": "金融",
+      "source": "CNBC FINANCE"
+    },
+    {
+      "title_en": "Eli Lilly market share drops, Novo Nordisk holds firm as generic weight-loss drugs flood India",
+      "title_zh": "礼来市场份额下降，诺和诺德在仿制减肥药泛滥印度之际持稳",
+      "desc_en": "Eli Lilly loses share in India’s GLP‑1 market as cheap semaglutide generics surge, while Novo holds steady after deep price cuts to defend Ozempic, Wegovy.",
+      "desc_zh": "礼来在印度GLP ‑ 1市场失去了份额，因为廉价的semaglutide仿制药激增，而Novo在大幅降价后保持稳定，以捍卫Ozempic ， Wegovy。",
+      "link": "https://www.cnbc.com/2026/04/10/eli-lilly-slips-novo-nordisk-holds-firm-as-generic-weight-loss-drugs-flood-india.html",
+      "pubDate": "2026-04-10T06:38:07",
+      "relativeTime": "1小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "What this real-world oil price says about the level of stress in the energy market",
       "title_zh": "现实世界的油价如何反映能源市场的压力水平",
@@ -9,7 +42,7 @@
       "desc_zh": "能源分析师警告称，伊朗停火不太可能缓解实物石油市场的急性压力迹象。",
       "link": "https://www.cnbc.com/2026/04/10/oil-prices-dated-brent-energy-iran-war-ceasefire-strait-of-hormuz.html",
       "pubDate": "2026-04-10T06:20:39",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +53,7 @@
       "desc_zh": "欧盟委员会和特朗普政府在欧盟对美国科技公司的行动上越来越多地发生冲突。",
       "link": "https://www.cnbc.com/2026/04/10/google-meta-big-tech-6-billion-euros-eu-fine.html",
       "pubDate": "2026-04-10T05:00:01",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +64,7 @@
       "desc_zh": "黄金作为投资组合风险管理工具的传统角色在为期五周的大宗商品价格中受到质疑",
       "link": "https://www.cnbc.com/2026/04/10/gold-portfolio-diversity-morgan-stanley-metals-commodities.html",
       "pubDate": "2026-04-10T04:56:33",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +75,7 @@
       "desc_zh": "特朗普总统提名凯文·沃什(Kevin Warsh)担任美联储主席一事，已经面临参议员汤姆·蒂利斯(Thom Tillis)对现任主席杰罗姆·鲍威尔(Jerome Powell)的调查",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
       "pubDate": "2026-04-10T02:55:07",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +86,7 @@
       "desc_zh": "中国面临着可能的通货膨胀溢出效应，尽管其大规模的陆上战略储备和多样化的能源来源提供了一些缓冲。",
       "link": "https://www.cnbc.com/2026/04/10/china-cpi-ppi-march-iran-oil-chock-consumer-inflation-manufacturing-.html",
       "pubDate": "2026-04-10T02:25:49",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,18 +97,7 @@
       "desc_zh": "创业公司Shengshu计划将这笔资金用于“通用世界模型” ，为更实用的机器人应用铺平道路。",
       "link": "https://www.cnbc.com/2026/04/10/alibaba-cloud-invests-world-model-ai-shengshu-vidu.html",
       "pubDate": "2026-04-10T02:00:43",
-      "relativeTime": "5小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Oil edges higher as U.S.-Iran ceasefire fails to boost traffic via Strait of Hormuz",
-      "title_zh": "由于美伊停火未能增加通过霍尔木兹海峡的交通，石油价格上涨",
-      "desc_en": "U.S. President Donald Trump on Thursday warned Iran to \"stop now\" if it was charging tankers to transit the Strait of Hormuz.",
-      "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周四警告伊朗，如果它正在为通过霍尔木兹海峡的油轮充电，就要“立即停止”。",
-      "link": "https://www.cnbc.com/2026/04/10/oil-price-wti-brent-saudi-pipeline-attack-middle-east-war.html",
-      "pubDate": "2026-04-10T01:03:15",
-      "relativeTime": "33分钟前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,18 +108,7 @@
       "desc_zh": "OpenAI向投资者发送了一份备忘录，抨击主要竞争对手Anthropic “在一条有意义的较小曲线上运营”。",
       "link": "https://www.cnbc.com/2026/04/09/openai-slams-anthropic-in-memo-to-shareholders-as-rival-gains-momentum.html",
       "pubDate": "2026-04-09T21:39:39",
-      "relativeTime": "7小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Melania Trump blasts claims about Jeffrey Epstein and her",
-      "title_zh": "梅拉尼娅·特朗普抨击有关杰弗里·爱泼斯坦和她的",
-      "desc_en": "The first lady acknowledged writing an email to Jeffrey Epstein's accomplice, Ghislaine Maxwell, in 2002, referencing a New York magazine profile about him.",
-      "desc_zh": "第一夫人承认在2002年给杰弗里·爱泼斯坦（ Jeffrey Epstein ）的同伙吉斯琳·麦克斯韦（ Ghislaine Maxwell ）写了一封电子邮件，引用了纽约杂志关于他的个人资料。",
-      "link": "https://www.cnbc.com/2026/04/09/jeffrey-epstein-melania-trump.html",
-      "pubDate": "2026-04-09T21:09:28",
-      "relativeTime": "10小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,18 @@
       "desc_zh": "沙特基础设施的破坏只会加剧伊朗袭击霍尔木兹海峡油轮引发的全球石油供应中断。",
       "link": "https://www.cnbc.com/2026/04/09/iran-war-oil-saudi-arabia-east-west-pipeline.html",
       "pubDate": "2026-04-09T20:44:10",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Automatic U.S. military draft registration planned by December, filing shows",
+      "title_zh": "计划在12月前完成美军自动征兵登记，文件显示",
+      "desc_en": "The proposed timetable for automatic military draft registration came weeks after the U.S. and Israel launched a war against Iran.",
+      "desc_zh": "拟议的自动军事征兵登记时间表是在美国和以色列对伊朗发动战争几周后提出的。",
+      "link": "https://www.cnbc.com/2026/04/09/military-draft-registration-automatic-iran-war.html",
+      "pubDate": "2026-04-09T20:03:59",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +141,7 @@
       "desc_zh": "在与美国和以色列的战争期间，伊朗有效地关闭了霍尔木兹海峡，造成了石油供应紧张，并导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/09/keir-starmer-fed-up-trump-putin-uk-energy-costs.html",
       "pubDate": "2026-04-09T19:29:09",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +152,7 @@
       "desc_zh": "尽管存在风险，但主要银行的许多分析师仍然看好Salesforce。",
       "link": "https://www.cnbc.com/2026/04/09/salesforce-wont-be-discarded-in-the-ai-boom-but-what-companies-want-is-changing.html",
       "pubDate": "2026-04-09T19:12:43",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -152,7 +174,7 @@
       "desc_zh": "新的ChatGPT计划扩展了对OpenAI的人工智能编码助手Codex的访问。",
       "link": "https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html",
       "pubDate": "2026-04-09T19:06:41",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +185,7 @@
       "desc_zh": "包括摩根士丹利(Morgan Stanley)在内的银行业重量级人物预计将在下周公布季度业绩。",
       "link": "https://www.cnbc.com/2026/04/09/these-stocks-reporting-next-week-have-a-history-of-earnings-beats-and-share-gains.html",
       "pubDate": "2026-04-09T18:49:08",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +196,7 @@
       "desc_zh": "吉姆·克莱默(Jim Cramer)周四表示，亚马逊的股票表现不佳最终将发生变化。",
       "link": "https://www.cnbc.com/2026/04/09/andy-jassy-makes-it-clear-giving-up-on-amazons-stock-would-be-an-expensive-mistake.html",
       "pubDate": "2026-04-09T17:22:01",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -185,7 +207,7 @@
       "desc_zh": "据摩根大通(JPMorgan)称， Meta在周三发布其人工智能模型后突然爆发，这表明随着投资者对其人工智能推动力的信心增强，该股有更多的运行空间。",
       "link": "https://www.cnbc.com/2026/04/09/meta-released-a-new-ai-model-this-week-jpmorgan-sees-it-as-a-turning-point-for-the-stock.html",
       "pubDate": "2026-04-09T17:00:01",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +218,7 @@
       "desc_zh": "分析师警告称，随着投资者试图辨别美伊停火可能如何发挥作用，预计未来会出现更多波动。",
       "link": "https://www.cnbc.com/2026/04/09/caution-prevails-even-in-second-day-rally-following-huge-gains-wednesday.html",
       "pubDate": "2026-04-09T16:49:25",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +229,7 @@
       "desc_zh": "亚马逊将在周四和周五作为着名高尔夫锦标赛的媒体合作伙伴进行两小时的独家大师赛报道。",
       "link": "https://www.cnbc.com/2026/04/09/amazon-masters-coverage-media-partner-streaming.html",
       "pubDate": "2026-04-09T15:26:13",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +240,7 @@
       "desc_zh": "周四发布的指标为美联储提供了导致伊朗战争的条件的快照。",
       "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
       "pubDate": "2026-04-09T13:30:57",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +251,7 @@
       "desc_zh": "今年到目前为止，由于投资者质疑该公司激进的人工智能支出计划，亚马逊股价一直举步维艰。",
       "link": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
       "pubDate": "2026-04-09T13:27:31",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +262,7 @@
       "desc_zh": "谷歌致力于使用多代英特尔芯片为其人工智能数据中心提供动力，以扩大现有的合作伙伴关系。",
       "link": "https://www.cnbc.com/2026/04/09/google-expands-partnership-with-intel-for-ai-chips-.html",
       "pubDate": "2026-04-09T13:00:01",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +273,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/09/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-09T12:33:00",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -273,7 +295,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/09/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-09T11:58:17",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -284,7 +306,7 @@
       "desc_zh": "9月，与英伟达和Nscale合作宣布了主要的人工智能基础设施。",
       "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
       "pubDate": "2026-04-09T11:06:28",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -317,7 +339,7 @@
       "desc_zh": "霍尔木兹危机正在打击亚洲经济，能源成本飙升，货币贬值，但三十年前的危机不太可能重演。",
       "link": "https://www.cnbc.com/2026/04/09/asia-iran-oil-shock-1997-crisis-comparison-reserves-stagflation-hormuz-trump.html",
       "pubDate": "2026-04-09T02:35:35",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -331,17 +353,6 @@
       "relativeTime": "1天前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
-    },
-    {
-      "title_en": "OpenAI will allocate IPO shares to retail investors as it preps for debut, CFO says",
-      "title_zh": "首席财务官表示， OpenAI将在准备首次亮相时向散户投资者分配IPO股票",
-      "desc_en": "CRO Denise Dresser said enterprise is now 40% of the company's revenue and is set to equal consumer by the end of 2026.",
-      "desc_zh": "CRO Denise Dresser表示，企业目前占公司收入的40% ，到2026年底将与消费者持平。",
-      "link": "https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html",
-      "pubDate": "2026-04-08T21:02:14",
-      "relativeTime": "1天前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
     },
     {
       "title_en": "Fed officials still foresee rate cut this year, despite war impacts, minutes show",
@@ -515,17 +526,6 @@
       "desc_zh": "Visa的新工具是主要银行和金融机构将人工智能融入其业务的更大推动力的一部分。",
       "link": "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html",
       "pubDate": "2026-04-01T15:26:51",
-      "relativeTime": "8天前",
-      "category": "金融",
-      "source": "CNBC FINANCE"
-    },
-    {
-      "title_en": "Stocks making the biggest moves premarket: Nike, RH, Sandisk & more",
-      "title_zh": "股票在盘前走势最大：耐克、RH、桑迪斯克等",
-      "desc_en": "These are the stocks posting the largest moves premarket.",
-      "desc_zh": "这些是盘前涨幅最大的股票。",
-      "link": "https://www.cnbc.com/2026/04/01/stocks-making-the-biggest-moves-premarket-nike-rh-sandisk-more.html",
-      "pubDate": "2026-04-01T11:47:06",
       "relativeTime": "8天前",
       "category": "金融",
       "source": "CNBC FINANCE"
