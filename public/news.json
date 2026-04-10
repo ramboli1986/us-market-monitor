@@ -1,7 +1,29 @@
 {
-  "updated_at": "2026-04-10T00:15:50.643747+00:00",
+  "updated_at": "2026-04-10T01:32:57.935955+00:00",
   "count": 58,
   "items": [
+    {
+      "title_en": "Fast Retailing shares soar to record high after the Uniqlo owner lifts profit forecast",
+      "title_zh": "优衣库所有者提高盈利预测后，迅销股票飙升至创纪录高位",
+      "desc_en": "Shares of Fast Retailing surged over 9% to a record high on Friday after the Japanese parent of Uniqlo lifted its full-year outlook.",
+      "desc_zh": "迅销(Fast Retailing)股价周五飙升逾9% ，创下历史新高，此前优衣库(Uniqlo)的日本母公司上调了全年展望。",
+      "link": "https://www.cnbc.com/2026/04/10/uniqlo-fast-retailing-sharesprofit-outlook.html",
+      "pubDate": "2026-04-10T01:23:59",
+      "relativeTime": "8分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Oil edges higher as U.S.-Iran ceasefire fails to boost traffic via Strait of Hormuz",
+      "title_zh": "由于美伊停火未能增加通过霍尔木兹海峡的交通，石油价格上涨",
+      "desc_en": "U.S. President Donald Trump on Thursday warned Iran to \"stop now\" if it was charging tankers to transit the Strait of Hormuz.",
+      "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周四警告伊朗，如果它正在为通过霍尔木兹海峡的油轮充电，就要“立即停止”。",
+      "link": "https://www.cnbc.com/2026/04/10/oil-price-wti-brent-saudi-pipeline-attack-middle-east-war.html",
+      "pubDate": "2026-04-10T01:03:15",
+      "relativeTime": "29分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "Asia-Pacific markets open mostly higher as a fragile Iran-U.S. ceasefire keeps investors on edge",
       "title_zh": "由于脆弱的伊朗-美国停火使投资者处于边缘，亚太市场的开放程度更高",
@@ -9,7 +31,7 @@
       "desc_zh": "截至美国东部时间晚上7:50 ，西德克萨斯中质原油上涨0.62% ，至每桶98.48 $。布伦特原油收盘价为每桶95.92 $。",
       "link": "https://www.cnbc.com/2026/04/10/asia-pacific-markets-today-iran-us-ceasefire-deal-oil-.html",
       "pubDate": "2026-04-10T00:13:37",
-      "relativeTime": "2分钟前",
+      "relativeTime": "45分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,17 +42,6 @@
       "desc_zh": "股市周四继续反弹，因交易员希望美伊停火能够持续。道琼斯工业指数在2026年转为正值。",
       "link": "https://www.cnbc.com/2026/04/09/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
       "pubDate": "2026-04-09T22:34:15",
-      "relativeTime": "1小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Cramer explains the divergence in tech stocks – and why software may continue to lag",
-      "title_zh": "Cramer解释了科技股的分歧–以及为什么软件可能会继续落后",
-      "desc_en": "Jim Cramer marveled at the divergent fates of technology stocks — from hardware winners like Intel to software losers like Salesforce and Adobe.",
-      "desc_zh": "Jim Cramer惊叹于科技股的不同命运--从英特尔这样的硬件赢家到Salesforce和Adobe这样的软件输家。",
-      "link": "https://www.cnbc.com/2026/04/09/jim-cramer-tech-stocks-diverge.html",
-      "pubDate": "2026-04-09T22:13:47",
       "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
@@ -42,7 +53,7 @@
       "desc_zh": "在美国总统唐纳德•特朗普(Donald Trump)同意与伊朗达成为期两周的停火协议后，股市周四延续了反弹",
       "link": "https://www.cnbc.com/2026/04/09/stock-market-today-live-updates.html",
       "pubDate": "2026-04-09T22:06:16",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "美国总统唐纳德·特朗普表示，如果伊朗向通过霍尔木兹海峡的油轮收费，伊朗“最好现在就停止”。",
       "link": "https://www.cnbc.com/2026/04/09/trump-iran-strait-of-hormuz-oil-toll.html",
       "pubDate": "2026-04-09T21:55:44",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +75,7 @@
       "desc_zh": "OpenAI向投资者发送了一份备忘录，抨击主要竞争对手Anthropic “在一条有意义的较小曲线上运营”。",
       "link": "https://www.cnbc.com/2026/04/09/openai-slams-anthropic-in-memo-to-shareholders-as-rival-gains-momentum.html",
       "pubDate": "2026-04-09T21:39:39",
-      "relativeTime": "15分钟前",
+      "relativeTime": "1小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "第一夫人承认在2002年给杰弗里·爱泼斯坦（ Jeffrey Epstein ）的同伙吉斯琳·麦克斯韦（ Ghislaine Maxwell ）写了一封电子邮件，引用了纽约杂志关于他的个人资料。",
       "link": "https://www.cnbc.com/2026/04/09/jeffrey-epstein-melania-trump.html",
       "pubDate": "2026-04-09T21:09:28",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "沙特基础设施的破坏只会加剧伊朗袭击霍尔木兹海峡油轮引发的全球石油供应中断。",
       "link": "https://www.cnbc.com/2026/04/09/iran-war-oil-saudi-arabia-east-west-pipeline.html",
       "pubDate": "2026-04-09T20:44:10",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "在与美国和以色列的战争期间，伊朗有效地关闭了霍尔木兹海峡，造成了石油供应紧张，并导致全球能源价格飙升。",
       "link": "https://www.cnbc.com/2026/04/09/keir-starmer-fed-up-trump-putin-uk-energy-costs.html",
       "pubDate": "2026-04-09T19:29:09",
-      "relativeTime": "2小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "尽管存在风险，但主要银行的许多分析师仍然看好Salesforce。",
       "link": "https://www.cnbc.com/2026/04/09/salesforce-wont-be-discarded-in-the-ai-boom-but-what-companies-want-is-changing.html",
       "pubDate": "2026-04-09T19:12:43",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "Anthropic的最新收入预测和更新重新引发了投资者对人工智能软件清算日的担忧。",
       "link": "https://www.cnbc.com/2026/04/09/anthropic-new-ai-agent-software-stocks-selloff.html",
       "pubDate": "2026-04-09T19:12:06",
-      "relativeTime": "4小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +141,7 @@
       "desc_zh": "新的ChatGPT计划扩展了对OpenAI的人工智能编码助手Codex的访问。",
       "link": "https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html",
       "pubDate": "2026-04-09T19:06:41",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -141,7 +152,7 @@
       "desc_zh": "包括摩根士丹利(Morgan Stanley)在内的银行业重量级人物预计将在下周公布季度业绩。",
       "link": "https://www.cnbc.com/2026/04/09/these-stocks-reporting-next-week-have-a-history-of-earnings-beats-and-share-gains.html",
       "pubDate": "2026-04-09T18:49:08",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "吉姆·克莱默(Jim Cramer)周四表示，亚马逊的股票表现不佳最终将发生变化。",
       "link": "https://www.cnbc.com/2026/04/09/andy-jassy-makes-it-clear-giving-up-on-amazons-stock-would-be-an-expensive-mistake.html",
       "pubDate": "2026-04-09T17:22:01",
-      "relativeTime": "6小时前",
+      "relativeTime": "8小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -163,7 +174,7 @@
       "desc_zh": "据摩根大通(JPMorgan)称， Meta在周三发布其人工智能模型后突然爆发，这表明随着投资者对其人工智能推动力的信心增强，该股有更多的运行空间。",
       "link": "https://www.cnbc.com/2026/04/09/meta-released-a-new-ai-model-this-week-jpmorgan-sees-it-as-a-turning-point-for-the-stock.html",
       "pubDate": "2026-04-09T17:00:01",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +185,7 @@
       "desc_zh": "分析师警告称，随着投资者试图辨别美伊停火可能如何发挥作用，预计未来会出现更多波动。",
       "link": "https://www.cnbc.com/2026/04/09/caution-prevails-even-in-second-day-rally-following-huge-gains-wednesday.html",
       "pubDate": "2026-04-09T16:49:25",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +196,7 @@
       "desc_zh": "亚马逊将在周四和周五作为着名高尔夫锦标赛的媒体合作伙伴进行两小时的独家大师赛报道。",
       "link": "https://www.cnbc.com/2026/04/09/amazon-masters-coverage-media-partner-streaming.html",
       "pubDate": "2026-04-09T15:26:13",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "周四发布的指标为美联储提供了导致伊朗战争的条件的快照。",
       "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
       "pubDate": "2026-04-09T13:30:57",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +218,7 @@
       "desc_zh": "今年到目前为止，由于投资者质疑该公司激进的人工智能支出计划，亚马逊股价一直举步维艰。",
       "link": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
       "pubDate": "2026-04-09T13:27:31",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +229,7 @@
       "desc_zh": "谷歌致力于使用多代英特尔芯片为其人工智能数据中心提供动力，以扩大现有的合作伙伴关系。",
       "link": "https://www.cnbc.com/2026/04/09/google-expands-partnership-with-intel-for-ai-chips-.html",
       "pubDate": "2026-04-09T13:00:01",
-      "relativeTime": "4小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/09/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-09T12:33:00",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "Meta在一年内发布了第一个主要的人工智能模型后，现在必须弄清楚如何将其转变为业务。",
       "link": "https://www.cnbc.com/2026/04/09/metas-long-awaited-ai-model-is-finally-here-but-can-it-make-money.html",
       "pubDate": "2026-04-09T12:00:01",
-      "relativeTime": "3小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/09/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-09T11:58:17",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -262,7 +273,7 @@
       "desc_zh": "9月，与英伟达和Nscale合作宣布了主要的人工智能基础设施。",
       "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
       "pubDate": "2026-04-09T11:06:28",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -273,18 +284,7 @@
       "desc_zh": "Meta对CoreWeave的额外支出承诺将从2027年部署到2032年。",
       "link": "https://www.cnbc.com/2026/04/09/meta-commits-to-spending-additional-21-billion-with-coreweave-.html",
       "pubDate": "2026-04-09T10:50:01",
-      "relativeTime": "3小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Fast food, faster charging? BYD and KFC China collaborate to offer 9-minute refueling stations",
-      "title_zh": "快餐，充电更快？比亚迪与肯德基中国合作提供9分钟加油站",
-      "desc_en": "BYD announced Wednesday a partnership with KFC China to develop a network of \"nine-minute\" drive-thrus across the mainland.",
-      "desc_zh": "比亚迪周三宣布与肯德基中国合作，在大陆建立一个“九分钟”的越野车网络。",
-      "link": "https://www.cnbc.com/2026/04/09/byd-and-kfc-collaborate-to-offer-9-minute-refueling-stations-in-china.html",
-      "pubDate": "2026-04-09T08:51:39",
-      "relativeTime": "15小时前",
+      "relativeTime": "5小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -295,7 +295,7 @@
       "desc_zh": "一场异常强大的厄尔尼诺现象可能会在今年晚些时候形成，加剧全球粮食安全担忧。",
       "link": "https://www.cnbc.com/2026/04/09/el-nino-food-risks-iran-war-fertilizer-weather.html",
       "pubDate": "2026-04-09T05:01:10",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -306,7 +306,7 @@
       "desc_zh": "霍尔木兹危机正在打击亚洲经济，能源成本飙升，货币贬值，但三十年前的危机不太可能重演。",
       "link": "https://www.cnbc.com/2026/04/09/asia-iran-oil-shock-1997-crisis-comparison-reserves-stagflation-hormuz-trump.html",
       "pubDate": "2026-04-09T02:35:35",
-      "relativeTime": "14小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
