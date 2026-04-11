@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-11T11:08:21.977425+00:00",
-  "count": 55,
+  "updated_at": "2026-04-11T12:07:37.305758+00:00",
+  "count": 56,
   "items": [
+    {
+      "title_en": "Berkshire electric utility's court win could save it billions",
+      "title_zh": "伯克希尔电力公司的胜诉可以为其节省数十亿美元",
+      "desc_en": "PacifiCorp court win could reduce wildfire damages by $1 billion or more.",
+      "desc_zh": "PacifiCorp法庭获胜可以减少10亿或更多$的野火损失。",
+      "link": "https://www.cnbc.com/2026/04/11/berkshire-electric-utilitys-court-win-could-save-it-billions.html",
+      "pubDate": "2026-04-11T11:43:24",
+      "relativeTime": "24分钟前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
     {
       "title_en": "OpenAI identifies security issue involving third-party tool, says user data was not accessed",
       "title_zh": "OpenAI识别涉及第三方工具的安全问题，称用户数据未被访问",
@@ -9,7 +20,7 @@
       "desc_zh": "ChatGPT制造商表示，没有发现任何证据表明其用户数据被访问或其系统或知识产权受到损害。",
       "link": "https://www.cnbc.com/2026/04/11/openai-identifies-security-issue-involving-third-party-tool.html",
       "pubDate": "2026-04-11T08:18:18",
-      "relativeTime": "2小时前",
+      "relativeTime": "3小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "巴基斯坦证实，伊朗议会议长和外交部长在与副总统万斯率领的美国代表团会谈之前抵达。",
       "link": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html",
       "pubDate": "2026-04-11T06:55:07",
-      "relativeTime": "3小时前",
+      "relativeTime": "4小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,18 @@
       "desc_zh": "长期以来，公司一直对欧洲分散的资本市场、定价和临床试验采用单一市场以及报销政策不均表示遗憾。",
       "link": "https://www.cnbc.com/2026/04/11/trump-pharma-tariffs-mfn-china-europe-biotech-stocks.html",
       "pubDate": "2026-04-11T05:54:00",
-      "relativeTime": "5小时前",
+      "relativeTime": "6小时前",
+      "category": "综合",
+      "source": "CNBC TOP NEWS"
+    },
+    {
+      "title_en": "Rep. Eric Swalwell denies sexual assault allegations, allies yank support for his California governor run",
+      "title_zh": "众议员埃里克·斯沃尔韦尔（ Eric Swalwell ）否认性侵犯指控，盟友支持他竞选加州州长",
+      "desc_en": "Rep. Eric Swalwell denies sexual assault allegations as key endorsements are pulled weeks before California’s gubernatorial primary.",
+      "desc_zh": "众议员埃里克·斯沃尔韦尔（ Eric Swalwell ）否认性侵犯指控，因为关键的支持是在加州州长初选前几周撤回的。",
+      "link": "https://www.cnbc.com/2026/04/10/eric-swalwell-denies-assault-allegations-governor-race.html",
+      "pubDate": "2026-04-11T01:38:33",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +64,7 @@
       "desc_zh": "马斯克的xAI现在由SpaceX拥有，面临来自反对密西西比州一家大型发电厂的环保组织的法律挑战。",
       "link": "https://www.cnbc.com/2026/04/10/musks-xai-draws-more-opposition-over-mississippi-power-plant-permit.html",
       "pubDate": "2026-04-10T23:05:01",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -53,7 +75,7 @@
       "desc_zh": "众议员唐·贝耶（ Don Beyer ）说： “特朗普总统专注于一个由纳税人资助的虚荣项目，该项目将堵塞交通，阻挡我们的天际线，并在神圣的土地上建造塔楼。”",
       "link": "https://www.cnbc.com/2026/04/10/trump-arch-renderings-arlington.html",
       "pubDate": "2026-04-10T22:02:59",
-      "relativeTime": "9小时前",
+      "relativeTime": "10小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -64,7 +86,7 @@
       "desc_zh": "贝森特和美联储主席杰罗姆·鲍威尔分别会见了美国最大银行的负责人，以应对人类神话的潜在网络威胁。",
       "link": "https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html",
       "pubDate": "2026-04-10T21:09:23",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +97,7 @@
       "desc_zh": "标准普尔500指数周五小幅下跌，尽管该指数仍处于去年11月以来的最佳周。",
       "link": "https://www.cnbc.com/2026/04/09/stock-market-today-live-updates.html",
       "pubDate": "2026-04-10T20:52:35",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +108,7 @@
       "desc_zh": "警方在OpenAI总部逮捕了一名嫌疑人，涉嫌在袭击首席执行官Sam Altman的家后威胁纵火。",
       "link": "https://www.cnbc.com/2026/04/10/sam-altman-house-hit-with-molotov-cocktail-openai-office-threatened.html",
       "pubDate": "2026-04-10T19:59:58",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +119,7 @@
       "desc_zh": "在固定收益领域，对信贷质量挑剔并注意债券存续期是有回报的。",
       "link": "https://www.cnbc.com/2026/04/10/where-fixed-income-investors-are-finding-yield-as-geopolitical-risk-rattles-markets.html",
       "pubDate": "2026-04-10T19:25:17",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -108,18 +130,7 @@
       "desc_zh": "鉴于强劲的盈利背景，投资者一直乐观地认为，只要战争得到迅速解决，公司就能经受住能源冲击。",
       "link": "https://www.cnbc.com/2026/04/10/stock-market-next-week-outlook-for-april-13-17-2026.html",
       "pubDate": "2026-04-10T18:32:25",
-      "relativeTime": "14小时前",
-      "category": "综合",
-      "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "What's at stake ahead of crucial U.S.-Iran peace talks as leaders meet in Pakistan",
-      "title_zh": "美伊领导人在巴基斯坦会晤期间，关键的和谈前景如何",
-      "desc_en": "Already, Tehran has accused Israel of violating the terms of the ceasefire, as the IDF continues to attack Hezbollah in Lebanon.",
-      "desc_zh": "德黑兰已经指责以色列违反停火条款，因为以色列国防军继续袭击黎巴嫩的真主党。",
-      "link": "https://www.cnbc.com/2026/04/10/negotiating-points-hardest-us-iran-ceasefire-lebanon.html",
-      "pubDate": "2026-04-10T16:13:25",
-      "relativeTime": "18小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +141,7 @@
       "desc_zh": "该公司正在铸造一条新线路，将用户卷入其生态系统，以新鲜的硬件为诱饵，以服务为钩子。",
       "link": "https://www.cnbc.com/2026/04/10/apple-unveils-its-most-affordable-laptop-ever-what-the-macbook-neo-means-for-investors.html",
       "pubDate": "2026-04-10T16:12:39",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -141,7 +152,7 @@
       "desc_zh": "“大空头”名声的投资者表示，他继续持有这家人工智能软件公司的长期看跌期权。",
       "link": "https://www.cnbc.com/2026/04/10/michael-burry-says-hes-still-betting-against-palantir-after-trump-post-boosts-stock.html",
       "pubDate": "2026-04-10T16:02:19",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -152,7 +163,7 @@
       "desc_zh": "据报道， Palantir的Maven平台已被用于美国在伊朗的军事行动。",
       "link": "https://www.cnbc.com/2026/04/10/trump-pltr-palantir-stock-iran-war.html",
       "pubDate": "2026-04-10T15:59:03",
-      "relativeTime": "13小时前",
+      "relativeTime": "14小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -163,7 +174,7 @@
       "desc_zh": "伊朗战争推高了消费者的汽油、机票和其他价格。",
       "link": "https://www.cnbc.com/2026/04/10/cpi-inflation-march-2026-breakdown.html",
       "pubDate": "2026-04-10T15:49:16",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -174,7 +185,7 @@
       "desc_zh": "美国宇航局的四名阿尔忒弥斯II号宇航员在完成历史性的月球任务后返回地球，猎户座将在美国东部时间晚上8点后不久进行太平洋溅落。",
       "link": "https://www.cnbc.com/2026/04/10/nasa-artemis-ii-astronauts-splashdown-orion-integrity.html",
       "pubDate": "2026-04-10T15:17:21",
-      "relativeTime": "10小时前",
+      "relativeTime": "11小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +196,7 @@
       "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周四警告伊朗，如果它正在为通过霍尔木兹海峡的油轮充电，就要“立即停止”。",
       "link": "https://www.cnbc.com/2026/04/10/oil-price-wti-brent-saudi-pipeline-attack-middle-east-war.html",
       "pubDate": "2026-04-10T14:55:05",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "人工智能纪录片的制片人分享了电影的幕后时刻，包括Sam Altman、Anthropic的Dario Amodei和Google DeepMind的Demis Hassabis。",
       "link": "https://www.cnbc.com/2026/04/10/ai-fear-openai-anthropic-google-deepmind-documentary-film.html",
       "pubDate": "2026-04-10T14:22:35",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -207,7 +218,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/10/consumer-sentiment-inflation-fears-iran-war.html",
       "pubDate": "2026-04-10T14:21:52",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -218,7 +229,7 @@
       "desc_zh": "随着人工智能需求的持续飙升， Meta承诺向云提供商额外投入210亿美元$。",
       "link": "https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html",
       "pubDate": "2026-04-10T14:00:59",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "根据道琼斯共识， 3月份消费者价格指数预计同比增长3.3%。",
       "link": "https://www.cnbc.com/2026/04/10/cpi-inflation-report-march-2026.html",
       "pubDate": "2026-04-10T13:29:38",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "Anthropic向一组选定的公司推出了新的Mythos AI模型，担心黑客可能会利用其功能。",
       "link": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
       "pubDate": "2026-04-10T13:24:21",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "以下是投资者在开始交易日时需要了解的五个关键事项。",
       "link": "https://www.cnbc.com/2026/04/10/5-things-to-know-before-the-market-opens.html",
       "pubDate": "2026-04-10T12:10:25",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -262,7 +273,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/10/stocks-making-the-biggest-moves-premarket-lite-now-sndk-more.html",
       "pubDate": "2026-04-10T11:46:44",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -273,7 +284,7 @@
       "desc_zh": "贝莱德的Jeffrey Rosenberg在该公司的流动性另类ETF中发挥着主导作用，该ETF在ETF包装中使用长空策略。",
       "link": "https://www.cnbc.com/2026/04/10/blackrock-rips-page-from-hedge-fund-playbook-applies-it-to-etfs.html",
       "pubDate": "2026-04-10T11:00:01",
-      "relativeTime": "19小时前",
+      "relativeTime": "20小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -306,7 +317,7 @@
       "desc_zh": "台积电受益于苹果和英伟达等主要客户对先进半导体的持续需求。",
       "link": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
       "pubDate": "2026-04-10T08:13:07",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -328,7 +339,7 @@
       "desc_zh": "欧盟委员会和特朗普政府在欧盟对美国科技公司的行动上越来越多地发生冲突。",
       "link": "https://www.cnbc.com/2026/04/10/google-meta-big-tech-6-billion-euros-eu-fine.html",
       "pubDate": "2026-04-10T05:00:01",
-      "relativeTime": "22小时前",
+      "relativeTime": "23小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -383,7 +394,7 @@
       "desc_zh": "这些是盘前市场上涨幅度最大的股票。",
       "link": "https://www.cnbc.com/2026/04/09/stocks-making-the-biggest-moves-premarket-.html",
       "pubDate": "2026-04-09T11:58:17",
-      "relativeTime": "1天前",
+      "relativeTime": "2天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -427,7 +438,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/08/stocks-making-the-biggest-moves-premarket-dal-levi-xom-more.html",
       "pubDate": "2026-04-08T11:42:37",
-      "relativeTime": "2天前",
+      "relativeTime": "3天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -460,7 +471,7 @@
       "desc_zh": "这些是早期交易中波幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/07/stocks-making-the-biggest-moves-premarket-avgo-unh-casy.html",
       "pubDate": "2026-04-07T11:40:31",
-      "relativeTime": "3天前",
+      "relativeTime": "4天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -493,7 +504,7 @@
       "desc_zh": "摩根大通首席执行官杰米·戴蒙（ Jamie Dimon ）在给股东的年度信中指出，摩根大通成立250周年，并呼吁对美国的理想做出广泛的承诺。",
       "link": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
       "pubDate": "2026-04-06T10:00:01",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -570,7 +581,7 @@
       "desc_zh": "随着企业政策的变化，美国人将在加油站以外的钱包中感受到更高的油价。",
       "link": "https://www.cnbc.com/2026/03/28/oil-doordash-lyft-usps-united.html",
       "pubDate": "2026-03-30T12:00:47",
-      "relativeTime": "11天前",
+      "relativeTime": "12天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     },
