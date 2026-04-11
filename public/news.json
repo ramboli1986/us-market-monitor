@@ -1,7 +1,18 @@
 {
-  "updated_at": "2026-04-11T13:23:39.130800+00:00",
+  "updated_at": "2026-04-11T14:11:18.346196+00:00",
   "count": 56,
   "items": [
+    {
+      "title_en": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
+      "title_zh": "债券市场对私人信贷危机的担忧如何在固定收益ETF中发挥作用",
+      "desc_en": "Fears of a private credit crisis arrived just as the growing and less transparent bond market was being included in more fixed-income ETFs.",
+      "desc_zh": "在私人信贷危机的恐慌到来之际，不断增长且透明度较低的债券市场正被纳入更多的固定收益ETF。",
+      "link": "https://www.cnbc.com/2026/04/11/bond-market-private-credit-crisis-fixed-income-etfs.html",
+      "pubDate": "2026-04-11T13:49:38",
+      "relativeTime": "21分钟前",
+      "category": "金融",
+      "source": "CNBC FINANCE"
+    },
     {
       "title_en": "Intel leads the list of most overbought stocks after this week's comeback rally",
       "title_zh": "英特尔在本周复苏反弹后领跑最超买股票榜单",
@@ -9,7 +20,7 @@
       "desc_zh": "英特尔本周实现了两位数的增长，因为它似乎开始摆脱其作为老卫士的坚定声誉。",
       "link": "https://www.cnbc.com/2026/04/11/intel-leads-the-list-of-most-overbought-stocks-after-this-weeks-comeback-rally-.html",
       "pubDate": "2026-04-11T12:01:28",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -20,7 +31,7 @@
       "desc_zh": "摄影公司伊士曼柯达（ Eastman Kodak ）经历了相当多的财务困境，但首席执行官吉姆·康廷扎（ Jim Continenza ）决心推动其成功。",
       "link": "https://www.cnbc.com/2026/04/11/kodak-film-business-ceo-jim-continenza.html",
       "pubDate": "2026-04-11T12:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -31,7 +42,7 @@
       "desc_zh": "在本周于旧金山举行的HumanX大会上， Anthropic的势头触动了所有人。",
       "link": "https://www.cnbc.com/2026/04/11/vibe-check-from-ai-industry-humanx-anthropic-is-talk-of-the-town.html",
       "pubDate": "2026-04-11T12:00:01",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -42,7 +53,7 @@
       "desc_zh": "分析师表示， Amkor Technologies是数据中心繁荣时期人工智能的衍生品。",
       "link": "https://www.cnbc.com/2026/04/11/little-known-semiconductor-packaging-testing-stock-poised-to-gain.html",
       "pubDate": "2026-04-11T11:56:55",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -53,7 +64,7 @@
       "desc_zh": "PacifiCorp法庭获胜可以减少10亿或更多$的野火损失。",
       "link": "https://www.cnbc.com/2026/04/11/berkshire-electric-utilitys-court-win-could-save-it-billions.html",
       "pubDate": "2026-04-11T11:43:24",
-      "relativeTime": "1小时前",
+      "relativeTime": "2小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -75,7 +86,7 @@
       "desc_zh": "巴基斯坦证实，伊朗议会议长和外交部长在与副总统万斯率领的美国代表团会谈之前抵达。",
       "link": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html",
       "pubDate": "2026-04-11T06:55:07",
-      "relativeTime": "13分钟前",
+      "relativeTime": "12分钟前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -86,7 +97,7 @@
       "desc_zh": "长期以来，公司一直对欧洲分散的资本市场、定价和临床试验采用单一市场以及报销政策不均表示遗憾。",
       "link": "https://www.cnbc.com/2026/04/11/trump-pharma-tariffs-mfn-china-europe-biotech-stocks.html",
       "pubDate": "2026-04-11T05:54:00",
-      "relativeTime": "7小时前",
+      "relativeTime": "8小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -97,7 +108,7 @@
       "desc_zh": "马斯克的xAI现在由SpaceX拥有，面临来自反对密西西比州一家大型发电厂的环保组织的法律挑战。",
       "link": "https://www.cnbc.com/2026/04/10/musks-xai-draws-more-opposition-over-mississippi-power-plant-permit.html",
       "pubDate": "2026-04-10T23:05:01",
-      "relativeTime": "14小时前",
+      "relativeTime": "15小时前",
       "category": "科技",
       "source": "CNBC TECHNOLOGY"
     },
@@ -108,7 +119,7 @@
       "desc_zh": "众议员唐·贝耶（ Don Beyer ）说： “特朗普总统专注于一个由纳税人资助的虚荣项目，该项目将堵塞交通，阻挡我们的天际线，并在神圣的土地上建造塔楼。”",
       "link": "https://www.cnbc.com/2026/04/10/trump-arch-renderings-arlington.html",
       "pubDate": "2026-04-10T22:02:59",
-      "relativeTime": "11小时前",
+      "relativeTime": "12小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -119,7 +130,7 @@
       "desc_zh": "贝森特和美联储主席杰罗姆·鲍威尔分别会见了美国最大银行的负责人，以应对人类神话的潜在网络威胁。",
       "link": "https://www.cnbc.com/2026/04/10/trump-white-house-ai-cyber-threat-anthropic-mythos.html",
       "pubDate": "2026-04-10T21:09:23",
-      "relativeTime": "15小时前",
+      "relativeTime": "16小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -130,7 +141,7 @@
       "desc_zh": "标准普尔500指数周五小幅下跌，尽管该指数仍处于去年11月以来的最佳周。",
       "link": "https://www.cnbc.com/2026/04/09/stock-market-today-live-updates.html",
       "pubDate": "2026-04-10T20:52:35",
-      "relativeTime": "16小时前",
+      "relativeTime": "17小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -185,7 +196,7 @@
       "desc_zh": "伊朗战争推高了消费者的汽油、机票和其他价格。",
       "link": "https://www.cnbc.com/2026/04/10/cpi-inflation-march-2026-breakdown.html",
       "pubDate": "2026-04-10T15:49:16",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -196,7 +207,7 @@
       "desc_zh": "美国宇航局的四名阿尔忒弥斯II号宇航员在完成历史性的月球任务后返回地球，猎户座将在美国东部时间晚上8点后不久进行太平洋溅落。",
       "link": "https://www.cnbc.com/2026/04/10/nasa-artemis-ii-astronauts-splashdown-orion-integrity.html",
       "pubDate": "2026-04-10T15:17:21",
-      "relativeTime": "12小时前",
+      "relativeTime": "13小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -207,7 +218,7 @@
       "desc_zh": "美国总统唐纳德·特朗普（ Donald Trump ）周四警告伊朗，如果它正在为通过霍尔木兹海峡的油轮充电，就要“立即停止”。",
       "link": "https://www.cnbc.com/2026/04/10/oil-price-wti-brent-saudi-pipeline-attack-middle-east-war.html",
       "pubDate": "2026-04-10T14:55:05",
-      "relativeTime": "18小时前",
+      "relativeTime": "19小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -229,7 +240,7 @@
       "desc_zh": "",
       "link": "https://www.cnbc.com/2026/04/10/consumer-sentiment-inflation-fears-iran-war.html",
       "pubDate": "2026-04-10T14:21:52",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -240,7 +251,7 @@
       "desc_zh": "随着人工智能需求的持续飙升， Meta承诺向云提供商额外投入210亿美元$。",
       "link": "https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html",
       "pubDate": "2026-04-10T14:00:59",
-      "relativeTime": "17小时前",
+      "relativeTime": "18小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -251,7 +262,7 @@
       "desc_zh": "根据道琼斯共识， 3月份消费者价格指数预计同比增长3.3%。",
       "link": "https://www.cnbc.com/2026/04/10/cpi-inflation-report-march-2026.html",
       "pubDate": "2026-04-10T13:29:38",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -262,7 +273,7 @@
       "desc_zh": "Anthropic向一组选定的公司推出了新的Mythos AI模型，担心黑客可能会利用其功能。",
       "link": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
       "pubDate": "2026-04-10T13:24:21",
-      "relativeTime": "20小时前",
+      "relativeTime": "21小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -295,7 +306,7 @@
       "desc_zh": "贝莱德的Jeffrey Rosenberg在该公司的流动性另类ETF中发挥着主导作用，该ETF在ETF包装中使用长空策略。",
       "link": "https://www.cnbc.com/2026/04/10/blackrock-rips-page-from-hedge-fund-playbook-applies-it-to-etfs.html",
       "pubDate": "2026-04-10T11:00:01",
-      "relativeTime": "21小时前",
+      "relativeTime": "22小时前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -328,7 +339,7 @@
       "desc_zh": "台积电受益于苹果和英伟达等主要客户对先进半导体的持续需求。",
       "link": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
       "pubDate": "2026-04-10T08:13:07",
-      "relativeTime": "23小时前",
+      "relativeTime": "1天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -493,7 +504,7 @@
       "desc_zh": "这些是盘前涨幅最大的股票。",
       "link": "https://www.cnbc.com/2026/04/06/stocks-making-the-biggest-moves-premarket-nflx-slno-mstr.html",
       "pubDate": "2026-04-06T11:44:02",
-      "relativeTime": "4天前",
+      "relativeTime": "5天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
     },
@@ -515,20 +526,9 @@
       "desc_zh": "预计3月份非农就业人数将增加59,000人，失业率保持在4.4%。",
       "link": "https://www.cnbc.com/2026/04/03/jobs-report-march-2026-.html",
       "pubDate": "2026-04-03T13:35:34",
-      "relativeTime": "7天前",
+      "relativeTime": "8天前",
       "category": "综合",
       "source": "CNBC TOP NEWS"
-    },
-    {
-      "title_en": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
-      "title_zh": "Blue Owl在陡峭的请求水平后将私人信贷资金赎回上限定为5%",
-      "desc_en": "Blue Owl attributed the higher-than-usual requests to \"heightened market concerns around AI-related disruption to software companies.\"",
-      "desc_zh": "Blue Owl将高于平常的要求归因于“市场对软件公司人工智能相关中断的担忧加剧”。",
-      "link": "https://www.cnbc.com/2026/04/02/blue-owl-private-credit-funds-redemptions-requests.html",
-      "pubDate": "2026-04-02T20:08:15",
-      "relativeTime": "8天前",
-      "category": "金融",
-      "source": "CNBC FINANCE"
     },
     {
       "title_en": "The March jobs report will be released on Friday. Here's what to expect",
@@ -614,7 +614,7 @@
       "desc_zh": "该预测比之前预测的2.8%大幅上升。此外，它远高于美联储官员估计的2.7%。",
       "link": "https://www.cnbc.com/2026/03/26/global-forecasting-group-sees-us-inflation-at-4point2percent-this-year-much-higher-than-fed-estimate.html",
       "pubDate": "2026-03-26T14:02:43",
-      "relativeTime": "15天前",
+      "relativeTime": "16天前",
       "category": "经济",
       "source": "CNBC ECONOMY"
     }
