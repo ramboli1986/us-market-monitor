@@ -444,7 +444,88 @@
     .news-footer { display: flex; align-items: center; justify-content: flex-end; margin-top: 8px; }
     .news-read-more { font-size: .68rem; color: var(--text3); display: flex; align-items: center; gap: 3px; }
 
-    /* Product Hunt card styles */
+    /* Product Hunt — toolbar & date tabs */
+    .ph-toolbar { padding: 12px 12px 0; }
+    .ph-toolbar-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; flex-wrap: wrap; gap: 4px; }
+    .ph-title-row { display: flex; align-items: center; gap: 8px; }
+    .ph-title-icon { font-size: 1.3rem; }
+    .ph-section-title { font-size: 1rem; font-weight: 700; color: var(--text); }
+    .ph-date-tabs {
+      display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+      padding-bottom: 10px; -webkit-overflow-scrolling: touch;
+    }
+    .ph-date-tabs::-webkit-scrollbar { display: none; }
+    .ph-date-btn {
+      white-space: nowrap; background: var(--surface); border: 1px solid var(--border);
+      color: var(--text3); padding: 6px 14px; border-radius: 20px;
+      cursor: pointer; font-size: .73rem; font-weight: 600; flex-shrink: 0;
+      transition: all .2s; line-height: 1.3;
+    }
+    .ph-date-btn .ph-date-weekday { font-size: .62rem; opacity: .7; display: block; }
+    .ph-date-btn.active {
+      background: rgba(255,97,84,.15); border-color: rgba(255,97,84,.4); color: #ff6154;
+    }
+    .ph-date-btn:active { transform: scale(.96); }
+
+    /* Product Hunt — product grid */
+    .ph-grid { padding: 0 12px 16px; }
+
+    /* Product Hunt — product card */
+    .ph-product {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 14px; margin-bottom: 8px;
+      text-decoration: none; color: inherit;
+      transition: border-color .2s, background .2s, transform .15s;
+      position: relative; overflow: hidden;
+    }
+    .ph-product::before {
+      content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+      width: 3px; background: #ff6154; border-radius: 0 2px 2px 0;
+    }
+    .ph-product:active { border-color: rgba(255,97,84,.3); background: var(--surface2); transform: scale(.99); }
+
+    .ph-product-img {
+      width: 56px; height: 56px; border-radius: 12px; flex-shrink: 0;
+      background: var(--surface2); object-fit: cover;
+      border: 1px solid var(--border);
+    }
+    .ph-product-fallback {
+      width: 56px; height: 56px; border-radius: 12px; flex-shrink: 0;
+      background: linear-gradient(135deg, rgba(255,97,84,.15), rgba(255,97,84,.05));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; border: 1px solid rgba(255,97,84,.2);
+    }
+    .ph-product-body { flex: 1; min-width: 0; padding-left: 4px; }
+    .ph-product-name {
+      font-size: .88rem; font-weight: 700; color: var(--text);
+      line-height: 1.35; margin-bottom: 3px;
+      display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .ph-product-desc {
+      font-size: .76rem; color: var(--text2); line-height: 1.5;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .ph-product-meta {
+      display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap;
+    }
+    .ph-votes {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: .68rem; font-weight: 700; color: #ff6154;
+      background: rgba(255,97,84,.1); border: 1px solid rgba(255,97,84,.2);
+      padding: 2px 8px; border-radius: 6px;
+    }
+    .ph-votes svg { width: 10px; height: 10px; }
+    .ph-source-badge {
+      font-size: .62rem; color: var(--text3); background: var(--surface2);
+      padding: 2px 7px; border-radius: 4px; border: 1px solid var(--border);
+    }
+    .ph-product-link {
+      font-size: .66rem; color: #ff6154; font-weight: 600;
+      margin-left: auto; white-space: nowrap;
+    }
+
+    /* Legacy PH styles kept for news tab compatibility */
     .ph-btn { background: rgba(255,97,84,.15) !important; border-color: rgba(255,97,84,.3) !important; color: #ff6154 !important; }
     .ph-btn.active { background: #ff6154 !important; color: #fff !important; }
     .ph-card { border-color: rgba(255,97,84,.2); }
@@ -675,6 +756,14 @@
       .news-item { margin: 0 0 10px; }
       .news-item:hover { border-color: var(--border2); }
       .news-grid-desktop { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 10px; }
+
+      /* Product Hunt desktop */
+      .ph-toolbar { padding: 0 0 12px; }
+      .ph-grid { padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 10px; }
+      .ph-product { margin: 0; }
+      .ph-product:hover { border-color: rgba(255,97,84,.3); transform: translateY(-2px); }
+      .ph-product-img { width: 64px; height: 64px; }
+      .ph-product-fallback { width: 64px; height: 64px; }
 
       /* Factor rows */
       .factor-row { margin: 0 0 8px; }
@@ -1309,23 +1398,23 @@
     ══════════════════════════════════ -->
     <div id="tab-tech" class="tab-panel">
 
-      <div class="section-card">
-        <div class="section-hdr">
-          <span class="section-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-              <path d="M2 17l10 5 10-5"/>
-              <path d="M2 12l10 5 10-5"/>
-            </svg>
-          </span>
-          <h2>Product Hunt 今日热门</h2>
+      <div class="ph-toolbar">
+        <div class="ph-toolbar-top">
+          <div class="ph-title-row">
+            <span class="ph-title-icon">🚀</span>
+            <h2 class="ph-section-title">Product Hunt 热门产品</h2>
+          </div>
+          <div class="last-updated" id="techLastUpdated"></div>
         </div>
-        <div class="last-updated" id="techLastUpdated"></div>
-        <div id="techGrid" class="news-grid"></div>
-        <div id="techEmpty" class="news-empty" style="display:none">
-          <div style="font-size:2rem;margin-bottom:8px">🚀</div>
-          <div>暂无 Product Hunt 数据</div>
+        <div class="ph-date-tabs" id="phDateTabs">
+          <!-- JS will populate date sub-tabs -->
         </div>
+      </div>
+      <div id="techGrid" class="ph-grid"></div>
+      <div id="techEmpty" class="news-empty" style="display:none">
+        <div style="font-size:2.4rem;margin-bottom:12px">🚀</div>
+        <div>暂无 Product Hunt 数据</div>
+        <div style="font-size:.72rem;color:var(--text3);margin-top:6px">数据每天早上6点自动更新</div>
       </div>
 
     </div>
@@ -2027,48 +2116,155 @@ async function manualRefresh() {
 }
 
 // ══════════════════════════════════════════
-// TECH TAB (Product Hunt)
+// TECH TAB (Product Hunt) — NEW: ph_products.json
 // ══════════════════════════════════════════
+let phData = null;       // { updated_at, days: { '2026-04-12': [...], ... } }
+let phCurrentDate = '';  // currently selected date key
 let techLoaded = false;
 
+const WEEKDAY_ZH = ['周日','周一','周二','周三','周四','周五','周六'];
+
 async function loadTechData() {
-  if (techLoaded) return;
+  if (techLoaded && phData) { return; }
   const grid = document.getElementById('techGrid');
   const empty = document.getElementById('techEmpty');
   const lastUpdated = document.getElementById('techLastUpdated');
+  const dateTabs = document.getElementById('phDateTabs');
   if (!grid) return;
 
-  grid.innerHTML = '<div style="text-align:center;padding:30px;color:var(--text3)"><div class="spin" style="display:inline-block;width:20px;height:20px;border:2px solid var(--text3);border-top-color:var(--blue);border-radius:50%;animation:spin .8s linear infinite"></div><div style="margin-top:8px;font-size:.75rem">加载 Product Hunt 数据...</div></div>';
+  grid.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text3)"><div class="spin" style="display:inline-block;width:22px;height:22px;border:2px solid var(--text3);border-top-color:#ff6154;border-radius:50%;animation:spin .8s linear infinite"></div><div style="margin-top:10px;font-size:.76rem">加载 Product Hunt 数据...</div></div>';
 
   try {
-    const resp = await fetch('news.json');
-    const data = await resp.json();
-    const phItems = (data.items || []).filter(i => i.type === 'product');
+    const resp = await fetch('ph_products.json?t=' + Date.now());
+    phData = await resp.json();
+    const days = phData.days || {};
+    const dateKeys = Object.keys(days).sort().reverse(); // newest first
 
-    if (phItems.length === 0) {
+    if (dateKeys.length === 0) {
       grid.innerHTML = '';
       if (empty) empty.style.display = 'block';
       return;
     }
-
-    grid.innerHTML = '';
     if (empty) empty.style.display = 'none';
 
-    phItems.forEach(item => {
-      grid.appendChild(makeNewsCard(item));
-    });
+    // Build date sub-tabs
+    if (dateTabs) {
+      dateTabs.innerHTML = '';
+      const today = new Date();
+      const todayStr = today.toISOString().slice(0, 10);
+      dateKeys.forEach((dk, idx) => {
+        const d = new Date(dk + 'T12:00:00');
+        const m = d.getMonth() + 1;
+        const day = d.getDate();
+        const wd = WEEKDAY_ZH[d.getDay()];
+        const isToday = dk === todayStr;
+        const btn = document.createElement('button');
+        btn.className = 'ph-date-btn' + (idx === 0 ? ' active' : '');
+        btn.innerHTML = `${isToday ? '今天' : m + '/' + day}<span class="ph-date-weekday">${wd}</span>`;
+        btn.onclick = () => {
+          document.querySelectorAll('.ph-date-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          phCurrentDate = dk;
+          renderPhProducts();
+        };
+        dateTabs.appendChild(btn);
+      });
+    }
 
-    if (lastUpdated && data.updated_at) {
-      const diff = Math.floor((Date.now() - new Date(data.updated_at).getTime()) / 60000);
-      const timeStr = diff < 1 ? '刚刚更新' : diff < 60 ? `${diff}分钟前更新` : `${Math.floor(diff/60)}小时前更新`;
-      lastUpdated.innerHTML = `<span>数据来源: Product Hunt  ·  ${timeStr}  ·  共 ${phItems.length} 个产品</span>`;
+    // Select first date
+    phCurrentDate = dateKeys[0];
+    renderPhProducts();
+
+    // Update timestamp
+    if (lastUpdated && phData.updated_at) {
+      const diff = Math.floor((Date.now() - new Date(phData.updated_at).getTime()) / 60000);
+      const timeStr = diff < 1 ? '刚刚更新' : diff < 60 ? `${diff}分钟前更新` : diff < 1440 ? `${Math.floor(diff/60)}小时前更新` : `${Math.floor(diff/1440)}天前更新`;
+      const totalProducts = dateKeys.reduce((s, k) => s + filterValidProducts(days[k]).length, 0);
+      lastUpdated.innerHTML = `<span>数据来源: Product Hunt  ·  ${timeStr}  ·  ${dateKeys.length}天 / ${totalProducts}个产品</span>`;
     }
 
     techLoaded = true;
   } catch (e) {
     console.error('Tech data load error:', e);
-    grid.innerHTML = '<div style="text-align:center;padding:30px;color:var(--text3);font-size:.8rem">加载失败，请稍后再试</div>';
+    grid.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text3);font-size:.8rem">加载失败，请稍后再试</div>';
   }
+}
+
+function filterValidProducts(items) {
+  if (!items) return [];
+  return items.filter(p =>
+    p.name &&
+    p.desc &&
+    p.desc !== 'Trending categories' &&
+    !p.slug.includes('?ref=footer') &&
+    !p.slug.includes('/reviews')
+  );
+}
+
+function renderPhProducts() {
+  const grid = document.getElementById('techGrid');
+  const empty = document.getElementById('techEmpty');
+  if (!grid || !phData) return;
+
+  const items = filterValidProducts(phData.days[phCurrentDate] || []);
+
+  if (items.length === 0) {
+    grid.innerHTML = '';
+    if (empty) empty.style.display = 'block';
+    return;
+  }
+  if (empty) empty.style.display = 'none';
+
+  // Sort by upvotes descending (products with upvotes first)
+  items.sort((a, b) => (b.upvotes || 0) - (a.upvotes || 0));
+
+  grid.innerHTML = '';
+  items.forEach((p, idx) => {
+    const a = document.createElement('a');
+    a.href = p.product_link || p.ph_link || '#';
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.className = 'ph-product';
+
+    const imgHtml = p.image
+      ? `<img class="ph-product-img" src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.outerHTML='<div class=ph-product-fallback>\uD83D\uDE80</div>'">`
+      : `<div class="ph-product-fallback">${getProductEmoji(p.name)}</div>`;
+
+    const votesHtml = p.upvotes
+      ? `<span class="ph-votes"><svg viewBox="0 0 12 12" fill="#ff6154"><path d="M6 1l1.76 3.57 3.94.57-2.85 2.78.67 3.93L6 9.75l-3.52 1.85.67-3.93L.3 5.14l3.94-.57z"/></svg>${p.upvotes}</span>`
+      : '';
+
+    const descText = p.desc_zh || p.desc || '';
+
+    a.innerHTML = `
+      ${imgHtml}
+      <div class="ph-product-body">
+        <div class="ph-product-name">${p.name}</div>
+        <div class="ph-product-desc">${descText}</div>
+        <div class="ph-product-meta">
+          ${votesHtml}
+          <span class="ph-source-badge">Product Hunt</span>
+          <span class="ph-product-link">查看 →</span>
+        </div>
+      </div>`;
+
+    grid.appendChild(a);
+  });
+}
+
+function getProductEmoji(name) {
+  const n = (name || '').toLowerCase();
+  if (n.includes('ai') || n.includes('gpt') || n.includes('claude')) return '🤖';
+  if (n.includes('design') || n.includes('ui') || n.includes('figma')) return '🎨';
+  if (n.includes('code') || n.includes('dev') || n.includes('api')) return '💻';
+  if (n.includes('video') || n.includes('screen')) return '🎬';
+  if (n.includes('music') || n.includes('audio')) return '🎵';
+  if (n.includes('photo') || n.includes('image')) return '📷';
+  if (n.includes('mail') || n.includes('email')) return '📧';
+  if (n.includes('finance') || n.includes('money') || n.includes('pay')) return '💰';
+  if (n.includes('health') || n.includes('fitness')) return '🏋️';
+  if (n.includes('note') || n.includes('write') || n.includes('doc')) return '📝';
+  return '🚀';
 }
 
 // ══════════════════════════════════════════
