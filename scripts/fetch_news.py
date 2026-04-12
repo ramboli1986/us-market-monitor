@@ -143,16 +143,21 @@ def fetch_producthunt(timeout: int = 15) -> list[dict]:
                     break
             # Use Product Hunt SVG badge as image
             badge_url = f"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id={post_id}&theme=dark" if post_id else ""
-            # Use Google Favicon API for product logo
+            # Try to follow redirect to get real product domain for favicon
             favicon_url = ""
             if product_url:
                 try:
-                    parsed = urllib.parse.urlparse(product_url)
-                    domain = parsed.netloc or parsed.path.split("/")[0]
-                    if domain:
-                        favicon_url = f"https://www.google.com/s2/favicons?domain={domain}&sz=128"
+                    req2 = urllib.request.Request(product_url, headers={"User-Agent": "Mozilla/5.0"}, method="HEAD")
+                    with urllib.request.urlopen(req2, timeout=5) as resp2:
+                        real_url = resp2.url
+                    domain = urllib.parse.urlparse(real_url).netloc
+                    if domain and "producthunt" not in domain:
+                        favicon_url = f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://{domain}&size=128"
                 except Exception:
                     pass
+            # Fallback: use PH favicon
+            if not favicon_url:
+                favicon_url = "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://producthunt.com&size=128"
             if title:
                 items.append({
                     "title": title,
@@ -305,16 +310,24 @@ def main():
             ph_new.append((raw, pub_iso))
 
     if ph_new:
-        titles = [item[0]["title"] for item in ph_new]
+        # Only translate descriptions, keep product names in English
         descs = [item[0]["desc"] for item in ph_new]
-        print(f"    Translating {len(titles)} Product Hunt items...")
-        titles_zh = batch_translate(titles)
+        print(f"    Translating {len(descs)} Product Hunt descriptions...")
         descs_zh = batch_translate(descs)
 
         for i, (raw, pub_iso) in enumerate(ph_new):
+            # Build favicon URL from product_url domain
+            favicon = raw.get("favicon", "")
+            if not favicon and raw.get("product_url"):
+                try:
+                    domain = urllib.parse.urlparse(raw["product_url"]).netloc
+                    if domain:
+                        favicon = f"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://{domain}&size=128"
+                except Exception:
+                    pass
             item = {
                 "title_en": raw["title"],
-                "title_zh": titles_zh[i],
+                "title_zh": raw["title"],  # Keep product name as-is
                 "desc_en": raw["desc"],
                 "desc_zh": descs_zh[i],
                 "link": raw["link"],
@@ -323,7 +336,7 @@ def main():
                 "category": "Product Hunt",
                 "source": "Product Hunt",
                 "image": raw.get("image", ""),
-                "favicon": raw.get("favicon", ""),
+                "favicon": favicon or raw.get("favicon", ""),
                 "post_id": raw.get("post_id", ""),
                 "product_url": raw.get("product_url", ""),
                 "type": "product",
