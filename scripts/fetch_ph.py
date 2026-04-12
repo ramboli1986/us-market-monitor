@@ -106,7 +106,7 @@ def fetch_from_playwright():
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(
-                headless=False,
+                headless=True,
                 args=['--no-sandbox', '--disable-blink-features=AutomationControlled']
             )
             context = browser.new_context(
@@ -196,6 +196,40 @@ def fetch_from_playwright():
                     if products and len(products) > 1:
                         by_date[date_key] = products[:20]
                         print(f"  -> {len(products)} products found")
+
+                        # Visit each product page to get external website link (top 20)
+                        for idx, prod in enumerate(by_date[date_key]):
+                            slug = prod['slug']
+                            prod_url = f"https://www.producthunt.com/products/{slug}"
+                            try:
+                                prod_page = context.new_page()
+                                prod_page.goto(prod_url, wait_until='domcontentloaded', timeout=20000)
+                                prod_page.wait_for_timeout(2000)
+                                ext_link = prod_page.evaluate("""
+                                () => {
+                                    const links = document.querySelectorAll('a');
+                                    for (const a of links) {
+                                        if (a.textContent.trim() === 'Visit website') {
+                                            return a.getAttribute('href') || '';
+                                        }
+                                    }
+                                    return '';
+                                }
+                                """)
+                                if ext_link and not ext_link.startswith('/') and 'producthunt.com' not in ext_link:
+                                    # Remove ?ref=producthunt tracking param
+                                    clean_link = ext_link.split('?ref=producthunt')[0]
+                                    prod['product_link'] = clean_link
+                                    print(f"    [{idx+1}] {prod['name']}: {clean_link}")
+                                else:
+                                    print(f"    [{idx+1}] {prod['name']}: no external link")
+                                prod_page.close()
+                            except Exception as e:
+                                print(f"    [{idx+1}] {prod['name']}: error - {e}")
+                                try:
+                                    prod_page.close()
+                                except:
+                                    pass
                     else:
                         print(f"  -> No products (possibly blocked)")
 
@@ -278,6 +312,49 @@ def translate_all(data):
     return data
 
 
+# ─── External Link Extraction ───
+def fetch_external_links(data):
+    """Fetch external website links from PH product pages using HTTP requests"""
+    import time as _time
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml',
+        'Accept-Language': 'en-US,en;q=0.9',
+    }
+    updated = 0
+    errors = 0
+    for date_key in sorted(data.keys(), reverse=True):
+        for p in data[date_key]:
+            current = p.get('product_link', '')
+            # Skip if already has external link
+            if current and 'producthunt.com' not in current:
+                continue
+            slug = p.get('slug', '')
+            if not slug:
+                continue
+            url = f"https://www.producthunt.com/products/{slug}"
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    page_html = resp.read().decode('utf-8', errors='ignore')
+                match = re.search(r'href="(https?://[^"]+)"[^>]*>\s*Visit website\s*</a>', page_html)
+                if not match:
+                    match = re.search(r'href="(https?://[^"]*)">Visit website', page_html)
+                if match:
+                    ext_url = match.group(1)
+                    clean = ext_url.split('?ref=producthunt')[0].replace('&amp;', '&')
+                    if 'producthunt.com' not in clean:
+                        p['product_link'] = clean
+                        updated += 1
+                        print(f"    [LINK] {p['name']}: {clean}")
+                _time.sleep(0.5)
+            except Exception:
+                errors += 1
+                _time.sleep(1)
+    print(f"  -> Updated {updated} external links ({errors} errors)")
+    return data
+
+
 # ─── Main ───
 def main():
     # Load existing data
@@ -301,6 +378,10 @@ def main():
     merged = merge_data(pw_data, feed_data, existing)
     total = sum(len(v) for v in merged.values())
     print(f"\n[Merge] Total: {total} products across {len(merged)} days")
+
+    # Fetch external website links
+    print("\n[Links] Fetching external website links...")
+    merged = fetch_external_links(merged)
 
     # Translate
     print("\n[Translate] Translating descriptions...")
