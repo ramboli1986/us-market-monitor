@@ -444,6 +444,17 @@
     .news-footer { display: flex; align-items: center; justify-content: flex-end; margin-top: 8px; }
     .news-read-more { font-size: .68rem; color: var(--text3); display: flex; align-items: center; gap: 3px; }
 
+    /* Product Hunt card styles */
+    .ph-btn { background: rgba(255,97,84,.15) !important; border-color: rgba(255,97,84,.3) !important; color: #ff6154 !important; }
+    .ph-btn.active { background: #ff6154 !important; color: #fff !important; }
+    .ph-card { border-color: rgba(255,97,84,.2); }
+    .ph-badge { margin: 10px 0 6px; border-radius: 8px; overflow: hidden; }
+    .ph-badge img { width: 100%; max-width: 250px; height: auto; display: block; }
+    .ph-link { font-size: .68rem; color: #ff6154; display: flex; align-items: center; gap: 3px; font-weight: 600; }
+    /* News thumbnail */
+    .news-thumb { margin: 8px 0 6px; border-radius: 8px; overflow: hidden; max-height: 160px; }
+    .news-thumb img { width: 100%; height: auto; display: block; object-fit: cover; }
+
     .news-empty { text-align: center; padding: 60px 20px; color: var(--text3); }
     .news-empty .icon { font-size: 2.4rem; margin-bottom: 10px; opacity: .6; }
     .news-empty p { font-size: .84rem; }
@@ -808,10 +819,11 @@
         </div>
         <div class="cat-filters">
           <button class="cat-btn active" onclick="filterNews('全部',this)">全部</button>
-          <button class="cat-btn" onclick="filterNews('综合',this)">综合</button>
-          <button class="cat-btn" onclick="filterNews('经济',this)">经济</button>
-          <button class="cat-btn" onclick="filterNews('金融',this)">金融</button>
+          <button class="cat-btn" onclick="filterNews('头条',this)">头条</button>
+          <button class="cat-btn" onclick="filterNews('国际',this)">国际</button>
+          <button class="cat-btn" onclick="filterNews('财经',this)">财经</button>
           <button class="cat-btn" onclick="filterNews('科技',this)">科技</button>
+          <button class="cat-btn ph-btn" onclick="filterNews('Product Hunt',this)">🚀 Product Hunt</button>
         </div>
       </div>
       <div class="last-updated" id="lastUpdatedText"></div>
@@ -1788,9 +1800,9 @@ const NEWS_API_STATIC = '/news.json';   // 首次加载：静态缓存，秒开
 const NEWS_API_LIVE   = '/api/news';     // 手动刷新：实时抓取
 let allNews = [], currentFilter = '全部', newsLoaded = false;
 let showZh = true, refreshTimer = null, nextRefreshIn = 3600;
-const CAT_COLORS = { '综合':'#4f9cf9', '经济':'#34d399', '金融':'#fbbf24', '科技':'#a78bfa' };
-const CAT_BG = { '综合':'rgba(79,156,249,.12)', '经济':'rgba(52,211,153,.12)', '金融':'rgba(251,191,36,.12)', '科技':'rgba(167,139,250,.12)' };
-const CAT_BORDER = { '综合':'rgba(79,156,249,.25)', '经济':'rgba(52,211,153,.25)', '金融':'rgba(251,191,36,.25)', '科技':'rgba(167,139,250,.25)' };
+const CAT_COLORS = { '头条':'#f59e0b', '国际':'#4f9cf9', '财经':'#34d399', '科技':'#a78bfa', 'Product Hunt':'#ff6154' };
+const CAT_BG = { '头条':'rgba(245,158,11,.12)', '国际':'rgba(79,156,249,.12)', '财经':'rgba(52,211,153,.12)', '科技':'rgba(167,139,250,.12)', 'Product Hunt':'rgba(255,97,84,.12)' };
+const CAT_BORDER = { '头条':'rgba(245,158,11,.25)', '国际':'rgba(79,156,249,.25)', '财经':'rgba(52,211,153,.25)', '科技':'rgba(167,139,250,.25)', 'Product Hunt':'rgba(255,97,84,.25)' };
 
 function setStatus(state, text) {
   const dot = document.getElementById('statusDot');
@@ -1812,29 +1824,58 @@ function timeAgo(pubDate) {
 }
 
 function makeNewsCard(item) {
-  const cat = item.category || '综合';
+  const cat = item.category || '头条';
   const color = CAT_COLORS[cat] || '#4f9cf9';
   const bg = CAT_BG[cat] || 'rgba(79,156,249,.12)';
   const border = CAT_BORDER[cat] || 'rgba(79,156,249,.25)';
   const a = document.createElement('a');
-  a.className = 'news-item';
   a.href = item.link;
   a.target = '_blank';
   a.rel = 'noopener noreferrer';
   a.style.cssText = `--item-color:${color}`;
-  a.innerHTML = `
-    <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
-    <div class="news-item-inner">
-      <div class="news-meta">
-        <span class="news-source" style="color:${color}">${item.source||'CNBC'}</span>
-        <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${cat}</span>
-        <span class="news-time">${timeAgo(item.pubDate)}</span>
-      </div>
-      <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
-      ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
-      ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
-      <div class="news-footer"><span class="news-read-more">阅读原文 →</span></div>
-    </div>`;
+
+  // Product Hunt 特殊卡片样式
+  if (item.type === 'product') {
+    a.className = 'news-item ph-card';
+    const title = showZh && item.title_zh ? item.title_zh : (item.title_en||'');
+    const desc = showZh && item.desc_zh ? item.desc_zh : (item.desc_en||'');
+    const titleEn = showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : '';
+    const imgHtml = item.image ? `<div class="ph-badge"><img src="${item.image}" alt="PH Badge" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+    a.innerHTML = `
+      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
+      <div class="news-item-inner">
+        <div class="news-meta">
+          <span class="news-source" style="color:${color}">🚀 Product Hunt</span>
+          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">Today</span>
+          <span class="news-time">${timeAgo(item.pubDate)}</span>
+        </div>
+        <div class="news-title">${title}</div>
+        ${titleEn}
+        ${desc ? `<div class="news-desc">${desc}</div>` : ''}
+        ${imgHtml}
+        <div class="news-footer">
+          <span class="ph-link">查看产品 →</span>
+        </div>
+      </div>`;
+  } else {
+    // 普通新闻卡片
+    a.className = 'news-item';
+    const imgHtml = item.image ? `<div class="news-thumb"><img src="${item.image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : '';
+    a.innerHTML = `
+      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${color};border-radius:0 2px 2px 0"></div>
+      <div class="news-item-inner">
+        <div class="news-meta">
+          <span class="news-source" style="color:${color}">${item.source||''}</span>
+          <span class="news-cat-badge" style="background:${bg};border-color:${border};color:${color}">${cat}</span>
+          <span class="news-time">${timeAgo(item.pubDate)}</span>
+        </div>
+        ${imgHtml}
+        <div class="news-title">${showZh && item.title_zh ? item.title_zh : (item.title_en||item.title||'')}</div>
+        ${showZh && item.title_zh ? `<div class="news-title-en">${item.title_en||''}</div>` : ''}
+        ${showZh && item.desc_zh ? `<div class="news-desc">${item.desc_zh}</div>` : (item.desc_en ? `<div class="news-desc">${item.desc_en}</div>` : '')}
+        <div class="news-footer"><span class="news-read-more">阅读原文 →</span></div>
+      </div>`;
+  }
   return a;
 }
 
@@ -1870,7 +1911,7 @@ async function fetchNews(forceRefresh = false) {
         const updTime = new Date(data.updated_at);
         const diffMin = Math.round((Date.now() - updTime.getTime()) / 60000);
         const freshLabel = diffMin < 5 ? '刚刚更新' : diffMin < 60 ? `${diffMin}分钟前更新` : `${Math.floor(diffMin/60)}小时前更新`;
-        upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--text3)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条 &nbsp;·&nbsp; <span style="color:var(--blue);cursor:pointer" onclick="manualRefresh()">↻ 刷新获取最新</span>`;
+        upd.innerHTML = `数据来源: BBC / Google News / CNBC / Product Hunt &nbsp;·&nbsp; <span style="color:var(--text3)">${freshLabel}</span> &nbsp;·&nbsp; 共 ${allNews.length} 条 &nbsp;·&nbsp; <span style="color:var(--blue);cursor:pointer" onclick="manualRefresh()">↻ 刷新获取最新</span>`;
       }
       setStatus('live', '点击刷新获取最新');
       renderNews();
@@ -1887,15 +1928,15 @@ async function fetchNews(forceRefresh = false) {
   btn.disabled = true;
   document.getElementById('newsGrid').innerHTML =
     '<div class="news-empty"><div class="icon" style="font-size:2rem;animation:spin 1s linear infinite">⟳</div>' +
-    '<p style="color:var(--blue)">正在从 CNBC 实时抓取最新新闻，请稍候...</p>' +
-    '<p style="color:var(--text3);font-size:.8rem;margin-top:8px">预计需要 30-60 秒</p></div>';
+    '<p style="color:var(--blue)">正在实时抓取最新国际要闻和 Product Hunt 产品，请稍候...</p>' +
+    '<p style="color:var(--text3);font-size:.8rem;margin-top:8px">预计需要 10-30 秒</p></div>';
   try {
     const resp = await fetch(NEWS_API_LIVE + '?t=' + Date.now(), { cache: 'no-store' });
     const data = await resp.json();
     allNews = data.items || [];
     newsLoaded = true;
     const upd = document.getElementById('lastUpdatedText');
-    upd.innerHTML = `数据来源: CNBC RSS &nbsp;·&nbsp; <span style="color:var(--green)">刚刚更新</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
+    upd.innerHTML = `数据来源: BBC / Google News / CNBC / Product Hunt &nbsp;·&nbsp; <span style="color:var(--green)">刚刚更新</span> &nbsp;·&nbsp; 共 ${allNews.length} 条`;
     setStatus('live', '实时最新');
     renderNews();
     startCountdown();
