@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T22:18:43",
+  "updated_at": "2026-04-24T22:17:45",
   "days": {
     "2026-04-22": [
       {
@@ -213,28 +213,6 @@
         "source": "feed"
       }
     ],
-    "2026-04-16": [
-      {
-        "name": "ora",
-        "slug": "ora-3",
-        "desc": "Your personal simultaneous interpreter, on your Mac",
-        "desc_zh": "您的个人同声传译员，在您的 Mac 上",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ora-3",
-        "product_link": "https://main.d1cdtuylr567og.amplifyapp.com/",
-        "source": "feed"
-      },
-      {
-        "name": "MindFort",
-        "slug": "mindfort",
-        "desc": "Recursively learning security agents",
-        "desc_zh": "递归学习安全代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mindfort",
-        "product_link": "https://www.mindfort.ai/",
-        "source": "feed"
-      }
-    ],
     "2026-04-19": [
       {
         "name": "Magic Patterns Agent 2.0",
@@ -256,6 +234,166 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/monid",
         "product_link": "https://monid.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Spira AI",
+        "slug": "spira-ai",
+        "desc": "AI Influencer that always on trend, create & grow your brand",
+        "desc_zh": "始终紧随潮流的人工智能影响者，创建和发展您的品牌",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spira-ai",
+        "product_link": "https://tryspira.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "LifeOS",
+        "slug": "lifeos-6",
+        "desc": "Turn your AI chats/memory to intros with real humans",
+        "desc_zh": "将您的人工智能聊天/记忆转变为与真人的介绍",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lifeos-6",
+        "product_link": "https://beta.yourpurpose.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "MailCue",
+        "slug": "mailcue-realistic-email-testing-server",
+        "desc": "Run as a fully hardened production email server.",
+        "desc_zh": "作为完全强化的生产电子邮件服务器运行。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mailcue-realistic-email-testing-server",
+        "product_link": "https://olib-ai.github.io/mailcue",
+        "source": "feed"
+      },
+      {
+        "name": "DeepSeek-V4",
+        "slug": "deepseek",
+        "desc": "The open-source era of 1M context intelligence",
+        "desc_zh": "1M情境智能的开源时代",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/deepseek",
+        "product_link": "https://chat.deepseek.com/coder",
+        "source": "feed"
+      },
+      {
+        "name": "Haiker",
+        "slug": "haiker",
+        "desc": "Hacker News App for non-native english speaker",
+        "desc_zh": "适合非英语母语人士的黑客新闻应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/haiker",
+        "product_link": "https://haiker.app/",
+        "source": "feed"
+      },
+      {
+        "name": "Universal Gas Framework (UGF)",
+        "slug": "universal-gas-framework-ugf",
+        "desc": "Route Actions, Not Liquidity",
+        "desc_zh": "路线是行动，而不是流动性",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/universal-gas-framework-ugf",
+        "product_link": "https://universalgasframework.com/",
+        "source": "feed"
+      },
+      {
+        "name": "TuneJourney.com",
+        "slug": "tunejourney-com",
+        "desc": "AI learns your listening habits and curates your live radio",
+        "desc_zh": "人工智能了解您的收听习惯并策划您的直播广播",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tunejourney-com",
+        "product_link": "https://tunejourney.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Tyndale",
+        "slug": "tyndale",
+        "desc": "Translate your app with the AI you already pay for",
+        "desc_zh": "使用您已付费的 AI 翻译您的应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tyndale",
+        "product_link": "https://tyndale.dev/",
+        "source": "feed"
+      },
+      {
+        "name": "Codex 3.0 by OpenAI",
+        "slug": "codex-3-0-by-openai",
+        "desc": "Codex can now build, test & debug on autopilot",
+        "desc_zh": "Codex 现在可以在自动驾驶仪上构建、测试和调试",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codex-3-0-by-openai",
+        "product_link": "https://chatgpt.com/codex",
+        "source": "feed"
+      },
+      {
+        "name": "Nordcraft 2.0",
+        "slug": "toddle",
+        "desc": "I design agent with full HTML/CSS control and SSR",
+        "desc_zh": "我设计的代理具有完整的 HTML/CSS 控制和 SSR",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/toddle",
+        "product_link": "https://nordcraft.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Your Name in Landsat 🛰️",
+        "slug": "your-name-in-landsat",
+        "desc": "The planet can spell your name – literally!",
+        "desc_zh": "这个星球可以拼出你的名字——字面意思！",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/your-name-in-landsat",
+        "product_link": "https://science.nasa.gov/specials/your-name-in-landsat",
+        "source": "feed"
+      },
+      {
+        "name": "CodeCanary",
+        "slug": "codecanary",
+        "desc": "Turn session replays into revenue",
+        "desc_zh": "将会话重播转化为收入",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codecanary",
+        "product_link": "https://www.codecanary.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Onboarding0",
+        "slug": "onboarding0",
+        "desc": "Turn company knowledge into AI-guided onboarding",
+        "desc_zh": "将公司知识转化为人工智能引导的入职培训",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/onboarding0",
+        "product_link": "https://www.onboarding0.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Mozart Studio 1.0",
+        "slug": "mozart-ai",
+        "desc": "A Generative Audio Workstation with VSTs",
+        "desc_zh": "带有 VST 的生成音频工作站",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mozart-ai",
+        "product_link": "https://mozartai.com/",
+        "source": "feed"
+      },
+      {
+        "name": "NotchNest AI",
+        "slug": "notchnest-quick-access-hub",
+        "desc": "AI powered by Apple Intelligence now in your Notch",
+        "desc_zh": "由 Apple Intelligence 提供支持的 AI 现已出现在您的 Notch 中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notchnest-quick-access-hub",
+        "product_link": "https://apps.apple.com/us/app/notchnest-quick-access-hub/id6747612321",
+        "source": "feed"
+      },
+      {
+        "name": "SaveForm.io",
+        "slug": "saveform-io",
+        "desc": "Automated form tracking and e-mail notifications & webhooks",
+        "desc_zh": "自动表单跟踪以及电子邮件通知和网络钩子",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/saveform-io",
+        "product_link": "https://www.saveform.io/",
         "source": "feed"
       }
     ],
@@ -358,6 +496,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/decisionbox",
         "product_link": "https://decisionbox.io/",
+        "source": "feed"
+      },
+      {
+        "name": "Yutori Delegate",
+        "slug": "scouts-by-yutori",
+        "desc": "Why cowork when you can delegate?",
+        "desc_zh": "当你可以授权时为什么要合作？",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/scouts-by-yutori",
+        "product_link": "https://yutori.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Ask Product Hunt AI",
+        "slug": "producthunt",
+        "desc": "Find the right product, just ask",
+        "desc_zh": "找到合适的产品，只需询问",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/producthunt",
+        "product_link": "https://www.producthunt.com/r/p/1129378?app_id=339",
         "source": "feed"
       }
     ],
