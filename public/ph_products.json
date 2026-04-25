@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T22:17:45",
+  "updated_at": "2026-04-25T22:12:27",
   "days": {
     "2026-04-22": [
       {
@@ -395,6 +395,26 @@
         "ph_link": "https://www.producthunt.com/products/saveform-io",
         "product_link": "https://www.saveform.io/",
         "source": "feed"
+      },
+      {
+        "name": "MiMo-V2.5 Voice",
+        "slug": "mimo-v2-5-voice",
+        "desc": "Bilingual ASR for dialects, code-switching, and songs",
+        "desc_zh": "针对方言、语码转换和歌曲的双语 ASR",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mimo-v2-5-voice",
+        "product_link": "https://platform.xiaomimimo.com/docs/usage-guide/speech-synthesis-v2.5",
+        "source": "feed"
+      },
+      {
+        "name": "Grok Voice Think Fast 1.0",
+        "slug": "grok-voice-think-fast-1-0",
+        "desc": "Our most capable voice agent is now available via API",
+        "desc_zh": "我们最强大的语音代理现已通过 API 提供",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/grok-voice-think-fast-1-0",
+        "product_link": "https://x.ai/news/grok-voice-think-fast-1",
+        "source": "feed"
       }
     ],
     "2026-04-21": [
@@ -517,6 +537,36 @@
         "ph_link": "https://www.producthunt.com/products/producthunt",
         "product_link": "https://www.producthunt.com/r/p/1129378?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Clawdi",
+        "slug": "clawdi",
+        "desc": "Best home for all AI agents",
+        "desc_zh": "所有人工智能代理的最佳家园",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clawdi",
+        "product_link": "https://clawdi.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Inrō AI",
+        "slug": "inro",
+        "desc": "Your AI Agent for Instagram Marketing",
+        "desc_zh": "您的 Instagram 营销 AI 代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/inro",
+        "product_link": "https://www.inro.social/ph?referral_code=product-hunt-ai-launch&utm_source=product-hunt&utm_medium=referral&utm_campaign=product-hunt-home&ref=producthunt",
+        "source": "feed"
+      },
+      {
+        "name": "Euphony",
+        "slug": "euphony-2",
+        "desc": "Render AI chat data and Codex logs into browsable views",
+        "desc_zh": "将 AI 聊天数据和 Codex 日志渲染到可浏览视图中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/euphony-2",
+        "product_link": "https://openai.github.io/euphony",
+        "source": "feed"
       }
     ],
     "2026-04-20": [
@@ -568,6 +618,18 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/stet-a-smart-dictation-for-rest-of-us",
         "product_link": "https://www.stet.me/",
+        "source": "feed"
+      }
+    ],
+    "2026-04-18": [
+      {
+        "name": "PromptPaste",
+        "slug": "promptpaste",
+        "desc": "Your private AI prompt library on Mac, iPhone, and iPad",
+        "desc_zh": "Mac、iPhone 和 iPad 上的私人 AI 提示库",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/promptpaste",
+        "product_link": "https://getpromptpaste.com/",
         "source": "feed"
       }
     ]
