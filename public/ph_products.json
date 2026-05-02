@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T22:19:25",
+  "updated_at": "2026-05-02T22:16:48",
   "days": {
     "2026-04-28": [
       {
@@ -150,6 +150,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/screenveil",
         "product_link": "https://apps.apple.com/app/screenveil/id6743118312",
+        "source": "feed"
+      },
+      {
+        "name": "YouTube TV Custom Multiview",
+        "slug": "google",
+        "desc": "Mix and match up to 4 live streams at once",
+        "desc_zh": "同时混合和匹配最多 4 个直播流",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google",
+        "product_link": "https://www.google.com/",
         "source": "feed"
       }
     ],
@@ -615,48 +625,6 @@
         "source": "feed"
       }
     ],
-    "2026-04-24": [
-      {
-        "name": "Heym",
-        "slug": "heym",
-        "desc": "Self-hosted AI workflow automation with agents, RAG, and MCP",
-        "desc_zh": "具有代理、RAG 和 MCP 的自托管 AI 工作流程自动化",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/heym",
-        "product_link": "https://heym.run/",
-        "source": "feed"
-      },
-      {
-        "name": "Couch Critic",
-        "slug": "couch-critic",
-        "desc": "Netflix killed comments. We brought them back.",
-        "desc_zh": "Netflix 取消了评论。我们把他们带回来了。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/couch-critic",
-        "product_link": "https://www.couchcritic.app/",
-        "source": "feed"
-      },
-      {
-        "name": "TraceCode",
-        "slug": "tracecode",
-        "desc": "Learn algorithms by watching them run",
-        "desc_zh": "通过观察算法的运行来学习算法",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tracecode",
-        "product_link": "https://tracecode.app/",
-        "source": "feed"
-      },
-      {
-        "name": "Zush",
-        "slug": "zush",
-        "desc": "Updated: docs support, BYOK, Local AI (Ollama), Windows App",
-        "desc_zh": "更新：文档支持、BYOK、本地 AI (Ollama)、Windows 应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zush",
-        "product_link": "https://zushapp.com/",
-        "source": "feed"
-      }
-    ],
     "2026-04-26": [
       {
         "name": "CartGhost",
@@ -686,6 +654,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/postiz",
         "product_link": "https://postiz.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Filect",
+        "slug": "filect",
+        "desc": "Organize Your Files With AI",
+        "desc_zh": "使用 AI 整理您的文件",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/filect",
+        "product_link": "https://filect.io/",
         "source": "feed"
       }
     ],
@@ -1131,6 +1109,26 @@
         "ph_link": "https://www.producthunt.com/products/anydrop-3",
         "product_link": "https://anydrop.org/",
         "source": "feed"
+      },
+      {
+        "name": "Breaks",
+        "slug": "breaks",
+        "desc": "A quiet Pomodoro that lives in your menu bar.",
+        "desc_zh": "菜单栏中有一个安静的番茄钟。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/breaks",
+        "product_link": "https://gjinprelvukaj.github.io/Breaks",
+        "source": "feed"
+      },
+      {
+        "name": "Feather",
+        "slug": "feather-18",
+        "desc": "Photo editor with local AI",
+        "desc_zh": "具有本地 AI 的照片编辑器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/feather-18",
+        "product_link": "https://www.feather-editor.it/",
+        "source": "feed"
       }
     ],
     "2026-04-30": [
@@ -1233,6 +1231,248 @@
         "ph_link": "https://www.producthunt.com/products/beauty-diagram",
         "product_link": "https://www.beauty-diagram.com/",
         "source": "feed"
+      },
+      {
+        "name": "Ara",
+        "slug": "dereference-the-100x-ide",
+        "desc": "Build an entire business by texting",
+        "desc_zh": "通过短信建立完整的业务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dereference-the-100x-ide",
+        "product_link": "https://image.ara.so/",
+        "source": "feed"
+      },
+      {
+        "name": "Cloud Computer by Manus",
+        "slug": "manus",
+        "desc": "A dedicated cloud machine for bots and software",
+        "desc_zh": "用于机器人和软件的专用云机器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/manus",
+        "product_link": "https://manus.im/",
+        "source": "feed"
+      }
+    ],
+    "2026-05-01": [
+      {
+        "name": "Postiz",
+        "slug": "postiz",
+        "image": "https://ph-files.imgix.net/ca5dbb32-5827-4432-bbbd-6d539429940d.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Agentic social media scheduler for agents like OpenClaw",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/postiz",
+        "product_link": "https://postiz.com/",
+        "source": "playwright",
+        "desc_zh": "适用于 OpenClaw 等代理的代理社交媒体调度程序"
+      },
+      {
+        "name": "Zed 1.0",
+        "slug": "zed",
+        "image": "",
+        "desc": "High-performance, open source, multiplayer code editor",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/zed",
+        "product_link": "https://zed.dev/",
+        "source": "playwright",
+        "desc_zh": "高性能、开源、多人代码编辑器"
+      },
+      {
+        "name": "Marx Finance",
+        "slug": "marx-finance",
+        "image": "https://ph-files.imgix.net/884ce363-e1db-46a6-a0e8-129b7071904e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "AI agents debate the markets",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/marx-finance",
+        "product_link": "https://marx.finance/",
+        "source": "playwright",
+        "desc_zh": "人工智能代理人争论市场"
+      },
+      {
+        "name": "Buda",
+        "slug": "buda-2",
+        "image": "",
+        "desc": "Recruit agents to run your company as a synchronous team",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/buda-2",
+        "product_link": "https://buda.im/",
+        "source": "playwright",
+        "desc_zh": "招募代理人作为同步团队来运营您的公司"
+      },
+      {
+        "name": "Bitgrain",
+        "slug": "bitgrain",
+        "image": "https://ph-files.imgix.net/0ad03e91-0cbb-4e8a-9393-b8c2cb2c2f68.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Design studio lighter than Figma & more flexible than Canva",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/bitgrain",
+        "product_link": "https://bitgrain.diptanshumahish.in/?utm=producthunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "设计工作室比 Figma 更轻，比 Canva 更灵活"
+      },
+      {
+        "name": "Montage",
+        "slug": "montage-3",
+        "image": "https://ph-files.imgix.net/254bfb97-b897-4201-8fbb-31290296cac2.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "The runtime framework for agentic user interfaces!",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/montage-3",
+        "product_link": "https://usemontage.ai/",
+        "source": "playwright",
+        "desc_zh": "代理用户界面的运行时框架！"
+      },
+      {
+        "name": "Genspark for Word",
+        "slug": "genspark",
+        "image": "https://ph-files.imgix.net/b36028d9-b82b-469d-b036-cf0acf890ced.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Draft, edit, and research inside Microsoft Word with AI",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/genspark",
+        "product_link": "https://www.genspark.ai/",
+        "source": "playwright",
+        "desc_zh": "利用 AI 在 Microsoft Word 中起草、编辑和研究"
+      },
+      {
+        "name": "TrafficClaw",
+        "slug": "trafficclaw",
+        "image": "https://ph-files.imgix.net/1a638de0-37b2-447c-b80a-071fb66b2f5c.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Have a conversation with your SEO & analytics data",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/trafficclaw",
+        "product_link": "https://trafficclaw.com/",
+        "source": "playwright",
+        "desc_zh": "与您的 SEO 和分析数据进行对话"
+      },
+      {
+        "name": "Ghosted",
+        "slug": "ghosted-smart-presence",
+        "image": "https://ph-files.imgix.net/16323ada-2285-48c8-bcb1-9c93c9d1f425.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Pause media or lock your screen when you step away",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/ghosted-smart-presence",
+        "product_link": "https://apps.apple.com/us/app/ghosted-smart-presence/id6763639694?mt=12https%3A%2F&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "当您离开时暂停媒体或锁定屏幕"
+      },
+      {
+        "name": "Wispr Flow: Dictation That Works Everywhere",
+        "slug": "wisprflow",
+        "image": "https://ph-files.imgix.net/ebbe0b72-5669-4449-8ea0-f2a8b1f42dcf.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Stop typing. Start speaking. 4x faster.",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/wisprflow",
+        "product_link": "https://wisprflow.ai/",
+        "source": "playwright",
+        "desc_zh": "停止打字。开始说话。速度提高 4 倍。"
+      },
+      {
+        "name": "Beauty Diagram",
+        "slug": "beauty-diagram",
+        "image": "https://ph-files.imgix.net/5a06aeb8-d1f1-472b-b7ac-d8a1e24cee0a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Diagrams that don't look like they were auto-generated",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/beauty-diagram",
+        "product_link": "https://www.beauty-diagram.com/",
+        "source": "playwright",
+        "desc_zh": "图表看起来不像是自动生成的"
+      },
+      {
+        "name": "nudge",
+        "slug": "nudge-26",
+        "image": "https://ph-files.imgix.net/01198a53-19e9-494e-a5e9-c0fe0f0e2ec3.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Drop your tasks. AI auto-schedules your whole week.",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/nudge-26",
+        "product_link": "https://www.nudgetaskai.com/",
+        "source": "playwright",
+        "desc_zh": "放下你的任务。人工智能会自动安排您的一周。"
+      },
+      {
+        "name": "ScreenVeil",
+        "slug": "screenveil",
+        "image": "https://ph-files.imgix.net/a7b43032-2644-406e-a65e-4d9382ceb2ed.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Hide what shouldn’t be seen on your computer",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/screenveil",
+        "product_link": "https://apps.apple.com/app/screenveil/id6743118312",
+        "source": "playwright",
+        "desc_zh": "隐藏计算机上不应该看到的内容"
+      },
+      {
+        "name": "MUSIXQUARE",
+        "slug": "musixquare",
+        "image": "https://ph-files.imgix.net/183a9617-7bd3-4835-8dc9-9ccfa9964574.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Turn any room into a surround system with your devices",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/musixquare",
+        "product_link": "https://musixquare.com/landing",
+        "source": "playwright",
+        "desc_zh": "使用您的设备将任何房间变成环绕声系统"
+      },
+      {
+        "name": "PeekFocus",
+        "slug": "peekfocus",
+        "image": "https://ph-files.imgix.net/f33ff25d-3f54-4229-8ce2-50de47060dae.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "One keystroke blurs everything behind your active window",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/peekfocus",
+        "product_link": "https://lucidbit.app/PeekFocus/peekfocus.html",
+        "source": "playwright",
+        "desc_zh": "一次按键即可模糊活动窗口后面的所有内容"
+      },
+      {
+        "name": "LaunchCut",
+        "slug": "launchcut-2",
+        "image": "https://ph-files.imgix.net/74cd2e6a-6f88-4ef0-b96f-eef2249f4c2d.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Interactive iOS Demo Builder",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/launchcut-2",
+        "product_link": "https://apps.apple.com/us/app/launchcut/id6761860365",
+        "source": "playwright",
+        "desc_zh": "交互式 iOS 演示生成器"
+      },
+      {
+        "name": "AnyDrop",
+        "slug": "anydrop-3",
+        "image": "https://ph-files.imgix.net/4833a0cd-2276-4347-9897-acf2e92b3ebd.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "AirDrop for the browser: share files, chat and sync notes",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/anydrop-3",
+        "product_link": "https://anydrop.org/",
+        "source": "playwright",
+        "desc_zh": "适用于浏览器的 AirDrop：共享文件、聊天和同步笔记"
+      },
+      {
+        "name": "HiveTerm",
+        "slug": "hiveterm",
+        "image": "https://ph-files.imgix.net/5274186d-7696-48c5-9644-3e7abbed449d.svg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "One workspace for Claude, Codex, Gemini and your stack",
+        "upvotes": 527,
+        "ph_link": "https://www.producthunt.com/products/hiveterm",
+        "product_link": "https://hiveterm.com/",
+        "source": "playwright",
+        "desc_zh": "为 Claude、Codex、Gemini 和您的堆栈提供一个工作空间"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "n8n",
+        "slug": "n8n-io/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
+        "product_link": "https://n8n.io/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
       }
     ]
   }
