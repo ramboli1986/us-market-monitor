@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T22:16:48",
+  "updated_at": "2026-05-03T22:17:56",
   "days": {
     "2026-04-28": [
       {
@@ -667,48 +667,6 @@
         "source": "feed"
       }
     ],
-    "2026-04-25": [
-      {
-        "name": "WUPHF by Nex.ai",
-        "slug": "wuphf-2",
-        "desc": "AI employees who build their own knowledge base",
-        "desc_zh": "建立自己的知识库的AI员工",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wuphf-2",
-        "product_link": "https://wuphf.team/",
-        "source": "feed"
-      },
-      {
-        "name": "Markdown Editor For Notion Lovers",
-        "slug": "markdown-editor-for-notion-lovers",
-        "desc": "A clean Markdown editor with a smooth, block-based UX",
-        "desc_zh": "一个干净的 Markdown 编辑器，具有流畅、基于块的用户体验",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/markdown-editor-for-notion-lovers",
-        "product_link": "https://chromewebstore.google.com/detail/dpkebcampmljjlkebfjeblddinfjggjd",
-        "source": "feed"
-      },
-      {
-        "name": "Snapr",
-        "slug": "snapr-5",
-        "desc": "Screenshot, record, annotate & edit video in one app",
-        "desc_zh": "在一个应用程序中截屏、录制、注释和编辑视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/snapr-5",
-        "product_link": "https://snapr.pineple.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Open Wearables",
-        "slug": "open-wearables",
-        "desc": "Open infrastructure for wearable-powered health products.",
-        "desc_zh": "可穿戴健康产品的开放基础设施。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/open-wearables",
-        "product_link": "https://openwearables.io/?utm_source=producthunt&utm_medium=ph&utm_campaign=OW&utm_id=Product+Hunt+&ref=producthunt",
-        "source": "feed"
-      }
-    ],
     "2026-04-29": [
       {
         "name": "AstroGrid - Universe Engine",
@@ -1129,6 +1087,16 @@
         "ph_link": "https://www.producthunt.com/products/feather-18",
         "product_link": "https://www.feather-editor.it/",
         "source": "feed"
+      },
+      {
+        "name": "PandaProbe",
+        "slug": "pandaprobe",
+        "desc": "open source agent engineering platform",
+        "desc_zh": "开源代理工程平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pandaprobe",
+        "product_link": "https://www.pandaprobe.com/",
+        "source": "feed"
       }
     ],
     "2026-04-30": [
@@ -1250,6 +1218,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/manus",
         "product_link": "https://manus.im/",
+        "source": "feed"
+      },
+      {
+        "name": "Aximote In-Car App",
+        "slug": "aximote-in-car-app",
+        "desc": "The fitness tracker for your car",
+        "desc_zh": "适合您汽车的健身追踪器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aximote-in-car-app",
+        "product_link": "https://aximote.com/",
         "source": "feed"
       }
     ],
@@ -1471,6 +1449,228 @@
         "upvotes": 0,
         "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
         "product_link": "https://n8n.io/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      }
+    ],
+    "2026-05-02": [
+      {
+        "name": "Scholé",
+        "slug": "schole-2",
+        "image": "https://ph-files.imgix.net/e69331ce-e853-48ca-9671-9ce028bfeb01.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Turn everyday work into personalized AI learning",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/schole-2",
+        "product_link": "https://schole.ai/",
+        "source": "playwright",
+        "desc_zh": "将日常工作变成个性化的人工智能学习"
+      },
+      {
+        "name": "Cloud Computer by Manus",
+        "slug": "manus",
+        "image": "https://ph-files.imgix.net/a842fb62-c77e-4466-8206-86bf8780e048.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "A dedicated cloud machine for bots and software",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/manus",
+        "product_link": "https://manus.im/",
+        "source": "playwright",
+        "desc_zh": "用于机器人和软件的专用云机器"
+      },
+      {
+        "name": "Feather",
+        "slug": "feather-18",
+        "image": "https://ph-files.imgix.net/a71f793f-18e7-4332-a16b-009aeb0fe9e9.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Photo editor with local AI",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/feather-18",
+        "product_link": "https://www.feather-editor.it/",
+        "source": "playwright",
+        "desc_zh": "具有本地 AI 的照片编辑器"
+      },
+      {
+        "name": "Microsoft Copilot Health",
+        "slug": "copilot-health",
+        "image": "https://ph-files.imgix.net/61df0af0-291e-45de-8cfe-fe912b9009b9.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Dedicated space to bring your personal health data together",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/copilot-health",
+        "product_link": "https://microsoft.ai/news/introducing-copilot-health",
+        "source": "playwright",
+        "desc_zh": "汇集您的个人健康数据的专用空间"
+      },
+      {
+        "name": "YouTube TV Custom Multiview",
+        "slug": "google",
+        "image": "https://ph-files.imgix.net/c07c954e-5882-434e-aeb3-4cb3312b4716.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Mix and match up to 4 live streams at once",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/google",
+        "product_link": "https://www.google.com/",
+        "source": "playwright",
+        "desc_zh": "同时混合和匹配最多 4 个直播流"
+      },
+      {
+        "name": "Breaks",
+        "slug": "breaks",
+        "image": "https://ph-files.imgix.net/12a3dc2f-2712-45ab-acbd-8afad13e2e3e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "A quiet Pomodoro that lives in your menu bar.",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/breaks",
+        "product_link": "https://gjinprelvukaj.github.io/Breaks",
+        "source": "playwright",
+        "desc_zh": "菜单栏中有一个安静的番茄钟。"
+      },
+      {
+        "name": "Ara",
+        "slug": "dereference-the-100x-ide",
+        "image": "https://ph-files.imgix.net/39f0991d-08a1-4339-b23c-a944ea43e3f4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=128&h=128&fit=crop&frame=1",
+        "desc": "Build an entire business by texting",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/dereference-the-100x-ide",
+        "product_link": "https://image.ara.so/",
+        "source": "playwright",
+        "desc_zh": "通过短信建立完整的业务"
+      },
+      {
+        "name": "Filect",
+        "slug": "filect",
+        "image": "",
+        "desc": "Organize Your Files With AI",
+        "upvotes": 284,
+        "ph_link": "https://www.producthunt.com/products/filect",
+        "product_link": "https://filect.io/",
+        "source": "playwright",
+        "desc_zh": "使用 AI 整理您的文件"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "n8n",
+        "slug": "n8n-io/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
+        "product_link": "https://n8n.io/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Attio",
+        "slug": "attio/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/attio/reviews?ref=footer",
+        "product_link": "https://attio.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "PostHog",
+        "slug": "posthog/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/posthog/reviews?ref=footer",
+        "product_link": "https://posthog.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Vapi",
+        "slug": "vapi/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/vapi/reviews?ref=footer",
+        "product_link": "https://vapi.ai/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Granola",
+        "slug": "granola/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/granola/reviews?ref=footer",
+        "product_link": "https://www.granola.so/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Raycast",
+        "slug": "raycast/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/raycast/reviews?ref=footer",
+        "product_link": "https://raycast.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Supabase",
+        "slug": "supabase/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/supabase/reviews?ref=footer",
+        "product_link": "https://supabase.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Screen Studio",
+        "slug": "screen-studio?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/screen-studio?ref=footer",
+        "product_link": "https://screen.studio/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "bolt.new",
+        "slug": "bolt-new?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/bolt-new?ref=footer",
+        "product_link": "https://bolt.new/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Wispr Flow",
+        "slug": "wisprflow?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/wisprflow?ref=footer",
+        "product_link": "https://wisprflow.ai/",
         "source": "playwright",
         "desc_zh": "热门类别"
       }
