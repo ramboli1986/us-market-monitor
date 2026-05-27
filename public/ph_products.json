@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T22:27:28",
+  "updated_at": "2026-05-27T22:38:29",
   "days": {
     "2026-05-24": [
       {
@@ -271,6 +271,46 @@
         "product_link": "https://wisprflow.ai/",
         "source": "playwright",
         "desc_zh": "热门类别"
+      },
+      {
+        "name": "Curlo",
+        "slug": "curlo",
+        "desc": "Local AI search to find SFX and music by describing it",
+        "desc_zh": "本地人工智能搜索通过描述来查找 SFX 和音乐",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/curlo",
+        "product_link": "https://apps.apple.com/us/app/curlo-audio-asset-manager/id6759231617",
+        "source": "feed"
+      },
+      {
+        "name": "Bluedot 2.1",
+        "slug": "bluedot-2",
+        "desc": "Record on Apple Watch. Sync with Claude",
+        "desc_zh": "在 Apple Watch 上录制。与克劳德同步",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bluedot-2",
+        "product_link": "https://www.bluedothq.com/",
+        "source": "feed"
+      },
+      {
+        "name": "QuickSheet v1.2",
+        "slug": "quicksheet-light-spreadsheet",
+        "desc": "Instantly create and edit spreadsheets from your menu bar",
+        "desc_zh": "从菜单栏即时创建和编辑电子表格",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/quicksheet-light-spreadsheet",
+        "product_link": "https://apps.apple.com/us/app/quicksheet-light-spreadsheet/id6748457063",
+        "source": "feed"
+      },
+      {
+        "name": "LikePulse",
+        "slug": "likepulse",
+        "desc": "See exactly where YouTube audiences react — instantly",
+        "desc_zh": "立即准确了解 YouTube 观众的反应",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/likepulse",
+        "product_link": "https://likepulse.app/",
+        "source": "feed"
       }
     ],
     "2026-05-23": [
@@ -312,6 +352,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/dynamicnotch",
         "product_link": "https://github.com/jackson-storm/DynamicNotch",
+        "source": "feed"
+      },
+      {
+        "name": "Layers",
+        "slug": "layers-8",
+        "desc": "Create beautiful animated code snippet videos for free",
+        "desc_zh": "免费创建精美的动画代码片段视频",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/layers-8",
+        "product_link": "https://www.newcreative.studio/layers",
         "source": "feed"
       }
     ],
@@ -415,57 +465,55 @@
         "ph_link": "https://www.producthunt.com/products/note-md",
         "product_link": "https://www.notemd.org/",
         "source": "feed"
-      }
-    ],
-    "2026-05-19": [
+      },
       {
-        "name": "Fred",
-        "slug": "fred-the-uxr-shepherd",
-        "desc": "AI-orchestrated UX research with behavioural tracking",
-        "desc_zh": "人工智能精心策划的用户体验研究与行为跟踪",
+        "name": "baz.studio",
+        "slug": "bazaar-2",
+        "desc": "Skills library & video editor for AI Agents",
+        "desc_zh": "AI 代理的技能库和视频编辑器",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/fred-the-uxr-shepherd",
-        "product_link": "https://meet-fred.com/",
+        "ph_link": "https://www.producthunt.com/products/bazaar-2",
+        "product_link": "https://www.baz.studio/",
         "source": "feed"
       },
       {
-        "name": "Rixx",
-        "slug": "rixx",
-        "desc": "The Perplexity alternative that organizes your research",
-        "desc_zh": "组织你的研究的困惑替代方案",
+        "name": "BaseBuddy",
+        "slug": "basebuddy",
+        "desc": "Turn your Supabase database into a WordPress-like editor",
+        "desc_zh": "将您的 Supabase 数据库变成类似 WordPress 的编辑器",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/rixx",
-        "product_link": "https://rixx.in/",
+        "ph_link": "https://www.producthunt.com/products/basebuddy",
+        "product_link": "https://basebuddycms.com/",
         "source": "feed"
       },
       {
-        "name": "Stitch 3.0 by Google",
-        "slug": "stitch-by-google",
-        "desc": "Generate and iterate UI screens with AI on a live canvas",
-        "desc_zh": "在实时画布上使用 AI 生成和迭代 UI 屏幕",
+        "name": "Parsewise API",
+        "slug": "parsewise",
+        "desc": "API for agentic multi-document processing",
+        "desc_zh": "用于代理多文档处理的 API",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/stitch-by-google",
-        "product_link": "https://stitch.withgoogle.com/",
+        "ph_link": "https://www.producthunt.com/products/parsewise",
+        "product_link": "https://parsewise.ai/api",
         "source": "feed"
       },
       {
-        "name": "Google Antigravity CLI",
-        "slug": "google-antigravity",
-        "desc": "Run coding agents directly from your terminal",
-        "desc_zh": "直接从您的终端运行编码代理",
+        "name": "Willow Scribe",
+        "slug": "willow-voice",
+        "desc": "Tell Scribe what to say. It writes the rest.",
+        "desc_zh": "告诉抄写员要说什么。其余的都写了。",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/google-antigravity",
-        "product_link": "https://antigravity.google/",
+        "ph_link": "https://www.producthunt.com/products/willow-voice",
+        "product_link": "https://willowvoice.com/",
         "source": "feed"
       },
       {
-        "name": "Auto Posts",
-        "slug": "auto-posts",
-        "desc": "Schedule social post, Telegram messages + more",
-        "desc_zh": "安排社交帖子、Telegram 消息等",
+        "name": "AI Shadowing",
+        "slug": "ai-shadowing",
+        "desc": "Turn any YouTube video into a language shadowing lesson",
+        "desc_zh": "将任何 YouTube 视频变成语言影子课程",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/auto-posts",
-        "product_link": "https://autoposts.io/",
+        "ph_link": "https://www.producthunt.com/products/ai-shadowing",
+        "product_link": "https://aishadowing.net/",
         "source": "feed"
       }
     ],
@@ -581,18 +629,6 @@
         "source": "feed"
       }
     ],
-    "2026-05-18": [
-      {
-        "name": "Freu AI",
-        "slug": "freu-cli",
-        "desc": "Automate any Mac app with $0 recurring run cost",
-        "desc_zh": "以 0 美元的经常性运行成本实现任何 Mac 应用程序的自动化",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/freu-cli",
-        "product_link": "https://freu.ai/",
-        "source": "feed"
-      }
-    ],
     "2026-05-20": [
       {
         "name": "moop",
@@ -602,6 +638,290 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/moop",
         "product_link": "https://moop.to/",
+        "source": "feed"
+      },
+      {
+        "name": "MacSIM by Studio Practice",
+        "slug": "mac-screen-simulator-studio-practice",
+        "desc": "Preview any URL on every Mac screen at once",
+        "desc_zh": "立即在每个 Mac 屏幕上预览任何 URL",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mac-screen-simulator-studio-practice",
+        "product_link": "https://studiopractice.io/special-projects/macsim",
+        "source": "feed"
+      },
+      {
+        "name": "blokdots 3.0",
+        "slug": "blokdots",
+        "desc": "Prototype hardware visually, export real C++ for engineering",
+        "desc_zh": "直观地制作硬件原型，导出真正的 C++ 进行工程",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/blokdots",
+        "product_link": "https://blokdots.com/",
+        "source": "feed"
+      }
+    ],
+    "2026-05-26": [
+      {
+        "name": "Calling Skills for AI Agents",
+        "slug": "cometchat-skills",
+        "desc": "Add voice and video calling via your coding agent",
+        "desc_zh": "通过您的编码代理添加语音和视频通话",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cometchat-skills",
+        "product_link": "https://www.cometchat.com/agent-chat-skills",
+        "source": "feed"
+      },
+      {
+        "name": "Octolane",
+        "slug": "octolane",
+        "desc": "Self-driving AI CRM that you can talk to",
+        "desc_zh": "可以对话的自动驾驶 AI CRM",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/octolane",
+        "product_link": "https://octolane.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Phasr",
+        "slug": "phasr-2",
+        "desc": "Run 100+ workflows simultaneously without losing context",
+        "desc_zh": "同时运行 100 多个工作流程而不会丢失上下文",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/phasr-2",
+        "product_link": "https://phasr.sh/",
+        "source": "feed"
+      },
+      {
+        "name": "Archi-Flow",
+        "slug": "archi-flow",
+        "desc": "Visualize cloud architecture with live traffic simulations",
+        "desc_zh": "通过实时流量模拟可视化云架构",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/archi-flow",
+        "product_link": "https://archi-flow.onrender.com/",
+        "source": "feed"
+      },
+      {
+        "name": "CircadiaOS",
+        "slug": "circadiaos",
+        "desc": "Sleep optimization, minus the $3,000 mattress pod",
+        "desc_zh": "睡眠优化，减去 3,000 美元的床垫舱",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/circadiaos",
+        "product_link": "https://circadiaos.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Netfox",
+        "slug": "netfox",
+        "desc": "A native local macOS network monitor",
+        "desc_zh": "本机本地 macOS 网络监视器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/netfox",
+        "product_link": "https://netfox.app/",
+        "source": "feed"
+      },
+      {
+        "name": "Pawse.ai",
+        "slug": "pawse-ai",
+        "desc": "An acoustic regulation system for dogs",
+        "desc_zh": "狗的声音调节系统",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pawse-ai",
+        "product_link": "https://pawse.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "zero.xyz",
+        "slug": "zero-xyz",
+        "desc": "Give your AI agent access to ~8k tools, APIs and services",
+        "desc_zh": "让您的 AI 代理能够访问约 8k 工具、API 和服务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zero-xyz",
+        "product_link": "https://zero.xyz/",
+        "source": "feed"
+      },
+      {
+        "name": "Local Panel",
+        "slug": "local-panel",
+        "desc": "Local SSH server manager with no subscriptions or installs",
+        "desc_zh": "无需订阅或安装的本地 SSH 服务器管理器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/local-panel",
+        "product_link": "https://nesdzo.com/localpanel",
+        "source": "feed"
+      },
+      {
+        "name": "AgenticCalling AI",
+        "slug": "agenticcalling-ai",
+        "desc": "Give your AI the power to make phone calls",
+        "desc_zh": "赋予您的人工智能打电话的能力",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agenticcalling-ai",
+        "product_link": "https://www.agenticcalling.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Jott",
+        "slug": "jott-before-you-forget",
+        "desc": "Capture quick written or voice notes from your Mac's notch",
+        "desc_zh": "从 Mac 的缺口处快速捕捉书面或语音笔记",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/jott-before-you-forget",
+        "product_link": "https://jott.harshachaganti.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Harbor",
+        "slug": "habor",
+        "desc": "CLI + companion App to spin up complete local LLM stacks",
+        "desc_zh": "CLI + 配套应用程序可启动完整的本地 LLM 堆栈",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/habor",
+        "product_link": "https://github.com/av/harbor",
+        "source": "feed"
+      },
+      {
+        "name": "Extend",
+        "slug": "extend-2",
+        "desc": "Parse any PDF layout with SOTA accuracy for AI pipelines",
+        "desc_zh": "以 SOTA 精度解析任何 PDF 布局，以实现 AI 管道",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/extend-2",
+        "product_link": "https://www.extend.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Chunk sidecars",
+        "slug": "circleci",
+        "desc": "Validate agent-generated code before it ever reaches CI",
+        "desc_zh": "在代理生成的代码到达 CI 之前对其进行验证",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/circleci",
+        "product_link": "https://circleci.com/",
+        "source": "feed"
+      },
+      {
+        "name": "GenGo",
+        "slug": "gengo-2",
+        "desc": "Transform selected text anywhere on macOS",
+        "desc_zh": "在 macOS 上的任意位置转换选定的文本",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gengo-2",
+        "product_link": "https://tetsuakibaba.github.io/GenGo",
+        "source": "feed"
+      }
+    ],
+    "2026-05-25": [
+      {
+        "name": "Mojito",
+        "slug": "mojito-2",
+        "desc": "Type to search for any emoji, symbol, or gif in seconds",
+        "desc_zh": "键入内容即可在几秒钟内搜索任何表情符号、符号或 gif",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mojito-2",
+        "product_link": "https://mojito.wells.ee/",
+        "source": "feed"
+      },
+      {
+        "name": "Aviquill",
+        "slug": "aviquill",
+        "desc": "A calm canvas for visual thinkers with messy minds",
+        "desc_zh": "为思维混乱的视觉思考者提供的平静画布",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aviquill",
+        "product_link": "https://aviquill.net/",
+        "source": "feed"
+      },
+      {
+        "name": "BobCA",
+        "slug": "bob-s-workshop",
+        "desc": "A sovereign agent that learns to code with your preferences",
+        "desc_zh": "一个主权代理，可以根据您的喜好学习编码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bob-s-workshop",
+        "product_link": "https://bobs-workshop.web.app/",
+        "source": "feed"
+      },
+      {
+        "name": "QuakPit",
+        "slug": "quakpit",
+        "desc": "Meeting reminders that actually make you smile.",
+        "desc_zh": "真正让您微笑的会议提醒。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/quakpit",
+        "product_link": "https://quakpit.app/",
+        "source": "feed"
+      },
+      {
+        "name": "Ferrari Luce",
+        "slug": "ferrari-luce-2",
+        "desc": "The first electric Ferrari designed by LoveFrom",
+        "desc_zh": "LoveFrom 设计的第一辆电动法拉利",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ferrari-luce-2",
+        "product_link": "https://www.ferrari.com/auto/ferrari-luce",
+        "source": "feed"
+      },
+      {
+        "name": "SelectPrism",
+        "slug": "selectprism",
+        "desc": "Agents that screen and interview so you can hire faster",
+        "desc_zh": "代理商进行筛选和面试，以便您可以更快地招聘",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/selectprism",
+        "product_link": "https://selectprism.ai/agentic-ai-interview",
+        "source": "feed"
+      },
+      {
+        "name": "Trace",
+        "slug": "trace-27",
+        "desc": "No-frills offline meeting transcripts with context",
+        "desc_zh": "带有上下文的简洁离线会议记录",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/trace-27",
+        "product_link": "https://traceapp.info/",
+        "source": "feed"
+      },
+      {
+        "name": "DodoForm",
+        "slug": "dodoform",
+        "desc": "Turn talking, pics, or scribbles into clean, structured data",
+        "desc_zh": "将谈话、图片或涂鸦变成干净的结构化数据",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dodoform",
+        "product_link": "https://www.dodoform.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Parrot Speech-to-text API",
+        "slug": "parrot-speech-to-text-api",
+        "desc": "Fast, accurate STT for production-grade voice agents",
+        "desc_zh": "适用于生产级语音代理的快速、准确的 STT",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/parrot-speech-to-text-api",
+        "product_link": "https://www.ringg.ai/models/speech-to-text/v1?utm_source=producthunt&utm_medium=launch&utm_campaign=parrot_stt&ref=producthunt",
+        "source": "feed"
+      },
+      {
+        "name": "Ajar",
+        "slug": "ajar",
+        "desc": "Lid Angle Sync & Keep Awake for AI Agents on Mac",
+        "desc_zh": "Mac 上的 AI 代理的盖子角度同步和保持唤醒功能",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ajar",
+        "product_link": "https://parcse.com/ajar",
+        "source": "feed"
+      },
+      {
+        "name": "ReplylessAI Sequences",
+        "slug": "replylessai",
+        "desc": "Outbound email sequences without the sales-tool bloat",
+        "desc_zh": "出站电子邮件序列不会导致销售工具臃肿",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/replylessai",
+        "product_link": "https://replyless.ai/",
         "source": "feed"
       }
     ]
