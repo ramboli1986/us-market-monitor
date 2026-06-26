@@ -1,158 +1,6 @@
 {
-  "updated_at": "2026-06-25T22:33:23",
+  "updated_at": "2026-06-26T22:28:32",
   "days": {
-    "2026-06-18": [
-      {
-        "name": "Blazly Backlinker",
-        "slug": "blazly-backlinker",
-        "desc": "Automate your entire backlink generation",
-        "desc_zh": "自动化整个反向链接生成",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/blazly-backlinker",
-        "product_link": "https://www.blazly.ai/products/backlinks",
-        "source": "feed"
-      },
-      {
-        "name": "QuackScreen",
-        "slug": "quackscreen",
-        "desc": "Capture, drag, share all from the MacBook notch",
-        "desc_zh": "捕捉、拖动、分享一切都来自 MacBook 刘海",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/quackscreen",
-        "product_link": "https://quackscreen.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Screen Ruler",
-        "slug": "screen-ruler",
-        "desc": "Edit anything on the web with change tracking",
-        "desc_zh": "通过更改跟踪编辑网络上的任何内容",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/screen-ruler",
-        "product_link": "https://www.screen-ruler.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Midjourney Scanner",
-        "slug": "midjourney",
-        "desc": "60 second ultrasound-based full-body scanner that beats MRI",
-        "desc_zh": "60 秒超声波全身扫描仪，优于 MRI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/midjourney",
-        "product_link": "https://www.midjourney.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Code Artifacts",
-        "slug": "claude-redesigned",
-        "desc": "Preview and share your coding work live as it happens",
-        "desc_zh": "实时预览并分享您的编码工作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude-redesigned",
-        "product_link": "https://claude.com/blog/claude-code-desktop-redesign",
-        "source": "feed"
-      },
-      {
-        "name": "Snap Deck HQ",
-        "slug": "snap-deck-hq",
-        "desc": "Everything you need in one native macOS command bar",
-        "desc_zh": "您需要的一切尽在一个原生 macOS 命令栏中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/snap-deck-hq",
-        "product_link": "https://apps.apple.com/us/app/snap-deck-hq/id6772721718",
-        "source": "feed"
-      },
-      {
-        "name": "Pitchbar",
-        "slug": "pitchbar",
-        "desc": "Track World Cup 2026 scores from your macOS menubar",
-        "desc_zh": "从 macOS 菜单栏跟踪 2026 年世界杯得分",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pitchbar",
-        "product_link": "https://krawczyk.io/pitchbar",
-        "source": "feed"
-      },
-      {
-        "name": "Darkmoon",
-        "slug": "darkmoon",
-        "desc": "Autonomous penetration testing platform",
-        "desc_zh": "自主渗透测试平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/darkmoon",
-        "product_link": "https://dark-moon.org/",
-        "source": "feed"
-      },
-      {
-        "name": "Mutter AI Dictation",
-        "slug": "mutter-ai-dictation",
-        "desc": "Private AI dictation that lets you operate offline.",
-        "desc_zh": "私人人工智能听写，让您可以离线操作。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mutter-ai-dictation",
-        "product_link": "https://muttervoice.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Foglamp",
-        "slug": "foglamp",
-        "desc": "Ship AI agents you can actually see",
-        "desc_zh": "运送你可以实际看到的人工智能代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/foglamp",
-        "product_link": "https://www.foglamp.dev/",
-        "source": "feed"
-      },
-      {
-        "name": "Unreal Engine 5.8",
-        "slug": "unreal-engine",
-        "desc": "Build unreal games with AI agents",
-        "desc_zh": "使用 AI 代理构建虚幻游戏",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/unreal-engine",
-        "product_link": "https://www.unrealengine.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Ask Ad Manager by Google Ads",
-        "slug": "ask-ad-manager",
-        "desc": "Gemini-powered AI agent for insights & faster ad decisions",
-        "desc_zh": "Gemini 支持的 AI 代理可提供洞察并更快做出广告决策",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ask-ad-manager",
-        "product_link": "https://blog.google/products/admanager/ask-ad-manager",
-        "source": "feed"
-      },
-      {
-        "name": "Firecrawl Research Index",
-        "slug": "extract-by-firecrawl",
-        "desc": "An index for agents pushing the frontier of AI/ML research",
-        "desc_zh": "推动 AI/ML 研究前沿的代理索引",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/extract-by-firecrawl",
-        "product_link": "https://www.firecrawl.dev/",
-        "source": "feed"
-      },
-      {
-        "name": "just f***ing send it",
-        "slug": "just-f-ing-send-it",
-        "desc": "Send any file, any size, straight from browser to browser",
-        "desc_zh": "直接在浏览器之间发送任何大小的文件",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/just-f-ing-send-it",
-        "product_link": "https://jfsendit.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Buddy AI Note",
-        "slug": "buddy-ai-note",
-        "desc": "Your daily memo that turns notes into a plan",
-        "desc_zh": "将笔记变成计划的每日备忘录",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/buddy-ai-note",
-        "product_link": "https://ainote.tech/",
-        "source": "feed"
-      }
-    ],
     "2026-06-24": [
       {
         "name": "Polygraph",
@@ -293,6 +141,36 @@
         "ph_link": "https://www.producthunt.com/products/quickmaker",
         "product_link": "https://quickmaker.ai/",
         "source": "feed"
+      },
+      {
+        "name": "Gemini Spark",
+        "slug": "gemini-spark",
+        "desc": "Your 24/7 personal AI agent",
+        "desc_zh": "您的 24/7 私人人工智能代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-spark",
+        "product_link": "https://gemini.google/overview/agent/spark",
+        "source": "feed"
+      },
+      {
+        "name": "Sleek Analytics",
+        "slug": "sleek-analytics",
+        "desc": "See who's on your site. Right now.",
+        "desc_zh": "查看谁在您的网站上。现在。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sleek-analytics",
+        "product_link": "https://getsleek.io/",
+        "source": "feed"
+      },
+      {
+        "name": "AI Slide Editor by CubeOne",
+        "slug": "cubeone",
+        "desc": "The editor PowerPoint should've shipped",
+        "desc_zh": "编辑器 PowerPoint 应该已经发货了",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cubeone",
+        "product_link": "https://www.getcube.one/",
+        "source": "feed"
       }
     ],
     "2026-06-23": [
@@ -395,6 +273,16 @@
         "ph_link": "https://www.producthunt.com/products/nimt-ai",
         "product_link": "https://www.nimt.ai/",
         "source": "feed"
+      },
+      {
+        "name": "note.md",
+        "slug": "note-md",
+        "desc": "your notes and research documentation now a local LLM Memory",
+        "desc_zh": "您的笔记和研究文档现在是本地法学硕士记忆",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/note-md",
+        "product_link": "https://www.notemd.org/",
+        "source": "feed"
       }
     ],
     "2026-06-19": [
@@ -426,6 +314,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/synter-media-ai",
         "product_link": "https://syntermedia.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Atlas",
+        "slug": "nanonets",
+        "desc": "Every AI tool you use should know how your company works",
+        "desc_zh": "您使用的每个人工智能工具都应该了解您公司的运作方式",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nanonets",
+        "product_link": "http://www.nanonets.com/",
         "source": "feed"
       }
     ],
@@ -532,6 +430,68 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/neuralagent",
         "product_link": "https://www.getneuralagent.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Animdock Motion Templates in the Browser",
+        "slug": "animdock-motion-templates-in-the-browser",
+        "desc": "Create trend motions in your browser!",
+        "desc_zh": "在您的浏览器中创建趋势动作！",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/animdock-motion-templates-in-the-browser",
+        "product_link": "https://www.animdock.com/",
+        "source": "feed"
+      }
+    ],
+    "2026-06-25": [
+      {
+        "name": "LockIn MCP",
+        "slug": "lockin-mcp",
+        "desc": "Let AI block distractions for you when you need to lock in",
+        "desc_zh": "当您需要锁定时，让 AI 为您屏蔽干扰",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lockin-mcp",
+        "product_link": "https://www.lockinmcp.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Basedash for Excel",
+        "slug": "basedash",
+        "desc": "Turn any Excel file into a live dashboard",
+        "desc_zh": "将任何 Excel 文件变成实时仪表板",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/basedash",
+        "product_link": "https://www.basedash.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Aurora Notch",
+        "slug": "aurora-21",
+        "desc": "A private notch workspace for every Mac",
+        "desc_zh": "适合每台 Mac 的私人刘海工作区",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aurora-21",
+        "product_link": "https://auroranotch.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Cewsco",
+        "slug": "cewsco",
+        "desc": "All-in-one AI assistant — chat, images, voice & market data",
+        "desc_zh": "一体化人工智能助手——聊天、图像、语音和市场数据",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cewsco",
+        "product_link": "https://cewsco.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Group Subscriptions by beehiiv",
+        "slug": "beehiiv",
+        "desc": "Sell subscriptions to teams, companies, and organizations.",
+        "desc_zh": "向团队、公司和组织出售订阅。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/beehiiv",
+        "product_link": "https://www.beehiiv.com/",
         "source": "feed"
       }
     ]
