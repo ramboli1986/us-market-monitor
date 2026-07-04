@@ -1,88 +1,6 @@
 {
-  "updated_at": "2026-07-02T22:25:35",
+  "updated_at": "2026-07-04T22:53:28",
   "days": {
-    "2026-06-25": [
-      {
-        "name": "LockIn MCP",
-        "slug": "lockin-mcp",
-        "desc": "Let AI block distractions for you when you need to lock in",
-        "desc_zh": "当您需要锁定时，让 AI 为您屏蔽干扰",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lockin-mcp",
-        "product_link": "https://www.lockinmcp.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Basedash for Excel",
-        "slug": "basedash",
-        "desc": "Turn any Excel file into a live dashboard",
-        "desc_zh": "将任何 Excel 文件变成实时仪表板",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/basedash",
-        "product_link": "https://www.basedash.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Aurora Notch",
-        "slug": "aurora-21",
-        "desc": "A private notch workspace for every Mac",
-        "desc_zh": "适合每台 Mac 的私人刘海工作区",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/aurora-21",
-        "product_link": "https://auroranotch.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Cewsco",
-        "slug": "cewsco",
-        "desc": "All-in-one AI assistant — chat, images, voice & market data",
-        "desc_zh": "一体化人工智能助手——聊天、图像、语音和市场数据",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cewsco",
-        "product_link": "https://cewsco.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Group Subscriptions by beehiiv",
-        "slug": "beehiiv",
-        "desc": "Sell subscriptions to teams, companies, and organizations.",
-        "desc_zh": "向团队、公司和组织出售订阅。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/beehiiv",
-        "product_link": "https://www.beehiiv.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Folio AI",
-        "slug": "folio-ai",
-        "desc": "Claude for PowerPoint, on steroids",
-        "desc_zh": "克劳德的 PowerPoint，强力支持",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/folio-ai",
-        "product_link": "https://get-folio.ai/",
-        "source": "feed"
-      },
-      {
-        "name": "RetroMac",
-        "slug": "retromac",
-        "desc": "Turn your Mac into a time machine.",
-        "desc_zh": "将您的 Mac 变成时光机。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/retromac",
-        "product_link": "https://myretromac.app/",
-        "source": "feed"
-      },
-      {
-        "name": "Browser Notes",
-        "slug": "browser-notes",
-        "desc": "Your ideas, organized - not uploaded",
-        "desc_zh": "您的想法已整理好 - 未上传",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/browser-notes",
-        "product_link": "https://browsernotes.xyz/",
-        "source": "feed"
-      }
-    ],
     "2026-06-27": [
       {
         "name": "Dotient",
@@ -335,38 +253,6 @@
         "source": "feed"
       }
     ],
-    "2026-06-26": [
-      {
-        "name": "Supra Player",
-        "slug": "supra-player",
-        "desc": "Compare & Sync Videos Fast",
-        "desc_zh": "快速比较和同步视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/supra-player",
-        "product_link": "https://supraplayer.jessengatai.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Macro",
-        "slug": "macro-workspace",
-        "desc": "Unifies your work into one app with shared memory",
-        "desc_zh": "将您的工作统一到一个具有共享内存的应用程序中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/macro-workspace",
-        "product_link": "https://macro.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Mark by Airtop",
-        "slug": "airtop",
-        "desc": "Vibe automation for solo marketers",
-        "desc_zh": "适合单独营销人员的 Vibe 自动化",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/airtop",
-        "product_link": "https://www.airtop.ai/",
-        "source": "feed"
-      }
-    ],
     "2026-07-01": [
       {
         "name": "PieterPost MCP",
@@ -476,6 +362,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/pixfit",
         "product_link": "https://pixfit.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "nxt",
+        "slug": "nxt-talk-to-your-to-do-list",
+        "desc": "Talk to your to do list and get what's next",
+        "desc_zh": "与您的待办事项清单交谈并了解下一步要做的事情",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nxt-talk-to-your-to-do-list",
+        "product_link": "https://nxt.do/",
         "source": "feed"
       }
     ],
@@ -713,6 +609,280 @@
         "ph_link": "https://www.producthunt.com/products/sequence",
         "product_link": "https://home.getsequence.io/",
         "source": "feed"
+      }
+    ],
+    "2026-07-03": [
+      {
+        "name": "ChecklistFox",
+        "slug": "checklistfox",
+        "desc": "AI checklist maker for beautiful pdfs, free & instant",
+        "desc_zh": "AI 清单制作工具，可制作精美的 pdf 文件，免费且即时",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/checklistfox",
+        "product_link": "https://checklistfox.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Termi Protocol",
+        "slug": "termi-protocol",
+        "desc": "Watch your AI coding agents build, live in 3D",
+        "desc_zh": "观看您的 AI 编码代理在 3D 中实时构建",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/termi-protocol",
+        "product_link": "https://termiprotocol.com/",
+        "source": "feed"
+      }
+    ],
+    "2026-07-02": [
+      {
+        "name": "Glaze by Raycast",
+        "slug": "glaze-4",
+        "desc": "Create your own Mac apps by chatting with AI",
+        "desc_zh": "通过与 AI 聊天创建您自己的 Mac 应用",
+        "image": "https://ph-files.imgix.net/96009f4c-8ea4-4373-9f24-38be24df0129.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "ph_link": "https://www.producthunt.com/products/glaze-4",
+        "product_link": "https://glaze.app/",
+        "source": "feed",
+        "upvotes": 572
+      },
+      {
+        "name": "Goals from Loops",
+        "slug": "loops",
+        "desc": "Measure whether a campaign drove the desired outcome",
+        "desc_zh": "衡量活动是否达到了预期的结果",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/loops",
+        "product_link": "https://loops.so/",
+        "source": "feed"
+      },
+      {
+        "name": "Vox",
+        "slug": "vox-5",
+        "desc": "Voice in, voice out — with GitHub Copilot",
+        "desc_zh": "发声、发声 — 使用 GitHub Copilot",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vox-5",
+        "product_link": "https://aasis21.github.io/vox",
+        "source": "feed"
+      },
+      {
+        "name": "Tamamon",
+        "slug": "tamamon-a-tiny-desktop-pet-that-grows",
+        "desc": "A desktop pet that grows as you code with Claude Code",
+        "desc_zh": "随着您使用 Claude Code 编码而成长的桌面宠物",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tamamon-a-tiny-desktop-pet-that-grows",
+        "product_link": "https://www.tamamons.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Context.dev",
+        "slug": "context-dev",
+        "image": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "One API to scrape, enrich, and extract the internet",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/context-dev",
+        "product_link": "https://context.dev/",
+        "source": "playwright",
+        "desc_zh": "一个用于抓取、丰富和提取互联网的 API"
+      },
+      {
+        "name": "Fypro",
+        "slug": "fypro",
+        "image": "https://ph-files.imgix.net/cf32ce10-fb31-4842-9925-1d8bab906626.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Convert your TikTok followers into paying customers",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/fypro",
+        "product_link": "https://www.fypro.ai/?utm_source=ph&utm_medium=mkt&utm_campaign=visitwebsite&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "将您的 TikTok 关注者转化为付费客户"
+      },
+      {
+        "name": "Needle",
+        "slug": "needle-3",
+        "image": "https://ph-files.imgix.net/998eb53e-158a-4045-84a5-68c0f635e683.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "The proactive GTM agent in Slack and Teams",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/needle-3",
+        "product_link": "https://needle.app/",
+        "source": "playwright",
+        "desc_zh": "Slack 和 Teams 中的主动 GTM 代理"
+      },
+      {
+        "name": "PixFit",
+        "slug": "pixfit",
+        "image": "https://ph-files.imgix.net/f93c9565-c467-455c-812d-6359ba18638d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Turn 1 creative into every ad format, instantly",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/pixfit",
+        "product_link": "https://pixfit.ai/",
+        "source": "playwright",
+        "desc_zh": "立即将 1 个创意转化为各种广告格式"
+      },
+      {
+        "name": "Macro",
+        "slug": "macro-workspace",
+        "image": "https://ph-files.imgix.net/eb43a213-8fdd-4284-92b4-453076fbe041.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Unifies your work into one app with shared memory",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/macro-workspace",
+        "product_link": "https://macro.com/",
+        "source": "playwright",
+        "desc_zh": "将您的工作统一到一个具有共享内存的应用程序中"
+      },
+      {
+        "name": "Solaris",
+        "slug": "build-club",
+        "image": "https://ph-files.imgix.net/8ad79667-6760-4a28-abe7-898b7b4d9734.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Your company’s AI adoption and upskilling platform",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/build-club",
+        "product_link": "https://www.buildclub.ai/",
+        "source": "playwright",
+        "desc_zh": "贵公司的人工智能采用和技能提升平台"
+      },
+      {
+        "name": "Banger Mail",
+        "slug": "banger-mail",
+        "image": "https://ph-files.imgix.net/ac481ed2-3f7c-47b5-a2a5-0a036265cb0c.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Shared mailboxes for teams and AI agents",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/banger-mail",
+        "product_link": "https://bangermail.com/",
+        "source": "playwright",
+        "desc_zh": "团队和 AI 代理的共享邮箱"
+      },
+      {
+        "name": "PieterPost MCP",
+        "slug": "pieter-post",
+        "image": "https://ph-files.imgix.net/112cd16c-b194-452d-ae55-30c1c80ab5ac.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Connect your AI agent to postal mail",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/pieter-post",
+        "product_link": "https://www.pieterpost.com/",
+        "source": "playwright",
+        "desc_zh": "将您的 AI 代理连接到邮政邮件"
+      },
+      {
+        "name": "scritty",
+        "slug": "scritty",
+        "image": "https://ph-files.imgix.net/898f3e69-ea4f-4f26-882f-d29d263dd670.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Shared, searchable memory for every AI coding agent",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/scritty",
+        "product_link": "https://scritty.dev/",
+        "source": "playwright",
+        "desc_zh": "每个 AI 编码代理的共享、可搜索内存"
+      },
+      {
+        "name": "Fin",
+        "slug": "fin",
+        "image": "",
+        "desc": "Startups get Fin free for a year + 93% off Intercom",
+        "upvotes": 562,
+        "ph_link": "https://www.producthunt.com/products/fin",
+        "product_link": "https://fin.ai/",
+        "source": "playwright",
+        "desc_zh": "初创公司可免费获得 Fin 一年 + Intercom 93% 折扣"
+      },
+      {
+        "name": "Mamaku GutreCost-effective support solution for startups!thanks for sharing.",
+        "slug": "fin?comment=4590906",
+        "image": "",
+        "desc": "Customer Communication",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/fin?comment=4590906",
+        "product_link": "https://fin.ai/",
+        "source": "playwright",
+        "desc_zh": "客户沟通"
+      },
+      {
+        "name": "Sidedoor",
+        "slug": "sidedoor-2",
+        "image": "https://ph-files.imgix.net/3cc1745c-6b44-4341-b961-b271e9769843.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Paste any job, find who in your network can refer you",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/sidedoor-2",
+        "product_link": "https://happenstance.ai/sidedoor",
+        "source": "playwright",
+        "desc_zh": "粘贴任何工作，查找您的网络中可以推荐您的人"
+      },
+      {
+        "name": "Macuse",
+        "slug": "macuse",
+        "image": "https://ph-files.imgix.net/ce670cb0-d66e-427e-8384-8d8959703f22.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Give Your AI Superpowers on macOS",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/macuse",
+        "product_link": "https://macuse.app/",
+        "source": "playwright",
+        "desc_zh": "在 macOS 上赋予您的 AI 超能力"
+      },
+      {
+        "name": "html.contact",
+        "slug": "html-contact",
+        "image": "https://ph-files.imgix.net/e26fdda8-3418-44ab-9bb5-979d9cab56f4.vnd.microsoft.icon?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "A full form backend you can test before paying",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/html-contact",
+        "product_link": "https://html.contact/",
+        "source": "playwright",
+        "desc_zh": "您可以在付款前测试的完整表单后端"
+      },
+      {
+        "name": "Basedash Actions",
+        "slug": "basedash",
+        "image": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "A BI tool that can take action for you",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/basedash",
+        "product_link": "https://www.basedash.com/",
+        "source": "playwright",
+        "desc_zh": "可以为您采取行动的 BI 工具"
+      },
+      {
+        "name": "Flowly",
+        "slug": "flowly-6",
+        "image": "https://ph-files.imgix.net/099957c1-6c19-4093-a14a-2064ec0a3736.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "A personal AI agent that runs on your desktop and iPhone",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/flowly-6",
+        "product_link": "https://www.useflowlyapp.com/",
+        "source": "playwright",
+        "desc_zh": "在您的桌面和 iPhone 上运行的个人 AI 代理"
+      },
+      {
+        "name": "Gaming Chat SDK by CometChat",
+        "slug": "cometchat",
+        "image": "https://ph-files.imgix.net/7ce5ecfa-997a-4775-af49-ebfda6c816ac.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Chat drops into Unreal like it was always there",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/cometchat",
+        "product_link": "https://www.cometchat.com/",
+        "source": "playwright",
+        "desc_zh": "聊天会进入虚幻，就像一直存在一样"
+      },
+      {
+        "name": "Retrace",
+        "slug": "retrace-2",
+        "image": "https://ph-files.imgix.net/91812ec5-bfa4-4473-ab48-b57fb556a8a8.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Debug AI agents by replaying and forking runs",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/retrace-2",
+        "product_link": "https://retraceai.tech/",
+        "source": "playwright",
+        "desc_zh": "通过重放和分叉运行来调试 AI 代理"
+      },
+      {
+        "name": "Quick Sub 2: Video Subtitling",
+        "slug": "quick-sub-2-video-subtitling",
+        "image": "https://ph-files.imgix.net/d75e37db-9d44-49db-9d8a-5a801aa0101e.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Quick, creative video subtitling with direct canvas control.",
+        "upvotes": 858,
+        "ph_link": "https://www.producthunt.com/products/quick-sub-2-video-subtitling",
+        "product_link": "https://apps.apple.com/us/app/quick-sub-2-subtitle-movie/id6783561492",
+        "source": "playwright",
+        "desc_zh": "通过直接画布控制快速、富有创意的视频字幕。"
       }
     ]
   }
