@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T23:03:24",
+  "updated_at": "2026-07-07T22:56:42",
   "days": {
     "2026-07-01": [
       {
@@ -283,107 +283,15 @@
         "ph_link": "https://www.producthunt.com/products/loot-6",
         "product_link": "https://loot.photos/",
         "source": "feed"
-      }
-    ],
-    "2026-06-29": [
-      {
-        "name": "Flowly",
-        "slug": "flowly-6",
-        "desc": "A personal AI agent that runs on your desktop and iPhone",
-        "desc_zh": "在您的桌面和 iPhone 上运行的个人 AI 代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flowly-6",
-        "product_link": "https://www.useflowlyapp.com/",
-        "source": "feed"
       },
       {
-        "name": "Get Transparent Pricing on Labs",
-        "slug": "mito-health",
-        "desc": "The right tests. The real price. Nothing extra.",
-        "desc_zh": "正确的测试。真实价格。没什么额外的。",
+        "name": "Scribble Network",
+        "slug": "scribble-network",
+        "desc": "The product that makes AI recommend your brand",
+        "desc_zh": "让AI推荐你的品牌的产品",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/mito-health",
-        "product_link": "https://mitohealth.com/",
-        "source": "feed"
-      },
-      {
-        "name": "LightTwist",
-        "slug": "lighttwist",
-        "desc": "Record & stream your show in a realistic virtual studio",
-        "desc_zh": "在真实的虚拟演播室中录制和直播您的节目",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lighttwist",
-        "product_link": "https://lighttwist.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Stigg 2.0",
-        "slug": "stigg",
-        "desc": "The usage runtime for AI products",
-        "desc_zh": "AI产品的使用时长",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stigg",
-        "product_link": "https://www.stigg.io/",
-        "source": "feed"
-      },
-      {
-        "name": "Livinity",
-        "slug": "livinity",
-        "desc": "Open-source homeserver OS with a built-in AI agent",
-        "desc_zh": "具有内置 AI 代理的开源家庭服务器操作系统",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/livinity",
-        "product_link": "https://livinity.io/",
-        "source": "feed"
-      },
-      {
-        "name": "iVox",
-        "slug": "ivox",
-        "desc": "The first app dedicated to 1980s tape-edit effects.",
-        "desc_zh": "第一个专用于 20 世纪 80 年代磁带编辑效果的应用程序。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ivox",
-        "product_link": "https://i-vox.app/",
-        "source": "feed"
-      },
-      {
-        "name": "Justwrite",
-        "slug": "justwrite",
-        "desc": "A private, local-first writing space that works offline",
-        "desc_zh": "一个私密的、本地优先的、离线工作的写作空间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/justwrite",
-        "product_link": "https://justwrite.sbs/",
-        "source": "feed"
-      },
-      {
-        "name": "Cursor for iOS",
-        "slug": "cursor",
-        "desc": "Build with coding agents from anywhere",
-        "desc_zh": "从任何地方使用编码代理进行构建",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cursor",
-        "product_link": "https://cursor.com/",
-        "source": "feed"
-      },
-      {
-        "name": "WorkBuddy",
-        "slug": "workbuddy-2",
-        "desc": "Produce sharpened results faster with a team of AI experts",
-        "desc_zh": "与人工智能专家团队一起更快地产生清晰的结果",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/workbuddy-2",
-        "product_link": "https://www.workbuddy.ai/",
-        "source": "feed"
-      },
-      {
-        "name": "Octolens",
-        "slug": "octolens-ai",
-        "desc": "Social listening for the agent era",
-        "desc_zh": "代理时代的社交聆听",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/octolens-ai",
-        "product_link": "https://octolens.com/",
+        "ph_link": "https://www.producthunt.com/products/scribble-network",
+        "product_link": "https://scribble.network/",
         "source": "feed"
       }
     ],
@@ -1221,6 +1129,278 @@
         "upvotes": 0,
         "ph_link": "https://www.producthunt.com/products/wisprflow?ref=footer",
         "product_link": "https://wisprflow.ai/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Glideo",
+        "slug": "glideo",
+        "desc": "Screen recordings that edit themselves",
+        "desc_zh": "可自行编辑的屏幕录像",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/glideo",
+        "product_link": "https://glideo.app/",
+        "source": "feed"
+      },
+      {
+        "name": "Zoho Tables",
+        "slug": "zoho-tables",
+        "desc": "Smarter way to manage work and data.",
+        "desc_zh": "以更智能的方式管理工作和数据。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zoho-tables",
+        "product_link": "https://www.zoho.com/tables/product-hunt-launch-offer.html",
+        "source": "feed"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "name": "AI Emaily",
+        "slug": "ai-emaily-unified-ai-inbox",
+        "desc": "Your AI inbox that writes like you + replies on autopilot",
+        "desc_zh": "你的人工智能收件箱像你一样写作+自动回复",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
+        "product_link": "https://aiemaily.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Kadoink AI",
+        "slug": "say-who-say-why-kadoink-gathers-everyone",
+        "desc": "Gather people instantly by AI txt, video, or ringing phones",
+        "desc_zh": "通过 AI 文本、视频或电话铃声立即聚集人员",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/say-who-say-why-kadoink-gathers-everyone",
+        "product_link": "https://kadoink.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "LongCat-2.0",
+        "slug": "longcat",
+        "desc": "1.6T MoE trained entirely on AI ASICs",
+        "desc_zh": "1.6T MoE 完全基于 AI ASIC 进行训练",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/longcat",
+        "product_link": "https://longcat.chat/",
+        "source": "feed"
+      },
+      {
+        "name": "AnySearch",
+        "slug": "anysearch",
+        "image": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Real-time structured search trusted by agents and developers",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/anysearch",
+        "product_link": "https://www.anysearch.com/",
+        "source": "playwright",
+        "desc_zh": "受代理商和开发人员信赖的实时结构化搜索"
+      },
+      {
+        "name": "Typeahead 2.0",
+        "slug": "typeahead",
+        "image": "https://ph-files.imgix.net/f930e495-62cc-4ac4-bf69-30d0ba70f65c.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Private AI autocomplete for every app on your Mac",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/typeahead",
+        "product_link": "https://typeahead.ai/",
+        "source": "playwright",
+        "desc_zh": "Mac 上每个应用程序的私人 AI 自动完成功能"
+      },
+      {
+        "name": "Octolens",
+        "slug": "octolens-ai",
+        "image": "https://ph-files.imgix.net/2bc057c9-8303-4f75-9ef2-497cf35ff37f.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Social listening for the agent era",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/octolens-ai",
+        "product_link": "https://octolens.com/",
+        "source": "playwright",
+        "desc_zh": "代理时代的社交聆听"
+      },
+      {
+        "name": "Sunrise",
+        "slug": "sunrise-5",
+        "image": "https://ph-files.imgix.net/854e7058-c2b7-46ee-8f5f-b012762d852d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "A real planner for Google Tasks",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/sunrise-5",
+        "product_link": "https://getsunrise.today/",
+        "source": "playwright",
+        "desc_zh": "真正的 Google Tasks 规划器"
+      },
+      {
+        "name": "AirKaren",
+        "slug": "airkaren",
+        "image": "https://ph-files.imgix.net/cc7c319f-6134-456a-96d1-701b623f8c79.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "AI that fights customer service for you",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/airkaren",
+        "product_link": "https://airkaren.com/",
+        "source": "playwright",
+        "desc_zh": "人工智能为您提供客户服务"
+      },
+      {
+        "name": "Stanley Studio",
+        "slug": "stanley-studio",
+        "image": "https://ph-files.imgix.net/ddecb817-f367-4d99-9c0a-eb80e0748b4f.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "The AI video editor you hire that edits like a human",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/stanley-studio",
+        "product_link": "https://studio.getstanley.ai/",
+        "source": "playwright",
+        "desc_zh": "您雇用的人工智能视频编辑器可以像人类一样进行编辑"
+      },
+      {
+        "name": "Edgee Claude Code Compressor V2",
+        "slug": "edgee",
+        "image": "https://ph-files.imgix.net/cea13bd0-7efd-4a1c-b99a-d4cb7b1e4276.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Fewer tokens, same context, 50% cost reduction",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/edgee",
+        "product_link": "https://www.edgee.ai/",
+        "source": "playwright",
+        "desc_zh": "更少的代币，相同的上下文，成本降低 50%"
+      },
+      {
+        "name": "Astryx",
+        "slug": "meta",
+        "image": "https://ph-files.imgix.net/be95212c-b868-4f94-8713-8b8035b11c9d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "A customizable, agent-ready open-source design system",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/meta",
+        "product_link": "https://www.meta.com/",
+        "source": "playwright",
+        "desc_zh": "可定制、代理就绪的开源设计系统"
+      },
+      {
+        "name": "CodeMote",
+        "slug": "codemote-remote-control-for-any-ai",
+        "image": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+        "product_link": "https://codemote.caste.work/",
+        "source": "playwright",
+        "desc_zh": "Claude Code、Codex、任何 CLI 代理。从您的 iPhone 驱动"
+      },
+      {
+        "name": "Framer AI Agents",
+        "slug": "framer",
+        "image": "https://ph-files.imgix.net/6d8da0f8-58d7-4011-909c-f54876bfe491.jpeg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Design and publish professional sites with AI",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/framer",
+        "product_link": "http://www.framer.com/",
+        "source": "playwright",
+        "desc_zh": "利用人工智能设计和发布专业网站"
+      },
+      {
+        "name": "Nixmac",
+        "slug": "nixmac",
+        "image": "https://ph-files.imgix.net/e4a4eccb-301c-476c-9c1d-0b2b5cff53fa.svg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Nix-darwin that speaks plain English",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/nixmac",
+        "product_link": "https://nixmac.com/",
+        "source": "playwright",
+        "desc_zh": "尼克斯·达尔文会说简单的英语"
+      },
+      {
+        "name": "Mozaik",
+        "slug": "mozaik-4",
+        "image": "https://ph-files.imgix.net/6738738b-337f-4d1c-a781-0ee60b37e853.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "TypeScript runtime for self-organizing AI agents",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/mozaik-4",
+        "product_link": "https://mozaik.jigjoy.ai/",
+        "source": "playwright",
+        "desc_zh": "用于自组织 AI 代理的 TypeScript 运行时"
+      },
+      {
+        "name": "Cadence",
+        "slug": "cadence-13",
+        "image": "https://ph-files.imgix.net/2a358636-8aae-4427-8b5c-d28670e4beb6.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Record once, send confidently",
+        "upvotes": 638,
+        "ph_link": "https://www.producthunt.com/products/cadence-13",
+        "product_link": "https://usecadence.co/",
+        "source": "playwright",
+        "desc_zh": "记录一次，放心发送"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "n8n",
+        "slug": "n8n-io/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
+        "product_link": "https://n8n.io/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Attio",
+        "slug": "attio/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/attio/reviews?ref=footer",
+        "product_link": "https://attio.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "PostHog",
+        "slug": "posthog/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/posthog/reviews?ref=footer",
+        "product_link": "https://posthog.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Vapi",
+        "slug": "vapi/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/vapi/reviews?ref=footer",
+        "product_link": "https://vapi.ai/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Granola",
+        "slug": "granola/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/granola/reviews?ref=footer",
+        "product_link": "https://www.granola.so/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Raycast",
+        "slug": "raycast/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/raycast/reviews?ref=footer",
+        "product_link": "https://raycast.com/",
         "source": "playwright",
         "desc_zh": "热门类别"
       }
