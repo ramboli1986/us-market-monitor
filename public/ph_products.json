@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T22:56:42",
+  "updated_at": "2026-07-08T23:00:45",
   "days": {
     "2026-07-01": [
       {
@@ -141,157 +141,25 @@
         "ph_link": "https://www.producthunt.com/products/anysearch",
         "product_link": "https://www.anysearch.com/",
         "source": "feed"
-      }
-    ],
-    "2026-06-30": [
+      },
       {
-        "name": "Context.dev",
-        "slug": "context-dev",
-        "desc": "One API to scrape, enrich, and extract the internet",
-        "desc_zh": "一个用于抓取、丰富和提取互联网的 API",
+        "name": "PopTask for Apple",
+        "slug": "poptask",
+        "desc": "Turn to-dos into scheduled tasks",
+        "desc_zh": "将待办事项变成计划任务",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/context-dev",
-        "product_link": "https://context.dev/",
+        "ph_link": "https://www.producthunt.com/products/poptask",
+        "product_link": "https://poptask.bar/",
         "source": "feed"
       },
       {
-        "name": "Needle",
-        "slug": "needle-3",
-        "desc": "The proactive GTM agent in Slack and Teams",
-        "desc_zh": "Slack 和 Teams 中的主动 GTM 代理",
+        "name": "Universal-3.5 Pro",
+        "slug": "assemblyai",
+        "desc": "The most accurate STT model from AssemblyAI.",
+        "desc_zh": "AssemblyAI 提供的最准确的 STT 模型。",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/needle-3",
-        "product_link": "https://needle.app/",
-        "source": "feed"
-      },
-      {
-        "name": "Solaris",
-        "slug": "build-club",
-        "desc": "Your company’s AI adoption and upskilling platform",
-        "desc_zh": "贵公司的人工智能采用和技能提升平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/build-club",
-        "product_link": "https://www.buildclub.ai/",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini Omni Flash",
-        "slug": "gemini-omni-flash",
-        "desc": "High-quality video generation and conversational editing",
-        "desc_zh": "高质量视频生成和对话式编辑",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-omni-flash",
-        "product_link": "https://gemini.google/overview/video-generation",
-        "source": "feed"
-      },
-      {
-        "name": "Clusy",
-        "slug": "clusy",
-        "desc": "AI notebook platform for modern data science",
-        "desc_zh": "现代数据科学的人工智能笔记本平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/clusy",
-        "product_link": "https://www.clusy.io/",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Sonnet 5",
-        "slug": "claude",
-        "desc": "AI that plans, acts, and gets work done",
-        "desc_zh": "计划、行动并完成工作的人工智能",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude",
-        "product_link": "https://www.anthropic.com/claude",
-        "source": "feed"
-      },
-      {
-        "name": "Saldor",
-        "slug": "saldor",
-        "desc": "Speed up procurement and AP.",
-        "desc_zh": "加快采购和AP。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/saldor",
-        "product_link": "https://saldor.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Science",
-        "slug": "claude-for-desktop",
-        "desc": "Your research partner for rigorous science",
-        "desc_zh": "您严谨科学的研究伙伴",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude-for-desktop",
-        "product_link": "https://claude.ai/download",
-        "source": "feed"
-      },
-      {
-        "name": "Adam CAD Copilot",
-        "slug": "adam-cad-copilot",
-        "desc": "AI CAD inside Onshape and Fusion",
-        "desc_zh": "Onshape 和 Fusion 中的 AI CAD",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/adam-cad-copilot",
-        "product_link": "https://adam.new/copilot",
-        "source": "feed"
-      },
-      {
-        "name": "Bamboo",
-        "slug": "bamboo-ai-markdown-notes",
-        "desc": "Markdown notes with AI under your control",
-        "desc_zh": "Markdown 笔记，人工智能由你掌控",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bamboo-ai-markdown-notes",
-        "product_link": "https://apps.apple.com/us/app/bamboo-ai-markdown-notes/id6753059522",
-        "source": "feed"
-      },
-      {
-        "name": "Ciaro Pro",
-        "slug": "ciaro-pro",
-        "desc": "AI filmmaking for visual storytellers",
-        "desc_zh": "为视觉故事讲述者打造人工智能电影制作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ciaro-pro",
-        "product_link": "https://ciaro.pro/",
-        "source": "feed"
-      },
-      {
-        "name": "Wins 3.4",
-        "slug": "wins-2",
-        "desc": "Snap, switch, and arrange Mac windows from the notch",
-        "desc_zh": "从缺口处捕捉、切换和排列 Mac 窗口",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wins-2",
-        "product_link": "https://wins.cool/",
-        "source": "feed"
-      },
-      {
-        "name": "Aruki",
-        "slug": "aruki-japanese-walking",
-        "desc": "The Japanese walking method, coached on your iPhone",
-        "desc_zh": "在 iPhone 上指导的日本步行法",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/aruki-japanese-walking",
-        "product_link": "https://apps.apple.com/app/id6780286070",
-        "source": "feed"
-      },
-      {
-        "name": "Loot",
-        "slug": "loot-6",
-        "desc": "Collect your favorite things in real life",
-        "desc_zh": "收集现实生活中你最喜欢的东西",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/loot-6",
-        "product_link": "https://loot.photos/",
-        "source": "feed"
-      },
-      {
-        "name": "Scribble Network",
-        "slug": "scribble-network",
-        "desc": "The product that makes AI recommend your brand",
-        "desc_zh": "让AI推荐你的品牌的产品",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/scribble-network",
-        "product_link": "https://scribble.network/",
+        "ph_link": "https://www.producthunt.com/products/assemblyai",
+        "product_link": "https://assemblyai.com/?utm_source=producthunt&utm_medium=referral&utm_campaign=company_page&ref=producthunt",
         "source": "feed"
       }
     ],
@@ -575,6 +443,16 @@
         "ph_link": "https://www.producthunt.com/products/airkaren",
         "product_link": "https://airkaren.com/",
         "source": "feed"
+      },
+      {
+        "name": "Orus",
+        "slug": "farao",
+        "desc": "Claude for investing in perpetuals",
+        "desc_zh": "克劳德投资永续债券",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/farao",
+        "product_link": "https://getfarao.com/",
+        "source": "feed"
       }
     ],
     "2026-07-02": [
@@ -846,6 +724,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/typeahead",
         "product_link": "https://typeahead.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Eodly",
+        "slug": "eodly",
+        "desc": "Know what your team actually shipped today",
+        "desc_zh": "了解您的团队今天实际发货了什么",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/eodly",
+        "product_link": "https://eodly.io/",
         "source": "feed"
       }
     ],
@@ -1189,7 +1077,7 @@
         "slug": "anysearch",
         "image": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Real-time structured search trusted by agents and developers",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/anysearch",
         "product_link": "https://www.anysearch.com/",
         "source": "playwright",
@@ -1200,7 +1088,7 @@
         "slug": "typeahead",
         "image": "https://ph-files.imgix.net/f930e495-62cc-4ac4-bf69-30d0ba70f65c.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Private AI autocomplete for every app on your Mac",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/typeahead",
         "product_link": "https://typeahead.ai/",
         "source": "playwright",
@@ -1211,7 +1099,7 @@
         "slug": "octolens-ai",
         "image": "https://ph-files.imgix.net/2bc057c9-8303-4f75-9ef2-497cf35ff37f.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Social listening for the agent era",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/octolens-ai",
         "product_link": "https://octolens.com/",
         "source": "playwright",
@@ -1222,7 +1110,7 @@
         "slug": "sunrise-5",
         "image": "https://ph-files.imgix.net/854e7058-c2b7-46ee-8f5f-b012762d852d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "A real planner for Google Tasks",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/sunrise-5",
         "product_link": "https://getsunrise.today/",
         "source": "playwright",
@@ -1233,7 +1121,7 @@
         "slug": "airkaren",
         "image": "https://ph-files.imgix.net/cc7c319f-6134-456a-96d1-701b623f8c79.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "AI that fights customer service for you",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/airkaren",
         "product_link": "https://airkaren.com/",
         "source": "playwright",
@@ -1244,7 +1132,7 @@
         "slug": "stanley-studio",
         "image": "https://ph-files.imgix.net/ddecb817-f367-4d99-9c0a-eb80e0748b4f.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "The AI video editor you hire that edits like a human",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/stanley-studio",
         "product_link": "https://studio.getstanley.ai/",
         "source": "playwright",
@@ -1255,7 +1143,7 @@
         "slug": "edgee",
         "image": "https://ph-files.imgix.net/cea13bd0-7efd-4a1c-b99a-d4cb7b1e4276.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Fewer tokens, same context, 50% cost reduction",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/edgee",
         "product_link": "https://www.edgee.ai/",
         "source": "playwright",
@@ -1266,7 +1154,7 @@
         "slug": "meta",
         "image": "https://ph-files.imgix.net/be95212c-b868-4f94-8713-8b8035b11c9d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "A customizable, agent-ready open-source design system",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/meta",
         "product_link": "https://www.meta.com/",
         "source": "playwright",
@@ -1277,7 +1165,7 @@
         "slug": "codemote-remote-control-for-any-ai",
         "image": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
         "product_link": "https://codemote.caste.work/",
         "source": "playwright",
@@ -1288,7 +1176,7 @@
         "slug": "framer",
         "image": "https://ph-files.imgix.net/6d8da0f8-58d7-4011-909c-f54876bfe491.jpeg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Design and publish professional sites with AI",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/framer",
         "product_link": "http://www.framer.com/",
         "source": "playwright",
@@ -1299,7 +1187,7 @@
         "slug": "nixmac",
         "image": "https://ph-files.imgix.net/e4a4eccb-301c-476c-9c1d-0b2b5cff53fa.svg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Nix-darwin that speaks plain English",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/nixmac",
         "product_link": "https://nixmac.com/",
         "source": "playwright",
@@ -1310,7 +1198,7 @@
         "slug": "mozaik-4",
         "image": "https://ph-files.imgix.net/6738738b-337f-4d1c-a781-0ee60b37e853.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "TypeScript runtime for self-organizing AI agents",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/mozaik-4",
         "product_link": "https://mozaik.jigjoy.ai/",
         "source": "playwright",
@@ -1321,7 +1209,7 @@
         "slug": "cadence-13",
         "image": "https://ph-files.imgix.net/2a358636-8aae-4427-8b5c-d28670e4beb6.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
         "desc": "Record once, send confidently",
-        "upvotes": 638,
+        "upvotes": 651,
         "ph_link": "https://www.producthunt.com/products/cadence-13",
         "product_link": "https://usecadence.co/",
         "source": "playwright",
@@ -1403,6 +1291,138 @@
         "product_link": "https://raycast.com/",
         "source": "playwright",
         "desc_zh": "热门类别"
+      },
+      {
+        "name": "Link Preview API",
+        "slug": "link-preview-api",
+        "desc": "Free API to get Open Graph data, title & images for any URL",
+        "desc_zh": "免费 API 可获取任何 URL 的 Open Graph 数据、标题和图像",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/link-preview-api",
+        "product_link": "https://exabase.io/tools/link-preview",
+        "source": "feed"
+      },
+      {
+        "name": "Jamboree",
+        "slug": "jamboree",
+        "desc": "Multiplayer synthesizer",
+        "desc_zh": "多人合成器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/jamboree",
+        "product_link": "https://jamboree.space/",
+        "source": "feed"
+      },
+      {
+        "name": "Bono AI",
+        "slug": "bono-ai",
+        "desc": "Talk Once. Publish Everywhere.",
+        "desc_zh": "谈一次。到处发布。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bono-ai",
+        "product_link": "https://heybono.ai/",
+        "source": "feed"
+      }
+    ],
+    "2026-07-07": [
+      {
+        "name": "Orbit for Mac",
+        "slug": "orbit-for-mac",
+        "desc": "Every Google account, in a single window",
+        "desc_zh": "每个 Google 帐户都在一个窗口中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/orbit-for-mac",
+        "product_link": "https://orbitformac.com/",
+        "source": "feed"
+      },
+      {
+        "name": "NanoKVM-Go",
+        "slug": "nanokvm-go",
+        "desc": "Give your AI agent physical control over any screen",
+        "desc_zh": "让您的 AI 代理对任何屏幕进行物理控制",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nanokvm-go",
+        "product_link": "https://github.com/sipeed/NanoKVM",
+        "source": "feed"
+      },
+      {
+        "name": "Compendium",
+        "slug": "compendium-2",
+        "desc": "Keeping your team, agents, and data on one page",
+        "desc_zh": "将您的团队、代理和数据保留在一页上",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/compendium-2",
+        "product_link": "https://www.cerenovus.ai/compendium-info",
+        "source": "feed"
+      },
+      {
+        "name": "agents-cli",
+        "slug": "agents-cli",
+        "desc": "The CLI your coding agent uses to ship agents",
+        "desc_zh": "您的编码代理用于发送代理的 CLI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agents-cli",
+        "product_link": "https://github.com/google/agents-cli",
+        "source": "feed"
+      },
+      {
+        "name": "On-Device Field Extraction by Veryfi",
+        "slug": "veryfi",
+        "desc": "Secure on-device extraction even if you're offline",
+        "desc_zh": "即使您处于离线状态，也能安全地进行设备上提取",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/veryfi",
+        "product_link": "https://www.veryfi.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Willow Frontier Pro",
+        "slug": "willow-voice",
+        "desc": "The fastest, most accurate dictation model in the world",
+        "desc_zh": "世界上最快、最准确的听写模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/willow-voice",
+        "product_link": "https://willowvoice.com/",
+        "source": "feed"
+      },
+      {
+        "name": "LemonLime",
+        "slug": "lemonlime",
+        "desc": "Automates your existing workflows with a single prompt.",
+        "desc_zh": "通过单个提示自动化您现有的工作流程。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lemonlime",
+        "product_link": "https://lemonlime.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Notion Agents iOS app",
+        "slug": "notion-agents-ios-app",
+        "desc": "Chat with Notion Agents anytime",
+        "desc_zh": "随时与 Notion 代理聊天",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notion-agents-ios-app",
+        "product_link": "https://apps.apple.com/us/app/notion-agents/id6759811964",
+        "source": "feed"
+      },
+      {
+        "name": "ExploreYC",
+        "slug": "yc-company-explorer",
+        "desc": "Open-source API for Y Combinator & a16z company data",
+        "desc_zh": "Y Combinator 和 a16z 公司数据的开源 API",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/yc-company-explorer",
+        "product_link": "https://exploreyc.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Knowledge Atlas by Fini",
+        "slug": "fini-2",
+        "desc": "The self-learning knowledge base that improves itself",
+        "desc_zh": "自我提升的自学知识库",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fini-2",
+        "product_link": "https://www.usefini.com/",
+        "source": "feed"
       }
     ]
   }
