@@ -1,278 +1,6 @@
 {
-  "updated_at": "2026-07-18T22:44:11",
+  "updated_at": "2026-07-19T22:45:08",
   "days": {
-    "2026-07-11": [
-      {
-        "name": "Effects SDK",
-        "slug": "effects-sdk",
-        "image": "https://ph-files.imgix.net/f8840d29-a396-4016-85d8-368ad5d627be.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "AI video & audio effects SDK for real-time apps",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/effects-sdk",
-        "product_link": "https://effectssdk.ai/",
-        "source": "playwright",
-        "desc_zh": "适用于实时应用程序的AI视频和音频效果SDK"
-      },
-      {
-        "name": "Cloudflare Drop",
-        "slug": "cloudflare",
-        "image": "https://ph-files.imgix.net/ec7c42b6-ea2f-479b-96d1-c34cfa9b10b1.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "Drop your folder in browser & deploy instantly on Cloudflare",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/cloudflare",
-        "product_link": "http://www.cloudflare.com/",
-        "source": "playwright",
-        "desc_zh": "将您的文件夹放入浏览器中并立即部署到 Cloudflare 上"
-      },
-      {
-        "name": "San Fran Sim",
-        "slug": "san-fran-sim",
-        "image": "https://ph-files.imgix.net/89910a54-4586-4b88-a758-4c5d98a3ce8b.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "A startup tycoon game",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/san-fran-sim",
-        "product_link": "https://sanfransim.com/",
-        "source": "playwright",
-        "desc_zh": "一款创业大亨游戏"
-      },
-      {
-        "name": "ChatGPT Work",
-        "slug": "chatgpt-work",
-        "image": "https://ph-files.imgix.net/cf41be05-ee95-4eeb-ba74-fdf15496ad22.webp?auto=compress&codec=mozjpeg&cs=strip&dpr=2&fit=max&fm=webp&frame=1&h=128&w=128",
-        "desc": "Partner for your most ambitious work",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/chatgpt-work",
-        "product_link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-        "source": "playwright",
-        "desc_zh": "为您最雄心勃勃的工作提供合作伙伴"
-      },
-      {
-        "name": "Kickbacks CLI",
-        "slug": "kickbacks-cli",
-        "image": "https://ph-files.imgix.net/7f5f3113-12d1-41a0-a09b-3d2b4e277095.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "The terminal and Mac menu bar companion for Kickbacks.ai",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/kickbacks-cli",
-        "product_link": "https://gabeperez.github.io/kickback-cli",
-        "source": "playwright",
-        "desc_zh": "Kickbacks.ai 的终端和 Mac 菜单栏伴侣"
-      },
-      {
-        "name": "SoundPipe",
-        "slug": "soundpipe",
-        "image": "https://ph-files.imgix.net/6b1520de-3a02-4a04-b6c5-c0c337e42552.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "SoundPipe is a mixing board for your Mac",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/soundpipe",
-        "product_link": "https://soundpipe.app/",
-        "source": "playwright",
-        "desc_zh": "SoundPipe 是一款适用于 Mac 的混音板"
-      },
-      {
-        "name": "Basedash SCIM",
-        "slug": "basedash",
-        "image": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "Your org changes. Access keeps up.",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/basedash",
-        "product_link": "https://www.basedash.com/",
-        "source": "playwright",
-        "desc_zh": "您的组织发生变化。访问保持不变。"
-      },
-      {
-        "name": "Breathing In Labour",
-        "slug": "breathing-in-labour",
-        "image": "https://ph-files.imgix.net/a0b7787d-78fb-413e-b133-34ed18b9e4ba.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "A distraction-free breathing app for labor preparation",
-        "upvotes": 496,
-        "ph_link": "https://www.producthunt.com/products/breathing-in-labour",
-        "product_link": "https://lebene.pl/en/app/breathing-in-labour",
-        "source": "playwright",
-        "desc_zh": "用于分娩准备的无干扰呼吸应用程序"
-      },
-      {
-        "name": "Lovable",
-        "slug": "lovable/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
-        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "n8n",
-        "slug": "n8n-io/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
-        "product_link": "https://n8n.io/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Attio",
-        "slug": "attio/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/attio/reviews?ref=footer",
-        "product_link": "https://attio.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "PostHog",
-        "slug": "posthog/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/posthog/reviews?ref=footer",
-        "product_link": "https://posthog.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Vapi",
-        "slug": "vapi/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/vapi/reviews?ref=footer",
-        "product_link": "https://vapi.ai/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Granola",
-        "slug": "granola/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/granola/reviews?ref=footer",
-        "product_link": "https://www.granola.so/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Raycast",
-        "slug": "raycast/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/raycast/reviews?ref=footer",
-        "product_link": "https://raycast.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Supabase",
-        "slug": "supabase/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/supabase/reviews?ref=footer",
-        "product_link": "https://supabase.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Lovable",
-        "slug": "lovable?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/lovable?ref=footer",
-        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Screen Studio",
-        "slug": "screen-studio?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/screen-studio?ref=footer",
-        "product_link": "https://screen.studio/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "bolt.new",
-        "slug": "bolt-new?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/bolt-new?ref=footer",
-        "product_link": "https://bolt.new/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Wispr Flow",
-        "slug": "wisprflow?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/wisprflow?ref=footer",
-        "product_link": "https://wisprflow.ai/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "EQK",
-        "slug": "eqk-eq-with-ai",
-        "desc": "Mac app with dynamic AI EQ",
-        "desc_zh": "具有动态 AI EQ 的 Mac 应用",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/eqk-eq-with-ai",
-        "product_link": "https://www.kuja.dev/eqk",
-        "source": "feed"
-      },
-      {
-        "name": "CodeNearby 2.0",
-        "slug": "codenearby",
-        "desc": "Tinder for developers! Find coding partners & build together",
-        "desc_zh": "面向开发者的 Tinder！寻找编码合作伙伴并共同构建",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/codenearby",
-        "product_link": "https://codenearby.space/",
-        "source": "feed"
-      },
-      {
-        "name": "Trump Accounts",
-        "slug": "trump-accounts",
-        "desc": "Build long-term financial security for your child",
-        "desc_zh": "为您的孩子建立长期的财务保障",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/trump-accounts",
-        "product_link": "https://trumpaccount.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Altersend",
-        "slug": "altersend",
-        "desc": "File transfer with no cloud storage, no account, no limits",
-        "desc_zh": "文件传输无云存储、无账户、无限制",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/altersend",
-        "product_link": "https://altersend.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Mirage",
-        "slug": "mirage-15",
-        "desc": "Turn your SaaS into a clickable demo in 90 seconds.",
-        "desc_zh": "在 90 秒内将您的 SaaS 变成可点击的演示。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mirage-15",
-        "product_link": "https://usemirage.io/",
-        "source": "feed"
-      }
-    ],
     "2026-07-12": [
       {
         "name": "TailMux",
@@ -929,6 +657,16 @@
         "ph_link": "https://www.producthunt.com/products/kimi-ai-assistant",
         "product_link": "https://kimi.ai/",
         "source": "feed"
+      },
+      {
+        "name": "Kobbe",
+        "slug": "kobbe",
+        "desc": "Privacy-friendly web analytics with traffic and revenue.",
+        "desc_zh": "隐私友好的网络分析，包括流量和收入。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kobbe",
+        "product_link": "https://kobbe.io/",
+        "source": "feed"
       }
     ],
     "2026-07-15": [
@@ -1333,6 +1071,48 @@
         "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
         "source": "playwright",
         "desc_zh": "热门类别"
+      },
+      {
+        "name": "OpenSEO",
+        "slug": "openseo",
+        "desc": "The open source Ahrefs alternative",
+        "desc_zh": "开源 Ahrefs 替代方案",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openseo",
+        "product_link": "https://openseo.so/",
+        "source": "feed"
+      }
+    ],
+    "2026-07-18": [
+      {
+        "name": "Rewisp",
+        "slug": "rewisp-an-ambient-memory-for-your-mac",
+        "desc": "See it once. Ask forever.",
+        "desc_zh": "看一次。问永远。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+        "product_link": "https://yashmitb.github.io/Rewisp",
+        "source": "feed"
+      },
+      {
+        "name": "Detourmap",
+        "slug": "detourmap",
+        "desc": "Every place worth the detour, on one interactive map",
+        "desc_zh": "每个值得绕道而行的地方都在一张互动地图上",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/detourmap",
+        "product_link": "https://detourmap.com/",
+        "source": "feed"
+      },
+      {
+        "name": "BaseRT",
+        "slug": "basert",
+        "desc": "6.4x faster than llama.cpp, 3.9x faster than MLX",
+        "desc_zh": "比 llama.cpp 快 6.4 倍，比 MLX 快 3.9 倍",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/basert",
+        "product_link": "https://www.basecompute.co/getbasert",
+        "source": "feed"
       }
     ]
   }
