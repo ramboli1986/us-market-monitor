@@ -1,258 +1,6 @@
 {
-  "updated_at": "2026-07-19T22:45:08",
+  "updated_at": "2026-07-20T22:52:37",
   "days": {
-    "2026-07-12": [
-      {
-        "name": "TailMux",
-        "slug": "tailmux",
-        "desc": "Multiple Tailscale tailnets at once, no switching + no VM",
-        "desc_zh": "一次多个 Tailscale 尾网，无需切换+无需虚拟机",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tailmux",
-        "product_link": "https://tailmux.app/",
-        "source": "feed"
-      },
-      {
-        "name": "Playground",
-        "slug": "nyx-4",
-        "desc": "Earn $100K+ in weekly rewards for hacking AI agents.",
-        "desc_zh": "黑客 AI 代理每周可获得超过 10 万美元的奖励。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nyx-4",
-        "product_link": "https://fabraix.com/",
-        "source": "feed"
-      },
-      {
-        "name": "Miora",
-        "slug": "miora-2",
-        "image": "https://ph-files.imgix.net/eecc5bf5-4f75-442b-9030-aca7cb7d770b.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "Scale your creativity on editable canvas with agent memory",
-        "upvotes": 583,
-        "ph_link": "https://www.producthunt.com/products/miora-2",
-        "product_link": "https://miora.design/",
-        "source": "playwright",
-        "desc_zh": "利用代理记忆在可编辑画布上扩展您的创造力"
-      },
-      {
-        "name": "JustVibe",
-        "slug": "justvibe",
-        "image": "https://ph-files.imgix.net/d188283d-ca82-4a07-90ae-122af14bf13d.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "The search engine for doing, with apps built for you",
-        "upvotes": 583,
-        "ph_link": "https://www.producthunt.com/products/justvibe",
-        "product_link": "https://justvibe.com/",
-        "source": "playwright",
-        "desc_zh": "适合做事的搜索引擎，带有专为您打造的应用程序"
-      },
-      {
-        "name": "FetchSandbox",
-        "slug": "fetchsandbox",
-        "image": "https://ph-files.imgix.net/f7b32fa6-6bf4-46f8-8a99-84b4559d37b4.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "API integration testing that remembers what breaks",
-        "upvotes": 583,
-        "ph_link": "https://www.producthunt.com/products/fetchsandbox",
-        "product_link": "https://fetchsandbox.com/",
-        "source": "playwright",
-        "desc_zh": "API 集成测试会记住什么问题"
-      },
-      {
-        "name": "Second Brain for AI v2",
-        "slug": "second-brain-cloudflare",
-        "image": "https://ph-files.imgix.net/a258efad-8dea-4ed3-b1bb-169089817168.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "AI memory that connects the dots across every tool",
-        "upvotes": 583,
-        "ph_link": "https://www.producthunt.com/products/second-brain-cloudflare",
-        "product_link": "https://github.com/rahilp/second-brain-cloudflare",
-        "source": "playwright",
-        "desc_zh": "人工智能记忆将每个工具的各个点连接起来"
-      },
-      {
-        "name": "ServiceBeard",
-        "slug": "servicebeard",
-        "image": "https://ph-files.imgix.net/4e9cb3ca-eefb-4a98-bcb1-efa079463813.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
-        "desc": "Sync your mailbox with your issue tracker",
-        "upvotes": 583,
-        "ph_link": "https://www.producthunt.com/products/servicebeard",
-        "product_link": "https://servicebeard.app/",
-        "source": "playwright",
-        "desc_zh": "将您的邮箱与问题跟踪器同步"
-      },
-      {
-        "name": "Lovable",
-        "slug": "lovable/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
-        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "n8n",
-        "slug": "n8n-io/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
-        "product_link": "https://n8n.io/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Attio",
-        "slug": "attio/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/attio/reviews?ref=footer",
-        "product_link": "https://attio.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "PostHog",
-        "slug": "posthog/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/posthog/reviews?ref=footer",
-        "product_link": "https://posthog.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Vapi",
-        "slug": "vapi/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/vapi/reviews?ref=footer",
-        "product_link": "https://vapi.ai/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Granola",
-        "slug": "granola/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/granola/reviews?ref=footer",
-        "product_link": "https://www.granola.so/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Raycast",
-        "slug": "raycast/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/raycast/reviews?ref=footer",
-        "product_link": "https://raycast.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Supabase",
-        "slug": "supabase/reviews?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/supabase/reviews?ref=footer",
-        "product_link": "https://supabase.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Lovable",
-        "slug": "lovable?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/lovable?ref=footer",
-        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Screen Studio",
-        "slug": "screen-studio?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/screen-studio?ref=footer",
-        "product_link": "https://screen.studio/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "bolt.new",
-        "slug": "bolt-new?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/bolt-new?ref=footer",
-        "product_link": "https://bolt.new/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Wispr Flow",
-        "slug": "wisprflow?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/wisprflow?ref=footer",
-        "product_link": "https://wisprflow.ai/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Framer",
-        "slug": "framer?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/framer?ref=footer",
-        "product_link": "http://www.framer.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Replit",
-        "slug": "replit?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/replit?ref=footer",
-        "product_link": "https://replit.com/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Vapi",
-        "slug": "vapi?ref=footer",
-        "image": "",
-        "desc": "Trending categories",
-        "upvotes": 0,
-        "ph_link": "https://www.producthunt.com/products/vapi?ref=footer",
-        "product_link": "https://vapi.ai/",
-        "source": "playwright",
-        "desc_zh": "热门类别"
-      },
-      {
-        "name": "Goose Ads Remixer",
-        "slug": "gooseworks",
-        "desc": "Remix the ads already winning in your niche",
-        "desc_zh": "重新组合已经在您的利基市场中获胜的广告",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gooseworks",
-        "product_link": "https://gooseworks.ai/ads?utm_source=producthunt&utm_medium=launch&utm_campaign=ad-remixer&utm_content=2026-07-14&ref=producthunt",
-        "source": "feed"
-      }
-    ],
     "2026-07-14": [
       {
         "name": "Keepresso",
@@ -605,6 +353,36 @@
         "ph_link": "https://www.producthunt.com/products/mainichi-2",
         "product_link": "https://mainichiapp.com/",
         "source": "feed"
+      },
+      {
+        "name": "Skippr AI",
+        "slug": "skippr-3",
+        "desc": "The live AI employee inside your product, serving every user",
+        "desc_zh": "产品中的实时人工智能员工为每个用户提供服务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skippr-3",
+        "product_link": "https://skippr.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Loova Ads Studio",
+        "slug": "loova-agents",
+        "desc": "Create AI ads that convert, not just look good",
+        "desc_zh": "制作能够转化的 AI 广告，而不仅仅是看起来不错",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/loova-agents",
+        "product_link": "https://loova.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Nautis",
+        "slug": "nautis",
+        "desc": "The AI-native Operating System for founders.",
+        "desc_zh": "为创始人打造的人工智能原生操作系统。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nautis",
+        "product_link": "https://getnautis.com/",
+        "source": "feed"
       }
     ],
     "2026-07-16": [
@@ -666,6 +444,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/kobbe",
         "product_link": "https://kobbe.io/",
+        "source": "feed"
+      },
+      {
+        "name": "LayerProof Mylar",
+        "slug": "layerproof-social-content-generation",
+        "desc": "Create launch-ready motion videos for your products",
+        "desc_zh": "为您的产品创建准备发布的动态视频",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/layerproof-social-content-generation",
+        "product_link": "https://layerproof.app/mylar?utm_source=producthunt&utm_medium=organic&utm_campaign=mylarlaunch&ref=producthunt",
         "source": "feed"
       }
     ],
@@ -848,6 +636,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/graft-ai",
         "product_link": "https://graft.axcelner.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Backdrop",
+        "slug": "backdrop",
+        "desc": "AI Coworkers that run your projects and operations",
+        "desc_zh": "运行您的项目和运营的 AI 同事",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/backdrop",
+        "product_link": "https://www.backdropagent.com/",
+        "source": "feed"
+      },
+      {
+        "name": "NeuroVidz",
+        "slug": "neurovidz",
+        "desc": "See how a brain reacts to your clip",
+        "desc_zh": "看看大脑对您的剪辑有何反应",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/neurovidz",
+        "product_link": "https://neurovidz.com/",
         "source": "feed"
       }
     ],
@@ -1081,6 +889,46 @@
         "ph_link": "https://www.producthunt.com/products/openseo",
         "product_link": "https://openseo.so/",
         "source": "feed"
+      },
+      {
+        "name": "BlockscopeChat",
+        "slug": "blockscopechat",
+        "desc": "AI Crypto Investigations/Research Agents",
+        "desc_zh": "AI 加密货币调查/研究代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/blockscopechat",
+        "product_link": "https://chat.blockscope.co/",
+        "source": "feed"
+      },
+      {
+        "name": "LnkFlow",
+        "slug": "lnkflow",
+        "desc": "Agentic click tracking that shows what grows your business",
+        "desc_zh": "代理点击跟踪可显示您的业务增长因素",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lnkflow",
+        "product_link": "https://lnkflow.io/",
+        "source": "feed"
+      },
+      {
+        "name": "Lunen.ai",
+        "slug": "lunen-ai",
+        "desc": "Build AI agents your whole team can run, and control",
+        "desc_zh": "构建整个团队都可以运行和控制的人工智能代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lunen-ai",
+        "product_link": "https://lunen.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "Deck",
+        "slug": "deck-9",
+        "desc": "The most capable AI assistant with its own inbox",
+        "desc_zh": "最强大的人工智能助手，拥有自己的收件箱",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/deck-9",
+        "product_link": "https://hellodeck.ai/",
+        "source": "feed"
       }
     ],
     "2026-07-18": [
@@ -1113,6 +961,328 @@
         "ph_link": "https://www.producthunt.com/products/basert",
         "product_link": "https://www.basecompute.co/getbasert",
         "source": "feed"
+      },
+      {
+        "name": "Scriptyard",
+        "slug": "scriptyard",
+        "desc": "A free visual story development workspace",
+        "desc_zh": "免费的视觉故事开发工作区",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/scriptyard",
+        "product_link": "https://www.minimalhumans.com/scriptyard",
+        "source": "feed"
+      }
+    ],
+    "2026-07-19": [
+      {
+        "name": "Autoplot",
+        "slug": "autoplot",
+        "desc": "Unify data analysis and plotting in one powerful workspace",
+        "desc_zh": "将数据分析和绘图统一在一个强大的工作区中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/autoplot",
+        "product_link": "https://autoplot.ai/",
+        "source": "feed"
+      },
+      {
+        "name": "CaptureKit",
+        "slug": "capturekit-2",
+        "desc": "Keep your desktop clean by auto-organizing screenshots.",
+        "desc_zh": "通过自动组织屏幕截图保持桌面干净。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/capturekit-2",
+        "product_link": "https://apps.apple.com/us/app/capturekit/id6758860074",
+        "source": "feed"
+      },
+      {
+        "name": "Inkling",
+        "slug": "tinker-2",
+        "desc": "Open weights 975B multimodal model built for fine-tuning",
+        "desc_zh": "开放式权重 975B 多模式模型，专为微调而打造",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tinker-2",
+        "product_link": "https://thinkingmachines.ai/tinker",
+        "source": "feed"
+      },
+      {
+        "name": "Kogvio",
+        "slug": "kogvio",
+        "desc": "Understand anything online without leaving the page.",
+        "desc_zh": "无需离开页面即可了解在线任何内容。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kogvio",
+        "product_link": "https://kogvio.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Backbeat Forge",
+        "slug": "backbeat-forge",
+        "desc": "Turn drum audio into a score you can actually edit",
+        "desc_zh": "将鼓音频转换为您可以实际编辑的乐谱",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/backbeat-forge",
+        "product_link": "https://hannes-software.com/backbeat-forge",
+        "source": "feed"
+      },
+      {
+        "name": "Creed",
+        "slug": "creed-2",
+        "desc": "Your personal context file for every agent.",
+        "desc_zh": "每个代理的个人上下文文件。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/creed-2",
+        "product_link": "https://creed.md/",
+        "source": "feed"
+      },
+      {
+        "name": "Rex",
+        "slug": "rex-7",
+        "desc": "AI agents that run order-to-cash operations",
+        "desc_zh": "运行订单到现金操作的人工智能代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rex-7",
+        "product_link": "https://rex.inc/",
+        "source": "feed"
+      },
+      {
+        "name": "Reignat",
+        "slug": "reignat",
+        "desc": "Privacy-friendly web analytics with realtime AI insights",
+        "desc_zh": "具有实时人工智能见解的隐私友好型网络分析",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/reignat",
+        "product_link": "https://reignat.com/",
+        "source": "feed"
+      },
+      {
+        "name": "Free AI Tools",
+        "slug": "free-ai-tools-4",
+        "desc": "Free browser tools for everyday tasks, no login",
+        "desc_zh": "用于日常任务的免费浏览器工具，无需登录",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/free-ai-tools-4",
+        "product_link": "https://free-aitools.com/",
+        "source": "feed"
+      },
+      {
+        "name": "OpenSEO",
+        "slug": "openseo",
+        "image": "https://ph-files.imgix.net/bddfb6ed-475f-4cc7-adbc-c28b77be18d8.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "The open source Ahrefs alternative",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/openseo",
+        "product_link": "https://openseo.so/",
+        "source": "playwright",
+        "desc_zh": "开源 Ahrefs 替代方案"
+      },
+      {
+        "name": "Spycost",
+        "slug": "spycost",
+        "image": "https://ph-files.imgix.net/9c884a0a-c029-42a4-bb05-3fa1c9269175.gif?auto=compress&codec=mozjpeg&cs=strip&dpr=2&fit=max&fm=webp&frame=1&h=128&w=128",
+        "desc": "Fell for a discount again?",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/spycost",
+        "product_link": "https://spycost.com/",
+        "source": "playwright",
+        "desc_zh": "又遇上折扣了？"
+      },
+      {
+        "name": "Kobbe",
+        "slug": "kobbe",
+        "image": "https://ph-files.imgix.net/5b1ff6ea-21a5-4b80-b8b7-98cfa6f3b637.jpeg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Privacy-friendly web analytics with traffic and revenue.",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/kobbe",
+        "product_link": "https://kobbe.io/",
+        "source": "playwright",
+        "desc_zh": "隐私友好的网络分析，包括流量和收入。"
+      },
+      {
+        "name": "BaseRT",
+        "slug": "basert",
+        "image": "https://ph-files.imgix.net/3266ca93-6016-49ed-ab5c-ebdd4c73077a.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "6.4x faster than llama.cpp, 3.9x faster than MLX",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/basert",
+        "product_link": "https://www.basecompute.co/getbasert",
+        "source": "playwright",
+        "desc_zh": "比 llama.cpp 快 6.4 倍，比 MLX 快 3.9 倍"
+      },
+      {
+        "name": "Rewisp",
+        "slug": "rewisp-an-ambient-memory-for-your-mac",
+        "image": "https://ph-files.imgix.net/413f44d7-e072-432c-a554-3cb22db6825a.png?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "See it once. Ask forever.",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+        "product_link": "https://yashmitb.github.io/Rewisp",
+        "source": "playwright",
+        "desc_zh": "看一次。问永远。"
+      },
+      {
+        "name": "Detourmap",
+        "slug": "detourmap",
+        "image": "https://ph-files.imgix.net/b0676e42-0959-40c4-95b5-07773c2179c4.svg?auto=compress,format&codec=mozjpeg&cs=strip&fit=crop&frame=1&h=128&w=128",
+        "desc": "Every place worth the detour, on one interactive map",
+        "upvotes": 781,
+        "ph_link": "https://www.producthunt.com/products/detourmap",
+        "product_link": "https://detourmap.com/",
+        "source": "playwright",
+        "desc_zh": "每个值得绕道而行的地方都在一张互动地图上"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable/reviews?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "n8n",
+        "slug": "n8n-io/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/n8n-io/reviews?ref=footer",
+        "product_link": "https://n8n.io/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Attio",
+        "slug": "attio/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/attio/reviews?ref=footer",
+        "product_link": "https://attio.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "PostHog",
+        "slug": "posthog/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/posthog/reviews?ref=footer",
+        "product_link": "https://posthog.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Vapi",
+        "slug": "vapi/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/vapi/reviews?ref=footer",
+        "product_link": "https://vapi.ai/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Granola",
+        "slug": "granola/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/granola/reviews?ref=footer",
+        "product_link": "https://www.granola.so/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Raycast",
+        "slug": "raycast/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/raycast/reviews?ref=footer",
+        "product_link": "https://raycast.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Supabase",
+        "slug": "supabase/reviews?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/supabase/reviews?ref=footer",
+        "product_link": "https://supabase.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Lovable",
+        "slug": "lovable?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/lovable?ref=footer",
+        "product_link": "https://lovable.dev/?via=product-hunt&ref=producthunt",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Screen Studio",
+        "slug": "screen-studio?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/screen-studio?ref=footer",
+        "product_link": "https://screen.studio/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "bolt.new",
+        "slug": "bolt-new?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/bolt-new?ref=footer",
+        "product_link": "https://bolt.new/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Wispr Flow",
+        "slug": "wisprflow?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/wisprflow?ref=footer",
+        "product_link": "https://wisprflow.ai/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Framer",
+        "slug": "framer?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/framer?ref=footer",
+        "product_link": "http://www.framer.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
+      },
+      {
+        "name": "Replit",
+        "slug": "replit?ref=footer",
+        "image": "",
+        "desc": "Trending categories",
+        "upvotes": 0,
+        "ph_link": "https://www.producthunt.com/products/replit?ref=footer",
+        "product_link": "https://replit.com/",
+        "source": "playwright",
+        "desc_zh": "热门类别"
       }
     ]
   }
