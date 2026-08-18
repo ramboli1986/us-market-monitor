@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T22:19:26",
+  "updated_at": "2026-08-18T22:17:56",
   "days": {
     "2026-08-12": [
       {
@@ -211,57 +211,15 @@
         "ph_link": "https://www.producthunt.com/products/samepage-signals",
         "product_link": "https://www.producthunt.com/r/p/1221388?app_id=339",
         "source": "feed"
-      }
-    ],
-    "2026-08-10": [
-      {
-        "name": "Kane CLI",
-        "slug": "lambdatest",
-        "desc": "Natural language browser & mobile app tests from terminal",
-        "desc_zh": "从终端进行自然语言浏览器和移动应用程序测试",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lambdatest",
-        "product_link": "https://www.producthunt.com/r/p/1219199?app_id=339",
-        "source": "feed"
       },
       {
-        "name": "Chat Agent by Trigger.dev",
-        "slug": "trigger-dev",
-        "desc": "AI chat that keeps running after you close the tab",
-        "desc_zh": "关闭标签后人工智能聊天仍继续运行",
+        "name": "monolog",
+        "slug": "monolog-2",
+        "desc": "Chat to yourself and find anything by what you remember",
+        "desc_zh": "与自己聊天并根据您记得的内容查找任何内容",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/trigger-dev",
-        "product_link": "https://www.producthunt.com/r/p/1219801?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Occasio®",
-        "slug": "occasio-2",
-        "desc": "Pinboard meets citation manager for shared insights.",
-        "desc_zh": "Pinboard 与引文经理会面，分享见解。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/occasio-2",
-        "product_link": "https://www.producthunt.com/r/p/1219838?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AirAlarm",
-        "slug": "airalarm",
-        "desc": "Wake at the end of your sleep cycle",
-        "desc_zh": "在睡眠周期结束时醒来",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/airalarm",
-        "product_link": "https://www.producthunt.com/r/p/1219365?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "envfix",
-        "slug": "envfix",
-        "desc": "A tiny .env doctor for Node.js projects",
-        "desc_zh": "Node.js 项目的小型 .env doctor",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/envfix",
-        "product_link": "https://www.producthunt.com/r/p/1219620?app_id=339",
+        "ph_link": "https://www.producthunt.com/products/monolog-2",
+        "product_link": "https://www.producthunt.com/r/p/1221280?app_id=339",
         "source": "feed"
       }
     ],
@@ -475,6 +433,16 @@
         "ph_link": "https://www.producthunt.com/products/treg-openrouter-for-tools",
         "product_link": "https://www.producthunt.com/r/p/1220962?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Clara AI SDR",
+        "slug": "clara-ai-sdr",
+        "desc": "Turn website visitors into qualified pipeline",
+        "desc_zh": "将网站访问者转变为合格的管道",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clara-ai-sdr",
+        "product_link": "https://www.producthunt.com/r/p/1220249?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-13": [
@@ -637,6 +605,26 @@
         "ph_link": "https://www.producthunt.com/products/epsilla",
         "product_link": "https://www.producthunt.com/r/p/1222624?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Deepmark",
+        "slug": "deepmark",
+        "desc": "Search your bookmarks by what's inside them, not the title",
+        "desc_zh": "通过书签中的内容而不是标题来搜索书签",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/deepmark",
+        "product_link": "https://www.producthunt.com/r/p/1221930?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LayerProof Matte 3.0",
+        "slug": "layerproof-social-content-generation",
+        "desc": "Grow your social media content: posts, carousels and stories",
+        "desc_zh": "增加您的社交媒体内容：帖子、轮播和故事",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/layerproof-social-content-generation",
+        "product_link": "https://www.producthunt.com/r/p/1221883?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-14": [
@@ -678,6 +666,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/opentrade",
         "product_link": "https://www.producthunt.com/r/p/1223212?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AirBuddy 3",
+        "slug": "airbuddy-2",
+        "desc": "Easily manage devices and switch them between Macs",
+        "desc_zh": "轻松管理设备并在 Mac 之间切换",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/airbuddy-2",
+        "product_link": "https://www.producthunt.com/r/p/1223171?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Salem Robotics",
+        "slug": "salem-robotics",
+        "desc": "Deploy autonomous robots for surveys and manipulation tasks",
+        "desc_zh": "部署自主机器人来执行调查和操作任务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/salem-robotics",
+        "product_link": "https://www.producthunt.com/r/p/1223221?app_id=339",
         "source": "feed"
       }
     ],
@@ -730,6 +738,110 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/tinyfish-2",
         "product_link": "https://www.producthunt.com/r/p/1224641?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Taku AI",
+        "slug": "taku-ai",
+        "desc": "Borrow the best AI setups and make them yours.",
+        "desc_zh": "借用最好的人工智能设置并将其变成您的。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/taku-ai",
+        "product_link": "https://www.producthunt.com/r/p/1224258?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Superflow AI",
+        "slug": "superflow-webflow-plugin-for-revisions",
+        "desc": "AI agents that QA your website before launch",
+        "desc_zh": "人工智能代理在网站发布前对您的网站进行质量检查",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
+        "product_link": "https://www.producthunt.com/r/p/1224615?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-17": [
+      {
+        "name": "Controller AI",
+        "slug": "insight-ai",
+        "desc": "Build deterministic agents that actually follow your process",
+        "desc_zh": "构建真正遵循您的流程的确定性代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/insight-ai",
+        "product_link": "https://www.producthunt.com/r/p/1225574?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gauge",
+        "slug": "gauge",
+        "desc": "Agent Led Growth: Get written into every customer's codebase",
+        "desc_zh": "代理主导的增长：写入每个客户的代码库",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gauge",
+        "product_link": "https://www.producthunt.com/r/p/1225408?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ElevenLabs MCP in Claude",
+        "slug": "elevenlabs-mcp-2",
+        "desc": "Create and manage ElevenLabs voice agents in your chat",
+        "desc_zh": "在聊天中创建和管理 ElevenLabs 语音代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/elevenlabs-mcp-2",
+        "product_link": "https://www.producthunt.com/r/p/1225074?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Shepherd Terminal",
+        "slug": "shepherd-terminal-designed-for-agent",
+        "desc": "A persistent terminal for Codex and Claude side by side",
+        "desc_zh": "Codex 和 Claude 并排的持久终端",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
+        "product_link": "https://www.producthunt.com/r/p/1225417?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dates by Agenda Hero",
+        "slug": "dates-by-agenda-hero",
+        "desc": "Create a plan for anything. Share it with anyone.",
+        "desc_zh": "为任何事情制定计划。与任何人分享。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dates-by-agenda-hero",
+        "product_link": "https://www.producthunt.com/r/p/1225484?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Finch",
+        "slug": "finch-6",
+        "desc": "A single place for your health data and tests",
+        "desc_zh": "您的健康数据和测试集中在一个地方",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/finch-6",
+        "product_link": "https://www.producthunt.com/r/p/1225316?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-15": [
+      {
+        "name": "Tiny Funnel",
+        "slug": "tiny-funnel",
+        "desc": "Funnel analytics you'll actually understand",
+        "desc_zh": "您将真正了解的漏斗分析",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tiny-funnel",
+        "product_link": "https://www.producthunt.com/r/p/1223864?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Skim Recap",
+        "slug": "skim-recap",
+        "desc": "Recaps what you skipped and explains where you get stuck",
+        "desc_zh": "回顾一下您跳过的内容并解释您遇到困难的地方",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skim-recap",
+        "product_link": "https://www.producthunt.com/r/p/1223773?app_id=339",
         "source": "feed"
       }
     ]
