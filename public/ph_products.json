@@ -1,260 +1,6 @@
 {
-  "updated_at": "2026-08-20T22:21:48",
+  "updated_at": "2026-08-22T22:17:16",
   "days": {
-    "2026-08-13": [
-      {
-        "name": "Compass Calendar",
-        "slug": "compass-calendar",
-        "desc": "The keyboard-first calendar to get organized quickly",
-        "desc_zh": "键盘优先的日历可快速整理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/compass-calendar",
-        "product_link": "https://www.producthunt.com/r/p/1222394?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NS1",
-        "slug": "ns1",
-        "desc": "Personalized Nervous System Training",
-        "desc_zh": "个性化神经系统训练",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ns1",
-        "product_link": "https://www.producthunt.com/r/p/1222240?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Port22",
-        "slug": "port22",
-        "desc": "Claude Code, Codex & more on your phone",
-        "desc_zh": "手机上的克劳德代码、Codex 等内容",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/port22",
-        "product_link": "https://www.producthunt.com/r/p/1222175?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Basedash Tasks",
-        "slug": "basedash",
-        "desc": "Run your business on autopilot",
-        "desc_zh": "自动驾驶您的业务",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/basedash",
-        "product_link": "https://www.producthunt.com/r/p/1222557?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Freebuff",
-        "slug": "freebuff-2",
-        "desc": "Free coding agents to kill Claude, Cursor, Replit, and Devin",
-        "desc_zh": "免费编码代理杀死 Claude、Cursor、Replit 和 Devin",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/freebuff-2",
-        "product_link": "https://www.producthunt.com/r/p/1222324?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Suno Studio 2.0",
-        "slug": "suno",
-        "desc": "Browser-based generative DAW",
-        "desc_zh": "基于浏览器的生成 DAW",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/suno",
-        "product_link": "https://www.producthunt.com/r/p/1222442?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChordViz",
-        "slug": "chordviz",
-        "desc": "Build your own music visualizer for MIDI & audio",
-        "desc_zh": "构建您自己的 MIDI 和音频音乐可视化工具",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chordviz",
-        "product_link": "https://www.producthunt.com/r/p/1222530?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Openmotion",
-        "slug": "openmotion",
-        "desc": "Turn product screenshots and prompts into motion videos",
-        "desc_zh": "将产品截图和提示变成动态视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openmotion",
-        "product_link": "https://www.producthunt.com/r/p/1221923?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "oxpecker",
-        "slug": "oxpecker",
-        "desc": "Know which of your lines a vendor just broke",
-        "desc_zh": "了解供应商刚刚破坏了您的哪条线路",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/oxpecker",
-        "product_link": "https://www.producthunt.com/r/p/1222251?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DeepSeek Harness",
-        "slug": "deepseek",
-        "desc": "Composable agent harness where everything is a plugin",
-        "desc_zh": "可组合的代理工具，一切都是插件",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/deepseek",
-        "product_link": "https://www.producthunt.com/r/p/1222158?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini 3.7 Flash",
-        "slug": "gemini-3-7-flash",
-        "desc": "Google's smartest workhorse yet for coding & agents",
-        "desc_zh": "Google 迄今为止最智能的编码和代理主力",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-3-7-flash",
-        "product_link": "https://www.producthunt.com/r/p/1222359?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Theos[RFM]",
-        "slug": "theos-rfm-remote-facility-manager",
-        "desc": "Manage facilities in 3D, in the real world, in real time",
-        "desc_zh": "在现实世界中实时管理 3D 设施",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
-        "product_link": "https://www.producthunt.com/r/p/1222549?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Chronock",
-        "slug": "chronock",
-        "desc": "Scheduling and calendar sync, all in one",
-        "desc_zh": "日程安排和日历同步，合二为一",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chronock",
-        "product_link": "https://www.producthunt.com/r/p/1222502?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Talvo",
-        "slug": "talvo-2",
-        "desc": "Connect 2,500+ European banks to track your spending",
-        "desc_zh": "连接 2,500 多家欧洲银行来跟踪您的支出",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/talvo-2",
-        "product_link": "https://www.producthunt.com/r/p/1222256?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GLM-5.3",
-        "slug": "z-ai",
-        "desc": "Coding leap from scaled post-training on the same base",
-        "desc_zh": "在同一基础上进行规模化后培训的编码飞跃",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/z-ai",
-        "product_link": "https://www.producthunt.com/r/p/1222612?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "HarnessRouter Community Edition",
-        "slug": "epsilla",
-        "desc": "Open-source unified interface for agent harnesses",
-        "desc_zh": "代理线束的开源统一接口",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/epsilla",
-        "product_link": "https://www.producthunt.com/r/p/1222624?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Deepmark",
-        "slug": "deepmark",
-        "desc": "Search your bookmarks by what's inside them, not the title",
-        "desc_zh": "通过书签中的内容而不是标题来搜索书签",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/deepmark",
-        "product_link": "https://www.producthunt.com/r/p/1221930?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LayerProof Matte 3.0",
-        "slug": "layerproof-social-content-generation",
-        "desc": "Grow your social media content: posts, carousels and stories",
-        "desc_zh": "增加您的社交媒体内容：帖子、轮播和故事",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/layerproof-social-content-generation",
-        "product_link": "https://www.producthunt.com/r/p/1221883?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Expert Chase 2.0",
-        "slug": "expert-chase-deleted-1107920",
-        "desc": "Where human life runs with AI",
-        "desc_zh": "人类生活与人工智能一起运行",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
-        "product_link": "https://www.producthunt.com/r/p/1222356?app_id=339",
-        "source": "feed"
-      }
-    ],
-    "2026-08-14": [
-      {
-        "name": "Chert",
-        "slug": "chert",
-        "desc": "Vapi for FaceTime: AI video agents in a few lines",
-        "desc_zh": "Vapi for FaceTime：几行人工智能视频代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chert",
-        "product_link": "https://www.producthunt.com/r/p/1223253?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Omni by xpander",
-        "slug": "omni-by-xpander",
-        "desc": "Stop babysitting your AI agents",
-        "desc_zh": "停止照顾你的人工智能代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omni-by-xpander",
-        "product_link": "https://www.producthunt.com/r/p/1223058?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Meridian",
-        "slug": "meridian-16",
-        "desc": "Don't let your work go unnoticed. Get promoted!",
-        "desc_zh": "不要让你的工作被忽视。升职啦！",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/meridian-16",
-        "product_link": "https://www.producthunt.com/r/p/1222691?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OpenTrade",
-        "slug": "opentrade",
-        "desc": "Open-source trading harness for Claude Code / Codex.",
-        "desc_zh": "Claude Code / Codex 的开源交易工具。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/opentrade",
-        "product_link": "https://www.producthunt.com/r/p/1223212?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AirBuddy 3",
-        "slug": "airbuddy-2",
-        "desc": "Easily manage devices and switch them between Macs",
-        "desc_zh": "轻松管理设备并在 Mac 之间切换",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/airbuddy-2",
-        "product_link": "https://www.producthunt.com/r/p/1223171?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Salem Robotics",
-        "slug": "salem-robotics",
-        "desc": "Deploy autonomous robots for surveys and manipulation tasks",
-        "desc_zh": "部署自主机器人来执行调查和操作任务",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/salem-robotics",
-        "product_link": "https://www.producthunt.com/r/p/1223221?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-16": [
       {
         "name": "Skriptr",
@@ -437,6 +183,16 @@
         "ph_link": "https://www.producthunt.com/products/bitdrift",
         "product_link": "https://www.producthunt.com/r/p/1225203?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Maccess",
+        "slug": "maccess",
+        "desc": "Your Mac, in your pocket — trackpad, screen, and AI",
+        "desc_zh": "Your Mac, in your pocket — trackpad, screen, and AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/maccess",
+        "product_link": "https://www.producthunt.com/r/p/1225576?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-15": [
@@ -478,6 +234,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/omnivibe",
         "product_link": "https://www.producthunt.com/r/p/1223837?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SubtitleGenerator",
+        "slug": "subtitlegenerator",
+        "desc": "From video to publish-ready AI subtitles—all in one browser",
+        "desc_zh": "From video to publish-ready AI subtitles—all in one browser",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/subtitlegenerator",
+        "product_link": "https://www.producthunt.com/r/p/1223324?app_id=339",
         "source": "feed"
       }
     ],
@@ -661,6 +427,16 @@
         "ph_link": "https://www.producthunt.com/products/meetstream-ai",
         "product_link": "https://www.producthunt.com/r/p/1226457?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "VeloFiler",
+        "slug": "velofiler",
+        "desc": "Keyboard-first dual-pane file manager for macOS",
+        "desc_zh": "Keyboard-first dual-pane file manager for macOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/velofiler",
+        "product_link": "https://www.producthunt.com/r/p/1226284?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-19": [
@@ -792,6 +568,230 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/minimax",
         "product_link": "https://www.producthunt.com/r/p/1227288?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Actx0",
+        "slug": "actx0",
+        "desc": "Memory infrastructure for AI agents.",
+        "desc_zh": "Memory infrastructure for AI agents.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/actx0",
+        "product_link": "https://www.producthunt.com/r/p/1227153?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OneCLI",
+        "slug": "onecli",
+        "desc": "Give every employee a secured, sandboxed pro assistant agent",
+        "desc_zh": "Give every employee a secured, sandboxed pro assistant agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/onecli",
+        "product_link": "https://www.producthunt.com/r/p/1226539?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Local",
+        "slug": "local-7",
+        "desc": "Zero (!) friction local AI for your Mac",
+        "desc_zh": "Zero (!) friction local AI for your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/local-7",
+        "product_link": "https://www.producthunt.com/r/p/1227229?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Plow Latch",
+        "slug": "plow-latch",
+        "desc": "Run AI agents on your Mac with scoped access",
+        "desc_zh": "Run AI agents on your Mac with scoped access",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/plow-latch",
+        "product_link": "https://www.producthunt.com/r/p/1227181?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Surfdeck",
+        "slug": "surfdeck",
+        "desc": "Your tabs, within reach.",
+        "desc_zh": "Your tabs, within reach.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/surfdeck",
+        "product_link": "https://www.producthunt.com/r/p/1227172?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-20": [
+      {
+        "name": "Pocket by Meta",
+        "slug": "pocket-by-meta",
+        "desc": "Vibe-code games, then share them like TikToks",
+        "desc_zh": "Vibe-code games, then share them like TikToks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pocket-by-meta",
+        "product_link": "https://www.producthunt.com/r/p/1228150?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "KerasFormers",
+        "slug": "kerasformers",
+        "desc": "Keras 3 collection of pretrained models",
+        "desc_zh": "Keras 3 collection of pretrained models",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kerasformers",
+        "product_link": "https://www.producthunt.com/r/p/1228026?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Zero",
+        "slug": "zero-15",
+        "desc": "Vercel's programming language built for AI agents",
+        "desc_zh": "Vercel's programming language built for AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zero-15",
+        "product_link": "https://www.producthunt.com/r/p/1227502?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Epho",
+        "slug": "epho-claude-code-in-the-cloud",
+        "desc": "Run Claude Code, Codex or Opencode in cloud with your repo",
+        "desc_zh": "Run Claude Code, Codex or Opencode in cloud with your repo",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud",
+        "product_link": "https://www.producthunt.com/r/p/1227815?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Project SKY",
+        "slug": "project-sky",
+        "desc": "Your ambient AI companion for Windows.",
+        "desc_zh": "Your ambient AI companion for Windows.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/project-sky",
+        "product_link": "https://www.producthunt.com/r/p/1228155?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Router by Ramp",
+        "slug": "ramp-router",
+        "desc": "Tokens are money. Save both.",
+        "desc_zh": "Tokens are money. Save both.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ramp-router",
+        "product_link": "https://www.producthunt.com/r/p/1227732?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wizstar",
+        "slug": "wizstar",
+        "desc": "Digital avatars that move and act like professional actors",
+        "desc_zh": "Digital avatars that move and act like professional actors",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wizstar",
+        "product_link": "https://www.producthunt.com/r/p/1227792?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Antigravity IDE Extensions",
+        "slug": "google-antigravity",
+        "desc": "Antigravity agents now live inside your existing editor",
+        "desc_zh": "Antigravity agents now live inside your existing editor",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google-antigravity",
+        "product_link": "https://www.producthunt.com/r/p/1228265?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dockhand",
+        "slug": "dockhand",
+        "desc": "Docker management for everyone",
+        "desc_zh": "Docker management for everyone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dockhand",
+        "product_link": "https://www.producthunt.com/r/p/1227654?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "fx (by Vercel)",
+        "slug": "fx-by-vercel",
+        "desc": "Vercel's tiny, open-source coding agent",
+        "desc_zh": "Vercel's tiny, open-source coding agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fx-by-vercel",
+        "product_link": "https://www.producthunt.com/r/p/1227471?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Flunkey",
+        "slug": "flunkey",
+        "desc": "Voice-first AI layer for Windows (beta)",
+        "desc_zh": "Voice-first AI layer for Windows (beta)",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/flunkey",
+        "product_link": "https://www.producthunt.com/r/p/1227944?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PixelRead AI OCR",
+        "slug": "pixelread-ai-ocr",
+        "desc": "Capture, translate, and understand any text on your Mac",
+        "desc_zh": "Capture, translate, and understand any text on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pixelread-ai-ocr",
+        "product_link": "https://www.producthunt.com/r/p/1228032?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lynqo",
+        "slug": "lynqo-your-local-nas-server",
+        "desc": "Your machine is a P2P server, review suite & clipboard sync.",
+        "desc_zh": "Your machine is a P2P server, review suite & clipboard sync.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lynqo-your-local-nas-server",
+        "product_link": "https://www.producthunt.com/r/p/1227894?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-21": [
+      {
+        "name": "Open Analytics",
+        "slug": "open-analytics-2",
+        "desc": "AI-Native Google Analytics alternative for the modern web",
+        "desc_zh": "AI-Native Google Analytics alternative for the modern web",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/open-analytics-2",
+        "product_link": "https://www.producthunt.com/r/p/1228617?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Port Radar for macOS",
+        "slug": "port-radar-for-macos",
+        "desc": "An AI port manager for your Mac.",
+        "desc_zh": "An AI port manager for your Mac.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/port-radar-for-macos",
+        "product_link": "https://www.producthunt.com/r/p/1228833?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AutoClaw",
+        "slug": "z-ai",
+        "desc": "An AI work agent across desktop, browser, and chat",
+        "desc_zh": "An AI work agent across desktop, browser, and chat",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/z-ai",
+        "product_link": "https://www.producthunt.com/r/p/1228663?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ShogunAI",
+        "slug": "shogunai",
+        "desc": "Your personal AGI on your PC. Built to finish real work.",
+        "desc_zh": "Your personal AGI on your PC. Built to finish real work.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shogunai",
+        "product_link": "https://www.producthunt.com/r/p/1228269?app_id=339",
         "source": "feed"
       }
     ]
