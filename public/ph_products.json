@@ -1,88 +1,6 @@
 {
-  "updated_at": "2026-08-22T22:17:16",
+  "updated_at": "2026-08-24T22:21:08",
   "days": {
-    "2026-08-16": [
-      {
-        "name": "Skriptr",
-        "slug": "skriptr",
-        "desc": "AI workspace for students",
-        "desc_zh": "学生的人工智能工作空间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/skriptr",
-        "product_link": "https://www.producthunt.com/r/p/1224203?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Vendo",
-        "slug": "vendo",
-        "desc": "Let your users build their own features inside your product",
-        "desc_zh": "让您的用户在您的产品中构建自己的功能",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vendo",
-        "product_link": "https://www.producthunt.com/r/p/1224529?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Blender Agent Bridge",
-        "slug": "blender-agent-bridge",
-        "desc": "Open-source MCP bridge for Blender AI workflows",
-        "desc_zh": "适用于 Blender AI 工作流程的开源 MCP 桥",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/blender-agent-bridge",
-        "product_link": "https://www.producthunt.com/r/p/1224464?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hansel by Seedling",
-        "slug": "hansel-by-seedling",
-        "desc": "Your email, your server, your keys so you're not locked out",
-        "desc_zh": "您的电子邮件、您的服务器、您的密钥，这样您就不会被锁定",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hansel-by-seedling",
-        "product_link": "https://www.producthunt.com/r/p/1224561?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "TinyFish",
-        "slug": "tinyfish-2",
-        "desc": "The web operating layer for AI agents",
-        "desc_zh": "AI代理的网络操作层",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tinyfish-2",
-        "product_link": "https://www.producthunt.com/r/p/1224641?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Taku AI",
-        "slug": "taku-ai",
-        "desc": "Borrow the best AI setups and make them yours.",
-        "desc_zh": "借用最好的人工智能设置并将其变成您的。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/taku-ai",
-        "product_link": "https://www.producthunt.com/r/p/1224258?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Superflow AI",
-        "slug": "superflow-webflow-plugin-for-revisions",
-        "desc": "AI agents that QA your website before launch",
-        "desc_zh": "人工智能代理在网站发布前对您的网站进行质量检查",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
-        "product_link": "https://www.producthunt.com/r/p/1224615?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Astute",
-        "slug": "astute-2",
-        "desc": "Automate your B2B brand going viral, with new media creators",
-        "desc_zh": "与新媒体创作者一起自动化您的 B2B 品牌病毒式传播",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/astute-2",
-        "product_link": "https://www.producthunt.com/r/p/1224395?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-17": [
       {
         "name": "Controller AI",
@@ -192,58 +110,6 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/maccess",
         "product_link": "https://www.producthunt.com/r/p/1225576?app_id=339",
-        "source": "feed"
-      }
-    ],
-    "2026-08-15": [
-      {
-        "name": "Tiny Funnel",
-        "slug": "tiny-funnel",
-        "desc": "Funnel analytics you'll actually understand",
-        "desc_zh": "您将真正了解的漏斗分析",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tiny-funnel",
-        "product_link": "https://www.producthunt.com/r/p/1223864?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Skim Recap",
-        "slug": "skim-recap",
-        "desc": "Recaps what you skipped and explains where you get stuck",
-        "desc_zh": "回顾一下您跳过的内容并解释您遇到困难的地方",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/skim-recap",
-        "product_link": "https://www.producthunt.com/r/p/1223773?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AgentR 3.0",
-        "slug": "agentr",
-        "desc": "Hiring evaluation built for the AI cheating era",
-        "desc_zh": "专为人工智能作弊时代打造的招聘评估",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agentr",
-        "product_link": "https://www.producthunt.com/r/p/1223958?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OmniVibe",
-        "slug": "omnivibe",
-        "desc": "Marketplace for agent creators & users",
-        "desc_zh": "代理创建者和用户的市场",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omnivibe",
-        "product_link": "https://www.producthunt.com/r/p/1223837?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SubtitleGenerator",
-        "slug": "subtitlegenerator",
-        "desc": "From video to publish-ready AI subtitles—all in one browser",
-        "desc_zh": "From video to publish-ready AI subtitles—all in one browser",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/subtitlegenerator",
-        "product_link": "https://www.producthunt.com/r/p/1223324?app_id=339",
         "source": "feed"
       }
     ],
@@ -437,6 +303,16 @@
         "ph_link": "https://www.producthunt.com/products/velofiler",
         "product_link": "https://www.producthunt.com/r/p/1226284?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Plask",
+        "slug": "plask-3",
+        "desc": "Have little ducks show how deep you dive on your Apple Watch",
+        "desc_zh": "Have little ducks show how deep you dive on your Apple Watch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/plask-3",
+        "product_link": "https://www.producthunt.com/r/p/1226244?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-19": [
@@ -619,6 +495,26 @@
         "ph_link": "https://www.producthunt.com/products/surfdeck",
         "product_link": "https://www.producthunt.com/r/p/1227172?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Destiny Rings",
+        "slug": "destiny-rings",
+        "desc": "Proximity-powered dating, social & networking",
+        "desc_zh": "Proximity-powered dating, social & networking",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/destiny-rings",
+        "product_link": "https://www.producthunt.com/r/p/1227233?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Yatko",
+        "slug": "yatko",
+        "desc": "The download button Github forgot to add",
+        "desc_zh": "The download button Github forgot to add",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/yatko",
+        "product_link": "https://www.producthunt.com/r/p/1227238?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-20": [
@@ -751,6 +647,46 @@
         "ph_link": "https://www.producthunt.com/products/lynqo-your-local-nas-server",
         "product_link": "https://www.producthunt.com/r/p/1227894?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "PaymentKit",
+        "slug": "paymentkit",
+        "desc": "Billing that survives a processor shutdown",
+        "desc_zh": "Billing that survives a processor shutdown",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/paymentkit",
+        "product_link": "https://www.producthunt.com/r/p/1227796?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Phoenix",
+        "slug": "phoenix-10",
+        "desc": "AI coding agent built for iOS, macOS app development",
+        "desc_zh": "AI coding agent built for iOS, macOS app development",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/phoenix-10",
+        "product_link": "https://www.producthunt.com/r/p/1227531?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Claude Academy",
+        "slug": "claude-academy",
+        "desc": "The Official Learning Hub by Anthropic",
+        "desc_zh": "The Official Learning Hub by Anthropic",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/claude-academy",
+        "product_link": "https://www.producthunt.com/r/p/1228104?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "KanaSensei",
+        "slug": "kanasensei",
+        "desc": "Read Japanese kana in two weeks",
+        "desc_zh": "Read Japanese kana in two weeks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kanasensei",
+        "product_link": "https://www.producthunt.com/r/p/1227963?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-21": [
@@ -792,6 +728,160 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/shogunai",
         "product_link": "https://www.producthunt.com/r/p/1228269?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-23": [
+      {
+        "name": "Localdock",
+        "slug": "localdock",
+        "desc": "Every local project gets a real address.",
+        "desc_zh": "Every local project gets a real address.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/localdock",
+        "product_link": "https://www.producthunt.com/r/p/1229902?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "IFAH",
+        "slug": "ifah-a-new-experience-of-sound",
+        "desc": "Instruments for composing and experiencing sound as a space",
+        "desc_zh": "Instruments for composing and experiencing sound as a space",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+        "product_link": "https://www.producthunt.com/r/p/1230103?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Antigravity Remote Control",
+        "slug": "google-antigravity",
+        "desc": "Drive Antigravity agents from any browser",
+        "desc_zh": "Drive Antigravity agents from any browser",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google-antigravity",
+        "product_link": "https://www.producthunt.com/r/p/1230451?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dropstone",
+        "slug": "dropstone-2",
+        "desc": "The AI runtime that remembers, learns, and acts everywhere",
+        "desc_zh": "The AI runtime that remembers, learns, and acts everywhere",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dropstone-2",
+        "product_link": "https://www.producthunt.com/r/p/1230136?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Treebar",
+        "slug": "treebar-where-is-codex",
+        "desc": "Treebar gives you one view of every active worktree",
+        "desc_zh": "Treebar gives you one view of every active worktree",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/treebar-where-is-codex",
+        "product_link": "https://www.producthunt.com/r/p/1230074?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cortex by SKYNETLAB",
+        "slug": "cortex-by-skynetlab",
+        "desc": "The memory layer that decides what's worth remembering",
+        "desc_zh": "The memory layer that decides what's worth remembering",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cortex-by-skynetlab",
+        "product_link": "https://www.producthunt.com/r/p/1229883?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wavepocket ▶︎•၊||၊||။၊|။",
+        "slug": "wavepocket-free-ios-app",
+        "desc": "Synth, drum kit, a 4-track tape loop, and FX app",
+        "desc_zh": "Synth, drum kit, a 4-track tape loop, and FX app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wavepocket-free-ios-app",
+        "product_link": "https://www.producthunt.com/r/p/1230321?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Contrive",
+        "slug": "contrive",
+        "desc": "Search and act across all your work apps",
+        "desc_zh": "Search and act across all your work apps",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/contrive",
+        "product_link": "https://www.producthunt.com/r/p/1229798?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lucid Train",
+        "slug": "lucid-train",
+        "desc": "Build system design for new and existing codebase",
+        "desc_zh": "Build system design for new and existing codebase",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lucid-train",
+        "product_link": "https://www.producthunt.com/r/p/1230122?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bumply",
+        "slug": "bumply",
+        "desc": "Update your dependencies and undo anything",
+        "desc_zh": "Update your dependencies and undo anything",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bumply",
+        "product_link": "https://www.producthunt.com/r/p/1229906?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WorldMap.lol",
+        "slug": "worldmap-lol",
+        "desc": "Put your startup on the map. Literally.",
+        "desc_zh": "Put your startup on the map. Literally.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/worldmap-lol",
+        "product_link": "https://www.producthunt.com/r/p/1229949?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-22": [
+      {
+        "name": "Trama",
+        "slug": "trama-mac-automation-in-plain-language",
+        "desc": "Create macOS native automations using plain language",
+        "desc_zh": "Create macOS native automations using plain language",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language",
+        "product_link": "https://www.producthunt.com/r/p/1229465?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Offloop",
+        "slug": "offloop",
+        "desc": "A shared workspace where people and AI agents get work done",
+        "desc_zh": "A shared workspace where people and AI agents get work done",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/offloop",
+        "product_link": "https://www.producthunt.com/r/p/1229329?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Decawork",
+        "slug": "decawork",
+        "desc": "Control your company's internal AI agents and tools",
+        "desc_zh": "Control your company's internal AI agents and tools",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/decawork",
+        "product_link": "https://www.producthunt.com/r/p/1229726?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenLogi",
+        "slug": "openlogi",
+        "desc": "A local-first alternative to Logitech Options+",
+        "desc_zh": "A local-first alternative to Logitech Options+",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openlogi",
+        "product_link": "https://www.producthunt.com/r/p/1229381?app_id=339",
         "source": "feed"
       }
     ]
