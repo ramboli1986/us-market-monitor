@@ -1,118 +1,6 @@
 {
-  "updated_at": "2026-08-24T22:21:08",
+  "updated_at": "2026-08-25T22:22:12",
   "days": {
-    "2026-08-17": [
-      {
-        "name": "Controller AI",
-        "slug": "insight-ai",
-        "desc": "Build deterministic agents that actually follow your process",
-        "desc_zh": "构建真正遵循您的流程的确定性代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/insight-ai",
-        "product_link": "https://www.producthunt.com/r/p/1225574?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gauge",
-        "slug": "gauge",
-        "desc": "Agent Led Growth: Get written into every customer's codebase",
-        "desc_zh": "代理主导的增长：写入每个客户的代码库",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gauge",
-        "product_link": "https://www.producthunt.com/r/p/1225408?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ElevenLabs MCP in Claude",
-        "slug": "elevenlabs-mcp-2",
-        "desc": "Create and manage ElevenLabs voice agents in your chat",
-        "desc_zh": "在聊天中创建和管理 ElevenLabs 语音代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/elevenlabs-mcp-2",
-        "product_link": "https://www.producthunt.com/r/p/1225074?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Shepherd Terminal",
-        "slug": "shepherd-terminal-designed-for-agent",
-        "desc": "A persistent terminal for Codex and Claude side by side",
-        "desc_zh": "Codex 和 Claude 并排的持久终端",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
-        "product_link": "https://www.producthunt.com/r/p/1225417?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dates by Agenda Hero",
-        "slug": "dates-by-agenda-hero",
-        "desc": "Create a plan for anything. Share it with anyone.",
-        "desc_zh": "为任何事情制定计划。与任何人分享。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dates-by-agenda-hero",
-        "product_link": "https://www.producthunt.com/r/p/1225484?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Finch",
-        "slug": "finch-6",
-        "desc": "A single place for your health data and tests",
-        "desc_zh": "您的健康数据和测试集中在一个地方",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/finch-6",
-        "product_link": "https://www.producthunt.com/r/p/1225316?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "anyCreature by Gobkit",
-        "slug": "anycreature",
-        "desc": "Summon monsters straight from your agent.",
-        "desc_zh": "直接从你的代理人那里召唤怪物。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/anycreature",
-        "product_link": "https://www.producthunt.com/r/p/1225041?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mochi",
-        "slug": "githumochib",
-        "desc": "A tiny animated cat for every browser tab.",
-        "desc_zh": "每个浏览器选项卡都有一只小动画猫。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/githumochib",
-        "product_link": "https://www.producthunt.com/r/p/1225372?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hosted Agents in Cluing",
-        "slug": "cluing",
-        "desc": "Collaborative agents who build, learn and publish in 1 place",
-        "desc_zh": "在 1 个地方构建、学习和发布的协作代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cluing",
-        "product_link": "https://www.producthunt.com/r/p/1224932?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "bitdrift.ai",
-        "slug": "bitdrift",
-        "desc": "The world’s first agentic mobile observability platform",
-        "desc_zh": "世界上第一个代理移动观测平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bitdrift",
-        "product_link": "https://www.producthunt.com/r/p/1225203?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Maccess",
-        "slug": "maccess",
-        "desc": "Your Mac, in your pocket — trackpad, screen, and AI",
-        "desc_zh": "Your Mac, in your pocket — trackpad, screen, and AI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/maccess",
-        "product_link": "https://www.producthunt.com/r/p/1225576?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-18": [
       {
         "name": "Balsa UI",
@@ -312,6 +200,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/plask-3",
         "product_link": "https://www.producthunt.com/r/p/1226244?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Particle Studio",
+        "slug": "particle-studio",
+        "desc": "Transform Static Images Into Dynamic Particle Experiences",
+        "desc_zh": "Transform Static Images Into Dynamic Particle Experiences",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/particle-studio",
+        "product_link": "https://www.producthunt.com/r/p/1226051?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Marble MCP",
+        "slug": "marble-7",
+        "desc": "Manage your CMS content from Claude, Cursor, and Codex",
+        "desc_zh": "Manage your CMS content from Claude, Cursor, and Codex",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/marble-7",
+        "product_link": "https://www.producthunt.com/r/p/1226267?app_id=339",
         "source": "feed"
       }
     ],
@@ -687,6 +595,26 @@
         "ph_link": "https://www.producthunt.com/products/kanasensei",
         "product_link": "https://www.producthunt.com/r/p/1227963?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Assistly",
+        "slug": "assistly-4",
+        "desc": "Real-time AI meeting overlay with no bots, 100% private",
+        "desc_zh": "Real-time AI meeting overlay with no bots, 100% private",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/assistly-4",
+        "product_link": "https://www.producthunt.com/r/p/1227508?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "coolplugz",
+        "slug": "coolplugz",
+        "desc": "A Claude orchestrator that saves developers loads of time",
+        "desc_zh": "A Claude orchestrator that saves developers loads of time",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/coolplugz",
+        "product_link": "https://www.producthunt.com/r/p/1227699?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-21": [
@@ -841,6 +769,26 @@
         "ph_link": "https://www.producthunt.com/products/worldmap-lol",
         "product_link": "https://www.producthunt.com/r/p/1229949?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Alchemize",
+        "slug": "alchemize",
+        "desc": "Ship more code with confidence",
+        "desc_zh": "Ship more code with confidence",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/alchemize",
+        "product_link": "https://www.producthunt.com/r/p/1230145?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Purchase API by Agentcard",
+        "slug": "agent-card",
+        "desc": "one API call and your agent buys anything online",
+        "desc_zh": "one API call and your agent buys anything online",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agent-card",
+        "product_link": "https://www.producthunt.com/r/p/1230236?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-22": [
@@ -882,6 +830,118 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/openlogi",
         "product_link": "https://www.producthunt.com/r/p/1229381?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Flare",
+        "slug": "flare-11",
+        "desc": "The graph-first IDE and interactive map for agentic coding",
+        "desc_zh": "The graph-first IDE and interactive map for agentic coding",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/flare-11",
+        "product_link": "https://www.producthunt.com/r/p/1229225?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agnost AI",
+        "slug": "agnost-ai",
+        "desc": "Catch agent failures your evals miss",
+        "desc_zh": "Catch agent failures your evals miss",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agnost-ai",
+        "product_link": "https://www.producthunt.com/r/p/1229731?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Diet Claude",
+        "slug": "diet-claude",
+        "desc": "Never get blindsided by Claude's usage limits again",
+        "desc_zh": "Never get blindsided by Claude's usage limits again",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/diet-claude",
+        "product_link": "https://www.producthunt.com/r/p/1229322?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-24": [
+      {
+        "name": "Altar II",
+        "slug": "electronic-materials-office-altar-i",
+        "desc": "The mechanical keyboard Apple never made",
+        "desc_zh": "The mechanical keyboard Apple never made",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/electronic-materials-office-altar-i",
+        "product_link": "https://www.producthunt.com/r/p/1230818?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Keymap",
+        "slug": "keymap",
+        "desc": "Every shortcut, one ⌘⌘ away.",
+        "desc_zh": "Every shortcut, one ⌘⌘ away.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/keymap",
+        "product_link": "https://www.producthunt.com/r/p/1231449?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Splitsense",
+        "slug": "splitsense",
+        "desc": "Turn user behaviour into higher conversions with AI",
+        "desc_zh": "Turn user behaviour into higher conversions with AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/splitsense",
+        "product_link": "https://www.producthunt.com/r/p/1231198?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ChatGPT Ad Library",
+        "slug": "chatgpt-ad-library",
+        "desc": "See every ad running inside ChatGPT",
+        "desc_zh": "See every ad running inside ChatGPT",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chatgpt-ad-library",
+        "product_link": "https://www.producthunt.com/r/p/1231025?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Buddy Visual Tests",
+        "slug": "buddy",
+        "desc": "Every UI change, reviewed before merge",
+        "desc_zh": "Every UI change, reviewed before merge",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/buddy",
+        "product_link": "https://www.producthunt.com/r/p/1230642?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "whoisthegoat.lol",
+        "slug": "whoisthegoat-lol",
+        "desc": "Bid $ for the GOAT  (trash only)",
+        "desc_zh": "Bid $ for the GOAT  (trash only)",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/whoisthegoat-lol",
+        "product_link": "https://www.producthunt.com/r/p/1231157?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "session-indexer",
+        "slug": "session-indexer",
+        "desc": "Semantic search over your own Claude Code session history",
+        "desc_zh": "Semantic search over your own Claude Code session history",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/session-indexer",
+        "product_link": "https://www.producthunt.com/r/p/1230655?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Postaway.space",
+        "slug": "postaway-space",
+        "desc": "A little piece of the past, sent your way.",
+        "desc_zh": "A little piece of the past, sent your way.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/postaway-space",
+        "product_link": "https://www.producthunt.com/r/p/1230617?app_id=339",
         "source": "feed"
       }
     ]
