@@ -1,198 +1,6 @@
 {
-  "updated_at": "2026-08-27T02:30:44",
+  "updated_at": "2026-08-28T05:57:51",
   "days": {
-    "2026-08-20": [
-      {
-        "name": "Pocket by Meta",
-        "slug": "pocket-by-meta",
-        "desc": "Vibe-code games, then share them like TikToks",
-        "desc_zh": "Vibe-code games, then share them like TikToks",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pocket-by-meta",
-        "product_link": "https://www.producthunt.com/r/p/1228150?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "KerasFormers",
-        "slug": "kerasformers",
-        "desc": "Keras 3 collection of pretrained models",
-        "desc_zh": "Keras 3 collection of pretrained models",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kerasformers",
-        "product_link": "https://www.producthunt.com/r/p/1228026?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Zero",
-        "slug": "zero-15",
-        "desc": "Vercel's programming language built for AI agents",
-        "desc_zh": "Vercel's programming language built for AI agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zero-15",
-        "product_link": "https://www.producthunt.com/r/p/1227502?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Epho",
-        "slug": "epho-claude-code-in-the-cloud",
-        "desc": "Run Claude Code, Codex or Opencode in cloud with your repo",
-        "desc_zh": "Run Claude Code, Codex or Opencode in cloud with your repo",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud",
-        "product_link": "https://www.producthunt.com/r/p/1227815?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Project SKY",
-        "slug": "project-sky",
-        "desc": "Your ambient AI companion for Windows.",
-        "desc_zh": "Your ambient AI companion for Windows.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/project-sky",
-        "product_link": "https://www.producthunt.com/r/p/1228155?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Router by Ramp",
-        "slug": "ramp-router",
-        "desc": "Tokens are money. Save both.",
-        "desc_zh": "Tokens are money. Save both.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ramp-router",
-        "product_link": "https://www.producthunt.com/r/p/1227732?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wizstar",
-        "slug": "wizstar",
-        "desc": "Digital avatars that move and act like professional actors",
-        "desc_zh": "Digital avatars that move and act like professional actors",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wizstar",
-        "product_link": "https://www.producthunt.com/r/p/1227792?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Antigravity IDE Extensions",
-        "slug": "google-antigravity",
-        "desc": "Antigravity agents now live inside your existing editor",
-        "desc_zh": "Antigravity agents now live inside your existing editor",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google-antigravity",
-        "product_link": "https://www.producthunt.com/r/p/1228265?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dockhand",
-        "slug": "dockhand",
-        "desc": "Docker management for everyone",
-        "desc_zh": "Docker management for everyone",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dockhand",
-        "product_link": "https://www.producthunt.com/r/p/1227654?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "fx (by Vercel)",
-        "slug": "fx-by-vercel",
-        "desc": "Vercel's tiny, open-source coding agent",
-        "desc_zh": "Vercel's tiny, open-source coding agent",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fx-by-vercel",
-        "product_link": "https://www.producthunt.com/r/p/1227471?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Flunkey",
-        "slug": "flunkey",
-        "desc": "Voice-first AI layer for Windows (beta)",
-        "desc_zh": "Voice-first AI layer for Windows (beta)",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flunkey",
-        "product_link": "https://www.producthunt.com/r/p/1227944?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "PixelRead AI OCR",
-        "slug": "pixelread-ai-ocr",
-        "desc": "Capture, translate, and understand any text on your Mac",
-        "desc_zh": "Capture, translate, and understand any text on your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pixelread-ai-ocr",
-        "product_link": "https://www.producthunt.com/r/p/1228032?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Lynqo",
-        "slug": "lynqo-your-local-nas-server",
-        "desc": "Your machine is a P2P server, review suite & clipboard sync.",
-        "desc_zh": "Your machine is a P2P server, review suite & clipboard sync.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lynqo-your-local-nas-server",
-        "product_link": "https://www.producthunt.com/r/p/1227894?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "PaymentKit",
-        "slug": "paymentkit",
-        "desc": "Billing that survives a processor shutdown",
-        "desc_zh": "Billing that survives a processor shutdown",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/paymentkit",
-        "product_link": "https://www.producthunt.com/r/p/1227796?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Phoenix",
-        "slug": "phoenix-10",
-        "desc": "AI coding agent built for iOS, macOS app development",
-        "desc_zh": "AI coding agent built for iOS, macOS app development",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/phoenix-10",
-        "product_link": "https://www.producthunt.com/r/p/1227531?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Academy",
-        "slug": "claude-academy",
-        "desc": "The Official Learning Hub by Anthropic",
-        "desc_zh": "The Official Learning Hub by Anthropic",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude-academy",
-        "product_link": "https://www.producthunt.com/r/p/1228104?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "KanaSensei",
-        "slug": "kanasensei",
-        "desc": "Read Japanese kana in two weeks",
-        "desc_zh": "Read Japanese kana in two weeks",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kanasensei",
-        "product_link": "https://www.producthunt.com/r/p/1227963?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Assistly",
-        "slug": "assistly-4",
-        "desc": "Real-time AI meeting overlay with no bots, 100% private",
-        "desc_zh": "Real-time AI meeting overlay with no bots, 100% private",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/assistly-4",
-        "product_link": "https://www.producthunt.com/r/p/1227508?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "coolplugz",
-        "slug": "coolplugz",
-        "desc": "A Claude orchestrator that saves developers loads of time",
-        "desc_zh": "A Claude orchestrator that saves developers loads of time",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/coolplugz",
-        "product_link": "https://www.producthunt.com/r/p/1227699?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-21": [
       {
         "name": "Open Analytics",
@@ -242,6 +50,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/reweaver-driftdetector",
         "product_link": "https://www.producthunt.com/r/p/1228915?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Savvy",
+        "slug": "savvy-12",
+        "desc": "An assistant that whispers what to say during a meeting",
+        "desc_zh": "An assistant that whispers what to say during a meeting",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/savvy-12",
+        "product_link": "https://www.producthunt.com/r/p/1228625?app_id=339",
         "source": "feed"
       }
     ],
@@ -477,6 +295,16 @@
         "ph_link": "https://www.producthunt.com/products/expertise-ai",
         "product_link": "https://www.producthunt.com/r/p/1229149?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Traccia",
+        "slug": "traccia",
+        "desc": "Finally, a vendor-neutral AI Agent Control Plane.",
+        "desc_zh": "Finally, a vendor-neutral AI Agent Control Plane.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/traccia",
+        "product_link": "https://www.producthunt.com/r/p/1229394?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-24": [
@@ -619,6 +447,16 @@
         "ph_link": "https://www.producthunt.com/products/taskshell",
         "product_link": "https://www.producthunt.com/r/p/1231522?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "SpacebarX",
+        "slug": "spacebarx",
+        "desc": "A keyboard-first outliner for notes, tasks and projects",
+        "desc_zh": "A keyboard-first outliner for notes, tasks and projects",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spacebarx",
+        "product_link": "https://www.producthunt.com/r/p/1230722?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-25": [
@@ -730,6 +568,158 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/macadress",
         "product_link": "https://www.producthunt.com/r/p/1231951?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "The Million Sad Ducks",
+        "slug": "the-million-sad-ducks",
+        "desc": "$1 makes one of them permanently happy",
+        "desc_zh": "$1 makes one of them permanently happy",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-million-sad-ducks",
+        "product_link": "https://www.producthunt.com/r/p/1231921?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sendra",
+        "slug": "sendra",
+        "desc": "Design emails in Figma, export HTML that works everywhere",
+        "desc_zh": "Design emails in Figma, export HTML that works everywhere",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sendra",
+        "product_link": "https://www.producthunt.com/r/p/1232526?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-26": [
+      {
+        "name": "HFlow",
+        "slug": "hflow",
+        "desc": "Scalable multimodal data pipelines for robotics",
+        "desc_zh": "Scalable multimodal data pipelines for robotics",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hflow",
+        "product_link": "https://www.producthunt.com/r/p/1232707?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pluto",
+        "slug": "pluto-11",
+        "desc": "Your professional profile is now an AI agent",
+        "desc_zh": "Your professional profile is now an AI agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pluto-11",
+        "product_link": "https://www.producthunt.com/r/p/1233649?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gemini 3.5 Transcribe",
+        "slug": "gemini-3-5-transcribe",
+        "desc": "Our most precise speech-to-text model yet",
+        "desc_zh": "Our most precise speech-to-text model yet",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-3-5-transcribe",
+        "product_link": "https://www.producthunt.com/r/p/1233386?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kraa 2.0",
+        "slug": "kraa",
+        "desc": "Text editor and a publishing platform",
+        "desc_zh": "Text editor and a publishing platform",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kraa",
+        "product_link": "https://www.producthunt.com/r/p/1233157?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Qwen3.8-Flash-Next",
+        "slug": "qwen3",
+        "desc": "The open-weight preview of Qwen4",
+        "desc_zh": "The open-weight preview of Qwen4",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/qwen3",
+        "product_link": "https://www.producthunt.com/r/p/1233182?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cobalt",
+        "slug": "cobalt-10",
+        "desc": "Your Kobo can run apps now",
+        "desc_zh": "Your Kobo can run apps now",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cobalt-10",
+        "product_link": "https://www.producthunt.com/r/p/1232897?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Eventually",
+        "slug": "eventually-3",
+        "desc": "Your X bookmarks, emailed back as your personal newsletter",
+        "desc_zh": "Your X bookmarks, emailed back as your personal newsletter",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/eventually-3",
+        "product_link": "https://www.producthunt.com/r/p/1233264?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ticket Fairy CLI",
+        "slug": "the-ticket-fairy",
+        "desc": "Ticket Fairy event ticketing CLI & MCP server",
+        "desc_zh": "Ticket Fairy event ticketing CLI & MCP server",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-ticket-fairy",
+        "product_link": "https://www.producthunt.com/r/p/1233576?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Speko",
+        "slug": "speko",
+        "desc": "OpenRouter for Voice",
+        "desc_zh": "OpenRouter for Voice",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/speko",
+        "product_link": "https://www.producthunt.com/r/p/1233567?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GitNexus (Akon Labs)",
+        "slug": "gitnexus-akon-labs",
+        "desc": "The open-source kernel for coding agents",
+        "desc_zh": "The open-source kernel for coding agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gitnexus-akon-labs",
+        "product_link": "https://www.producthunt.com/r/p/1232678?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "IQ Routing",
+        "slug": "iq-routing",
+        "desc": "Trajectory-aware LLM routing that cuts agent cost",
+        "desc_zh": "Trajectory-aware LLM routing that cuts agent cost",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/iq-routing",
+        "product_link": "https://www.producthunt.com/r/p/1233752?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GLM-5.3-Flash",
+        "slug": "z-ai",
+        "desc": "The first natively multimodal model in GLM-5 series",
+        "desc_zh": "The first natively multimodal model in GLM-5 series",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/z-ai",
+        "product_link": "https://www.producthunt.com/r/p/1233136?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wondering Canvas",
+        "slug": "wondering-2",
+        "desc": "Visual ChatGPT in Parallel",
+        "desc_zh": "Visual ChatGPT in Parallel",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wondering-2",
+        "product_link": "https://www.producthunt.com/r/p/1233740?app_id=339",
         "source": "feed"
       }
     ]
