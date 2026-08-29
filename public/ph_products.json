@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T03:30:52",
+  "updated_at": "2026-08-29T23:48:57",
   "days": {
     "2026-08-23": [
       {
@@ -131,6 +131,16 @@
         "ph_link": "https://www.producthunt.com/products/agent-card",
         "product_link": "https://www.producthunt.com/r/p/1230236?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Any Command",
+        "slug": "any-command-remote-control-for-pc",
+        "desc": "Turn your phone into a second screen and trackpad for PC",
+        "desc_zh": "将您的手机变成 PC 的第二个屏幕和触控板",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/any-command-remote-control-for-pc",
+        "product_link": "https://www.producthunt.com/r/p/1230534?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-22": [
@@ -242,6 +252,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/traccia",
         "product_link": "https://www.producthunt.com/r/p/1229394?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cursor Craft v2",
+        "slug": "cursor-craft",
+        "desc": "Custom Mac cursors, rebuilt for v2",
+        "desc_zh": "自定义 Mac 光标，为 v2 重建",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cursor-craft",
+        "product_link": "https://www.producthunt.com/r/p/1229569?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tiles",
+        "slug": "tiles-5",
+        "desc": "Turning desktop chaos into curated spaces.",
+        "desc_zh": "将桌面混乱变成精心设计的空间。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tiles-5",
+        "product_link": "https://www.producthunt.com/r/p/1229483?app_id=339",
         "source": "feed"
       }
     ],
@@ -405,6 +435,26 @@
         "ph_link": "https://www.producthunt.com/products/ctrl-micro",
         "product_link": "https://www.producthunt.com/r/p/1231339?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Einfall",
+        "slug": "einfall-a-place-for-fugitive-thoughts",
+        "desc": "Capture fugitive thoughts + route them to where they belong",
+        "desc_zh": "捕获逃逸的想法+将它们引导到它们所属的地方",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/einfall-a-place-for-fugitive-thoughts",
+        "product_link": "https://www.producthunt.com/r/p/1231087?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mossy",
+        "slug": "mossy-2",
+        "desc": "A desk plant that wilts when you need a break",
+        "desc_zh": "当你需要休息时就会枯萎的办公桌植物",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mossy-2",
+        "product_link": "https://www.producthunt.com/r/p/1231231?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-25": [
@@ -546,6 +596,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/google-labs",
         "product_link": "https://www.producthunt.com/r/p/1232215?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "seendiff",
+        "slug": "seendiff",
+        "desc": "Code diff viewer with progress tracking",
+        "desc_zh": "具有进度跟踪功能的代码差异查看器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/seendiff",
+        "product_link": "https://www.producthunt.com/r/p/1231748?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lubb",
+        "slug": "lubb-heartbeat-for-sleep",
+        "desc": "A realistic heartbeat for falling asleep",
+        "desc_zh": "真实的入睡心跳",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lubb-heartbeat-for-sleep",
+        "product_link": "https://www.producthunt.com/r/p/1232038?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "RawToHEIC",
+        "slug": "rawtoheic",
+        "desc": "Convert RAW to HEIC inside Apple Photos",
+        "desc_zh": "在 Apple Photos 中将 RAW 转换为 HEIC",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rawtoheic",
+        "product_link": "https://www.producthunt.com/r/p/1232456?app_id=339",
         "source": "feed"
       }
     ],
@@ -729,6 +809,16 @@
         "ph_link": "https://www.producthunt.com/products/extract-by-firecrawl",
         "product_link": "https://www.producthunt.com/r/p/1233278?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "WIT",
+        "slug": "wit-will-it-travel",
+        "desc": "Spot potential misunderstandings across global Englishes",
+        "desc_zh": "发现全球英语中潜在的误解",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wit-will-it-travel",
+        "product_link": "https://www.producthunt.com/r/p/1232760?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-27": [
@@ -800,6 +890,58 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/opentag",
         "product_link": "https://www.producthunt.com/r/p/1234433?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "publicdesktop.lol",
+        "slug": "publicdesktop-lol",
+        "desc": "Public computer of the internet",
+        "desc_zh": "互联网的公共计算机",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/publicdesktop-lol",
+        "product_link": "https://www.producthunt.com/r/p/1234330?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-28": [
+      {
+        "name": "God’s Eye View",
+        "slug": "god-s-eye-view",
+        "desc": "Spy satellite simulator in your browser but the data is real",
+        "desc_zh": "在您的浏览器中监视卫星模拟器，但数据是真实的",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/god-s-eye-view",
+        "product_link": "https://www.producthunt.com/r/p/1235253?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cohere Parse 5",
+        "slug": "cohere-2",
+        "desc": "Turn complex docs, tables & images into AI-ready data",
+        "desc_zh": "将复杂的文档、表格和图像转换为 AI 就绪数据",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cohere-2",
+        "product_link": "https://www.producthunt.com/r/p/1235085?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hy4 preview",
+        "slug": "hunyuan-a13b",
+        "desc": "Tencent’s 770B open model for long-horizon work",
+        "desc_zh": "腾讯770B开放机型，适合长视野工作",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hunyuan-a13b",
+        "product_link": "https://www.producthunt.com/r/p/1235140?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Staats",
+        "slug": "staats-3",
+        "desc": "Ask your coding agent how your site is doing",
+        "desc_zh": "询问您的编码代理您的网站表现如何",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/staats-3",
+        "product_link": "https://www.producthunt.com/r/p/1234656?app_id=339",
         "source": "feed"
       }
     ]
