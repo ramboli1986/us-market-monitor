@@ -1,68 +1,6 @@
 {
-  "updated_at": "2026-08-28T05:57:51",
+  "updated_at": "2026-08-29T03:30:52",
   "days": {
-    "2026-08-21": [
-      {
-        "name": "Open Analytics",
-        "slug": "open-analytics-2",
-        "desc": "AI-Native Google Analytics alternative for the modern web",
-        "desc_zh": "AI-Native Google Analytics alternative for the modern web",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/open-analytics-2",
-        "product_link": "https://www.producthunt.com/r/p/1228617?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Port Radar for macOS",
-        "slug": "port-radar-for-macos",
-        "desc": "An AI port manager for your Mac.",
-        "desc_zh": "An AI port manager for your Mac.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/port-radar-for-macos",
-        "product_link": "https://www.producthunt.com/r/p/1228833?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AutoClaw",
-        "slug": "z-ai",
-        "desc": "An AI work agent across desktop, browser, and chat",
-        "desc_zh": "An AI work agent across desktop, browser, and chat",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/z-ai",
-        "product_link": "https://www.producthunt.com/r/p/1228663?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ShogunAI",
-        "slug": "shogunai",
-        "desc": "Your personal AGI on your PC. Built to finish real work.",
-        "desc_zh": "Your personal AGI on your PC. Built to finish real work.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/shogunai",
-        "product_link": "https://www.producthunt.com/r/p/1228269?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ReWeaver AI DriftDetector",
-        "slug": "reweaver-driftdetector",
-        "desc": "Drift score for any GitHub repo",
-        "desc_zh": "任何 GitHub 存储库的漂移分数",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reweaver-driftdetector",
-        "product_link": "https://www.producthunt.com/r/p/1228915?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Savvy",
-        "slug": "savvy-12",
-        "desc": "An assistant that whispers what to say during a meeting",
-        "desc_zh": "An assistant that whispers what to say during a meeting",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/savvy-12",
-        "product_link": "https://www.producthunt.com/r/p/1228625?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-23": [
       {
         "name": "Localdock",
@@ -457,6 +395,16 @@
         "ph_link": "https://www.producthunt.com/products/spacebarx",
         "product_link": "https://www.producthunt.com/r/p/1230722?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "CTRL Micro",
+        "slug": "ctrl-micro",
+        "desc": "Haptic control deck for your Mac and AI agents",
+        "desc_zh": "适用于 Mac 和 AI 代理的触觉控制平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ctrl-micro",
+        "product_link": "https://www.producthunt.com/r/p/1231339?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-25": [
@@ -589,6 +537,16 @@
         "ph_link": "https://www.producthunt.com/products/sendra",
         "product_link": "https://www.producthunt.com/r/p/1232526?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Play with Putty",
+        "slug": "google-labs",
+        "desc": "Simple, Collaborative Vibe Coding",
+        "desc_zh": "简单、协作的 Vibe 编码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google-labs",
+        "product_link": "https://www.producthunt.com/r/p/1232215?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-26": [
@@ -720,6 +678,128 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/wondering-2",
         "product_link": "https://www.producthunt.com/r/p/1233740?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SnakeRank",
+        "slug": "snakerank",
+        "desc": "The leaderboard is a snake. Bid your way to the head.",
+        "desc_zh": "排行榜是一条蛇。竞标到头部。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/snakerank",
+        "product_link": "https://www.producthunt.com/r/p/1233727?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AureaCam",
+        "slug": "aureacam-learn-photo-composition",
+        "desc": "Real-time scoring to master the rule of thirds",
+        "desc_zh": "实时计分，掌握三分法则",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aureacam-learn-photo-composition",
+        "product_link": "https://www.producthunt.com/r/p/1233618?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "screenpipe",
+        "slug": "screenpipe",
+        "desc": "AI that records your computer work to power agents.",
+        "desc_zh": "人工智能可以记录您的计算机工作情况，以便为代理提供帮助。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/screenpipe",
+        "product_link": "https://www.producthunt.com/r/p/1233614?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NotchDrop",
+        "slug": "notchdrop",
+        "desc": "A Dynamic Island experience for your Mac notch",
+        "desc_zh": "为您的 Mac 打造动态岛体验",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notchdrop",
+        "product_link": "https://www.producthunt.com/r/p/1232714?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Firecrawl Developer Index",
+        "slug": "extract-by-firecrawl",
+        "desc": "A curated index of 70M+ artifacts for coding agents.",
+        "desc_zh": "为编码代理精心策划的超过 7000 万个工件的索引。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/extract-by-firecrawl",
+        "product_link": "https://www.producthunt.com/r/p/1233278?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-27": [
+      {
+        "name": "Revalvo",
+        "slug": "revalvo",
+        "desc": "Run prompts on every model at once. Score. Version. Ship.",
+        "desc_zh": "立即在每个模型上运行提示。分数。版本。船。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/revalvo",
+        "product_link": "https://www.producthunt.com/r/p/1234626?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gemini Omni 1.1 Flash",
+        "slug": "gemini-omni-1-1-flash",
+        "desc": "Our newest multimodal model for video generation and editing",
+        "desc_zh": "我们最新的用于视频生成和编辑的多模式模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-omni-1-1-flash",
+        "product_link": "https://www.producthunt.com/r/p/1234397?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Microduck",
+        "slug": "hugging-face",
+        "desc": "A tiny open-source biped you can train yourself",
+        "desc_zh": "一个可以训练自己的小型开源两足动物",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hugging-face",
+        "product_link": "https://www.producthunt.com/r/p/1234088?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Spline V2",
+        "slug": "spline",
+        "desc": "Best 3D platform for the agentic era",
+        "desc_zh": "代理时代的最佳 3D 平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spline",
+        "product_link": "https://www.producthunt.com/r/p/1233803?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fide Island",
+        "slug": "fide-island",
+        "desc": "Make your MacBook notch actually useful",
+        "desc_zh": "让你的 MacBook 刘海真正有用",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fide-island",
+        "product_link": "https://www.producthunt.com/r/p/1234101?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Almanac",
+        "slug": "almanac-5",
+        "desc": "The agent with a second brain",
+        "desc_zh": "拥有第二大脑的特工",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/almanac-5",
+        "product_link": "https://www.producthunt.com/r/p/1234391?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenTag",
+        "slug": "opentag",
+        "desc": "AI coworker lives on Slack and Teams",
+        "desc_zh": "AI 同事依靠 Slack 和 Teams 生活",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/opentag",
+        "product_link": "https://www.producthunt.com/r/p/1234433?app_id=339",
         "source": "feed"
       }
     ]
