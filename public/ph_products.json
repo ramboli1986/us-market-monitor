@@ -1,280 +1,6 @@
 {
-  "updated_at": "2026-08-29T23:48:57",
+  "updated_at": "2026-08-31T00:08:17",
   "days": {
-    "2026-08-23": [
-      {
-        "name": "Localdock",
-        "slug": "localdock",
-        "desc": "Every local project gets a real address.",
-        "desc_zh": "Every local project gets a real address.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/localdock",
-        "product_link": "https://www.producthunt.com/r/p/1229902?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "IFAH",
-        "slug": "ifah-a-new-experience-of-sound",
-        "desc": "Instruments for composing and experiencing sound as a space",
-        "desc_zh": "Instruments for composing and experiencing sound as a space",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
-        "product_link": "https://www.producthunt.com/r/p/1230103?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Antigravity Remote Control",
-        "slug": "google-antigravity",
-        "desc": "Drive Antigravity agents from any browser",
-        "desc_zh": "Drive Antigravity agents from any browser",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google-antigravity",
-        "product_link": "https://www.producthunt.com/r/p/1230451?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dropstone",
-        "slug": "dropstone-2",
-        "desc": "The AI runtime that remembers, learns, and acts everywhere",
-        "desc_zh": "The AI runtime that remembers, learns, and acts everywhere",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dropstone-2",
-        "product_link": "https://www.producthunt.com/r/p/1230136?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Treebar",
-        "slug": "treebar-where-is-codex",
-        "desc": "Treebar gives you one view of every active worktree",
-        "desc_zh": "Treebar gives you one view of every active worktree",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/treebar-where-is-codex",
-        "product_link": "https://www.producthunt.com/r/p/1230074?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cortex by SKYNETLAB",
-        "slug": "cortex-by-skynetlab",
-        "desc": "The memory layer that decides what's worth remembering",
-        "desc_zh": "The memory layer that decides what's worth remembering",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cortex-by-skynetlab",
-        "product_link": "https://www.producthunt.com/r/p/1229883?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wavepocket ▶︎•၊||၊||။၊|။",
-        "slug": "wavepocket-free-ios-app",
-        "desc": "Synth, drum kit, a 4-track tape loop, and FX app",
-        "desc_zh": "Synth, drum kit, a 4-track tape loop, and FX app",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wavepocket-free-ios-app",
-        "product_link": "https://www.producthunt.com/r/p/1230321?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Contrive",
-        "slug": "contrive",
-        "desc": "Search and act across all your work apps",
-        "desc_zh": "Search and act across all your work apps",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/contrive",
-        "product_link": "https://www.producthunt.com/r/p/1229798?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Lucid Train",
-        "slug": "lucid-train",
-        "desc": "Build system design for new and existing codebase",
-        "desc_zh": "Build system design for new and existing codebase",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lucid-train",
-        "product_link": "https://www.producthunt.com/r/p/1230122?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Bumply",
-        "slug": "bumply",
-        "desc": "Update your dependencies and undo anything",
-        "desc_zh": "Update your dependencies and undo anything",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bumply",
-        "product_link": "https://www.producthunt.com/r/p/1229906?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "WorldMap.lol",
-        "slug": "worldmap-lol",
-        "desc": "Put your startup on the map. Literally.",
-        "desc_zh": "Put your startup on the map. Literally.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/worldmap-lol",
-        "product_link": "https://www.producthunt.com/r/p/1229949?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Alchemize",
-        "slug": "alchemize",
-        "desc": "Ship more code with confidence",
-        "desc_zh": "Ship more code with confidence",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/alchemize",
-        "product_link": "https://www.producthunt.com/r/p/1230145?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Purchase API by Agentcard",
-        "slug": "agent-card",
-        "desc": "one API call and your agent buys anything online",
-        "desc_zh": "one API call and your agent buys anything online",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agent-card",
-        "product_link": "https://www.producthunt.com/r/p/1230236?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Any Command",
-        "slug": "any-command-remote-control-for-pc",
-        "desc": "Turn your phone into a second screen and trackpad for PC",
-        "desc_zh": "将您的手机变成 PC 的第二个屏幕和触控板",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/any-command-remote-control-for-pc",
-        "product_link": "https://www.producthunt.com/r/p/1230534?app_id=339",
-        "source": "feed"
-      }
-    ],
-    "2026-08-22": [
-      {
-        "name": "Trama",
-        "slug": "trama-mac-automation-in-plain-language",
-        "desc": "Create macOS native automations using plain language",
-        "desc_zh": "Create macOS native automations using plain language",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language",
-        "product_link": "https://www.producthunt.com/r/p/1229465?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Offloop",
-        "slug": "offloop",
-        "desc": "A shared workspace where people and AI agents get work done",
-        "desc_zh": "A shared workspace where people and AI agents get work done",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/offloop",
-        "product_link": "https://www.producthunt.com/r/p/1229329?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Decawork",
-        "slug": "decawork",
-        "desc": "Control your company's internal AI agents and tools",
-        "desc_zh": "Control your company's internal AI agents and tools",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/decawork",
-        "product_link": "https://www.producthunt.com/r/p/1229726?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OpenLogi",
-        "slug": "openlogi",
-        "desc": "A local-first alternative to Logitech Options+",
-        "desc_zh": "A local-first alternative to Logitech Options+",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openlogi",
-        "product_link": "https://www.producthunt.com/r/p/1229381?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Flare",
-        "slug": "flare-11",
-        "desc": "The graph-first IDE and interactive map for agentic coding",
-        "desc_zh": "The graph-first IDE and interactive map for agentic coding",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flare-11",
-        "product_link": "https://www.producthunt.com/r/p/1229225?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Agnost AI",
-        "slug": "agnost-ai",
-        "desc": "Catch agent failures your evals miss",
-        "desc_zh": "Catch agent failures your evals miss",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agnost-ai",
-        "product_link": "https://www.producthunt.com/r/p/1229731?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Diet Claude",
-        "slug": "diet-claude",
-        "desc": "Never get blindsided by Claude's usage limits again",
-        "desc_zh": "Never get blindsided by Claude's usage limits again",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/diet-claude",
-        "product_link": "https://www.producthunt.com/r/p/1229322?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChatCut Desktop",
-        "slug": "chatcut-ai-video-editor",
-        "desc": "Video editor built for humans & AI. Edit with GPT & Claude.",
-        "desc_zh": "专为人类和人工智能打造的视频编辑器。使用 GPT 和 Claude 进行编辑。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-        "product_link": "https://www.producthunt.com/r/p/1229226?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "EasySwitch",
-        "slug": "easyswitch",
-        "desc": "One mouse, keyboard and second screen for all your computers",
-        "desc_zh": "一台鼠标、键盘和第二个屏幕适用于您的所有计算机",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/easyswitch",
-        "product_link": "https://www.producthunt.com/r/p/1229461?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Expertise AI",
-        "slug": "expertise-ai",
-        "desc": "Turn your GTM skills into recurring revenue",
-        "desc_zh": "将您的 GTM 技能转化为经常性收入",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/expertise-ai",
-        "product_link": "https://www.producthunt.com/r/p/1229149?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Traccia",
-        "slug": "traccia",
-        "desc": "Finally, a vendor-neutral AI Agent Control Plane.",
-        "desc_zh": "Finally, a vendor-neutral AI Agent Control Plane.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/traccia",
-        "product_link": "https://www.producthunt.com/r/p/1229394?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cursor Craft v2",
-        "slug": "cursor-craft",
-        "desc": "Custom Mac cursors, rebuilt for v2",
-        "desc_zh": "自定义 Mac 光标，为 v2 重建",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cursor-craft",
-        "product_link": "https://www.producthunt.com/r/p/1229569?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tiles",
-        "slug": "tiles-5",
-        "desc": "Turning desktop chaos into curated spaces.",
-        "desc_zh": "将桌面混乱变成精心设计的空间。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tiles-5",
-        "product_link": "https://www.producthunt.com/r/p/1229483?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-24": [
       {
         "name": "Altar II",
@@ -455,6 +181,16 @@
         "ph_link": "https://www.producthunt.com/products/mossy-2",
         "product_link": "https://www.producthunt.com/r/p/1231231?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Retro Y2K Theme",
+        "slug": "retro-y2k-theme-90s-web-aesthetic",
+        "desc": "Customize any website with a vintage 90s & Y2K retro theme",
+        "desc_zh": "Customize any website with a vintage 90s & Y2K retro theme",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/retro-y2k-theme-90s-web-aesthetic",
+        "product_link": "https://www.producthunt.com/r/p/1231013?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-25": [
@@ -626,6 +362,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/rawtoheic",
         "product_link": "https://www.producthunt.com/r/p/1232456?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "RIP MY BUILD",
+        "slug": "rip-my-build",
+        "desc": "Give your abandoned side project one last launch",
+        "desc_zh": "Give your abandoned side project one last launch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rip-my-build",
+        "product_link": "https://www.producthunt.com/r/p/1231975?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ravioli",
+        "slug": "ravioli-2",
+        "desc": "Create custom stamp shapes",
+        "desc_zh": "Create custom stamp shapes",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ravioli-2",
+        "product_link": "https://www.producthunt.com/r/p/1231976?app_id=339",
         "source": "feed"
       }
     ],
@@ -819,6 +575,26 @@
         "ph_link": "https://www.producthunt.com/products/wit-will-it-travel",
         "product_link": "https://www.producthunt.com/r/p/1232760?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Topview Motion Studio",
+        "slug": "topview-ai",
+        "desc": "Create launch videos without touching After Effects",
+        "desc_zh": "Create launch videos without touching After Effects",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/topview-ai",
+        "product_link": "https://www.producthunt.com/r/p/1233737?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Referent",
+        "slug": "referent",
+        "desc": "The AI-native OS for modern law firms",
+        "desc_zh": "The AI-native OS for modern law firms",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/referent",
+        "product_link": "https://www.producthunt.com/r/p/1232856?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-27": [
@@ -901,6 +677,16 @@
         "ph_link": "https://www.producthunt.com/products/publicdesktop-lol",
         "product_link": "https://www.producthunt.com/r/p/1234330?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Skud",
+        "slug": "skud-drag-send-track-in-seconds",
+        "desc": "Menubar file delivery with your brand and tracking",
+        "desc_zh": "Menubar file delivery with your brand and tracking",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skud-drag-send-track-in-seconds",
+        "product_link": "https://www.producthunt.com/r/p/1234454?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-28": [
@@ -942,6 +728,58 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/staats-3",
         "product_link": "https://www.producthunt.com/r/p/1234656?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Maritime",
+        "slug": "maritime",
+        "desc": "Dedicated computers for AI agents, starting at $1/month",
+        "desc_zh": "Dedicated computers for AI agents, starting at $1/month",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/maritime",
+        "product_link": "https://www.producthunt.com/r/p/1235345?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ulpaso",
+        "slug": "ulpaso",
+        "desc": "Stop paying just to take meeting notes",
+        "desc_zh": "Stop paying just to take meeting notes",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ulpaso",
+        "product_link": "https://www.producthunt.com/r/p/1235219?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-29": [
+      {
+        "name": "oMLX",
+        "slug": "omlx",
+        "desc": "Mac LLM server that cuts agent wait times from 90s to 5s",
+        "desc_zh": "Mac LLM server that cuts agent wait times from 90s to 5s",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/omlx",
+        "product_link": "https://www.producthunt.com/r/p/1236055?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Superagent",
+        "slug": "superagent-a-home-for-your-ai-agents",
+        "desc": "Claude Code for the rest of us",
+        "desc_zh": "Claude Code for the rest of us",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+        "product_link": "https://www.producthunt.com/r/p/1236134?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Prequel",
+        "slug": "prequel-2",
+        "desc": "Create cinematic screen recordings on your Mac",
+        "desc_zh": "Create cinematic screen recordings on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/prequel-2",
+        "product_link": "https://www.producthunt.com/r/p/1235626?app_id=339",
         "source": "feed"
       }
     ]
