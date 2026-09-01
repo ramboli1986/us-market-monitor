@@ -1,198 +1,6 @@
 {
-  "updated_at": "2026-08-31T00:08:17",
+  "updated_at": "2026-09-01T00:59:45",
   "days": {
-    "2026-08-24": [
-      {
-        "name": "Altar II",
-        "slug": "electronic-materials-office-altar-i",
-        "desc": "The mechanical keyboard Apple never made",
-        "desc_zh": "The mechanical keyboard Apple never made",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/electronic-materials-office-altar-i",
-        "product_link": "https://www.producthunt.com/r/p/1230818?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Keymap",
-        "slug": "keymap",
-        "desc": "Every shortcut, one ⌘⌘ away.",
-        "desc_zh": "Every shortcut, one ⌘⌘ away.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/keymap",
-        "product_link": "https://www.producthunt.com/r/p/1231449?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Splitsense",
-        "slug": "splitsense",
-        "desc": "Turn user behaviour into higher conversions with AI",
-        "desc_zh": "Turn user behaviour into higher conversions with AI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/splitsense",
-        "product_link": "https://www.producthunt.com/r/p/1231198?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChatGPT Ad Library",
-        "slug": "chatgpt-ad-library",
-        "desc": "See every ad running inside ChatGPT",
-        "desc_zh": "See every ad running inside ChatGPT",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chatgpt-ad-library",
-        "product_link": "https://www.producthunt.com/r/p/1231025?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Buddy Visual Tests",
-        "slug": "buddy",
-        "desc": "Every UI change, reviewed before merge",
-        "desc_zh": "Every UI change, reviewed before merge",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/buddy",
-        "product_link": "https://www.producthunt.com/r/p/1230642?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "whoisthegoat.lol",
-        "slug": "whoisthegoat-lol",
-        "desc": "Bid $ for the GOAT  (trash only)",
-        "desc_zh": "Bid $ for the GOAT  (trash only)",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/whoisthegoat-lol",
-        "product_link": "https://www.producthunt.com/r/p/1231157?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "session-indexer",
-        "slug": "session-indexer",
-        "desc": "Semantic search over your own Claude Code session history",
-        "desc_zh": "Semantic search over your own Claude Code session history",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/session-indexer",
-        "product_link": "https://www.producthunt.com/r/p/1230655?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Postaway.space",
-        "slug": "postaway-space",
-        "desc": "A little piece of the past, sent your way.",
-        "desc_zh": "A little piece of the past, sent your way.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/postaway-space",
-        "product_link": "https://www.producthunt.com/r/p/1230617?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MCP-Builder.ai",
-        "slug": "mcp-builder-ai",
-        "desc": "The fastest way to connect your data with your AI Tools.",
-        "desc_zh": "将数据与 AI 工具连接的最快方式。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mcp-builder-ai",
-        "product_link": "https://www.producthunt.com/r/p/1230621?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tellie Prompter 1.5",
-        "slug": "tellie-2",
-        "desc": "The teleprompter that knows what you haven't said",
-        "desc_zh": "提词器知道你没说的话",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tellie-2",
-        "product_link": "https://www.producthunt.com/r/p/1231306?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "choclift for iPad",
-        "slug": "choclift-workflow-sweetener",
-        "desc": "A touch-bar to control your Mac from your iPad",
-        "desc_zh": "可通过 iPad 控制 Mac 的触摸栏",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/choclift-workflow-sweetener",
-        "product_link": "https://www.producthunt.com/r/p/1231160?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Termy",
-        "slug": "termy-language-learning",
-        "desc": "Learn languages from games, videos, and websites",
-        "desc_zh": "从游戏、视频和网站学习语言",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/termy-language-learning",
-        "product_link": "https://www.producthunt.com/r/p/1231169?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "x1",
-        "slug": "x1-2",
-        "desc": "Lovable for iPhone apps go from idea to App Store",
-        "desc_zh": "深受 iPhone 喜爱的应用程序从创意到 App Store",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/x1-2",
-        "product_link": "https://www.producthunt.com/r/p/1231551?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "TaskShell 2.0",
-        "slug": "taskshell",
-        "desc": "Agent-first task management for more agentic productivity",
-        "desc_zh": "座席优先的任务管理可提高座席生产力",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/taskshell",
-        "product_link": "https://www.producthunt.com/r/p/1231522?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SpacebarX",
-        "slug": "spacebarx",
-        "desc": "A keyboard-first outliner for notes, tasks and projects",
-        "desc_zh": "A keyboard-first outliner for notes, tasks and projects",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/spacebarx",
-        "product_link": "https://www.producthunt.com/r/p/1230722?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CTRL Micro",
-        "slug": "ctrl-micro",
-        "desc": "Haptic control deck for your Mac and AI agents",
-        "desc_zh": "适用于 Mac 和 AI 代理的触觉控制平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ctrl-micro",
-        "product_link": "https://www.producthunt.com/r/p/1231339?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Einfall",
-        "slug": "einfall-a-place-for-fugitive-thoughts",
-        "desc": "Capture fugitive thoughts + route them to where they belong",
-        "desc_zh": "捕获逃逸的想法+将它们引导到它们所属的地方",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/einfall-a-place-for-fugitive-thoughts",
-        "product_link": "https://www.producthunt.com/r/p/1231087?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mossy",
-        "slug": "mossy-2",
-        "desc": "A desk plant that wilts when you need a break",
-        "desc_zh": "当你需要休息时就会枯萎的办公桌植物",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mossy-2",
-        "product_link": "https://www.producthunt.com/r/p/1231231?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Retro Y2K Theme",
-        "slug": "retro-y2k-theme-90s-web-aesthetic",
-        "desc": "Customize any website with a vintage 90s & Y2K retro theme",
-        "desc_zh": "Customize any website with a vintage 90s & Y2K retro theme",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/retro-y2k-theme-90s-web-aesthetic",
-        "product_link": "https://www.producthunt.com/r/p/1231013?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-25": [
       {
         "name": "Message Album",
@@ -595,6 +403,16 @@
         "ph_link": "https://www.producthunt.com/products/referent",
         "product_link": "https://www.producthunt.com/r/p/1232856?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Ask My Wardrobe",
+        "slug": "ask-my-wardrobe",
+        "desc": "The complete digital wardrobe experience",
+        "desc_zh": "The complete digital wardrobe experience",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ask-my-wardrobe",
+        "product_link": "https://www.producthunt.com/r/p/1233229?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-27": [
@@ -749,6 +567,36 @@
         "ph_link": "https://www.producthunt.com/products/ulpaso",
         "product_link": "https://www.producthunt.com/r/p/1235219?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Radar by Particle",
+        "slug": "particle-5",
+        "desc": "The Podcast Search Engine",
+        "desc_zh": "The Podcast Search Engine",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/particle-5",
+        "product_link": "https://www.producthunt.com/r/p/1235226?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "BrandMyLaptop",
+        "slug": "brandmylaptop",
+        "desc": "Sell ad space on your laptop",
+        "desc_zh": "Sell ad space on your laptop",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/brandmylaptop",
+        "product_link": "https://www.producthunt.com/r/p/1235109?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FrameOS",
+        "slug": "frameos-3",
+        "desc": "Record your iOS & Android screen from your Mac.",
+        "desc_zh": "Record your iOS & Android screen from your Mac.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/frameos-3",
+        "product_link": "https://www.producthunt.com/r/p/1235311?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-29": [
@@ -780,6 +628,38 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/prequel-2",
         "product_link": "https://www.producthunt.com/r/p/1235626?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Orato",
+        "slug": "orato-speech-coach",
+        "desc": "Practice speaking with AI.",
+        "desc_zh": "Practice speaking with AI.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/orato-speech-coach",
+        "product_link": "https://www.producthunt.com/r/p/1235917?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-08-30": [
+      {
+        "name": "Tether",
+        "slug": "tether-a-ball-for-boring-meetings",
+        "desc": "A ball for boring meetings to keep you busy",
+        "desc_zh": "A ball for boring meetings to keep you busy",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings",
+        "product_link": "https://www.producthunt.com/r/p/1237132?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "EP–2350 FX–MIC",
+        "slug": "teenage-engineering",
+        "desc": "The programmable mic you can squeeze, shake & play",
+        "desc_zh": "The programmable mic you can squeeze, shake & play",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/teenage-engineering",
+        "product_link": "https://www.producthunt.com/r/p/1237061?app_id=339",
         "source": "feed"
       }
     ]
