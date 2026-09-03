@@ -1,248 +1,6 @@
 {
-  "updated_at": "2026-09-02T23:46:58",
+  "updated_at": "2026-09-03T23:47:10",
   "days": {
-    "2026-08-26": [
-      {
-        "name": "HFlow",
-        "slug": "hflow",
-        "desc": "Scalable multimodal data pipelines for robotics",
-        "desc_zh": "Scalable multimodal data pipelines for robotics",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hflow",
-        "product_link": "https://www.producthunt.com/r/p/1232707?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pluto",
-        "slug": "pluto-11",
-        "desc": "Your professional profile is now an AI agent",
-        "desc_zh": "Your professional profile is now an AI agent",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pluto-11",
-        "product_link": "https://www.producthunt.com/r/p/1233649?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini 3.5 Transcribe",
-        "slug": "gemini-3-5-transcribe",
-        "desc": "Our most precise speech-to-text model yet",
-        "desc_zh": "Our most precise speech-to-text model yet",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-3-5-transcribe",
-        "product_link": "https://www.producthunt.com/r/p/1233386?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Kraa 2.0",
-        "slug": "kraa",
-        "desc": "Text editor and a publishing platform",
-        "desc_zh": "Text editor and a publishing platform",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kraa",
-        "product_link": "https://www.producthunt.com/r/p/1233157?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Qwen3.8-Flash-Next",
-        "slug": "qwen3",
-        "desc": "The open-weight preview of Qwen4",
-        "desc_zh": "The open-weight preview of Qwen4",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/qwen3",
-        "product_link": "https://www.producthunt.com/r/p/1233182?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cobalt",
-        "slug": "cobalt-10",
-        "desc": "Your Kobo can run apps now",
-        "desc_zh": "Your Kobo can run apps now",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cobalt-10",
-        "product_link": "https://www.producthunt.com/r/p/1232897?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Eventually",
-        "slug": "eventually-3",
-        "desc": "Your X bookmarks, emailed back as your personal newsletter",
-        "desc_zh": "Your X bookmarks, emailed back as your personal newsletter",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/eventually-3",
-        "product_link": "https://www.producthunt.com/r/p/1233264?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Ticket Fairy CLI",
-        "slug": "the-ticket-fairy",
-        "desc": "Ticket Fairy event ticketing CLI & MCP server",
-        "desc_zh": "Ticket Fairy event ticketing CLI & MCP server",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/the-ticket-fairy",
-        "product_link": "https://www.producthunt.com/r/p/1233576?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Speko",
-        "slug": "speko",
-        "desc": "OpenRouter for Voice",
-        "desc_zh": "OpenRouter for Voice",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/speko",
-        "product_link": "https://www.producthunt.com/r/p/1233567?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GitNexus (Akon Labs)",
-        "slug": "gitnexus-akon-labs",
-        "desc": "The open-source kernel for coding agents",
-        "desc_zh": "The open-source kernel for coding agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gitnexus-akon-labs",
-        "product_link": "https://www.producthunt.com/r/p/1232678?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "IQ Routing",
-        "slug": "iq-routing",
-        "desc": "Trajectory-aware LLM routing that cuts agent cost",
-        "desc_zh": "Trajectory-aware LLM routing that cuts agent cost",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/iq-routing",
-        "product_link": "https://www.producthunt.com/r/p/1233752?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GLM-5.3-Flash",
-        "slug": "z-ai",
-        "desc": "The first natively multimodal model in GLM-5 series",
-        "desc_zh": "The first natively multimodal model in GLM-5 series",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/z-ai",
-        "product_link": "https://www.producthunt.com/r/p/1233136?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wondering Canvas",
-        "slug": "wondering-2",
-        "desc": "Visual ChatGPT in Parallel",
-        "desc_zh": "Visual ChatGPT in Parallel",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wondering-2",
-        "product_link": "https://www.producthunt.com/r/p/1233740?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SnakeRank",
-        "slug": "snakerank",
-        "desc": "The leaderboard is a snake. Bid your way to the head.",
-        "desc_zh": "排行榜是一条蛇。竞标到头部。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/snakerank",
-        "product_link": "https://www.producthunt.com/r/p/1233727?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AureaCam",
-        "slug": "aureacam-learn-photo-composition",
-        "desc": "Real-time scoring to master the rule of thirds",
-        "desc_zh": "实时计分，掌握三分法则",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/aureacam-learn-photo-composition",
-        "product_link": "https://www.producthunt.com/r/p/1233618?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "screenpipe",
-        "slug": "screenpipe",
-        "desc": "AI that records your computer work to power agents.",
-        "desc_zh": "人工智能可以记录您的计算机工作情况，以便为代理提供帮助。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/screenpipe",
-        "product_link": "https://www.producthunt.com/r/p/1233614?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NotchDrop",
-        "slug": "notchdrop",
-        "desc": "A Dynamic Island experience for your Mac notch",
-        "desc_zh": "为您的 Mac 打造动态岛体验",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notchdrop",
-        "product_link": "https://www.producthunt.com/r/p/1232714?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Firecrawl Developer Index",
-        "slug": "extract-by-firecrawl",
-        "desc": "A curated index of 70M+ artifacts for coding agents.",
-        "desc_zh": "为编码代理精心策划的超过 7000 万个工件的索引。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/extract-by-firecrawl",
-        "product_link": "https://www.producthunt.com/r/p/1233278?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "WIT",
-        "slug": "wit-will-it-travel",
-        "desc": "Spot potential misunderstandings across global Englishes",
-        "desc_zh": "发现全球英语中潜在的误解",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wit-will-it-travel",
-        "product_link": "https://www.producthunt.com/r/p/1232760?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Topview Motion Studio",
-        "slug": "topview-ai",
-        "desc": "Create launch videos without touching After Effects",
-        "desc_zh": "Create launch videos without touching After Effects",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/topview-ai",
-        "product_link": "https://www.producthunt.com/r/p/1233737?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Referent",
-        "slug": "referent",
-        "desc": "The AI-native OS for modern law firms",
-        "desc_zh": "The AI-native OS for modern law firms",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/referent",
-        "product_link": "https://www.producthunt.com/r/p/1232856?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Ask My Wardrobe",
-        "slug": "ask-my-wardrobe",
-        "desc": "The complete digital wardrobe experience",
-        "desc_zh": "The complete digital wardrobe experience",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ask-my-wardrobe",
-        "product_link": "https://www.producthunt.com/r/p/1233229?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Notchling",
-        "slug": "notchling-lives-in-your-notch",
-        "desc": "A little creature that lives in your MacBook notch",
-        "desc_zh": "生活在 MacBook 缺口中的小生物",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notchling-lives-in-your-notch",
-        "product_link": "https://www.producthunt.com/r/p/1232843?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Creatium Coach",
-        "slug": "creatium",
-        "desc": "Your multimedia mentor that takes you from mid to great",
-        "desc_zh": "您的多媒体导师，带您从中级到卓越",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/creatium",
-        "product_link": "https://www.producthunt.com/r/p/1233519?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-27": [
       {
         "name": "Revalvo",
@@ -671,6 +429,26 @@
         "ph_link": "https://www.producthunt.com/products/roadie-4",
         "product_link": "https://www.producthunt.com/r/p/1238619?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Tidy",
+        "slug": "tidy-6",
+        "desc": "Fix grammar in any Mac app with free on-device AI",
+        "desc_zh": "使用免费的设备上 AI 修复任何 Mac 应用中的语法",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tidy-6",
+        "product_link": "https://www.producthunt.com/r/p/1238755?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Atlas by World Labs",
+        "slug": "atlas-by-world-labs",
+        "desc": "Turn text, pics, video, + 3D into camera-controlled HD video",
+        "desc_zh": "将文本、图片、视频 + 3D 转换为摄像机控制的高清视频",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/atlas-by-world-labs",
+        "product_link": "https://www.producthunt.com/r/p/1238997?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-08-31": [
@@ -802,6 +580,108 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/nos4",
         "product_link": "https://www.producthunt.com/r/p/1237936?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Blume.codes",
+        "slug": "blume-codes",
+        "desc": "Turns coding agent sessions into better rules and skills",
+        "desc_zh": "将编码代理会话转化为更好的规则和技能",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/blume-codes",
+        "product_link": "https://www.producthunt.com/r/p/1237725?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-02": [
+      {
+        "name": "Readr",
+        "slug": "readr-3",
+        "desc": "A free reader that answers your questions and reads aloud",
+        "desc_zh": "一个免费的阅读器，可以回答您的问题并大声朗读",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/readr-3",
+        "product_link": "https://www.producthunt.com/r/p/1239691?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Higgsfield Genjutsu",
+        "slug": "higgsfield",
+        "desc": "Recast motion with your characters, locations & products",
+        "desc_zh": "用您的角色、地点和产品重塑动作",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/higgsfield",
+        "product_link": "https://www.producthunt.com/r/p/1239706?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Grove",
+        "slug": "grove-8",
+        "desc": "One terminal for you and your AI agent",
+        "desc_zh": "您和您的人工智能代理的一台终端",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/grove-8",
+        "product_link": "https://www.producthunt.com/r/p/1239492?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Omi",
+        "slug": "open-source-ai-necklace-friend",
+        "desc": "Ask your computer anything you saw or heard",
+        "desc_zh": "询问您的计算机您看到或听到的任何内容",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/open-source-ai-necklace-friend",
+        "product_link": "https://www.producthunt.com/r/p/1240025?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Causal",
+        "slug": "causal-2",
+        "desc": "AI Powered Canvas for planning visual projects",
+        "desc_zh": "用于规划视觉项目的 AI Powered Canvas",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/causal-2",
+        "product_link": "https://www.producthunt.com/r/p/1239349?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Thaw",
+        "slug": "thaw-2",
+        "desc": "The only app that owns your whole menu bar, in and out",
+        "desc_zh": "唯一拥有整个菜单栏（进出）的应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/thaw-2",
+        "product_link": "https://www.producthunt.com/r/p/1239794?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Nex",
+        "slug": "nex-4",
+        "desc": "Claude Cowork for high-volume GTM workflows",
+        "desc_zh": "适用于大容量 GTM 工作流程的 Claude Cowork",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nex-4",
+        "product_link": "https://www.producthunt.com/r/p/1239953?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "CodeLook",
+        "slug": "codelook",
+        "desc": "Quick Look code previews with 700+ editor themes",
+        "desc_zh": "具有 700 多个编辑器主题的快速查看代码预览",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codelook",
+        "product_link": "https://www.producthunt.com/r/p/1239742?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fillo",
+        "slug": "fillo-native-forms-without-the-backend",
+        "desc": "Build forms into your product with your coding agent",
+        "desc_zh": "使用编码代理将表单构建到您的产品中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fillo-native-forms-without-the-backend",
+        "product_link": "https://www.producthunt.com/r/p/1239382?app_id=339",
         "source": "feed"
       }
     ]
