@@ -1,138 +1,6 @@
 {
-  "updated_at": "2026-09-03T23:47:10",
+  "updated_at": "2026-09-04T23:39:37",
   "days": {
-    "2026-08-27": [
-      {
-        "name": "Revalvo",
-        "slug": "revalvo",
-        "desc": "Run prompts on every model at once. Score. Version. Ship.",
-        "desc_zh": "立即在每个模型上运行提示。分数。版本。船。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/revalvo",
-        "product_link": "https://www.producthunt.com/r/p/1234626?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini Omni 1.1 Flash",
-        "slug": "gemini-omni-1-1-flash",
-        "desc": "Our newest multimodal model for video generation and editing",
-        "desc_zh": "我们最新的用于视频生成和编辑的多模式模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-omni-1-1-flash",
-        "product_link": "https://www.producthunt.com/r/p/1234397?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Microduck",
-        "slug": "hugging-face",
-        "desc": "A tiny open-source biped you can train yourself",
-        "desc_zh": "一个可以训练自己的小型开源两足动物",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hugging-face",
-        "product_link": "https://www.producthunt.com/r/p/1234088?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Spline V2",
-        "slug": "spline",
-        "desc": "Best 3D platform for the agentic era",
-        "desc_zh": "代理时代的最佳 3D 平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/spline",
-        "product_link": "https://www.producthunt.com/r/p/1233803?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Fide Island",
-        "slug": "fide-island",
-        "desc": "Make your MacBook notch actually useful",
-        "desc_zh": "让你的 MacBook 刘海真正有用",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fide-island",
-        "product_link": "https://www.producthunt.com/r/p/1234101?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Almanac",
-        "slug": "almanac-5",
-        "desc": "The agent with a second brain",
-        "desc_zh": "拥有第二大脑的特工",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/almanac-5",
-        "product_link": "https://www.producthunt.com/r/p/1234391?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OpenTag",
-        "slug": "opentag",
-        "desc": "AI coworker lives on Slack and Teams",
-        "desc_zh": "AI 同事依靠 Slack 和 Teams 生活",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/opentag",
-        "product_link": "https://www.producthunt.com/r/p/1234433?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "publicdesktop.lol",
-        "slug": "publicdesktop-lol",
-        "desc": "Public computer of the internet",
-        "desc_zh": "互联网的公共计算机",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/publicdesktop-lol",
-        "product_link": "https://www.producthunt.com/r/p/1234330?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Skud",
-        "slug": "skud-drag-send-track-in-seconds",
-        "desc": "Menubar file delivery with your brand and tracking",
-        "desc_zh": "Menubar file delivery with your brand and tracking",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/skud-drag-send-track-in-seconds",
-        "product_link": "https://www.producthunt.com/r/p/1234454?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Folio",
-        "slug": "folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba",
-        "desc": "A read-later app sending a typeset digest to your e-reader",
-        "desc_zh": "稍后阅读应用程序将排版摘要发送到您的电子阅读器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba",
-        "product_link": "https://www.producthunt.com/r/p/1233906?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Keiki",
-        "slug": "keiki",
-        "desc": "Build one customer-facing AI agent and launch it everywhere",
-        "desc_zh": "构建一个面向客户的 AI 代理并在各处启动",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/keiki",
-        "product_link": "https://www.producthunt.com/r/p/1234150?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ThunderPhone",
-        "slug": "thunderphone",
-        "desc": "Platform for building reliable AI phone agents (from 2c/min)",
-        "desc_zh": "用于构建可靠的人工智能电话代理的平台（2c/分钟起）",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/thunderphone",
-        "product_link": "https://www.producthunt.com/r/p/1234451?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Computable GPU Index (CGI)",
-        "slug": "computable-gpu-index-cgi",
-        "desc": "The first open-source price index for GPU compute",
-        "desc_zh": "第一个 GPU 计算开源价格指数",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/computable-gpu-index-cgi",
-        "product_link": "https://www.producthunt.com/r/p/1233934?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-28": [
       {
         "name": "God’s Eye View",
@@ -242,6 +110,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/gauth-ai-course",
         "product_link": "https://www.producthunt.com/r/p/1235091?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "myAIcademy",
+        "slug": "myaicademy",
+        "desc": "Learn AI skills for your specific role and team",
+        "desc_zh": "学习适合您的特定角色和团队的人工智能技能",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/myaicademy",
+        "product_link": "https://www.producthunt.com/r/p/1235086?app_id=339",
         "source": "feed"
       }
     ],
@@ -448,6 +326,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/atlas-by-world-labs",
         "product_link": "https://www.producthunt.com/r/p/1238997?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TrackMCP",
+        "slug": "trackmcp",
+        "desc": "Google Analytics for MCP Servers",
+        "desc_zh": "适用于 MCP 服务器的 Google Analytics",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/trackmcp",
+        "product_link": "https://www.producthunt.com/r/p/1238286?app_id=339",
         "source": "feed"
       }
     ],
@@ -682,6 +570,108 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/fillo-native-forms-without-the-backend",
         "product_link": "https://www.producthunt.com/r/p/1239382?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "sidebranch",
+        "slug": "sidebranch",
+        "desc": "Easy git-based visual diffing",
+        "desc_zh": "基于 git 的简单视觉差异",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sidebranch",
+        "product_link": "https://www.producthunt.com/r/p/1239730?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Google Gemini 3.8 Flash and Cyber",
+        "slug": "gemini-3-8-flash",
+        "desc": "Next-gen Gemini for agents, reasoning, and cyber security",
+        "desc_zh": "用于代理、推理和网络安全的下一代 Gemini",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-3-8-flash",
+        "product_link": "https://www.producthunt.com/r/p/1239559?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-03": [
+      {
+        "name": "Chalked for Mac",
+        "slug": "chalked",
+        "desc": "Your replies ready with your work's full context",
+        "desc_zh": "您的回复已准备好并包含您工作的完整背景",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chalked",
+        "product_link": "https://www.producthunt.com/r/p/1240413?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Clockwork",
+        "slug": "clockwork-5",
+        "desc": "The calendar where your AI agents show up for work",
+        "desc_zh": "您的人工智能代理上班的日历",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clockwork-5",
+        "product_link": "https://www.producthunt.com/r/p/1240566?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "slug": "openai",
+        "desc": "OpenAI's most capable model for end-to-end work",
+        "desc_zh": "OpenAI 最强大的端到端工作模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1240758?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WeatherNext 3",
+        "slug": "weathernext-3",
+        "desc": "Our most advanced and accurate global weather AI model",
+        "desc_zh": "我们最先进、最准确的全球天气人工智能模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/weathernext-3",
+        "product_link": "https://www.producthunt.com/r/p/1240543?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Snitch",
+        "slug": "snitch-4",
+        "desc": "Your Slack org chart, built by everyone in it.",
+        "desc_zh": "您的 Slack 组织结构图，由其中的每个人构建。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/snitch-4",
+        "product_link": "https://www.producthunt.com/r/p/1240308?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Omarchy",
+        "slug": "omarchy-3",
+        "desc": "The malleable OS for the age of agents",
+        "desc_zh": "代理时代的可塑操作系统",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/omarchy-3",
+        "product_link": "https://www.producthunt.com/r/p/1240461?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "cmmnts",
+        "slug": "cmmnts",
+        "desc": "Add a powerful comment section to any website",
+        "desc_zh": "向任何网站添加强大的评论部分",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cmmnts",
+        "product_link": "https://www.producthunt.com/r/p/1240334?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Inline",
+        "slug": "inline-5",
+        "desc": "Multiplayer work with AI, teammates, and friends",
+        "desc_zh": "与 AI、队友和朋友进行多人游戏",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/inline-5",
+        "product_link": "https://www.producthunt.com/r/p/1240322?app_id=339",
         "source": "feed"
       }
     ]
