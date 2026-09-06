@@ -1,58 +1,6 @@
 {
-  "updated_at": "2026-09-05T23:32:27",
+  "updated_at": "2026-09-06T23:26:33",
   "days": {
-    "2026-08-29": [
-      {
-        "name": "oMLX",
-        "slug": "omlx",
-        "desc": "Mac LLM server that cuts agent wait times from 90s to 5s",
-        "desc_zh": "Mac LLM server that cuts agent wait times from 90s to 5s",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omlx",
-        "product_link": "https://www.producthunt.com/r/p/1236055?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Superagent",
-        "slug": "superagent-a-home-for-your-ai-agents",
-        "desc": "Claude Code for the rest of us",
-        "desc_zh": "Claude Code for the rest of us",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
-        "product_link": "https://www.producthunt.com/r/p/1236134?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Prequel",
-        "slug": "prequel-2",
-        "desc": "Create cinematic screen recordings on your Mac",
-        "desc_zh": "Create cinematic screen recordings on your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/prequel-2",
-        "product_link": "https://www.producthunt.com/r/p/1235626?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Orato",
-        "slug": "orato-speech-coach",
-        "desc": "Practice speaking with AI.",
-        "desc_zh": "Practice speaking with AI.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/orato-speech-coach",
-        "product_link": "https://www.producthunt.com/r/p/1235917?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Sourclip 2.0",
-        "slug": "sourclip",
-        "desc": "The research workspace built around Gemini Notebook",
-        "desc_zh": "围绕 Gemini Notebook 构建的研究工作区",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sourclip",
-        "product_link": "https://www.producthunt.com/r/p/1235903?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-08-30": [
       {
         "name": "Tether",
@@ -519,6 +467,36 @@
         "ph_link": "https://www.producthunt.com/products/queuebrick",
         "product_link": "https://www.producthunt.com/r/p/1239518?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Kit by Speakeasy",
+        "slug": "speakeasydev",
+        "desc": "Your coding agent runtime. Claude but fast, cheap, concise.",
+        "desc_zh": "您的编码代理运行时。克劳德却速度快、成本低、简洁。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/speakeasydev",
+        "product_link": "https://www.producthunt.com/r/p/1239501?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "H3 Max by fal",
+        "slug": "fal-ai",
+        "desc": "fal's post-trained MiniMax H3 for quality video production",
+        "desc_zh": "fal 的经过训练的 MiniMax H3 用于高质量视频制作",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fal-ai",
+        "product_link": "https://www.producthunt.com/r/p/1239748?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agentic Video Understanding in Gemini",
+        "slug": "google",
+        "desc": "Agentic video analysis for faster, smarter Gemini insights",
+        "desc_zh": "代理视频分析可提供更快、更智能的 Gemini 见解",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google",
+        "product_link": "https://www.producthunt.com/r/p/1239740?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-03": [
@@ -642,6 +620,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/ponytail",
         "product_link": "https://www.producthunt.com/r/p/1241345?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DocsAlot Visual Editor",
+        "slug": "docsalot-2",
+        "desc": "Create beautiful docs, by typing. No AI required.",
+        "desc_zh": "通过打字创建精美的文档。不需要人工智能。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/docsalot-2",
+        "product_link": "https://www.producthunt.com/r/p/1241597?app_id=339",
         "source": "feed"
       }
     ]
