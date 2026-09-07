@@ -1,48 +1,6 @@
 {
-  "updated_at": "2026-09-06T23:26:33",
+  "updated_at": "2026-09-07T23:56:55",
   "days": {
-    "2026-08-30": [
-      {
-        "name": "Tether",
-        "slug": "tether-a-ball-for-boring-meetings",
-        "desc": "A ball for boring meetings to keep you busy",
-        "desc_zh": "A ball for boring meetings to keep you busy",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tether-a-ball-for-boring-meetings",
-        "product_link": "https://www.producthunt.com/r/p/1237132?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "EP–2350 FX–MIC",
-        "slug": "teenage-engineering",
-        "desc": "The programmable mic you can squeeze, shake & play",
-        "desc_zh": "The programmable mic you can squeeze, shake & play",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/teenage-engineering",
-        "product_link": "https://www.producthunt.com/r/p/1237061?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Happy Shrimp",
-        "slug": "happy-shrimp",
-        "desc": "Alibaba's AI music generator for turning ideas into songs",
-        "desc_zh": "阿里巴巴的人工智能音乐生成器，将想法转化为歌曲",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/happy-shrimp",
-        "product_link": "https://www.producthunt.com/r/p/1237043?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hyperprobe",
-        "slug": "hyperprobe",
-        "desc": "Lets your AI agents debug production without redeploying",
-        "desc_zh": "让您的 AI 代理无需重新部署即可调试生产",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hyperprobe",
-        "product_link": "https://www.producthunt.com/r/p/1237032?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-01": [
       {
         "name": "CleanShot 5.0 with Studio Mode",
@@ -630,6 +588,68 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/docsalot-2",
         "product_link": "https://www.producthunt.com/r/p/1241597?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Scriptly",
+        "slug": "sciptly",
+        "desc": "An iOS teleprompter app controlled by your voice",
+        "desc_zh": "An iOS teleprompter app controlled by your voice",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sciptly",
+        "product_link": "https://www.producthunt.com/r/p/1241043?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-06": [
+      {
+        "name": "Airuncode",
+        "slug": "airuncode",
+        "desc": "Run multiple local coding agents on your machine",
+        "desc_zh": "Run multiple local coding agents on your machine",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/airuncode",
+        "product_link": "https://www.producthunt.com/r/p/1243202?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Assist",
+        "slug": "assist-4",
+        "desc": "Voice annotate your Mac, get screenshots + clipboard manager",
+        "desc_zh": "Voice annotate your Mac, get screenshots + clipboard manager",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/assist-4",
+        "product_link": "https://www.producthunt.com/r/p/1242727?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tucky",
+        "slug": "tucky",
+        "desc": "Notes docked to your screen edge, with an AI agent inside",
+        "desc_zh": "Notes docked to your screen edge, with an AI agent inside",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tucky",
+        "product_link": "https://www.producthunt.com/r/p/1243162?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Remind",
+        "slug": "remind-7",
+        "desc": "Full-screen meeting reminders with AI briefings",
+        "desc_zh": "Full-screen meeting reminders with AI briefings",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/remind-7",
+        "product_link": "https://www.producthunt.com/r/p/1242964?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Clipnote",
+        "slug": "clipnote-2",
+        "desc": "Save your AI conversations so they persist after closing tab",
+        "desc_zh": "Save your AI conversations so they persist after closing tab",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clipnote-2",
+        "product_link": "https://www.producthunt.com/r/p/1243245?app_id=339",
         "source": "feed"
       }
     ]
