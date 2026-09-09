@@ -1,158 +1,6 @@
 {
-  "updated_at": "2026-09-08T23:50:27",
+  "updated_at": "2026-09-09T23:45:55",
   "days": {
-    "2026-09-01": [
-      {
-        "name": "CleanShot 5.0 with Studio Mode",
-        "slug": "cleanshot",
-        "desc": "Mac-native app for screenshots, recordings and collaboration",
-        "desc_zh": "用于屏幕截图、录音和协作的 Mac 原生应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cleanshot",
-        "product_link": "https://www.producthunt.com/r/p/1238718?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dynamic Edge",
-        "slug": "dynamic-edge",
-        "desc": "The Dynamic Island for Windows",
-        "desc_zh": "Windows 的动态岛",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dynamic-edge",
-        "product_link": "https://www.producthunt.com/r/p/1238369?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "RoundOS",
-        "slug": "roundos-data-room",
-        "desc": "Free Docsend alternative",
-        "desc_zh": "免费文档发送替代方案",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/roundos-data-room",
-        "product_link": "https://www.producthunt.com/r/p/1238218?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dyson CameraJet",
-        "slug": "dyson-humidifier",
-        "desc": "Precision-floss between teeth while you brush",
-        "desc_zh": "刷牙时用精密牙线清洁牙齿之间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dyson-humidifier",
-        "product_link": "https://www.producthunt.com/r/p/1239062?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Porte",
-        "slug": "porte",
-        "desc": "Control your local Grok sessions from your phone",
-        "desc_zh": "通过手机控制本地 Grok 会话",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/porte",
-        "product_link": "https://www.producthunt.com/r/p/1238512?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Doop",
-        "slug": "doop",
-        "desc": "Design with AI agents - live on the same canvas",
-        "desc_zh": "使用人工智能代理进行设计 - 生活在同一个画布上",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/doop",
-        "product_link": "https://www.producthunt.com/r/p/1239094?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Fable 5.1",
-        "slug": "claude-fable-5-1",
-        "desc": "Claude’s most advanced models for coding and knowledge work",
-        "desc_zh": "克劳德最先进的编码和知识工作模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude-fable-5-1",
-        "product_link": "https://www.producthunt.com/r/p/1238860?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Basedash AI Sources",
-        "slug": "basedash",
-        "desc": "Trust every AI answer by seeing what built it",
-        "desc_zh": "通过查看其构建内容来信任每个人工智能答案",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/basedash",
-        "product_link": "https://www.producthunt.com/r/p/1239033?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Stitch AI by Dynamic Mockups",
-        "slug": "stitch-ai-by-dynamic-mockups",
-        "desc": "The first embroidery digitizing agent",
-        "desc_zh": "第一个刺绣数字化剂",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups",
-        "product_link": "https://www.producthunt.com/r/p/1238473?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Roadie",
-        "slug": "roadie-4",
-        "desc": "Keep your Mac on the right microphone and speakers",
-        "desc_zh": "让您的 Mac 使用正确的麦克风和扬声器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/roadie-4",
-        "product_link": "https://www.producthunt.com/r/p/1238619?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tidy",
-        "slug": "tidy-6",
-        "desc": "Fix grammar in any Mac app with free on-device AI",
-        "desc_zh": "使用免费的设备上 AI 修复任何 Mac 应用中的语法",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tidy-6",
-        "product_link": "https://www.producthunt.com/r/p/1238755?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Atlas by World Labs",
-        "slug": "atlas-by-world-labs",
-        "desc": "Turn text, pics, video, + 3D into camera-controlled HD video",
-        "desc_zh": "将文本、图片、视频 + 3D 转换为摄像机控制的高清视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/atlas-by-world-labs",
-        "product_link": "https://www.producthunt.com/r/p/1238997?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "TrackMCP",
-        "slug": "trackmcp",
-        "desc": "Google Analytics for MCP Servers",
-        "desc_zh": "适用于 MCP 服务器的 Google Analytics",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/trackmcp",
-        "product_link": "https://www.producthunt.com/r/p/1238286?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Reflexio",
-        "slug": "reflexio-2",
-        "desc": "Behavioral learning that makes AI agents better over time",
-        "desc_zh": "行为学习使人工智能代理随着时间的推移变得更好",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reflexio-2",
-        "product_link": "https://www.producthunt.com/r/p/1238273?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Relaticle",
-        "slug": "relaticle",
-        "desc": "Open-source CRM with approval-gated AI writes",
-        "desc_zh": "具有审批门控 AI 写入功能的开源 CRM",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/relaticle",
-        "product_link": "https://www.producthunt.com/r/p/1238864?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-02": [
       {
         "name": "Readr",
@@ -569,6 +417,26 @@
         "ph_link": "https://www.producthunt.com/products/good-lads-1-0",
         "product_link": "https://www.producthunt.com/r/p/1242766?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "GoModel",
+        "slug": "gomodel",
+        "desc": "Open-source OpenRouter",
+        "desc_zh": "开源OpenRouter",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gomodel",
+        "product_link": "https://www.producthunt.com/r/p/1243113?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WorkID.ai",
+        "slug": "workid-ai",
+        "desc": "Where verified talent meets opportunity. Hire with trust!",
+        "desc_zh": "经过验证的人才与机遇相遇的地方。充满信任地雇用！",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/workid-ai",
+        "product_link": "https://www.producthunt.com/r/p/1242714?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-07": [
@@ -641,6 +509,16 @@
         "ph_link": "https://www.producthunt.com/products/pastea",
         "product_link": "https://www.producthunt.com/r/p/1244114?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Diiverge",
+        "slug": "diiverge-co",
+        "desc": "Turn any picture into a playable AI adventure",
+        "desc_zh": "将任何图片变成可玩的 AI 冒险",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/diiverge-co",
+        "product_link": "https://www.producthunt.com/r/p/1244146?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-05": [
@@ -652,6 +530,88 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/jupitrr",
         "product_link": "https://www.producthunt.com/r/p/1241818?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-08": [
+      {
+        "name": "Muse by Meta",
+        "slug": "muse-22",
+        "desc": "Your personal AI agent that gets things done",
+        "desc_zh": "您的私人人工智能代理可以完成任务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/muse-22",
+        "product_link": "https://www.producthunt.com/r/p/1245087?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Frigade Assist API",
+        "slug": "frigade",
+        "desc": "Give your AI agent guides that show users where to click",
+        "desc_zh": "为您的 AI 代理提供指南，向用户显示点击位置",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/frigade",
+        "product_link": "https://www.producthunt.com/r/p/1245183?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Type.com",
+        "slug": "type-com",
+        "desc": "A shared workspace for Claude, Codex, and your team",
+        "desc_zh": "供 Claude、Codex 和您的团队使用的共享工作空间",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/type-com",
+        "product_link": "https://www.producthunt.com/r/p/1245333?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Basedash in Español Français & Português",
+        "slug": "basedash",
+        "desc": "Work with your data in your language",
+        "desc_zh": "用您的语言处理数据",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/basedash",
+        "product_link": "https://www.producthunt.com/r/p/1245173?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DuckFightClub",
+        "slug": "duckfightclub",
+        "desc": "Train your MicroDuck and win the Golden Beak Belt",
+        "desc_zh": "训练您的 MicroDuck 并赢得金喙腰带",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/duckfightclub",
+        "product_link": "https://www.producthunt.com/r/p/1244990?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ass Auction",
+        "slug": "ass-auction",
+        "desc": "Brands outbid each other to put their logo on my ass",
+        "desc_zh": "各大品牌竞相出价，把他们的标志印在我的屁股上",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ass-auction",
+        "product_link": "https://www.producthunt.com/r/p/1244551?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ChatGPT Images 2.5",
+        "slug": "openai",
+        "desc": "Sharper visuals, faster flow, better creative control",
+        "desc_zh": "更清晰的视觉效果、更快的流程、更好的创意控制",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1245108?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AlphaGenome Atlas",
+        "slug": "alphagenome-atlas",
+        "desc": "Google's AI map of every possible human DNA mutation",
+        "desc_zh": "谷歌的人工智能地图显示了每一种可能的人类 DNA 突变",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/alphagenome-atlas",
+        "product_link": "https://www.producthunt.com/r/p/1245256?app_id=339",
         "source": "feed"
       }
     ]
