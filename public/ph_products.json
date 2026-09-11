@@ -1,148 +1,6 @@
 {
-  "updated_at": "2026-09-10T23:38:47",
+  "updated_at": "2026-09-11T23:46:49",
   "days": {
-    "2026-09-03": [
-      {
-        "name": "Chalked for Mac",
-        "slug": "chalked",
-        "desc": "Your replies ready with your work's full context",
-        "desc_zh": "您的回复已准备好并包含您工作的完整背景",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chalked",
-        "product_link": "https://www.producthunt.com/r/p/1240413?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Clockwork",
-        "slug": "clockwork-5",
-        "desc": "The calendar where your AI agents show up for work",
-        "desc_zh": "您的人工智能代理上班的日历",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/clockwork-5",
-        "product_link": "https://www.producthunt.com/r/p/1240566?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GPT-6 Astra",
-        "slug": "openai",
-        "desc": "OpenAI's most capable model for end-to-end work",
-        "desc_zh": "OpenAI 最强大的端到端工作模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openai",
-        "product_link": "https://www.producthunt.com/r/p/1240758?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "WeatherNext 3",
-        "slug": "weathernext-3",
-        "desc": "Our most advanced and accurate global weather AI model",
-        "desc_zh": "我们最先进、最准确的全球天气人工智能模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/weathernext-3",
-        "product_link": "https://www.producthunt.com/r/p/1240543?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Snitch",
-        "slug": "snitch-4",
-        "desc": "Your Slack org chart, built by everyone in it.",
-        "desc_zh": "您的 Slack 组织结构图，由其中的每个人构建。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/snitch-4",
-        "product_link": "https://www.producthunt.com/r/p/1240308?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Omarchy",
-        "slug": "omarchy-3",
-        "desc": "The malleable OS for the age of agents",
-        "desc_zh": "代理时代的可塑操作系统",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omarchy-3",
-        "product_link": "https://www.producthunt.com/r/p/1240461?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "cmmnts",
-        "slug": "cmmnts",
-        "desc": "Add a powerful comment section to any website",
-        "desc_zh": "向任何网站添加强大的评论部分",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cmmnts",
-        "product_link": "https://www.producthunt.com/r/p/1240334?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Inline",
-        "slug": "inline-5",
-        "desc": "Multiplayer work with AI, teammates, and friends",
-        "desc_zh": "与 AI、队友和朋友进行多人游戏",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/inline-5",
-        "product_link": "https://www.producthunt.com/r/p/1240322?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "at8pm",
-        "slug": "at8pm",
-        "desc": "Your honest journal",
-        "desc_zh": "你诚实的日记",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/at8pm",
-        "product_link": "https://www.producthunt.com/r/p/1240371?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GitWarren",
-        "slug": "gitwarren",
-        "desc": "Review code with your coding agents before committing",
-        "desc_zh": "在提交之前与您的编码代理一起审查代码",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gitwarren",
-        "product_link": "https://www.producthunt.com/r/p/1240932?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Experiential Labs",
-        "slug": "experiential-labs",
-        "desc": "Open source AI gateway turning traffic into a better model",
-        "desc_zh": "开源 AI 网关将流量转变为更好的模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/experiential-labs",
-        "product_link": "https://www.producthunt.com/r/p/1240885?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dictantor",
-        "slug": "dictantor",
-        "desc": "Record meetings and transcribe privately on Apple devices",
-        "desc_zh": "在 Apple 设备上录制会议并私下转录",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dictantor",
-        "product_link": "https://www.producthunt.com/r/p/1240399?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Replay QA Security Scan",
-        "slug": "replayio",
-        "desc": "Automated Penetration Testing  for AI-Built Apps",
-        "desc_zh": "人工智能构建的应用程序的自动渗透测试",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/replayio",
-        "product_link": "https://www.producthunt.com/r/p/1240790?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Typewise Nova",
-        "slug": "typewise",
-        "desc": "AI customer experience that builds and improves itself",
-        "desc_zh": "自我构建和改进的人工智能客户体验",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/typewise",
-        "product_link": "https://www.producthunt.com/r/p/1240780?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-04": [
       {
         "name": "Ponytail",
@@ -182,6 +40,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/unite-for-macos",
         "product_link": "https://www.producthunt.com/r/p/1241492?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "easyspecs.ai",
+        "slug": "easyspecs-ai",
+        "desc": "The spec review platform",
+        "desc_zh": "规范评审平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/easyspecs-ai",
+        "product_link": "https://www.producthunt.com/r/p/1241271?app_id=339",
         "source": "feed"
       }
     ],
@@ -367,6 +235,26 @@
         "ph_link": "https://www.producthunt.com/products/wealthfolio",
         "product_link": "https://www.producthunt.com/r/p/1244158?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Loqua",
+        "slug": "loqua",
+        "desc": "Speak naturally and move from thoughts to being done",
+        "desc_zh": "说话自然，从想法到行动",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/loqua",
+        "product_link": "https://www.producthunt.com/r/p/1243621?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sliick",
+        "slug": "sliick",
+        "desc": "Free 3D mockups for your screenshots and videos",
+        "desc_zh": "为您的屏幕截图和视频提供免费 3D 模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sliick",
+        "product_link": "https://www.producthunt.com/r/p/1244322?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-05": [
@@ -481,6 +369,26 @@
         "ph_link": "https://www.producthunt.com/products/speechmark",
         "product_link": "https://www.producthunt.com/r/p/1245023?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Cline Desktop App",
+        "slug": "cline-4",
+        "desc": "An open-source app for open-weight models",
+        "desc_zh": "用于开放权重模型的开源应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cline-4",
+        "product_link": "https://www.producthunt.com/r/p/1244851?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Spaces",
+        "slug": "spaces-21",
+        "desc": "One shared space where your team and AI agents work",
+        "desc_zh": "您的团队和 AI 代理工作的共享空间",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spaces-21",
+        "product_link": "https://www.producthunt.com/r/p/1245062?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-09": [
@@ -572,6 +480,138 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/modeinspect-1-0",
         "product_link": "https://www.producthunt.com/r/p/1246291?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-10": [
+      {
+        "name": "ChatHop",
+        "slug": "chathop",
+        "desc": "Take your conversation anywhere.",
+        "desc_zh": "随时随地进行对话。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chathop",
+        "product_link": "https://www.producthunt.com/r/p/1246820?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Raycast 2.0",
+        "slug": "raycast",
+        "desc": "The next generation of Raycast is here",
+        "desc_zh": "下一代 Raycast 就在这里",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/raycast",
+        "product_link": "https://www.producthunt.com/r/p/1246952?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Jackalope",
+        "slug": "jackalope",
+        "desc": "Codex, Claude Code, Grok, + OpenCode in one shared workspace",
+        "desc_zh": "Codex、Claude Code、Grok 和 OpenCode 在一个共享工作区中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/jackalope",
+        "product_link": "https://www.producthunt.com/r/p/1247107?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cadenya",
+        "slug": "cadenya-the-agent-runtime",
+        "desc": "A hosted agentic loop to bring agentic possibilities to life",
+        "desc_zh": "托管的代理循环将代理的可能性变为现实",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
+        "product_link": "https://www.producthunt.com/r/p/1247121?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "chat-recall",
+        "slug": "chat-recall",
+        "desc": "Ctrl+F for every conversation you've had with an AI",
+        "desc_zh": "Ctrl+F 用于您与 AI 的每一次对话",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chat-recall",
+        "product_link": "https://www.producthunt.com/r/p/1246911?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "sizeless",
+        "slug": "sizeless",
+        "desc": "Spatial AI for underground infrastructure",
+        "desc_zh": "地下基础设施的空间人工智能",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sizeless",
+        "product_link": "https://www.producthunt.com/r/p/1246922?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Design Studio by Monday Merch",
+        "slug": "design-studio-by-monday-merch",
+        "desc": "A browser canvas to design merch with over 1.000+ products",
+        "desc_zh": "用于设计包含 1000 多种产品的商品的浏览器画布",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/design-studio-by-monday-merch",
+        "product_link": "https://www.producthunt.com/r/p/1246789?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Formesign",
+        "slug": "formesign",
+        "desc": "Add legally binding signature to your Google Form",
+        "desc_zh": "向您的 Google 表单添加具有法律约束力的签名",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/formesign",
+        "product_link": "https://www.producthunt.com/r/p/1246712?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Moji",
+        "slug": "moji-2",
+        "desc": "Open Markdown files like PDFs.",
+        "desc_zh": "打开 PDF 等 Markdown 文件。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/moji-2",
+        "product_link": "https://www.producthunt.com/r/p/1247185?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Devin Voice",
+        "slug": "devin-voice",
+        "desc": "You say it, Devin ships it",
+        "desc_zh": "你说吧，德文运送它",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/devin-voice",
+        "product_link": "https://www.producthunt.com/r/p/1247106?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GLYPH Immersive",
+        "slug": "glyph-immersive",
+        "desc": "a free tool for modular grid lettering",
+        "desc_zh": "用于模块化网格刻字的免费工具",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/glyph-immersive",
+        "product_link": "https://www.producthunt.com/r/p/1247047?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Accordio",
+        "slug": "accordio",
+        "desc": "Give Claude the admin tools is missing",
+        "desc_zh": "给克劳德管理工具丢失",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/accordio",
+        "product_link": "https://www.producthunt.com/r/p/1247136?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LiveGrid",
+        "slug": "livegrid-4",
+        "desc": "Watch multiple live streams at once, never miss a thing",
+        "desc_zh": "一次观看多个直播，不错过任何精彩内容",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/livegrid-4",
+        "product_link": "https://www.producthunt.com/r/p/1247211?app_id=339",
         "source": "feed"
       }
     ]
