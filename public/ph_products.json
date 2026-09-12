@@ -1,58 +1,6 @@
 {
-  "updated_at": "2026-09-11T23:46:49",
+  "updated_at": "2026-09-12T23:40:02",
   "days": {
-    "2026-09-04": [
-      {
-        "name": "Ponytail",
-        "slug": "ponytail",
-        "desc": "Make new code the last resort",
-        "desc_zh": "让新代码成为最后的手段",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ponytail",
-        "product_link": "https://www.producthunt.com/r/p/1241345?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DocsAlot Visual Editor",
-        "slug": "docsalot-2",
-        "desc": "Create beautiful docs, by typing. No AI required.",
-        "desc_zh": "通过打字创建精美的文档。不需要人工智能。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/docsalot-2",
-        "product_link": "https://www.producthunt.com/r/p/1241597?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Scriptly",
-        "slug": "sciptly",
-        "desc": "An iOS teleprompter app controlled by your voice",
-        "desc_zh": "An iOS teleprompter app controlled by your voice",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sciptly",
-        "product_link": "https://www.producthunt.com/r/p/1241043?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Coherence X6 for macOS",
-        "slug": "unite-for-macos",
-        "desc": "Turn websites into Mac apps powered by your browser",
-        "desc_zh": "将网站变成由浏览器支持的 Mac 应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/unite-for-macos",
-        "product_link": "https://www.producthunt.com/r/p/1241492?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "easyspecs.ai",
-        "slug": "easyspecs-ai",
-        "desc": "The spec review platform",
-        "desc_zh": "规范评审平台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/easyspecs-ai",
-        "product_link": "https://www.producthunt.com/r/p/1241271?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-06": [
       {
         "name": "Airuncode",
@@ -142,6 +90,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/workid-ai",
         "product_link": "https://www.producthunt.com/r/p/1242714?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LinkFlick",
+        "slug": "linkflick",
+        "desc": "Stop re-pairing your Magic Keyboard between Macs",
+        "desc_zh": "停止在 Mac 之间重新配对妙控键盘",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/linkflick",
+        "product_link": "https://www.producthunt.com/r/p/1243277?app_id=339",
         "source": "feed"
       }
     ],
@@ -267,6 +225,16 @@
         "ph_link": "https://www.producthunt.com/products/jupitrr",
         "product_link": "https://www.producthunt.com/r/p/1241818?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Cortex",
+        "slug": "cortex-25",
+        "desc": "Turn API specs into docs, SDKs, and MCP servers",
+        "desc_zh": "将 API 规范转化为文档、SDK 和 MCP 服务器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cortex-25",
+        "product_link": "https://www.producthunt.com/r/p/1241923?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-08": [
@@ -389,6 +357,16 @@
         "ph_link": "https://www.producthunt.com/products/spaces-21",
         "product_link": "https://www.producthunt.com/r/p/1245062?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Pascal’s Pager",
+        "slug": "pascal-s-pager",
+        "desc": "Turn webhook JSON into readable iPhone push notifications",
+        "desc_zh": "将 webhook JSON 转换为可读的 iPhone 推送通知",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pascal-s-pager",
+        "product_link": "https://www.producthunt.com/r/p/1244721?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-09": [
@@ -480,6 +458,46 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/modeinspect-1-0",
         "product_link": "https://www.producthunt.com/r/p/1246291?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Marked Share",
+        "slug": "marked-share",
+        "desc": "Markdown and TextBundle editing, review, and sharing",
+        "desc_zh": "Markdown 和 TextBundle 编辑、审阅和共享",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/marked-share",
+        "product_link": "https://www.producthunt.com/r/p/1245884?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wokyintosh",
+        "slug": "wokyintosh",
+        "desc": "Turn a spare Mac display into a retro system dashboard!",
+        "desc_zh": "将备用 Mac 显示器变成复古系统仪表板！",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wokyintosh",
+        "product_link": "https://www.producthunt.com/r/p/1245739?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Calerto for Mac",
+        "slug": "calerto-meeting-alarms",
+        "desc": "Full-screen meeting alerts for your Mac",
+        "desc_zh": "适用于 Mac 的全屏会议提醒",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/calerto-meeting-alarms",
+        "product_link": "https://www.producthunt.com/r/p/1246379?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "VoxelWall",
+        "slug": "voxelwall",
+        "desc": "Music-reactive live wallpapers for Mac",
+        "desc_zh": "适用于 Mac 的音乐反应动态壁纸",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/voxelwall",
+        "product_link": "https://www.producthunt.com/r/p/1246386?app_id=339",
         "source": "feed"
       }
     ],
@@ -612,6 +630,48 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/livegrid-4",
         "product_link": "https://www.producthunt.com/r/p/1247211?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ABrush",
+        "slug": "abrush-ai-2",
+        "desc": "AI Studio for Digital Artists",
+        "desc_zh": "数字艺术家 AI 工作室",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/abrush-ai-2",
+        "product_link": "https://www.producthunt.com/r/p/1247030?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SUDARI",
+        "slug": "sudari",
+        "desc": "A pixel otter desktop pet that reacts to how you work",
+        "desc_zh": "一款像素水獭桌面宠物，会对您的工作方式做出反应",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sudari",
+        "product_link": "https://www.producthunt.com/r/p/1247276?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FrameSketch",
+        "slug": "framesketch",
+        "desc": "Scrub vids frame-by-frame and sketch on them at 60fps",
+        "desc_zh": "逐帧擦洗视频并以 60 fps 的速度在其上绘制草图",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/framesketch",
+        "product_link": "https://www.producthunt.com/r/p/1246593?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-11": [
+      {
+        "name": "DockFix 5.0",
+        "slug": "dockfix",
+        "desc": "Replace the macOS Dock with one that is truly yours.",
+        "desc_zh": "将 macOS Dock 替换为真正属于您的 Dock。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dockfix",
+        "product_link": "https://www.producthunt.com/r/p/1247937?app_id=339",
         "source": "feed"
       }
     ]
