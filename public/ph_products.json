@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T00:03:15",
+  "updated_at": "2026-09-17T23:53:34",
   "days": {
     "2026-09-10": [
       {
@@ -700,6 +700,208 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/flat-social",
         "product_link": "https://www.producthunt.com/r/p/1251734?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Die With Me",
+        "slug": "die-with-me-2",
+        "desc": "AIM buddy list for your friends’ Claude Code and Codex usage",
+        "desc_zh": "AIM 好友列表，显示好友的 Claude Code 和 Codex 使用情况",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/die-with-me-2",
+        "product_link": "https://www.producthunt.com/r/p/1251910?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Text Agent Store",
+        "slug": "text-agent-store",
+        "desc": "A marketplace for AI agents you can text",
+        "desc_zh": "您可以发短信的人工智能代理市场",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/text-agent-store",
+        "product_link": "https://www.producthunt.com/r/p/1251830?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MacSentinel",
+        "slug": "macsentinel",
+        "desc": "Find what’s slowing your Mac then clean it safely",
+        "desc_zh": "找出 Mac 速度变慢的原因，然后安全地进行清理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/macsentinel",
+        "product_link": "https://www.producthunt.com/r/p/1251058?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "QuietHint®",
+        "slug": "quiethint",
+        "desc": "The meeting assistant that stays on your Mac",
+        "desc_zh": "Mac 上的会议助手",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/quiethint",
+        "product_link": "https://www.producthunt.com/r/p/1251635?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-16": [
+      {
+        "name": "Zella",
+        "slug": "zella",
+        "desc": "Video recorder that edits itself on Mac and iPhone",
+        "desc_zh": "可在 Mac 和 iPhone 上自行编辑的录像机",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zella",
+        "product_link": "https://www.producthunt.com/r/p/1252945?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Figo",
+        "slug": "figo-3",
+        "desc": "See every move your competitors make",
+        "desc_zh": "查看竞争对手的一举一动",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/figo-3",
+        "product_link": "https://www.producthunt.com/r/p/1252719?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bitrise Remote Dev Environments",
+        "slug": "bitrise",
+        "desc": "Cloud Macs your coding agents can actually build on",
+        "desc_zh": "您的编码代理实际上可以在其上构建的 Cloud Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bitrise",
+        "product_link": "https://www.producthunt.com/r/p/1252540?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Higgsfield API",
+        "slug": "higgsfield",
+        "desc": "One async API for 50+ generative media models",
+        "desc_zh": "适用于 50 多种生成媒体模型的一个异步 API",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/higgsfield",
+        "product_link": "https://www.producthunt.com/r/p/1252831?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "The Forge by Bob's Workshop",
+        "slug": "the-forge-by-bob-s-workshop",
+        "desc": "Describe your idea & your team builds, deploys & operates it",
+        "desc_zh": "描述您的想法以及您的团队构建、部署和运营它的方式",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-forge-by-bob-s-workshop",
+        "product_link": "https://www.producthunt.com/r/p/1252792?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Opyt",
+        "slug": "opyt",
+        "desc": "Your attention is the context your AI is missing",
+        "desc_zh": "你的注意力是你的人工智能所缺少的背景",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/opyt",
+        "product_link": "https://www.producthunt.com/r/p/1252175?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Amy by Jellyfish",
+        "slug": "amy-by-jellyfish",
+        "desc": "Your AI sourcing employee for recruiting teams",
+        "desc_zh": "您的招聘团队的人工智能采购员工",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/amy-by-jellyfish",
+        "product_link": "https://www.producthunt.com/r/p/1252998?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ever Beyond: Space Conquest",
+        "slug": "ever-beyond-space-conquest",
+        "desc": "Tactical Battles & Idle Merge",
+        "desc_zh": "战术战斗和放置合并",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ever-beyond-space-conquest",
+        "product_link": "https://www.producthunt.com/r/p/1252053?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "S-Roll",
+        "slug": "s-roll",
+        "desc": "An agentic harness that turns long videos into clips",
+        "desc_zh": "将长视频变成剪辑的代理工具",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/s-roll",
+        "product_link": "https://www.producthunt.com/r/p/1253056?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pitchfire for Startups",
+        "slug": "pitchfire-for-startups",
+        "desc": "Reach investors that are aligned with you",
+        "desc_zh": "吸引与您志同道合的投资者",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pitchfire-for-startups",
+        "product_link": "https://www.producthunt.com/r/p/1252909?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NavKey",
+        "slug": "navkey",
+        "desc": "Control Windows with only your keyboard",
+        "desc_zh": "仅用键盘控制 Windows",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/navkey",
+        "product_link": "https://www.producthunt.com/r/p/1252921?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MCPJam",
+        "slug": "mcpjam-inspector",
+        "desc": "The testing & evaluations platform for MCP servers",
+        "desc_zh": "MCP服务器测试评估平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mcpjam-inspector",
+        "product_link": "https://www.producthunt.com/r/p/1253037?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "QAgent",
+        "slug": "qagent-2",
+        "desc": "Automated QA for AI agents. Stop shipping on vibes.",
+        "desc_zh": "AI 代理的自动化 QA。停止通过振动发货。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/qagent-2",
+        "product_link": "https://www.producthunt.com/r/p/1252425?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Compute:Arena",
+        "slug": "compute-arena-local-ai-benchmarks",
+        "desc": "Community submitted benchmarks for Local AI",
+        "desc_zh": "社区提交的本地人工智能基准",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/compute-arena-local-ai-benchmarks",
+        "product_link": "https://www.producthunt.com/r/p/1253008?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "worldsplat",
+        "slug": "worldsplat",
+        "desc": "Turn 3D sketches into worlds",
+        "desc_zh": "将 3D 草图变成世界",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/worldsplat",
+        "product_link": "https://www.producthunt.com/r/p/1252948?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TinyKPI",
+        "slug": "tinykpi",
+        "desc": "Your business analytics directly in your notch",
+        "desc_zh": "您的业​​务分析直接处于您的水平",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tinykpi",
+        "product_link": "https://www.producthunt.com/r/p/1252847?app_id=339",
         "source": "feed"
       }
     ]
