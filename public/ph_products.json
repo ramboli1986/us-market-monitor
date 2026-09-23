@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T00:30:32",
+  "updated_at": "2026-09-23T00:01:42",
   "days": {
     "2026-09-15": [
       {
@@ -220,6 +220,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/osmotic-2",
         "product_link": "https://www.producthunt.com/r/p/1251824?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ReallyFree",
+        "slug": "know-what-s-really-free-before-you-click",
+        "desc": "See what's really 'free' before you click",
+        "desc_zh": "点击之前查看什么是真正“免费”的",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/know-what-s-really-free-before-you-click",
+        "product_link": "https://www.producthunt.com/r/p/1251832?app_id=339",
         "source": "feed"
       }
     ],
@@ -553,6 +563,36 @@
         "ph_link": "https://www.producthunt.com/products/refoid-decline-unreasonable-refunds",
         "product_link": "https://www.producthunt.com/r/p/1252511?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "2BA.AI",
+        "slug": "2ba-ai",
+        "desc": "Stop waiting for tokens, and start shipping",
+        "desc_zh": "停止等待代币，开始发货",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/2ba-ai",
+        "product_link": "https://www.producthunt.com/r/p/1252379?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "thestory.run",
+        "slug": "thestory-run",
+        "desc": "A writing coach for corporate influencers.",
+        "desc_zh": "企业影响者的写作教练。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/thestory-run",
+        "product_link": "https://www.producthunt.com/r/p/1252191?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Clueso MCP",
+        "slug": "clueso",
+        "desc": "Create and edit videos by chatting",
+        "desc_zh": "通过聊天创建和编辑视频",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clueso",
+        "product_link": "https://www.producthunt.com/r/p/1252189?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-17": [
@@ -855,6 +895,16 @@
         "ph_link": "https://www.producthunt.com/products/lead-sparker",
         "product_link": "https://www.producthunt.com/r/p/1254272?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Prowler Cloud",
+        "slug": "prowler",
+        "desc": "Where your AI agent becomes a cloud security defender",
+        "desc_zh": "您的 AI 代理将成为云安全防御者",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/prowler",
+        "product_link": "https://www.producthunt.com/r/p/1253740?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-18": [
@@ -927,6 +977,36 @@
         "ph_link": "https://www.producthunt.com/products/gradio",
         "product_link": "https://www.producthunt.com/r/p/1254914?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Pastely",
+        "slug": "pastely-2",
+        "desc": "Clipboard that adapts to wherever you paste it",
+        "desc_zh": "剪贴板可适应您粘贴的位置",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pastely-2",
+        "product_link": "https://www.producthunt.com/r/p/1255104?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PixelCrew",
+        "slug": "pixelcrew",
+        "desc": "Production-ready design from a crew of AI agents",
+        "desc_zh": "由人工智能代理团队进行生产就绪设计",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pixelcrew",
+        "product_link": "https://www.producthunt.com/r/p/1255169?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "VideoFlow Studio",
+        "slug": "videoflow-studio",
+        "desc": "Type your startup URL and get a premium video trailer",
+        "desc_zh": "输入您的启动 URL 并获取优质视频预告片",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/videoflow-studio",
+        "product_link": "https://www.producthunt.com/r/p/1255183?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-19": [
@@ -978,6 +1058,46 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/google-labs",
         "product_link": "https://www.producthunt.com/r/p/1255937?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fulvid",
+        "slug": "fulvid",
+        "desc": "A standalone desktop editor for Markdown and MDX",
+        "desc_zh": "适用于 Markdown 和 MDX 的独立桌面编辑器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fulvid",
+        "product_link": "https://www.producthunt.com/r/p/1255926?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Keet",
+        "slug": "keet-2",
+        "desc": "Video Courses on Anything",
+        "desc_zh": "任何内容的视频课程",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/keet-2",
+        "product_link": "https://www.producthunt.com/r/p/1255502?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Robot Voice Bridge",
+        "slug": "robot-voice-bridge",
+        "desc": "Run ElevenLabs like a voiceover session, right on your Mac",
+        "desc_zh": "直接在 Mac 上像配音会话一样运行 ElevenLabs",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/robot-voice-bridge",
+        "product_link": "https://www.producthunt.com/r/p/1255831?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "gg-friggin-ez",
+        "slug": "gg-friggin-ez",
+        "desc": "Fast & free profanity and toxicity screening via Jev & Laya",
+        "desc_zh": "通过 Jev 和 Laya 进行快速、免费的脏话和毒性筛查",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gg-friggin-ez",
+        "product_link": "https://www.producthunt.com/r/p/1255875?app_id=339",
         "source": "feed"
       }
     ],
@@ -1100,6 +1220,188 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/plume-11",
         "product_link": "https://www.producthunt.com/r/p/1256370?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Reeno",
+        "slug": "reeno",
+        "desc": "AI calls you randomly to practice speaking a new language",
+        "desc_zh": "AI 随机给你打电话来练习说一门新语言",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/reeno",
+        "product_link": "https://www.producthunt.com/r/p/1256727?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Jev Wrapped",
+        "slug": "jev-wrapped",
+        "desc": "See how much of a Telegram channel is ads and clickbait",
+        "desc_zh": "查看 Telegram 频道中有多少是广告和点击诱饵",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/jev-wrapped",
+        "product_link": "https://www.producthunt.com/r/p/1256824?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-21": [
+      {
+        "name": "Valori",
+        "slug": "valori-systems-deleted-1168484",
+        "desc": "The deterministic memory layer for AI",
+        "desc_zh": "AI 的确定性存储层",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/valori-systems-deleted-1168484",
+        "product_link": "https://www.producthunt.com/r/p/1257192?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Plane Agents",
+        "slug": "planehq",
+        "desc": "Assign work to AI agents, like any teammate",
+        "desc_zh": "像任何队友一样将工作分配给人工智能代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/planehq",
+        "product_link": "https://www.producthunt.com/r/p/1257313?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Xem",
+        "slug": "xem",
+        "desc": "Open-source email marketing with managed SMTP",
+        "desc_zh": "使用托管 SMTP 的开源电子邮件营销",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/xem",
+        "product_link": "https://www.producthunt.com/r/p/1257748?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MiMo-V2.6",
+        "slug": "mimo-3",
+        "desc": "Open omnimodal intelligence, trained in public",
+        "desc_zh": "开放式全模态智能，公开训练",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mimo-3",
+        "product_link": "https://www.producthunt.com/r/p/1257720?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Googlebook",
+        "slug": "googlebook-4",
+        "desc": "The laptop your Android phone has been waiting for",
+        "desc_zh": "您的 Android 手机一直在等待的笔记本电脑",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/googlebook-4",
+        "product_link": "https://www.producthunt.com/r/p/1257371?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ResumeContext",
+        "slug": "resumecontext",
+        "desc": "Shared memory for coding agents.",
+        "desc_zh": "编码代理的共享内存。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/resumecontext",
+        "product_link": "https://www.producthunt.com/r/p/1257048?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Walkie",
+        "slug": "walkie-3",
+        "desc": "Dictation + meetings + read aloud in one app on-device",
+        "desc_zh": "在设备上的一个应用程序中听写 + 会议 + 朗读",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/walkie-3",
+        "product_link": "https://www.producthunt.com/r/p/1257557?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Blurt",
+        "slug": "assemblyai",
+        "desc": "Push-to-talk dictation on the AssemblyAI Dictation API",
+        "desc_zh": "AssemblyAI 听写 API 上的一键通听写",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/assemblyai",
+        "product_link": "https://www.producthunt.com/r/p/1257448?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fez",
+        "slug": "fez-2",
+        "desc": "AI agents that work as a team and make decisions together",
+        "desc_zh": "人工智能代理作为一个团队工作并共同做出决策",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fez-2",
+        "product_link": "https://www.producthunt.com/r/p/1257466?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Freebuff Ads",
+        "slug": "freebuff-2",
+        "desc": "Advertise to 500k developers in our coding agent",
+        "desc_zh": "在我们的编码代理中向 50 万开发人员做广告",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/freebuff-2",
+        "product_link": "https://www.producthunt.com/r/p/1257570?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WZRD",
+        "slug": "wzrd",
+        "desc": "AI-native documents, slides, forms and sheets that talk back",
+        "desc_zh": "会说话的人工智能原生文档、幻灯片、表格和表格",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wzrd",
+        "product_link": "https://www.producthunt.com/r/p/1256969?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Shootsolo 2.0",
+        "slug": "shootsolo",
+        "desc": "Voice-controlled camera + teleprompter for solo creators",
+        "desc_zh": "适合独奏创作者的声控摄像头 + 提词器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shootsolo",
+        "product_link": "https://www.producthunt.com/r/p/1257678?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "QuietGlass",
+        "slug": "quietglass",
+        "desc": "Screen privacy for your Mac, with or without AirPods",
+        "desc_zh": "无论是否配备 AirPods，Mac 的屏幕隐私保护",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/quietglass",
+        "product_link": "https://www.producthunt.com/r/p/1257675?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hola AI",
+        "slug": "hola-ai",
+        "desc": "An AI voicemail assistant that answers calls when you can’t.",
+        "desc_zh": "人工智能语音信箱助手可以在您无法接听电话时接听电话。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hola-ai",
+        "product_link": "https://www.producthunt.com/r/p/1257594?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PewCB",
+        "slug": "pewcb-in-house-pcb-prototyping-machine",
+        "desc": "Vibe-routing is coming. Desktop PCB Factory is here.",
+        "desc_zh": "Vibe 路由即将到来。桌面PCB工厂就在这里。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pewcb-in-house-pcb-prototyping-machine",
+        "product_link": "https://www.producthunt.com/r/p/1257257?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Grok 4.7",
+        "slug": "grok-4-7-8",
+        "desc": "SpaceXAI's most powerful model for coding and knowledge work",
+        "desc_zh": "SpaceXAI 最强大的编码和知识工作模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/grok-4-7-8",
+        "product_link": "https://www.producthunt.com/r/p/1257464?app_id=339",
         "source": "feed"
       }
     ]
