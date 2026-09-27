@@ -1,108 +1,6 @@
 {
-  "updated_at": "2026-09-26T00:22:49",
+  "updated_at": "2026-09-27T00:09:25",
   "days": {
-    "2026-09-19": [
-      {
-        "name": "Answers by Context.dev",
-        "slug": "context-dev",
-        "desc": "Give it a research task + the JSON shape you want back.",
-        "desc_zh": "给它一个研究任务+你想要返回的 JSON 形状。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/context-dev",
-        "product_link": "https://www.producthunt.com/r/p/1255292?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "The 101 Plays Itself",
-        "slug": "the-101-plays-itself",
-        "desc": "Five lanes of LA highway turned into an instrument",
-        "desc_zh": "洛杉矶高速公路的五车道变成了仪器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/the-101-plays-itself",
-        "product_link": "https://www.producthunt.com/r/p/1255982?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Epismo OS",
-        "slug": "epismo",
-        "desc": "Keep your work when you switch AI tools",
-        "desc_zh": "切换 AI 工具时继续工作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/epismo",
-        "product_link": "https://www.producthunt.com/r/p/1255756?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Sai",
-        "slug": "simular",
-        "desc": "The autonomous computer fleet at your command",
-        "desc_zh": "由您指挥的自主计算机舰队",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/simular",
-        "product_link": "https://www.producthunt.com/r/p/1255660?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CC",
-        "slug": "google-labs",
-        "desc": "Shared agent that helps keep your family in sync",
-        "desc_zh": "共享代理可帮助您的家人保持同步",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google-labs",
-        "product_link": "https://www.producthunt.com/r/p/1255937?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Fulvid",
-        "slug": "fulvid",
-        "desc": "A standalone desktop editor for Markdown and MDX",
-        "desc_zh": "适用于 Markdown 和 MDX 的独立桌面编辑器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fulvid",
-        "product_link": "https://www.producthunt.com/r/p/1255926?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Keet",
-        "slug": "keet-2",
-        "desc": "Video Courses on Anything",
-        "desc_zh": "任何内容的视频课程",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/keet-2",
-        "product_link": "https://www.producthunt.com/r/p/1255502?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Robot Voice Bridge",
-        "slug": "robot-voice-bridge",
-        "desc": "Run ElevenLabs like a voiceover session, right on your Mac",
-        "desc_zh": "直接在 Mac 上像配音会话一样运行 ElevenLabs",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/robot-voice-bridge",
-        "product_link": "https://www.producthunt.com/r/p/1255831?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "gg-friggin-ez",
-        "slug": "gg-friggin-ez",
-        "desc": "Fast & free profanity and toxicity screening via Jev & Laya",
-        "desc_zh": "通过 Jev 和 Laya 进行快速、免费的脏话和毒性筛查",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gg-friggin-ez",
-        "product_link": "https://www.producthunt.com/r/p/1255875?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "14 gentle mornings by Small WIns",
-        "slug": "14-gentle-mornings-by-small-wins",
-        "desc": "Audio first physiotherapy delivered via WhatsApp",
-        "desc_zh": "通过 WhatsApp 提供音频第一物理治疗",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/14-gentle-mornings-by-small-wins",
-        "product_link": "https://www.producthunt.com/r/p/1255351?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-20": [
       {
         "name": "Jevtown",
@@ -565,6 +463,36 @@
         "ph_link": "https://www.producthunt.com/products/pair2fa",
         "product_link": "https://www.producthunt.com/r/p/1257374?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Fewer",
+        "slug": "fewer",
+        "desc": "The launcher that counts how often you pick up your phone",
+        "desc_zh": "启动器会计算您拿起手机的频率",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fewer",
+        "product_link": "https://www.producthunt.com/r/p/1257315?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Relium",
+        "slug": "relium",
+        "desc": "Catch risky dbt changes before they break business metrics",
+        "desc_zh": "在有风险的 dbt 更改破坏业务指标之前捕获它们",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/relium",
+        "product_link": "https://www.producthunt.com/r/p/1257479?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Polyglot",
+        "slug": "polyglot-5",
+        "desc": "Create and translate subtitles entirely on your Mac",
+        "desc_zh": "完全在 Mac 上创建和翻译字幕",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/polyglot-5",
+        "product_link": "https://www.producthunt.com/r/p/1257552?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-22": [
@@ -737,6 +665,36 @@
         "ph_link": "https://www.producthunt.com/products/memoire-3",
         "product_link": "https://www.producthunt.com/r/p/1258760?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Hemory",
+        "slug": "hemory",
+        "desc": "Keep listening. Searchable memory for your AI agents.",
+        "desc_zh": "继续听。人工智能代理的可搜索内存。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hemory",
+        "product_link": "https://www.producthunt.com/r/p/1258326?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lisen",
+        "slug": "lisen",
+        "desc": "Free Read Aloud with Cartesia Voices",
+        "desc_zh": "用 Cartesia Voices 免费朗读",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lisen",
+        "product_link": "https://www.producthunt.com/r/p/1258888?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TourKit",
+        "slug": "tourkit",
+        "desc": "Lightweight product tours with a hosted dashboard",
+        "desc_zh": "带有托管仪表板的轻量级产品之旅",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tourkit",
+        "product_link": "https://www.producthunt.com/r/p/1258050?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-23": [
@@ -878,6 +836,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/aks-ai",
         "product_link": "https://www.producthunt.com/r/p/1259309?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WapiSender",
+        "slug": "wapisender",
+        "desc": "Powerful WhatsApp automations with AI, visual flows and MCP",
+        "desc_zh": "具有 AI、视觉流和 MCP 的强大 WhatsApp 自动化",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wapisender",
+        "product_link": "https://www.producthunt.com/r/p/1259668?app_id=339",
         "source": "feed"
       }
     ],
@@ -1080,6 +1048,98 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/hyperdream",
         "product_link": "https://www.producthunt.com/r/p/1260296?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "layernote",
+        "slug": "layernote",
+        "desc": "Visual feedback on websites, Figma files, PDFs and images",
+        "desc_zh": "网站、Figma 文件、PDF 和图像上的视觉反馈",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/layernote",
+        "product_link": "https://www.producthunt.com/r/p/1260010?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "COOLDOWN",
+        "slug": "cooldown-5",
+        "desc": "A little pause before your next impulse purchase",
+        "desc_zh": "在您下一次冲动购买之前稍作停顿",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cooldown-5",
+        "product_link": "https://www.producthunt.com/r/p/1260062?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Markly",
+        "slug": "markly-3",
+        "desc": "A calm, native Markdown editor for your folders",
+        "desc_zh": "适合您文件夹的平静、原生 Markdown 编辑器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/markly-3",
+        "product_link": "https://www.producthunt.com/r/p/1260028?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Stimly",
+        "slug": "stimly",
+        "desc": "Real-time caffeine metabolism curve and bedtime estimate",
+        "desc_zh": "实时咖啡因代谢曲线和就寝时间估计",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stimly",
+        "product_link": "https://www.producthunt.com/r/p/1260571?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cutsio",
+        "slug": "cutsio",
+        "desc": "One video asset library shared with your whole team",
+        "desc_zh": "与整个团队共享一个视频资源库",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cutsio",
+        "product_link": "https://www.producthunt.com/r/p/1260345?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GitHub statistics · Velocity Radar",
+        "slug": "github-statistics-velocity-radar",
+        "desc": "Real GitHub momentum, including private repos & AI agents",
+        "desc_zh": "真正的 GitHub 势头，包括私人存储库和人工智能代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+        "product_link": "https://www.producthunt.com/r/p/1260000?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Forkest",
+        "slug": "forkest",
+        "desc": "Turn your GitHub contributions into a pixel-art garden",
+        "desc_zh": "将您的 GitHub 贡献变成像素艺术花园",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/forkest",
+        "product_link": "https://www.producthunt.com/r/p/1260525?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-09-25": [
+      {
+        "name": "GoodSocials",
+        "slug": "goodsocials",
+        "desc": "AI social media manager for LinkedIn. Only authentic content",
+        "desc_zh": "LinkedIn 的人工智能社交媒体经理。只做真实内容",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/goodsocials",
+        "product_link": "https://www.producthunt.com/r/p/1260932?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MakerMap",
+        "slug": "makermap",
+        "desc": "A living map of makers and what they’re building",
+        "desc_zh": "创客及其正在建造的产品的动态地图",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/makermap",
+        "product_link": "https://www.producthunt.com/r/p/1261392?app_id=339",
         "source": "feed"
       }
     ]
