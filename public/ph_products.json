@@ -1,188 +1,6 @@
 {
-  "updated_at": "2026-09-27T00:09:25",
+  "updated_at": "2026-09-28T00:13:24",
   "days": {
-    "2026-09-20": [
-      {
-        "name": "Jevtown",
-        "slug": "jevtown",
-        "desc": "10,000 AI readers react to your post before you publish it",
-        "desc_zh": "在您发布帖子之前，10,000 位 AI 读者会对您的帖子做出反应",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jevtown",
-        "product_link": "https://www.producthunt.com/r/p/1256567?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Milliseconds.ai",
-        "slug": "milliseconds-ai",
-        "desc": "Fast AI decisions on text and images, via one API",
-        "desc_zh": "通过一个 API 对文本和图像进行快速 AI 决策",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/milliseconds-ai",
-        "product_link": "https://www.producthunt.com/r/p/1256534?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "slop-grader",
-        "slug": "slop-grader",
-        "desc": "Jev-AI CLI tool that evaluates text against custom rulesets",
-        "desc_zh": "Jev-AI CLI 工具，根据自定义规则集评估文本",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/slop-grader",
-        "product_link": "https://www.producthunt.com/r/p/1256419?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cronhq",
-        "slug": "cronhq",
-        "desc": "Cron jobs that actually run",
-        "desc_zh": "实际运行的 Cron 作业",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cronhq",
-        "product_link": "https://www.producthunt.com/r/p/1256588?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Flicka",
-        "slug": "flicka",
-        "desc": "Launch-ready product demos, from a Chrome extension",
-        "desc_zh": "来自 Chrome 扩展的可立即启动的产品演示",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flicka",
-        "product_link": "https://www.producthunt.com/r/p/1256085?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Google Flow for iOS & Android",
-        "slug": "google",
-        "desc": "Google's AI creative studio now on mobile",
-        "desc_zh": "谷歌人工智能创意工作室现已登陆移动设备",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google",
-        "product_link": "https://www.producthunt.com/r/p/1256721?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Jev",
-        "slug": "jev-2",
-        "desc": "Fast, structured AI decisions for software automation",
-        "desc_zh": "用于软件自动化的快速、结构化人工智能决策",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jev-2",
-        "product_link": "https://www.producthunt.com/r/p/1256682?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SecAIQ Watch",
-        "slug": "secaiq-watch",
-        "desc": "What are your AI tools really doing on your machine?",
-        "desc_zh": "你的人工智能工具在你的机器上到底在做什么？",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/secaiq-watch",
-        "product_link": "https://www.producthunt.com/r/p/1256114?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NiubiGEO",
-        "slug": "niubigeo",
-        "desc": "Open-source AI visibility. Human-powered growth.",
-        "desc_zh": "开源人工智能可见性。人力成长。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/niubigeo",
-        "product_link": "https://www.producthunt.com/r/p/1256676?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OmniDICOM",
-        "slug": "omnidicom",
-        "desc": "DICOM viewing and metadata editing on Mac and Windows",
-        "desc_zh": "Mac 和 Windows 上的 DICOM 查看和元数据编辑",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omnidicom",
-        "product_link": "https://www.producthunt.com/r/p/1256713?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AppGrowthKit",
-        "slug": "appgrowthkit",
-        "desc": "Automate your App Store Screenshots and print money...",
-        "desc_zh": "自动化您的 App Store 屏幕截图并印钱...",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/appgrowthkit",
-        "product_link": "https://www.producthunt.com/r/p/1256103?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Plume",
-        "slug": "plume-11",
-        "desc": "Import your old CV, get a polished ATS-ready one in minutes",
-        "desc_zh": "导入您的旧简历，几分钟内即可获得一份经过精心设计的 ATS 就绪简历",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/plume-11",
-        "product_link": "https://www.producthunt.com/r/p/1256370?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Reeno",
-        "slug": "reeno",
-        "desc": "AI calls you randomly to practice speaking a new language",
-        "desc_zh": "AI 随机给你打电话来练习说一门新语言",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reeno",
-        "product_link": "https://www.producthunt.com/r/p/1256727?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Jev Wrapped",
-        "slug": "jev-wrapped",
-        "desc": "See how much of a Telegram channel is ads and clickbait",
-        "desc_zh": "查看 Telegram 频道中有多少是广告和点击诱饵",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jev-wrapped",
-        "product_link": "https://www.producthunt.com/r/p/1256824?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Solid",
-        "slug": "solid-3",
-        "desc": "Agents with their own computers, accounts, and budgets.",
-        "desc_zh": "代理拥有自己的计算机、账户和预算。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/solid-3",
-        "product_link": "https://www.producthunt.com/r/p/1256789?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FRCTL",
-        "slug": "frctl",
-        "desc": "Mind-Bending Media and Live Visuals",
-        "desc_zh": "令人费解的媒体和现场视觉效果",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/frctl",
-        "product_link": "https://www.producthunt.com/r/p/1256763?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OmniNotch",
-        "slug": "omninotch",
-        "desc": "The notch that does it all!",
-        "desc_zh": "做到这一切的缺口！",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omninotch",
-        "product_link": "https://www.producthunt.com/r/p/1256549?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Split",
-        "slug": "split-9",
-        "desc": "Resize connected Mac windows together, with live content",
-        "desc_zh": "通过实时内容调整连接的 Mac 窗口的大小",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/split-9",
-        "product_link": "https://www.producthunt.com/r/p/1256360?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-21": [
       {
         "name": "Valori",
@@ -493,6 +311,16 @@
         "ph_link": "https://www.producthunt.com/products/polyglot-5",
         "product_link": "https://www.producthunt.com/r/p/1257552?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Superhuman Go",
+        "slug": "superhuman-go",
+        "desc": "The AI assistant that works where you do",
+        "desc_zh": "随时随地工作的人工智能助手",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/superhuman-go",
+        "product_link": "https://www.producthunt.com/r/p/1257863?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-22": [
@@ -694,6 +522,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/tourkit",
         "product_link": "https://www.producthunt.com/r/p/1258050?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GPT-6 Sol & Luna",
+        "slug": "openai",
+        "desc": "Frontier AI intelligence, now at half the price",
+        "desc_zh": "前沿AI智能，现半价",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1258630?app_id=339",
         "source": "feed"
       }
     ],
