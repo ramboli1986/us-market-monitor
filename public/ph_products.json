@@ -1,88 +1,6 @@
 {
-  "updated_at": "2026-10-02T01:17:59",
+  "updated_at": "2026-10-03T00:55:26",
   "days": {
-    "2026-09-25": [
-      {
-        "name": "GoodSocials",
-        "slug": "goodsocials",
-        "desc": "AI social media manager for LinkedIn. Only authentic content",
-        "desc_zh": "LinkedIn 的人工智能社交媒体经理。只做真实内容",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/goodsocials",
-        "product_link": "https://www.producthunt.com/r/p/1260932?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MakerMap",
-        "slug": "makermap",
-        "desc": "A living map of makers and what they’re building",
-        "desc_zh": "创客及其正在建造的产品的动态地图",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/makermap",
-        "product_link": "https://www.producthunt.com/r/p/1261392?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Zerg Router",
-        "slug": "zerg-router",
-        "desc": "Run DeepSeek in Codex",
-        "desc_zh": "在 Codex 中运行 DeepSeek",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zerg-router",
-        "product_link": "https://www.producthunt.com/r/p/1260789?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Vitals ",
-        "slug": "vitals-3",
-        "desc": "A Mac activity monitor that thinks in apps, not processes",
-        "desc_zh": "Mac 活动监视器以应用程序而非进程的方式进行思考",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vitals-3",
-        "product_link": "https://www.producthunt.com/r/p/1261326?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Microsoft Copilot",
-        "slug": "microsoft-copilot",
-        "desc": "The Al built for work",
-        "desc_zh": "Al 专为工作而打造",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/microsoft-copilot",
-        "product_link": "https://www.producthunt.com/r/p/1261279?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ZenABM",
-        "slug": "zena-by-zenabm-linkedin-ads-ai-chatbot",
-        "desc": "Create, optimize & report on LinkedIn Ads from any AI tool",
-        "desc_zh": "通过任何 AI 工具创建、优化和报告 LinkedIn 广告",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zena-by-zenabm-linkedin-ads-ai-chatbot",
-        "product_link": "https://www.producthunt.com/r/p/1261365?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Styx",
-        "slug": "styx-2",
-        "desc": "An agentic development environment (ADE) for Mac",
-        "desc_zh": "适用于 Mac 的代理开发环境 (ADE)",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/styx-2",
-        "product_link": "https://www.producthunt.com/r/p/1260993?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Bruto",
-        "slug": "bruto",
-        "desc": "A task board that lives in your repo, for you and your AI",
-        "desc_zh": "A task board that lives in your repo, for you and your AI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bruto",
-        "product_link": "https://www.producthunt.com/r/p/1261028?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-09-27": [
       {
         "name": "Lattice",
@@ -537,6 +455,36 @@
         "ph_link": "https://www.producthunt.com/products/otter-vault",
         "product_link": "https://www.producthunt.com/r/p/1264225?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "WMail",
+        "slug": "wmail-3",
+        "desc": "Beautifully native iPhone app for Fastmail",
+        "desc_zh": "精美的 Fastmail 原生 iPhone 应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wmail-3",
+        "product_link": "https://www.producthunt.com/r/p/1263186?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cue by Manus",
+        "slug": "cue-by-manus",
+        "desc": "Personal agents with identity, handling life end to end",
+        "desc_zh": "有身份的私人代理人，端到端处理人生",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cue-by-manus",
+        "product_link": "https://www.producthunt.com/r/p/1263902?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Eleven v4 and Eleven v4 Turbo",
+        "slug": "eleven-v4-and-eleven-v4-turbo",
+        "desc": "Elevenlabs' fastest and most emotive voice models yet",
+        "desc_zh": "Elevenlabs 迄今为止最快、最情绪化的语音模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo",
+        "product_link": "https://www.producthunt.com/r/p/1263860?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-29": [
@@ -849,6 +797,66 @@
         "ph_link": "https://www.producthunt.com/products/deepseek",
         "product_link": "https://www.producthunt.com/r/p/1265166?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "JarvisCore",
+        "slug": "jarviscore",
+        "desc": "Build agents as peers in a mesh network with zero-trust",
+        "desc_zh": "在零信任的网状网络中将代理构建为对等体",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/jarviscore",
+        "product_link": "https://www.producthunt.com/r/p/1265272?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gauth Unlimited Digital Canvas",
+        "slug": "gauth-ai-course",
+        "desc": "An AI tutor on an infinite whiteboard, not a chat thread",
+        "desc_zh": "无限白板上的人工智能导师，而不是聊天线程",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gauth-ai-course",
+        "product_link": "https://www.producthunt.com/r/p/1264587?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sayonic",
+        "slug": "sayonic",
+        "desc": "A voice assistant in your Mac's notch that does the task",
+        "desc_zh": "Mac 上的语音助手可以完成这项任务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sayonic",
+        "product_link": "https://www.producthunt.com/r/p/1264332?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mintlify Desktop",
+        "slug": "mintlify",
+        "desc": "An AI-native app for writing documentation and knowledge",
+        "desc_zh": "用于编写文档和知识的 AI 原生应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mintlify",
+        "product_link": "https://www.producthunt.com/r/p/1265120?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Audryo",
+        "slug": "audryo",
+        "desc": "Customer email your agent can operate.",
+        "desc_zh": "您的代理可以操作的客户电子邮件。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/audryo",
+        "product_link": "https://www.producthunt.com/r/p/1264836?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Globestudio",
+        "slug": "globestudio",
+        "desc": "Open-source dotted maps and 3D globes for designers",
+        "desc_zh": "为设计师提供的开源点状地图和 3D 地球仪",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/globestudio",
+        "product_link": "https://www.producthunt.com/r/p/1264308?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-30": [
@@ -980,6 +988,208 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/helo-2",
         "product_link": "https://www.producthunt.com/r/p/1266002?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lloyal",
+        "slug": "lloyal",
+        "desc": "Turn open-weight models into AI apps people can download",
+        "desc_zh": "将开放权重模型转变为人们可以下载的人工智能应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lloyal",
+        "product_link": "https://www.producthunt.com/r/p/1265797?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Moxie",
+        "slug": "moxie-2",
+        "desc": "Use any AI with Claude Code, switch accounts mid-task",
+        "desc_zh": "将任何 AI 与 Claude Code 结合使用，在任务中切换帐户",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/moxie-2",
+        "product_link": "https://www.producthunt.com/r/p/1266319?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WeftCut",
+        "slug": "weftcut",
+        "desc": "The open-source video editor your AI agent can drive",
+        "desc_zh": "您的 AI 代理可以驱动的开源视频编辑器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/weftcut",
+        "product_link": "https://www.producthunt.com/r/p/1266067?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "slash-editor",
+        "slug": "slash-editor",
+        "desc": "Notion-style block editor for React. MIT, UI you own",
+        "desc_zh": "React 的概念式块编辑器。麻省理工学院，你拥有的用户界面",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/slash-editor",
+        "product_link": "https://www.producthunt.com/r/p/1265755?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "esigna",
+        "slug": "esigna",
+        "desc": "A design studio for your email signature",
+        "desc_zh": "为您的电子邮件签名设计工作室",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/esigna",
+        "product_link": "https://www.producthunt.com/r/p/1265835?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-01": [
+      {
+        "name": "Clef",
+        "slug": "cloudflare-clef",
+        "desc": "Open-source decision models from Cloudflare",
+        "desc_zh": "Cloudflare 的开源决策模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cloudflare-clef",
+        "product_link": "https://www.producthunt.com/r/p/1267041?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Anthroposcaper",
+        "slug": "anthroposcaper",
+        "desc": "Tag a 2D plan, get a 3D urban environment model",
+        "desc_zh": "标记 2D 规划，获取 3D 城市环境模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/anthroposcaper",
+        "product_link": "https://www.producthunt.com/r/p/1266710?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Codync",
+        "slug": "codync",
+        "desc": "The open-source alternative to Grok Bot, Muse and Dots",
+        "desc_zh": "Grok Bot、Muse 和 Dots 的开源替代品",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codync",
+        "product_link": "https://www.producthunt.com/r/p/1267264?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Never Boring AI",
+        "slug": "never-boring-ai",
+        "desc": "The AI agent that writes your LinkedIn posts in your voice",
+        "desc_zh": "AI 代理可以用您的声音撰写您的 LinkedIn 帖子",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/never-boring-ai",
+        "product_link": "https://www.producthunt.com/r/p/1266544?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Earlyn",
+        "slug": "earlyn",
+        "desc": "Searchable memory of your screen and meetings, on your Mac",
+        "desc_zh": "Mac 上的屏幕和会议的可搜索内存",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/earlyn",
+        "product_link": "https://www.producthunt.com/r/p/1267170?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Communicate",
+        "slug": "communicate",
+        "desc": "AI support agents grounded in your knowledge, with handoff",
+        "desc_zh": "人工智能支持代理以您的知识为基础，并进行交接",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/communicate",
+        "product_link": "https://www.producthunt.com/r/p/1266380?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GitSync",
+        "slug": "gitsync",
+        "desc": "Sync branches between GitHub repos, right from Chrome",
+        "desc_zh": "直接从 Chrome 同步 GitHub 存储库之间的分支",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gitsync",
+        "product_link": "https://www.producthunt.com/r/p/1267063?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Halo",
+        "slug": "halo-11",
+        "desc": "Dynamic Island for Mac, plus external monitor control",
+        "desc_zh": "适用于 Mac 的 Dynamic Island 以及外部显示器控制",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/halo-11",
+        "product_link": "https://www.producthunt.com/r/p/1266706?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ShipHQ",
+        "slug": "shiphq",
+        "desc": "Build your own app studio, powered by your real apps",
+        "desc_zh": "构建您自己的应用程序工作室，由您的真实应用程序提供支持",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shiphq",
+        "product_link": "https://www.producthunt.com/r/p/1266859?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "CodeAF",
+        "slug": "codeaf",
+        "desc": "Open Source Software Factory",
+        "desc_zh": "开源软件工厂",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codeaf",
+        "product_link": "https://www.producthunt.com/r/p/1266853?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pastily",
+        "slug": "pastily",
+        "desc": "Your clipboard but better",
+        "desc_zh": "你的剪贴板但更好",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pastily",
+        "product_link": "https://www.producthunt.com/r/p/1266528?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Finbar",
+        "slug": "finbar-2",
+        "desc": "Agentic investment research",
+        "desc_zh": "代理投资研究",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/finbar-2",
+        "product_link": "https://www.producthunt.com/r/p/1266839?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Open Inspector",
+        "slug": "open-inspector",
+        "desc": "Hover any website, get its design system. Open-source. Free.",
+        "desc_zh": "将鼠标悬停在任何网站上，获取其设计系统。开源。自由的。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/open-inspector",
+        "product_link": "https://www.producthunt.com/r/p/1266705?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bambu Lab R1",
+        "slug": "bambu-lab-r1",
+        "desc": "CO2 laser cutting with Bambu-style automation",
+        "desc_zh": "采用 Bambu 式自动化技术的 CO2 激光切割",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bambu-lab-r1",
+        "product_link": "https://www.producthunt.com/r/p/1266817?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wu",
+        "slug": "wu",
+        "desc": "Fast, native code editor in Rust that feels like VS Code",
+        "desc_zh": "Rust 中的快速本机代码编辑器，感觉就像 VS Code",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wu",
+        "product_link": "https://www.producthunt.com/r/p/1266654?app_id=339",
         "source": "feed"
       }
     ]
