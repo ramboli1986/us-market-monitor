@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T00:55:26",
+  "updated_at": "2026-10-04T00:20:41",
   "days": {
     "2026-09-27": [
       {
@@ -151,57 +151,15 @@
         "ph_link": "https://www.producthunt.com/products/squint",
         "product_link": "https://www.producthunt.com/r/p/1262837?app_id=339",
         "source": "feed"
-      }
-    ],
-    "2026-09-26": [
-      {
-        "name": "vantage.ai",
-        "slug": "vantage-ai-2",
-        "desc": "See and control what your coding agent does.",
-        "desc_zh": "查看并控制您的编码代理的行为。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vantage-ai-2",
-        "product_link": "https://www.producthunt.com/r/p/1261662?app_id=339",
-        "source": "feed"
       },
       {
-        "name": "Ryu Journal",
-        "slug": "ryu-journal",
-        "desc": "A journal to help busy minds let go",
-        "desc_zh": "一本帮助忙碌的头脑放空的日记",
+        "name": "una mano",
+        "slug": "una-mano",
+        "desc": "A familiar iPhone keyboard that moves to your thumb",
+        "desc_zh": "熟悉的 iPhone 键盘可移动至拇指",
         "image": "",
-        "ph_link": "https://www.producthunt.com/products/ryu-journal",
-        "product_link": "https://www.producthunt.com/r/p/1262216?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OpenScience",
-        "slug": "openscience",
-        "desc": "The open-source AI workbench for scientific research",
-        "desc_zh": "用于科学研究的开源人工智能工作台",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openscience",
-        "product_link": "https://www.producthunt.com/r/p/1261821?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GroupShelf",
-        "slug": "groupshelf",
-        "desc": "Tabs for every window on your Mac",
-        "desc_zh": "Mac 上每个窗口的选项卡",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/groupshelf",
-        "product_link": "https://www.producthunt.com/r/p/1261903?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FFFFinder",
-        "slug": "ffffinder",
-        "desc": "Browse images and videos across folders in one grid",
-        "desc_zh": "在一个网格中跨文件夹浏览图像和视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ffffinder",
-        "product_link": "https://www.producthunt.com/r/p/1261850?app_id=339",
+        "ph_link": "https://www.producthunt.com/products/una-mano",
+        "product_link": "https://www.producthunt.com/r/p/1262324?app_id=339",
         "source": "feed"
       }
     ],
@@ -484,6 +442,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/eleven-v4-and-eleven-v4-turbo",
         "product_link": "https://www.producthunt.com/r/p/1263860?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FeelMyMac",
+        "slug": "feelmymac",
+        "desc": "Lets you feel different textures through your Mac’s trackpad",
+        "desc_zh": "让您通过 Mac 的触控板感受不同的纹理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/feelmymac",
+        "product_link": "https://www.producthunt.com/r/p/1263873?app_id=339",
         "source": "feed"
       }
     ],
@@ -857,6 +825,46 @@
         "ph_link": "https://www.producthunt.com/products/globestudio",
         "product_link": "https://www.producthunt.com/r/p/1264308?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Prefer",
+        "slug": "prefer-2",
+        "desc": "The execution layer for AEO",
+        "desc_zh": "AEO的执行层",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/prefer-2",
+        "product_link": "https://www.producthunt.com/r/p/1264658?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cubicle",
+        "slug": "cubicle-2",
+        "desc": "A live office for your AI agents, read-only by design",
+        "desc_zh": "人工智能代理的实时办公室，设计为只读",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cubicle-2",
+        "product_link": "https://www.producthunt.com/r/p/1264987?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "bawkterm",
+        "slug": "bawkterm-an-open-source-ssh-sftp-client",
+        "desc": "A desktop client for SSH, SFTP, Docker over SSH",
+        "desc_zh": "用于 SSH、SFTP、Docker over SSH 的桌面客户端",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bawkterm-an-open-source-ssh-sftp-client",
+        "product_link": "https://www.producthunt.com/r/p/1264763?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OTPfill",
+        "slug": "otpfill",
+        "desc": "Autofill OTP codes from your email on Mac",
+        "desc_zh": "在 Mac 上自动填充电子邮件中的 OTP 代码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/otpfill",
+        "product_link": "https://www.producthunt.com/r/p/1264362?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-09-30": [
@@ -1039,6 +1047,26 @@
         "ph_link": "https://www.producthunt.com/products/esigna",
         "product_link": "https://www.producthunt.com/r/p/1265835?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Thanor AI",
+        "slug": "thanor-ai",
+        "desc": "Make your AI-built sites look expensive and not like slop",
+        "desc_zh": "让您的人工智能构建的网站看起来昂贵而不是垃圾",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/thanor-ai",
+        "product_link": "https://www.producthunt.com/r/p/1266098?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agent Activity",
+        "slug": "agent-activity",
+        "desc": "See what your AI agents do behind",
+        "desc_zh": "看看你的人工智能代理在背后做什么",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agent-activity",
+        "product_link": "https://www.producthunt.com/r/p/1265885?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-01": [
@@ -1190,6 +1218,108 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/wu",
         "product_link": "https://www.producthunt.com/r/p/1266654?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Singularity",
+        "slug": "singularity-2",
+        "desc": "Run AI coding agents in parallel, one ticket at a time",
+        "desc_zh": "并行运行 AI 编码代理，一次一张票",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/singularity-2",
+        "product_link": "https://www.producthunt.com/r/p/1266692?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "bmux",
+        "slug": "bmux",
+        "desc": "Browser multiplexer for the agentic era",
+        "desc_zh": "代理时代的浏览器多路复用器",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bmux",
+        "product_link": "https://www.producthunt.com/r/p/1266609?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Crowny!",
+        "slug": "crowny-2",
+        "desc": "Claude Code, Codex, music, your day & 20+ apps in your notch",
+        "desc_zh": "Claude Code、Codex、音乐、您的一天以及 20 多个适合您的应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/crowny-2",
+        "product_link": "https://www.producthunt.com/r/p/1266347?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FoundrRadio",
+        "slug": "foundrradio",
+        "desc": "Pick a frequency, launch your radio station and go on air",
+        "desc_zh": "选择一个频率，启动您的广播电台并开始广播",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/foundrradio",
+        "product_link": "https://www.producthunt.com/r/p/1266483?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-02": [
+      {
+        "name": "Muse Gadgets",
+        "slug": "muse-22",
+        "desc": "Meta's open-source kit for building your own AI gadgets",
+        "desc_zh": "Meta 的开源套件，用于构建您自己的 AI 小工具",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/muse-22",
+        "product_link": "https://www.producthunt.com/r/p/1268160?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Reassign",
+        "slug": "reassign",
+        "desc": "Your day, shaped into a story. The planner for makers",
+        "desc_zh": "你的一天，被塑造成一个故事。创客的规划师",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/reassign",
+        "product_link": "https://www.producthunt.com/r/p/1268072?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Yubi",
+        "slug": "yubi-2",
+        "desc": "Talk to your Mac and let Yubi do the typing",
+        "desc_zh": "与您的 Mac 对话并让 Yubi 进行打字",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/yubi-2",
+        "product_link": "https://www.producthunt.com/r/p/1267846?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kindle 2026",
+        "slug": "kindle-2026",
+        "desc": "A smaller, faster Kindle with a flush-front display",
+        "desc_zh": "更小、更快、配备齐平显示屏的 Kindle",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kindle-2026",
+        "product_link": "https://www.producthunt.com/r/p/1267818?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "eu/jev",
+        "slug": "bevel-software",
+        "desc": "The first Jev-like model hosted in the EU",
+        "desc_zh": "第一个在欧盟托管的类似 Jev 的模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bevel-software",
+        "product_link": "https://www.producthunt.com/r/p/1267705?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sapien",
+        "slug": "sapien-4",
+        "desc": "AI market research with synthetic populations",
+        "desc_zh": "人工合成人群的人工智能市场研究",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sapien-4",
+        "product_link": "https://www.producthunt.com/r/p/1268165?app_id=339",
         "source": "feed"
       }
     ]
