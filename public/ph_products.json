@@ -1,198 +1,6 @@
 {
-  "updated_at": "2026-10-10T01:30:44",
+  "updated_at": "2026-10-11T00:41:55",
   "days": {
-    "2026-10-03": [
-      {
-        "name": "LaunchReel",
-        "slug": "launchreel-2",
-        "desc": "claude design but for editing professional videos faster.",
-        "desc_zh": "克劳德设计，但用于更快地编辑专业视频。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/launchreel-2",
-        "product_link": "https://www.producthunt.com/r/p/1268906?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Capybara Court",
-        "slug": "capybara-court",
-        "desc": "Tiny disputes, gently settled by a capybara judge",
-        "desc_zh": "小小的纠纷，由水豚法官温和解决",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/capybara-court",
-        "product_link": "https://www.producthunt.com/r/p/1268853?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Thinking Orbs",
-        "slug": "thinking-orbs",
-        "desc": "Animated AI Status Indicator Component Library for React",
-        "desc_zh": "React 动画 AI 状态指示器组件库",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/thinking-orbs",
-        "product_link": "https://www.producthunt.com/r/p/1268339?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Smooth Recorder",
-        "slug": "smooth-recorder",
-        "desc": "Mac screen recordings that look edited when you hit stop",
-        "desc_zh": "当您按下“停止”按钮时，Mac 屏幕录制看起来已被编辑过",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/smooth-recorder",
-        "product_link": "https://www.producthunt.com/r/p/1268802?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Poddle",
-        "slug": "poddle-3",
-        "desc": "Swing your phone, play pickleball on any computer!",
-        "desc_zh": "挥动你的手机，在任何电脑上玩匹克球！",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/poddle-3",
-        "product_link": "https://www.producthunt.com/r/p/1269060?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Aperture",
-        "slug": "aperture-7",
-        "desc": "An AI code editor that checks its own work",
-        "desc_zh": "一个可以检查自己工作的人工智能代码编辑器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/aperture-7",
-        "product_link": "https://www.producthunt.com/r/p/1268851?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Eat Train Feel",
-        "slug": "eat-train-feel",
-        "desc": "A coach for you Workouts, food, and how you feel",
-        "desc_zh": "适合您的教练 锻炼、食物和您的感受",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/eat-train-feel",
-        "product_link": "https://www.producthunt.com/r/p/1268362?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NotchMate",
-        "slug": "notchmate",
-        "desc": "Makes your Notch more fun, interactive and useful.",
-        "desc_zh": "让您的 Notch 更有趣、更具互动性且更实用。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notchmate",
-        "product_link": "https://www.producthunt.com/r/p/1268847?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FlexChords",
-        "slug": "flexchords",
-        "desc": "Turn any YouTube video into accurate, playable guitar chords",
-        "desc_zh": "将任何 YouTube 视频转换为准确、可演奏的吉他和弦",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flexchords",
-        "product_link": "https://www.producthunt.com/r/p/1268520?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Sellio",
-        "slug": "sellio-2",
-        "desc": "AI customer support in one shared inbox powered by AI agents",
-        "desc_zh": "由 AI 代理提供支持的一个共享收件箱中的 AI 客户支持",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sellio-2",
-        "product_link": "https://www.producthunt.com/r/p/1268954?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Reactive Resume v6",
-        "slug": "reactive-resume",
-        "desc": "A free and open-source resume builder",
-        "desc_zh": "免费开源简历生成器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reactive-resume",
-        "product_link": "https://www.producthunt.com/r/p/1268970?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Netra",
-        "slug": "netra",
-        "desc": "A watchful notch with tools to keep you focused",
-        "desc_zh": "带有让您集中注意力的工具的警惕缺口",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/netra",
-        "product_link": "https://www.producthunt.com/r/p/1268919?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Unscary AI",
-        "slug": "unscary-ai",
-        "desc": "Short lessons help you stop feeling behind on AI.",
-        "desc_zh": "简短的课程可以帮助您不再在人工智能方面感到落后。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/unscary-ai",
-        "product_link": "https://www.producthunt.com/r/p/1268781?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Ranktune",
-        "slug": "ranktune",
-        "desc": "Track AI visibility, citations, and referral traffic",
-        "desc_zh": "跟踪 AI 可见性、引用和推荐流量",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ranktune",
-        "product_link": "https://www.producthunt.com/r/p/1268762?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Haptiker",
-        "slug": "haptiker",
-        "desc": "Volume, brightness and keyboard light on your trackpad edges",
-        "desc_zh": "触控板边缘的音量、亮度和键盘灯",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/haptiker",
-        "product_link": "https://www.producthunt.com/r/p/1268514?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Awakado",
-        "slug": "awakado",
-        "desc": "Keep your Mac awake while your AI agents work",
-        "desc_zh": "当您的 AI 代理工作时，让您的 Mac 保持清醒状态",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/awakado",
-        "product_link": "https://www.producthunt.com/r/p/1268302?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Thalia",
-        "slug": "thalia",
-        "desc": "Plan, approve and review your Muse Code agent on Mac",
-        "desc_zh": "在 Mac 上规划、批准和审查您的 Muse Code 代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/thalia",
-        "product_link": "https://www.producthunt.com/r/p/1268692?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Linda",
-        "slug": "linda",
-        "desc": "Your local AI coworker for the Mac, like Dots but free!",
-        "desc_zh": "适用于 Mac 的本地 AI 同事，类似于 Dots，但免费！",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/linda",
-        "product_link": "https://www.producthunt.com/r/p/1268622?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Moonwalkers Dusk",
-        "slug": "moonwalkers-dusk",
-        "desc": "Strap-on motorized wheels that let you walk twice as fast",
-        "desc_zh": "绑带式电动轮让您的行走速度提高两倍",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/moonwalkers-dusk",
-        "product_link": "https://www.producthunt.com/r/p/1268445?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-04": [
       {
         "name": "Pilot5 Legal",
@@ -382,6 +190,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/redlamp",
         "product_link": "https://www.producthunt.com/r/p/1269194?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pawse",
+        "slug": "pawse-2",
+        "desc": "A cute 3D pet that reminds you to drink water & take breaks",
+        "desc_zh": "A cute 3D pet that reminds you to drink water & take breaks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pawse-2",
+        "product_link": "https://www.producthunt.com/r/p/1270088?app_id=339",
         "source": "feed"
       }
     ],
@@ -725,6 +543,26 @@
         "ph_link": "https://www.producthunt.com/products/together-ai",
         "product_link": "https://www.producthunt.com/r/p/1270798?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Naarchy",
+        "slug": "naarchy",
+        "desc": "A little island for everything on your Linux desktop",
+        "desc_zh": "A little island for everything on your Linux desktop",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/naarchy",
+        "product_link": "https://www.producthunt.com/r/p/1270450?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rank Kiwi",
+        "slug": "rank-kiwi",
+        "desc": "Find top-performing content on Instagram & YouTube",
+        "desc_zh": "Find top-performing content on Instagram & YouTube",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rank-kiwi",
+        "product_link": "https://www.producthunt.com/r/p/1270839?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-06": [
@@ -996,6 +834,46 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/ambiguous-workspace",
         "product_link": "https://www.producthunt.com/r/p/1272323?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AdsNotch",
+        "slug": "adsnotch",
+        "desc": "Turn your Mac’s screen into ad space and earn money",
+        "desc_zh": "Turn your Mac’s screen into ad space and earn money",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/adsnotch",
+        "product_link": "https://www.producthunt.com/r/p/1271918?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Notchzy",
+        "slug": "notchzy-dynamic-island-for-windows",
+        "desc": "Interactive dynamic island for windows",
+        "desc_zh": "Interactive dynamic island for windows",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notchzy-dynamic-island-for-windows",
+        "product_link": "https://www.producthunt.com/r/p/1271803?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Isly",
+        "slug": "isly",
+        "desc": "Your MacBook notch, brought to life.",
+        "desc_zh": "Your MacBook notch, brought to life.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/isly",
+        "product_link": "https://www.producthunt.com/r/p/1272046?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Baby Desk",
+        "slug": "baby-desk",
+        "desc": "Let your baby smash the keyboard and your work stays safe",
+        "desc_zh": "Let your baby smash the keyboard and your work stays safe",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/baby-desk",
+        "product_link": "https://www.producthunt.com/r/p/1271936?app_id=339",
         "source": "feed"
       }
     ],
@@ -1339,6 +1217,56 @@
         "ph_link": "https://www.producthunt.com/products/google-labs",
         "product_link": "https://www.producthunt.com/r/p/1273308?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Tuck",
+        "slug": "tuck-6",
+        "desc": "A tidy menu bar for macOS 27",
+        "desc_zh": "A tidy menu bar for macOS 27",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tuck-6",
+        "product_link": "https://www.producthunt.com/r/p/1272878?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Underplane",
+        "slug": "underplane-deleted-1312891",
+        "desc": "Spotting interception game",
+        "desc_zh": "Spotting interception game",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/underplane-deleted-1312891",
+        "product_link": "https://www.producthunt.com/r/p/1272814?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cue",
+        "slug": "cue-26",
+        "desc": "Put your AirPods in, your Mac starts focusing",
+        "desc_zh": "Put your AirPods in, your Mac starts focusing",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cue-26",
+        "product_link": "https://www.producthunt.com/r/p/1273350?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Museum of Models",
+        "slug": "museum-of-models",
+        "desc": "Every answer 371 AI models gave to the same questions",
+        "desc_zh": "Every answer 371 AI models gave to the same questions",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/museum-of-models",
+        "product_link": "https://www.producthunt.com/r/p/1273258?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hypervibe",
+        "slug": "hypervibe-2",
+        "desc": "Run your AI coding agents on one infinite board",
+        "desc_zh": "Run your AI coding agents on one infinite board",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hypervibe-2",
+        "product_link": "https://www.producthunt.com/r/p/1273218?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-08": [
@@ -1500,6 +1428,178 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/trophy-1-0",
         "product_link": "https://www.producthunt.com/r/p/1273924?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kitbar",
+        "slug": "kitbar",
+        "desc": "Your dev tools, in one bar.",
+        "desc_zh": "Your dev tools, in one bar.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kitbar",
+        "product_link": "https://www.producthunt.com/r/p/1273865?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "New Windows Search",
+        "slug": "new-windows-search",
+        "desc": "Windows Search now takes action, not just finds files",
+        "desc_zh": "Windows Search now takes action, not just finds files",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/new-windows-search",
+        "product_link": "https://www.producthunt.com/r/p/1274432?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-09": [
+      {
+        "name": "Letra",
+        "slug": "letra-3",
+        "desc": "Copy the text your Mac won’t let you select",
+        "desc_zh": "Copy the text your Mac won’t let you select",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/letra-3",
+        "product_link": "https://www.producthunt.com/r/p/1275218?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ej",
+        "slug": "ej-jev-but-for-edge-devices",
+        "desc": "An 11MB local model for typed decisions in one pass",
+        "desc_zh": "An 11MB local model for typed decisions in one pass",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+        "product_link": "https://www.producthunt.com/r/p/1275189?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Claude Dashboards & Motion",
+        "slug": "claude-dashboards-motion",
+        "desc": "Ask Claude for live dashboards and animated explainers",
+        "desc_zh": "Ask Claude for live dashboards and animated explainers",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/claude-dashboards-motion",
+        "product_link": "https://www.producthunt.com/r/p/1275017?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PixRater",
+        "slug": "pixrater",
+        "desc": "Cull and rate your photos faster",
+        "desc_zh": "Cull and rate your photos faster",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pixrater",
+        "product_link": "https://www.producthunt.com/r/p/1275319?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "put·here",
+        "slug": "put-here",
+        "desc": "A place to collect notes to organize them later",
+        "desc_zh": "A place to collect notes to organize them later",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/put-here",
+        "product_link": "https://www.producthunt.com/r/p/1275270?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PocketWebTools for Mac",
+        "slug": "pocketwebtools",
+        "desc": "Local AI chat, transcription and video tools in one Mac app",
+        "desc_zh": "Local AI chat, transcription and video tools in one Mac app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pocketwebtools",
+        "product_link": "https://www.producthunt.com/r/p/1274581?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AgentDock",
+        "slug": "agentdock",
+        "desc": "Answer Claude Code & Codex from one Inbox, in any terminal",
+        "desc_zh": "Answer Claude Code & Codex from one Inbox, in any terminal",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agentdock",
+        "product_link": "https://www.producthunt.com/r/p/1275300?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "KernelAI",
+        "slug": "kernelai",
+        "desc": "Private, offline AI for iPhone and Android",
+        "desc_zh": "Private, offline AI for iPhone and Android",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kernelai",
+        "product_link": "https://www.producthunt.com/r/p/1275112?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "History Monk",
+        "slug": "history-monk-better-history-search",
+        "desc": "Fast History Search, Export & Bulk Delete",
+        "desc_zh": "Fast History Search, Export & Bulk Delete",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/history-monk-better-history-search",
+        "product_link": "https://www.producthunt.com/r/p/1275117?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GitGlow",
+        "slug": "gitglow-2",
+        "desc": "Review your code and your agents' changes before you ship",
+        "desc_zh": "Review your code and your agents' changes before you ship",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gitglow-2",
+        "product_link": "https://www.producthunt.com/r/p/1274980?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TapNoise",
+        "slug": "tapnoise",
+        "desc": "A tiny desktop pet that reacts to every key you press",
+        "desc_zh": "A tiny desktop pet that reacts to every key you press",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tapnoise",
+        "product_link": "https://www.producthunt.com/r/p/1274592?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lune",
+        "slug": "lune-research",
+        "desc": "The search engine built for scientific AI agents",
+        "desc_zh": "The search engine built for scientific AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lune-research",
+        "product_link": "https://www.producthunt.com/r/p/1275490?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Maildun for Mac",
+        "slug": "maildun-for-mac",
+        "desc": "Design on-brand emails by hand, with AI, or over MCP",
+        "desc_zh": "Design on-brand emails by hand, with AI, or over MCP",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/maildun-for-mac",
+        "product_link": "https://www.producthunt.com/r/p/1275415?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Microsoft-Decision-1",
+        "slug": "microsoft-decision-1",
+        "desc": "Microsoft’s decision model for agents and workflows",
+        "desc_zh": "Microsoft’s decision model for agents and workflows",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/microsoft-decision-1",
+        "product_link": "https://www.producthunt.com/r/p/1275196?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "The Computer Game",
+        "slug": "the-computer-game",
+        "desc": "Build the best computer, from stone tools to your own chips",
+        "desc_zh": "Build the best computer, from stone tools to your own chips",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-computer-game",
+        "product_link": "https://www.producthunt.com/r/p/1275148?app_id=339",
         "source": "feed"
       }
     ]
