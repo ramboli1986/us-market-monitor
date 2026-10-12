@@ -1,208 +1,6 @@
 {
-  "updated_at": "2026-10-11T00:41:55",
+  "updated_at": "2026-10-12T00:57:31",
   "days": {
-    "2026-10-04": [
-      {
-        "name": "Pilot5 Legal",
-        "slug": "pilot5-ai",
-        "desc": "Five AI models challenge every legal answer",
-        "desc_zh": "五种人工智能模型挑战每一个法律答案",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pilot5-ai",
-        "product_link": "https://www.producthunt.com/r/p/1269735?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "crosswalk",
-        "slug": "crosswalk",
-        "desc": "A third place for people & their agents, starting with inbox",
-        "desc_zh": "个人及其代理人的第三个地方，从收件箱开始",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/crosswalk",
-        "product_link": "https://www.producthunt.com/r/p/1269975?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Jarq",
-        "slug": "jarq",
-        "desc": "Translate, shorten, fix or rewrite any text near your cursor",
-        "desc_zh": "翻译、缩短、修复或重写光标附近的任何文本",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jarq",
-        "product_link": "https://www.producthunt.com/r/p/1269952?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "HyperFrames Studio (Desktop)",
-        "slug": "heygen",
-        "desc": "The First Video Editor built for Agents",
-        "desc_zh": "第一个专为特工打造的视频编辑器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/heygen",
-        "product_link": "https://www.producthunt.com/r/p/1270060?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Spira Maxima",
-        "slug": "spira-ai",
-        "desc": "Video model that turns script into viral social media videos",
-        "desc_zh": "将脚本转化为病毒式社交媒体视频的视频模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/spira-ai",
-        "product_link": "https://www.producthunt.com/r/p/1269915?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SpeechShield",
-        "slug": "speechshield",
-        "desc": "Live interview & meeting copilot for Mac, from your resume",
-        "desc_zh": "Mac 版现场面试和会议副驾驶，来自您的简历",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/speechshield",
-        "product_link": "https://www.producthunt.com/r/p/1269546?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Chain Exchange",
-        "slug": "chain-exchange",
-        "desc": "Trade, bridge and move stablecoins across Arc",
-        "desc_zh": "在 Arc 上交易、桥接和转移稳定币",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chain-exchange",
-        "product_link": "https://www.producthunt.com/r/p/1269399?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Xtracticle",
-        "slug": "xtracticle",
-        "desc": "Save X Articles and threads as PDF, Markdown or EPUB",
-        "desc_zh": "将 X 篇文章和主题另存为 PDF、Markdown 或 EPUB",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/xtracticle",
-        "product_link": "https://www.producthunt.com/r/p/1269354?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Reviu",
-        "slug": "reviu",
-        "desc": "The review app for code your agent writes",
-        "desc_zh": "用于检查您的代理编写的代码的应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reviu",
-        "product_link": "https://www.producthunt.com/r/p/1269566?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "iLand",
-        "slug": "iland",
-        "desc": "Turn your Mac's notch into an everyday workspace",
-        "desc_zh": "将 Mac 的刘海变成日常工作空间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/iland",
-        "product_link": "https://www.producthunt.com/r/p/1269199?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Marv",
-        "slug": "marv-3",
-        "desc": "An AI cursor companion that shows you what to click",
-        "desc_zh": "人工智能光标伴侣，向您展示要点击的内容",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/marv-3",
-        "product_link": "https://www.producthunt.com/r/p/1269907?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Web Search API",
-        "slug": "cloudflare",
-        "desc": "Give AI Agents Access to Live Internet Data",
-        "desc_zh": "让人工智能代理访问实时互联网数据",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cloudflare",
-        "product_link": "https://www.producthunt.com/r/p/1269667?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dots UI",
-        "slug": "dots-ui",
-        "desc": "A React library for morphable particle interfaces",
-        "desc_zh": "用于可变形粒子界面的 React 库",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dots-ui",
-        "product_link": "https://www.producthunt.com/r/p/1269560?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Lecta",
-        "slug": "lecta",
-        "desc": "Doomscroll your study material with short videos & games",
-        "desc_zh": "Doomscroll 通过短视频和游戏来滚动您的学习材料",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lecta",
-        "product_link": "https://www.producthunt.com/r/p/1269944?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "The Sentient World",
-        "slug": "the-sentient-world",
-        "desc": "A living world of AI characters. You can only watch.",
-        "desc_zh": "人工智能角色的生动世界。你只能观看。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/the-sentient-world",
-        "product_link": "https://www.producthunt.com/r/p/1269498?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Patchcord",
-        "slug": "patchcord-2",
-        "desc": "Studio sound for your mic in every Mac meeting with EQ",
-        "desc_zh": "在每次 Mac 会议中使用 EQ 为您的麦克风提供录音室音效",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/patchcord-2",
-        "product_link": "https://www.producthunt.com/r/p/1269859?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Floani",
-        "slug": "floani",
-        "desc": "Create, animate, and share AI-powered diagrams",
-        "desc_zh": "创建、动画和共享人工智能驱动的图表",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/floani",
-        "product_link": "https://www.producthunt.com/r/p/1269926?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Rill Browser",
-        "slug": "rill-3",
-        "desc": "The browser where Claude Code and Codex work beside you",
-        "desc_zh": "Claude Code 和 Codex 在您身边工作的浏览器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/rill-3",
-        "product_link": "https://www.producthunt.com/r/p/1270095?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Redlamp",
-        "slug": "redlamp",
-        "desc": "Native, open-source RAW Lightroom alternative editor for Mac",
-        "desc_zh": "适用于 Mac 的本机开源 RAW Lightroom 替代编辑器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/redlamp",
-        "product_link": "https://www.producthunt.com/r/p/1269194?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pawse",
-        "slug": "pawse-2",
-        "desc": "A cute 3D pet that reminds you to drink water & take breaks",
-        "desc_zh": "A cute 3D pet that reminds you to drink water & take breaks",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pawse-2",
-        "product_link": "https://www.producthunt.com/r/p/1270088?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-05": [
       {
         "name": "Customer Service AI for Etsy",
@@ -562,6 +360,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/rank-kiwi",
         "product_link": "https://www.producthunt.com/r/p/1270839?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tori",
+        "slug": "tori-japanese-listening-srs",
+        "desc": "Japanese listening practice built from your own sentences",
+        "desc_zh": "根据自己的句子进行日语听力练习",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tori-japanese-listening-srs",
+        "product_link": "https://www.producthunt.com/r/p/1270608?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Poke Finder",
+        "slug": "poke-finder-catch-em-on-the-web",
+        "desc": "Catch Pokémon while you browse and complete your Pokédex.",
+        "desc_zh": "在浏览时捕捉神奇宝贝并完成您的神奇宝贝图鉴。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/poke-finder-catch-em-on-the-web",
+        "product_link": "https://www.producthunt.com/r/p/1270515?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ghost Core",
+        "slug": "ghost-core",
+        "desc": "A personal AI computer that runs entirely on-device",
+        "desc_zh": "完全在设备上运行的个人人工智能计算机",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ghost-core",
+        "product_link": "https://www.producthunt.com/r/p/1270791?app_id=339",
         "source": "feed"
       }
     ],
@@ -1267,6 +1095,56 @@
         "ph_link": "https://www.producthunt.com/products/hypervibe-2",
         "product_link": "https://www.producthunt.com/r/p/1273218?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Kooler",
+        "slug": "kooler-2",
+        "desc": "Find cocktails you can make with what's in your bar",
+        "desc_zh": "查找可以用酒吧里的东西制作的鸡尾酒",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kooler-2",
+        "product_link": "https://www.producthunt.com/r/p/1273235?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "kōdlo",
+        "slug": "kodlo",
+        "desc": "End-to-end sales workspace with unified context",
+        "desc_zh": "具有统一上下文的端到端销售工作区",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kodlo",
+        "product_link": "https://www.producthunt.com/r/p/1272499?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Unboom",
+        "slug": "unboom",
+        "desc": "Tames boomy room bass on your Mac without acoustic panels",
+        "desc_zh": "在无需隔音板的情况下，在 Mac 上抑制嗡嗡作响的室内低音",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/unboom",
+        "product_link": "https://www.producthunt.com/r/p/1272707?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NewMinecraftServers",
+        "slug": "newminecraftservers",
+        "desc": "Minecraft server discovery, analytics, & spoof detection.",
+        "desc_zh": "Minecraft 服务器发现、分析和欺骗检测。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/newminecraftservers",
+        "product_link": "https://www.producthunt.com/r/p/1272903?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "shippedit.me",
+        "slug": "shippedit-me",
+        "desc": "Launch Platform with SEO, AEO & Growth Insights",
+        "desc_zh": "推出具有 SEO、AEO 和增长见解的平台",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shippedit-me",
+        "product_link": "https://www.producthunt.com/r/p/1273246?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-08": [
@@ -1449,6 +1327,56 @@
         "ph_link": "https://www.producthunt.com/products/new-windows-search",
         "product_link": "https://www.producthunt.com/r/p/1274432?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Halo",
+        "slug": "halo-11",
+        "desc": "Notifications, dictation and AI agents in your Mac's notch",
+        "desc_zh": "Mac 中的通知、听写和 AI 代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/halo-11",
+        "product_link": "https://www.producthunt.com/r/p/1273549?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Edgee Mod for Claude Code",
+        "slug": "edgee",
+        "desc": "Use any model inside Claude Code, keep your Claude plan",
+        "desc_zh": "使用 Claude Code 中的任何模型，保留您的 Claude 计划",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/edgee",
+        "product_link": "https://www.producthunt.com/r/p/1273545?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SimpleSpread",
+        "slug": "simplespread",
+        "desc": "Native, open source Mac spreadsheet",
+        "desc_zh": "本机开源 Mac 电子表格",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/simplespread",
+        "product_link": "https://www.producthunt.com/r/p/1274334?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DevTerminal",
+        "slug": "devterminal",
+        "desc": "A macOS terminal with a Run button that knows your project",
+        "desc_zh": "具有了解您的项目的“运行”按钮的 macOS 终端",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/devterminal",
+        "product_link": "https://www.producthunt.com/r/p/1273845?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "KarmaBoard",
+        "slug": "karmaboard",
+        "desc": "A vintage split-flap message board for any TV",
+        "desc_zh": "适用于任何电视的老式分瓣留言板",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/karmaboard",
+        "product_link": "https://www.producthunt.com/r/p/1274214?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-09": [
@@ -1600,6 +1528,78 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/the-computer-game",
         "product_link": "https://www.producthunt.com/r/p/1275148?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FloorGen",
+        "slug": "floorgen",
+        "desc": "Draw the house, or just ask. Free floor plans with AI",
+        "desc_zh": "画出房子，或者只是问。人工智能免费平面图",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/floorgen",
+        "product_link": "https://www.producthunt.com/r/p/1275171?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-10": [
+      {
+        "name": "Gboard Kurukuru Version",
+        "slug": "google",
+        "desc": "Your fingers stay put. The keys come around",
+        "desc_zh": "你的手指保持不动。钥匙来了",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google",
+        "product_link": "https://www.producthunt.com/r/p/1276371?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Farol",
+        "slug": "farol-3",
+        "desc": "The macOS terminal that shows which coding agent needs you",
+        "desc_zh": "显示哪个编码代理需要您的 macOS 终端",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/farol-3",
+        "product_link": "https://www.producthunt.com/r/p/1275794?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FocusWrite",
+        "slug": "focuswrite",
+        "desc": "A local-first writing app with focus modes.",
+        "desc_zh": "具有焦点模式的本地优先写作应用程序。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/focuswrite",
+        "product_link": "https://www.producthunt.com/r/p/1275628?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agibot",
+        "slug": "agibot",
+        "desc": "The always-on personal AI agent for your Mac. $0 forever",
+        "desc_zh": "适用于您的 Mac 的始终在线的个人 AI 代理。永远0美元",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agibot",
+        "product_link": "https://www.producthunt.com/r/p/1275891?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "EdgeVolume",
+        "slug": "edgevolume-volume-at-your-fingertips",
+        "desc": "Control your Mac’s volume from your trackpad edge",
+        "desc_zh": "从触控板边缘控制 Mac 的音量",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips",
+        "product_link": "https://www.producthunt.com/r/p/1275665?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NotchPit",
+        "slug": "notchpit",
+        "desc": "Your Mac's notch, rearranged into a control center",
+        "desc_zh": "Mac 的缺口重新排列成控制中心",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notchpit",
+        "product_link": "https://www.producthunt.com/r/p/1275909?app_id=339",
         "source": "feed"
       }
     ]
