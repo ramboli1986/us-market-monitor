@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T00:09:47",
+  "updated_at": "2026-10-17T23:44:49",
   "days": {
     "2026-10-10": [
       {
@@ -252,6 +252,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/audimate",
         "product_link": "https://www.producthunt.com/r/p/1277361?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LooGo",
+        "slug": "loogo",
+        "desc": "Find public restrooms fast",
+        "desc_zh": "快速找到公共卫生间",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/loogo",
+        "product_link": "https://www.producthunt.com/r/p/1276839?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Korinotch",
+        "slug": "korinotch",
+        "desc": "Your MacBook notch, turned into a command center",
+        "desc_zh": "你的 MacBook 缺口变成了指挥中心",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/korinotch",
+        "product_link": "https://www.producthunt.com/r/p/1276945?app_id=339",
         "source": "feed"
       }
     ],
@@ -534,6 +554,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/neophyte",
         "product_link": "https://www.producthunt.com/r/p/1278403?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ultracite v8",
+        "slug": "ultracite",
+        "desc": "The linter and formatter for agentic development",
+        "desc_zh": "用于代理开发的 linter 和格式化程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ultracite",
+        "product_link": "https://www.producthunt.com/r/p/1278278?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Caldera",
+        "slug": "caldera",
+        "desc": "Your Obsidian vault as a living profile and linked garden",
+        "desc_zh": "您的黑曜石金库作为生动的轮廓和相连的花园",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/caldera",
+        "product_link": "https://www.producthunt.com/r/p/1278219?app_id=339",
         "source": "feed"
       }
     ],
@@ -837,6 +877,36 @@
         "ph_link": "https://www.producthunt.com/products/fish-speech",
         "product_link": "https://www.producthunt.com/r/p/1279617?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Spiralens",
+        "slug": "spiralens",
+        "desc": "Golden ratio camera that tells you where to move your phone",
+        "desc_zh": "黄金比例摄像头告诉您将手机移动到哪里",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spiralens",
+        "product_link": "https://www.producthunt.com/r/p/1278738?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Train with Pasta",
+        "slug": "train-with-pasta",
+        "desc": "A personal trainer powered by Apple Intelligence",
+        "desc_zh": "由 Apple Intelligence 提供支持的私人教练",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/train-with-pasta",
+        "product_link": "https://www.producthunt.com/r/p/1279257?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Unfenced",
+        "slug": "unfenced",
+        "desc": "Land for sale that actually borders public land",
+        "desc_zh": "与公共土地实际接壤的待售土地",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/unfenced",
+        "product_link": "https://www.producthunt.com/r/p/1279510?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-14": [
@@ -1059,6 +1129,36 @@
         "ph_link": "https://www.producthunt.com/products/lovable",
         "product_link": "https://www.producthunt.com/r/p/1280285?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "CrewTower Mod for Claude Code",
+        "slug": "crew-tower",
+        "desc": "Talk to Claude Code right from your MacBook notch",
+        "desc_zh": "直接从 MacBook 缺口处与 Claude Code 交谈",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/crew-tower",
+        "product_link": "https://www.producthunt.com/r/p/1280692?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Craft Agents",
+        "slug": "craft-agents",
+        "desc": "The world's most powerful agents, with the UX they deserve",
+        "desc_zh": "世界上最强大的代理，拥有他们应得的用户体验",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/craft-agents",
+        "product_link": "https://www.producthunt.com/r/p/1280962?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Notion: Context for your agents",
+        "slug": "notion",
+        "desc": "Switch AI agents without re-explaining your work",
+        "desc_zh": "无需重新解释您的工作即可切换 AI 代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notion",
+        "product_link": "https://www.producthunt.com/r/p/1279890?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-15": [
@@ -1220,6 +1320,58 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/muse-spark-open",
         "product_link": "https://www.producthunt.com/r/p/1281857?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Draper",
+        "slug": "draper",
+        "desc": "Validate, plan, and launch a business, one step at a time.",
+        "desc_zh": "一次一步地验证、规划和启动一项业务。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/draper",
+        "product_link": "https://www.producthunt.com/r/p/1282082?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-16": [
+      {
+        "name": "Emochi",
+        "slug": "emochi-2",
+        "desc": "Voice journal to understand yourself through art and science",
+        "desc_zh": "通过艺术和科学了解自己的语音日记",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/emochi-2",
+        "product_link": "https://www.producthunt.com/r/p/1282248?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Step 5 Preview",
+        "slug": "step-3-5-flash",
+        "desc": "600B open weights, trained for long-running agents",
+        "desc_zh": "600B 开放式重量，针对长时间运行的智能体进行训练",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/step-3-5-flash",
+        "product_link": "https://www.producthunt.com/r/p/1282623?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Salience",
+        "slug": "salience",
+        "desc": "See every request to your website and how it responds.",
+        "desc_zh": "查看对您网站的每个请求及其响应方式。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/salience",
+        "product_link": "https://www.producthunt.com/r/p/1283097?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GPU Terminal by Context.dev",
+        "slug": "context-dev",
+        "desc": "Compare GPU rental prices across cloud providers",
+        "desc_zh": "比较各云提供商的 GPU 租赁价格",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/context-dev",
+        "product_link": "https://www.producthunt.com/r/p/1283017?app_id=339",
         "source": "feed"
       }
     ]
