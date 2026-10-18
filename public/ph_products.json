@@ -1,128 +1,6 @@
 {
-  "updated_at": "2026-10-17T23:44:49",
+  "updated_at": "2026-10-18T23:54:37",
   "days": {
-    "2026-10-10": [
-      {
-        "name": "Gboard Kurukuru Version",
-        "slug": "google",
-        "desc": "Your fingers stay put. The keys come around",
-        "desc_zh": "你的手指保持不动。钥匙来了",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google",
-        "product_link": "https://www.producthunt.com/r/p/1276371?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Farol",
-        "slug": "farol-3",
-        "desc": "The macOS terminal that shows which coding agent needs you",
-        "desc_zh": "显示哪个编码代理需要您的 macOS 终端",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/farol-3",
-        "product_link": "https://www.producthunt.com/r/p/1275794?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FocusWrite",
-        "slug": "focuswrite",
-        "desc": "A local-first writing app with focus modes.",
-        "desc_zh": "具有焦点模式的本地优先写作应用程序。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/focuswrite",
-        "product_link": "https://www.producthunt.com/r/p/1275628?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Agibot",
-        "slug": "agibot",
-        "desc": "The always-on personal AI agent for your Mac. $0 forever",
-        "desc_zh": "适用于您的 Mac 的始终在线的个人 AI 代理。永远0美元",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agibot",
-        "product_link": "https://www.producthunt.com/r/p/1275891?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "EdgeVolume",
-        "slug": "edgevolume-volume-at-your-fingertips",
-        "desc": "Control your Mac’s volume from your trackpad edge",
-        "desc_zh": "从触控板边缘控制 Mac 的音量",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips",
-        "product_link": "https://www.producthunt.com/r/p/1275665?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NotchPit",
-        "slug": "notchpit",
-        "desc": "Your Mac's notch, rearranged into a control center",
-        "desc_zh": "Mac 的缺口重新排列成控制中心",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notchpit",
-        "product_link": "https://www.producthunt.com/r/p/1275909?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CLI Manager",
-        "slug": "cli-manager",
-        "desc": "Let one AI agent open and drive your other CLI agents",
-        "desc_zh": "让一个 AI 代理打开并驱动其他 CLI 代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cli-manager",
-        "product_link": "https://www.producthunt.com/r/p/1275664?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Make0 Brain",
-        "slug": "make0-brain",
-        "desc": "A memory store that works across all of your AI agents.",
-        "desc_zh": "适用于所有 AI 代理的内存存储。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/make0-brain",
-        "product_link": "https://www.producthunt.com/r/p/1275818?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Elocuenti",
-        "slug": "elocuenti",
-        "desc": "Agentic commerce: sell on WhatsApp and AI assistants",
-        "desc_zh": "代理商务：通过 WhatsApp 和人工智能助手进行销售",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/elocuenti",
-        "product_link": "https://www.producthunt.com/r/p/1275927?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LegacyFixer",
-        "slug": "legacyfixer",
-        "desc": "Python dependency security scans with optional fix PRs",
-        "desc_zh": "使用可选修复 PR 进行 Python 依赖项安全扫描",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/legacyfixer",
-        "product_link": "https://www.producthunt.com/r/p/1276020?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Screenwell.ai",
-        "slug": "screenwell-ai",
-        "desc": "An AI interviewer that runs your first-round screening",
-        "desc_zh": "人工智能面试官负责您的第一轮筛选",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/screenwell-ai",
-        "product_link": "https://www.producthunt.com/r/p/1275986?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Palomino",
-        "slug": "palomino",
-        "desc": "Ultrafast workspace for agents to run in parallel",
-        "desc_zh": "超快的工作空间，可供代理并行运行",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/palomino",
-        "product_link": "https://www.producthunt.com/r/p/1276270?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-11": [
       {
         "name": "Manifold MCP",
@@ -574,6 +452,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/caldera",
         "product_link": "https://www.producthunt.com/r/p/1278219?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "shim-cli",
+        "slug": "shim-cli",
+        "desc": "See what your coding agent sends. Mask what you can.",
+        "desc_zh": "See what your coding agent sends. Mask what you can.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shim-cli",
+        "product_link": "https://www.producthunt.com/r/p/1277759?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tower 18 for Mac",
+        "slug": "tower",
+        "desc": "The most powerful Git client with a better CLI experience",
+        "desc_zh": "The most powerful Git client with a better CLI experience",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tower",
+        "product_link": "https://www.producthunt.com/r/p/1278287?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Openbroca",
+        "slug": "openbroca",
+        "desc": "Lightweight AI dictation for Mac that sounds like you",
+        "desc_zh": "Lightweight AI dictation for Mac that sounds like you",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openbroca",
+        "product_link": "https://www.producthunt.com/r/p/1278100?app_id=339",
         "source": "feed"
       }
     ],
@@ -1331,6 +1239,36 @@
         "ph_link": "https://www.producthunt.com/products/draper",
         "product_link": "https://www.producthunt.com/r/p/1282082?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Bee Frontier and Bee Eclipse",
+        "slug": "bee-frontier-and-bee-eclipse",
+        "desc": "Amazon's personal AI memory, now on your wrist or phone",
+        "desc_zh": "Amazon's personal AI memory, now on your wrist or phone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
+        "product_link": "https://www.producthunt.com/r/p/1281580?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Krea 3",
+        "slug": "krea",
+        "desc": "Krea's AI image model: 2K edits in under 8 seconds",
+        "desc_zh": "Krea's AI image model: 2K edits in under 8 seconds",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/krea",
+        "product_link": "https://www.producthunt.com/r/p/1281975?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MeetPaw",
+        "slug": "meetpaw",
+        "desc": "Instant meetings from your mac menu bar",
+        "desc_zh": "Instant meetings from your mac menu bar",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/meetpaw",
+        "product_link": "https://www.producthunt.com/r/p/1281805?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-16": [
@@ -1372,6 +1310,78 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/context-dev",
         "product_link": "https://www.producthunt.com/r/p/1283017?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MyLens",
+        "slug": "mylens-ai",
+        "desc": "1-1 Live Presentations at Scale with AI.",
+        "desc_zh": "1-1 Live Presentations at Scale with AI.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mylens-ai",
+        "product_link": "https://www.producthunt.com/r/p/1282905?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SpeechFast",
+        "slug": "speechfast",
+        "desc": "Local Whisper for Mac",
+        "desc_zh": "Local Whisper for Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/speechfast",
+        "product_link": "https://www.producthunt.com/r/p/1282872?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "3AM Super Intelligence",
+        "slug": "3am-super-intelligence",
+        "desc": "Production incidents: investigated, proven, fixed",
+        "desc_zh": "Production incidents: investigated, proven, fixed",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/3am-super-intelligence",
+        "product_link": "https://www.producthunt.com/r/p/1282576?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "XBOX Nano Controller",
+        "slug": "microsoft-xbox-series-s",
+        "desc": "Pocket-sized wireless gamepad with all 18 inputs",
+        "desc_zh": "Pocket-sized wireless gamepad with all 18 inputs",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/microsoft-xbox-series-s",
+        "product_link": "https://www.producthunt.com/r/p/1283110?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-17": [
+      {
+        "name": "Tomo for ChatGPT",
+        "slug": "tomo-for-chatgpt",
+        "desc": "Ask anything. Then play it, Duolingo-style.",
+        "desc_zh": "Ask anything. Then play it, Duolingo-style.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tomo-for-chatgpt",
+        "product_link": "https://www.producthunt.com/r/p/1283357?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Latch",
+        "slug": "latch-7",
+        "desc": "The app blocker you unlock by walking to your key",
+        "desc_zh": "The app blocker you unlock by walking to your key",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/latch-7",
+        "product_link": "https://www.producthunt.com/r/p/1283558?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Vampire Crawlers™",
+        "slug": "vampire-crawlers",
+        "desc": "The Turbo Wildcard from Vampire Survivors",
+        "desc_zh": "The Turbo Wildcard from Vampire Survivors",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vampire-crawlers",
+        "product_link": "https://www.producthunt.com/r/p/1283989?app_id=339",
         "source": "feed"
       }
     ]
