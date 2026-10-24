@@ -1,118 +1,6 @@
 {
-  "updated_at": "2026-10-23T00:29:43",
+  "updated_at": "2026-10-24T00:14:17",
   "days": {
-    "2026-10-16": [
-      {
-        "name": "Emochi",
-        "slug": "emochi-2",
-        "desc": "Voice journal to understand yourself through art and science",
-        "desc_zh": "通过艺术和科学了解自己的语音日记",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/emochi-2",
-        "product_link": "https://www.producthunt.com/r/p/1282248?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Step 5 Preview",
-        "slug": "step-3-5-flash",
-        "desc": "600B open weights, trained for long-running agents",
-        "desc_zh": "600B 开放式重量，针对长时间运行的智能体进行训练",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/step-3-5-flash",
-        "product_link": "https://www.producthunt.com/r/p/1282623?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Salience",
-        "slug": "salience",
-        "desc": "See every request to your website and how it responds.",
-        "desc_zh": "查看对您网站的每个请求及其响应方式。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/salience",
-        "product_link": "https://www.producthunt.com/r/p/1283097?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GPU Terminal by Context.dev",
-        "slug": "context-dev",
-        "desc": "Compare GPU rental prices across cloud providers",
-        "desc_zh": "比较各云提供商的 GPU 租赁价格",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/context-dev",
-        "product_link": "https://www.producthunt.com/r/p/1283017?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MyLens",
-        "slug": "mylens-ai",
-        "desc": "1-1 Live Presentations at Scale with AI.",
-        "desc_zh": "1-1 Live Presentations at Scale with AI.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mylens-ai",
-        "product_link": "https://www.producthunt.com/r/p/1282905?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SpeechFast",
-        "slug": "speechfast",
-        "desc": "Local Whisper for Mac",
-        "desc_zh": "Local Whisper for Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/speechfast",
-        "product_link": "https://www.producthunt.com/r/p/1282872?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "3AM Super Intelligence",
-        "slug": "3am-super-intelligence",
-        "desc": "Production incidents: investigated, proven, fixed",
-        "desc_zh": "Production incidents: investigated, proven, fixed",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/3am-super-intelligence",
-        "product_link": "https://www.producthunt.com/r/p/1282576?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "XBOX Nano Controller",
-        "slug": "microsoft-xbox-series-s",
-        "desc": "Pocket-sized wireless gamepad with all 18 inputs",
-        "desc_zh": "Pocket-sized wireless gamepad with all 18 inputs",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/microsoft-xbox-series-s",
-        "product_link": "https://www.producthunt.com/r/p/1283110?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Inflight",
-        "slug": "inflight-2",
-        "desc": "The missing feedback layer for prototypes",
-        "desc_zh": "原型缺失的反馈层",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/inflight-2",
-        "product_link": "https://www.producthunt.com/r/p/1282966?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DoOne",
-        "slug": "doone-focus-tasks-with-integration",
-        "desc": "Focus timer with integrations with GitHub, Gitlab & More",
-        "desc_zh": "与 GitHub、Gitlab 等集成的焦点计时器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/doone-focus-tasks-with-integration",
-        "product_link": "https://www.producthunt.com/r/p/1282211?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Framefields",
-        "slug": "framefields",
-        "desc": "Open-source code-first video for AGI era",
-        "desc_zh": "AGI时代的开源代码优先视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/framefields",
-        "product_link": "https://www.producthunt.com/r/p/1282616?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-17": [
       {
         "name": "Tomo for ChatGPT",
@@ -567,6 +455,26 @@
         "ph_link": "https://www.producthunt.com/products/whiteboard-5",
         "product_link": "https://www.producthunt.com/r/p/1285467?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Context Engine",
+        "slug": "context-engine-2",
+        "desc": "One memory for your AI agents and human team members.",
+        "desc_zh": "为您的人工智能代理和人类团队成员提供一份记忆。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/context-engine-2",
+        "product_link": "https://www.producthunt.com/r/p/1285258?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "FLUX 3 Max",
+        "slug": "fal-ai",
+        "desc": "fal’s FLUX 3 Max: 10-second AI video in about 12 seconds",
+        "desc_zh": "fal的FLUX 3 Max：约12秒拍摄10秒AI视频",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fal-ai",
+        "product_link": "https://www.producthunt.com/r/p/1285865?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-20": [
@@ -809,6 +717,56 @@
         "ph_link": "https://www.producthunt.com/products/notif-2",
         "product_link": "https://www.producthunt.com/r/p/1287254?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Dub Startup Program",
+        "slug": "dub",
+        "desc": "Launch your partner-led growth program",
+        "desc_zh": "启动合作伙伴主导的增长计划",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dub",
+        "product_link": "https://www.producthunt.com/r/p/1286515?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cloudflare Clairic",
+        "slug": "cloudflare",
+        "desc": "Cloudflare's AI model for fast, cheap data extraction",
+        "desc_zh": "Cloudflare 的 AI 模型可实现快速、廉价的数据提取",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cloudflare",
+        "product_link": "https://www.producthunt.com/r/p/1287301?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ElevenLabs Realtime",
+        "slug": "realtime-max-mini",
+        "desc": "Realtime voice agent models with 570ms to first audio",
+        "desc_zh": "实时语音代理模型，第一个音频需要 570 毫秒",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/realtime-max-mini",
+        "product_link": "https://www.producthunt.com/r/p/1286735?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DotMD",
+        "slug": "dotmd-3",
+        "desc": "Review your AI agent's Markdown specs like a pull request",
+        "desc_zh": "像拉取请求一样检查 AI 代理的 Markdown 规范",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dotmd-3",
+        "product_link": "https://www.producthunt.com/r/p/1286974?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dots Phone",
+        "slug": "dots-phone",
+        "desc": "A phone-calling plugin for OpenAI Dots",
+        "desc_zh": "OpenAI Dots 的电话插件",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dots-phone",
+        "product_link": "https://www.producthunt.com/r/p/1287249?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-21": [
@@ -930,6 +888,138 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/mercury-412",
         "product_link": "https://www.producthunt.com/r/p/1287788?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Polylane for Cloudflare",
+        "slug": "polylane",
+        "desc": "An AI on-call engineer for your Cloudflare apps",
+        "desc_zh": "为您的 Cloudflare 应用程序提供 AI 值班工程师",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/polylane",
+        "product_link": "https://www.producthunt.com/r/p/1288193?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-22": [
+      {
+        "name": "Product Hunt Visual Launch Editor",
+        "slug": "producthunt",
+        "desc": "See your launch as you build it",
+        "desc_zh": "在构建时查看您的发布",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/producthunt",
+        "product_link": "https://www.producthunt.com/r/p/1289897?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gerty",
+        "slug": "gerty",
+        "desc": "Private ChatGPT alternative that sets itself up on your Mac",
+        "desc_zh": "可在您的 Mac 上自行设置的私人 ChatGPT 替代方案",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gerty",
+        "product_link": "https://www.producthunt.com/r/p/1289207?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dots",
+        "slug": "dots-7",
+        "desc": "A customizable workspace built into your Mac's notch",
+        "desc_zh": "Mac 缺口中内置的可自定义工作区",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dots-7",
+        "product_link": "https://www.producthunt.com/r/p/1289162?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Truffle",
+        "slug": "truffle-music-tag-editor",
+        "desc": "Fix messy tags, covers and duplicates in your Mac library",
+        "desc_zh": "修复 Mac 资料库中杂乱的标签、封面和重复项",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/truffle-music-tag-editor",
+        "product_link": "https://www.producthunt.com/r/p/1288837?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Peras",
+        "slug": "peras",
+        "desc": "Pause Claude Code and Codex before they burn your week",
+        "desc_zh": "在 Claude Code 和 Codex 烧毁你的一周之前暂停它们",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/peras",
+        "product_link": "https://www.producthunt.com/r/p/1289607?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Termi Protocol",
+        "slug": "termi-protocol",
+        "desc": "Watch AI agents code in 3D and hand off the work",
+        "desc_zh": "观看 AI 代理的 3D 编码并移交工作",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/termi-protocol",
+        "product_link": "https://www.producthunt.com/r/p/1289823?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Plango",
+        "slug": "plango",
+        "desc": "Use AI to defend against AI",
+        "desc_zh": "用AI来防御AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/plango",
+        "product_link": "https://www.producthunt.com/r/p/1289586?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Monish",
+        "slug": "monish",
+        "desc": "Your AI agents, live on your iPhone lock screen",
+        "desc_zh": "您的 AI 代理就在您的 iPhone 锁屏上",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/monish",
+        "product_link": "https://www.producthunt.com/r/p/1289239?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Instant Search",
+        "slug": "instant-search-2",
+        "desc": "The fastest, most precise local AI Search for your files.",
+        "desc_zh": "最快、最精确的本地 AI 搜索您的文件。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/instant-search-2",
+        "product_link": "https://www.producthunt.com/r/p/1289877?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agent Hunt",
+        "slug": "monid",
+        "desc": "Live rankings of the tools AI agents use most",
+        "desc_zh": "人工智能代理最常使用的工具的实时排名",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/monid",
+        "product_link": "https://www.producthunt.com/r/p/1289806?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ShogunAI",
+        "slug": "shogunai",
+        "desc": "Your personal AGI on your pc",
+        "desc_zh": "您电脑上的个人 AGI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shogunai",
+        "product_link": "https://www.producthunt.com/r/p/1289925?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bloblings",
+        "slug": "bloblings",
+        "desc": "A pet for every Claude Code session",
+        "desc_zh": "每次克劳德代码课程都有一只宠物",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bloblings",
+        "product_link": "https://www.producthunt.com/r/p/1288923?app_id=339",
         "source": "feed"
       }
     ]
