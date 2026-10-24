@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T00:14:17",
+  "updated_at": "2026-10-24T23:57:47",
   "days": {
     "2026-10-17": [
       {
@@ -100,6 +100,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/ilha",
         "product_link": "https://www.producthunt.com/r/p/1283885?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "How It Went",
+        "slug": "how-it-went",
+        "desc": "Your route, photos and clips as a short film",
+        "desc_zh": "您的路线、照片和短片形式的剪辑",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/how-it-went",
+        "product_link": "https://www.producthunt.com/r/p/1283491?app_id=339",
         "source": "feed"
       }
     ],
@@ -767,6 +777,26 @@
         "ph_link": "https://www.producthunt.com/products/dots-phone",
         "product_link": "https://www.producthunt.com/r/p/1287249?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "AgentValley",
+        "slug": "agentvalley",
+        "desc": "Every Claude Code agent, at a glance, in your Mac's notch",
+        "desc_zh": "每个 Claude Code 代理一目了然，在您的 Mac 中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agentvalley",
+        "product_link": "https://www.producthunt.com/r/p/1286641?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Shedi",
+        "slug": "shedi",
+        "desc": "Get back the space Xcode, Docker and node_modules ate",
+        "desc_zh": "夺回 Xcode、Docker 和 node_modules 占用的空间",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shedi",
+        "product_link": "https://www.producthunt.com/r/p/1287508?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-21": [
@@ -899,6 +929,26 @@
         "ph_link": "https://www.producthunt.com/products/polylane",
         "product_link": "https://www.producthunt.com/r/p/1288193?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Penta",
+        "slug": "penta-cd-player-changer",
+        "desc": "A ’90s 5-disc CD changer on iPhone Duo",
+        "desc_zh": "iPhone Duo 上的 90 年代 5 碟 CD 换碟机",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/penta-cd-player-changer",
+        "product_link": "https://www.producthunt.com/r/p/1288672?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Byter",
+        "slug": "byter",
+        "desc": "Know exactly how much data you use, on every network",
+        "desc_zh": "准确了解您在每个网络上使用了多少数据",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/byter",
+        "product_link": "https://www.producthunt.com/r/p/1288200?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-22": [
@@ -1020,6 +1070,58 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/bloblings",
         "product_link": "https://www.producthunt.com/r/p/1288923?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "River Writer",
+        "slug": "river-writer",
+        "desc": "A quiet Mac app for screenplays, stage plays and novels",
+        "desc_zh": "一款安静的 Mac 应用程序，适用于剧本、舞台剧和小说",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/river-writer",
+        "product_link": "https://www.producthunt.com/r/p/1289401?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "1Password for Agents",
+        "slug": "1password",
+        "desc": "Let AI agents sign in for you without seeing your passwords",
+        "desc_zh": "让 AI 代理为您登录而无需查看您的密码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/1password",
+        "product_link": "https://www.producthunt.com/r/p/1289449?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-23": [
+      {
+        "name": "Canva Craft",
+        "slug": "canva",
+        "desc": "Turn prompts into design-ready images you can edit",
+        "desc_zh": "将提示转变为可编辑的设计就绪图像",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/canva",
+        "product_link": "https://www.producthunt.com/r/p/1290061?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Basedash Scheduled CSV Exports",
+        "slug": "basedash",
+        "desc": "Ask once. Get a fresh CSV in Slack or email every week.",
+        "desc_zh": "问一次。每周在 Slack 或电子邮件中获取新的 CSV。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/basedash",
+        "product_link": "https://www.producthunt.com/r/p/1290612?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "sideOS.ai",
+        "slug": "sideos-ai",
+        "desc": "Local AI for dictation, meetings, background tasks and more",
+        "desc_zh": "用于听写、会议、后台任务等的本地人工智能",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sideos-ai",
+        "product_link": "https://www.producthunt.com/r/p/1290354?app_id=339",
         "source": "feed"
       }
     ]
