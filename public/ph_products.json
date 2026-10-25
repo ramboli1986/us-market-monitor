@@ -1,118 +1,6 @@
 {
-  "updated_at": "2026-10-24T23:57:47",
+  "updated_at": "2026-10-25T23:46:37",
   "days": {
-    "2026-10-17": [
-      {
-        "name": "Tomo for ChatGPT",
-        "slug": "tomo-for-chatgpt",
-        "desc": "Ask anything. Then play it, Duolingo-style.",
-        "desc_zh": "Ask anything. Then play it, Duolingo-style.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tomo-for-chatgpt",
-        "product_link": "https://www.producthunt.com/r/p/1283357?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Latch",
-        "slug": "latch-7",
-        "desc": "The app blocker you unlock by walking to your key",
-        "desc_zh": "The app blocker you unlock by walking to your key",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/latch-7",
-        "product_link": "https://www.producthunt.com/r/p/1283558?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Vampire Crawlers™",
-        "slug": "vampire-crawlers",
-        "desc": "The Turbo Wildcard from Vampire Survivors",
-        "desc_zh": "The Turbo Wildcard from Vampire Survivors",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vampire-crawlers",
-        "product_link": "https://www.producthunt.com/r/p/1283989?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "bonds",
-        "slug": "bonds-2",
-        "desc": "Every friends' chat gets an AI friend with superpowers",
-        "desc_zh": "每个好友的聊天都会有一位拥有超能力的AI好友",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bonds-2",
-        "product_link": "https://www.producthunt.com/r/p/1283650?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Glance for Mac",
-        "slug": "glance-for-mac",
-        "desc": "Your MacBook notch, now a live, cinematic island",
-        "desc_zh": "你的 MacBook 刘海现在是一座生动的电影岛",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/glance-for-mac",
-        "product_link": "https://www.producthunt.com/r/p/1283713?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "walkai-talkai",
-        "slug": "walkai-talkai",
-        "desc": "Talk to your AI coding agent over a walkie-talkie",
-        "desc_zh": "通过对讲机与您的 AI 编码代理交谈",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/walkai-talkai",
-        "product_link": "https://www.producthunt.com/r/p/1283818?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CoolDock",
-        "slug": "cooldock-2",
-        "desc": "A smart second Dock for your Mac with 160+ live widgets.",
-        "desc_zh": "适用于 Mac 的智能第二个 Dock，带有 160 多个实时小部件。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cooldock-2",
-        "product_link": "https://www.producthunt.com/r/p/1283355?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Starkomand",
-        "slug": "starkomand",
-        "desc": "Run your AI coding agents on an infinite canvas.",
-        "desc_zh": "在无限画布上运行您的 AI 编码代理。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/starkomand",
-        "product_link": "https://www.producthunt.com/r/p/1283227?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "iglass",
-        "slug": "iglass",
-        "desc": "Liquid Glass for your iTerm2 & Ghostty",
-        "desc_zh": "Liquid Glass for your iTerm2 & Ghostty",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/iglass",
-        "product_link": "https://www.producthunt.com/r/p/1283462?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ilha",
-        "slug": "ilha",
-        "desc": "Your Claude Code and Codex limits, live in the notch",
-        "desc_zh": "Your Claude Code and Codex limits, live in the notch",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ilha",
-        "product_link": "https://www.producthunt.com/r/p/1283885?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "How It Went",
-        "slug": "how-it-went",
-        "desc": "Your route, photos and clips as a short film",
-        "desc_zh": "您的路线、照片和短片形式的剪辑",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/how-it-went",
-        "product_link": "https://www.producthunt.com/r/p/1283491?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-18": [
       {
         "name": "Portlivo",
@@ -212,6 +100,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/triwarden",
         "product_link": "https://www.producthunt.com/r/p/1284342?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Specsight",
+        "slug": "specsight",
+        "desc": "Product observability for teams shipping fast with AI",
+        "desc_zh": "产品可观察性，帮助团队通过 AI 快速交付",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/specsight",
+        "product_link": "https://www.producthunt.com/r/p/1284558?app_id=339",
         "source": "feed"
       }
     ],
@@ -484,6 +382,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/fal-ai",
         "product_link": "https://www.producthunt.com/r/p/1285865?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "How It Spread",
+        "slug": "how-it-spread",
+        "desc": "See how anything went viral, from the first post",
+        "desc_zh": "从第一篇文章开始，了解所有内容如何传播开来",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/how-it-spread",
+        "product_link": "https://www.producthunt.com/r/p/1286064?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "git-flow-next",
+        "slug": "tower",
+        "desc": "Your favorite Git workflow. Reimagined.",
+        "desc_zh": "您最喜欢的 Git 工作流程。重新想象。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tower",
+        "product_link": "https://www.producthunt.com/r/p/1285452?app_id=339",
         "source": "feed"
       }
     ],
@@ -797,6 +715,16 @@
         "ph_link": "https://www.producthunt.com/products/shedi",
         "product_link": "https://www.producthunt.com/r/p/1287508?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "pawl",
+        "slug": "pawl",
+        "desc": "a tiny mac focus timer you start by pulling a paw",
+        "desc_zh": "一个微型 Mac 对焦计时器，只需拉一下爪子即可启动",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pawl",
+        "product_link": "https://www.producthunt.com/r/p/1287264?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-21": [
@@ -1091,6 +1019,16 @@
         "ph_link": "https://www.producthunt.com/products/1password",
         "product_link": "https://www.producthunt.com/r/p/1289449?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "MRRaudit",
+        "slug": "mrraudit",
+        "desc": "Understand why your MRR differs and get a number you trust",
+        "desc_zh": "了解您的 MRR 为何不同并获取您信任的号码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mrraudit",
+        "product_link": "https://www.producthunt.com/r/p/1289061?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-23": [
@@ -1122,6 +1060,48 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/sideos-ai",
         "product_link": "https://www.producthunt.com/r/p/1290354?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Llama Windows",
+        "slug": "llama-windows",
+        "desc": "One local AI server for all your Windows apps",
+        "desc_zh": "一台本地 AI 服务器可用于您的所有 Windows 应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/llama-windows",
+        "product_link": "https://www.producthunt.com/r/p/1290875?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-24": [
+      {
+        "name": "Yourcast 2.0",
+        "slug": "yourcast",
+        "desc": "AI summaries with tap-to-jump timestamps, right in Telegram",
+        "desc_zh": "人工智能摘要，带有点击跳转时间戳，就在 Telegram 中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/yourcast",
+        "product_link": "https://www.producthunt.com/r/p/1291438?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AgentGrid.io",
+        "slug": "agentgrid-io",
+        "desc": "Shared workspace for humans and agents",
+        "desc_zh": "人类和代理的共享工作空间",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agentgrid-io",
+        "product_link": "https://www.producthunt.com/r/p/1291942?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Papermark Data Rooms",
+        "slug": "papermark-2",
+        "desc": "Secure data rooms your AI agents can run. Live in < 60 sec.",
+        "desc_zh": "您的人工智能代理可以运行的安全数据室。存活时间 < 60 秒。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/papermark-2",
+        "product_link": "https://www.producthunt.com/r/p/1291620?app_id=339",
         "source": "feed"
       }
     ]
