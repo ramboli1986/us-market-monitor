@@ -1,328 +1,6 @@
 {
-  "updated_at": "2026-10-27T01:09:53",
+  "updated_at": "2026-10-28T00:54:34",
   "days": {
-    "2026-10-20": [
-      {
-        "name": "Hotly",
-        "slug": "hotly",
-        "desc": "Get paid to answer your DMs. Open source.",
-        "desc_zh": "Get paid to answer your DMs. Open source.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hotly",
-        "product_link": "https://www.producthunt.com/r/p/1286816?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Woven Video",
-        "slug": "woven-video",
-        "desc": "Edit any video by chat, on a real Mac timeline",
-        "desc_zh": "Edit any video by chat, on a real Mac timeline",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/woven-video",
-        "product_link": "https://www.producthunt.com/r/p/1286436?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "The Brains",
-        "slug": "the-brains",
-        "desc": "Founders and investors as MCP servers, every answer cited",
-        "desc_zh": "Founders and investors as MCP servers, every answer cited",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/the-brains",
-        "product_link": "https://www.producthunt.com/r/p/1286365?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tend",
-        "slug": "tend-5",
-        "desc": "Personal AI for businesses and entrepreneurs.",
-        "desc_zh": "Personal AI for businesses and entrepreneurs.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tend-5",
-        "product_link": "https://www.producthunt.com/r/p/1286998?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mouse-1",
-        "slug": "mouse-1",
-        "desc": "A decision model for your agent harness.",
-        "desc_zh": "A decision model for your agent harness.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mouse-1",
-        "product_link": "https://www.producthunt.com/r/p/1287281?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Flagsmith Experiments",
-        "slug": "flagsmith",
-        "desc": "Open-source A/B testing built on your feature flags",
-        "desc_zh": "Open-source A/B testing built on your feature flags",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flagsmith",
-        "product_link": "https://www.producthunt.com/r/p/1286674?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Agent Pets",
-        "slug": "agent-pets",
-        "desc": "Coding agents as pets that live on every page in Chrome",
-        "desc_zh": "Coding agents as pets that live on every page in Chrome",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agent-pets",
-        "product_link": "https://www.producthunt.com/r/p/1287422?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SuperCMO AI",
-        "slug": "supercmo-ai",
-        "desc": "Open-source skills that turn your Claude into an AI CMO",
-        "desc_zh": "Open-source skills that turn your Claude into an AI CMO",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/supercmo-ai",
-        "product_link": "https://www.producthunt.com/r/p/1286604?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Notion Auto",
-        "slug": "notion-99",
-        "desc": "Notion’s rebuilt Agents run for hours and cost far less",
-        "desc_zh": "Notion’s rebuilt Agents run for hours and cost far less",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notion-99",
-        "product_link": "https://www.producthunt.com/r/p/1286968?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Koi",
-        "slug": "koi-2",
-        "desc": "Every tool you need, in one Mac app",
-        "desc_zh": "Every tool you need, in one Mac app",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/koi-2",
-        "product_link": "https://www.producthunt.com/r/p/1287488?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "PrivOS",
-        "slug": "privos",
-        "desc": "Chat, Docs, Kanban Tasks and Al agents that act, self-hosted",
-        "desc_zh": "Chat, Docs, Kanban Tasks and Al agents that act, self-hosted",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/privos",
-        "product_link": "https://www.producthunt.com/r/p/1286524?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AskDoozy",
-        "slug": "askdoozy",
-        "desc": "An AI coworker in Slack that does your real work",
-        "desc_zh": "An AI coworker in Slack that does your real work",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/askdoozy",
-        "product_link": "https://www.producthunt.com/r/p/1286656?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nimbalyst Wiki",
-        "slug": "nimbalyst-wiki",
-        "desc": "Wiki your agents write for you to think, organize, direct",
-        "desc_zh": "Wiki your agents write for you to think, organize, direct",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nimbalyst-wiki",
-        "product_link": "https://www.producthunt.com/r/p/1286805?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LearnExcel",
-        "slug": "learnexcel",
-        "desc": "Learn Excel by typing real formulas, graded instantly",
-        "desc_zh": "Learn Excel by typing real formulas, graded instantly",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/learnexcel",
-        "product_link": "https://www.producthunt.com/r/p/1286415?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Lea by LeanAIOS",
-        "slug": "lea-by-leanaios",
-        "desc": "Autonomous AI team for construction management & pre-con",
-        "desc_zh": "Autonomous AI team for construction management & pre-con",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lea-by-leanaios",
-        "product_link": "https://www.producthunt.com/r/p/1286480?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Triage by Chodeberg",
-        "slug": "triage-by-chodeberg",
-        "desc": "Reproduce user described bugs in clean sandbox environments",
-        "desc_zh": "Reproduce user described bugs in clean sandbox environments",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/triage-by-chodeberg",
-        "product_link": "https://www.producthunt.com/r/p/1287200?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "hibi",
-        "slug": "hibi",
-        "desc": "an open-source obsidian alternative",
-        "desc_zh": "an open-source obsidian alternative",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hibi",
-        "product_link": "https://www.producthunt.com/r/p/1287261?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Intelli for ChatGPT & Claude",
-        "slug": "intelli",
-        "desc": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude",
-        "desc_zh": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/intelli",
-        "product_link": "https://www.producthunt.com/r/p/1286282?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Burrow MacOS",
-        "slug": "burrow-macos",
-        "desc": "Start Windows & Linux on your Mac for free",
-        "desc_zh": "Start Windows & Linux on your Mac for free",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/burrow-macos",
-        "product_link": "https://www.producthunt.com/r/p/1286778?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dadan",
-        "slug": "dadan",
-        "desc": "One AI video workspace for recordings, meetings and guides",
-        "desc_zh": "一个用于录制、会议和指南的 AI 视频工作区",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dadan",
-        "product_link": "https://www.producthunt.com/r/p/1286573?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mistral Voxtral 3",
-        "slug": "mistral-7b",
-        "desc": "Mistral’s speech models for transcription, TTS and agents",
-        "desc_zh": "Mistral 的转录、TTS 和代理语音模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mistral-7b",
-        "product_link": "https://www.producthunt.com/r/p/1286858?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DeepCell",
-        "slug": "deepcell",
-        "desc": "Your deadline survival kit for office work",
-        "desc_zh": "办公室工作的最后期限生存工具包",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/deepcell",
-        "product_link": "https://www.producthunt.com/r/p/1286749?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Voxelo 3.0",
-        "slug": "voxelo-ai",
-        "desc": "Phone video to photoreal 3D & JSON-LD in an hour",
-        "desc_zh": "一小时内将手机视频转换为照片级真实 3D 和 JSON-LD",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/voxelo-ai",
-        "product_link": "https://www.producthunt.com/r/p/1286659?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Notif",
-        "slug": "notif-2",
-        "desc": "AI for your Apple Reminders",
-        "desc_zh": "Apple 提醒的人工智能",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notif-2",
-        "product_link": "https://www.producthunt.com/r/p/1287254?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dub Startup Program",
-        "slug": "dub",
-        "desc": "Launch your partner-led growth program",
-        "desc_zh": "启动合作伙伴主导的增长计划",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dub",
-        "product_link": "https://www.producthunt.com/r/p/1286515?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cloudflare Clairic",
-        "slug": "cloudflare",
-        "desc": "Cloudflare's AI model for fast, cheap data extraction",
-        "desc_zh": "Cloudflare 的 AI 模型可实现快速、廉价的数据提取",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cloudflare",
-        "product_link": "https://www.producthunt.com/r/p/1287301?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ElevenLabs Realtime",
-        "slug": "realtime-max-mini",
-        "desc": "Realtime voice agent models with 570ms to first audio",
-        "desc_zh": "实时语音代理模型，第一个音频需要 570 毫秒",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/realtime-max-mini",
-        "product_link": "https://www.producthunt.com/r/p/1286735?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DotMD",
-        "slug": "dotmd-3",
-        "desc": "Review your AI agent's Markdown specs like a pull request",
-        "desc_zh": "像拉取请求一样检查 AI 代理的 Markdown 规范",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dotmd-3",
-        "product_link": "https://www.producthunt.com/r/p/1286974?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dots Phone",
-        "slug": "dots-phone",
-        "desc": "A phone-calling plugin for OpenAI Dots",
-        "desc_zh": "OpenAI Dots 的电话插件",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dots-phone",
-        "product_link": "https://www.producthunt.com/r/p/1287249?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AgentValley",
-        "slug": "agentvalley",
-        "desc": "Every Claude Code agent, at a glance, in your Mac's notch",
-        "desc_zh": "每个 Claude Code 代理一目了然，在您的 Mac 中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agentvalley",
-        "product_link": "https://www.producthunt.com/r/p/1286641?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Shedi",
-        "slug": "shedi",
-        "desc": "Get back the space Xcode, Docker and node_modules ate",
-        "desc_zh": "夺回 Xcode、Docker 和 node_modules 占用的空间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/shedi",
-        "product_link": "https://www.producthunt.com/r/p/1287508?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "pawl",
-        "slug": "pawl",
-        "desc": "a tiny mac focus timer you start by pulling a paw",
-        "desc_zh": "一个微型 Mac 对焦计时器，只需拉一下爪子即可启动",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pawl",
-        "product_link": "https://www.producthunt.com/r/p/1287264?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-21": [
       {
         "name": "Teclo",
@@ -645,6 +323,26 @@
         "ph_link": "https://www.producthunt.com/products/mrraudit",
         "product_link": "https://www.producthunt.com/r/p/1289061?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "NuPlay",
+        "slug": "nuplay",
+        "desc": "AI transformation, run on one self-improving platform",
+        "desc_zh": "AI transformation, run on one self-improving platform",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nuplay",
+        "product_link": "https://www.producthunt.com/r/p/1289211?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Spacesheep",
+        "slug": "spacesheep",
+        "desc": "Documents of the future, made by AI, read by your team",
+        "desc_zh": "Documents of the future, made by AI, read by your team",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spacesheep",
+        "product_link": "https://www.producthunt.com/r/p/1289807?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-23": [
@@ -696,6 +394,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/knock-7",
         "product_link": "https://www.producthunt.com/r/p/1291025?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Notra",
+        "slug": "notra-3",
+        "desc": "Notra is a GEO tool that helps you rank in AI Search.",
+        "desc_zh": "Notra is a GEO tool that helps you rank in AI Search.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notra-3",
+        "product_link": "https://www.producthunt.com/r/p/1290712?app_id=339",
         "source": "feed"
       }
     ],
@@ -870,6 +578,118 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
         "product_link": "https://www.producthunt.com/r/p/1292433?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-26": [
+      {
+        "name": "Off Grid AI",
+        "slug": "off-grid-ai",
+        "desc": "Private AI on your phone and computer.",
+        "desc_zh": "Private AI on your phone and computer.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/off-grid-ai",
+        "product_link": "https://www.producthunt.com/r/p/1293302?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ContextGem 1.0",
+        "slug": "contextgem",
+        "desc": "Decision models join LLMs to extract data from documents",
+        "desc_zh": "Decision models join LLMs to extract data from documents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/contextgem",
+        "product_link": "https://www.producthunt.com/r/p/1294110?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GPT-6.1 Terra",
+        "slug": "openai",
+        "desc": "Fast, capable computer use at half the price",
+        "desc_zh": "Fast, capable computer use at half the price",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1293926?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenRadView",
+        "slug": "openradview",
+        "desc": "Free, open-source viewer for your own CT, MRI and X-rays",
+        "desc_zh": "Free, open-source viewer for your own CT, MRI and X-rays",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openradview",
+        "product_link": "https://www.producthunt.com/r/p/1293677?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Arcade Controller Pro",
+        "slug": "bluetooth-snes-controller",
+        "desc": "A fight controller with no stick and its own screen",
+        "desc_zh": "A fight controller with no stick and its own screen",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bluetooth-snes-controller",
+        "product_link": "https://www.producthunt.com/r/p/1293408?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "fswitcher",
+        "slug": "fswitcher",
+        "desc": "fswitcher replaces Command-Tab on your Mac",
+        "desc_zh": "fswitcher replaces Command-Tab on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fswitcher",
+        "product_link": "https://www.producthunt.com/r/p/1293807?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "iPad mini 8",
+        "slug": "apple",
+        "desc": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
+        "desc_zh": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/apple",
+        "product_link": "https://www.producthunt.com/r/p/1293470?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Revix AI",
+        "slug": "revix-ai-2",
+        "desc": "AI code review that learns your repo's own rules",
+        "desc_zh": "AI code review that learns your repo's own rules",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/revix-ai-2",
+        "product_link": "https://www.producthunt.com/r/p/1293843?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Paddock",
+        "slug": "paddock-2",
+        "desc": "Computers and sandboxes for your agents",
+        "desc_zh": "Computers and sandboxes for your agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/paddock-2",
+        "product_link": "https://www.producthunt.com/r/p/1294009?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PulseDev",
+        "slug": "pulsedev",
+        "desc": "Click any UI bug on localhost and your AI agent fixes it",
+        "desc_zh": "Click any UI bug on localhost and your AI agent fixes it",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pulsedev",
+        "product_link": "https://www.producthunt.com/r/p/1293889?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Nuvio 5.0",
+        "slug": "nuvio",
+        "desc": "Hand your financial admin to your AI agent",
+        "desc_zh": "Hand your financial admin to your AI agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nuvio",
+        "product_link": "https://www.producthunt.com/r/p/1293789?app_id=339",
         "source": "feed"
       }
     ]
