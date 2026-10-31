@@ -1,98 +1,6 @@
 {
-  "updated_at": "2026-10-30T01:31:46",
+  "updated_at": "2026-10-31T01:20:33",
   "days": {
-    "2026-10-23": [
-      {
-        "name": "Canva Craft",
-        "slug": "canva",
-        "desc": "Turn prompts into design-ready images you can edit",
-        "desc_zh": "将提示转变为可编辑的设计就绪图像",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/canva",
-        "product_link": "https://www.producthunt.com/r/p/1290061?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Basedash Scheduled CSV Exports",
-        "slug": "basedash",
-        "desc": "Ask once. Get a fresh CSV in Slack or email every week.",
-        "desc_zh": "问一次。每周在 Slack 或电子邮件中获取新的 CSV。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/basedash",
-        "product_link": "https://www.producthunt.com/r/p/1290612?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "sideOS.ai",
-        "slug": "sideos-ai",
-        "desc": "Local AI for dictation, meetings, background tasks and more",
-        "desc_zh": "用于听写、会议、后台任务等的本地人工智能",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sideos-ai",
-        "product_link": "https://www.producthunt.com/r/p/1290354?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Llama Windows",
-        "slug": "llama-windows",
-        "desc": "One local AI server for all your Windows apps",
-        "desc_zh": "一台本地 AI 服务器可用于您的所有 Windows 应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/llama-windows",
-        "product_link": "https://www.producthunt.com/r/p/1290875?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Knock",
-        "slug": "knock-7",
-        "desc": "Create shortcuts by hitting your mac",
-        "desc_zh": "通过点击 Mac 创建快捷方式",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/knock-7",
-        "product_link": "https://www.producthunt.com/r/p/1291025?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Notra",
-        "slug": "notra-3",
-        "desc": "Notra is a GEO tool that helps you rank in AI Search.",
-        "desc_zh": "Notra is a GEO tool that helps you rank in AI Search.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notra-3",
-        "product_link": "https://www.producthunt.com/r/p/1290712?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Fraud Blocker",
-        "slug": "fraud-blocker",
-        "desc": "AI ad fraud protection for Google and Meta ads",
-        "desc_zh": "AI ad fraud protection for Google and Meta ads",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fraud-blocker",
-        "product_link": "https://www.producthunt.com/r/p/1290434?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Trellis",
-        "slug": "trellis-4",
-        "desc": "More than a terminal: a native macOS workspace for devs",
-        "desc_zh": "More than a terminal: a native macOS workspace for devs",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/trellis-4",
-        "product_link": "https://www.producthunt.com/r/p/1290653?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "TONKO",
-        "slug": "tonko",
-        "desc": "Pocket money app that teaches kids about money",
-        "desc_zh": "Pocket money app that teaches kids about money",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tonko",
-        "product_link": "https://www.producthunt.com/r/p/1290642?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-24": [
       {
         "name": "Yourcast 2.0",
@@ -295,6 +203,16 @@
         "ph_link": "https://www.producthunt.com/products/zest-6",
         "product_link": "https://www.producthunt.com/r/p/1292176?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "StereoLift Live",
+        "slug": "stereolift-live",
+        "desc": "your desktop in real 3D, live on your Quest",
+        "desc_zh": "your desktop in real 3D, live on your Quest",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stereolift-live",
+        "product_link": "https://www.producthunt.com/r/p/1292499?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-26": [
@@ -456,6 +374,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/intrascope-app",
         "product_link": "https://www.producthunt.com/r/p/1293404?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SparkBots AI (Powered by Jev)",
+        "slug": "sparkbots-ai-analyze-pages-and-pdfs",
+        "desc": "Instantly extract key details and analyze any webpage or PDF",
+        "desc_zh": "Instantly extract key details and analyze any webpage or PDF",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
+        "product_link": "https://www.producthunt.com/r/p/1294142?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Knocket AI",
+        "slug": "knocket-ai",
+        "desc": "Chat with visitors from your website or link",
+        "desc_zh": "Chat with visitors from your website or link",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/knocket-ai",
+        "product_link": "https://www.producthunt.com/r/p/1292989?app_id=339",
         "source": "feed"
       }
     ],
@@ -669,6 +607,26 @@
         "ph_link": "https://www.producthunt.com/products/recall-for-mac",
         "product_link": "https://www.producthunt.com/r/p/1295465?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Teable Mobile",
+        "slug": "teable-4",
+        "desc": "Build the systems your team runs on, now from your phone",
+        "desc_zh": "Build the systems your team runs on, now from your phone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/teable-4",
+        "product_link": "https://www.producthunt.com/r/p/1294336?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Vaani Developer Platform",
+        "slug": "vaani-developer-platfrom",
+        "desc": "The only voice AI harness that you'll ever need",
+        "desc_zh": "The only voice AI harness that you'll ever need",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vaani-developer-platfrom",
+        "product_link": "https://www.producthunt.com/r/p/1295420?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-28": [
@@ -810,6 +768,138 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/notch-metrics",
         "product_link": "https://www.producthunt.com/r/p/1295697?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "fastbrowse",
+        "slug": "fastbrowse",
+        "desc": "Fastest open source browser agent",
+        "desc_zh": "Fastest open source browser agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fastbrowse",
+        "product_link": "https://www.producthunt.com/r/p/1296613?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "iSurge",
+        "slug": "isurge",
+        "desc": "Activity monitor, per-app volume, disk cleanup at your notch",
+        "desc_zh": "Activity monitor, per-app volume, disk cleanup at your notch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/isurge",
+        "product_link": "https://www.producthunt.com/r/p/1296774?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kestrix",
+        "slug": "kestrix",
+        "desc": "Repo-agnostic CI control plane with DAG-based triggers.",
+        "desc_zh": "Repo-agnostic CI control plane with DAG-based triggers.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kestrix",
+        "product_link": "https://www.producthunt.com/r/p/1296368?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-29": [
+      {
+        "name": "Canva Brush",
+        "slug": "canva",
+        "desc": "A vision-language model that edits your designs",
+        "desc_zh": "A vision-language model that edits your designs",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/canva",
+        "product_link": "https://www.producthunt.com/r/p/1297603?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SpeakON Agent",
+        "slug": "speakon",
+        "desc": "Turn natural speech into real work for an agent to complete",
+        "desc_zh": "Turn natural speech into real work for an agent to complete",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/speakon",
+        "product_link": "https://www.producthunt.com/r/p/1297033?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Faylee",
+        "slug": "faylee",
+        "desc": "Bug reports your coding agent can fix from one link",
+        "desc_zh": "Bug reports your coding agent can fix from one link",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/faylee",
+        "product_link": "https://www.producthunt.com/r/p/1297509?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "sitesolide",
+        "slug": "sitesolide",
+        "desc": "Deploy your vibe-coded apps on your own server",
+        "desc_zh": "Deploy your vibe-coded apps on your own server",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sitesolide",
+        "product_link": "https://www.producthunt.com/r/p/1297366?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ilse",
+        "slug": "ilse",
+        "desc": "Point at your app and your AI agent changes the code",
+        "desc_zh": "Point at your app and your AI agent changes the code",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ilse",
+        "product_link": "https://www.producthunt.com/r/p/1297623?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Axonnic",
+        "slug": "axonnic",
+        "desc": "Muscle-sensing sleeves for robot training",
+        "desc_zh": "Muscle-sensing sleeves for robot training",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/axonnic",
+        "product_link": "https://www.producthunt.com/r/p/1297829?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Norah Studio",
+        "slug": "norah-studio",
+        "desc": "A new space to explore your music",
+        "desc_zh": "A new space to explore your music",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/norah-studio",
+        "product_link": "https://www.producthunt.com/r/p/1297737?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "StepGrab",
+        "slug": "stepgrab",
+        "desc": "Now on Windows, with redaction and a real editor",
+        "desc_zh": "Now on Windows, with redaction and a real editor",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stepgrab",
+        "product_link": "https://www.producthunt.com/r/p/1297734?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Nocto",
+        "slug": "nocto",
+        "desc": "Your MacBook notch, finally useful",
+        "desc_zh": "Your MacBook notch, finally useful",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nocto",
+        "product_link": "https://www.producthunt.com/r/p/1297697?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Chopstick",
+        "slug": "chopstick",
+        "desc": "Mac activity and action widgets that write themselves",
+        "desc_zh": "Mac activity and action widgets that write themselves",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chopstick",
+        "product_link": "https://www.producthunt.com/r/p/1296862?app_id=339",
         "source": "feed"
       }
     ]
