@@ -1,88 +1,6 @@
 {
-  "updated_at": "2026-10-31T01:20:33",
+  "updated_at": "2026-11-01T00:39:33",
   "days": {
-    "2026-10-24": [
-      {
-        "name": "Yourcast 2.0",
-        "slug": "yourcast",
-        "desc": "AI summaries with tap-to-jump timestamps, right in Telegram",
-        "desc_zh": "人工智能摘要，带有点击跳转时间戳，就在 Telegram 中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/yourcast",
-        "product_link": "https://www.producthunt.com/r/p/1291438?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AgentGrid.io",
-        "slug": "agentgrid-io",
-        "desc": "Shared workspace for humans and agents",
-        "desc_zh": "人类和代理的共享工作空间",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agentgrid-io",
-        "product_link": "https://www.producthunt.com/r/p/1291942?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Papermark Data Rooms",
-        "slug": "papermark-2",
-        "desc": "Secure data rooms your AI agents can run. Live in < 60 sec.",
-        "desc_zh": "您的人工智能代理可以运行的安全数据室。存活时间 < 60 秒。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/papermark-2",
-        "product_link": "https://www.producthunt.com/r/p/1291620?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Kiwi",
-        "slug": "kiwi-7",
-        "desc": "A proactive AI assistant that texts you before you ask",
-        "desc_zh": "主动的人工智能助手会在您询问之前给您发短信",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kiwi-7",
-        "product_link": "https://www.producthunt.com/r/p/1291790?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Loqui",
-        "slug": "loqui-2",
-        "desc": "Turns your voice into ready-to-send text in any Mac app",
-        "desc_zh": "在任何 Mac 应用程序中将您的语音转换为可发送的文本",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/loqui-2",
-        "product_link": "https://www.producthunt.com/r/p/1291345?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "2G",
-        "slug": "2g",
-        "desc": "Sampler to create early 2000 Neural Synthesis",
-        "desc_zh": "采样器创建 2000 年初的神经合成",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/2g",
-        "product_link": "https://www.producthunt.com/r/p/1291654?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AirPosture",
-        "slug": "airposture-2",
-        "desc": "Now on Mac, with a voice coach in your AirPods",
-        "desc_zh": "Now on Mac, with a voice coach in your AirPods",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/airposture-2",
-        "product_link": "https://www.producthunt.com/r/p/1291493?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "JIMMY",
-        "slug": "jimmy",
-        "desc": "JIMMY is an AI agent that runs on your PC",
-        "desc_zh": "JIMMY 是一个在您的 PC 上运行的 AI 代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jimmy",
-        "product_link": "https://www.producthunt.com/r/p/1291921?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-25": [
       {
         "name": "ManyAgents",
@@ -212,6 +130,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/stereolift-live",
         "product_link": "https://www.producthunt.com/r/p/1292499?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Seqora",
+        "slug": "seqora",
+        "desc": "Design your schema on a canvas. Seqora writes the SQL.",
+        "desc_zh": "Design your schema on a canvas. Seqora writes the SQL.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/seqora",
+        "product_link": "https://www.producthunt.com/r/p/1292905?app_id=339",
         "source": "feed"
       }
     ],
@@ -394,6 +322,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/knocket-ai",
         "product_link": "https://www.producthunt.com/r/p/1292989?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LumaFold: Screen Light",
+        "slug": "lumafold-screen-light",
+        "desc": "Makeup Mirror & Color Effects for iPhone Duo",
+        "desc_zh": "Makeup Mirror & Color Effects for iPhone Duo",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lumafold-screen-light",
+        "product_link": "https://www.producthunt.com/r/p/1293442?app_id=339",
         "source": "feed"
       }
     ],
@@ -799,6 +737,46 @@
         "ph_link": "https://www.producthunt.com/products/kestrix",
         "product_link": "https://www.producthunt.com/r/p/1296368?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "GitHub Copilot Fusion",
+        "slug": "github-copilot-fusion",
+        "desc": "GitHub's AI coding agent that picks and combines models",
+        "desc_zh": "GitHub's AI coding agent that picks and combines models",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/github-copilot-fusion",
+        "product_link": "https://www.producthunt.com/r/p/1296734?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "telemetry.dev",
+        "slug": "telemetry-dev",
+        "desc": "LLM observability for AI agents",
+        "desc_zh": "LLM observability for AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/telemetry-dev",
+        "product_link": "https://www.producthunt.com/r/p/1296505?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mo",
+        "slug": "mo-5",
+        "desc": "A little character on your Mac who does 232 tasks for you",
+        "desc_zh": "A little character on your Mac who does 232 tasks for you",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mo-5",
+        "product_link": "https://www.producthunt.com/r/p/1295822?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Knucklebop",
+        "slug": "knucklebop",
+        "desc": "tap your palm rest to control your Mac",
+        "desc_zh": "tap your palm rest to control your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/knucklebop",
+        "product_link": "https://www.producthunt.com/r/p/1295778?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-29": [
@@ -900,6 +878,118 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/chopstick",
         "product_link": "https://www.producthunt.com/r/p/1296862?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "BaseTab AI",
+        "slug": "basetab-ai",
+        "desc": "Turn your new tab into an AI-powered workspace",
+        "desc_zh": "Turn your new tab into an AI-powered workspace",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/basetab-ai",
+        "product_link": "https://www.producthunt.com/r/p/1297499?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Backenly",
+        "slug": "backenly-2",
+        "desc": "The autonomous backend for AI coding agents",
+        "desc_zh": "The autonomous backend for AI coding agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/backenly-2",
+        "product_link": "https://www.producthunt.com/r/p/1297694?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hemmed",
+        "slug": "hemmed",
+        "desc": "Hide Mac menu bar clutter and pin individual actions",
+        "desc_zh": "Hide Mac menu bar clutter and pin individual actions",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hemmed",
+        "product_link": "https://www.producthunt.com/r/p/1297811?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-30": [
+      {
+        "name": "Agnos",
+        "slug": "agnos",
+        "desc": "Clean documents for AI, and see what was removed",
+        "desc_zh": "Clean documents for AI, and see what was removed",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agnos",
+        "product_link": "https://www.producthunt.com/r/p/1298903?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pluto Door",
+        "slug": "pluto-door",
+        "desc": "SSH client with an AI agent and a desktop for every server",
+        "desc_zh": "SSH client with an AI agent and a desktop for every server",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pluto-door",
+        "product_link": "https://www.producthunt.com/r/p/1298986?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AwaitIO",
+        "slug": "awaitio",
+        "desc": "Write a TypeScript function, get an admin screen",
+        "desc_zh": "Write a TypeScript function, get an admin screen",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/awaitio",
+        "product_link": "https://www.producthunt.com/r/p/1299056?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AC Bridge",
+        "slug": "ac-bridge",
+        "desc": "Your smart lights show when Claude Code or Codex needs you.",
+        "desc_zh": "Your smart lights show when Claude Code or Codex needs you.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ac-bridge",
+        "product_link": "https://www.producthunt.com/r/p/1299153?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SKI",
+        "slug": "ski",
+        "desc": "Voice-first coding harness",
+        "desc_zh": "Voice-first coding harness",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ski",
+        "product_link": "https://www.producthunt.com/r/p/1298139?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Godwit",
+        "slug": "godwit",
+        "desc": "An open-source, AI-native email client",
+        "desc_zh": "An open-source, AI-native email client",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/godwit",
+        "product_link": "https://www.producthunt.com/r/p/1299137?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Secret Key",
+        "slug": "secret-key",
+        "desc": "Let your family unlock your passwords if you can't",
+        "desc_zh": "Let your family unlock your passwords if you can't",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/secret-key",
+        "product_link": "https://www.producthunt.com/r/p/1298856?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ChainPoints",
+        "slug": "chainpoints",
+        "desc": "Flight Prices in Your Points, on Google Flights",
+        "desc_zh": "Flight Prices in Your Points, on Google Flights",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chainpoints",
+        "product_link": "https://www.producthunt.com/r/p/1298797?app_id=339",
         "source": "feed"
       }
     ]
