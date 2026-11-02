@@ -1,148 +1,6 @@
 {
-  "updated_at": "2026-11-01T00:39:33",
+  "updated_at": "2026-11-02T01:13:21",
   "days": {
-    "2026-10-25": [
-      {
-        "name": "ManyAgents",
-        "slug": "manyagents",
-        "desc": "Run a team of AI coding agents from one Mac window",
-        "desc_zh": "从一个 Mac 窗口运行一组 AI 编码代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/manyagents",
-        "product_link": "https://www.producthunt.com/r/p/1292599?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "tabsh",
-        "slug": "tabsh",
-        "desc": "Work with agents with an IDE in your browser tab",
-        "desc_zh": "通过浏览器选项卡中的 IDE 与代理合作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tabsh",
-        "product_link": "https://www.producthunt.com/r/p/1292068?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "omerta",
-        "slug": "omerta",
-        "desc": "Catch .env secrets leaking into git",
-        "desc_zh": "捕获 .env 秘密泄漏到 git 中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/omerta",
-        "product_link": "https://www.producthunt.com/r/p/1292641?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "WhoIsCooking",
-        "slug": "whoiscooking",
-        "desc": "See which AI agent is heating your Mac and cool it down.",
-        "desc_zh": "查看哪个 AI 代理正在加热您的 Mac 并为其降温。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/whoiscooking",
-        "product_link": "https://www.producthunt.com/r/p/1292664?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AVP",
-        "slug": "avp",
-        "desc": "Open source alternative to Git for AI coding agents",
-        "desc_zh": "用于 AI 编码代理的 Git 开源替代方案",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/avp",
-        "product_link": "https://www.producthunt.com/r/p/1292685?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "VibeiDE",
-        "slug": "vibeide",
-        "desc": "Queue agent tasks in parallel and review each result",
-        "desc_zh": "并行排队代理任务并查看每个结果",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vibeide",
-        "product_link": "https://www.producthunt.com/r/p/1292655?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AllModels",
-        "slug": "allmodels-io",
-        "desc": "Explore every abliterated model",
-        "desc_zh": "探索每一个被废除的模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/allmodels-io",
-        "product_link": "https://www.producthunt.com/r/p/1292894?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Standfast",
-        "slug": "standfast",
-        "desc": "Know if your Mac's GitHub Actions runners will get work",
-        "desc_zh": "了解 Mac 的 GitHub Actions 运行程序是否能正常工作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/standfast",
-        "product_link": "https://www.producthunt.com/r/p/1292792?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Jobmate AI",
-        "slug": "jobmate-ai-3",
-        "desc": "The humanized AI Copilot for your entire Job search",
-        "desc_zh": "为你的整个求职过程提供人性化的AI副驾驶",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jobmate-ai-3",
-        "product_link": "https://www.producthunt.com/r/p/1292687?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "desigma",
-        "slug": "desigma",
-        "desc": "Free Figma alternative made on Rust",
-        "desc_zh": "Rust 上的免费 Figma 替代品",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/desigma",
-        "product_link": "https://www.producthunt.com/r/p/1292572?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mozy",
-        "slug": "mozy-walk-to-unlock-apps",
-        "desc": "App Blocker for Android & iPhone",
-        "desc_zh": "适用于 Android 和 iPhone 的应用程序拦截器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mozy-walk-to-unlock-apps",
-        "product_link": "https://www.producthunt.com/r/p/1292433?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Zest",
-        "slug": "zest-6",
-        "desc": "Hold ⌥Space, flick, and an AI agent does the dev chore",
-        "desc_zh": "Hold ⌥Space, flick, and an AI agent does the dev chore",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zest-6",
-        "product_link": "https://www.producthunt.com/r/p/1292176?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "StereoLift Live",
-        "slug": "stereolift-live",
-        "desc": "your desktop in real 3D, live on your Quest",
-        "desc_zh": "your desktop in real 3D, live on your Quest",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stereolift-live",
-        "product_link": "https://www.producthunt.com/r/p/1292499?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Seqora",
-        "slug": "seqora",
-        "desc": "Design your schema on a canvas. Seqora writes the SQL.",
-        "desc_zh": "Design your schema on a canvas. Seqora writes the SQL.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/seqora",
-        "product_link": "https://www.producthunt.com/r/p/1292905?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-26": [
       {
         "name": "Off Grid AI",
@@ -332,6 +190,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/lumafold-screen-light",
         "product_link": "https://www.producthunt.com/r/p/1293442?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Riverside Agents",
+        "slug": "riverside-fm",
+        "desc": "A team of AI agents for video: produce, edit, clip, post",
+        "desc_zh": "A team of AI agents for video: produce, edit, clip, post",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/riverside-fm",
+        "product_link": "https://www.producthunt.com/r/p/1293647?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ClawsGO Science",
+        "slug": "clawsgo-science",
+        "desc": "The AI research agent with its own cloud lab",
+        "desc_zh": "The AI research agent with its own cloud lab",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clawsgo-science",
+        "product_link": "https://www.producthunt.com/r/p/1293162?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "magpie",
+        "slug": "magpie-14",
+        "desc": "everything you’ve saved, in one visual library",
+        "desc_zh": "everything you’ve saved, in one visual library",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/magpie-14",
+        "product_link": "https://www.producthunt.com/r/p/1293876?app_id=339",
         "source": "feed"
       }
     ],
@@ -564,6 +452,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/vaani-developer-platfrom",
         "product_link": "https://www.producthunt.com/r/p/1295420?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Yuzu Sync",
+        "slug": "yuzu-sync",
+        "desc": "Mirror, copy or two-way sync folders on your Mac",
+        "desc_zh": "Mirror, copy or two-way sync folders on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/yuzu-sync",
+        "product_link": "https://www.producthunt.com/r/p/1295385?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Raah.dev",
+        "slug": "raah-dev",
+        "desc": "Track your revenue, analytics, and website performance",
+        "desc_zh": "Track your revenue, analytics, and website performance",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/raah-dev",
+        "product_link": "https://www.producthunt.com/r/p/1295124?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Modelpeers",
+        "slug": "modelpeers",
+        "desc": "Follow AI models and agents like you follow people",
+        "desc_zh": "Follow AI models and agents like you follow people",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/modelpeers",
+        "product_link": "https://www.producthunt.com/r/p/1295235?app_id=339",
         "source": "feed"
       }
     ],
@@ -909,6 +827,66 @@
         "ph_link": "https://www.producthunt.com/products/hemmed",
         "product_link": "https://www.producthunt.com/r/p/1297811?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Usage for Claude + ChatGPT 4.0",
+        "slug": "usage-for-claude",
+        "desc": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch",
+        "desc_zh": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/usage-for-claude",
+        "product_link": "https://www.producthunt.com/r/p/1297720?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fluent 2",
+        "slug": "fluent-ai-writing-assistant-for-macos",
+        "desc": "AI teammates that run locally on your Mac",
+        "desc_zh": "AI teammates that run locally on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
+        "product_link": "https://www.producthunt.com/r/p/1297554?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Termy",
+        "slug": "termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
+        "desc": "Your coding agent, in the notch",
+        "desc_zh": "Your coding agent, in the notch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
+        "product_link": "https://www.producthunt.com/r/p/1298041?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Precise Edit by Ideogram",
+        "slug": "ideogram",
+        "desc": "Precise editing with context window",
+        "desc_zh": "Precise editing with context window",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ideogram",
+        "product_link": "https://www.producthunt.com/r/p/1297466?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hamdori",
+        "slug": "hamdori",
+        "desc": "A tiny 3D hamster that lives on your desktop",
+        "desc_zh": "A tiny 3D hamster that lives on your desktop",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hamdori",
+        "product_link": "https://www.producthunt.com/r/p/1297995?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "BeeBranch",
+        "slug": "beebranch",
+        "desc": "The local-first desktop Git client",
+        "desc_zh": "The local-first desktop Git client",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/beebranch",
+        "product_link": "https://www.producthunt.com/r/p/1297401?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-30": [
@@ -990,6 +968,58 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/chainpoints",
         "product_link": "https://www.producthunt.com/r/p/1298797?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Screen Studio 4.0",
+        "slug": "screen-studio",
+        "desc": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
+        "desc_zh": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/screen-studio",
+        "product_link": "https://www.producthunt.com/r/p/1298578?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Embage",
+        "slug": "embage",
+        "desc": "Build agent for your customers, run workflows, analyzed.",
+        "desc_zh": "Build agent for your customers, run workflows, analyzed.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/embage",
+        "product_link": "https://www.producthunt.com/r/p/1298096?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Chorin: Ora et Labora",
+        "slug": "chorin-ora-et-labora",
+        "desc": "Build a real medieval abbey, from 1258 to today",
+        "desc_zh": "Build a real medieval abbey, from 1258 to today",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chorin-ora-et-labora",
+        "product_link": "https://www.producthunt.com/r/p/1298596?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-10-31": [
+      {
+        "name": "agentmash",
+        "slug": "agentmash",
+        "desc": "open-source multiplayer AI for teams' coding agents",
+        "desc_zh": "open-source multiplayer AI for teams' coding agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agentmash",
+        "product_link": "https://www.producthunt.com/r/p/1299785?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ernd",
+        "slug": "ernd",
+        "desc": "The credit card for the AI stack",
+        "desc_zh": "The credit card for the AI stack",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ernd",
+        "product_link": "https://www.producthunt.com/r/p/1299290?app_id=339",
         "source": "feed"
       }
     ]
