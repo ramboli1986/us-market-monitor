@@ -1,228 +1,6 @@
 {
-  "updated_at": "2026-11-02T01:13:21",
+  "updated_at": "2026-11-03T03:15:43",
   "days": {
-    "2026-10-26": [
-      {
-        "name": "Off Grid AI",
-        "slug": "off-grid-ai",
-        "desc": "Private AI on your phone and computer.",
-        "desc_zh": "Private AI on your phone and computer.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/off-grid-ai",
-        "product_link": "https://www.producthunt.com/r/p/1293302?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ContextGem 1.0",
-        "slug": "contextgem",
-        "desc": "Decision models join LLMs to extract data from documents",
-        "desc_zh": "Decision models join LLMs to extract data from documents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/contextgem",
-        "product_link": "https://www.producthunt.com/r/p/1294110?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "GPT-6.1 Terra",
-        "slug": "openai",
-        "desc": "Fast, capable computer use at half the price",
-        "desc_zh": "Fast, capable computer use at half the price",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openai",
-        "product_link": "https://www.producthunt.com/r/p/1293926?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OpenRadView",
-        "slug": "openradview",
-        "desc": "Free, open-source viewer for your own CT, MRI and X-rays",
-        "desc_zh": "Free, open-source viewer for your own CT, MRI and X-rays",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openradview",
-        "product_link": "https://www.producthunt.com/r/p/1293677?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Arcade Controller Pro",
-        "slug": "bluetooth-snes-controller",
-        "desc": "A fight controller with no stick and its own screen",
-        "desc_zh": "A fight controller with no stick and its own screen",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bluetooth-snes-controller",
-        "product_link": "https://www.producthunt.com/r/p/1293408?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "fswitcher",
-        "slug": "fswitcher",
-        "desc": "fswitcher replaces Command-Tab on your Mac",
-        "desc_zh": "fswitcher replaces Command-Tab on your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fswitcher",
-        "product_link": "https://www.producthunt.com/r/p/1293807?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "iPad mini 8",
-        "slug": "apple",
-        "desc": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
-        "desc_zh": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/apple",
-        "product_link": "https://www.producthunt.com/r/p/1293470?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Revix AI",
-        "slug": "revix-ai-2",
-        "desc": "AI code review that learns your repo's own rules",
-        "desc_zh": "AI code review that learns your repo's own rules",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/revix-ai-2",
-        "product_link": "https://www.producthunt.com/r/p/1293843?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Paddock",
-        "slug": "paddock-2",
-        "desc": "Computers and sandboxes for your agents",
-        "desc_zh": "Computers and sandboxes for your agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/paddock-2",
-        "product_link": "https://www.producthunt.com/r/p/1294009?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "PulseDev",
-        "slug": "pulsedev",
-        "desc": "Click any UI bug on localhost and your AI agent fixes it",
-        "desc_zh": "Click any UI bug on localhost and your AI agent fixes it",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pulsedev",
-        "product_link": "https://www.producthunt.com/r/p/1293889?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nuvio 5.0",
-        "slug": "nuvio",
-        "desc": "Hand your financial admin to your AI agent",
-        "desc_zh": "Hand your financial admin to your AI agent",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nuvio",
-        "product_link": "https://www.producthunt.com/r/p/1293789?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hob",
-        "slug": "hob-3",
-        "desc": "Open-source, on device alternative to Claude and ChatGPT",
-        "desc_zh": "Open-source, on device alternative to Claude and ChatGPT",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hob-3",
-        "product_link": "https://www.producthunt.com/r/p/1293579?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "throxy",
-        "slug": "throxy-yc-p25",
-        "desc": "Cold calls in your prospect's language. Pipeline delivered.",
-        "desc_zh": "Cold calls in your prospect's language. Pipeline delivered.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/throxy-yc-p25",
-        "product_link": "https://www.producthunt.com/r/p/1293747?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Agent Handshake by Fini",
-        "slug": "fini-2",
-        "desc": "Agent-to-agent customer support that holds its answer",
-        "desc_zh": "Agent-to-agent customer support that holds its answer",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fini-2",
-        "product_link": "https://www.producthunt.com/r/p/1293543?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dotverse",
-        "slug": "dotverse",
-        "desc": "Your Dot now with a crew",
-        "desc_zh": "Your Dot now with a crew",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dotverse",
-        "product_link": "https://www.producthunt.com/r/p/1293426?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Intrascope 2.0",
-        "slug": "intrascope-app",
-        "desc": "New AI agent, 1,650+ apps, Skills and smart model routing",
-        "desc_zh": "新的 AI 代理、1,650 多个应用程序、技能和智能模型路由",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/intrascope-app",
-        "product_link": "https://www.producthunt.com/r/p/1293404?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SparkBots AI (Powered by Jev)",
-        "slug": "sparkbots-ai-analyze-pages-and-pdfs",
-        "desc": "Instantly extract key details and analyze any webpage or PDF",
-        "desc_zh": "Instantly extract key details and analyze any webpage or PDF",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
-        "product_link": "https://www.producthunt.com/r/p/1294142?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Knocket AI",
-        "slug": "knocket-ai",
-        "desc": "Chat with visitors from your website or link",
-        "desc_zh": "Chat with visitors from your website or link",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/knocket-ai",
-        "product_link": "https://www.producthunt.com/r/p/1292989?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LumaFold: Screen Light",
-        "slug": "lumafold-screen-light",
-        "desc": "Makeup Mirror & Color Effects for iPhone Duo",
-        "desc_zh": "Makeup Mirror & Color Effects for iPhone Duo",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lumafold-screen-light",
-        "product_link": "https://www.producthunt.com/r/p/1293442?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Riverside Agents",
-        "slug": "riverside-fm",
-        "desc": "A team of AI agents for video: produce, edit, clip, post",
-        "desc_zh": "A team of AI agents for video: produce, edit, clip, post",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/riverside-fm",
-        "product_link": "https://www.producthunt.com/r/p/1293647?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ClawsGO Science",
-        "slug": "clawsgo-science",
-        "desc": "The AI research agent with its own cloud lab",
-        "desc_zh": "The AI research agent with its own cloud lab",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/clawsgo-science",
-        "product_link": "https://www.producthunt.com/r/p/1293162?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "magpie",
-        "slug": "magpie-14",
-        "desc": "everything you’ve saved, in one visual library",
-        "desc_zh": "everything you’ve saved, in one visual library",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/magpie-14",
-        "product_link": "https://www.producthunt.com/r/p/1293876?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-27": [
       {
         "name": "Boltbar",
@@ -483,6 +261,16 @@
         "ph_link": "https://www.producthunt.com/products/modelpeers",
         "product_link": "https://www.producthunt.com/r/p/1295235?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Cedric AI for Meetings",
+        "slug": "cedric",
+        "desc": "The first AI agent to present your slides and attend for you",
+        "desc_zh": "The first AI agent to present your slides and attend for you",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cedric",
+        "product_link": "https://www.producthunt.com/r/p/1294656?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-28": [
@@ -695,6 +483,16 @@
         "ph_link": "https://www.producthunt.com/products/knucklebop",
         "product_link": "https://www.producthunt.com/r/p/1295778?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Hera",
+        "slug": "hera-6",
+        "desc": "AI Creative Canvas",
+        "desc_zh": "AI Creative Canvas",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hera-6",
+        "product_link": "https://www.producthunt.com/r/p/1295992?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-29": [
@@ -887,6 +685,16 @@
         "ph_link": "https://www.producthunt.com/products/beebranch",
         "product_link": "https://www.producthunt.com/r/p/1297401?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "diff-tour",
+        "slug": "diff-tour",
+        "desc": "AI writes the code. Learn to read it like a senior engineer.",
+        "desc_zh": "AI writes the code. Learn to read it like a senior engineer.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/diff-tour",
+        "product_link": "https://www.producthunt.com/r/p/1296850?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-30": [
@@ -999,6 +807,36 @@
         "ph_link": "https://www.producthunt.com/products/chorin-ora-et-labora",
         "product_link": "https://www.producthunt.com/r/p/1298596?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Display 1.0",
+        "slug": "display-dev",
+        "desc": "Create docs and apps with any agent, in one workspace",
+        "desc_zh": "Create docs and apps with any agent, in one workspace",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/display-dev",
+        "product_link": "https://www.producthunt.com/r/p/1298623?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hyperresearch",
+        "slug": "hyperresearch",
+        "desc": "Durable, verified agentic search",
+        "desc_zh": "Durable, verified agentic search",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hyperresearch",
+        "product_link": "https://www.producthunt.com/r/p/1299009?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Widgeteer",
+        "slug": "widgeteer",
+        "desc": "Describe a widget, get a working one on your site",
+        "desc_zh": "Describe a widget, get a working one on your site",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/widgeteer",
+        "product_link": "https://www.producthunt.com/r/p/1298788?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-10-31": [
@@ -1020,6 +858,48 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/ernd",
         "product_link": "https://www.producthunt.com/r/p/1299290?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-01": [
+      {
+        "name": "Xmind 2027",
+        "slug": "xmind",
+        "desc": "Your mind map is now an AI thinking partner",
+        "desc_zh": "Your mind map is now an AI thinking partner",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/xmind",
+        "product_link": "https://www.producthunt.com/r/p/1300992?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Friday Work",
+        "slug": "friday-work",
+        "desc": "When Claude hits its limit, your task keeps going",
+        "desc_zh": "When Claude hits its limit, your task keeps going",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/friday-work",
+        "product_link": "https://www.producthunt.com/r/p/1300949?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Help",
+        "slug": "help-381",
+        "desc": "The app designed for targeted and transparent help",
+        "desc_zh": "The app designed for targeted and transparent help",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/help-381",
+        "product_link": "https://www.producthunt.com/r/p/1301292?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agent Inbox",
+        "slug": "agent-inbox",
+        "desc": "Give your agent an email address, Slack and Telegram handle",
+        "desc_zh": "Give your agent an email address, Slack and Telegram handle",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agent-inbox",
+        "product_link": "https://www.producthunt.com/r/p/1300411?app_id=339",
         "source": "feed"
       }
     ]
