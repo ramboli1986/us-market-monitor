@@ -1,158 +1,6 @@
 {
-  "updated_at": "2026-11-06T02:01:12",
+  "updated_at": "2026-11-07T01:33:39",
   "days": {
-    "2026-10-30": [
-      {
-        "name": "Agnos",
-        "slug": "agnos",
-        "desc": "Clean documents for AI, and see what was removed",
-        "desc_zh": "Clean documents for AI, and see what was removed",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agnos",
-        "product_link": "https://www.producthunt.com/r/p/1298903?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pluto Door",
-        "slug": "pluto-door",
-        "desc": "SSH client with an AI agent and a desktop for every server",
-        "desc_zh": "SSH client with an AI agent and a desktop for every server",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pluto-door",
-        "product_link": "https://www.producthunt.com/r/p/1298986?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AwaitIO",
-        "slug": "awaitio",
-        "desc": "Write a TypeScript function, get an admin screen",
-        "desc_zh": "Write a TypeScript function, get an admin screen",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/awaitio",
-        "product_link": "https://www.producthunt.com/r/p/1299056?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "AC Bridge",
-        "slug": "ac-bridge",
-        "desc": "Your smart lights show when Claude Code or Codex needs you.",
-        "desc_zh": "Your smart lights show when Claude Code or Codex needs you.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ac-bridge",
-        "product_link": "https://www.producthunt.com/r/p/1299153?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SKI",
-        "slug": "ski",
-        "desc": "Voice-first coding harness",
-        "desc_zh": "Voice-first coding harness",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ski",
-        "product_link": "https://www.producthunt.com/r/p/1298139?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Godwit",
-        "slug": "godwit",
-        "desc": "An open-source, AI-native email client",
-        "desc_zh": "An open-source, AI-native email client",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/godwit",
-        "product_link": "https://www.producthunt.com/r/p/1299137?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Secret Key",
-        "slug": "secret-key",
-        "desc": "Let your family unlock your passwords if you can't",
-        "desc_zh": "Let your family unlock your passwords if you can't",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/secret-key",
-        "product_link": "https://www.producthunt.com/r/p/1298856?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChainPoints",
-        "slug": "chainpoints",
-        "desc": "Flight Prices in Your Points, on Google Flights",
-        "desc_zh": "Flight Prices in Your Points, on Google Flights",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chainpoints",
-        "product_link": "https://www.producthunt.com/r/p/1298797?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Screen Studio 4.0",
-        "slug": "screen-studio",
-        "desc": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
-        "desc_zh": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/screen-studio",
-        "product_link": "https://www.producthunt.com/r/p/1298578?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Embage",
-        "slug": "embage",
-        "desc": "Build agent for your customers, run workflows, analyzed.",
-        "desc_zh": "Build agent for your customers, run workflows, analyzed.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/embage",
-        "product_link": "https://www.producthunt.com/r/p/1298096?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Chorin: Ora et Labora",
-        "slug": "chorin-ora-et-labora",
-        "desc": "Build a real medieval abbey, from 1258 to today",
-        "desc_zh": "Build a real medieval abbey, from 1258 to today",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chorin-ora-et-labora",
-        "product_link": "https://www.producthunt.com/r/p/1298596?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Display 1.0",
-        "slug": "display-dev",
-        "desc": "Create docs and apps with any agent, in one workspace",
-        "desc_zh": "Create docs and apps with any agent, in one workspace",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/display-dev",
-        "product_link": "https://www.producthunt.com/r/p/1298623?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hyperresearch",
-        "slug": "hyperresearch",
-        "desc": "Durable, verified agentic search",
-        "desc_zh": "Durable, verified agentic search",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hyperresearch",
-        "product_link": "https://www.producthunt.com/r/p/1299009?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Widgeteer",
-        "slug": "widgeteer",
-        "desc": "Describe a widget, get a working one on your site",
-        "desc_zh": "Describe a widget, get a working one on your site",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/widgeteer",
-        "product_link": "https://www.producthunt.com/r/p/1298788?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "kwant",
-        "slug": "kwant",
-        "desc": "AI bots that check each other's work before saying \"done\"",
-        "desc_zh": "AI bots that check each other's work before saying \"done\"",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kwant",
-        "product_link": "https://www.producthunt.com/r/p/1298987?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-10-31": [
       {
         "name": "agentmash",
@@ -212,6 +60,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/keel-7",
         "product_link": "https://www.producthunt.com/r/p/1299888?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Winq",
+        "slug": "winq",
+        "desc": "Focus on a window or display you're looking at",
+        "desc_zh": "Focus on a window or display you're looking at",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/winq",
+        "product_link": "https://www.producthunt.com/r/p/1299883?app_id=339",
         "source": "feed"
       }
     ],
@@ -354,6 +212,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/nock-2",
         "product_link": "https://www.producthunt.com/r/p/1300649?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "LiveShortly",
+        "slug": "liveshortly",
+        "desc": "Watch, steer, share and approve your coding agent, live",
+        "desc_zh": "Watch, steer, share and approve your coding agent, live",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/liveshortly",
+        "product_link": "https://www.producthunt.com/r/p/1300309?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wonder Dev View",
+        "slug": "wonder-dev-view",
+        "desc": "Run many Claude Code and Codex agents in parallel",
+        "desc_zh": "Run many Claude Code and Codex agents in parallel",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wonder-dev-view",
+        "product_link": "https://www.producthunt.com/r/p/1301134?app_id=339",
         "source": "feed"
       }
     ],
@@ -667,6 +545,36 @@
         "ph_link": "https://www.producthunt.com/products/pinku",
         "product_link": "https://www.producthunt.com/r/p/1302582?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "EdgeBar",
+        "slug": "edgebar",
+        "desc": "Control your Mac’s volume and brightness from the trackpad",
+        "desc_zh": "Control your Mac’s volume and brightness from the trackpad",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/edgebar",
+        "product_link": "https://www.producthunt.com/r/p/1301588?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "SafeGrd",
+        "slug": "safegrd",
+        "desc": "Safae database backups that AI can restore but not delete",
+        "desc_zh": "Safae database backups that AI can restore but not delete",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/safegrd",
+        "product_link": "https://www.producthunt.com/r/p/1301604?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Releasebeam",
+        "slug": "releasebeam",
+        "desc": "Release infrastructure for developers",
+        "desc_zh": "Release infrastructure for developers",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/releasebeam",
+        "product_link": "https://www.producthunt.com/r/p/1301751?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-03": [
@@ -929,6 +837,66 @@
         "ph_link": "https://www.producthunt.com/products/bambu-lab-h3c",
         "product_link": "https://www.producthunt.com/r/p/1303644?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Alysis Code",
+        "slug": "alysis-code",
+        "desc": "Open-source AI coding agent",
+        "desc_zh": "Open-source AI coding agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/alysis-code",
+        "product_link": "https://www.producthunt.com/r/p/1302931?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Any Video to Text",
+        "slug": "any-video-to-text",
+        "desc": "Paste a video link, get the transcript in seconds",
+        "desc_zh": "Paste a video link, get the transcript in seconds",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/any-video-to-text",
+        "product_link": "https://www.producthunt.com/r/p/1303404?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Textwhisk",
+        "slug": "textwhisk",
+        "desc": "Turn selected text into quick actions on your Mac",
+        "desc_zh": "Turn selected text into quick actions on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/textwhisk",
+        "product_link": "https://www.producthunt.com/r/p/1303863?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "axel.md",
+        "slug": "axel-3",
+        "desc": "Agent orchestration in the terminal, designed for Rex",
+        "desc_zh": "Agent orchestration in the terminal, designed for Rex",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/axel-3",
+        "product_link": "https://www.producthunt.com/r/p/1303551?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Enhanced for Todoist",
+        "slug": "enhanced-for-todoist",
+        "desc": "More ways to organise, plan and focus with Todoist",
+        "desc_zh": "More ways to organise, plan and focus with Todoist",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/enhanced-for-todoist",
+        "product_link": "https://www.producthunt.com/r/p/1303911?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AgentTM",
+        "slug": "agenttm",
+        "desc": "Time-travel debugging for AI coding agents",
+        "desc_zh": "Time-travel debugging for AI coding agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agenttm",
+        "product_link": "https://www.producthunt.com/r/p/1303143?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-04": [
@@ -1020,6 +988,288 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/chatnest-2",
         "product_link": "https://www.producthunt.com/r/p/1303979?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pressure",
+        "slug": "pressure",
+        "desc": "Need a second opinion? Have two agents debate your topic",
+        "desc_zh": "Need a second opinion? Have two agents debate your topic",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pressure",
+        "product_link": "https://www.producthunt.com/r/p/1304870?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Datastripes Data Stories",
+        "slug": "datastripes",
+        "desc": "Turn any spreadsheet into a data story in seconds",
+        "desc_zh": "Turn any spreadsheet into a data story in seconds",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/datastripes",
+        "product_link": "https://www.producthunt.com/r/p/1304303?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OrgSync",
+        "slug": "orgsync-2",
+        "desc": "Company brain for Claude, ChatGPT & Codex teams",
+        "desc_zh": "Company brain for Claude, ChatGPT & Codex teams",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/orgsync-2",
+        "product_link": "https://www.producthunt.com/r/p/1304371?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mmory",
+        "slug": "mmory",
+        "desc": "Mmory is a private voice memory app for iPhone",
+        "desc_zh": "Mmory is a private voice memory app for iPhone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mmory",
+        "product_link": "https://www.producthunt.com/r/p/1304909?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pauta",
+        "slug": "pauta",
+        "desc": "Your private memory for every conversation",
+        "desc_zh": "Your private memory for every conversation",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pauta",
+        "product_link": "https://www.producthunt.com/r/p/1304221?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Thunderduck Inc.",
+        "slug": "thunderduck-inc",
+        "desc": "Modular Data Warehouse for Agentic Data Teams",
+        "desc_zh": "Modular Data Warehouse for Agentic Data Teams",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/thunderduck-inc",
+        "product_link": "https://www.producthunt.com/r/p/1305009?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Koltrix",
+        "slug": "koltrix",
+        "desc": "Your whole email stack, run by agents you control.",
+        "desc_zh": "Your whole email stack, run by agents you control.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/koltrix",
+        "product_link": "https://www.producthunt.com/r/p/1303942?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Chronos DB",
+        "slug": "chronos-db",
+        "desc": "The database for the autonomous AI era.",
+        "desc_zh": "The database for the autonomous AI era.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chronos-db",
+        "product_link": "https://www.producthunt.com/r/p/1304353?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-05": [
+      {
+        "name": "PostMyPace",
+        "slug": "postmypace",
+        "desc": "Turn your run into a ready-to-post Instagram Story or Reel",
+        "desc_zh": "Turn your run into a ready-to-post Instagram Story or Reel",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/postmypace",
+        "product_link": "https://www.producthunt.com/r/p/1305474?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Plainmail",
+        "slug": "plainmail",
+        "desc": "Real email on every domain you own, for $5 a month flat",
+        "desc_zh": "Real email on every domain you own, for $5 a month flat",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/plainmail",
+        "product_link": "https://www.producthunt.com/r/p/1305826?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TraceX",
+        "slug": "tracex",
+        "desc": "The AI engineer for your production issues",
+        "desc_zh": "The AI engineer for your production issues",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tracex",
+        "product_link": "https://www.producthunt.com/r/p/1305199?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rankfender v3.0",
+        "slug": "rankfender",
+        "desc": "The SEO/GEO operating system, built for people and AI agents",
+        "desc_zh": "The SEO/GEO operating system, built for people and AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rankfender",
+        "product_link": "https://www.producthunt.com/r/p/1305524?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "BuildFerry",
+        "slug": "buildferry",
+        "desc": "Install iOS test builds on any iPhone with one link",
+        "desc_zh": "Install iOS test builds on any iPhone with one link",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/buildferry",
+        "product_link": "https://www.producthunt.com/r/p/1305755?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AudioCentral",
+        "slug": "audiocentral",
+        "desc": "Control every app’s audio from your Mac’s menu bar.",
+        "desc_zh": "Control every app’s audio from your Mac’s menu bar.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/audiocentral",
+        "product_link": "https://www.producthunt.com/r/p/1305936?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Translucent AI",
+        "slug": "translucent-ai",
+        "desc": "Test infrastructure for hardware teams",
+        "desc_zh": "Test infrastructure for hardware teams",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/translucent-ai",
+        "product_link": "https://www.producthunt.com/r/p/1305568?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wisp",
+        "slug": "wisp-9",
+        "desc": "Wisp is a little AI fairy who lives on your desktop",
+        "desc_zh": "Wisp is a little AI fairy who lives on your desktop",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wisp-9",
+        "product_link": "https://www.producthunt.com/r/p/1305672?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Codiclens",
+        "slug": "codiclens-local-ai-powerd-mac-launcher",
+        "desc": "Local AI powerd Mac launcher and file finder",
+        "desc_zh": "Local AI powerd Mac launcher and file finder",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher",
+        "product_link": "https://www.producthunt.com/r/p/1305918?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "pwned.coffee",
+        "slug": "pwned-coffee",
+        "desc": "A live board of security flaws",
+        "desc_zh": "A live board of security flaws",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pwned-coffee",
+        "product_link": "https://www.producthunt.com/r/p/1305307?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kodivo",
+        "slug": "kodivo",
+        "desc": "Learn coding with AI and PHP through swipeable cards",
+        "desc_zh": "Learn coding with AI and PHP through swipeable cards",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kodivo",
+        "product_link": "https://www.producthunt.com/r/p/1306038?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Letterpress-1",
+        "slug": "letterpress-1",
+        "desc": "One script install to automate growth for your website",
+        "desc_zh": "One script install to automate growth for your website",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/letterpress-1",
+        "product_link": "https://www.producthunt.com/r/p/1306342?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kivo",
+        "slug": "kivo-4",
+        "desc": "Free on device dictation for any Mac app and AI agent",
+        "desc_zh": "Free on device dictation for any Mac app and AI agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kivo-4",
+        "product_link": "https://www.producthunt.com/r/p/1305759?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Shipnoted",
+        "slug": "shipnoted",
+        "desc": "Changelog + feedback board for closing the loop on your git",
+        "desc_zh": "Changelog + feedback board for closing the loop on your git",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shipnoted",
+        "product_link": "https://www.producthunt.com/r/p/1305770?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "refern.",
+        "slug": "refern",
+        "desc": "Every visual reference you work from, in one place.",
+        "desc_zh": "Every visual reference you work from, in one place.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/refern",
+        "product_link": "https://www.producthunt.com/r/p/1305982?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Openroster",
+        "slug": "openroster",
+        "desc": "Which \"Open\" companies are actually open source",
+        "desc_zh": "Which \"Open\" companies are actually open source",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openroster",
+        "product_link": "https://www.producthunt.com/r/p/1305536?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cursor Craft",
+        "slug": "cursor-craft",
+        "desc": "Custom cursors for Mac",
+        "desc_zh": "Custom cursors for Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cursor-craft",
+        "product_link": "https://www.producthunt.com/r/p/1306099?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "crystl",
+        "slug": "crystl-multitasking-terminal",
+        "desc": "multitasking terminal for AI coding agents, built for macOS",
+        "desc_zh": "multitasking terminal for AI coding agents, built for macOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+        "product_link": "https://www.producthunt.com/r/p/1306125?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cloptima",
+        "slug": "cloptima",
+        "desc": "AI Gateway, Guardrails & LLM FinOps",
+        "desc_zh": "AI Gateway, Guardrails & LLM FinOps",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cloptima",
+        "product_link": "https://www.producthunt.com/r/p/1306023?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Moatly",
+        "slug": "moatly-2",
+        "desc": "Measures your product's moat and the threats testing it",
+        "desc_zh": "Measures your product's moat and the threats testing it",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/moatly-2",
+        "product_link": "https://www.producthunt.com/r/p/1305393?app_id=339",
         "source": "feed"
       }
     ]
