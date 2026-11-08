@@ -1,78 +1,6 @@
 {
-  "updated_at": "2026-11-07T01:33:39",
+  "updated_at": "2026-11-08T01:04:39",
   "days": {
-    "2026-10-31": [
-      {
-        "name": "agentmash",
-        "slug": "agentmash",
-        "desc": "open-source multiplayer AI for teams' coding agents",
-        "desc_zh": "open-source multiplayer AI for teams' coding agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agentmash",
-        "product_link": "https://www.producthunt.com/r/p/1299785?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ernd",
-        "slug": "ernd",
-        "desc": "The credit card for the AI stack",
-        "desc_zh": "The credit card for the AI stack",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ernd",
-        "product_link": "https://www.producthunt.com/r/p/1299290?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wavefunction",
-        "slug": "wavefunction",
-        "desc": "A minimal, open-source coding agent for your Mac",
-        "desc_zh": "A minimal, open-source coding agent for your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wavefunction",
-        "product_link": "https://www.producthunt.com/r/p/1300044?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Prelulu",
-        "slug": "prelulu",
-        "desc": "Be the main character: chat & video roleplay any story",
-        "desc_zh": "成为主角：聊天和视频角色扮演任何故事",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/prelulu",
-        "product_link": "https://www.producthunt.com/r/p/1300148?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MCPCore",
-        "slug": "mcpcore",
-        "desc": "Build and host MCP servers with no-code workflows",
-        "desc_zh": "使用无代码工作流程构建和托管 MCP 服务器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mcpcore",
-        "product_link": "https://www.producthunt.com/r/p/1299853?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Keel",
-        "slug": "keel-7",
-        "desc": "A native macOS client for Redis, Valkey and Dragonfly",
-        "desc_zh": "适用于 Redis、Valkey 和 Dragonfly 的本机 macOS 客户端",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/keel-7",
-        "product_link": "https://www.producthunt.com/r/p/1299888?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Winq",
-        "slug": "winq",
-        "desc": "Focus on a window or display you're looking at",
-        "desc_zh": "Focus on a window or display you're looking at",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/winq",
-        "product_link": "https://www.producthunt.com/r/p/1299883?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-01": [
       {
         "name": "Xmind 2027",
@@ -232,6 +160,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/wonder-dev-view",
         "product_link": "https://www.producthunt.com/r/p/1301134?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Deal Pilot",
+        "slug": "deal-pilot",
+        "desc": "AI SDR that books meetings in Japan, the US & SE Asia",
+        "desc_zh": "AI SDR that books meetings in Japan, the US & SE Asia",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/deal-pilot",
+        "product_link": "https://www.producthunt.com/r/p/1300996?app_id=339",
         "source": "feed"
       }
     ],
@@ -575,6 +513,16 @@
         "ph_link": "https://www.producthunt.com/products/releasebeam",
         "product_link": "https://www.producthunt.com/r/p/1301751?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Exa Monitors v2",
+        "slug": "exa-ai",
+        "desc": "Web search on a schedule that calls your agent, $2/1k runs",
+        "desc_zh": "Web search on a schedule that calls your agent, $2/1k runs",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/exa-ai",
+        "product_link": "https://www.producthunt.com/r/p/1302002?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-03": [
@@ -896,6 +844,56 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/agenttm",
         "product_link": "https://www.producthunt.com/r/p/1303143?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "kayet",
+        "slug": "kayet",
+        "desc": "the minimalistic text editor for macOS",
+        "desc_zh": "the minimalistic text editor for macOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kayet",
+        "product_link": "https://www.producthunt.com/r/p/1303008?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sendoff",
+        "slug": "sendoff-2",
+        "desc": "Say \"send it.\" to automatically email your list",
+        "desc_zh": "Say \"send it.\" to automatically email your list",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sendoff-2",
+        "product_link": "https://www.producthunt.com/r/p/1303236?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fleeep",
+        "slug": "fleeep",
+        "desc": "The notes app for people who make things.",
+        "desc_zh": "The notes app for people who make things.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fleeep",
+        "product_link": "https://www.producthunt.com/r/p/1302926?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dino Kids",
+        "slug": "dino-kids",
+        "desc": "Free, ad-free learning app for kids 3+ in five languages",
+        "desc_zh": "Free, ad-free learning app for kids 3+ in five languages",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dino-kids",
+        "product_link": "https://www.producthunt.com/r/p/1303866?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Vakilat",
+        "slug": "vakilat",
+        "desc": "AI research for Indian lawyers with \"0\" hallucinations",
+        "desc_zh": "AI research for Indian lawyers with \"0\" hallucinations",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vakilat",
+        "product_link": "https://www.producthunt.com/r/p/1303405?app_id=339",
         "source": "feed"
       }
     ],
@@ -1270,6 +1268,138 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/moatly-2",
         "product_link": "https://www.producthunt.com/r/p/1305393?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GPT‑6 Cyber",
+        "slug": "openai",
+        "desc": "OpenAI’s cyber model, with vetted access for defenders",
+        "desc_zh": "OpenAI’s cyber model, with vetted access for defenders",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1305719?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Instagram Edits for Desktop",
+        "slug": "instagram",
+        "desc": "Instagram's free desktop video editor with AI agents",
+        "desc_zh": "Instagram's free desktop video editor with AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/instagram",
+        "product_link": "https://www.producthunt.com/r/p/1306062?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Google Omni 1.2 Flash",
+        "slug": "google-omni-1-2-flash",
+        "desc": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
+        "desc_zh": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google-omni-1-2-flash",
+        "product_link": "https://www.producthunt.com/r/p/1305716?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ChatGPT Images 2.6",
+        "slug": "openai",
+        "desc": "Create, edit, and animate images with AI",
+        "desc_zh": "Create, edit, and animate images with AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1305660?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MacDupl",
+        "slug": "macdupl-run-every-acc-in-its-own-app",
+        "desc": "Run every account in its own app",
+        "desc_zh": "Run every account in its own app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app",
+        "product_link": "https://www.producthunt.com/r/p/1305990?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenVisio",
+        "slug": "openvisio",
+        "desc": "One workspace for your team and its AI coding agents",
+        "desc_zh": "One workspace for your team and its AI coding agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openvisio",
+        "product_link": "https://www.producthunt.com/r/p/1305334?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-06": [
+      {
+        "name": "Muse Realtime Avatar",
+        "slug": "meta-ai",
+        "desc": "Turn voice chats with Muse into live video calls",
+        "desc_zh": "Turn voice chats with Muse into live video calls",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/meta-ai",
+        "product_link": "https://www.producthunt.com/r/p/1306971?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Capnot",
+        "slug": "capnot",
+        "desc": "Make Screen Demos Clear, Even on Mute",
+        "desc_zh": "Make Screen Demos Clear, Even on Mute",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/capnot",
+        "product_link": "https://www.producthunt.com/r/p/1306522?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sequence Tool",
+        "slug": "sequence-tool",
+        "desc": "Edit with words: long recordings into polished stories",
+        "desc_zh": "Edit with words: long recordings into polished stories",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sequence-tool",
+        "product_link": "https://www.producthunt.com/r/p/1306774?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rex (Beta)",
+        "slug": "superlogical",
+        "desc": "Building the multiplexer for all work",
+        "desc_zh": "Building the multiplexer for all work",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/superlogical",
+        "product_link": "https://www.producthunt.com/r/p/1306766?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Switchy",
+        "slug": "switchy",
+        "desc": "Mac controls, deploys, 2FA & AI limits in your menu bar",
+        "desc_zh": "Mac controls, deploys, 2FA & AI limits in your menu bar",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/switchy",
+        "product_link": "https://www.producthunt.com/r/p/1306575?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Trace by Context.dev",
+        "slug": "context-dev",
+        "desc": "Weekly web scraping API benchmark",
+        "desc_zh": "Weekly web scraping API benchmark",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/context-dev",
+        "product_link": "https://www.producthunt.com/r/p/1307289?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "The Writer's Quarter",
+        "slug": "the-writer-s-quarter",
+        "desc": "AI-Free Writing & Novel Planning Software",
+        "desc_zh": "AI-Free Writing & Novel Planning Software",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-writer-s-quarter",
+        "product_link": "https://www.producthunt.com/r/p/1306835?app_id=339",
         "source": "feed"
       }
     ]
