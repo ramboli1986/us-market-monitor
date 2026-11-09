@@ -1,178 +1,6 @@
 {
-  "updated_at": "2026-11-08T01:04:39",
+  "updated_at": "2026-11-09T01:24:42",
   "days": {
-    "2026-11-01": [
-      {
-        "name": "Xmind 2027",
-        "slug": "xmind",
-        "desc": "Your mind map is now an AI thinking partner",
-        "desc_zh": "Your mind map is now an AI thinking partner",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/xmind",
-        "product_link": "https://www.producthunt.com/r/p/1300992?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Friday Work",
-        "slug": "friday-work",
-        "desc": "When Claude hits its limit, your task keeps going",
-        "desc_zh": "When Claude hits its limit, your task keeps going",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/friday-work",
-        "product_link": "https://www.producthunt.com/r/p/1300949?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Help",
-        "slug": "help-381",
-        "desc": "The app designed for targeted and transparent help",
-        "desc_zh": "The app designed for targeted and transparent help",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/help-381",
-        "product_link": "https://www.producthunt.com/r/p/1301292?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Agent Inbox",
-        "slug": "agent-inbox",
-        "desc": "Give your agent an email address, Slack and Telegram handle",
-        "desc_zh": "Give your agent an email address, Slack and Telegram handle",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agent-inbox",
-        "product_link": "https://www.producthunt.com/r/p/1300411?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Remote Gaze",
-        "slug": "remote-gaze",
-        "desc": "Your Mac on your iPad and iPhone with no in-between server",
-        "desc_zh": "Your Mac on your iPad and iPhone with no in-between server",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/remote-gaze",
-        "product_link": "https://www.producthunt.com/r/p/1301210?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Peji",
-        "slug": "peji",
-        "desc": "An AI chat with a real browser you control",
-        "desc_zh": "An AI chat with a real browser you control",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/peji",
-        "product_link": "https://www.producthunt.com/r/p/1300938?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "PowerShips",
-        "slug": "powerships",
-        "desc": "Where battleships meets powers!",
-        "desc_zh": "Where battleships meets powers!",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/powerships",
-        "product_link": "https://www.producthunt.com/r/p/1301053?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "HoldTalk",
-        "slug": "holdtalk",
-        "desc": "Hold fn, speak, and the text appears in any Mac app",
-        "desc_zh": "Hold fn, speak, and the text appears in any Mac app",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/holdtalk",
-        "product_link": "https://www.producthunt.com/r/p/1300889?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "VinSage",
-        "slug": "vinsage",
-        "desc": "Free used-car check in Chrome's side panel, US & CA",
-        "desc_zh": "Free used-car check in Chrome's side panel, US & CA",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/vinsage",
-        "product_link": "https://www.producthunt.com/r/p/1300492?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "KREV AI",
-        "slug": "krev",
-        "desc": "An AI team that runs your ecommerce brand",
-        "desc_zh": "运营您的电子商务品牌的人工智能团队",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/krev",
-        "product_link": "https://www.producthunt.com/r/p/1300934?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Maritime",
-        "slug": "maritime",
-        "desc": "Cloud computers for any AI agent, customized your way",
-        "desc_zh": "适用于任何人工智能代理的云计算机，按照您的方式定制",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/maritime",
-        "product_link": "https://www.producthunt.com/r/p/1300799?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pushary for Teams",
-        "slug": "pushary",
-        "desc": "See who said yes to your team’s AI agents",
-        "desc_zh": "查看谁对您团队的人工智能代理表示同意",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pushary",
-        "product_link": "https://www.producthunt.com/r/p/1300616?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Paws",
-        "slug": "paws",
-        "desc": "Meet strangers through their cats, behind frosted glass",
-        "desc_zh": "通过磨砂玻璃后面的猫认识陌生人",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/paws",
-        "product_link": "https://www.producthunt.com/r/p/1300556?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nock",
-        "slug": "nock-2",
-        "desc": "A notch for Windows, in 1 MB of Rust",
-        "desc_zh": "Windows 的一个缺口，在 1 MB 的 Rust 中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nock-2",
-        "product_link": "https://www.producthunt.com/r/p/1300649?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LiveShortly",
-        "slug": "liveshortly",
-        "desc": "Watch, steer, share and approve your coding agent, live",
-        "desc_zh": "Watch, steer, share and approve your coding agent, live",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/liveshortly",
-        "product_link": "https://www.producthunt.com/r/p/1300309?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wonder Dev View",
-        "slug": "wonder-dev-view",
-        "desc": "Run many Claude Code and Codex agents in parallel",
-        "desc_zh": "Run many Claude Code and Codex agents in parallel",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wonder-dev-view",
-        "product_link": "https://www.producthunt.com/r/p/1301134?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Deal Pilot",
-        "slug": "deal-pilot",
-        "desc": "AI SDR that books meetings in Japan, the US & SE Asia",
-        "desc_zh": "AI SDR that books meetings in Japan, the US & SE Asia",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/deal-pilot",
-        "product_link": "https://www.producthunt.com/r/p/1300996?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-02": [
       {
         "name": "Calendarly",
@@ -522,6 +350,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/exa-ai",
         "product_link": "https://www.producthunt.com/r/p/1302002?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sage2 by Levanto Labs",
+        "slug": "sagecraft",
+        "desc": "Turn live talk into structured data and instant actions",
+        "desc_zh": "Turn live talk into structured data and instant actions",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sagecraft",
+        "product_link": "https://www.producthunt.com/r/p/1301987?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Textly",
+        "slug": "textly-capture-copy-paste",
+        "desc": "Capture Text & Tables from Anywhere on Your Mac",
+        "desc_zh": "Capture Text & Tables from Anywhere on Your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/textly-capture-copy-paste",
+        "product_link": "https://www.producthunt.com/r/p/1301605?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NotchIsland",
+        "slug": "notchisland-2",
+        "desc": "Free, open-source Dynamic Island for the MacBook notch",
+        "desc_zh": "Free, open-source Dynamic Island for the MacBook notch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notchisland-2",
+        "product_link": "https://www.producthunt.com/r/p/1301556?app_id=339",
         "source": "feed"
       }
     ],
@@ -895,6 +753,26 @@
         "ph_link": "https://www.producthunt.com/products/vakilat",
         "product_link": "https://www.producthunt.com/r/p/1303405?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Deduplication",
+        "slug": "hacker-noon",
+        "desc": "Which Meaning Owns the Word?",
+        "desc_zh": "Which Meaning Owns the Word?",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hacker-noon",
+        "product_link": "https://www.producthunt.com/r/p/1302760?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tilde ",
+        "slug": "tilde-for-mac",
+        "desc": "Finder replacement & file manager for mac",
+        "desc_zh": "Finder replacement & file manager for mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tilde-for-mac",
+        "product_link": "https://www.producthunt.com/r/p/1302640?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-04": [
@@ -1066,6 +944,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/chronos-db",
         "product_link": "https://www.producthunt.com/r/p/1304353?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DocsAlot for customer support",
+        "slug": "docsalot-2",
+        "desc": "Slack and Discord bot that answers your customers questions",
+        "desc_zh": "Slack and Discord bot that answers your customers questions",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/docsalot-2",
+        "product_link": "https://www.producthunt.com/r/p/1305013?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Keypause",
+        "slug": "keypause",
+        "desc": "Turn off your Mac's keyboard while you clean it",
+        "desc_zh": "Turn off your Mac's keyboard while you clean it",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/keypause",
+        "product_link": "https://www.producthunt.com/r/p/1304967?app_id=339",
         "source": "feed"
       }
     ],
@@ -1329,6 +1227,16 @@
         "ph_link": "https://www.producthunt.com/products/openvisio",
         "product_link": "https://www.producthunt.com/r/p/1305334?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Frameboy by World Labs",
+        "slug": "marble-by-world-labs",
+        "desc": "Interactive world exploration with Atlas",
+        "desc_zh": "Interactive world exploration with Atlas",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/marble-by-world-labs",
+        "product_link": "https://www.producthunt.com/r/p/1306206?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-06": [
@@ -1400,6 +1308,48 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/the-writer-s-quarter",
         "product_link": "https://www.producthunt.com/r/p/1306835?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Inkling 2 Small",
+        "slug": "tinker-2",
+        "desc": "A model that can see and refine what it builds",
+        "desc_zh": "A model that can see and refine what it builds",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tinker-2",
+        "product_link": "https://www.producthunt.com/r/p/1306739?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-07": [
+      {
+        "name": "Agent Clan",
+        "slug": "agent-clan",
+        "desc": "Command your Claude Code and Codex agents with gestures",
+        "desc_zh": "Command your Claude Code and Codex agents with gestures",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agent-clan",
+        "product_link": "https://www.producthunt.com/r/p/1307984?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NotchX",
+        "slug": "notch-11",
+        "desc": "Turn your MacBook's notch into a hub for music and calls",
+        "desc_zh": "Turn your MacBook's notch into a hub for music and calls",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notch-11",
+        "product_link": "https://www.producthunt.com/r/p/1307870?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Zigzag Browser",
+        "slug": "zigzag-browser",
+        "desc": "The polished, native Mac browser for life after Arc",
+        "desc_zh": "The polished, native Mac browser for life after Arc",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zigzag-browser",
+        "product_link": "https://www.producthunt.com/r/p/1307776?app_id=339",
         "source": "feed"
       }
     ]
