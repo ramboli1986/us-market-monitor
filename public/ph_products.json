@@ -1,248 +1,6 @@
 {
-  "updated_at": "2026-11-11T01:41:57",
+  "updated_at": "2026-11-12T02:42:09",
   "days": {
-    "2026-11-04": [
-      {
-        "name": "SafetyClip",
-        "slug": "safetyclip",
-        "desc": "A clipboard manager for Mac that keeps secrets secret",
-        "desc_zh": "Mac 剪贴板管理器，保守秘密",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/safetyclip",
-        "product_link": "https://www.producthunt.com/r/p/1303967?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Scrollsnacks",
-        "slug": "scrollsnacks",
-        "desc": "Launch videos, broken down second by second",
-        "desc_zh": "启动视频，逐秒细分",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/scrollsnacks",
-        "product_link": "https://www.producthunt.com/r/p/1304747?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CC Auto Review",
-        "slug": "cc-auto-review",
-        "desc": "macOS app that reviews GitHub PRs w/ your local Claude Code",
-        "desc_zh": "使用本地 Claude 代码审查 GitHub PR 的 macOS 应用",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cc-auto-review",
-        "product_link": "https://www.producthunt.com/r/p/1304978?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tencent Hy4",
-        "slug": "hunyuan-a13b",
-        "desc": "Tencent’s flagship model learns to see and use a computer",
-        "desc_zh": "腾讯的旗舰模型学习如何查看和使用计算机",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hunyuan-a13b",
-        "product_link": "https://www.producthunt.com/r/p/1303927?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FounderMail",
-        "slug": "foundermail-2",
-        "desc": "Mail for you and your agents, on your Cloudflare domain",
-        "desc_zh": "在您的 Cloudflare 域上为您和您的代理发送邮件",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/foundermail-2",
-        "product_link": "https://www.producthunt.com/r/p/1304655?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "TextKit",
-        "slug": "textkit-2",
-        "desc": "Send + receive texts in the US and Canada with a simple API",
-        "desc_zh": "使用简单的 API 在美国和加拿大发送和接收短信",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/textkit-2",
-        "product_link": "https://www.producthunt.com/r/p/1304812?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Polylane for Google Cloud",
-        "slug": "polylane",
-        "desc": "An AI on-call engineer for your Google Cloud apps",
-        "desc_zh": "为您的 Google Cloud 应用提供 AI 待命工程师",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/polylane",
-        "product_link": "https://www.producthunt.com/r/p/1304600?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nemotron 3.5 Transcribe",
-        "slug": "nvidia",
-        "desc": "Intelligent Transcription with a Speech LLM",
-        "desc_zh": "语音法学硕士的智能转录",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nvidia",
-        "product_link": "https://www.producthunt.com/r/p/1304975?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChatNest",
-        "slug": "chatnest-2",
-        "desc": "Folders and a prompt library for your AI chats",
-        "desc_zh": "用于 AI 聊天的文件夹和提示库",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chatnest-2",
-        "product_link": "https://www.producthunt.com/r/p/1303979?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pressure",
-        "slug": "pressure",
-        "desc": "Need a second opinion? Have two agents debate your topic",
-        "desc_zh": "Need a second opinion? Have two agents debate your topic",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pressure",
-        "product_link": "https://www.producthunt.com/r/p/1304870?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Datastripes Data Stories",
-        "slug": "datastripes",
-        "desc": "Turn any spreadsheet into a data story in seconds",
-        "desc_zh": "Turn any spreadsheet into a data story in seconds",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/datastripes",
-        "product_link": "https://www.producthunt.com/r/p/1304303?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "OrgSync",
-        "slug": "orgsync-2",
-        "desc": "Company brain for Claude, ChatGPT & Codex teams",
-        "desc_zh": "Company brain for Claude, ChatGPT & Codex teams",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/orgsync-2",
-        "product_link": "https://www.producthunt.com/r/p/1304371?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mmory",
-        "slug": "mmory",
-        "desc": "Mmory is a private voice memory app for iPhone",
-        "desc_zh": "Mmory is a private voice memory app for iPhone",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mmory",
-        "product_link": "https://www.producthunt.com/r/p/1304909?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pauta",
-        "slug": "pauta",
-        "desc": "Your private memory for every conversation",
-        "desc_zh": "Your private memory for every conversation",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pauta",
-        "product_link": "https://www.producthunt.com/r/p/1304221?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Thunderduck Inc.",
-        "slug": "thunderduck-inc",
-        "desc": "Modular Data Warehouse for Agentic Data Teams",
-        "desc_zh": "Modular Data Warehouse for Agentic Data Teams",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/thunderduck-inc",
-        "product_link": "https://www.producthunt.com/r/p/1305009?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Koltrix",
-        "slug": "koltrix",
-        "desc": "Your whole email stack, run by agents you control.",
-        "desc_zh": "Your whole email stack, run by agents you control.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/koltrix",
-        "product_link": "https://www.producthunt.com/r/p/1303942?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Chronos DB",
-        "slug": "chronos-db",
-        "desc": "The database for the autonomous AI era.",
-        "desc_zh": "The database for the autonomous AI era.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chronos-db",
-        "product_link": "https://www.producthunt.com/r/p/1304353?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DocsAlot for customer support",
-        "slug": "docsalot-2",
-        "desc": "Slack and Discord bot that answers your customers questions",
-        "desc_zh": "Slack and Discord bot that answers your customers questions",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/docsalot-2",
-        "product_link": "https://www.producthunt.com/r/p/1305013?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Keypause",
-        "slug": "keypause",
-        "desc": "Turn off your Mac's keyboard while you clean it",
-        "desc_zh": "Turn off your Mac's keyboard while you clean it",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/keypause",
-        "product_link": "https://www.producthunt.com/r/p/1304967?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Jotform App for Shopify",
-        "slug": "jotform",
-        "desc": "Build powerful forms for your Shopify store",
-        "desc_zh": "为您的 Shopify 商店构建强大的表单",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/jotform",
-        "product_link": "https://www.producthunt.com/r/p/1304254?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CozyZip",
-        "slug": "cozyzip",
-        "desc": "Zip and unzip without the surprises.",
-        "desc_zh": "拉链和解压不会有任何意外。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cozyzip",
-        "product_link": "https://www.producthunt.com/r/p/1304790?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nadhif",
-        "slug": "nadhif",
-        "desc": "Check Mac, server and website security",
-        "desc_zh": "Check Mac, server and website security",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nadhif",
-        "product_link": "https://www.producthunt.com/r/p/1304854?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChromePing",
-        "slug": "chromeping",
-        "desc": "Talk to anyone by phone, in a language you don't speak",
-        "desc_zh": "Talk to anyone by phone, in a language you don't speak",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chromeping",
-        "product_link": "https://www.producthunt.com/r/p/1305066?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ForAgent",
-        "slug": "foragent",
-        "desc": "Private phone numbers so AI agents can call each other",
-        "desc_zh": "Private phone numbers so AI agents can call each other",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/foragent",
-        "product_link": "https://www.producthunt.com/r/p/1305092?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-05": [
       {
         "name": "PostMyPace",
@@ -623,6 +381,16 @@
         "ph_link": "https://www.producthunt.com/products/quillo-2",
         "product_link": "https://www.producthunt.com/r/p/1305636?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Skillbox",
+        "slug": "skillbox-5",
+        "desc": "One library for your AI skills, synced to every agent",
+        "desc_zh": "One library for your AI skills, synced to every agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skillbox-5",
+        "product_link": "https://www.producthunt.com/r/p/1306167?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-06": [
@@ -877,6 +645,16 @@
         "ph_link": "https://www.producthunt.com/products/coffee-9",
         "product_link": "https://www.producthunt.com/r/p/1308321?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Stiro",
+        "slug": "stiro",
+        "desc": "AI onboarding and customer success agent for SaaS",
+        "desc_zh": "AI onboarding and customer success agent for SaaS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stiro",
+        "product_link": "https://www.producthunt.com/r/p/1307690?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-08": [
@@ -938,6 +716,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/quotedpart",
         "product_link": "https://www.producthunt.com/r/p/1309365?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kippy AI",
+        "slug": "kippy-ai",
+        "desc": "Learn languages while having fun!",
+        "desc_zh": "Learn languages while having fun!",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kippy-ai",
+        "product_link": "https://www.producthunt.com/r/p/1308685?app_id=339",
         "source": "feed"
       }
     ],
@@ -1180,6 +968,208 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/almanzor",
         "product_link": "https://www.producthunt.com/r/p/1310727?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Muse Ember by Meta",
+        "slug": "meta-ai",
+        "desc": "Meta's low-cost AI model for high-volume agent tasks",
+        "desc_zh": "Meta's low-cost AI model for high-volume agent tasks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/meta-ai",
+        "product_link": "https://www.producthunt.com/r/p/1310655?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Seedream 5.5 by ByteDance",
+        "slug": "seedream-4-0",
+        "desc": "ByteDance's AI image model built for 100-round editing",
+        "desc_zh": "ByteDance's AI image model built for 100-round editing",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/seedream-4-0",
+        "product_link": "https://www.producthunt.com/r/p/1310088?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-10": [
+      {
+        "name": "Nod by n8n",
+        "slug": "n8n-io",
+        "desc": "Open source personal agent with its own computer",
+        "desc_zh": "Open source personal agent with its own computer",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/n8n-io",
+        "product_link": "https://www.producthunt.com/r/p/1311491?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Subscriptrack",
+        "slug": "subscriptrack",
+        "desc": "Connect your email, see every subscription you pay for",
+        "desc_zh": "Connect your email, see every subscription you pay for",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/subscriptrack",
+        "product_link": "https://www.producthunt.com/r/p/1311529?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "StableBar",
+        "slug": "stablebar",
+        "desc": "A native, open-source menu bar for macOS",
+        "desc_zh": "A native, open-source menu bar for macOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stablebar",
+        "product_link": "https://www.producthunt.com/r/p/1311460?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Shot.video",
+        "slug": "shot-video",
+        "desc": "Multi-camera videos with the phones you already own",
+        "desc_zh": "Multi-camera videos with the phones you already own",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shot-video",
+        "product_link": "https://www.producthunt.com/r/p/1311330?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "bonds chat",
+        "slug": "bonds-2",
+        "desc": "Multiplayer AI that dies if you and your friends flake",
+        "desc_zh": "Multiplayer AI that dies if you and your friends flake",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bonds-2",
+        "product_link": "https://www.producthunt.com/r/p/1312307?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Earlybird",
+        "slug": "earlybird-5",
+        "desc": "29M-param speech-to-text that outputs words before they end",
+        "desc_zh": "29M-param speech-to-text that outputs words before they end",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/earlybird-5",
+        "product_link": "https://www.producthunt.com/r/p/1312096?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mister Blocks",
+        "slug": "mister-blocks",
+        "desc": "Take a picture of your LEGO and AI will make a build",
+        "desc_zh": "Take a picture of your LEGO and AI will make a build",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mister-blocks",
+        "product_link": "https://www.producthunt.com/r/p/1312257?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Valin",
+        "slug": "valin",
+        "desc": "Your private memory for everything you save.",
+        "desc_zh": "Your private memory for everything you save.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/valin",
+        "product_link": "https://www.producthunt.com/r/p/1311454?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mitra MCP",
+        "slug": "mitra-5",
+        "desc": "Give your AI agents access to your personal phone line",
+        "desc_zh": "Give your AI agents access to your personal phone line",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mitra-5",
+        "product_link": "https://www.producthunt.com/r/p/1311862?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Scribe v3 by ElevenLabs",
+        "slug": "elevenlabs",
+        "desc": "Speech to text with 27% fewer errors in 90+ languages",
+        "desc_zh": "Speech to text with 27% fewer errors in 90+ languages",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/elevenlabs",
+        "product_link": "https://www.producthunt.com/r/p/1311828?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MiniMax H3-Image",
+        "slug": "minimax",
+        "desc": "Bringing 4K image generation into the 10-second era",
+        "desc_zh": "Bringing 4K image generation into the 10-second era",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/minimax",
+        "product_link": "https://www.producthunt.com/r/p/1311715?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "nizima ACTION!!",
+        "slug": "nizima-action-by-live2d",
+        "desc": "Powerful editing, expressive characters, zero installs.",
+        "desc_zh": "Powerful editing, expressive characters, zero installs.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nizima-action-by-live2d",
+        "product_link": "https://www.producthunt.com/r/p/1311269?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Reddit Reviews",
+        "slug": "reddit",
+        "desc": "Product pages that collect subreddit sentiment",
+        "desc_zh": "Product pages that collect subreddit sentiment",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/reddit",
+        "product_link": "https://www.producthunt.com/r/p/1312356?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "RigSpark",
+        "slug": "rigspark",
+        "desc": "Know which AI to run on your own computer",
+        "desc_zh": "Know which AI to run on your own computer",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rigspark",
+        "product_link": "https://www.producthunt.com/r/p/1312166?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Xolace",
+        "slug": "xolace",
+        "desc": "For the bad days you wouldn’t call a mental health problem",
+        "desc_zh": "For the bad days you wouldn’t call a mental health problem",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/xolace",
+        "product_link": "https://www.producthunt.com/r/p/1312054?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Padrail",
+        "slug": "padrail",
+        "desc": "Turn your MacBook trackpad edges into controls",
+        "desc_zh": "Turn your MacBook trackpad edges into controls",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/padrail",
+        "product_link": "https://www.producthunt.com/r/p/1311960?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Binqo",
+        "slug": "binqo",
+        "desc": "A tiny friend in your Mac's notch",
+        "desc_zh": "A tiny friend in your Mac's notch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/binqo",
+        "product_link": "https://www.producthunt.com/r/p/1312074?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Skipbox",
+        "slug": "skipbox",
+        "desc": "Cheap, fast GitHub Actions runners with unlimited minutes",
+        "desc_zh": "Cheap, fast GitHub Actions runners with unlimited minutes",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skipbox",
+        "product_link": "https://www.producthunt.com/r/p/1312043?app_id=339",
         "source": "feed"
       }
     ]
