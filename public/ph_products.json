@@ -1,158 +1,6 @@
 {
-  "updated_at": "2026-11-13T02:22:39",
+  "updated_at": "2026-11-14T02:00:21",
   "days": {
-    "2026-11-06": [
-      {
-        "name": "Muse Realtime Avatar",
-        "slug": "meta-ai",
-        "desc": "Turn voice chats with Muse into live video calls",
-        "desc_zh": "Turn voice chats with Muse into live video calls",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/meta-ai",
-        "product_link": "https://www.producthunt.com/r/p/1306971?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Capnot",
-        "slug": "capnot",
-        "desc": "Make Screen Demos Clear, Even on Mute",
-        "desc_zh": "Make Screen Demos Clear, Even on Mute",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/capnot",
-        "product_link": "https://www.producthunt.com/r/p/1306522?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Sequence Tool",
-        "slug": "sequence-tool",
-        "desc": "Edit with words: long recordings into polished stories",
-        "desc_zh": "Edit with words: long recordings into polished stories",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sequence-tool",
-        "product_link": "https://www.producthunt.com/r/p/1306774?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Rex (Beta)",
-        "slug": "superlogical",
-        "desc": "Building the multiplexer for all work",
-        "desc_zh": "Building the multiplexer for all work",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/superlogical",
-        "product_link": "https://www.producthunt.com/r/p/1306766?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Switchy",
-        "slug": "switchy",
-        "desc": "Mac controls, deploys, 2FA & AI limits in your menu bar",
-        "desc_zh": "Mac controls, deploys, 2FA & AI limits in your menu bar",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/switchy",
-        "product_link": "https://www.producthunt.com/r/p/1306575?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Trace by Context.dev",
-        "slug": "context-dev",
-        "desc": "Weekly web scraping API benchmark",
-        "desc_zh": "Weekly web scraping API benchmark",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/context-dev",
-        "product_link": "https://www.producthunt.com/r/p/1307289?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "The Writer's Quarter",
-        "slug": "the-writer-s-quarter",
-        "desc": "AI-Free Writing & Novel Planning Software",
-        "desc_zh": "AI-Free Writing & Novel Planning Software",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/the-writer-s-quarter",
-        "product_link": "https://www.producthunt.com/r/p/1306835?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Inkling 2 Small",
-        "slug": "tinker-2",
-        "desc": "A model that can see and refine what it builds",
-        "desc_zh": "A model that can see and refine what it builds",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tinker-2",
-        "product_link": "https://www.producthunt.com/r/p/1306739?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MCP1",
-        "slug": "appwrite",
-        "desc": "One URL for every MCP server.",
-        "desc_zh": "每个 MCP 服务器都有一个 URL。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/appwrite",
-        "product_link": "https://www.producthunt.com/r/p/1306678?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Flic Cue",
-        "slug": "flic-cue",
-        "desc": "The AI Voice Button: hold to talk, shake to undo, open SDKs",
-        "desc_zh": "AI 语音按钮：按住说话、摇动撤消、打开 SDK",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/flic-cue",
-        "product_link": "https://www.producthunt.com/r/p/1306420?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "If You Read This",
-        "slug": "if-you-read-this",
-        "desc": "A daily check-in app that works like a dead man's switch",
-        "desc_zh": "一款每日签到应用程序，其工作原理类似于死人开关",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/if-you-read-this",
-        "product_link": "https://www.producthunt.com/r/p/1306884?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Arcjet AI security models",
-        "slug": "arcjet",
-        "desc": "A family of custom-trained security models for coding agents",
-        "desc_zh": "一系列针对编码代理的定制训练安全模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/arcjet",
-        "product_link": "https://www.producthunt.com/r/p/1306799?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Product Hunt MCP",
-        "slug": "producthunt",
-        "desc": "The community you trust in the assistant you use",
-        "desc_zh": "您信任您使用的助手的社区",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/producthunt",
-        "product_link": "https://www.producthunt.com/r/p/1307104?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CloakPane",
-        "slug": "cloakpane",
-        "desc": "A Mac browser that stays out of your screen shares",
-        "desc_zh": "A Mac browser that stays out of your screen shares",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cloakpane",
-        "product_link": "https://www.producthunt.com/r/p/1307370?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "gitmanual",
-        "slug": "gitmanual",
-        "desc": "See if a GitHub repo runs on your OS, and how to set it up",
-        "desc_zh": "See if a GitHub repo runs on your OS, and how to set it up",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gitmanual",
-        "product_link": "https://www.producthunt.com/r/p/1306896?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-07": [
       {
         "name": "Agent Clan",
@@ -272,6 +120,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/youart",
         "product_link": "https://www.producthunt.com/r/p/1308353?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Kairos",
+        "slug": "kairos-18",
+        "desc": "Personal analytics engine across health, finances, & social",
+        "desc_zh": "Personal analytics engine across health, finances, & social",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/kairos-18",
+        "product_link": "https://www.producthunt.com/r/p/1307926?app_id=339",
         "source": "feed"
       }
     ],
@@ -647,6 +505,16 @@
         "ph_link": "https://www.producthunt.com/products/airwave-2",
         "product_link": "https://www.producthunt.com/r/p/1309979?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Willo",
+        "slug": "willo-2",
+        "desc": "A companion you talk to while you play WoW",
+        "desc_zh": "A companion you talk to while you play WoW",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/willo-2",
+        "product_link": "https://www.producthunt.com/r/p/1311043?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-10": [
@@ -879,6 +747,26 @@
         "ph_link": "https://www.producthunt.com/products/mang-sh",
         "product_link": "https://www.producthunt.com/r/p/1311783?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Burnstate",
+        "slug": "burnstate",
+        "desc": "Claude Code, Codex & Cursor limits, paced in your menu bar",
+        "desc_zh": "Claude Code, Codex & Cursor limits, paced in your menu bar",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/burnstate",
+        "product_link": "https://www.producthunt.com/r/p/1311191?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Google Pixel Tag",
+        "slug": "google",
+        "desc": "Google’s $30 Android-ready tracking tag",
+        "desc_zh": "Google’s $30 Android-ready tracking tag",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google",
+        "product_link": "https://www.producthunt.com/r/p/1312154?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-11": [
@@ -1080,6 +968,148 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/blendra",
         "product_link": "https://www.producthunt.com/r/p/1313486?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Trainn MCP",
+        "slug": "trainn",
+        "desc": "Create product videos and courses from any AI chat",
+        "desc_zh": "Create product videos and courses from any AI chat",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/trainn",
+        "product_link": "https://www.producthunt.com/r/p/1313622?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Aven App Agent",
+        "slug": "aven-app-agent",
+        "desc": "AI that guides users through your app",
+        "desc_zh": "AI that guides users through your app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aven-app-agent",
+        "product_link": "https://www.producthunt.com/r/p/1313374?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ganella",
+        "slug": "ganella",
+        "desc": "Your Mac Dock, with live widgets for the apps you use",
+        "desc_zh": "Your Mac Dock, with live widgets for the apps you use",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ganella",
+        "product_link": "https://www.producthunt.com/r/p/1312991?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-12": [
+      {
+        "name": "GAtrends",
+        "slug": "gatrends",
+        "desc": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+        "desc_zh": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gatrends",
+        "product_link": "https://www.producthunt.com/r/p/1314471?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WHOOP Humans",
+        "slug": "whoop",
+        "desc": "WHOOP's social network built around real health data",
+        "desc_zh": "WHOOP's social network built around real health data",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/whoop",
+        "product_link": "https://www.producthunt.com/r/p/1314743?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Replicate",
+        "slug": "replicate-10",
+        "desc": "Turn Webflow/Framer app into a Claude/Codex project for free",
+        "desc_zh": "Turn Webflow/Framer app into a Claude/Codex project for free",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/replicate-10",
+        "product_link": "https://www.producthunt.com/r/p/1314761?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Expo Simulators",
+        "slug": "expo",
+        "desc": "Cloud simulators built for agents",
+        "desc_zh": "Cloud simulators built for agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/expo",
+        "product_link": "https://www.producthunt.com/r/p/1314456?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Paxper",
+        "slug": "paxper",
+        "desc": "Create cloud infrastructure visually and review every change",
+        "desc_zh": "Create cloud infrastructure visually and review every change",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/paxper",
+        "product_link": "https://www.producthunt.com/r/p/1314567?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "StockRip",
+        "slug": "stockrip",
+        "desc": "Trading cards, literally digital cards with tokenized stocks",
+        "desc_zh": "Trading cards, literally digital cards with tokenized stocks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stockrip",
+        "product_link": "https://www.producthunt.com/r/p/1314942?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hoverine",
+        "slug": "hoverine",
+        "desc": "Rive animation templates you can drop into your app",
+        "desc_zh": "Rive animation templates you can drop into your app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hoverine",
+        "product_link": "https://www.producthunt.com/r/p/1314493?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gemini 4 Hydrogen",
+        "slug": "gemini-6",
+        "desc": "Fast agentic development for coders",
+        "desc_zh": "Fast agentic development for coders",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-6",
+        "product_link": "https://www.producthunt.com/r/p/1314458?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pocket Studio for Supabase",
+        "slug": "pocket-studio-for-supabase",
+        "desc": "Supabase dashboard & SQL editor for Android",
+        "desc_zh": "Supabase dashboard & SQL editor for Android",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pocket-studio-for-supabase",
+        "product_link": "https://www.producthunt.com/r/p/1314746?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Claude Meetings",
+        "slug": "claude",
+        "desc": "Add Claude to your call and get work started as you talk",
+        "desc_zh": "Add Claude to your call and get work started as you talk",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/claude",
+        "product_link": "https://www.producthunt.com/r/p/1314781?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "de:volt",
+        "slug": "de-volt",
+        "desc": "A breadboard simulator with real physics, in your browser",
+        "desc_zh": "A breadboard simulator with real physics, in your browser",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/de-volt",
+        "product_link": "https://www.producthunt.com/r/p/1314943?app_id=339",
         "source": "feed"
       }
     ]
