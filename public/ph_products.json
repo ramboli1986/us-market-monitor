@@ -1,138 +1,6 @@
 {
-  "updated_at": "2026-11-14T02:00:21",
+  "updated_at": "2026-11-15T01:32:08",
   "days": {
-    "2026-11-07": [
-      {
-        "name": "Agent Clan",
-        "slug": "agent-clan",
-        "desc": "Command your Claude Code and Codex agents with gestures",
-        "desc_zh": "Command your Claude Code and Codex agents with gestures",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agent-clan",
-        "product_link": "https://www.producthunt.com/r/p/1307984?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "NotchX",
-        "slug": "notch-11",
-        "desc": "Turn your MacBook's notch into a hub for music and calls",
-        "desc_zh": "Turn your MacBook's notch into a hub for music and calls",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notch-11",
-        "product_link": "https://www.producthunt.com/r/p/1307870?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Zigzag Browser",
-        "slug": "zigzag-browser",
-        "desc": "The polished, native Mac browser for life after Arc",
-        "desc_zh": "The polished, native Mac browser for life after Arc",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zigzag-browser",
-        "product_link": "https://www.producthunt.com/r/p/1307776?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Higgsfield Miracle",
-        "slug": "higgsfield",
-        "desc": "Edit any part of a video without changing the rest",
-        "desc_zh": "编辑视频的任何部分而不更改其余部分",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/higgsfield",
-        "product_link": "https://www.producthunt.com/r/p/1308023?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "skuttr",
-        "slug": "skuttr",
-        "desc": "Type one sentence, get a Reel from your camera roll",
-        "desc_zh": "输入一句话，从相机胶卷中获取一个卷轴",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/skuttr",
-        "product_link": "https://www.producthunt.com/r/p/1307750?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Egoist AI Passport",
-        "slug": "egoist-ai-passport",
-        "desc": "Secure and share your personal data with AI tools.",
-        "desc_zh": "使用人工智能工具保护和共享您的个人数据。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/egoist-ai-passport",
-        "product_link": "https://www.producthunt.com/r/p/1307908?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "RunThru",
-        "slug": "runthru",
-        "desc": "Video proof that your agent's pull request works",
-        "desc_zh": "Video proof that your agent's pull request works",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/runthru",
-        "product_link": "https://www.producthunt.com/r/p/1307422?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Opal Reader",
-        "slug": "opal-reader",
-        "desc": "Read PDFs and EPUBs on iPhone Duo",
-        "desc_zh": "Read PDFs and EPUBs on iPhone Duo",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/opal-reader",
-        "product_link": "https://www.producthunt.com/r/p/1308411?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Levo",
-        "slug": "levo-3",
-        "desc": "Your AI agent finds what's safe to delete on your Mac",
-        "desc_zh": "Your AI agent finds what's safe to delete on your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/levo-3",
-        "product_link": "https://www.producthunt.com/r/p/1308172?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Coffee",
-        "slug": "coffee-9",
-        "desc": "A quiet Markdown editor for Mac, with sums in your notes",
-        "desc_zh": "A quiet Markdown editor for Mac, with sums in your notes",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/coffee-9",
-        "product_link": "https://www.producthunt.com/r/p/1308321?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Stiro",
-        "slug": "stiro",
-        "desc": "AI onboarding and customer success agent for SaaS",
-        "desc_zh": "AI onboarding and customer success agent for SaaS",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stiro",
-        "product_link": "https://www.producthunt.com/r/p/1307690?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "YouArt Desktop App",
-        "slug": "youart",
-        "desc": "Codex for creative team",
-        "desc_zh": "创意团队 Codex",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/youart",
-        "product_link": "https://www.producthunt.com/r/p/1308353?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Kairos",
-        "slug": "kairos-18",
-        "desc": "Personal analytics engine across health, finances, & social",
-        "desc_zh": "Personal analytics engine across health, finances, & social",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kairos-18",
-        "product_link": "https://www.producthunt.com/r/p/1307926?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-08": [
       {
         "name": "GitHub New PR Overview",
@@ -515,6 +383,46 @@
         "ph_link": "https://www.producthunt.com/products/willo-2",
         "product_link": "https://www.producthunt.com/r/p/1311043?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Drops",
+        "slug": "drops-4",
+        "desc": "Discover new music through moments your friends love",
+        "desc_zh": "Discover new music through moments your friends love",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/drops-4",
+        "product_link": "https://www.producthunt.com/r/p/1310689?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Uber Parking",
+        "slug": "uber",
+        "desc": "Find, compare and reserve parking inside the Uber app",
+        "desc_zh": "Find, compare and reserve parking inside the Uber app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/uber",
+        "product_link": "https://www.producthunt.com/r/p/1310337?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Antelog",
+        "slug": "antelog",
+        "desc": "Stops AI coding agents from leaking or destroying your data",
+        "desc_zh": "Stops AI coding agents from leaking or destroying your data",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/antelog",
+        "product_link": "https://www.producthunt.com/r/p/1310969?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ScreenGo",
+        "slug": "screengo",
+        "desc": "screen recorder for Mac with auto zooms and virtual webcam",
+        "desc_zh": "screen recorder for Mac with auto zooms and virtual webcam",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/screengo",
+        "product_link": "https://www.producthunt.com/r/p/1310240?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-10": [
@@ -767,6 +675,16 @@
         "ph_link": "https://www.producthunt.com/products/google",
         "product_link": "https://www.producthunt.com/r/p/1312154?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "FreeFlow Dictation",
+        "slug": "freeflow-dictation",
+        "desc": "On-device Mac dictation with a Claude Code voice hook",
+        "desc_zh": "On-device Mac dictation with a Claude Code voice hook",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/freeflow-dictation",
+        "product_link": "https://www.producthunt.com/r/p/1311141?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-11": [
@@ -999,6 +917,46 @@
         "ph_link": "https://www.producthunt.com/products/ganella",
         "product_link": "https://www.producthunt.com/r/p/1312991?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Dex Semantics",
+        "slug": "dex-by-exmergo",
+        "desc": "Let your agent build analytics with 25% fewer errors",
+        "desc_zh": "Let your agent build analytics with 25% fewer errors",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dex-by-exmergo",
+        "product_link": "https://www.producthunt.com/r/p/1313358?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Restoration Scope",
+        "slug": "restoration-scope",
+        "desc": "Field data and monitoring software for reforestation",
+        "desc_zh": "Field data and monitoring software for reforestation",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/restoration-scope",
+        "product_link": "https://www.producthunt.com/r/p/1312950?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AnyoneHiring.today",
+        "slug": "anyonehiring-today",
+        "desc": "A world map of jobs. “Anywhere” is now a plan.",
+        "desc_zh": "A world map of jobs. “Anywhere” is now a plan.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/anyonehiring-today",
+        "product_link": "https://www.producthunt.com/r/p/1312552?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dynamic Edge",
+        "slug": "dynamic-edge",
+        "desc": "The Dynamic Island for Windows",
+        "desc_zh": "The Dynamic Island for Windows",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dynamic-edge",
+        "product_link": "https://www.producthunt.com/r/p/1312711?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-12": [
@@ -1110,6 +1068,98 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/de-volt",
         "product_link": "https://www.producthunt.com/r/p/1314943?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gemini Robotics 2.5",
+        "slug": "gemini-robotics-2-5",
+        "desc": "Gemini Robotics 2.5: Google’s most capable robot model",
+        "desc_zh": "Gemini Robotics 2.5: Google’s most capable robot model",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-robotics-2-5",
+        "product_link": "https://www.producthunt.com/r/p/1314543?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Default Tamer",
+        "slug": "default-tamer",
+        "desc": "Open every link in the right browser on macOS",
+        "desc_zh": "Open every link in the right browser on macOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/default-tamer",
+        "product_link": "https://www.producthunt.com/r/p/1314405?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "inread.app",
+        "slug": "inread-app",
+        "desc": "your newsletters, outside your inbox",
+        "desc_zh": "your newsletters, outside your inbox",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/inread-app",
+        "product_link": "https://www.producthunt.com/r/p/1314364?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Blender 5.3",
+        "slug": "blender",
+        "desc": "3D Gaussian splats, now native to Blender",
+        "desc_zh": "3D Gaussian splats, now native to Blender",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/blender",
+        "product_link": "https://www.producthunt.com/r/p/1314882?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-13": [
+      {
+        "name": "Tabletop by Google Labs",
+        "slug": "google-labs",
+        "desc": "Build interactive group experiences with AI.",
+        "desc_zh": "Build interactive group experiences with AI.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/google-labs",
+        "product_link": "https://www.producthunt.com/r/p/1315230?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Businesses in ChatGPT",
+        "slug": "openai",
+        "desc": "Help customers discover your business through ChatGPT",
+        "desc_zh": "Help customers discover your business through ChatGPT",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openai",
+        "product_link": "https://www.producthunt.com/r/p/1315068?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "CodeMesh",
+        "slug": "codemesh-2",
+        "desc": "Cut AI coding costs by 90%",
+        "desc_zh": "Cut AI coding costs by 90%",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codemesh-2",
+        "product_link": "https://www.producthunt.com/r/p/1315082?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tacie",
+        "slug": "tacie",
+        "desc": "Meeting notes on your Mac, with no bot in the call",
+        "desc_zh": "Meeting notes on your Mac, with no bot in the call",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tacie",
+        "product_link": "https://www.producthunt.com/r/p/1315433?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Thunder",
+        "slug": "thunder-3",
+        "desc": "A blazing-fast, persistent, key-value AI workload database",
+        "desc_zh": "A blazing-fast, persistent, key-value AI workload database",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/thunder-3",
+        "product_link": "https://www.producthunt.com/r/p/1315758?app_id=339",
         "source": "feed"
       }
     ]
