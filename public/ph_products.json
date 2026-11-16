@@ -1,78 +1,6 @@
 {
-  "updated_at": "2026-11-15T01:32:08",
+  "updated_at": "2026-11-16T01:34:24",
   "days": {
-    "2026-11-08": [
-      {
-        "name": "GitHub New PR Overview",
-        "slug": "github",
-        "desc": "See what's blocking a PR before you scroll",
-        "desc_zh": "在滚动之前查看是什么阻碍了 PR",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/github",
-        "product_link": "https://www.producthunt.com/r/p/1309486?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ClipsPal",
-        "slug": "clipspal",
-        "desc": "AI video editor that edits your talking-head videos",
-        "desc_zh": "AI 视频编辑器可编辑您的头像视频",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/clipspal",
-        "product_link": "https://www.producthunt.com/r/p/1308788?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nörth",
-        "slug": "north-5",
-        "desc": "Natural, peer-to-peer collaboration for remote work",
-        "desc_zh": "远程工作的自然点对点协作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/north-5",
-        "product_link": "https://www.producthunt.com/r/p/1309182?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cue",
-        "slug": "cue-voice-keyboard",
-        "desc": "AI meeting notes, prep",
-        "desc_zh": "AI 会议记录、准备",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cue-voice-keyboard",
-        "product_link": "https://www.producthunt.com/r/p/1309174?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CollaboTokyo",
-        "slug": "collabotokyo",
-        "desc": "Explore a virtual Tokyo to network, market, and collaborate",
-        "desc_zh": "Explore a virtual Tokyo to network, market, and collaborate",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/collabotokyo",
-        "product_link": "https://www.producthunt.com/r/p/1309577?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "QuotedPart",
-        "slug": "quotedpart",
-        "desc": "AI quoting for CNC and sheet metal job shops",
-        "desc_zh": "AI quoting for CNC and sheet metal job shops",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/quotedpart",
-        "product_link": "https://www.producthunt.com/r/p/1309365?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Kippy AI",
-        "slug": "kippy-ai",
-        "desc": "Learn languages while having fun!",
-        "desc_zh": "Learn languages while having fun!",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kippy-ai",
-        "product_link": "https://www.producthunt.com/r/p/1308685?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-09": [
       {
         "name": "Lottie AI",
@@ -422,6 +350,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/screengo",
         "product_link": "https://www.producthunt.com/r/p/1310240?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Frevana Multiplayer",
+        "slug": "frevana-2",
+        "desc": "AI that grows your business alongside your team",
+        "desc_zh": "AI that grows your business alongside your team",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/frevana-2",
+        "product_link": "https://www.producthunt.com/r/p/1310949?app_id=339",
         "source": "feed"
       }
     ],
@@ -957,6 +895,16 @@
         "ph_link": "https://www.producthunt.com/products/dynamic-edge",
         "product_link": "https://www.producthunt.com/r/p/1312711?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Polylane for Security",
+        "slug": "polylane",
+        "desc": "Catch exploitable vulnerabilities before they ship",
+        "desc_zh": "Catch exploitable vulnerabilities before they ship",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/polylane",
+        "product_link": "https://www.producthunt.com/r/p/1313220?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-12": [
@@ -1109,6 +1057,36 @@
         "ph_link": "https://www.producthunt.com/products/blender",
         "product_link": "https://www.producthunt.com/r/p/1314882?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Pixel Office",
+        "slug": "pixel-office-3",
+        "desc": "Run a team of AI agents from a pixel-art office",
+        "desc_zh": "Run a team of AI agents from a pixel-art office",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pixel-office-3",
+        "product_link": "https://www.producthunt.com/r/p/1314362?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Emayler",
+        "slug": "emayler",
+        "desc": "Custom email on your domain, minus the headache",
+        "desc_zh": "Custom email on your domain, minus the headache",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/emayler",
+        "product_link": "https://www.producthunt.com/r/p/1314673?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Talyn",
+        "slug": "talyn",
+        "desc": "Run Claude Code and Codex in parallel cloud sandboxes",
+        "desc_zh": "Run Claude Code and Codex in parallel cloud sandboxes",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/talyn",
+        "product_link": "https://www.producthunt.com/r/p/1313926?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-13": [
@@ -1160,6 +1138,78 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/thunder-3",
         "product_link": "https://www.producthunt.com/r/p/1315758?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rakazo",
+        "slug": "rakazo",
+        "desc": "The open source Grok Bot alternative you actually own",
+        "desc_zh": "The open source Grok Bot alternative you actually own",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rakazo",
+        "product_link": "https://www.producthunt.com/r/p/1315641?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ByteAsk Cloud Agents",
+        "slug": "byteask-cloud-agents",
+        "desc": "Find the fix in big codebases. Ship it from Slack.",
+        "desc_zh": "Find the fix in big codebases. Ship it from Slack.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/byteask-cloud-agents",
+        "product_link": "https://www.producthunt.com/r/p/1316064?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Remindly",
+        "slug": "remindly-6",
+        "desc": "Notes that remind you, on iPhone, iPad, Mac and web",
+        "desc_zh": "Notes that remind you, on iPhone, iPad, Mac and web",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/remindly-6",
+        "product_link": "https://www.producthunt.com/r/p/1315819?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-14": [
+      {
+        "name": "Privacyboard",
+        "slug": "privacyboard",
+        "desc": "Privacy compliance on autopilot",
+        "desc_zh": "Privacy compliance on autopilot",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/privacyboard",
+        "product_link": "https://www.producthunt.com/r/p/1316260?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Canvas by AgentGrid.io",
+        "slug": "agentgrid-io",
+        "desc": "Agentic Design Canvas - A visual way to collaborate with AI",
+        "desc_zh": "Agentic Design Canvas - A visual way to collaborate with AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/agentgrid-io",
+        "product_link": "https://www.producthunt.com/r/p/1317198?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Perit Marketplace",
+        "slug": "perit-marketplace",
+        "desc": "Sell your data and RL tasks to frontier AI labs",
+        "desc_zh": "Sell your data and RL tasks to frontier AI labs",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/perit-marketplace",
+        "product_link": "https://www.producthunt.com/r/p/1317137?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "HuntMonitor",
+        "slug": "huntmonitor",
+        "desc": "Watch today's hunt live: points, speed, rank moves",
+        "desc_zh": "Watch today's hunt live: points, speed, rank moves",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/huntmonitor",
+        "product_link": "https://www.producthunt.com/r/p/1316659?app_id=339",
         "source": "feed"
       }
     ]
