@@ -1,268 +1,6 @@
 {
-  "updated_at": "2026-11-17T04:20:47",
+  "updated_at": "2026-11-18T03:19:46",
   "days": {
-    "2026-11-10": [
-      {
-        "name": "Nod by n8n",
-        "slug": "n8n-io",
-        "desc": "Open source personal agent with its own computer",
-        "desc_zh": "Open source personal agent with its own computer",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/n8n-io",
-        "product_link": "https://www.producthunt.com/r/p/1311491?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Subscriptrack",
-        "slug": "subscriptrack",
-        "desc": "Connect your email, see every subscription you pay for",
-        "desc_zh": "Connect your email, see every subscription you pay for",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/subscriptrack",
-        "product_link": "https://www.producthunt.com/r/p/1311529?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "StableBar",
-        "slug": "stablebar",
-        "desc": "A native, open-source menu bar for macOS",
-        "desc_zh": "A native, open-source menu bar for macOS",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stablebar",
-        "product_link": "https://www.producthunt.com/r/p/1311460?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Shot.video",
-        "slug": "shot-video",
-        "desc": "Multi-camera videos with the phones you already own",
-        "desc_zh": "Multi-camera videos with the phones you already own",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/shot-video",
-        "product_link": "https://www.producthunt.com/r/p/1311330?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "bonds chat",
-        "slug": "bonds-2",
-        "desc": "Multiplayer AI that dies if you and your friends flake",
-        "desc_zh": "Multiplayer AI that dies if you and your friends flake",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bonds-2",
-        "product_link": "https://www.producthunt.com/r/p/1312307?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Earlybird",
-        "slug": "earlybird-5",
-        "desc": "29M-param speech-to-text that outputs words before they end",
-        "desc_zh": "29M-param speech-to-text that outputs words before they end",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/earlybird-5",
-        "product_link": "https://www.producthunt.com/r/p/1312096?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mister Blocks",
-        "slug": "mister-blocks",
-        "desc": "Take a picture of your LEGO and AI will make a build",
-        "desc_zh": "Take a picture of your LEGO and AI will make a build",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mister-blocks",
-        "product_link": "https://www.producthunt.com/r/p/1312257?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Valin",
-        "slug": "valin",
-        "desc": "Your private memory for everything you save.",
-        "desc_zh": "Your private memory for everything you save.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/valin",
-        "product_link": "https://www.producthunt.com/r/p/1311454?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mitra MCP",
-        "slug": "mitra-5",
-        "desc": "Give your AI agents access to your personal phone line",
-        "desc_zh": "Give your AI agents access to your personal phone line",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mitra-5",
-        "product_link": "https://www.producthunt.com/r/p/1311862?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Scribe v3 by ElevenLabs",
-        "slug": "elevenlabs",
-        "desc": "Speech to text with 27% fewer errors in 90+ languages",
-        "desc_zh": "Speech to text with 27% fewer errors in 90+ languages",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/elevenlabs",
-        "product_link": "https://www.producthunt.com/r/p/1311828?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "MiniMax H3-Image",
-        "slug": "minimax",
-        "desc": "Bringing 4K image generation into the 10-second era",
-        "desc_zh": "Bringing 4K image generation into the 10-second era",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/minimax",
-        "product_link": "https://www.producthunt.com/r/p/1311715?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "nizima ACTION!!",
-        "slug": "nizima-action-by-live2d",
-        "desc": "Powerful editing, expressive characters, zero installs.",
-        "desc_zh": "Powerful editing, expressive characters, zero installs.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nizima-action-by-live2d",
-        "product_link": "https://www.producthunt.com/r/p/1311269?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Reddit Reviews",
-        "slug": "reddit",
-        "desc": "Product pages that collect subreddit sentiment",
-        "desc_zh": "Product pages that collect subreddit sentiment",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/reddit",
-        "product_link": "https://www.producthunt.com/r/p/1312356?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "RigSpark",
-        "slug": "rigspark",
-        "desc": "Know which AI to run on your own computer",
-        "desc_zh": "Know which AI to run on your own computer",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/rigspark",
-        "product_link": "https://www.producthunt.com/r/p/1312166?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Xolace",
-        "slug": "xolace",
-        "desc": "For the bad days you wouldn’t call a mental health problem",
-        "desc_zh": "For the bad days you wouldn’t call a mental health problem",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/xolace",
-        "product_link": "https://www.producthunt.com/r/p/1312054?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Padrail",
-        "slug": "padrail",
-        "desc": "Turn your MacBook trackpad edges into controls",
-        "desc_zh": "Turn your MacBook trackpad edges into controls",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/padrail",
-        "product_link": "https://www.producthunt.com/r/p/1311960?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Binqo",
-        "slug": "binqo",
-        "desc": "A tiny friend in your Mac's notch",
-        "desc_zh": "A tiny friend in your Mac's notch",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/binqo",
-        "product_link": "https://www.producthunt.com/r/p/1312074?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Skipbox",
-        "slug": "skipbox",
-        "desc": "Cheap, fast GitHub Actions runners with unlimited minutes",
-        "desc_zh": "Cheap, fast GitHub Actions runners with unlimited minutes",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/skipbox",
-        "product_link": "https://www.producthunt.com/r/p/1312043?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Yogurt",
-        "slug": "yogurt",
-        "desc": "Free, private, open-source alternative to Granola",
-        "desc_zh": "格兰诺拉麦片的免费、私有、开源替代品",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/yogurt",
-        "product_link": "https://www.producthunt.com/r/p/1311999?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Adobe AI Assistant",
-        "slug": "adobe-ai-assistant",
-        "desc": "Create and edit faster with AI across Adobe apps",
-        "desc_zh": "借助 Adob​​e 应用程序中的 AI 更快地创建和编辑",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/adobe-ai-assistant",
-        "product_link": "https://www.producthunt.com/r/p/1311866?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "three.dev",
-        "slug": "three-dev",
-        "desc": "Find out how your AI agent fails. Before your users do.",
-        "desc_zh": "了解您的 AI 代理是如何失败的。在您的用户之前。",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/three-dev",
-        "product_link": "https://www.producthunt.com/r/p/1311740?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Klang",
-        "slug": "klang",
-        "desc": "Team memory of meetings and calls, on our own speech models",
-        "desc_zh": "基于我们自己的语音模型的会议和通话的团队记忆",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/klang",
-        "product_link": "https://www.producthunt.com/r/p/1311420?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Mang.sh",
-        "slug": "mang-sh",
-        "desc": "Natural Language  to Terminal Commands",
-        "desc_zh": "自然语言到终端命令",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mang-sh",
-        "product_link": "https://www.producthunt.com/r/p/1311783?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Burnstate",
-        "slug": "burnstate",
-        "desc": "Claude Code, Codex & Cursor limits, paced in your menu bar",
-        "desc_zh": "Claude Code, Codex & Cursor limits, paced in your menu bar",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/burnstate",
-        "product_link": "https://www.producthunt.com/r/p/1311191?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Google Pixel Tag",
-        "slug": "google",
-        "desc": "Google’s $30 Android-ready tracking tag",
-        "desc_zh": "Google’s $30 Android-ready tracking tag",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google",
-        "product_link": "https://www.producthunt.com/r/p/1312154?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "FreeFlow Dictation",
-        "slug": "freeflow-dictation",
-        "desc": "On-device Mac dictation with a Claude Code voice hook",
-        "desc_zh": "On-device Mac dictation with a Claude Code voice hook",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/freeflow-dictation",
-        "product_link": "https://www.producthunt.com/r/p/1311141?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-11": [
       {
         "name": "Hoy for Mac",
@@ -917,6 +655,16 @@
         "ph_link": "https://www.producthunt.com/products/kugelaudio",
         "product_link": "https://www.producthunt.com/r/p/1315063?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Dialect",
+        "slug": "dialect",
+        "desc": "Give the physical world an API",
+        "desc_zh": "Give the physical world an API",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dialect",
+        "product_link": "https://www.producthunt.com/r/p/1315446?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-14": [
@@ -978,6 +726,56 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/centralize",
         "product_link": "https://www.producthunt.com/r/p/1316851?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "RankSpot",
+        "slug": "rankspot",
+        "desc": "Pay-as-you-go SEO and AI Search execution layer for agents",
+        "desc_zh": "Pay-as-you-go SEO and AI Search execution layer for agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rankspot",
+        "product_link": "https://www.producthunt.com/r/p/1316291?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Inbox Hero",
+        "slug": "inbox-hero-2",
+        "desc": "Your replies drafted in your voice, scams quarantined",
+        "desc_zh": "Your replies drafted in your voice, scams quarantined",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/inbox-hero-2",
+        "product_link": "https://www.producthunt.com/r/p/1316663?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ridian",
+        "slug": "ridian",
+        "desc": "The AI-first scheduling suite for everything around meetings",
+        "desc_zh": "The AI-first scheduling suite for everything around meetings",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ridian",
+        "product_link": "https://www.producthunt.com/r/p/1316705?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "polyroom",
+        "slug": "polyroom",
+        "desc": "Where AI agents work together and your team decides",
+        "desc_zh": "Where AI agents work together and your team decides",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/polyroom",
+        "product_link": "https://www.producthunt.com/r/p/1316848?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "seshka",
+        "slug": "seshka",
+        "desc": "Kill what Claude Code left behind",
+        "desc_zh": "Kill what Claude Code left behind",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/seshka",
+        "product_link": "https://www.producthunt.com/r/p/1316484?app_id=339",
         "source": "feed"
       }
     ],
@@ -1110,6 +908,208 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/cal",
         "product_link": "https://www.producthunt.com/r/p/1317659?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "superlog",
+        "slug": "superlog",
+        "desc": "Finds the production bugs your monitoring never sees",
+        "desc_zh": "Finds the production bugs your monitoring never sees",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/superlog",
+        "product_link": "https://www.producthunt.com/r/p/1317811?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-16": [
+      {
+        "name": "Liquid d1.2",
+        "slug": "lfm2",
+        "desc": "Decision models that return calibrated probabilities",
+        "desc_zh": "Decision models that return calibrated probabilities",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lfm2",
+        "product_link": "https://www.producthunt.com/r/p/1319139?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Clamor",
+        "slug": "clamor-2",
+        "desc": "Turns social signals into actionable insights",
+        "desc_zh": "Turns social signals into actionable insights",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/clamor-2",
+        "product_link": "https://www.producthunt.com/r/p/1319349?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Retriever",
+        "slug": "retriever-4",
+        "desc": "Search your phone's photos, documents and videos privately",
+        "desc_zh": "Search your phone's photos, documents and videos privately",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/retriever-4",
+        "product_link": "https://www.producthunt.com/r/p/1319771?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pinecall",
+        "slug": "pinecall",
+        "desc": "The open-source platform for voice AI agents",
+        "desc_zh": "The open-source platform for voice AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pinecall",
+        "product_link": "https://www.producthunt.com/r/p/1318689?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "BASE Studio",
+        "slug": "base-studio",
+        "desc": "Turn product photos into 3D and AR, automatically",
+        "desc_zh": "Turn product photos into 3D and AR, automatically",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/base-studio",
+        "product_link": "https://www.producthunt.com/r/p/1318923?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "WispOS",
+        "slug": "wispos",
+        "desc": "Free AI game maker with an app store that wants your games",
+        "desc_zh": "Free AI game maker with an app store that wants your games",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wispos",
+        "product_link": "https://www.producthunt.com/r/p/1319132?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ballet",
+        "slug": "ballet",
+        "desc": "Deterministic AI workflow automation for Ops teams",
+        "desc_zh": "Deterministic AI workflow automation for Ops teams",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ballet",
+        "product_link": "https://www.producthunt.com/r/p/1319369?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GatherHQ Agent Research",
+        "slug": "gatherhq-agent-research",
+        "desc": "Let your agent take surveys for you",
+        "desc_zh": "Let your agent take surveys for you",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gatherhq-agent-research",
+        "product_link": "https://www.producthunt.com/r/p/1319690?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "infaiw",
+        "slug": "infaiw",
+        "desc": "Delegate work to sidecar agents that pass an approval script",
+        "desc_zh": "Delegate work to sidecar agents that pass an approval script",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/infaiw",
+        "product_link": "https://www.producthunt.com/r/p/1319262?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GlissTouch",
+        "slug": "glisstouch",
+        "desc": "Custom Trackpad Gestures for Mac",
+        "desc_zh": "Custom Trackpad Gestures for Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/glisstouch",
+        "product_link": "https://www.producthunt.com/r/p/1318607?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ExtraDock 5",
+        "slug": "extradock",
+        "desc": "Your Mac Dock, on every screen",
+        "desc_zh": "Your Mac Dock, on every screen",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/extradock",
+        "product_link": "https://www.producthunt.com/r/p/1319271?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "VINC",
+        "slug": "vinc",
+        "desc": "Bring your filmmaking vision to life.",
+        "desc_zh": "Bring your filmmaking vision to life.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vinc",
+        "product_link": "https://www.producthunt.com/r/p/1318920?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lampa Camera",
+        "slug": "lampa-camera",
+        "desc": "iPhone camera with natural processing and an analog feel",
+        "desc_zh": "iPhone camera with natural processing and an analog feel",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lampa-camera",
+        "product_link": "https://www.producthunt.com/r/p/1319276?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "AWS Emulator",
+        "slug": "aws",
+        "desc": "Build and test AWS applications locally without deploying",
+        "desc_zh": "Build and test AWS applications locally without deploying",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/aws",
+        "product_link": "https://www.producthunt.com/r/p/1319374?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Agents API by Recall.ai",
+        "slug": "recall-ai",
+        "desc": "Send your agent to meetings",
+        "desc_zh": "Send your agent to meetings",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/recall-ai",
+        "product_link": "https://www.producthunt.com/r/p/1319570?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Superhands",
+        "slug": "stencil-by-superhands",
+        "desc": "Design the system, not every output.",
+        "desc_zh": "Design the system, not every output.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stencil-by-superhands",
+        "product_link": "https://www.producthunt.com/r/p/1318477?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Skiss",
+        "slug": "skiss",
+        "desc": "Save websites with their fonts, colours and real CSS",
+        "desc_zh": "Save websites with their fonts, colours and real CSS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/skiss",
+        "product_link": "https://www.producthunt.com/r/p/1319091?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "pushr",
+        "slug": "pushr",
+        "desc": "iPhone push alerts from any script, server or AI agent",
+        "desc_zh": "iPhone push alerts from any script, server or AI agent",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pushr",
+        "product_link": "https://www.producthunt.com/r/p/1319539?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bezzle",
+        "slug": "bezzle",
+        "desc": "A whole design studio, free, on your Mac and PC",
+        "desc_zh": "A whole design studio, free, on your Mac and PC",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bezzle",
+        "product_link": "https://www.producthunt.com/r/p/1319438?app_id=339",
         "source": "feed"
       }
     ]
