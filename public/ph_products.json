@@ -1,238 +1,6 @@
 {
-  "updated_at": "2026-11-19T02:58:37",
+  "updated_at": "2026-11-20T02:53:22",
   "days": {
-    "2026-11-12": [
-      {
-        "name": "GAtrends",
-        "slug": "gatrends",
-        "desc": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
-        "desc_zh": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gatrends",
-        "product_link": "https://www.producthunt.com/r/p/1314471?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "WHOOP Humans",
-        "slug": "whoop",
-        "desc": "WHOOP's social network built around real health data",
-        "desc_zh": "WHOOP's social network built around real health data",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/whoop",
-        "product_link": "https://www.producthunt.com/r/p/1314743?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Replicate",
-        "slug": "replicate-10",
-        "desc": "Turn Webflow/Framer app into a Claude/Codex project for free",
-        "desc_zh": "Turn Webflow/Framer app into a Claude/Codex project for free",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/replicate-10",
-        "product_link": "https://www.producthunt.com/r/p/1314761?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Expo Simulators",
-        "slug": "expo",
-        "desc": "Cloud simulators built for agents",
-        "desc_zh": "Cloud simulators built for agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/expo",
-        "product_link": "https://www.producthunt.com/r/p/1314456?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Paxper",
-        "slug": "paxper",
-        "desc": "Create cloud infrastructure visually and review every change",
-        "desc_zh": "Create cloud infrastructure visually and review every change",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/paxper",
-        "product_link": "https://www.producthunt.com/r/p/1314567?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "StockRip",
-        "slug": "stockrip",
-        "desc": "Trading cards, literally digital cards with tokenized stocks",
-        "desc_zh": "Trading cards, literally digital cards with tokenized stocks",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stockrip",
-        "product_link": "https://www.producthunt.com/r/p/1314942?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Hoverine",
-        "slug": "hoverine",
-        "desc": "Rive animation templates you can drop into your app",
-        "desc_zh": "Rive animation templates you can drop into your app",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hoverine",
-        "product_link": "https://www.producthunt.com/r/p/1314493?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini 4 Hydrogen",
-        "slug": "gemini-6",
-        "desc": "Fast agentic development for coders",
-        "desc_zh": "Fast agentic development for coders",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-6",
-        "product_link": "https://www.producthunt.com/r/p/1314458?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pocket Studio for Supabase",
-        "slug": "pocket-studio-for-supabase",
-        "desc": "Supabase dashboard & SQL editor for Android",
-        "desc_zh": "Supabase dashboard & SQL editor for Android",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pocket-studio-for-supabase",
-        "product_link": "https://www.producthunt.com/r/p/1314746?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Claude Meetings",
-        "slug": "claude",
-        "desc": "Add Claude to your call and get work started as you talk",
-        "desc_zh": "Add Claude to your call and get work started as you talk",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/claude",
-        "product_link": "https://www.producthunt.com/r/p/1314781?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "de:volt",
-        "slug": "de-volt",
-        "desc": "A breadboard simulator with real physics, in your browser",
-        "desc_zh": "A breadboard simulator with real physics, in your browser",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/de-volt",
-        "product_link": "https://www.producthunt.com/r/p/1314943?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini Robotics 2.5",
-        "slug": "gemini-robotics-2-5",
-        "desc": "Gemini Robotics 2.5: Google’s most capable robot model",
-        "desc_zh": "Gemini Robotics 2.5: Google’s most capable robot model",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-robotics-2-5",
-        "product_link": "https://www.producthunt.com/r/p/1314543?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Default Tamer",
-        "slug": "default-tamer",
-        "desc": "Open every link in the right browser on macOS",
-        "desc_zh": "Open every link in the right browser on macOS",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/default-tamer",
-        "product_link": "https://www.producthunt.com/r/p/1314405?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "inread.app",
-        "slug": "inread-app",
-        "desc": "your newsletters, outside your inbox",
-        "desc_zh": "your newsletters, outside your inbox",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/inread-app",
-        "product_link": "https://www.producthunt.com/r/p/1314364?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Blender 5.3",
-        "slug": "blender",
-        "desc": "3D Gaussian splats, now native to Blender",
-        "desc_zh": "3D Gaussian splats, now native to Blender",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/blender",
-        "product_link": "https://www.producthunt.com/r/p/1314882?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pixel Office",
-        "slug": "pixel-office-3",
-        "desc": "Run a team of AI agents from a pixel-art office",
-        "desc_zh": "Run a team of AI agents from a pixel-art office",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pixel-office-3",
-        "product_link": "https://www.producthunt.com/r/p/1314362?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Emayler",
-        "slug": "emayler",
-        "desc": "Custom email on your domain, minus the headache",
-        "desc_zh": "Custom email on your domain, minus the headache",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/emayler",
-        "product_link": "https://www.producthunt.com/r/p/1314673?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Talyn",
-        "slug": "talyn",
-        "desc": "Run Claude Code and Codex in parallel cloud sandboxes",
-        "desc_zh": "Run Claude Code and Codex in parallel cloud sandboxes",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/talyn",
-        "product_link": "https://www.producthunt.com/r/p/1313926?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Degla AI",
-        "slug": "degla-ai",
-        "desc": "Your intent. Onboard Autonomous Execution.",
-        "desc_zh": "Your intent. Onboard Autonomous Execution.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/degla-ai",
-        "product_link": "https://www.producthunt.com/r/p/1314397?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Intelligent Eyewear",
-        "slug": "sumsung",
-        "desc": "Samsung and Google bring Gemini AI to smart eyewear",
-        "desc_zh": "Samsung and Google bring Gemini AI to smart eyewear",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/sumsung",
-        "product_link": "https://www.producthunt.com/r/p/1314780?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Laurence",
-        "slug": "laurence",
-        "desc": "Build a frontier e-commerce growth system",
-        "desc_zh": "Build a frontier e-commerce growth system",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/laurence",
-        "product_link": "https://www.producthunt.com/r/p/1314686?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Review Box",
-        "slug": "review-box",
-        "desc": "A fast desktop app for reviewing GitHub pull requests",
-        "desc_zh": "用于审查 GitHub 拉取请求的快速桌面应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/review-box",
-        "product_link": "https://www.producthunt.com/r/p/1314372?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "uRun",
-        "slug": "urun",
-        "desc": "Real-time decisions for voice and video agents",
-        "desc_zh": "语音和视频代理的实时决策",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/urun",
-        "product_link": "https://www.producthunt.com/r/p/1314354?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-13": [
       {
         "name": "Tabletop by Google Labs",
@@ -534,6 +302,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/icons-2",
         "product_link": "https://www.producthunt.com/r/p/1316666?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Every Signal",
+        "slug": "every-signal",
+        "desc": "Diligence on any company in an hour, every number sourced",
+        "desc_zh": "一小时内对任何公司进行尽职调查，获取每个数字",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/every-signal",
+        "product_link": "https://www.producthunt.com/r/p/1316668?app_id=339",
         "source": "feed"
       }
     ],
@@ -989,6 +767,66 @@
         "ph_link": "https://www.producthunt.com/products/yetly",
         "product_link": "https://www.producthunt.com/r/p/1319746?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "The Calm Creator Mastermind",
+        "slug": "the-calm-creator-mastermind",
+        "desc": "For solopreneurs who are tired of being solo.",
+        "desc_zh": "对于厌倦了单打独斗的个体企业家。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/the-calm-creator-mastermind",
+        "product_link": "https://www.producthunt.com/r/p/1319325?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tabstack by Mozilla",
+        "slug": "tabstack",
+        "desc": "Give your model the web without giving up your privacy",
+        "desc_zh": "为您的模型提供网络而不放弃您的隐私",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tabstack",
+        "product_link": "https://www.producthunt.com/r/p/1319464?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Spellar for Chrome",
+        "slug": "spellar",
+        "desc": "Free, no-bot meeting notes with memory, now in your browser",
+        "desc_zh": "免费、无机器人、带记忆的会议笔记，现在就在您的浏览器中",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spellar",
+        "product_link": "https://www.producthunt.com/r/p/1318828?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "CodeDesign v3",
+        "slug": "codedesign",
+        "desc": "Run your website and business apps from ChatGPT or Claude",
+        "desc_zh": "从 ChatGPT 或 Claude 运行您的网站和业务应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/codedesign",
+        "product_link": "https://www.producthunt.com/r/p/1319789?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OfinTech Desk",
+        "slug": "ofintech-desk",
+        "desc": "Finance AI where every figure traces to its source",
+        "desc_zh": "金融人工智能，每一个数字都有其来源",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ofintech-desk",
+        "product_link": "https://www.producthunt.com/r/p/1319697?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Source",
+        "slug": "source-public-beta",
+        "desc": "The attribution data layer for your agents to drive pipeline",
+        "desc_zh": "为您的代理推动管道的归因数据层",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/source-public-beta",
+        "product_link": "https://www.producthunt.com/r/p/1319192?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-17": [
@@ -1200,6 +1038,188 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/afterall-photo",
         "product_link": "https://www.producthunt.com/r/p/1320045?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Verse Engine by Ctruh",
+        "slug": "verse-engine-by-ctruh",
+        "desc": "Blender, Unity or Unreal to a live 3D link in one click",
+        "desc_zh": "一键将 Blender、Unity 或 Unreal 链接到实时 3D 链接",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/verse-engine-by-ctruh",
+        "product_link": "https://www.producthunt.com/r/p/1320414?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-18": [
+      {
+        "name": "Fieldwork Code",
+        "slug": "fieldwork-code",
+        "desc": "AI coding on your laptop or in the cloud, from your phone",
+        "desc_zh": "通过手机在笔记本电脑或云端进行人工智能编码",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fieldwork-code",
+        "product_link": "https://www.producthunt.com/r/p/1321708?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tecla",
+        "slug": "tecla-3",
+        "desc": "A proactive AI agent whose interface is a TODO list",
+        "desc_zh": "一个主动式 AI 代理，其界面是一个 TODO 列表",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tecla-3",
+        "product_link": "https://www.producthunt.com/r/p/1322379?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Room AI",
+        "slug": "room-ai-2",
+        "desc": "Talk to it like a designer. Your room, one change at a time",
+        "desc_zh": "像设计师一样与它交谈。你的房间，一次更换一个",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/room-ai-2",
+        "product_link": "https://www.producthunt.com/r/p/1321847?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Adside",
+        "slug": "adside",
+        "desc": "A team of specialized AI agents that manage paid ads for you",
+        "desc_zh": "专业的人工智能代理团队为您管理付费广告",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/adside",
+        "product_link": "https://www.producthunt.com/r/p/1322288?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ToolJet",
+        "slug": "tooljet",
+        "desc": "Vibe-coded business apps that pass the security review",
+        "desc_zh": "通过 Vibe 编码并通过安全审查的商业应用程序",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tooljet",
+        "product_link": "https://www.producthunt.com/r/p/1322382?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Play That Back",
+        "slug": "play-that-back",
+        "desc": "A pro camera built for iPhone Duo",
+        "desc_zh": "专为 iPhone Duo 打造的专业相机",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/play-that-back",
+        "product_link": "https://www.producthunt.com/r/p/1322260?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Noteshell",
+        "slug": "noteshell",
+        "desc": "AI teammates that build and run your workspace",
+        "desc_zh": "构建和运行您的工作空间的 AI 团队成员",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/noteshell",
+        "product_link": "https://www.producthunt.com/r/p/1321837?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cleared",
+        "slug": "cleared-quit-nicotine",
+        "desc": "Your personal plan to give up vapes, pouches and cigarettes",
+        "desc_zh": "您个人放弃电子烟、电子烟和香烟的计划",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cleared-quit-nicotine",
+        "product_link": "https://www.producthunt.com/r/p/1321836?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Gemini 4 Neon",
+        "slug": "gemini-6",
+        "desc": "Frontier reasoning with faster task completion",
+        "desc_zh": "前沿推理，更快完成任务",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gemini-6",
+        "product_link": "https://www.producthunt.com/r/p/1322352?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Upsolve MCP Connections",
+        "slug": "upsolve-ai",
+        "desc": "Plug Notion, Linear and more into your data agent",
+        "desc_zh": "将概念、线性等插入您的数据代理",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/upsolve-ai",
+        "product_link": "https://www.producthunt.com/r/p/1322197?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Enrichable by Context.dev",
+        "slug": "context-dev",
+        "desc": "Open-source AI spreadsheet for data enrichment",
+        "desc_zh": "用于丰富数据的开源 AI 电子表格",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/context-dev",
+        "product_link": "https://www.producthunt.com/r/p/1321590?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "HeyGen Avatar 6",
+        "slug": "heygen",
+        "desc": "AI Avatar Model That Looks Like You",
+        "desc_zh": "像你一样的人工智能头像模型",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/heygen",
+        "product_link": "https://www.producthunt.com/r/p/1321617?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Nuko",
+        "slug": "nuko",
+        "desc": "Motion design in your browser",
+        "desc_zh": "浏览器中的动效设计",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/nuko",
+        "product_link": "https://www.producthunt.com/r/p/1322401?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rezora IO",
+        "slug": "rezora-io-ai-calling-assistant",
+        "desc": "Shopify for AI voice agents: live in 10 minutes",
+        "desc_zh": "Shopify 的 AI 语音代理：10 分钟内上线",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
+        "product_link": "https://www.producthunt.com/r/p/1322251?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Polylane for Azure",
+        "slug": "polylane",
+        "desc": "An AI on-call engineer for your Azure apps",
+        "desc_zh": "为您的 Azure 应用程序提供 AI 待命工程师",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/polylane",
+        "product_link": "https://www.producthunt.com/r/p/1322185?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "mio click",
+        "slug": "mio-click",
+        "desc": "A fidget that's also a friend",
+        "desc_zh": "一个烦躁的人也是一个朋友",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mio-click",
+        "product_link": "https://www.producthunt.com/r/p/1322266?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wispr Flow Notetaker for iPhone",
+        "slug": "wisprflow",
+        "desc": "Free AI meeting notes, wherever work takes you",
+        "desc_zh": "无论工作地点在哪里，免费的人工智能会议笔记",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wisprflow",
+        "product_link": "https://www.producthunt.com/r/p/1321899?app_id=339",
         "source": "feed"
       }
     ]
