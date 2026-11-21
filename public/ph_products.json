@@ -1,168 +1,6 @@
 {
-  "updated_at": "2026-11-20T02:53:22",
+  "updated_at": "2026-11-21T03:02:01",
   "days": {
-    "2026-11-13": [
-      {
-        "name": "Tabletop by Google Labs",
-        "slug": "google-labs",
-        "desc": "Build interactive group experiences with AI.",
-        "desc_zh": "Build interactive group experiences with AI.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/google-labs",
-        "product_link": "https://www.producthunt.com/r/p/1315230?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Businesses in ChatGPT",
-        "slug": "openai",
-        "desc": "Help customers discover your business through ChatGPT",
-        "desc_zh": "Help customers discover your business through ChatGPT",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/openai",
-        "product_link": "https://www.producthunt.com/r/p/1315068?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CodeMesh",
-        "slug": "codemesh-2",
-        "desc": "Cut AI coding costs by 90%",
-        "desc_zh": "Cut AI coding costs by 90%",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/codemesh-2",
-        "product_link": "https://www.producthunt.com/r/p/1315082?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tacie",
-        "slug": "tacie",
-        "desc": "Meeting notes on your Mac, with no bot in the call",
-        "desc_zh": "Meeting notes on your Mac, with no bot in the call",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tacie",
-        "product_link": "https://www.producthunt.com/r/p/1315433?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Thunder",
-        "slug": "thunder-3",
-        "desc": "A blazing-fast, persistent, key-value AI workload database",
-        "desc_zh": "A blazing-fast, persistent, key-value AI workload database",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/thunder-3",
-        "product_link": "https://www.producthunt.com/r/p/1315758?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Rakazo",
-        "slug": "rakazo",
-        "desc": "The open source Grok Bot alternative you actually own",
-        "desc_zh": "The open source Grok Bot alternative you actually own",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/rakazo",
-        "product_link": "https://www.producthunt.com/r/p/1315641?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ByteAsk Cloud Agents",
-        "slug": "byteask-cloud-agents",
-        "desc": "Find the fix in big codebases. Ship it from Slack.",
-        "desc_zh": "Find the fix in big codebases. Ship it from Slack.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/byteask-cloud-agents",
-        "product_link": "https://www.producthunt.com/r/p/1316064?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Remindly",
-        "slug": "remindly-6",
-        "desc": "Notes that remind you, on iPhone, iPad, Mac and web",
-        "desc_zh": "Notes that remind you, on iPhone, iPad, Mac and web",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/remindly-6",
-        "product_link": "https://www.producthunt.com/r/p/1315819?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Findy",
-        "slug": "findy-3",
-        "desc": "Find Files on Your Mac by what you remember",
-        "desc_zh": "Find Files on Your Mac by what you remember",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/findy-3",
-        "product_link": "https://www.producthunt.com/r/p/1315509?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Kafkador",
-        "slug": "kafkador",
-        "desc": "A console for to manage, observe & play Apache Kafka",
-        "desc_zh": "A console for to manage, observe & play Apache Kafka",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kafkador",
-        "product_link": "https://www.producthunt.com/r/p/1315778?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Blomma for Organizations",
-        "slug": "blomma",
-        "desc": "Scale your people at the speed of your business",
-        "desc_zh": "Scale your people at the speed of your business",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/blomma",
-        "product_link": "https://www.producthunt.com/r/p/1315749?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ChatGPT Wallet",
-        "slug": "chatgpt",
-        "desc": "Let ChatGPT agents buy things without seeing your card",
-        "desc_zh": "Let ChatGPT agents buy things without seeing your card",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/chatgpt",
-        "product_link": "https://www.producthunt.com/r/p/1315610?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Fluid",
-        "slug": "kugelaudio",
-        "desc": "speech-to-speech built to solve problems",
-        "desc_zh": "speech-to-speech built to solve problems",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/kugelaudio",
-        "product_link": "https://www.producthunt.com/r/p/1315063?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dialect",
-        "slug": "dialect",
-        "desc": "Give the physical world an API",
-        "desc_zh": "Give the physical world an API",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dialect",
-        "product_link": "https://www.producthunt.com/r/p/1315446?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "SaaS Toolkit MCP",
-        "slug": "saas-toolkit-mcp",
-        "desc": "An SDR and CMO on your site 24/7, for one JavaScript snippet",
-        "desc_zh": "针对一个 JavaScript 片段，SDR 和 CMO 24/7 在您的网站上",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/saas-toolkit-mcp",
-        "product_link": "https://www.producthunt.com/r/p/1315797?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dream by Smart Jelly",
-        "slug": "smart-jelly",
-        "desc": "An AI agent that works through your tasks overnight",
-        "desc_zh": "一个人工智能代理可以在一夜之间完成你的任务",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/smart-jelly",
-        "product_link": "https://www.producthunt.com/r/p/1315282?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-14": [
       {
         "name": "Privacyboard",
@@ -484,6 +322,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/stoiccloud",
         "product_link": "https://www.producthunt.com/r/p/1317823?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Cup of Sugar",
+        "slug": "cup-of-sugar-2",
+        "desc": "Share a dream, let Cubby break it into small steps.",
+        "desc_zh": "Share a dream, let Cubby break it into small steps.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/cup-of-sugar-2",
+        "product_link": "https://www.producthunt.com/r/p/1317347?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tripmojo",
+        "slug": "tripmojo",
+        "desc": "Agentic travel app that helps plan, book and run your trip",
+        "desc_zh": "Agentic travel app that helps plan, book and run your trip",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tripmojo",
+        "product_link": "https://www.producthunt.com/r/p/1318366?app_id=339",
         "source": "feed"
       }
     ],
@@ -827,6 +685,26 @@
         "ph_link": "https://www.producthunt.com/products/source-public-beta",
         "product_link": "https://www.producthunt.com/r/p/1319192?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Same Moon",
+        "slug": "same-moon",
+        "desc": "Free bedtime stories for children who had to leave home",
+        "desc_zh": "Free bedtime stories for children who had to leave home",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/same-moon",
+        "product_link": "https://www.producthunt.com/r/p/1318700?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Salus",
+        "slug": "salus",
+        "desc": "Discover benefits and public support in the Czech Republic",
+        "desc_zh": "Discover benefits and public support in the Czech Republic",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/salus",
+        "product_link": "https://www.producthunt.com/r/p/1319569?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-17": [
@@ -1049,6 +927,46 @@
         "ph_link": "https://www.producthunt.com/products/verse-engine-by-ctruh",
         "product_link": "https://www.producthunt.com/r/p/1320414?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "tripps",
+        "slug": "tripps",
+        "desc": "Plan a group trip with one link, no account needed",
+        "desc_zh": "Plan a group trip with one link, no account needed",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tripps",
+        "product_link": "https://www.producthunt.com/r/p/1320740?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "pickfit",
+        "slug": "pickfit",
+        "desc": "Every tool tested in a sandbox before it's recommended",
+        "desc_zh": "Every tool tested in a sandbox before it's recommended",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pickfit",
+        "product_link": "https://www.producthunt.com/r/p/1321140?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Storiara",
+        "slug": "storiara",
+        "desc": "AI producers that find real savings in your film budget",
+        "desc_zh": "人工智能制片人可以真正节省您的电影预算",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/storiara",
+        "product_link": "https://www.producthunt.com/r/p/1320776?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Bookella",
+        "slug": "bookella",
+        "desc": "A reading tracker that helps you read more",
+        "desc_zh": "A reading tracker that helps you read more",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/bookella",
+        "product_link": "https://www.producthunt.com/r/p/1320093?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-18": [
@@ -1220,6 +1138,318 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/wisprflow",
         "product_link": "https://www.producthunt.com/r/p/1321899?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "InteraOne",
+        "slug": "interaone",
+        "desc": "Open-source Intercom & Zendesk alternative with AI agents",
+        "desc_zh": "Open-source Intercom & Zendesk alternative with AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/interaone",
+        "product_link": "https://www.producthunt.com/r/p/1322508?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Groundwork",
+        "slug": "groundwork-6",
+        "desc": "Claude Code plans that re-runs never overwrite",
+        "desc_zh": "Claude Code plans that re-runs never overwrite",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/groundwork-6",
+        "product_link": "https://www.producthunt.com/r/p/1321962?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DWaste",
+        "slug": "deep-waste",
+        "desc": "Eliminate recycling contamination with low-power Edge AI",
+        "desc_zh": "Eliminate recycling contamination with low-power Edge AI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/deep-waste",
+        "product_link": "https://www.producthunt.com/r/p/1321585?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Direct by Instagram",
+        "slug": "instagram",
+        "desc": "Instagram DMs, without the feed or Instagram account",
+        "desc_zh": "Instagram DMs, without the feed or Instagram account",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/instagram",
+        "product_link": "https://www.producthunt.com/r/p/1322498?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Volcano",
+        "slug": "volcano-3",
+        "desc": "The self-healing agent cloud by Kong",
+        "desc_zh": "Kong 的自我修复代理云",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/volcano-3",
+        "product_link": "https://www.producthunt.com/r/p/1322506?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Zethos",
+        "slug": "zethos",
+        "desc": "The ledger you and your AI work from",
+        "desc_zh": "The ledger you and your AI work from",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zethos",
+        "product_link": "https://www.producthunt.com/r/p/1322292?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Telo",
+        "slug": "telo-2",
+        "desc": "Apple Health in ChatGPT and Claude, in any country",
+        "desc_zh": "Apple Health in ChatGPT and Claude, in any country",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/telo-2",
+        "product_link": "https://www.producthunt.com/r/p/1321985?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-19": [
+      {
+        "name": "Tamekoshi",
+        "slug": "tamekoshi",
+        "desc": "A Tamagotchi-style AI companion that does real work",
+        "desc_zh": "一个能真正工作的电子宠物风格的人工智能伴侣",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tamekoshi",
+        "product_link": "https://www.producthunt.com/r/p/1322934?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Saparo",
+        "slug": "saparo",
+        "desc": "Muse for shopping with deals stacks",
+        "desc_zh": "购物的缪思与优惠堆栈",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/saparo",
+        "product_link": "https://www.producthunt.com/r/p/1322672?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Andromon",
+        "slug": "andromon",
+        "desc": "Your Android phone, on your computer. Free.",
+        "desc_zh": "您的 Android 手机，在您的计算机上。自由的。",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/andromon",
+        "product_link": "https://www.producthunt.com/r/p/1322979?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Lumyna Community Challenge",
+        "slug": "lumyna-community-challenge",
+        "desc": "A million virtual meters. A small pledge against hunger.",
+        "desc_zh": "A million virtual meters. A small pledge against hunger.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/lumyna-community-challenge",
+        "product_link": "https://www.producthunt.com/r/p/1323787?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Mailpipe",
+        "slug": "mailpipe-2",
+        "desc": "Draft Apple Mail replies with your local AI agent CLI",
+        "desc_zh": "Draft Apple Mail replies with your local AI agent CLI",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mailpipe-2",
+        "product_link": "https://www.producthunt.com/r/p/1323758?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "UndoGuard",
+        "slug": "undoguard",
+        "desc": "The Ctrl+Z button for autonomous AI agents",
+        "desc_zh": "The Ctrl+Z button for autonomous AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/undoguard",
+        "product_link": "https://www.producthunt.com/r/p/1323379?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "NetSieve",
+        "slug": "netsieve",
+        "desc": "Block ads, trackers and scam sites in every app on your Mac",
+        "desc_zh": "拦截 Mac 上每个应用中的广告、跟踪器和诈骗网站",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/netsieve",
+        "product_link": "https://www.producthunt.com/r/p/1323157?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Nova by Vybe",
+        "slug": "vybe-4",
+        "desc": "Nova audits your website free, then fixes what it finds",
+        "desc_zh": "Nova 免费审核您的网站，然后修复发现的内容",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vybe-4",
+        "product_link": "https://www.producthunt.com/r/p/1323414?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rox",
+        "slug": "rox-2",
+        "desc": "Your AI companion for living with chronic illness",
+        "desc_zh": "您的慢性病患者的人工智能伴侣",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rox-2",
+        "product_link": "https://www.producthunt.com/r/p/1322959?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "greatai Review",
+        "slug": "greatai-review",
+        "desc": "Free AI + human code review for open source & nonprofits",
+        "desc_zh": "面向开源和非营利组织的免费 AI + 人工代码审查",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/greatai-review",
+        "product_link": "https://www.producthunt.com/r/p/1323788?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Samiksa",
+        "slug": "samiksa",
+        "desc": "Understand research, test it yourself, publish your own",
+        "desc_zh": "Understand research, test it yourself, publish your own",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/samiksa",
+        "product_link": "https://www.producthunt.com/r/p/1323762?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Interview Coach",
+        "slug": "interview-coach-3",
+        "desc": "Practice job interviews out loud",
+        "desc_zh": "Practice job interviews out loud",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/interview-coach-3",
+        "product_link": "https://www.producthunt.com/r/p/1323740?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fack’d",
+        "slug": "fack-d",
+        "desc": "Fact checks right on YouTube as it plays, with sources",
+        "desc_zh": "Fact checks right on YouTube as it plays, with sources",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fack-d",
+        "product_link": "https://www.producthunt.com/r/p/1323668?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Veryfi Thinking Mode",
+        "slug": "veryfi",
+        "desc": "AI agents review and correct receipt and invoice data.",
+        "desc_zh": "AI agents review and correct receipt and invoice data.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/veryfi",
+        "product_link": "https://www.producthunt.com/r/p/1323494?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Stormi",
+        "slug": "stormi",
+        "desc": "An AI team on your iPhone that does real work",
+        "desc_zh": "An AI team on your iPhone that does real work",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stormi",
+        "product_link": "https://www.producthunt.com/r/p/1322985?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Inkrail",
+        "slug": "inkrail",
+        "desc": "A cozy, nostalgic typewriter experience built for deep work.",
+        "desc_zh": "A cozy, nostalgic typewriter experience built for deep work.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/inkrail",
+        "product_link": "https://www.producthunt.com/r/p/1322697?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Dozy",
+        "slug": "dozy",
+        "desc": "Turns your sleep data into one thing to do today",
+        "desc_zh": "Turns your sleep data into one thing to do today",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dozy",
+        "product_link": "https://www.producthunt.com/r/p/1323490?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "ThreadLore",
+        "slug": "threadlore",
+        "desc": "Turn fabric photos into editable loom drafts",
+        "desc_zh": "Turn fabric photos into editable loom drafts",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/threadlore",
+        "product_link": "https://www.producthunt.com/r/p/1323665?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Currents",
+        "slug": "currents-4",
+        "desc": "Currents for Claude & Codex to see all your tests",
+        "desc_zh": "Currents for Claude & Codex to see all your tests",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/currents-4",
+        "product_link": "https://www.producthunt.com/r/p/1323083?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "HelpCard",
+        "slug": "helpcard",
+        "desc": "a free emergency QR card",
+        "desc_zh": "免费紧急二维码卡",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/helpcard",
+        "product_link": "https://www.producthunt.com/r/p/1323277?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Baby's Day In",
+        "slug": "baby-s-day-in",
+        "desc": "Turn two phones into a baby monitor",
+        "desc_zh": "Turn two phones into a baby monitor",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/baby-s-day-in",
+        "product_link": "https://www.producthunt.com/r/p/1322700?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MakePixel",
+        "slug": "makepixel",
+        "desc": "Pixel art editor for game sprites, tilesets and maps",
+        "desc_zh": "Pixel art editor for game sprites, tilesets and maps",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/makepixel",
+        "product_link": "https://www.producthunt.com/r/p/1322788?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Docker",
+        "slug": "docker",
+        "desc": "Built to run on trust, for the agentic era",
+        "desc_zh": "Built to run on trust, for the agentic era",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/docker",
+        "product_link": "https://www.producthunt.com/r/p/1323572?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "DMARC Pulse",
+        "slug": "dmarc-pulse",
+        "desc": "Find out who's sending email as your domain",
+        "desc_zh": "Find out who's sending email as your domain",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/dmarc-pulse",
+        "product_link": "https://www.producthunt.com/r/p/1323470?app_id=339",
         "source": "feed"
       }
     ]
