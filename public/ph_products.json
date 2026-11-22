@@ -1,158 +1,6 @@
 {
-  "updated_at": "2026-11-21T03:02:01",
+  "updated_at": "2026-11-22T01:54:26",
   "days": {
-    "2026-11-14": [
-      {
-        "name": "Privacyboard",
-        "slug": "privacyboard",
-        "desc": "Privacy compliance on autopilot",
-        "desc_zh": "Privacy compliance on autopilot",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/privacyboard",
-        "product_link": "https://www.producthunt.com/r/p/1316260?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Canvas by AgentGrid.io",
-        "slug": "agentgrid-io",
-        "desc": "Agentic Design Canvas - A visual way to collaborate with AI",
-        "desc_zh": "Agentic Design Canvas - A visual way to collaborate with AI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/agentgrid-io",
-        "product_link": "https://www.producthunt.com/r/p/1317198?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Perit Marketplace",
-        "slug": "perit-marketplace",
-        "desc": "Sell your data and RL tasks to frontier AI labs",
-        "desc_zh": "Sell your data and RL tasks to frontier AI labs",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/perit-marketplace",
-        "product_link": "https://www.producthunt.com/r/p/1317137?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "HuntMonitor",
-        "slug": "huntmonitor",
-        "desc": "Watch today's hunt live: points, speed, rank moves",
-        "desc_zh": "Watch today's hunt live: points, speed, rank moves",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/huntmonitor",
-        "product_link": "https://www.producthunt.com/r/p/1316659?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Pine Drama Studio",
-        "slug": "pine-drama-studio",
-        "desc": "The open-source Cursor for AI filmmaking",
-        "desc_zh": "The open-source Cursor for AI filmmaking",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/pine-drama-studio",
-        "product_link": "https://www.producthunt.com/r/p/1316986?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Centralize",
-        "slug": "centralize",
-        "desc": "Relationship Workspace for Enterprise Deal Teams",
-        "desc_zh": "Relationship Workspace for Enterprise Deal Teams",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/centralize",
-        "product_link": "https://www.producthunt.com/r/p/1316851?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "RankSpot",
-        "slug": "rankspot",
-        "desc": "Pay-as-you-go SEO and AI Search execution layer for agents",
-        "desc_zh": "Pay-as-you-go SEO and AI Search execution layer for agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/rankspot",
-        "product_link": "https://www.producthunt.com/r/p/1316291?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Inbox Hero",
-        "slug": "inbox-hero-2",
-        "desc": "Your replies drafted in your voice, scams quarantined",
-        "desc_zh": "Your replies drafted in your voice, scams quarantined",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/inbox-hero-2",
-        "product_link": "https://www.producthunt.com/r/p/1316663?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Ridian",
-        "slug": "ridian",
-        "desc": "The AI-first scheduling suite for everything around meetings",
-        "desc_zh": "The AI-first scheduling suite for everything around meetings",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ridian",
-        "product_link": "https://www.producthunt.com/r/p/1316705?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "polyroom",
-        "slug": "polyroom",
-        "desc": "Where AI agents work together and your team decides",
-        "desc_zh": "Where AI agents work together and your team decides",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/polyroom",
-        "product_link": "https://www.producthunt.com/r/p/1316848?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "seshka",
-        "slug": "seshka",
-        "desc": "Kill what Claude Code left behind",
-        "desc_zh": "Kill what Claude Code left behind",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/seshka",
-        "product_link": "https://www.producthunt.com/r/p/1316484?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Dippr",
-        "slug": "dippr",
-        "desc": "A data platform served to your agents, with one prompt",
-        "desc_zh": "为您的座席提供一个数据平台，只需一个提示",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/dippr",
-        "product_link": "https://www.producthunt.com/r/p/1317264?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Bluedot Phone Calls",
-        "slug": "bluedot-2",
-        "desc": "AI note taker for phone calls",
-        "desc_zh": "用于通话的 AI 笔记记录器",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bluedot-2",
-        "product_link": "https://www.producthunt.com/r/p/1316478?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ICONS",
-        "slug": "icons-2",
-        "desc": "Where brands book creators, or license their AI likeness",
-        "desc_zh": "品牌在哪里预订创作者，或许可他们的人工智能肖像",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/icons-2",
-        "product_link": "https://www.producthunt.com/r/p/1316666?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Every Signal",
-        "slug": "every-signal",
-        "desc": "Diligence on any company in an hour, every number sourced",
-        "desc_zh": "一小时内对任何公司进行尽职调查，获取每个数字",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/every-signal",
-        "product_link": "https://www.producthunt.com/r/p/1316668?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-15": [
       {
         "name": "Papyras",
@@ -705,6 +553,26 @@
         "ph_link": "https://www.producthunt.com/products/salus",
         "product_link": "https://www.producthunt.com/r/p/1319569?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Shipyard",
+        "slug": "shipyard",
+        "desc": "MCP for Claude, Cursor and Codex to Automate Integrations",
+        "desc_zh": "MCP for Claude, Cursor and Codex to Automate Integrations",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/shipyard",
+        "product_link": "https://www.producthunt.com/r/p/1319260?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenVorld",
+        "slug": "openvorld",
+        "desc": "Give your AI agents a home and a Vorld.",
+        "desc_zh": "Give your AI agents a home and a Vorld.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openvorld",
+        "product_link": "https://www.producthunt.com/r/p/1319324?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-17": [
@@ -967,6 +835,36 @@
         "ph_link": "https://www.producthunt.com/products/bookella",
         "product_link": "https://www.producthunt.com/r/p/1320093?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "AlterContacts",
+        "slug": "alter-contacts-ai-client-relationships",
+        "desc": "AI client relationship assistant that thinks and does ahead",
+        "desc_zh": "AI client relationship assistant that thinks and does ahead",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+        "product_link": "https://www.producthunt.com/r/p/1320128?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hollr",
+        "slug": "hollr-3",
+        "desc": "Push-to-talk for your family, on iPhone and Apple Watch",
+        "desc_zh": "Push-to-talk for your family, on iPhone and Apple Watch",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hollr-3",
+        "product_link": "https://www.producthunt.com/r/p/1320275?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Prompt Puncher",
+        "slug": "prompt-puncher",
+        "desc": "The AI CEO Fighting Game",
+        "desc_zh": "The AI CEO Fighting Game",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/prompt-puncher",
+        "product_link": "https://www.producthunt.com/r/p/1320677?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-18": [
@@ -1209,6 +1107,56 @@
         "ph_link": "https://www.producthunt.com/products/telo-2",
         "product_link": "https://www.producthunt.com/r/p/1321985?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Publicit",
+        "slug": "publicit",
+        "desc": "Omnichannel ad infrastructure for marketers and AI agents",
+        "desc_zh": "Omnichannel ad infrastructure for marketers and AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/publicit",
+        "product_link": "https://www.producthunt.com/r/p/1321826?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Doddle",
+        "slug": "doddle-3",
+        "desc": "Draw on what your videos for 3D effects",
+        "desc_zh": "Draw on what your videos for 3D effects",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/doddle-3",
+        "product_link": "https://www.producthunt.com/r/p/1322397?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Backspin",
+        "slug": "backspin",
+        "desc": "Learn to DJ in your browser, on real vinyl decks",
+        "desc_zh": "Learn to DJ in your browser, on real vinyl decks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/backspin",
+        "product_link": "https://www.producthunt.com/r/p/1322372?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Exa Websets V2",
+        "slug": "exa-ai",
+        "desc": "Build custom datasets from the live web, 4x faster",
+        "desc_zh": "Build custom datasets from the live web, 4x faster",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/exa-ai",
+        "product_link": "https://www.producthunt.com/r/p/1321956?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "CROON",
+        "slug": "croon",
+        "desc": "Live dubbing for whatever's playing on your iPhone",
+        "desc_zh": "Live dubbing for whatever's playing on your iPhone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/croon",
+        "product_link": "https://www.producthunt.com/r/p/1321599?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-19": [
@@ -1450,6 +1398,48 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/dmarc-pulse",
         "product_link": "https://www.producthunt.com/r/p/1323470?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-20": [
+      {
+        "name": "WaitFeed",
+        "slug": "waitfeed-2",
+        "desc": "Tech feed inside agent wait time",
+        "desc_zh": "Tech feed inside agent wait time",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/waitfeed-2",
+        "product_link": "https://www.producthunt.com/r/p/1324672?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Stitch Loop",
+        "slug": "stitch-loop",
+        "desc": "Google’s AI agent that ships fixes and watches the metric",
+        "desc_zh": "Google’s AI agent that ships fixes and watches the metric",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/stitch-loop",
+        "product_link": "https://www.producthunt.com/r/p/1324651?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Smorza",
+        "slug": "smorza",
+        "desc": "Every Mac app gets its own volume and output",
+        "desc_zh": "Every Mac app gets its own volume and output",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/smorza",
+        "product_link": "https://www.producthunt.com/r/p/1324641?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "gitroots",
+        "slug": "gitroots",
+        "desc": "Path-level GitHub access for developers and AI agents",
+        "desc_zh": "Path-level GitHub access for developers and AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gitroots",
+        "product_link": "https://www.producthunt.com/r/p/1324299?app_id=339",
         "source": "feed"
       }
     ]
