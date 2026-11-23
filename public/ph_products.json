@@ -1,198 +1,6 @@
 {
-  "updated_at": "2026-11-22T01:54:26",
+  "updated_at": "2026-11-23T02:10:16",
   "days": {
-    "2026-11-15": [
-      {
-        "name": "Papyras",
-        "slug": "papyras",
-        "desc": "For people who still read the last page",
-        "desc_zh": "For people who still read the last page",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/papyras",
-        "product_link": "https://www.producthunt.com/r/p/1317299?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "StateWeave",
-        "slug": "stateweave",
-        "desc": "Test your AI agent on working clones of the apps it uses",
-        "desc_zh": "Test your AI agent on working clones of the apps it uses",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stateweave",
-        "product_link": "https://www.producthunt.com/r/p/1317996?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Glifa",
-        "slug": "glifa",
-        "desc": "The Markdown editor for Mac you can ask for anything",
-        "desc_zh": "The Markdown editor for Mac you can ask for anything",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/glifa",
-        "product_link": "https://www.producthunt.com/r/p/1317504?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Notebook to Notes",
-        "slug": "notebook-to-notes",
-        "desc": "Move your OneNote notebooks to Apple Notes, 100% offline",
-        "desc_zh": "Move your OneNote notebooks to Apple Notes, 100% offline",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/notebook-to-notes",
-        "product_link": "https://www.producthunt.com/r/p/1318205?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Punchcutter",
-        "slug": "punchcutter",
-        "desc": "Turn a sentence or your handwriting into a real font family",
-        "desc_zh": "Turn a sentence or your handwriting into a real font family",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/punchcutter",
-        "product_link": "https://www.producthunt.com/r/p/1317334?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "UI SDK by Vercel",
-        "slug": "ui-sdk",
-        "desc": "Give AI agents the building blocks to create UI",
-        "desc_zh": "Give AI agents the building blocks to create UI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ui-sdk",
-        "product_link": "https://www.producthunt.com/r/p/1317488?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Trusty CSV",
-        "slug": "trusty-csv",
-        "desc": "Edit CSV files like code, not like a spreadsheet",
-        "desc_zh": "Edit CSV files like code, not like a spreadsheet",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/trusty-csv",
-        "product_link": "https://www.producthunt.com/r/p/1317349?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Puffin",
-        "slug": "puffin-2",
-        "desc": "Identity and inboxes for AI agents",
-        "desc_zh": "Identity and inboxes for AI agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/puffin-2",
-        "product_link": "https://www.producthunt.com/r/p/1317965?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LingoMic",
-        "slug": "lingomic",
-        "desc": "Speak your language in meetings, they hear theirs",
-        "desc_zh": "Speak your language in meetings, they hear theirs",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lingomic",
-        "product_link": "https://www.producthunt.com/r/p/1318234?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Freebuff",
-        "slug": "freebuff-2",
-        "desc": "The 100% free coding agent",
-        "desc_zh": "The 100% free coding agent",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/freebuff-2",
-        "product_link": "https://www.producthunt.com/r/p/1317855?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ByteVoice",
-        "slug": "bytevoice",
-        "desc": "Talk to your coding agents and hear them back",
-        "desc_zh": "Talk to your coding agents and hear them back",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bytevoice",
-        "product_link": "https://www.producthunt.com/r/p/1318221?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "LexiCAD",
-        "slug": "lexicad",
-        "desc": "Describe a part in plain language to get a CAD design",
-        "desc_zh": "Describe a part in plain language to get a CAD design",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/lexicad",
-        "product_link": "https://www.producthunt.com/r/p/1318136?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cal.com v7",
-        "slug": "cal",
-        "desc": "Cal.com now has events, discover, an assistant + more",
-        "desc_zh": "Cal.com now has events, discover, an assistant + more",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cal",
-        "product_link": "https://www.producthunt.com/r/p/1317659?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "superlog",
-        "slug": "superlog",
-        "desc": "Finds the production bugs your monitoring never sees",
-        "desc_zh": "Finds the production bugs your monitoring never sees",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/superlog",
-        "product_link": "https://www.producthunt.com/r/p/1317811?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "S.Space",
-        "slug": "s-space",
-        "desc": "Your team and everyone's AI agents, in one workspace",
-        "desc_zh": "您的团队和每个人的 AI 代理都在一个工作区中",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/s-space",
-        "product_link": "https://www.producthunt.com/r/p/1317562?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tencent Hy4 flash",
-        "slug": "hunyuan-a13b",
-        "desc": "Fast, low-cost model from $0.07/M input",
-        "desc_zh": "快速、低成本模型，每月投入 0.07 美元",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/hunyuan-a13b",
-        "product_link": "https://www.producthunt.com/r/p/1318419?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "StoicCloud",
-        "slug": "stoiccloud",
-        "desc": "Cloud storage for films that only your Mac can read",
-        "desc_zh": "只有您的 Mac 才能读取的影片的云存储",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stoiccloud",
-        "product_link": "https://www.producthunt.com/r/p/1317823?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cup of Sugar",
-        "slug": "cup-of-sugar-2",
-        "desc": "Share a dream, let Cubby break it into small steps.",
-        "desc_zh": "Share a dream, let Cubby break it into small steps.",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cup-of-sugar-2",
-        "product_link": "https://www.producthunt.com/r/p/1317347?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tripmojo",
-        "slug": "tripmojo",
-        "desc": "Agentic travel app that helps plan, book and run your trip",
-        "desc_zh": "Agentic travel app that helps plan, book and run your trip",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tripmojo",
-        "product_link": "https://www.producthunt.com/r/p/1318366?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-16": [
       {
         "name": "Liquid d1.2",
@@ -573,6 +381,16 @@
         "ph_link": "https://www.producthunt.com/products/openvorld",
         "product_link": "https://www.producthunt.com/r/p/1319324?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Leapdeck",
+        "slug": "leapdeck",
+        "desc": "Leap to any Mac Space from a key or your iPhone",
+        "desc_zh": "Leap to any Mac Space from a key or your iPhone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/leapdeck",
+        "product_link": "https://www.producthunt.com/r/p/1318840?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-17": [
@@ -864,6 +682,46 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/prompt-puncher",
         "product_link": "https://www.producthunt.com/r/p/1320677?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MeshLive",
+        "slug": "meshlive",
+        "desc": "Offline video calls and livestreams over Bluetooth mesh",
+        "desc_zh": "Offline video calls and livestreams over Bluetooth mesh",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/meshlive",
+        "product_link": "https://www.producthunt.com/r/p/1320357?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ulika",
+        "slug": "ulika",
+        "desc": "Visual editor for sites built with Claude, Cursor, or Codex",
+        "desc_zh": "Visual editor for sites built with Claude, Cursor, or Codex",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ulika",
+        "product_link": "https://www.producthunt.com/r/p/1320738?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Zapyso",
+        "slug": "zapyso",
+        "desc": "Free meeting notes and dictation that stay on your Mac",
+        "desc_zh": "Free meeting notes and dictation that stay on your Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/zapyso",
+        "product_link": "https://www.producthunt.com/r/p/1320097?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Do It For Them Wallpaper Maker",
+        "slug": "do-it-for-them-wallpaper-maker",
+        "desc": "Photo wallpapers for the people you do it for",
+        "desc_zh": "Photo wallpapers for the people you do it for",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/do-it-for-them-wallpaper-maker",
+        "product_link": "https://www.producthunt.com/r/p/1320898?app_id=339",
         "source": "feed"
       }
     ],
@@ -1157,6 +1015,16 @@
         "ph_link": "https://www.producthunt.com/products/croon",
         "product_link": "https://www.producthunt.com/r/p/1321599?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "DeNotch",
+        "slug": "denotch",
+        "desc": "Hide the MacBook notch and tame your menu bar",
+        "desc_zh": "Hide the MacBook notch and tame your menu bar",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/denotch",
+        "product_link": "https://www.producthunt.com/r/p/1322636?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-19": [
@@ -1399,6 +1267,56 @@
         "ph_link": "https://www.producthunt.com/products/dmarc-pulse",
         "product_link": "https://www.producthunt.com/r/p/1323470?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Mockreel",
+        "slug": "mockreel",
+        "desc": "your screen recording, but in a 3D phone. free, no signup",
+        "desc_zh": "your screen recording, but in a 3D phone. free, no signup",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/mockreel",
+        "product_link": "https://www.producthunt.com/r/p/1323666?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TeaserKit",
+        "slug": "teaserkit",
+        "desc": "your coding agent directs your launch video",
+        "desc_zh": "your coding agent directs your launch video",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/teaserkit",
+        "product_link": "https://www.producthunt.com/r/p/1323133?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Raccoon Kids",
+        "slug": "raccoon-kids",
+        "desc": "Gamify Chores for Kids: no more nagging, just a cute raccoon",
+        "desc_zh": "Gamify Chores for Kids: no more nagging, just a cute raccoon",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/raccoon-kids",
+        "product_link": "https://www.producthunt.com/r/p/1322851?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pushback",
+        "slug": "pushback-flight-tracker",
+        "desc": "The flight tracker that knows which lounge you can use",
+        "desc_zh": "The flight tracker that knows which lounge you can use",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pushback-flight-tracker",
+        "product_link": "https://www.producthunt.com/r/p/1323604?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Rankhog",
+        "slug": "rankhog",
+        "desc": "Get customers from Reddit on autopilot",
+        "desc_zh": "Get customers from Reddit on autopilot",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rankhog",
+        "product_link": "https://www.producthunt.com/r/p/1323002?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-20": [
@@ -1440,6 +1358,68 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/gitroots",
         "product_link": "https://www.producthunt.com/r/p/1324299?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Creavit Studio 4.0",
+        "slug": "creavit-studio",
+        "desc": "Screen recording, iPhone camera and cinematic demos for Mac",
+        "desc_zh": "Screen recording, iPhone camera and cinematic demos for Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/creavit-studio",
+        "product_link": "https://www.producthunt.com/r/p/1324705?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "30yr-uptime",
+        "slug": "30yr-uptime",
+        "desc": "Claude Code mod for taking care of your body",
+        "desc_zh": "Claude Code mod for taking care of your body",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/30yr-uptime",
+        "product_link": "https://www.producthunt.com/r/p/1324133?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-21": [
+      {
+        "name": "oovi",
+        "slug": "oovi",
+        "desc": "Your own team of AI on your desktop",
+        "desc_zh": "Your own team of AI on your desktop",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/oovi",
+        "product_link": "https://www.producthunt.com/r/p/1325665?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Omi CLI",
+        "slug": "omi-cli",
+        "desc": "AI coding agents that work while you're away.",
+        "desc_zh": "AI coding agents that work while you're away.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/omi-cli",
+        "product_link": "https://www.producthunt.com/r/p/1325043?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Resurf",
+        "slug": "resurf-2",
+        "desc": "Personal Knowledge Base & Bookmark Manager for Mac",
+        "desc_zh": "Personal Knowledge Base & Bookmark Manager for Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/resurf-2",
+        "product_link": "https://www.producthunt.com/r/p/1325452?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Verge: Corner Controls",
+        "slug": "verge-corner-controls",
+        "desc": "Swipe a screen corner to set brightness, volume and more",
+        "desc_zh": "Swipe a screen corner to set brightness, volume and more",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/verge-corner-controls",
+        "product_link": "https://www.producthunt.com/r/p/1325261?app_id=339",
         "source": "feed"
       }
     ]
