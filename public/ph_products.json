@@ -1,368 +1,6 @@
 {
-  "updated_at": "2026-11-25T04:48:36",
+  "updated_at": "2026-11-26T04:00:39",
   "days": {
-    "2026-11-18": [
-      {
-        "name": "Fieldwork Code",
-        "slug": "fieldwork-code",
-        "desc": "AI coding on your laptop or in the cloud, from your phone",
-        "desc_zh": "通过手机在笔记本电脑或云端进行人工智能编码",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/fieldwork-code",
-        "product_link": "https://www.producthunt.com/r/p/1321708?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tecla",
-        "slug": "tecla-3",
-        "desc": "A proactive AI agent whose interface is a TODO list",
-        "desc_zh": "一个主动式 AI 代理，其界面是一个 TODO 列表",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tecla-3",
-        "product_link": "https://www.producthunt.com/r/p/1322379?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Room AI",
-        "slug": "room-ai-2",
-        "desc": "Talk to it like a designer. Your room, one change at a time",
-        "desc_zh": "像设计师一样与它交谈。你的房间，一次更换一个",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/room-ai-2",
-        "product_link": "https://www.producthunt.com/r/p/1321847?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Adside",
-        "slug": "adside",
-        "desc": "A team of specialized AI agents that manage paid ads for you",
-        "desc_zh": "专业的人工智能代理团队为您管理付费广告",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/adside",
-        "product_link": "https://www.producthunt.com/r/p/1322288?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ToolJet",
-        "slug": "tooljet",
-        "desc": "Vibe-coded business apps that pass the security review",
-        "desc_zh": "通过 Vibe 编码并通过安全审查的商业应用程序",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tooljet",
-        "product_link": "https://www.producthunt.com/r/p/1322382?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Play That Back",
-        "slug": "play-that-back",
-        "desc": "A pro camera built for iPhone Duo",
-        "desc_zh": "专为 iPhone Duo 打造的专业相机",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/play-that-back",
-        "product_link": "https://www.producthunt.com/r/p/1322260?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Noteshell",
-        "slug": "noteshell",
-        "desc": "AI teammates that build and run your workspace",
-        "desc_zh": "构建和运行您的工作空间的 AI 团队成员",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/noteshell",
-        "product_link": "https://www.producthunt.com/r/p/1321837?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cleared",
-        "slug": "cleared-quit-nicotine",
-        "desc": "Your personal plan to give up vapes, pouches and cigarettes",
-        "desc_zh": "您个人放弃电子烟、电子烟和香烟的计划",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cleared-quit-nicotine",
-        "product_link": "https://www.producthunt.com/r/p/1321836?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gemini 4 Neon",
-        "slug": "gemini-6",
-        "desc": "Frontier reasoning with faster task completion",
-        "desc_zh": "前沿推理，更快完成任务",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gemini-6",
-        "product_link": "https://www.producthunt.com/r/p/1322352?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Upsolve MCP Connections",
-        "slug": "upsolve-ai",
-        "desc": "Plug Notion, Linear and more into your data agent",
-        "desc_zh": "将概念、线性等插入您的数据代理",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/upsolve-ai",
-        "product_link": "https://www.producthunt.com/r/p/1322197?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Enrichable by Context.dev",
-        "slug": "context-dev",
-        "desc": "Open-source AI spreadsheet for data enrichment",
-        "desc_zh": "用于丰富数据的开源 AI 电子表格",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/context-dev",
-        "product_link": "https://www.producthunt.com/r/p/1321590?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "HeyGen Avatar 6",
-        "slug": "heygen",
-        "desc": "AI Avatar Model That Looks Like You",
-        "desc_zh": "像你一样的人工智能头像模型",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/heygen",
-        "product_link": "https://www.producthunt.com/r/p/1321617?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Nuko",
-        "slug": "nuko",
-        "desc": "Motion design in your browser",
-        "desc_zh": "浏览器中的动效设计",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/nuko",
-        "product_link": "https://www.producthunt.com/r/p/1322401?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Rezora IO",
-        "slug": "rezora-io-ai-calling-assistant",
-        "desc": "Shopify for AI voice agents: live in 10 minutes",
-        "desc_zh": "Shopify 的 AI 语音代理：10 分钟内上线",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
-        "product_link": "https://www.producthunt.com/r/p/1322251?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Polylane for Azure",
-        "slug": "polylane",
-        "desc": "An AI on-call engineer for your Azure apps",
-        "desc_zh": "为您的 Azure 应用程序提供 AI 待命工程师",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/polylane",
-        "product_link": "https://www.producthunt.com/r/p/1322185?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "mio click",
-        "slug": "mio-click",
-        "desc": "A fidget that's also a friend",
-        "desc_zh": "一个烦躁的人也是一个朋友",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/mio-click",
-        "product_link": "https://www.producthunt.com/r/p/1322266?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Wispr Flow Notetaker for iPhone",
-        "slug": "wisprflow",
-        "desc": "Free AI meeting notes, wherever work takes you",
-        "desc_zh": "无论工作地点在哪里，免费的人工智能会议笔记",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/wisprflow",
-        "product_link": "https://www.producthunt.com/r/p/1321899?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "InteraOne",
-        "slug": "interaone",
-        "desc": "Open-source Intercom & Zendesk alternative with AI agents",
-        "desc_zh": "Open-source Intercom & Zendesk alternative with AI agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/interaone",
-        "product_link": "https://www.producthunt.com/r/p/1322508?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Groundwork",
-        "slug": "groundwork-6",
-        "desc": "Claude Code plans that re-runs never overwrite",
-        "desc_zh": "Claude Code plans that re-runs never overwrite",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/groundwork-6",
-        "product_link": "https://www.producthunt.com/r/p/1321962?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DWaste",
-        "slug": "deep-waste",
-        "desc": "Eliminate recycling contamination with low-power Edge AI",
-        "desc_zh": "Eliminate recycling contamination with low-power Edge AI",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/deep-waste",
-        "product_link": "https://www.producthunt.com/r/p/1321585?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Direct by Instagram",
-        "slug": "instagram",
-        "desc": "Instagram DMs, without the feed or Instagram account",
-        "desc_zh": "Instagram DMs, without the feed or Instagram account",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/instagram",
-        "product_link": "https://www.producthunt.com/r/p/1322498?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Volcano",
-        "slug": "volcano-3",
-        "desc": "The self-healing agent cloud by Kong",
-        "desc_zh": "Kong 的自我修复代理云",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/volcano-3",
-        "product_link": "https://www.producthunt.com/r/p/1322506?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Zethos",
-        "slug": "zethos",
-        "desc": "The ledger you and your AI work from",
-        "desc_zh": "The ledger you and your AI work from",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/zethos",
-        "product_link": "https://www.producthunt.com/r/p/1322292?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Telo",
-        "slug": "telo-2",
-        "desc": "Apple Health in ChatGPT and Claude, in any country",
-        "desc_zh": "Apple Health in ChatGPT and Claude, in any country",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/telo-2",
-        "product_link": "https://www.producthunt.com/r/p/1321985?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Publicit",
-        "slug": "publicit",
-        "desc": "Omnichannel ad infrastructure for marketers and AI agents",
-        "desc_zh": "Omnichannel ad infrastructure for marketers and AI agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/publicit",
-        "product_link": "https://www.producthunt.com/r/p/1321826?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Doddle",
-        "slug": "doddle-3",
-        "desc": "Draw on what your videos for 3D effects",
-        "desc_zh": "Draw on what your videos for 3D effects",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/doddle-3",
-        "product_link": "https://www.producthunt.com/r/p/1322397?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Backspin",
-        "slug": "backspin",
-        "desc": "Learn to DJ in your browser, on real vinyl decks",
-        "desc_zh": "Learn to DJ in your browser, on real vinyl decks",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/backspin",
-        "product_link": "https://www.producthunt.com/r/p/1322372?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Exa Websets V2",
-        "slug": "exa-ai",
-        "desc": "Build custom datasets from the live web, 4x faster",
-        "desc_zh": "Build custom datasets from the live web, 4x faster",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/exa-ai",
-        "product_link": "https://www.producthunt.com/r/p/1321956?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "CROON",
-        "slug": "croon",
-        "desc": "Live dubbing for whatever's playing on your iPhone",
-        "desc_zh": "Live dubbing for whatever's playing on your iPhone",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/croon",
-        "product_link": "https://www.producthunt.com/r/p/1321599?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "DeNotch",
-        "slug": "denotch",
-        "desc": "Hide the MacBook notch and tame your menu bar",
-        "desc_zh": "Hide the MacBook notch and tame your menu bar",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/denotch",
-        "product_link": "https://www.producthunt.com/r/p/1322636?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "naturefunding.org",
-        "slug": "naturefunding-org",
-        "desc": "Grants for nature projects, checked against funder pages",
-        "desc_zh": "Grants for nature projects, checked against funder pages",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/naturefunding-org",
-        "product_link": "https://www.producthunt.com/r/p/1322413?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Granular.Build",
-        "slug": "granular-build",
-        "desc": "Put your AI agents to work in a visual workspace",
-        "desc_zh": "让您的 AI 代理在可视化工作空间中工作",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/granular-build",
-        "product_link": "https://www.producthunt.com/r/p/1322050?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Cullman",
-        "slug": "cullman",
-        "desc": "Faster voice agent evals, from simulation to production",
-        "desc_zh": "从模拟到生产，语音代理评估速度更快",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/cullman",
-        "product_link": "https://www.producthunt.com/r/p/1322500?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Astor",
-        "slug": "astor",
-        "desc": "AI Thesis Investing",
-        "desc_zh": "人工智能论文投资",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/astor",
-        "product_link": "https://www.producthunt.com/r/p/1322364?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Ohhai",
-        "slug": "ohhai",
-        "desc": "Type messy, send clean: an AI keyboard for iPhone",
-        "desc_zh": "输入混乱，发送干净：iPhone 的 AI 键盘",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/ohhai",
-        "product_link": "https://www.producthunt.com/r/p/1322011?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Bento terminal",
-        "slug": "bento-terminal",
-        "desc": "A multi-pane terminal workspace for one project",
-        "desc_zh": "一个项目的多窗格终端工作区",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/bento-terminal",
-        "product_link": "https://www.producthunt.com/r/p/1321479?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-19": [
       {
         "name": "Tamekoshi",
@@ -683,6 +321,26 @@
         "ph_link": "https://www.producthunt.com/products/deskmagic",
         "product_link": "https://www.producthunt.com/r/p/1323870?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "Airbot",
+        "slug": "airbots",
+        "desc": "The AI chief of staff that texts you first",
+        "desc_zh": "The AI chief of staff that texts you first",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/airbots",
+        "product_link": "https://www.producthunt.com/r/p/1323240?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "RelayRunner",
+        "slug": "relayrunner",
+        "desc": "Swap between CI runners on-demand with zero code changes.",
+        "desc_zh": "Swap between CI runners on-demand with zero code changes.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/relayrunner",
+        "product_link": "https://www.producthunt.com/r/p/1323229?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-20": [
@@ -784,6 +442,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/k-stra",
         "product_link": "https://www.producthunt.com/r/p/1324358?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Tray",
+        "slug": "tray-2",
+        "desc": "macOS file manager in a screen corner",
+        "desc_zh": "macOS file manager in a screen corner",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/tray-2",
+        "product_link": "https://www.producthunt.com/r/p/1325033?app_id=339",
         "source": "feed"
       }
     ],
@@ -896,6 +564,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/prates",
         "product_link": "https://www.producthunt.com/r/p/1325372?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "VibeCode.surf",
+        "slug": "vibecode-surf",
+        "desc": "AI code editor where agents build, run and test your app",
+        "desc_zh": "AI code editor where agents build, run and test your app",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vibecode-surf",
+        "product_link": "https://www.producthunt.com/r/p/1325269?app_id=339",
         "source": "feed"
       }
     ],
@@ -1058,6 +736,16 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/doola-mcp",
         "product_link": "https://www.producthunt.com/r/p/1326680?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "eluna",
+        "slug": "eluna",
+        "desc": "Period tracker for couples that explains WHY, not just WHEN",
+        "desc_zh": "Period tracker for couples that explains WHY, not just WHEN",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/eluna",
+        "product_link": "https://www.producthunt.com/r/p/1326465?app_id=339",
         "source": "feed"
       }
     ],
@@ -1310,6 +998,238 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/sotto-11",
         "product_link": "https://www.producthunt.com/r/p/1328307?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "TruAstra",
+        "slug": "truastra",
+        "desc": "Small practices based on your birthday + the current weather",
+        "desc_zh": "Small practices based on your birthday + the current weather",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/truastra",
+        "product_link": "https://www.producthunt.com/r/p/1328178?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "3way.Social MCP",
+        "slug": "3way-social",
+        "desc": "Ask your AI to find link partners. You approve the deals.",
+        "desc_zh": "Ask your AI to find link partners. You approve the deals.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/3way-social",
+        "product_link": "https://www.producthunt.com/r/p/1328124?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Snag by Parallel",
+        "slug": "snag",
+        "desc": "Find the best deals on products from your agents",
+        "desc_zh": "Find the best deals on products from your agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/snag",
+        "product_link": "https://www.producthunt.com/r/p/1328447?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-24": [
+      {
+        "name": "MyClaw 3.0",
+        "slug": "myclaw-3-0",
+        "desc": "Build an always-on AI team with shared memory",
+        "desc_zh": "Build an always-on AI team with shared memory",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/myclaw-3-0",
+        "product_link": "https://www.producthunt.com/r/p/1329374?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "OpenEight",
+        "slug": "openeight",
+        "desc": "The deterministic control layer for AI agents",
+        "desc_zh": "The deterministic control layer for AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/openeight",
+        "product_link": "https://www.producthunt.com/r/p/1330145?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Qube",
+        "slug": "qube-6",
+        "desc": "An AI agent for anyone",
+        "desc_zh": "An AI agent for anyone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/qube-6",
+        "product_link": "https://www.producthunt.com/r/p/1329544?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Sen Việt (VieLotus-IM)",
+        "slug": "sen-vi-t-vielotus-im",
+        "desc": "Smart Bilingual input method for macOS, Windows, and Linux.",
+        "desc_zh": "Smart Bilingual input method for macOS, Windows, and Linux.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/sen-vi-t-vielotus-im",
+        "product_link": "https://www.producthunt.com/r/p/1329877?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "file.spot",
+        "slug": "file-spot",
+        "desc": "File transfer for creative professionals",
+        "desc_zh": "File transfer for creative professionals",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/file-spot",
+        "product_link": "https://www.producthunt.com/r/p/1329265?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Blink",
+        "slug": "blink-35",
+        "desc": "Describe any trade and watch Blink build it",
+        "desc_zh": "Describe any trade and watch Blink build it",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/blink-35",
+        "product_link": "https://www.producthunt.com/r/p/1329858?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Falcon by Vybe",
+        "slug": "vybe-4",
+        "desc": "Falcon analyzes your competitors for free, then gets to work",
+        "desc_zh": "Falcon analyzes your competitors for free, then gets to work",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/vybe-4",
+        "product_link": "https://www.producthunt.com/r/p/1329814?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MAGI-2",
+        "slug": "magi-1",
+        "desc": "Sand AI's 480B model for cinematic video generation",
+        "desc_zh": "Sand AI's 480B model for cinematic video generation",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/magi-1",
+        "product_link": "https://www.producthunt.com/r/p/1330047?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Koed",
+        "slug": "koed",
+        "desc": "Supercharged Agents!",
+        "desc_zh": "Supercharged Agents!",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/koed",
+        "product_link": "https://www.producthunt.com/r/p/1328887?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Fompi",
+        "slug": "fompi",
+        "desc": "Personal security & privacy companion that calls out risks",
+        "desc_zh": "Personal security & privacy companion that calls out risks",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/fompi",
+        "product_link": "https://www.producthunt.com/r/p/1329543?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Canva MCP",
+        "slug": "canva",
+        "desc": "Turn any AI agent into a creative powerhouse",
+        "desc_zh": "Turn any AI agent into a creative powerhouse",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/canva",
+        "product_link": "https://www.producthunt.com/r/p/1329327?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "GibHub",
+        "slug": "gibhub-git-file-history",
+        "desc": "Retrieve and compare Git versions",
+        "desc_zh": "Retrieve and compare Git versions",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gibhub-git-file-history",
+        "product_link": "https://www.producthunt.com/r/p/1329988?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "MemoryWorks",
+        "slug": "memoryworks",
+        "desc": "Company memory for people and AI agents",
+        "desc_zh": "Company memory for people and AI agents",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/memoryworks",
+        "product_link": "https://www.producthunt.com/r/p/1329703?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hai",
+        "slug": "hai-4",
+        "desc": "Your AI assistant that actually makes the phone call",
+        "desc_zh": "Your AI assistant that actually makes the phone call",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hai-4",
+        "product_link": "https://www.producthunt.com/r/p/1329023?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hold'em",
+        "slug": "hold-em",
+        "desc": "Swipe real Black Friday cart deals across Shopify",
+        "desc_zh": "Swipe real Black Friday cart deals across Shopify",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hold-em",
+        "product_link": "https://www.producthunt.com/r/p/1329778?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Hiring Right Now",
+        "slug": "hiring-right-now",
+        "desc": "Which startups would hire you?",
+        "desc_zh": "Which startups would hire you?",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/hiring-right-now",
+        "product_link": "https://www.producthunt.com/r/p/1329956?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "PeerBand",
+        "slug": "peerband",
+        "desc": "Reach every coding agent you run, from anywhere",
+        "desc_zh": "Reach every coding agent you run, from anywhere",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/peerband",
+        "product_link": "https://www.producthunt.com/r/p/1329861?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Notely",
+        "slug": "notely-8",
+        "desc": "Notion-grade power & BYOK AI, stored locally in SQLite",
+        "desc_zh": "Notion-grade power & BYOK AI, stored locally in SQLite",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/notely-8",
+        "product_link": "https://www.producthunt.com/r/p/1329844?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Statefold",
+        "slug": "statefold-2",
+        "desc": "Coding agents that keep working while you're away",
+        "desc_zh": "Coding agents that keep working while you're away",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/statefold-2",
+        "product_link": "https://www.producthunt.com/r/p/1329880?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Omi X 2.0",
+        "slug": "omi-x",
+        "desc": "Omi can build anything. Your $1B idea, live in production",
+        "desc_zh": "Omi can build anything. Your $1B idea, live in production",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/omi-x",
+        "product_link": "https://www.producthunt.com/r/p/1329892?app_id=339",
         "source": "feed"
       }
     ]
