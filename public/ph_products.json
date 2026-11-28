@@ -1,118 +1,6 @@
 {
-  "updated_at": "2026-11-27T03:58:21",
+  "updated_at": "2026-11-28T03:44:37",
   "days": {
-    "2026-11-20": [
-      {
-        "name": "WaitFeed",
-        "slug": "waitfeed-2",
-        "desc": "Tech feed inside agent wait time",
-        "desc_zh": "Tech feed inside agent wait time",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/waitfeed-2",
-        "product_link": "https://www.producthunt.com/r/p/1324672?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Stitch Loop",
-        "slug": "stitch-loop",
-        "desc": "Google’s AI agent that ships fixes and watches the metric",
-        "desc_zh": "Google’s AI agent that ships fixes and watches the metric",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/stitch-loop",
-        "product_link": "https://www.producthunt.com/r/p/1324651?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Smorza",
-        "slug": "smorza",
-        "desc": "Every Mac app gets its own volume and output",
-        "desc_zh": "Every Mac app gets its own volume and output",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/smorza",
-        "product_link": "https://www.producthunt.com/r/p/1324641?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "gitroots",
-        "slug": "gitroots",
-        "desc": "Path-level GitHub access for developers and AI agents",
-        "desc_zh": "Path-level GitHub access for developers and AI agents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gitroots",
-        "product_link": "https://www.producthunt.com/r/p/1324299?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Creavit Studio 4.0",
-        "slug": "creavit-studio",
-        "desc": "Screen recording, iPhone camera and cinematic demos for Mac",
-        "desc_zh": "Screen recording, iPhone camera and cinematic demos for Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/creavit-studio",
-        "product_link": "https://www.producthunt.com/r/p/1324705?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "30yr-uptime",
-        "slug": "30yr-uptime",
-        "desc": "Claude Code mod for taking care of your body",
-        "desc_zh": "Claude Code mod for taking care of your body",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/30yr-uptime",
-        "product_link": "https://www.producthunt.com/r/p/1324133?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Gauth Personal Study Agent",
-        "slug": "gauth-ai-course",
-        "desc": "An AI study agent that remembers where you struggle",
-        "desc_zh": "An AI study agent that remembers where you struggle",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/gauth-ai-course",
-        "product_link": "https://www.producthunt.com/r/p/1324531?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Polylane Swarms",
-        "slug": "polylane",
-        "desc": "A team of AI agents on your roughest production incidents",
-        "desc_zh": "A team of AI agents on your roughest production incidents",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/polylane",
-        "product_link": "https://www.producthunt.com/r/p/1324692?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "ExtraBar",
-        "slug": "extrabar",
-        "desc": "Build a custom menu bar for your Mac",
-        "desc_zh": "Build a custom menu bar for your Mac",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/extrabar",
-        "product_link": "https://www.producthunt.com/r/p/1324163?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "K-Stra",
-        "slug": "k-stra",
-        "desc": "Geomarketing for Australia, with an AI that does the maths",
-        "desc_zh": "澳大利亚的地理营销，利用人工智能进行数学计算",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/k-stra",
-        "product_link": "https://www.producthunt.com/r/p/1324358?app_id=339",
-        "source": "feed"
-      },
-      {
-        "name": "Tray",
-        "slug": "tray-2",
-        "desc": "macOS file manager in a screen corner",
-        "desc_zh": "macOS file manager in a screen corner",
-        "image": "",
-        "ph_link": "https://www.producthunt.com/products/tray-2",
-        "product_link": "https://www.producthunt.com/r/p/1325033?app_id=339",
-        "source": "feed"
-      }
-    ],
     "2026-11-21": [
       {
         "name": "oovi",
@@ -414,6 +302,26 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/watch-reader",
         "product_link": "https://www.producthunt.com/r/p/1326096?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "snibl",
+        "slug": "snibl",
+        "desc": "Save highlighted text from any app, then ask AI about it",
+        "desc_zh": "Save highlighted text from any app, then ask AI about it",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/snibl",
+        "product_link": "https://www.producthunt.com/r/p/1326302?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Pushary Calls",
+        "slug": "pushary",
+        "desc": "Miss your AI agent’s ping? Pushary calls you.",
+        "desc_zh": "Miss your AI agent’s ping? Pushary calls you.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/pushary",
+        "product_link": "https://www.producthunt.com/r/p/1326480?app_id=339",
         "source": "feed"
       }
     ],
@@ -717,6 +625,16 @@
         "ph_link": "https://www.producthunt.com/products/chunkify",
         "product_link": "https://www.producthunt.com/r/p/1327537?app_id=339",
         "source": "feed"
+      },
+      {
+        "name": "ChickyTutor",
+        "slug": "chickytutor",
+        "desc": "A language tutor that knows you better daily. Now on iOS",
+        "desc_zh": "A language tutor that knows you better daily. Now on iOS",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/chickytutor",
+        "product_link": "https://www.producthunt.com/r/p/1328245?app_id=339",
+        "source": "feed"
       }
     ],
     "2026-11-24": [
@@ -978,6 +896,36 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/clary-2",
         "product_link": "https://www.producthunt.com/r/p/1329841?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Wizstar R1",
+        "slug": "wizstar",
+        "desc": "Seedance 2.0-level product videos at a lower cost",
+        "desc_zh": "Seedance 2.0-level product videos at a lower cost",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/wizstar",
+        "product_link": "https://www.producthunt.com/r/p/1330231?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "gpyou",
+        "slug": "gpyou",
+        "desc": "The OpenRouter for compute for the cheapest GPU in stock",
+        "desc_zh": "The OpenRouter for compute for the cheapest GPU in stock",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/gpyou",
+        "product_link": "https://www.producthunt.com/r/p/1329710?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Spark AI",
+        "slug": "spark-ai-7",
+        "desc": "AI-native permitting & diligence services for data centers",
+        "desc_zh": "AI-native permitting & diligence services for data centers",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/spark-ai-7",
+        "product_link": "https://www.producthunt.com/r/p/1330200?app_id=339",
         "source": "feed"
       }
     ],
@@ -1250,6 +1198,118 @@
         "image": "",
         "ph_link": "https://www.producthunt.com/products/fairwind",
         "product_link": "https://www.producthunt.com/r/p/1331596?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "slay",
+        "slug": "slay-3",
+        "desc": "AI composition guide camera app for iPhone",
+        "desc_zh": "AI composition guide camera app for iPhone",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/slay-3",
+        "product_link": "https://www.producthunt.com/r/p/1331614?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Espresso 27",
+        "slug": "espresso-27",
+        "desc": "The web editor for people who love the Mac",
+        "desc_zh": "The web editor for people who love the Mac",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/espresso-27",
+        "product_link": "https://www.producthunt.com/r/p/1330307?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Remove Silence",
+        "slug": "remove-silence",
+        "desc": "Cut the silence from audio in your browser, free",
+        "desc_zh": "Cut the silence from audio in your browser, free",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/remove-silence",
+        "product_link": "https://www.producthunt.com/r/p/1331316?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Periscope",
+        "slug": "periscope-4",
+        "desc": "Turn any work into an API",
+        "desc_zh": "Turn any work into an API",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/periscope-4",
+        "product_link": "https://www.producthunt.com/r/p/1331479?app_id=339",
+        "source": "feed"
+      }
+    ],
+    "2026-11-26": [
+      {
+        "name": "RightFont 2026",
+        "slug": "rightfont",
+        "desc": "The right font, right now.",
+        "desc_zh": "The right font, right now.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/rightfont",
+        "product_link": "https://www.producthunt.com/r/p/1332620?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Depost AI",
+        "slug": "depost-ai",
+        "desc": "The LinkedIn AI agent that learns what works for your brand",
+        "desc_zh": "The LinkedIn AI agent that learns what works for your brand",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/depost-ai",
+        "product_link": "https://www.producthunt.com/r/p/1332760?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Woomool",
+        "slug": "woomool",
+        "desc": "AI Canvas where thinking becomes tangible",
+        "desc_zh": "AI Canvas where thinking becomes tangible",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/woomool",
+        "product_link": "https://www.producthunt.com/r/p/1332846?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Onset",
+        "slug": "onset",
+        "desc": "AI reviews, titles and thumbnails for YouTube creators",
+        "desc_zh": "AI reviews, titles and thumbnails for YouTube creators",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/onset",
+        "product_link": "https://www.producthunt.com/r/p/1332445?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Ploid",
+        "slug": "ploid",
+        "desc": "People search for AI agents, across 2B+ profiles",
+        "desc_zh": "People search for AI agents, across 2B+ profiles",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/ploid",
+        "product_link": "https://www.producthunt.com/r/p/1332536?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Form Action Store",
+        "slug": "form-action-store",
+        "desc": "Discover, create and grow with powerful digital tools.",
+        "desc_zh": "Discover, create and grow with powerful digital tools.",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/form-action-store",
+        "product_link": "https://www.producthunt.com/r/p/1332478?app_id=339",
+        "source": "feed"
+      },
+      {
+        "name": "Contral",
+        "slug": "contral",
+        "desc": "The AI coding agent that checks its work and teaches you",
+        "desc_zh": "The AI coding agent that checks its work and teaches you",
+        "image": "",
+        "ph_link": "https://www.producthunt.com/products/contral",
+        "product_link": "https://www.producthunt.com/r/p/1331740?app_id=339",
         "source": "feed"
       }
     ]
